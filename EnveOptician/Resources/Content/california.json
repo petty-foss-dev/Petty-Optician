@@ -219,5 +219,49 @@
       "url": "https://search.dca.ca.gov/"
     }
   ],
-  "lastVerified": "2026-11-04"
+  "lastVerified": "2026-11-04",
+  "career": {
+    "summary": "Dispensing opticians in California earn more than the national average. Federal projections show steady demand, with roughly 5,600 openings a year nationwide.",
+    "stats": [
+      {
+        "label": "California mean wage",
+        "value": "$61,070"
+      },
+      {
+        "label": "California median wage",
+        "value": "$57,990"
+      },
+      {
+        "label": "California jobs",
+        "value": "7,840"
+      },
+      {
+        "label": "U.S. median wage",
+        "value": "$47,260"
+      },
+      {
+        "label": "U.S. outlook 2025–35",
+        "value": "+4%"
+      }
+    ],
+    "asOf": "BLS OEWS May 2025 and Occupational Outlook Handbook (SOC 29-2081)",
+    "links": [
+      {
+        "title": "BLS Occupational Outlook: Opticians, Dispensing",
+        "url": "https://www.bls.gov/ooh/healthcare/opticians-dispensing.htm"
+      },
+      {
+        "title": "Check a California registration (DCA License Search)",
+        "url": "https://search.dca.ca.gov/"
+      },
+      {
+        "title": "Verify ABO-NCLE certification",
+        "url": "https://abo-ncle.org/ABONCLE/ABONCLE/Certification/Searchable-Certification-Database.aspx?hkey=00c35604-bf25-4ff3-8d2f-f778ab48388d"
+      },
+      {
+        "title": "ABO-NCLE official practice exams",
+        "url": "https://www.abo-ncle.org/ABONCLE/ABONCLE/Exams/Take-Practice-Exams.aspx"
+      }
+    ]
+  }
 }

@@ -23,9 +23,12 @@ struct SearchResults {
     var resources: [StudyResource] = []
     var diagrams: [DiagramInfo] = []
     var images: [ImageInfo] = []
+    var terms: [GlossaryTerm] = []
+    var tables: [ReferenceTable] = []
 
     var isEmpty: Bool {
-        topics.isEmpty && sections.isEmpty && questions.isEmpty && flashcards.isEmpty && resources.isEmpty && diagrams.isEmpty && images.isEmpty
+        topics.isEmpty && sections.isEmpty && questions.isEmpty && flashcards.isEmpty && resources.isEmpty
+            && diagrams.isEmpty && images.isEmpty && terms.isEmpty && tables.isEmpty
     }
 }
 
@@ -88,6 +91,12 @@ extension ContentLibrary {
         }
         results.diagrams = diagrams(for: exam).filter { Self.matches($0.title + " " + $0.caption, terms) }
         results.images = images(for: exam).filter { Self.matches($0.title + " " + $0.caption, terms) }
+        results.terms = glossary(for: exam).filter {
+            Self.matches(([$0.term] + ($0.aliases ?? [])).joined(separator: " ") + " " + $0.definition, terms)
+        }
+        results.tables = tables(for: exam).filter {
+            Self.matches($0.title + " " + $0.columns.joined(separator: " ") + " " + $0.rows.joined().joined(separator: " "), terms)
+        }
         return results
     }
 }
@@ -116,6 +125,15 @@ struct SearchResultsView: View {
                             Chip(text: "\(topic.name) · \(topic.count)", symbol: "tag")
                         }
                     }
+                }
+                .buttonStyle(.plain)
+            }
+            group("Glossary", "terms", results.terms, limit: 3) { term in
+                Panel(padding: 14) { GlossaryRow(term: term) }
+            }
+            group("Reference Tables", "tables", results.tables, limit: 3) { table in
+                NavigationLink { ReferenceTableView(table: table) } label: {
+                    LinkRow(title: table.title, subtitle: table.columns.joined(separator: " · "), symbol: "tablecells")
                 }
                 .buttonStyle(.plain)
             }

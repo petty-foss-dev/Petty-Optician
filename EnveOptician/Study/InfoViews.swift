@@ -148,6 +148,27 @@ struct CaliforniaView: View {
                     }
                 }
 
+                if let career = guide.career {
+                    SectionTitle(title: "Career & Verification")
+                    Panel {
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text(career.summary).font(.subheadline)
+                            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], alignment: .leading, spacing: 10) {
+                                ForEach(career.stats, id: \.self) { stat in
+                                    VStack(alignment: .leading, spacing: 2) {
+                                        Text(stat.value).font(.title3.weight(.bold).monospacedDigit()).foregroundStyle(palette.accent)
+                                        Text(stat.label).font(.caption).foregroundStyle(palette.secondaryText)
+                                    }
+                                }
+                            }
+                            if let asOf = career.asOf {
+                                Text(asOf).font(.caption2).foregroundStyle(palette.tertiaryText)
+                            }
+                            SourceList(sources: career.links)
+                        }
+                    }
+                }
+
                 SectionTitle(title: "Registrations")
                 ForEach(guide.credentials) { CredentialCard(credential: $0) }
 

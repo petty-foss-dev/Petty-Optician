@@ -17,6 +17,10 @@ struct SettingsView: View {
                     }
                 }
 
+                Section("Study Plan") {
+                    NavigationLink("Exam dates & reminders") { StudyPlanSettings() }
+                }
+
                 Section("Content") {
                     ForEach(ExamID.allCases) { exam in
                         LabeledContent(exam.shortLabel) {

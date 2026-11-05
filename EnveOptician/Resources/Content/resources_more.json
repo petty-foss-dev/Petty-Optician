@@ -1,0 +1,4240 @@
+[
+  {
+    "id": "res-more-001",
+    "title": "Instructional Video: Assessment of a Gas Permeable Contact Lens",
+    "url": "https://www.youtube.com/watch?v=MroaauXG-tE",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Cybersight",
+    "description": "Short slit-lamp demo of judging a GP lens fit — centration, movement and fluorescein pattern — exactly what NCLE fitting questions describe.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-002",
+    "title": "Analyzing Rigid Contact Lens Staining Patterns",
+    "url": "https://www.youtube.com/watch?v=yvjOyazF2sM",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "The Right Contact",
+    "description": "Walks through reading rigid lens fluorescein patterns (apical clearance, touch, edge lift) so you can recognize steep vs flat fits.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-003",
+    "title": "SOFT CONTACT LENS MATERIALS OVERVIEW",
+    "url": "https://www.youtube.com/watch?v=GxJA1kXG3SA",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "OKO Eyecare",
+    "description": "Quick overview of soft lens material families — hydrogel vs silicone hydrogel, water content and oxygen transmission.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-004",
+    "title": "25 Years of Silicone Hydrogel Soft Contact Lenses",
+    "url": "https://www.youtube.com/watch?v=ei8VvBv8ZlY",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "American Academy of Optometry",
+    "description": "American Academy of Optometry lecture on how silicone hydrogels changed Dk/t, extended wear and complication rates.",
+    "free": true,
+    "minutes": 20
+  },
+  {
+    "id": "res-more-005",
+    "title": "Contact Lenses - Silicone Hydrogel",
+    "url": "https://www.youtube.com/watch?v=saLXwn4i6WQ",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "Intro to Materials Science--Guided Inquiry (UVa)",
+    "description": "Materials-science explanation of why silicone hydrogel lenses pass more oxygen than conventional hydrogels.",
+    "free": true,
+    "minutes": 9
+  },
+  {
+    "id": "res-more-006",
+    "title": "Contact Lenses  Dk vs Dk/t   (permeability vs Transmissability)",
+    "url": "https://www.youtube.com/watch?v=X3_h961JMNw",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "Aarlan Aceto",
+    "description": "Clear lecture separating Dk (material permeability) from Dk/t (lens transmissibility), a frequent NCLE trap.",
+    "free": true,
+    "minutes": 19
+  },
+  {
+    "id": "res-more-007",
+    "title": "Changes to the FTC's Contact Lens Rule (... and how docs can help stop illegal sales)",
+    "url": "https://www.youtube.com/watch?v=w1OFf792WuU",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.regulatory"
+    ],
+    "author": "ODwire.org",
+    "description": "Summarizes the FTC Contact Lens Rule amendments — signed prescription-release acknowledgment and verification rules.",
+    "free": true,
+    "minutes": 3
+  },
+  {
+    "id": "res-more-008",
+    "title": "Can I convert my glasses prescription to a contact lens prescription?",
+    "url": "https://www.youtube.com/watch?v=jPo5NL0PHVM",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.regulatory"
+    ],
+    "author": "BCDoctorsofOptometry",
+    "description": "Explains why a spectacle Rx is not a contact lens Rx, reinforcing the fitting and prescription requirements tested on the NCLE.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-009",
+    "title": "How to Use a Slit Lamp | Explained by an Ophthalmologist",
+    "url": "https://www.youtube.com/watch?v=SQAbhoj82Po",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "Doctor Eyeball MD",
+    "description": "Ophthalmologist tours the slit lamp's controls and illumination techniques used to evaluate the anterior eye and lens fit.",
+    "free": true,
+    "minutes": 17
+  },
+  {
+    "id": "res-more-010",
+    "title": "OT skills guide: Slit lamp routine",
+    "url": "https://www.youtube.com/watch?v=ui5KrLgESGA",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "Optometry Today",
+    "description": "Step-by-step slit lamp routine from Optometry Today showing diffuse, direct and indirect illumination in sequence.",
+    "free": true,
+    "minutes": 8
+  },
+  {
+    "id": "res-more-011",
+    "title": "Slit Lamp examination of the anterior segment of the eye",
+    "url": "https://www.youtube.com/watch?v=Rc3Lt8l9Y-Q",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "bhatti eye",
+    "description": "Detailed slit-lamp exam of lids, conjunctiva, cornea and anterior chamber — the structures checked before and after CL fitting.",
+    "free": true,
+    "minutes": 14
+  },
+  {
+    "id": "res-more-012",
+    "title": "ORT5CLA How To: Keratometry",
+    "url": "https://www.youtube.com/watch?v=ig82EVvfuYo",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "ORT5CLA Keratometry",
+    "description": "Hands-on keratometry demo: focusing the mires, aligning, and reading flat and steep K values.",
+    "free": true,
+    "minutes": 10
+  },
+  {
+    "id": "res-more-013",
+    "title": "Keratometer/Keratometry | Principle |Parts | Calibration | Procedure| Interpretation #OptoFocus",
+    "url": "https://www.youtube.com/watch?v=6NQtUzGzKYE",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "Think Optometry",
+    "description": "Covers keratometer principle, parts, calibration and how to record and interpret K readings and corneal astigmatism.",
+    "free": true,
+    "minutes": 9
+  },
+  {
+    "id": "res-more-014",
+    "title": "How to use manual Keratometer",
+    "url": "https://www.youtube.com/watch?v=fsGuHGWr3qk",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "SankaraAcademyofVision",
+    "description": "Procedural walkthrough of a manual (Bausch & Lomb style) keratometer, including mire doubling and axis reading.",
+    "free": true,
+    "minutes": 9
+  },
+  {
+    "id": "res-more-015",
+    "title": "Contact Lenses For Beginners: How To Insert And Remove Soft Contacts",
+    "url": "https://www.youtube.com/watch?v=hfEnMN0vGFg",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Dr. EyeGuy",
+    "description": "Patient-teaching style demo of soft lens insertion and removal technique, inside-out checks and hygiene.",
+    "free": true,
+    "minutes": 8
+  },
+  {
+    "id": "res-more-016",
+    "title": "How To Insert, Remove, and Care For Your Soft Contact Lenses",
+    "url": "https://www.youtube.com/watch?v=eoHWhkbwDc8",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Insight Vision Optometry",
+    "description": "Compact I&R plus care routine you can model when training new soft lens wearers.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-017",
+    "title": "Scleral Lens Society Insertion, Removal, Troubleshooting and Lens Care Video",
+    "url": "https://www.youtube.com/watch?v=h0dl2P6qyZU",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Scleral Lens Education Society",
+    "description": "Scleral Lens Education Society video on scleral insertion with plunger, removal, troubleshooting bubbles and care.",
+    "free": true,
+    "minutes": 10
+  },
+  {
+    "id": "res-more-018",
+    "title": "Pantoscopic Tilt Measurement for Progressive Lenses",
+    "url": "https://www.youtube.com/watch?v=G_uMiW6YdFc",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Chanel From A Past Life",
+    "description": "Shows how pantoscopic tilt is measured and why it matters for progressive lens fitting heights.",
+    "free": true,
+    "minutes": 3
+  },
+  {
+    "id": "res-more-019",
+    "title": "How to adjust panoscopic tilt on spectacle lens. Part 1",
+    "url": "https://www.youtube.com/watch?v=6ujk8ArBuKA",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Vision Health",
+    "description": "Hands-on demonstration of bending temples to adjust pantoscopic tilt on a finished pair of glasses.",
+    "free": true,
+    "minutes": 2
+  },
+  {
+    "id": "res-more-020",
+    "title": "Best 2 Ways To Clean Soft Contacts And Lens Case - For Beginners",
+    "url": "https://www.youtube.com/watch?v=FdNb3fCcGRs",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Dr. EyeGuy",
+    "description": "Compares rub-and-rinse multipurpose solution with hydrogen peroxide disinfection and proper case care.",
+    "free": true,
+    "minutes": 10
+  },
+  {
+    "id": "res-more-021",
+    "title": "Why peroxide is still a good choice for lens care",
+    "url": "https://www.youtube.com/watch?v=IxTEk2kWRMg",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Optometry Times",
+    "description": "Brief clinician take on why peroxide systems remain a strong disinfection choice and how neutralization works.",
+    "free": true,
+    "minutes": 2
+  },
+  {
+    "id": "res-more-022",
+    "title": "How to use CLEAR CARE",
+    "url": "https://www.youtube.com/watch?v=CDP1eEcEmsA",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "CLEAR CARE®",
+    "description": "Manufacturer demo of a one-step hydrogen peroxide system — useful for teaching patients never to rinse with peroxide.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-023",
+    "title": "Vertical Prism Neutralization of a Single Vision Lens",
+    "url": "https://www.youtube.com/watch?v=rTpdI4SnbKY",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ],
+    "author": "Joseph Gardenhire",
+    "description": "Demonstrates measuring vertical prism in a single vision lens on the lensometer and identifying base direction.",
+    "free": true,
+    "minutes": 3
+  },
+  {
+    "id": "res-more-024",
+    "title": "Prism base direction in the lensometer 2",
+    "url": "https://www.youtube.com/watch?v=Z-lZDo7ctfc",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ],
+    "author": "Tracy Elise",
+    "description": "Classroom lecture on determining prism base direction from the lensometer target in each eye.",
+    "free": true,
+    "minutes": 18
+  },
+  {
+    "id": "res-more-025",
+    "title": "How To Use The Lensmeter - Vertical Imbalance Or Prism?",
+    "url": "https://www.youtube.com/watch?v=x5TekSxNaJs",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "Laramy-K shows how to tell prescribed vertical prism from unwanted vertical imbalance on the lensmeter.",
+    "free": true,
+    "minutes": 9
+  },
+  {
+    "id": "res-more-026",
+    "title": "Progressive addition lens MARKINGS | Temporary and permanent markings |Location| uses",
+    "url": "https://www.youtube.com/watch?v=mpysB54pJd0",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Let's learn optometry",
+    "description": "Explains temporary (ink) and permanent (engraved) progressive lens markings and what each is used for.",
+    "free": true,
+    "minutes": 8
+  },
+  {
+    "id": "res-more-027",
+    "title": "Progressive lens marking and verification",
+    "url": "https://www.youtube.com/watch?v=LJyxngXRDlM",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Laxmi College",
+    "description": "Shows re-marking a progressive from its engravings and verifying distance, prism reference point and add.",
+    "free": true,
+    "minutes": 5
+  },
+  {
+    "id": "res-more-028",
+    "title": "progressive lens marking",
+    "url": "https://www.youtube.com/watch?v=_8k89RSq5nA",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "OPTICAL basis  1.3M views",
+    "description": "Practical demo of re-inking a PAL using the hidden circles and a manufacturer centration chart.",
+    "free": true,
+    "minutes": 8
+  },
+  {
+    "id": "res-more-029",
+    "title": "ANSI Application POWER CT BC (Lecture 3 from 2/14/23)",
+    "url": "https://www.youtube.com/watch?v=mxHPN1Uk97o",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.laws"
+    ],
+    "author": "Tracy Elise",
+    "description": "Optician-school lecture applying ANSI Z80.1 tolerances for power, cylinder, center thickness and base curve.",
+    "free": true,
+    "minutes": 34
+  },
+  {
+    "id": "res-more-030",
+    "title": "Horizontal Prism & ANSI",
+    "url": "https://www.youtube.com/watch?v=ef1Oz9WuWEs",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.laws"
+    ],
+    "author": "Tracy Elise",
+    "description": "Lecture on horizontal prism verification and the ANSI tolerance limits for unwanted prism.",
+    "free": true,
+    "minutes": 16
+  },
+  {
+    "id": "res-more-031",
+    "title": "Eyeglasses Final Inspection and Verification per ANSI Standard",
+    "url": "https://www.youtube.com/watch?v=KrCXDpxfhcs",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.laws"
+    ],
+    "author": "WATTSWERKS",
+    "description": "Short walkthrough of final inspection of finished eyewear against ANSI standards before dispensing.",
+    "free": true,
+    "minutes": 3
+  },
+  {
+    "id": "res-more-032",
+    "title": "Lens Surfacing explained part 1!",
+    "url": "https://www.youtube.com/watch?v=RTn6HF6ZmdM",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "MH Optical Labs",
+    "description": "Independent lab explains surfacing — generating curves, fining and polishing — and when a lens must be surfaced.",
+    "free": true,
+    "minutes": 7
+  },
+  {
+    "id": "res-more-033",
+    "title": "HOW EYEGLASS LENSES ARE MADE (lab walk through)",
+    "url": "https://www.youtube.com/watch?v=JA4bzoheDK0",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "MH Optical Labs",
+    "description": "Full optical lab walkthrough from job entry through surfacing, coating, edging and final inspection.",
+    "free": true,
+    "minutes": 9
+  },
+  {
+    "id": "res-more-034",
+    "title": "How To Edge and Finish Lenses In Office - An Introduction",
+    "url": "https://www.youtube.com/watch?v=q7rJTfKBmlo",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "Introduction to in-office edging and finishing — tracing, blocking, edging and safety beveling.",
+    "free": true,
+    "minutes": 13
+  },
+  {
+    "id": "res-more-035",
+    "title": "BEST LOW VISION DEVICES:  magnifiers, aids, devices for vision impairment from youtube eye doctor",
+    "url": "https://www.youtube.com/watch?v=YsfN6MNAT6k",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "EYE CARE MADE simple:  Good Optometry Morning",
+    "description": "Optometrist surveys low vision devices — hand and stand magnifiers, telescopes, high-add readers and electronic aids.",
+    "free": true,
+    "minutes": 20
+  },
+  {
+    "id": "res-more-036",
+    "title": "Low Vision Devices: Providing Functional Vision for Patients",
+    "url": "https://www.youtube.com/watch?v=qgfBRGncUfc",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "Cybersight",
+    "description": "Cybersight webinar on prescribing and teaching optical low vision devices to patients.",
+    "free": true,
+    "minutes": 69
+  },
+  {
+    "id": "res-more-037",
+    "title": "Are Digital or Optical Magnifiers Better for Low Vision?",
+    "url": "https://www.youtube.com/watch?v=NRRPFc_dyhE",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "Chadwick Optical",
+    "description": "Compares digital video magnifiers with optical magnifiers and who benefits from each.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-038",
+    "title": "Contact Lenses - SCL Assessment of fit & Removal",
+    "url": "https://www.youtube.com/watch?v=mQ6m4Q2b_P4",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GCUwiki2013",
+    "description": "Glasgow Caledonian clinical demo of assessing soft lens centration, coverage, movement and push-up, then removal.",
+    "free": true,
+    "minutes": 2
+  },
+  {
+    "id": "res-more-039",
+    "title": "Contact Lenses - SCL insertion & Over refraction",
+    "url": "https://www.youtube.com/watch?v=ZsKhShJriyo",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GCUwiki2013",
+    "description": "Clinical demo of soft lens insertion followed by over-refraction to finalize lens power.",
+    "free": true,
+    "minutes": 2
+  },
+  {
+    "id": "res-more-040",
+    "title": "Instructional Video: Assessment of an Orthokeratology Lens",
+    "url": "https://www.youtube.com/watch?v=qTpasgwb0lY",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Cybersight",
+    "description": "Short demo of evaluating an orthokeratology lens fit and its fluorescein pattern.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-041",
+    "title": "Giant Papillary Conjunctivitis | THIS could end your contact lens wearing days!!!",
+    "url": "https://www.youtube.com/watch?v=7YtBtQa9fcQ",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "Dr. Jennifer Wan",
+    "description": "Explains giant papillary conjunctivitis, how it relates to deposits and wearing schedule, and management options.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-042",
+    "title": "Contact Lenses Did THIS?! - What is GIANT Papillary Conjunctivitis (GPC)",
+    "url": "https://www.youtube.com/watch?v=OZ54j3m1uZ0",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "Doctor Eye Health",
+    "description": "Patient-friendly breakdown of GPC symptoms, lid eversion findings and lens-replacement fixes.",
+    "free": true,
+    "minutes": 7
+  },
+  {
+    "id": "res-more-043",
+    "title": "Grand Rounds with Eye Care Experts: Giant Papillary Conjunctivitis and Contact Lenses",
+    "url": "https://www.youtube.com/watch?v=pvQqY7JGXlY",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "Defocus Media Podcast Network",
+    "description": "Clinician grand-rounds discussion of contact-lens-associated GPC diagnosis and management.",
+    "free": true,
+    "minutes": 44
+  },
+  {
+    "id": "res-more-044",
+    "title": "Contact lens related keratitis  -Dr. Deepinder Dhaliwal",
+    "url": "https://www.youtube.com/watch?v=aKgSjZlPQpY",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "One AIOS",
+    "description": "Cornea specialist lecture on contact lens–related microbial keratitis, risk factors and red flags.",
+    "free": true,
+    "minutes": 23
+  },
+  {
+    "id": "res-more-045",
+    "title": "Acute red eye in contact lens users: Clinical pearls for frontline clinicians by Dr Ali R. Djalilian",
+    "url": "https://www.youtube.com/watch?v=qbC7M92ymgU",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "Djalilian Lab",
+    "description": "Concise clinical pearls for triaging the acute red eye in a contact lens wearer.",
+    "free": true,
+    "minutes": 3
+  },
+  {
+    "id": "res-more-046",
+    "title": "Evaluation of Soft Toric Contact Lens Rotation using LARS Rule",
+    "url": "https://www.youtube.com/watch?v=7rP2crNsOm8",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "EyeCare",
+    "description": "Demonstrates measuring soft toric rotation at the slit lamp and compensating with the LARS rule.",
+    "free": true,
+    "minutes": 7
+  },
+  {
+    "id": "res-more-047",
+    "title": "LARS",
+    "url": "https://www.youtube.com/watch?v=cx--zCsp9OQ",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Aarlan Aceto",
+    "description": "Classroom lecture working through LARS (left add, right subtract) toric axis compensation problems.",
+    "free": true,
+    "minutes": 16
+  },
+  {
+    "id": "res-more-048",
+    "title": "Valley Contax Over-Refraction Training Video",
+    "url": "https://www.youtube.com/watch?v=cJMiz_f_-EI",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Valley Contax",
+    "description": "Manufacturer training clip on performing an over-refraction with diagnostic lenses in place.",
+    "free": true,
+    "minutes": 3
+  },
+  {
+    "id": "res-more-049",
+    "title": "Vertex Distance",
+    "url": "https://www.youtube.com/watch?v=w-XgXADoBeU",
+    "kind": "video",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "EyeLoveLearning",
+    "description": "Lesson on vertex distance and effective power, including converting spectacle to contact lens power.",
+    "free": true,
+    "minutes": 13
+  },
+  {
+    "id": "res-more-050",
+    "title": "How to Fit Sclerals 07/13/20",
+    "url": "https://www.youtube.com/watch?v=zznWcvfD7vQ",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Scleral Lens Education Society",
+    "description": "Hour-long Scleral Lens Education Society webinar on scleral lens fitting from diagnostic set to final order.",
+    "free": true,
+    "minutes": 66
+  },
+  {
+    "id": "res-more-051",
+    "title": "Scleral Lens Fitting: Compression and Impingement",
+    "url": "https://www.youtube.com/watch?v=mjKYVOsQ-2M",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Woo University",
+    "description": "Explains scleral landing-zone compression and impingement and how to spot them.",
+    "free": true,
+    "minutes": 5
+  },
+  {
+    "id": "res-more-052",
+    "title": "Orthokeratology Explained By An Eye Doctor",
+    "url": "https://www.youtube.com/watch?v=RyeCaw19OnQ",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Woo University",
+    "description": "Plain-language explanation of how overnight ortho-k lenses reshape the cornea.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-053",
+    "title": "How Orthokeratology Works",
+    "url": "https://www.youtube.com/watch?v=Iptpn018d2E",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Robert Gerowitz",
+    "description": "Animated explanation of orthokeratology reverse-geometry lens design and corneal reshaping.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-054",
+    "title": "Dominant Eye Test - How To Determine Eye Dominance | Contacts with Conway",
+    "url": "https://www.youtube.com/watch?v=-qtvVQCCbr0",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "Contamac Ltd",
+    "description": "Demonstrates sighting-dominance tests used to choose the distance eye for monovision fits.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-055",
+    "title": "How to get the best from Monovision",
+    "url": "https://www.youtube.com/watch?v=TZYQK-hPWvY",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "wellingtoneyeclinic",
+    "description": "Covers monovision principles, adaptation and patient selection for presbyopic correction.",
+    "free": true,
+    "minutes": 5
+  },
+  {
+    "id": "res-more-056",
+    "title": "Technique: Bandage Contact Lens insertion and removal narrated multiple POVs",
+    "url": "https://www.youtube.com/watch?v=gcOjAFzLiiU",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Arizona College of Optometry",
+    "description": "Arizona College of Optometry technique video for inserting and removing a bandage contact lens.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-057",
+    "title": "What Is A Bandage Contact Lens?",
+    "url": "https://www.youtube.com/watch?v=2VnNvqnuqlY",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "Dr. EyeGuy",
+    "description": "Explains therapeutic bandage contact lenses — when they are used and how they protect the cornea.",
+    "free": true,
+    "minutes": 6
+  },
+  {
+    "id": "res-more-058",
+    "title": "Acetate Frames & How They Differ From Zyl | Is Zyl the same as acetate? Acetate or Plastic?",
+    "url": "https://www.youtube.com/watch?v=aYy5TsshfEc",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "Eye School with Dr. D",
+    "description": "Clarifies zyl vs acetate vs injected plastic frame materials and how each behaves during adjustment.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-059",
+    "title": "Should you Choose Metal or Plastic Frames? Feat. Chloe & Jimmy Choo Eyewear",
+    "url": "https://www.youtube.com/watch?v=dY9WtlaJTes",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "The Spectacle Factory",
+    "description": "Compares metal and plastic frame construction, durability, adjustability and fit considerations.",
+    "free": true,
+    "minutes": 8
+  },
+  {
+    "id": "res-more-060",
+    "title": "Glasses Frames and Lenses - How to use a PD ruler",
+    "url": "https://www.youtube.com/watch?v=qk3YzucfVl4",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Tina Mason",
+    "description": "Shows the traditional PD-ruler technique for measuring distance and near pupillary distance.",
+    "free": true,
+    "minutes": 5
+  },
+  {
+    "id": "res-more-061",
+    "title": "PUPILOMETER  INSTRUCTIONAL VIDEO",
+    "url": "https://www.youtube.com/watch?v=-3-i2AmRDi0",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ],
+    "author": "Dynamic Labs",
+    "description": "Short demonstration of measuring monocular PDs with a corneal-reflex pupillometer.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-062",
+    "title": "Measuring For A Lined Bifocal: What We Are After",
+    "url": "https://www.youtube.com/watch?v=cEzu0zYPzWs",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "Laramy-K explains where a lined bifocal segment top should sit relative to the lower lid.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-063",
+    "title": "Measuring For A Lined Bifocal: Preparing to Measure The Bifocal Seg Height",
+    "url": "https://www.youtube.com/watch?v=N0Wvd-cZACE",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "Laramy-K on adjusting the frame and positioning the patient before measuring bifocal seg height.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-064",
+    "title": "Segment Height for Lined Flat Top Bifocal Lenses",
+    "url": "https://www.youtube.com/watch?v=z5DuqW_XZWw",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Rx Safety Videos",
+    "description": "Short demo measuring segment height for flat-top bifocals from the lower lid margin.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-065",
+    "title": "Measuring the Segment Height for Progressive No Line Bifocals || Rx-Safety",
+    "url": "https://www.youtube.com/watch?v=ps37zz20LnU",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "Rx Safety Videos",
+    "description": "Short demo of measuring progressive fitting height to pupil center.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-066",
+    "title": "EVERY Lens Coating Option - Explored & Explained | Anti-Reflective | Flash Coating | Mirror Coating",
+    "url": "https://www.youtube.com/watch?v=vsh2lHZmPbk",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "The Spectacle Factory",
+    "description": "Tour of lens coating options — anti-reflective, hard coat, mirror and flash coatings — and their trade-offs.",
+    "free": true,
+    "minutes": 11
+  },
+  {
+    "id": "res-more-067",
+    "title": "Photochromic Polarised Lenses Explained: What Actually Exists & Who They're For",
+    "url": "https://www.youtube.com/watch?v=4vX3H1pg93I",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "The Optical Gallery",
+    "description": "Explains photochromic, polarized and combined lenses and which patients each suits.",
+    "free": true,
+    "minutes": 8
+  },
+  {
+    "id": "res-more-068",
+    "title": "The Normal Tear Film",
+    "url": "https://www.youtube.com/watch?v=Kd3jvJNjsgA",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy"
+    ],
+    "author": "TerryEyeInstitute",
+    "description": "Explains the layers and functions of the normal tear film relevant to contact lens comfort.",
+    "free": true,
+    "minutes": 5
+  },
+  {
+    "id": "res-more-069",
+    "title": "Anatomy - Eye Overview",
+    "url": "https://www.youtube.com/watch?v=4kpXKu5QKww",
+    "kind": "video",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ],
+    "author": "Armando Hasudungan",
+    "description": "Illustrated overview of ocular anatomy — cornea, uvea, lens, retina and optic nerve.",
+    "free": true,
+    "minutes": 11
+  },
+  {
+    "id": "res-more-070",
+    "title": "The structure of the eye | Processing the Environment | MCAT | Khan Academy",
+    "url": "https://www.youtube.com/watch?v=cTZl2qnzifc",
+    "kind": "video",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ],
+    "author": "khanacademymedicine",
+    "description": "Khan Academy tour of eye structure and the path of light to the retina.",
+    "free": true,
+    "minutes": 10
+  },
+  {
+    "id": "res-more-071",
+    "title": "OT skills guide: Putting the trial frame on the patient",
+    "url": "https://www.youtube.com/watch?v=KlHIFSV09VU",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.refraction"
+    ],
+    "author": "Optometry Today",
+    "description": "Optometry Today skills guide on fitting and aligning a trial frame on the patient.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-072",
+    "title": "Contact Lens Compliance",
+    "url": "https://www.youtube.com/watch?v=X3Tplhwop9c",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Schaeffer Eye Center",
+    "description": "Practice video on contact lens compliance — replacement schedules, case care and sleeping in lenses.",
+    "free": true,
+    "minutes": 5
+  },
+  {
+    "id": "res-more-073",
+    "title": "Contact Lens Complications in the Primary Care Setting: A Lens-by-Lens Approach",
+    "url": "https://www.youtube.com/watch?v=oof_Bf7igq0",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "Woo University",
+    "description": "Lecture reviewing contact lens complications lens type by lens type and when to refer.",
+    "free": true,
+    "minutes": 61
+  },
+  {
+    "id": "res-more-074",
+    "title": "RGP Lens Insertion and Removal by EyeSpace Lenses",
+    "url": "https://www.youtube.com/watch?v=6oNZ7DrSXB8",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "EyeSpace Lenses",
+    "description": "Manufacturer demo of RGP insertion and removal techniques including the lid-pull method.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-075",
+    "title": "Radiuscope",
+    "url": "https://www.youtube.com/watch?v=Ezqi2CRRKB8",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "Eyetech",
+    "description": "Shows how a radiuscope verifies rigid lens base curve radius.",
+    "free": true,
+    "minutes": 10
+  },
+  {
+    "id": "res-more-076",
+    "title": "Lens Clock Measurer",
+    "url": "https://www.youtube.com/watch?v=bkQaMw3dvL0",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ],
+    "author": "Goodwin University Online Studies",
+    "description": "Demonstrates using a lens clock (Geneva lens measure) to read surface curvature.",
+    "free": true,
+    "minutes": 1
+  },
+  {
+    "id": "res-more-077",
+    "title": "The numbers on your contact lens (what do they mean) | Lens Parameters",
+    "url": "https://www.youtube.com/watch?v=zj2R0BQo8Zs",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "Antonio the Optometrist",
+    "description": "Decodes the base curve, diameter and power numbers on contact lens boxes and prescriptions.",
+    "free": true,
+    "minutes": 4
+  },
+  {
+    "id": "res-more-078",
+    "title": "Contact Lens Options for Keratoconus with Dr. Stephanie Woo, OD",
+    "url": "https://www.youtube.com/watch?v=yWytq3BFQBg",
+    "kind": "video",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "NKCF at UCI Gavin Herbert Eye Institute",
+    "description": "UCI Gavin Herbert Eye Institute talk on keratoconus lens options — RGP, hybrid, piggyback and scleral.",
+    "free": true,
+    "minutes": 60
+  },
+  {
+    "id": "res-more-079",
+    "title": "FTC Eyeglass Ruling now In Effect!",
+    "url": "https://www.youtube.com/watch?v=-D3XUjoLTD4",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.laws"
+    ],
+    "author": "StrategEYES Llc",
+    "description": "Brief update on the 2024 FTC Eyeglass Rule amendments requiring signed prescription-release confirmation.",
+    "free": true,
+    "minutes": 3
+  },
+  {
+    "id": "res-more-080",
+    "title": "Optometrist explains: How to read your glasses prescription",
+    "url": "https://www.youtube.com/watch?v=ERcVEWXHLQw",
+    "kind": "video",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "Antonio the Optometrist",
+    "description": "Optometrist decodes every field of an eyeglass prescription — sphere, cylinder, axis, add and prism.",
+    "free": true,
+    "minutes": 10
+  },
+  {
+    "id": "res-more-081",
+    "title": "Optometry / Optician Laws and Regulations Book (2024)",
+    "url": "https://www.optometry.ca.gov/lawsregs/optometry_law_book_2024.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "The full California statute and regulation text governing RDOs, spectacle lens dispensers and contact lens dispensers in one PDF.",
+    "free": true
+  },
+  {
+    "id": "res-more-082",
+    "title": "Occupational Analysis of the Contact Lens Dispenser Profession (July 2019)",
+    "url": "https://www.optometry.ca.gov/formspubs/occup_analysis_cld_2019_07.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.fitting",
+      "ncle.dispensing",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "California's job-task analysis for registered contact lens dispensers — shows which tasks and knowledge areas the state considers essential.",
+    "free": true
+  },
+  {
+    "id": "res-more-083",
+    "title": "Occupational Analysis of the Spectacle Lens Dispenser Profession (January 2020)",
+    "url": "https://www.optometry.ca.gov/formspubs/occup_analysis_sld_2020_1.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products",
+      "abo.dispensing",
+      "abo.laws"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "California's job-task analysis for registered spectacle lens dispensers, mapping the tasks and knowledge the ABO exam supports.",
+    "free": true
+  },
+  {
+    "id": "res-more-084",
+    "title": "Occupational Analysis of the Optometric Assistant Occupation and Opticianry Scope (April 2023)",
+    "url": "https://www.optometry.ca.gov/formspubs/occup_analysts_sops_2023_4.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "Board study of what California opticians and optometric assistants actually do, useful context for scope-of-practice questions.",
+    "free": true
+  },
+  {
+    "id": "res-more-085",
+    "title": "Optician Program Student Brochure",
+    "url": "https://www.optometry.ca.gov/optician/optician_program_student_brochure.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "Explains California's RDO, SLD and CLD registrations, ABO/NCLE requirements and how to apply through BreEZe.",
+    "free": true
+  },
+  {
+    "id": "res-more-086",
+    "title": "ABO-NCLE — California State Board of Optometry",
+    "url": "https://www.optometry.ca.gov/optician/abo_ncle.html",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "The Board's page on how passing ABO and NCLE exams qualifies you for California SLD and CLD registration.",
+    "free": true
+  },
+  {
+    "id": "res-more-087",
+    "title": "Dispensing Optician Committee",
+    "url": "https://www.optometry.ca.gov/optician/dispensing_optician_committee.html",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "Background on the committee that advises the Board on optician registration standards and regulations in California.",
+    "free": true
+  },
+  {
+    "id": "res-more-088",
+    "title": "The Spectacle — Summer 2026 Newsletter",
+    "url": "https://www.optometry.ca.gov/formspubs/spectacle_su_2026.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "The Board's latest newsletter with current California licensing, enforcement and regulatory updates for opticians.",
+    "free": true
+  },
+  {
+    "id": "res-more-089",
+    "title": "The Eyeglass Rule: A Guide for Prescribers and Sellers",
+    "url": "https://www.optometry.ca.gov/formspubs/eyeglass_rule_guide.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.laws"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "Board-hosted copy of the federal Eyeglass Rule guide covering automatic prescription release and confirmation.",
+    "free": true
+  },
+  {
+    "id": "res-more-090",
+    "title": "Consumer Notice – Prescription Release",
+    "url": "https://www.optometry.ca.gov/formspubs/consumer-notice.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "California's consumer notice on patients' right to their spectacle and contact lens prescriptions.",
+    "free": true
+  },
+  {
+    "id": "res-more-091",
+    "title": "RDO Consumer Notice",
+    "url": "https://www.optometry.ca.gov/formspubs/rdo_notice.html",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.laws"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "The consumer notice California registered dispensing optician businesses must post, and what it requires.",
+    "free": true
+  },
+  {
+    "id": "res-more-092",
+    "title": "Forms and Publications",
+    "url": "https://www.optometry.ca.gov/formspubs/index.shtml",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "Index of every Board form, newsletter, occupational analysis and consumer publication for California opticians.",
+    "free": true
+  },
+  {
+    "id": "res-more-093",
+    "title": "Approved Regulatory Activity",
+    "url": "https://www.optometry.ca.gov/lawsregs/approvedreg.html",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "Tracks recently approved California optometry and optician regulation changes.",
+    "free": true
+  },
+  {
+    "id": "res-more-094",
+    "title": "Business and Professions Code §§ 2550–2559 (Registered Dispensing Opticians)",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=2.&title=&part=&chapter=5.5.&article=1.",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California Legislative Information",
+    "description": "Official text of the California statutes defining registered dispensing opticians and what they may do.",
+    "free": true
+  },
+  {
+    "id": "res-more-095",
+    "title": "Business and Professions Code §§ 2560–2564.6 (Spectacle and Contact Lens Dispensers)",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=2.&title=&part=&chapter=5.5.&article=2.",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California Legislative Information",
+    "description": "Official text of the California statutes on registration of spectacle lens and contact lens dispensers.",
+    "free": true
+  },
+  {
+    "id": "res-more-096",
+    "title": "Title 16, California Code of Regulations §§ 1399.200–1399.285",
+    "url": "https://govt.westlaw.com/calregs/Browse/Home/California/CaliforniaCodeofRegulations?guid=IEEBEB3104C8111EC89E5000D3A7C4BC3&originationContext=documenttoc&transitionType=Default&contextData=(sc.Default)&bhcp=1",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "Thomson Reuters Westlaw (official CCR)",
+    "description": "The California regulations implementing the dispensing optician program, linked from the Board's laws page.",
+    "free": true
+  },
+  {
+    "id": "res-more-097",
+    "title": "DCA License Search",
+    "url": "https://search.dca.ca.gov/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "California Department of Consumer Affairs",
+    "description": "Verify any California RDO, SLD or CLD registration status — the same lookup employers and patients use.",
+    "free": true
+  },
+  {
+    "id": "res-more-098",
+    "title": "FAQs: Complying with the Contact Lens Rule",
+    "url": "https://www.ftc.gov/business-guidance/resources/faqs-complying-contact-lens-rule",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.regulatory"
+    ],
+    "author": "Federal Trade Commission",
+    "description": "FTC answers on prescription release, the eight-business-hour verification window and expiration — core NCLE regulatory material.",
+    "free": true
+  },
+  {
+    "id": "res-more-099",
+    "title": "Types of Contact Lenses",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.regulatory"
+    ],
+    "author": "U.S. Food and Drug Administration",
+    "description": "FDA's classification of soft, RGP, extended-wear, decorative and ortho-k lenses as regulated medical devices.",
+    "free": true
+  },
+  {
+    "id": "res-more-100",
+    "title": "Contact Lens Risks",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup",
+      "ncle.dispensing"
+    ],
+    "author": "U.S. Food and Drug Administration",
+    "description": "FDA summary of contact lens infection risks and warning signs patients must be taught to report.",
+    "free": true
+  },
+  {
+    "id": "res-more-101",
+    "title": "About Contact Lens Types",
+    "url": "https://www.cdc.gov/contact-lenses/about/about-contact-lens-types.html",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.dispensing"
+    ],
+    "author": "Centers for Disease Control and Prevention",
+    "description": "CDC breakdown of lens types and the specific care steps each requires.",
+    "free": true
+  },
+  {
+    "id": "res-more-102",
+    "title": "About Cleaning, Disinfecting, and Storing Contact Lenses",
+    "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Centers for Disease Control and Prevention",
+    "description": "CDC's evidence-based lens and case care rules — rub and rinse, no topping off, case replacement.",
+    "free": true
+  },
+  {
+    "id": "res-more-103",
+    "title": "Preventing Eye Infections When Wearing Contacts",
+    "url": "https://www.cdc.gov/contact-lenses/prevention/index.html",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing",
+      "ncle.followup"
+    ],
+    "author": "Centers for Disease Control and Prevention",
+    "description": "CDC prevention guidance you can turn directly into patient wear-and-care instructions.",
+    "free": true
+  },
+  {
+    "id": "res-more-104",
+    "title": "Healthy Habits: Keeping Water Away from Contact Lenses",
+    "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing",
+      "ncle.followup"
+    ],
+    "author": "Centers for Disease Control and Prevention",
+    "description": "Explains the Acanthamoeba risk of tap water, swimming and showering in lenses.",
+    "free": true
+  },
+  {
+    "id": "res-more-105",
+    "title": "Contact Lenses: Principles, Uses and Related Complications",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK580554/",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.fitting",
+      "ncle.followup"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Peer-reviewed overview of lens materials, indications, fitting principles and complications in one article.",
+    "free": true
+  },
+  {
+    "id": "res-more-106",
+    "title": "Keratoconus",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK470435/",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy",
+      "ncle.fitting"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Covers keratoconus signs, topography and why RGP and scleral lenses are the mainstay of visual rehabilitation.",
+    "free": true
+  },
+  {
+    "id": "res-more-107",
+    "title": "Contact Lenses for Presbyopia",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK585045",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Compares monovision, simultaneous-vision and translating multifocal lens designs and patient selection.",
+    "free": true
+  },
+  {
+    "id": "res-more-108",
+    "title": "Astigmatism",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK582142/",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Explains regular, irregular, with- and against-the-rule astigmatism and spectacle vs contact lens correction.",
+    "free": true
+  },
+  {
+    "id": "res-more-109",
+    "title": "Presbyopia",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK560568/",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Accommodation loss with age and the optical options — readers, multifocals and contact lens strategies.",
+    "free": true
+  },
+  {
+    "id": "res-more-110",
+    "title": "Hyperopia",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK560716/",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Latent vs manifest hyperopia, accommodation and correction with plus lenses and contacts.",
+    "free": true
+  },
+  {
+    "id": "res-more-111",
+    "title": "Myopia",
+    "url": "https://www.ncbi.nlm.nih.gov/books/n/statpearls/article-142919/",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Myopia causes, progression and optical correction including contact lens and ortho-k myopia control.",
+    "free": true
+  },
+  {
+    "id": "res-more-112",
+    "title": "Aniseikonia",
+    "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK585108/",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Why unequal image size occurs with anisometropic spectacles and why contact lenses minimize it.",
+    "free": true
+  },
+  {
+    "id": "res-more-113",
+    "title": "Corneal Topography",
+    "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK585055/",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "How topographers map corneal curvature and how maps guide specialty lens fitting.",
+    "free": true
+  },
+  {
+    "id": "res-more-114",
+    "title": "Anatomy, Head and Neck, Eye Cornea",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK470340/",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Layer-by-layer corneal anatomy, innervation and oxygen supply — foundational for contact lens physiology.",
+    "free": true
+  },
+  {
+    "id": "res-more-115",
+    "title": "Anatomy, Head and Neck, Eye Conjunctiva",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK519502/",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Conjunctival anatomy and function, including the palpebral surface involved in GPC.",
+    "free": true
+  },
+  {
+    "id": "res-more-116",
+    "title": "Anatomy, Head and Neck: Eyelid",
+    "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482304/",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Lid anatomy and the meibomian glands that drive tear-film stability and lens comfort.",
+    "free": true
+  },
+  {
+    "id": "res-more-117",
+    "title": "Dry Eye Syndrome",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK470411/",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy",
+      "ncle.prefitting"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Aqueous-deficient vs evaporative dry eye and how tear assessment affects contact lens candidacy.",
+    "free": true
+  },
+  {
+    "id": "res-more-118",
+    "title": "Cataract",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK539699/",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Cataract types, symptoms and surgery — background for post-op and aphakic dispensing questions.",
+    "free": true
+  },
+  {
+    "id": "res-more-119",
+    "title": "Corneal Ulcer",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK539689/",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Infectious corneal ulcers, contact lens risk factors and why prompt referral is essential.",
+    "free": true
+  },
+  {
+    "id": "res-more-120",
+    "title": "Blepharitis",
+    "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK459305/",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy",
+      "ncle.prefitting"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Lid-margin disease that commonly complicates contact lens wear and must be noted at the prefit.",
+    "free": true
+  },
+  {
+    "id": "res-more-121",
+    "title": "Physiology, Eye",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK470322/",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "StatPearls (NCBI Bookshelf)",
+    "description": "Physiology of aqueous flow, accommodation, pupil response and vision — supports the ABO anatomy section.",
+    "free": true
+  },
+  {
+    "id": "res-more-122",
+    "title": "Gross Anatomy of the Eye",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK11534/",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ],
+    "author": "Webvision (NCBI Bookshelf)",
+    "description": "Concise illustrated tour of the globe's layers and optical structures.",
+    "free": true
+  },
+  {
+    "id": "res-more-123",
+    "title": "Lensometry",
+    "url": "https://eyewiki.org/Lensometry",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Manual and automated lensometry technique, including measuring prism, adds and progressives.",
+    "free": true
+  },
+  {
+    "id": "res-more-124",
+    "title": "Retinoscopy",
+    "url": "https://eyewiki.org/Retinoscopy",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.refraction"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "With/against motion and neutralization explained — background for refraction terminology on the NCLE.",
+    "free": true
+  },
+  {
+    "id": "res-more-125",
+    "title": "Cross-Cylinder Technique for Subjective Refraction",
+    "url": "https://eyewiki.org/Cross-Cylinder_Technique_for_Subjective_Refraction",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.refraction"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "How the Jackson cross cylinder refines cylinder axis and power during refraction.",
+    "free": true
+  },
+  {
+    "id": "res-more-126",
+    "title": "Slit Lamp Examination",
+    "url": "https://eyewiki.org/Slit_Lamp_Examination",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Illumination techniques — diffuse, direct, retro, sclerotic scatter — and what each reveals.",
+    "free": true
+  },
+  {
+    "id": "res-more-127",
+    "title": "Corneal Topography",
+    "url": "https://eyewiki.org/Corneal_Topography",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Placido and Scheimpflug topography, axial vs tangential maps and keratoconus patterns.",
+    "free": true
+  },
+  {
+    "id": "res-more-128",
+    "title": "Primary Open-Angle Glaucoma",
+    "url": "https://eyewiki.org/Primary_Open-Angle_Glaucoma",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Pathophysiology, risk factors and visual-field loss in the most common glaucoma.",
+    "free": true
+  },
+  {
+    "id": "res-more-129",
+    "title": "Primary vs. Secondary Angle Closure Glaucoma",
+    "url": "https://eyewiki.org/Primary_vs._Secondary_Angle_Closure_Glaucoma",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Distinguishes acute angle closure — a true emergency opticians should recognize — from open-angle disease.",
+    "free": true
+  },
+  {
+    "id": "res-more-130",
+    "title": "Cataract",
+    "url": "https://eyewiki.org/Cataract",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Nuclear, cortical and posterior subcapsular cataracts and their visual effects.",
+    "free": true
+  },
+  {
+    "id": "res-more-131",
+    "title": "Myopia",
+    "url": "https://eyewiki.org/Myopia",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Axial vs refractive myopia, progression and correction including ortho-k.",
+    "free": true
+  },
+  {
+    "id": "res-more-132",
+    "title": "Hyperopia",
+    "url": "https://eyewiki.org/Hyperopia",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Hyperopia classification and correction, with accommodative considerations.",
+    "free": true
+  },
+  {
+    "id": "res-more-133",
+    "title": "Presbyopia",
+    "url": "https://eyewiki.org/Presbyopia",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Mechanisms of presbyopia and correction options from readers to multifocal contacts.",
+    "free": true
+  },
+  {
+    "id": "res-more-134",
+    "title": "Aniseikonia",
+    "url": "https://eyewiki.org/Aniseikonia",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Spectacle magnification, Knapp's law and when contact lenses reduce image-size differences.",
+    "free": true
+  },
+  {
+    "id": "res-more-135",
+    "title": "Amblyopia",
+    "url": "https://eyewiki.org/Amblyopia",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Strabismic, anisometropic and deprivation amblyopia and their optical management.",
+    "free": true
+  },
+  {
+    "id": "res-more-136",
+    "title": "Allergic Conjunctivitis",
+    "url": "https://eyewiki.org/Allergic_Conjunctivitis",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Includes giant papillary conjunctivitis, the classic contact-lens-related allergic complication.",
+    "free": true
+  },
+  {
+    "id": "res-more-137",
+    "title": "Contact Lens-Induced Limbal Stem Cell Deficiency",
+    "url": "https://eyewiki.org/Contact_Lens-Induced_Limbal_Stem_Cell_Deficiency",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "A serious chronic hypoxia/overwear complication and the signs to watch for at follow-up.",
+    "free": true
+  },
+  {
+    "id": "res-more-138",
+    "title": "Bandage Contact Lenses After Refractive Surgery",
+    "url": "https://eyewiki.org/Bandage_Contact_Lenses_After_Refractive_Surgery",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Therapeutic lens use after PRK and other surgery, material choice and wear schedule.",
+    "free": true
+  },
+  {
+    "id": "res-more-139",
+    "title": "Meibomian Gland Dysfunction (MGD)",
+    "url": "https://eyewiki.org/Meibomian_Gland_Dysfunction_(MGD)",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Evaporative dry eye from MGD and how it affects contact lens comfort and candidacy.",
+    "free": true
+  },
+  {
+    "id": "res-more-140",
+    "title": "BostonSight PROSE and Scleral Contact Lenses",
+    "url": "https://eyewiki.org/BostonSight_PROSE_(Prosthetic_Replacement_of_the_Ocular_Surface_Ecosystem)_and_Scleral_Contact_Lenses",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Scleral lens design, indications and fitting concepts for irregular corneas and ocular surface disease.",
+    "free": true
+  },
+  {
+    "id": "res-more-141",
+    "title": "Computer Vision Syndrome (Digital Eye Strain)",
+    "url": "https://eyewiki.org/Computer_Vision_Syndrome_(Digital_Eye_Strain)",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "EyeWiki — American Academy of Ophthalmology",
+    "description": "Causes of digital eye strain and the lens designs and coatings opticians recommend.",
+    "free": true
+  },
+  {
+    "id": "res-more-142",
+    "title": "Refractive Errors",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "National Eye Institute",
+    "description": "Plain-language overview of myopia, hyperopia, astigmatism and presbyopia.",
+    "free": true
+  },
+  {
+    "id": "res-more-143",
+    "title": "How the Eyes Work",
+    "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ],
+    "author": "National Eye Institute",
+    "description": "Simple walkthrough of how light passes through the eye's structures to form an image.",
+    "free": true
+  },
+  {
+    "id": "res-more-144",
+    "title": "Glaucoma",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "National Eye Institute",
+    "description": "Glaucoma types, risk factors and treatment from the NIH eye institute.",
+    "free": true
+  },
+  {
+    "id": "res-more-145",
+    "title": "Cataracts",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "National Eye Institute",
+    "description": "Cataract symptoms, surgery and the glasses changes that follow.",
+    "free": true
+  },
+  {
+    "id": "res-more-146",
+    "title": "Low Vision",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/low-vision",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products",
+      "abo.dispensing"
+    ],
+    "author": "National Eye Institute",
+    "description": "Defines low vision and the rehabilitation devices and services available.",
+    "free": true
+  },
+  {
+    "id": "res-more-147",
+    "title": "Age-Related Macular Degeneration (AMD)",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "National Eye Institute",
+    "description": "Dry vs wet AMD and its central vision loss — the most common low-vision cause opticians see.",
+    "free": true
+  },
+  {
+    "id": "res-more-148",
+    "title": "Diabetic Retinopathy",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "National Eye Institute",
+    "description": "How diabetes damages the retina and why fluctuating vision affects Rx stability.",
+    "free": true
+  },
+  {
+    "id": "res-more-149",
+    "title": "Dry Eye",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "National Eye Institute",
+    "description": "Dry eye causes and treatments, including contact lens wear as a risk factor.",
+    "free": true
+  },
+  {
+    "id": "res-more-150",
+    "title": "Contact Lenses for Vision Correction",
+    "url": "https://www.aao.org/eye-health/glasses-contacts/contact-lens-102",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ],
+    "author": "American Academy of Ophthalmology",
+    "description": "Patient-level comparison of soft, RGP, toric, multifocal and extended-wear lenses.",
+    "free": true
+  },
+  {
+    "id": "res-more-151",
+    "title": "Eye Anatomy: Parts of the Eye and How We See",
+    "url": "https://www.aao.org/eye-health/anatomy/parts-of-eye",
+    "kind": "article",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ],
+    "author": "American Academy of Ophthalmology",
+    "description": "Labeled guide to each part of the eye and its job.",
+    "free": true
+  },
+  {
+    "id": "res-more-152",
+    "title": "What Is Keratoconus?",
+    "url": "https://www.aao.org/eye-health/diseases/what-is-keratoconus",
+    "kind": "article",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy",
+      "ncle.fitting"
+    ],
+    "author": "American Academy of Ophthalmology",
+    "description": "Keratoconus symptoms, cross-linking and specialty contact lens options.",
+    "free": true
+  },
+  {
+    "id": "res-more-153",
+    "title": "Understanding Glaucoma: Symptoms, Causes, Diagnosis, Treatment",
+    "url": "https://www.aao.org/eye-health/diseases/what-is-glaucoma",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "American Academy of Ophthalmology",
+    "description": "Glaucoma basics including the acute angle-closure warning signs.",
+    "free": true
+  },
+  {
+    "id": "res-more-154",
+    "title": "What Are Cataracts?",
+    "url": "https://www.aao.org/eye-health/diseases/what-are-cataracts",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "American Academy of Ophthalmology",
+    "description": "Cataract causes, symptoms and surgery explained for patients.",
+    "free": true
+  },
+  {
+    "id": "res-more-155",
+    "title": "NCLE Basic Exam Review — Domain I: Ocular Anatomy, Physiology and Pathology; Domain II: Refractive Errors",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/22NB-NCLE-BASIC-EXAM-REVIEW-Domain-I-Ocular-Anatomy-Physiology-and-Pathology-Domain-II-Refractive-Errors.pdf.coredownload.709776248.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Slide handout from the official-style NCLE Basic review course covering the anatomy and refraction domains.",
+    "free": true
+  },
+  {
+    "id": "res-more-156",
+    "title": "NCLE Basic Exam Review — Domain III: Instrumentation; Domain IV: Prefitting",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/23NB-NCLE-BASIC-EXAM-REVIEW-Domain-III-Instrumentation-for-Measurement-and-Observation-Domain-IV-Prefitting.pdf.coredownload.709776279.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments",
+      "ncle.prefitting"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Review slides on keratometry, slit lamp, radiuscope and the prefitting evaluation.",
+    "free": true
+  },
+  {
+    "id": "res-more-157",
+    "title": "NCLE Basic Exam Review — Domain V: Diagnostic Fitting",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/25NB-NCLE-BASIC-EXAM-REVIEW-Domain-V-Diagnostic-Fitting.pdf.coredownload.709776306.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Review slides on soft, toric and GP diagnostic fitting and fit assessment.",
+    "free": true
+  },
+  {
+    "id": "res-more-158",
+    "title": "NCLE Basic Exam Review — Domain VI: Dispensing; Domain VII: Follow-Up; Domain VIII: Regulatory and Administrative",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/26NB-NCLE-BASIC-EXAM-REVIEW-Domain-VI-Dispensing-Domain-VII-Follow-Up-Domain-VIII-Regulatory-and-Administrative.pdf.coredownload.709776331.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing",
+      "ncle.followup",
+      "ncle.regulatory"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Review slides covering patient instruction, follow-up complications and FTC/FCLCA regulations.",
+    "free": true
+  },
+  {
+    "id": "res-more-159",
+    "title": "ABO Basic Exam Review — Domain I: Ophthalmic Optics",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo-west/2023/docs/handouts/day-3/33AB-ABO-BASIC-EXAM-REVIEW-Domain-I---Ophthalmic-Optics.pdf.coredownload.963434293.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "ABO Basic review slides on lens power, transposition, prism and Prentice's rule.",
+    "free": true
+  },
+  {
+    "id": "res-more-160",
+    "title": "ABO Basic Exam Review — Domain I (Part 2)",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/34AB%20ABO%20BASIC%20EXAM%20REVIEW%20Domain%20I%20%28Part%202%29.pdf.coredownload.719306580.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Second half of the optics domain review — multifocals, materials and lens design.",
+    "free": true
+  },
+  {
+    "id": "res-more-161",
+    "title": "ABO Basic Exam Review — Domain II: Ocular Anatomy, Physiology, Pathology and Refraction",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/35AB%20ABO%20BASIC%20EXAM%20REVIEW%20Domain%20II%20-%20Ocular%20Anatomy%2C%20Physiology%2C%20Pathology%20and%20Refraction.pdf.coredownload.719306588.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Review slides for the ABO anatomy, pathology and refraction domain.",
+    "free": true
+  },
+  {
+    "id": "res-more-162",
+    "title": "ABO Basic Exam Review — Domain IV: Instrumentation; Domain VI: Laws, Regulations and Standards",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/new-course-handouts/37AB-ABO-BASIC-EXAMREVIEW.pdf.coredownload.720245838.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments",
+      "abo.laws"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Review slides on lensometer, lens clock and pupillometer use plus ANSI and FTC rules.",
+    "free": true
+  },
+  {
+    "id": "res-more-163",
+    "title": "NCLE Practical Exam Review",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo-west/2024/docs/courses/course-handouts/45NP-NCLE-Practical-Exam-Review.pdf.coredownload.259811398.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments",
+      "ncle.fitting"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Handout explaining the NCLE practical exam format and the hands-on skills it tests.",
+    "free": true
+  },
+  {
+    "id": "res-more-164",
+    "title": "ABO Practical Exam Review",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/43AP-ABO-Practical-Exam-Review.pdf.coredownload.709776421.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments",
+      "abo.dispensing"
+    ],
+    "author": "Vision Expo / NFOS",
+    "description": "Handout on the ABO practical exam format and the measurement and verification skills it checks.",
+    "free": true
+  },
+  {
+    "id": "res-more-165",
+    "title": "Basic Lensometry Workshop",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/23O4%20Basic%20Lensometry%20Workshop.pdf.coredownload.730698664.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ],
+    "author": "Vision Expo",
+    "description": "Step-by-step lensometer workshop handout — focusing, reading sphere/cyl/axis, prism and adds.",
+    "free": true
+  },
+  {
+    "id": "res-more-166",
+    "title": "Navigating Lens Centration Charts and Compensation",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/27O1%20Navigating%20Lens%20Centration%20Charts%20and%20Compensation.pdf.coredownload.719306568.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing",
+      "abo.products"
+    ],
+    "author": "Vision Expo",
+    "description": "How to read PAL centration charts and compensated (as-worn) power values.",
+    "free": true
+  },
+  {
+    "id": "res-more-167",
+    "title": "Common Sense Compensation",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/37O1-Common-Sense-Compensation.pdf.coredownload.709776404.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.dispensing"
+    ],
+    "author": "Vision Expo",
+    "description": "Explains position-of-wear compensation for tilt, wrap and vertex in freeform lenses.",
+    "free": true
+  },
+  {
+    "id": "res-more-168",
+    "title": "What are All These Adjustment Tools?",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/33O4%20What%20are%20All%20These%20Adjustment%20Tools.pdf.coredownload.730698683.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing",
+      "abo.instruments"
+    ],
+    "author": "Vision Expo",
+    "description": "Visual guide to optician pliers and adjustment tools and what each is for.",
+    "free": true
+  },
+  {
+    "id": "res-more-169",
+    "title": "The Bevel's Advocate",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/44O2-The-Bevels-Advocate.pdf.coredownload.709776431.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "Vision Expo",
+    "description": "Edging and bevel types — V-bevel, groove, rimless — and choosing bevel placement.",
+    "free": true
+  },
+  {
+    "id": "res-more-170",
+    "title": "Solutions to Low Vision Beyond Magnifiers",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/24O1-Solutions-to-Low-Vision-Beyond-Magnifiers.pdf.coredownload.709776291.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products",
+      "abo.dispensing"
+    ],
+    "author": "Vision Expo",
+    "description": "Optician-focused handout on low vision aids, filters and high-add solutions.",
+    "free": true
+  },
+  {
+    "id": "res-more-171",
+    "title": "Hybrid Contact Lenses",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/26L1%20Hybrid%20Contact%20Lenses.pdf.coredownload.719306514.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Vision Expo",
+    "description": "Hybrid lens design, indications and fitting basics.",
+    "free": true
+  },
+  {
+    "id": "res-more-172",
+    "title": "Troubleshooting Scleral Lenses",
+    "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo/docs/course-handouts/35L1-Troubleshooting-Scleral-Lenses.pdf.coredownload.709776370.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting",
+      "ncle.followup"
+    ],
+    "author": "Vision Expo",
+    "description": "Common scleral lens problems — fogging, bubbles, impingement — and their fixes.",
+    "free": true
+  },
+  {
+    "id": "res-more-173",
+    "title": "Vision Expo Course Handouts",
+    "url": "https://www.visionexpo.com/en-us/seminars/course-handouts.html",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.fitting"
+    ],
+    "author": "Vision Expo",
+    "description": "Free index of current ABO/NCLE review and optician CE handouts from Vision Expo.",
+    "free": true
+  },
+  {
+    "id": "res-more-174",
+    "title": "Optics Review",
+    "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/Optics-Review.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "University of Iowa Department of Ophthalmology",
+    "description": "Residency-level optics review covering vergence, lens power, prism and vertex — free university notes.",
+    "free": true
+  },
+  {
+    "id": "res-more-175",
+    "title": "Ophthalmic Optics and Clinical Refraction (Review Course Outline)",
+    "url": "https://willseye.cloud-cme.com/assets/willseye/PDF/ReviewCourseLinks/12_GuytonIrsch_Optics_outline.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "Wills Eye Hospital (Guyton & Irsch)",
+    "description": "Dense outline of optics formulas — vertex conversion, effectivity, Prentice prism and magnification.",
+    "free": true
+  },
+  {
+    "id": "res-more-176",
+    "title": "Form of Ophthalmic Lenses",
+    "url": "https://www.abdo.org.uk/wp-content/uploads/2019/12/Mo-Jalie-Article-on-FORM.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products"
+    ],
+    "author": "Mo Jalie / ABDO",
+    "description": "Classic article on best-form lens design, base curves and oblique astigmatism.",
+    "free": true
+  },
+  {
+    "id": "res-more-177",
+    "title": "Introduction to Ophthalmic Optics",
+    "url": "https://opticampus.opti.vision/files/introduction_to_ophthalmic_optics.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "Darryl Meister / OptiCampus",
+    "description": "Free textbook-length PDF on light, lenses, prism and lens design written for opticians.",
+    "free": true
+  },
+  {
+    "id": "res-more-178",
+    "title": "How to Use Prentice's Rule and Finding the Power of a Lens in Any Meridian",
+    "url": "https://www.nao.org/wp-content/uploads/2026/02/How-to-Use-Prentices-Rule-and-Finding-the-Power-of-a-Lens-in-Any-Meridian.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "NAO CE course on decentration prism, imbalance and oblique-meridian power — top ABO math topics.",
+    "free": true
+  },
+  {
+    "id": "res-more-179",
+    "title": "Lens Materials and Design",
+    "url": "https://www.nao.org/wp-content/uploads/2020/04/Lens-Material-and-Design.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "Index, Abbe value, impact resistance and design across lens materials.",
+    "free": true
+  },
+  {
+    "id": "res-more-180",
+    "title": "Lens Powers",
+    "url": "https://www.nao.org/wp-content/uploads/2020/04/Lens-Powers.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "Nominal and true power, focal length, sagitta and thick-lens concepts.",
+    "free": true
+  },
+  {
+    "id": "res-more-181",
+    "title": "Aniseikonia: What It's All About",
+    "url": "https://www.nao.org/wp-content/uploads/2025/02/Aniseikona-What-Its-All-About.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.dispensing"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "Optical aniseikonia from corrective lenses and how to manage it with lens form and contacts.",
+    "free": true
+  },
+  {
+    "id": "res-more-182",
+    "title": "The Influence of Lens Position on Effective Power",
+    "url": "https://www.nao.org/wp-content/uploads/2025/02/The-Influence-of-Lens-Position-on-Effective-Power.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "Effective power changes with vertex distance for both glasses and contact lenses.",
+    "free": true
+  },
+  {
+    "id": "res-more-183",
+    "title": "Vertex Distance, Effective Power and Compensated Power / Tilt / Wrap",
+    "url": "https://www.nao.org/wp-content/uploads/2025/07/Vertex-Distance-Effective-Power-Compensated-Power-Tilt-Wrap.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.dispensing"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "Updated NAO course on vertex, tilt and wrap compensation in modern lenses.",
+    "free": true
+  },
+  {
+    "id": "res-more-184",
+    "title": "Visual Assessment Testing Procedures",
+    "url": "https://www.nao.org/wp-content/uploads/2020/03/Visual-Assessment-Testing-Procedures.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "Overview of acuity, refraction and pre-testing procedures opticians support.",
+    "free": true
+  },
+  {
+    "id": "res-more-185",
+    "title": "Average Math for the Above Average Dispenser",
+    "url": "http://www.nao.org/wp-content/uploads/2013/12/Average-Math-for-the-Above-Average-Dispenser-pdf.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "Worked dispensing math — transposition, prism, decentration and thickness.",
+    "free": true
+  },
+  {
+    "id": "res-more-186",
+    "title": "Professional Liability for Opticians, Part 1",
+    "url": "https://www.nao.org/wp-content/uploads/2020/03/Professional-Liability-for-Opticians-Part-1.pdf",
+    "kind": "pdf",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.laws"
+    ],
+    "author": "National Academy of Opticianry",
+    "description": "Covers optician liability, documentation and the standards that protect you legally.",
+    "free": true
+  },
+  {
+    "id": "res-more-187",
+    "title": "Education & Test Materials",
+    "url": "https://www.nao.org/etm/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "National Academy of Opticianry",
+    "description": "Hub for NAO's ABO/NCLE exam prep books, CE courses and test materials.",
+    "free": true
+  },
+  {
+    "id": "res-more-188",
+    "title": "Ophthalmic Career Progression Program",
+    "url": "https://www.nao.org/cpp/",
+    "kind": "course",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "National Academy of Opticianry",
+    "description": "Four-volume self-study program with tests that builds an apprentice toward certification.",
+    "free": false
+  },
+  {
+    "id": "res-more-189",
+    "title": "Slit Lamp Basics for the Contact Lens Fitter",
+    "url": "https://www.2020mag.com/ce/slit-lamp-basics-for-the-E8DE4",
+    "kind": "course",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "author": "20/20 Magazine",
+    "description": "Free CE lesson on slit lamp setup and illumination techniques for evaluating lens fits.",
+    "free": true
+  },
+  {
+    "id": "res-more-190",
+    "title": "Principles of Optical Physics in Modern Opticianry",
+    "url": "https://www.2020mag.com/ce/principles-of-optical-physics",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "20/20 Magazine",
+    "description": "Free CE lesson reviewing refraction, index, vergence and lens power fundamentals.",
+    "free": true
+  },
+  {
+    "id": "res-more-191",
+    "title": "Optimizing Lens Form",
+    "url": "https://www.2020mag.com/ce/optimizing-lens-forms",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products"
+    ],
+    "author": "20/20 Magazine",
+    "description": "Free CE on base curve selection, aspherics and lens form for best optics and cosmetics.",
+    "free": true
+  },
+  {
+    "id": "res-more-192",
+    "title": "Polarized Lenses – The Technology and Benefits",
+    "url": "https://www.2020mag.com/ce/polarized-lenses---the-technology-a-4A131",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "20/20 Magazine",
+    "description": "Free CE on how polarizing filters work and how to verify and dispense them.",
+    "free": true
+  },
+  {
+    "id": "res-more-193",
+    "title": "A Guide to the Material Benefits of Titanium Frames",
+    "url": "https://www.2020mag.com/ce/a-guide-to-the-material-24D88",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "20/20 Magazine",
+    "description": "Free CE on titanium and beta-titanium frame properties and adjustment.",
+    "free": true
+  },
+  {
+    "id": "res-more-194",
+    "title": "Post-Op Cataract Glasses: Dispensing That Solves Real-World Complaints",
+    "url": "https://www.2020mag.com/ce/post-op-cataract-glasses-dispensing",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "author": "20/20 Magazine",
+    "description": "Free CE on dispensing after cataract surgery — anisometropia, adds and patient complaints.",
+    "free": true
+  },
+  {
+    "id": "res-more-195",
+    "title": "Advanced Sun Lenses",
+    "url": "https://www.2020mag.com/ce/advanced-sun-lenses",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "20/20 Magazine",
+    "description": "Free CE on tints, mirrors, polarization and transmittance categories for sunwear.",
+    "free": true
+  },
+  {
+    "id": "res-more-196",
+    "title": "The Many Facets of Prism in Ophthalmic Lenses – Part 2",
+    "url": "https://www.2020mag.com/ce/the-many-facets-of-prism-79D6C",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "20/20 Magazine",
+    "description": "Free CE on prismatic effect, decentration and prism imbalance.",
+    "free": true
+  },
+  {
+    "id": "res-more-197",
+    "title": "Optics of Progressive Lenses Course",
+    "url": "https://opticampus.opti.vision/cecourse.php?url=progressive_lenses/",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products",
+      "abo.dispensing"
+    ],
+    "author": "OptiCampus",
+    "description": "Free illustrated course on progressive lens design, corridors and fitting.",
+    "free": true
+  },
+  {
+    "id": "res-more-198",
+    "title": "OptiCampus Continuing Education Courses",
+    "url": "https://opticampus.opti.vision/courses.php",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products"
+    ],
+    "author": "OptiCampus",
+    "description": "Catalog of free ABO-approved optics and lens-technology CE courses.",
+    "free": true
+  },
+  {
+    "id": "res-more-199",
+    "title": "OptiCampus Optical Calculators",
+    "url": "https://opticampus.opti.vision/tools/calculators.php",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "OptiCampus",
+    "description": "Free web calculators for transposition, vertex, prism, thickness and more.",
+    "free": true
+  },
+  {
+    "id": "res-more-200",
+    "title": "Material Reference Chart",
+    "url": "https://opticampus.opti.vision/tools/materials.php",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "OptiCampus",
+    "description": "Side-by-side index, Abbe value and specific gravity for common lens materials.",
+    "free": true
+  },
+  {
+    "id": "res-more-201",
+    "title": "Spectral Transmittance Charts",
+    "url": "https://opticampus.opti.vision/tools/transmittance.php",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "OptiCampus",
+    "description": "Transmittance curves for tints, photochromics and UV-blocking materials.",
+    "free": true
+  },
+  {
+    "id": "res-more-202",
+    "title": "Lens Thickness Calculator",
+    "url": "https://opticampus.opti.vision/tools/thickness.php",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products"
+    ],
+    "author": "OptiCampus",
+    "description": "Estimate edge and center thickness by material, power and frame size.",
+    "free": true
+  },
+  {
+    "id": "res-more-203",
+    "title": "Laramy-K Education Library",
+    "url": "https://www.laramyk.com/education-library/",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products",
+      "abo.dispensing"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "Free library of optician articles from an independent lab on lens form, surfacing and dispensing.",
+    "free": true
+  },
+  {
+    "id": "res-more-204",
+    "title": "What Is A Slab-Off Lens?",
+    "url": "https://www.laramyk.com/resources/education/surfacing/what-is-a-slab-off-lens/",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "Explains bicentric grinding to correct vertical imbalance in anisometropic multifocal wearers.",
+    "free": true
+  },
+  {
+    "id": "res-more-205",
+    "title": "All About Lens Surfacing",
+    "url": "https://www.laramyk.com/resources/education/surfacing/all-about-lens-surfacing/",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "How semi-finished blanks are surfaced into prescription lenses.",
+    "free": true
+  },
+  {
+    "id": "res-more-206",
+    "title": "What is Lens Edging/Finishing?",
+    "url": "https://www.laramyk.com/resources/education/finishing/what-is-lens-edging-finishing/",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "The finishing steps — layout, blocking, edging, safety bevel — that turn lenses into eyewear.",
+    "free": true
+  },
+  {
+    "id": "res-more-207",
+    "title": "Understanding Sphere, Cylinder, and Axis in the Eyeglass Lens Prescription",
+    "url": "https://www.laramyk.com/resources/education/lens-form-and-theory/lens-form-sphere-cylinder-and-axis/",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "Clear explanation of spherocylinder prescriptions and axis notation.",
+    "free": true
+  },
+  {
+    "id": "res-more-208",
+    "title": "All About Lens Tints",
+    "url": "https://www.laramyk.com/all-about-lens-tints/",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "Tint colors, densities and uses, plus how lab dye tinting works.",
+    "free": true
+  },
+  {
+    "id": "res-more-209",
+    "title": "The Electromagnetic Spectrum and Vision",
+    "url": "https://www.laramyk.com/resources/education/lens-form-and-theory/the-electromagnetic-spectrum/",
+    "kind": "article",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products"
+    ],
+    "author": "Laramy-K Optical",
+    "description": "UV, visible and IR wavelengths and their relevance to lens filters and coatings.",
+    "free": true
+  },
+  {
+    "id": "res-more-210",
+    "title": "Fluorescein Pattern Identification Guide",
+    "url": "https://gpli.info/fluorescein-id-guide/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Image library of GP fluorescein patterns for spherical, toric, multifocal and irregular corneas.",
+    "free": true
+  },
+  {
+    "id": "res-more-211",
+    "title": "GPLI Toric and Spherical Lens Calculator",
+    "url": "https://gpli.info/lens-calculator/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Free calculator that designs a starting GP lens from K readings and refraction.",
+    "free": true
+  },
+  {
+    "id": "res-more-212",
+    "title": "Mandell-Moore Bitoric Lens Calculator",
+    "url": "https://gpli.info/mandell-moore-bitoric-calculator/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Calculates bitoric GP parameters for high corneal astigmatism.",
+    "free": true
+  },
+  {
+    "id": "res-more-213",
+    "title": "CLMA Contact Lens Fitting Guides",
+    "url": "https://gpli.info/clma-fitting-guides/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Collected fitting guides for custom GP, hybrid and scleral designs from CLMA labs.",
+    "free": true
+  },
+  {
+    "id": "res-more-214",
+    "title": "Education by Lens Type: Webinars, FAQ and Guides to All Specialty Lenses",
+    "url": "https://gpli.info/education-by-lens-type/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Organizes GPLI webinars and guides by lens type — spherical GP, toric, multifocal, scleral, ortho-k.",
+    "free": true
+  },
+  {
+    "id": "res-more-215",
+    "title": "Archived Webinars",
+    "url": "https://gpli.info/webinars-archived/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting",
+      "ncle.followup"
+    ],
+    "author": "GP Lens Institute",
+    "description": "100+ free recorded specialty contact lens webinars.",
+    "free": true
+  },
+  {
+    "id": "res-more-216",
+    "title": "Contact Lens Clinical Pearls Pocket Guide (2026 Update)",
+    "url": "https://gpli.info/wp-content/uploads/2026/09/Pocket-Guide-2026-Update.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting",
+      "ncle.followup"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Newest edition of GPLI's pocket fitting and troubleshooting guide.",
+    "free": true
+  },
+  {
+    "id": "res-more-217",
+    "title": "Scleral Lens Troubleshooting FAQs",
+    "url": "https://gpli.info/pdf/GPLISLSTSGuide2020.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting",
+      "ncle.followup"
+    ],
+    "author": "GP Lens Institute",
+    "description": "FAQ-style guide to scleral lens application, fitting, problem-solving and care.",
+    "free": true
+  },
+  {
+    "id": "res-more-218",
+    "title": "Presbyopia / Multifocal Tools and Resources",
+    "url": "https://gpli.info/presbyopia-multifocals/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "GP multifocal fitting and troubleshooting resources with fluorescein images.",
+    "free": true
+  },
+  {
+    "id": "res-more-219",
+    "title": "Corneal Reshaping Tools and Resources",
+    "url": "https://gpli.info/corneal-reshaping/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Orthokeratology fitting and troubleshooting resources.",
+    "free": true
+  },
+  {
+    "id": "res-more-220",
+    "title": "Recommended Resources for Residents and Students",
+    "url": "https://gpli.info/students/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "GPLI's curated list of student-friendly GP and scleral learning materials.",
+    "free": true
+  },
+  {
+    "id": "res-more-221",
+    "title": "Pediatric Contact Lens Fitting",
+    "url": "https://gpli.info/pediatric-cl-fitting/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Guidance on fitting children, including aphakia and myopia management.",
+    "free": true
+  },
+  {
+    "id": "res-more-222",
+    "title": "Bitoric Lens Design and Fitting",
+    "url": "https://www.gpli.info/pdf/2013-q3-case-smith-stephen.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "GP Lens Institute",
+    "description": "Case-based walk-through of designing and fitting a bitoric GP lens.",
+    "free": true
+  },
+  {
+    "id": "res-more-223",
+    "title": "Bausch + Lomb Multifocal Contact Lens Fitting Calculator and Guide",
+    "url": "https://ecp.bauschcontactlenses.com/products/multifocal-fitting-calculator/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Bausch + Lomb",
+    "description": "Online calculator choosing the first B+L multifocal trial lens from the spectacle Rx.",
+    "free": true
+  },
+  {
+    "id": "res-more-224",
+    "title": "Bausch + Lomb Multifocal 2-Step Fitting Guide",
+    "url": "https://ecp.bauschcontactlenses.com/siteassets/pdf/bausch-lomb-multifocal-2-step-fitting-guide.pdf/",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Bausch + Lomb",
+    "description": "Two-step soft multifocal fitting method with add-based lens selection.",
+    "free": true
+  },
+  {
+    "id": "res-more-225",
+    "title": "Bausch + Lomb ULTRA for Presbyopia Fitting Guide",
+    "url": "https://pi.bausch.com/globalassets/pdf/Downloads/ECP/vision-care/lens/Bausch-Lomb-ULTRA-fP-Fitting-Guide-Parameter-Expansion.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Bausch + Lomb",
+    "description": "Manufacturer fitting guide using spherical equivalent and vertex-adjusted power.",
+    "free": true
+  },
+  {
+    "id": "res-more-226",
+    "title": "Bausch + Lomb INFUSE Package Insert and Fitting Guide",
+    "url": "https://pi.bausch.com/globalassets/pdf/PackageInserts/Vision-Care/lenses/INFUSE-PIFG.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.fitting",
+      "ncle.regulatory"
+    ],
+    "author": "Bausch + Lomb",
+    "description": "Example of a full FDA package insert — indications, contraindications, wear schedule and fitting.",
+    "free": true
+  },
+  {
+    "id": "res-more-227",
+    "title": "Eye Care Professional Education Center",
+    "url": "https://ecp.bauschcontactlenses.com/education-center/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Bausch + Lomb",
+    "description": "B+L's practitioner library of lens design and fitting videos.",
+    "free": true
+  },
+  {
+    "id": "res-more-228",
+    "title": "Biofinity toric multifocal Lens Fitting Guide",
+    "url": "https://coopervision.com/sites/coopervision.com/files/8822b_bftmf_fitting_guide.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "CooperVision",
+    "description": "Step-by-step fitting guide for a toric multifocal soft lens.",
+    "free": true
+  },
+  {
+    "id": "res-more-229",
+    "title": "Multifocal Contact Lens Fitting Guides (All CooperVision Brands)",
+    "url": "https://coopervision.co.uk/sites/coopervision.co.uk/files/multifocal-fitting-guide-all-coopervision-brands-230308.pdf",
+    "kind": "pdf",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "CooperVision",
+    "description": "Side-by-side fitting guides for every CooperVision multifocal design.",
+    "free": true
+  },
+  {
+    "id": "res-more-230",
+    "title": "CooperVision Tools & Resources",
+    "url": "https://coopervision.com/practitioner/tools-and-resources",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "CooperVision",
+    "description": "Hub for CooperVision calculators, fitting guides and practitioner education.",
+    "free": true
+  },
+  {
+    "id": "res-more-231",
+    "title": "CooperVision eIFU",
+    "url": "https://eifu.coopervision.com/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.regulatory",
+      "ncle.dispensing"
+    ],
+    "author": "CooperVision",
+    "description": "Official instructions-for-use documents for every CooperVision lens.",
+    "free": true
+  },
+  {
+    "id": "res-more-232",
+    "title": "ACUVUE Fitting Calculator",
+    "url": "https://www.jnjvisionpro.com/en-us/calculators/acuvue-fitting-calculator/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Johnson & Johnson Vision",
+    "description": "Combined astigmatism and multifocal calculator for ACUVUE first-lens selection.",
+    "free": true
+  },
+  {
+    "id": "res-more-233",
+    "title": "Johnson & Johnson Vision for Eye Care Professionals",
+    "url": "https://www.jnjvisionpro.com/en-us/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Johnson & Johnson Vision",
+    "description": "J&J's ECP portal with product specs, fitting guides and education.",
+    "free": true
+  },
+  {
+    "id": "res-more-234",
+    "title": "MyAlcon Fitting Hub",
+    "url": "https://fittinghub.myalcon.com",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Alcon",
+    "description": "Alcon's contact lens calculator for toric and multifocal first-lens selection.",
+    "free": true
+  },
+  {
+    "id": "res-more-235",
+    "title": "Alcon Experience Academy",
+    "url": "https://experienceacademy.myalcon.com/learn",
+    "kind": "course",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Alcon",
+    "description": "Alcon's free online education platform for eye care professionals and staff.",
+    "free": true
+  },
+  {
+    "id": "res-more-236",
+    "title": "Art Optical Lens Calculators",
+    "url": "https://artoptical.com/fitting-tools/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Art Optical Contact Lens",
+    "description": "Lab calculators for GP, toric and specialty lens design.",
+    "free": true
+  },
+  {
+    "id": "res-more-237",
+    "title": "Valley Contax Videos and Webinars",
+    "url": "https://www.valleycontax.com/videos-webinars",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Valley Contax",
+    "description": "Lab-produced videos on custom soft and GP fitting technique.",
+    "free": true
+  },
+  {
+    "id": "res-more-238",
+    "title": "Vision Ease Support and Resources",
+    "url": "https://visionease.com/resources/",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "Vision Ease",
+    "description": "Lens availability charts and ordering resources for polycarbonate and photochromic lenses.",
+    "free": true
+  },
+  {
+    "id": "res-more-239",
+    "title": "ZEISS for Eye Care Professionals",
+    "url": "https://www.zeiss.com/vision-care/us/eye-care-professionals/home.html",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "ZEISS Vision Care",
+    "description": "ZEISS lens portfolio and professional education for spectacle lenses and coatings.",
+    "free": true
+  },
+  {
+    "id": "res-more-240",
+    "title": "California State Society of Opticians",
+    "url": "https://www.cssoo.co/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "California State Society of Opticians",
+    "description": "California's optician society — CE events, advocacy and its dispensing optician pre-apprenticeship program.",
+    "free": true
+  },
+  {
+    "id": "res-more-241",
+    "title": "Learn More About CSSO",
+    "url": "https://www.cssoo.co/about/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "California State Society of Opticians",
+    "description": "Describes CSSO's pre-apprenticeship pathway and education initiatives for new California opticians.",
+    "free": true
+  },
+  {
+    "id": "res-more-242",
+    "title": "Contact Lens Society of America",
+    "url": "https://clsa.info/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [],
+    "author": "Contact Lens Society of America",
+    "description": "Professional society for contact lens fitters with NCLE-approved CE and education meetings.",
+    "free": true
+  },
+  {
+    "id": "res-more-243",
+    "title": "Commission on Opticianry Accreditation",
+    "url": "https://coaccreditation.com/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "Commission on Opticianry Accreditation",
+    "description": "Accrediting body for opticianry degree and certificate programs — check whether a school is accredited.",
+    "free": true
+  },
+  {
+    "id": "res-more-244",
+    "title": "ABO-NCLE",
+    "url": "https://www.abo-ncle.org/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "American Board of Opticianry & National Contact Lens Examiners",
+    "description": "The certification body's home page for exam registration, CE requirements and renewals.",
+    "free": true
+  },
+  {
+    "id": "res-more-245",
+    "title": "The Vision Council",
+    "url": "https://thevisioncouncil.org/",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ],
+    "author": "The Vision Council",
+    "description": "Optical industry trade association behind lens standards, labeling and market reports.",
+    "free": true
+  },
+  {
+    "id": "res-more-246",
+    "title": "O*NET: Opticians, Dispensing (29-2081.00)",
+    "url": "https://www.onetonline.org/link/summary/29-2081.00",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "O*NET / U.S. Department of Labor",
+    "description": "Detailed tasks, skills, knowledge and outlook for dispensing opticians.",
+    "free": true
+  },
+  {
+    "id": "res-more-247",
+    "title": "Occupation Profile for Opticians, Dispensing",
+    "url": "https://www.careeronestop.org/Toolkit/Careers/Occupations/occupation-profile.aspx?keyword=Opticians,%20Dispensing&onetcode=29-2081.00",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "CareerOneStop / U.S. Department of Labor",
+    "description": "State-by-state wages, outlook and licensing info for opticians — set it to California.",
+    "free": true
+  },
+  {
+    "id": "res-more-248",
+    "title": "Local Training Finder: Opticianry Programs in California",
+    "url": "https://www.careeronestop.org/Toolkit/Training/find-local-training-results.aspx?keyword=Opticianry/Ophthalmic%20Dispensing%20Optician&location=California&schoolprogram=p",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "CareerOneStop / U.S. Department of Labor",
+    "description": "Lists accredited and WIOA-eligible opticianry training programs in California.",
+    "free": true
+  },
+  {
+    "id": "res-more-249",
+    "title": "Opticians, Dispensing — Occupational Outlook Handbook",
+    "url": "https://www.bls.gov/ooh/healthcare/opticians-dispensing.htm",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "U.S. Bureau of Labor Statistics",
+    "description": "Official pay, job outlook and how-to-become info for dispensing opticians.",
+    "free": true
+  },
+  {
+    "id": "res-more-250",
+    "title": "Apprenticeship.gov",
+    "url": "https://www.apprenticeship.gov/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "U.S. Department of Labor",
+    "description": "Search registered apprenticeship programs, including optician apprenticeships.",
+    "free": true
+  },
+  {
+    "id": "res-more-251",
+    "title": "Optical Technician Certificate",
+    "url": "https://scc.losrios.edu/academics/optical-technology-program-details/optical-technician-certificate",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [],
+    "author": "Sacramento City College",
+    "description": "17-unit, mostly online eyeglass dispensing certificate at a California community college.",
+    "free": false
+  },
+  {
+    "id": "res-more-252",
+    "title": "Optical Technology",
+    "url": "https://scc.losrios.edu/optical-technology",
+    "kind": "course",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "Sacramento City College",
+    "description": "SCC's optical technology program, including the AS degree and contact lens coursework.",
+    "free": false
+  },
+  {
+    "id": "res-more-253",
+    "title": "Dispensing Opticians Training Program",
+    "url": "https://canadacollege.edu/menloparksite/programs/dispensing-opticians-training-program.php",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [],
+    "author": "Cañada College (Menlo Park Site)",
+    "description": "Community college program preparing Bay Area students for the ABO exam and optical careers.",
+    "free": false
+  },
+  {
+    "id": "res-more-254",
+    "title": "Dispensing Opticians",
+    "url": "https://sanmateoadulted.org/programs/career-education/healthcare-education/dispensing-opticians/",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [],
+    "author": "San Mateo Adult & Career Education",
+    "description": "Low-cost adult-ed course covering optical theory, lens technology and dispensing labs.",
+    "free": false
+  },
+  {
+    "id": "res-more-255",
+    "title": "Optician Technician Certificate of Completion",
+    "url": "https://programmap.lacitycollege.edu/academics/interest-clusters/17fdad83-2fca-4d2e-9961-523f9c6c89ce/programs/d68ac780-5314-7734-649a-87b41f12509d",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [],
+    "author": "Los Angeles City College",
+    "description": "Noncredit LACC certificate for an entry-level opticianry career.",
+    "free": false
+  },
+  {
+    "id": "res-more-256",
+    "title": "Free ABO-NCLE Optician Practice 2026 (NOCE/CLRE/ABOC)",
+    "url": "https://open-exam-prep.com/exams/healthcare/abo-ncle",
+    "kind": "practiceTest",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.fitting"
+    ],
+    "author": "OpenExamPrep",
+    "description": "Free NOCE and CLRE practice questions with explanations and flashcards.",
+    "free": true
+  },
+  {
+    "id": "res-more-257",
+    "title": "ABO/NCLE Practice Test 2026",
+    "url": "https://aboncletest.com/",
+    "kind": "practiceTest",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.fitting"
+    ],
+    "author": "ABONCLETest",
+    "description": "Timed practice exam simulator with domain analytics; 10 free questions, more with upgrade.",
+    "free": false
+  },
+  {
+    "id": "res-more-258",
+    "title": "NCLE Practice Test Flashcards",
+    "url": "https://quizlet.com/520137890/ncle-practice-test-flash-cards/",
+    "kind": "flashcards",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting",
+      "ncle.followup"
+    ],
+    "author": "Quizlet user set",
+    "description": "Exam-style NCLE questions on GP fit modification and soft lens problems.",
+    "free": true
+  },
+  {
+    "id": "res-more-259",
+    "title": "NCLE - Contact Lens types and solutions Flashcards",
+    "url": "https://quizlet.com/220470600/ncle-contact-lens-types-and-solutions-flash-cards/",
+    "kind": "flashcards",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.dispensing"
+    ],
+    "author": "Quizlet user set",
+    "description": "Drills lens materials, FDA groups and care-solution types for the NCLE.",
+    "free": true
+  },
+  {
+    "id": "res-more-260",
+    "title": "NCLE Prep: Follow-up Visits Flashcards",
+    "url": "https://quizlet.com/838626030/ncle-prep-follow-up-visits-flash-cards/",
+    "kind": "flashcards",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ],
+    "author": "Quizlet user set",
+    "description": "Focused set on follow-up findings and in-office GP modifications.",
+    "free": true
+  },
+  {
+    "id": "res-more-261",
+    "title": "NCLE 2018: Basic Contact Lens Design Flashcards",
+    "url": "https://quizlet.com/307365963/ncle-2018-basic-contact-lens-design-flash-cards/",
+    "kind": "flashcards",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.fitting"
+    ],
+    "author": "Quizlet user set",
+    "description": "Lens design terminology — haptic, optic zone, peripheral curves and diameters.",
+    "free": true
+  },
+  {
+    "id": "res-more-262",
+    "title": "NCLE Practice Test Practical Flashcards",
+    "url": "https://quizlet.com/329633819/ncle-practice-test-practical-flash-cards/",
+    "kind": "flashcards",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting",
+      "ncle.instruments"
+    ],
+    "author": "Quizlet user set",
+    "description": "Practical-exam style cards on fluorescein patterns and astigmatism fits.",
+    "free": true
+  },
+  {
+    "id": "res-more-263",
+    "title": "contact lens dispensing question Flashcards",
+    "url": "https://quizlet.com/759269292/contact-lens-dispensing-question-flash-cards/",
+    "kind": "flashcards",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.dispensing"
+    ],
+    "author": "Quizlet user set",
+    "description": "Questions on insertion/removal teaching and dispensing-visit procedures.",
+    "free": true
+  },
+  {
+    "id": "res-more-264",
+    "title": "Optician Study Aid | Optician Exam Preparation",
+    "url": "https://www.brainscape.com/subjects/optician",
+    "kind": "flashcards",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.fitting"
+    ],
+    "author": "Brainscape",
+    "description": "Collection of user-built optician flashcard decks with spaced-repetition study.",
+    "free": true
+  },
+  {
+    "id": "res-more-265",
+    "title": "ABO & NCLE CLRE Exam Test Prep",
+    "url": "https://apps.apple.com/us/app/abo-ncle-clre-exam-test-prep/id6738428611",
+    "kind": "app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.fitting"
+    ],
+    "author": "Exam Prep OU",
+    "description": "iPhone question bank with explanations and progress tracking for ABO and NCLE (free with in-app purchases).",
+    "free": true
+  },
+  {
+    "id": "res-more-266",
+    "title": "Bausch + Lomb FitBetter",
+    "url": "https://apps.apple.com/us/app/bausch-lomb-fitbetter/id1528154784",
+    "kind": "app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "author": "Bausch & Lomb, Inc",
+    "description": "Free manufacturer app with vertex conversion and spherical, toric and multifocal fitting calculators.",
+    "free": true
+  },
+  {
+    "id": "res-more-267",
+    "title": "Opticalc Contact Lens Calc",
+    "url": "https://apps.apple.com/us/app/opticalc-contact-lens-calc/id309309095",
+    "kind": "app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting",
+      "ncle.refraction"
+    ],
+    "author": "Rob McQualter",
+    "description": "Toric soft lens calculator with rotation compensation and vertex conversion.",
+    "free": false
+  },
+  {
+    "id": "res-more-268",
+    "title": "Lens Calc - Optical Dispensing",
+    "url": "https://apps.apple.com/us/app/lens-calc-optical-dispensing/id359616750",
+    "kind": "app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "Rob McQualter",
+    "description": "Dispensing calculator for vertex, transposition, prism and thickness.",
+    "free": false
+  },
+  {
+    "id": "res-more-269",
+    "title": "Optics Clinical Calculator",
+    "url": "https://apps.apple.com/us/app/optics-clinical-calculator/id301059660",
+    "kind": "app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "Evan Schoenberg, M.D.",
+    "description": "Clinical optics calculators — vertex, transposition, toric CL and more.",
+    "free": false
+  },
+  {
+    "id": "res-more-270",
+    "title": "Glasses 2 Contacts",
+    "url": "https://apps.apple.com/us/app/glasses-2-contacts/id1444361235",
+    "kind": "app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.refraction"
+    ],
+    "author": "Hoang Harry Tran",
+    "description": "Free educational app converting spectacle prescriptions to contact lens powers.",
+    "free": true
+  }
+]

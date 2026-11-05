@@ -49,6 +49,31 @@ enum OpticsMath {
         distancePD * workingDistanceMM / (workingDistanceMM + 27)
     }
 
+    /// LARS: rotation to the examiner's left (clockwise) adds; to the right subtracts.
+    static func compensatedToricAxis(_ axis: Int, rotation: Int, toLeft: Bool) -> Int {
+        let raw = (axis + (toLeft ? rotation : -rotation)) % 180
+        let wrapped = raw <= 0 ? raw + 180 : raw
+        return wrapped
+    }
+
+    /// RGP power: spectacle sphere at the cornea minus the tear-lens power.
+    static func rigidLensPower(sphere: Double, vertexMM: Double, baseCurveMM: Double, flatKDiopters: Double) -> Double {
+        compensatedPower(sphere, moveMM: vertexMM) - tearLensPower(baseCurveMM: baseCurveMM, flatKMM: radiusMM(diopters: flatKDiopters))
+    }
+
+    /// Dk/t in ×10⁻⁹ units from Dk (×10⁻¹¹) and center thickness in mm.
+    static func oxygenTransmissibility(dk: Double, thicknessMM: Double) -> Double {
+        dk / (thicknessMM * 10)
+    }
+
+    /// Exact sagitta (mm) of a surface of power F for a chord of half-diameter y (mm).
+    static func sagitta(power: Double, index: Double, semiDiameterMM y: Double) -> Double? {
+        guard power != 0 else { return 0 }
+        let r = 1000 * (index - 1) / abs(power)
+        guard r > y else { return nil }
+        return r - (r * r - y * y).squareRoot()
+    }
+
     static func roundToQuarter(_ value: Double) -> Double { (value * 4).rounded() / 4 }
 
     static func formatPower(_ value: Double) -> String {

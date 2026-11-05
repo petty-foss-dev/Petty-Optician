@@ -4967,7 +4967,7 @@
       "abo.laws"
     ],
     "author": "The Vision Council",
-    "description": "One-page table of ANSI Z80.1 power, axis, prism and PD tolerances for verifying finished eyewear.",
+    "description": "One-page table of ANSI Z80.1-2015 power, axis, prism and PD tolerances for verifying finished eyewear. The current Z80.1-2025 keeps these core values but adds prescribed-prism tolerances.",
     "free": true
   },
   {

@@ -1,0 +1,600 @@
+[
+  {
+    "id": "res-tool-001",
+    "title": "ABO-NCLE Practice Area: Lens Meter & Measurement Examples",
+    "url": "https://www.abo-ncle.org/ABO/Exam_Reg/Practice_Area.aspx",
+    "kind": "practiceTest",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments",
+      "abo.dispensing"
+    ],
+    "author": "ABO-NCLE",
+    "description": "Official sample lens-meter and measurement simulations in the format ABO-NCLE uses; needs a desktop browser at least 830-1020 px wide.",
+    "free": true
+  },
+  {
+    "id": "res-tool-002",
+    "title": "ABO | NCLE Simulation Workout",
+    "url": "https://www.smttest.com/ABOPNCLEP/",
+    "kind": "practiceTest",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.instruments",
+      "ncle.instruments"
+    ],
+    "author": "Schroeder Measurement Technologies (SMT)",
+    "description": "Free ABO- and NCLE-branded lessons and practice questions for lens meter, slit lamp, keratometry and optical measurement simulations.",
+    "free": true
+  },
+  {
+    "id": "res-tool-003",
+    "title": "SMT Keratometry Simulation Lessons",
+    "url": "https://www.smttest.com/ABOPNCLEP/keratometry-tutorial/",
+    "kind": "practiceTest",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments",
+      "ncle.prefitting"
+    ],
+    "author": "Schroeder Measurement Technologies (SMT)",
+    "description": "Step-by-step keratometer simulation lessons covering focusing, aligning mires and reading K values.",
+    "free": true
+  },
+  {
+    "id": "res-tool-004",
+    "title": "Pupilla Lensometer Simulator",
+    "url": "https://pupillalab.com/simulators/lensometer/",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments",
+      "abo.optics"
+    ],
+    "author": "Pupilla",
+    "description": "Free browser lensometer: focus the American-cross mires, find the axis, read sphere and cylinder, and see Prentice prism move the target.",
+    "free": true
+  },
+  {
+    "id": "res-tool-005",
+    "title": "Pupilla Ophthalmic Optics Lab",
+    "url": "https://pupillalab.com/simulators/ophthalmic-optics/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "Pupilla",
+    "description": "Interactive optics practice, including transposition on a power cross, with an optics self-assessment; works in phone browsers.",
+    "free": true
+  },
+  {
+    "id": "res-tool-006",
+    "title": "Pupilla Vision Simulator: Refractive Blur & Visual Acuity",
+    "url": "https://pupillalab.com/simulators/vision/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "Pupilla",
+    "description": "Apply a prescription and watch an eye chart, text and a night scene blur, with live logMAR and Snellen readouts.",
+    "free": true
+  },
+  {
+    "id": "res-tool-007",
+    "title": "Pupilla 3D Eye Anatomy Model",
+    "url": "https://pupillalab.com/simulators/3d-eye-anatomy/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ],
+    "author": "Pupilla",
+    "description": "Free 3D eye model with 42 structures, corneal and retinal layers, extraocular muscles and the orbit.",
+    "free": true
+  },
+  {
+    "id": "res-tool-008",
+    "title": "CanadaOptic Free Optical Tools",
+    "url": "https://canadaoptic.com/learning/tools",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products",
+      "ncle.fitting"
+    ],
+    "author": "CanadaOptic",
+    "description": "Index of free optical calculators and simulators: transposition, vertex, Prentice, MBS, lens thickness, slab-off, RGP fitting, lensmeter, PAL and prism simulators.",
+    "free": true
+  },
+  {
+    "id": "res-tool-009",
+    "title": "CanadaOptic Lensmeter Simulator",
+    "url": "https://canadaoptic.com/learning/tools/lensmeter-simulator",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ],
+    "author": "CanadaOptic",
+    "description": "Manual focimeter simulator with mires, sphere/cylinder/axis drums, prism reading, optical-center marking and a self-evaluation mode.",
+    "free": true
+  },
+  {
+    "id": "res-tool-010",
+    "title": "CanadaOptic Prism Simulator",
+    "url": "https://canadaoptic.com/learning/tools/prism-simulator",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.dispensing"
+    ],
+    "author": "CanadaOptic",
+    "description": "Interactive prism and Prentice's-rule simulator that gives a pass/fail verdict against industry tolerances.",
+    "free": true
+  },
+  {
+    "id": "res-tool-011",
+    "title": "CanadaOptic Progressive Lens Simulator",
+    "url": "https://canadaoptic.com/learning/tools/progressive-lens-simulator",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products",
+      "abo.dispensing"
+    ],
+    "author": "CanadaOptic",
+    "description": "Interactive progressive lens with a power map showing distance, corridor, near zones and peripheral blur.",
+    "free": true
+  },
+  {
+    "id": "res-tool-012",
+    "title": "CanadaOptic Astigmatism Visualizer",
+    "url": "https://canadaoptic.com/learning/tools/astigmatism-visualizer",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "CanadaOptic",
+    "description": "Visualizes a sphero-cylinder's focal lines and Sturm interval as you change sphere, cylinder and axis.",
+    "free": true
+  },
+  {
+    "id": "res-tool-013",
+    "title": "CanadaOptic Lens Thickness Calculator",
+    "url": "https://canadaoptic.com/learning/tools/lens-thickness",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products",
+      "abo.optics"
+    ],
+    "author": "CanadaOptic",
+    "description": "Compares edge and center thickness, weight and optical quality of a prescription across seven lens materials.",
+    "free": true
+  },
+  {
+    "id": "res-tool-014",
+    "title": "CanadaOptic Slab-Off Calculator",
+    "url": "https://canadaoptic.com/learning/tools/slab-off",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.dispensing"
+    ],
+    "author": "CanadaOptic",
+    "description": "Calculates vertical prism imbalance at the reading level and whether slab-off is warranted.",
+    "free": true
+  },
+  {
+    "id": "res-tool-015",
+    "title": "CanadaOptic RGP Fitting Calculator",
+    "url": "https://canadaoptic.com/learning/tools/rgp-fitting",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting",
+      "ncle.refraction"
+    ],
+    "author": "CanadaOptic",
+    "description": "Works an RGP fit end to end: vertex to zero, base curve choice, tear-lens power and final order.",
+    "free": true
+  },
+  {
+    "id": "res-tool-016",
+    "title": "Optician Simulator (Optical Training Institute)",
+    "url": "https://opticaltraining.com/optician-simulator/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.instruments",
+      "abo.dispensing",
+      "ncle.instruments"
+    ],
+    "author": "Optical Training Institute",
+    "description": "Paid virtual lab ($199/yr) with PD ruler, corneal-reflection pupillometer, manual and automatic lensometer, radiuscope, keratometer, slit lamp and adjusting pliers.",
+    "free": false
+  },
+  {
+    "id": "res-tool-017",
+    "title": "PhET Geometric Optics",
+    "url": "https://phet.colorado.edu/en/simulations/geometric-optics",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "PhET Interactive Simulations, University of Colorado Boulder",
+    "description": "Free HTML5 ray-diagram sim for converging and diverging lenses and mirrors; adjust focal length, index and object distance.",
+    "free": true
+  },
+  {
+    "id": "res-tool-018",
+    "title": "PhET Bending Light",
+    "url": "https://phet.colorado.edu/en/simulations/bending-light",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.products"
+    ],
+    "author": "PhET Interactive Simulations, University of Colorado Boulder",
+    "description": "Free HTML5 sim of refraction, index of refraction, total internal reflection and prism dispersion.",
+    "free": true
+  },
+  {
+    "id": "res-tool-019",
+    "title": "Ray Optics Simulation",
+    "url": "https://phydemo.app/ray-optics/",
+    "kind": "website",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "PhyDemo (open source)",
+    "description": "Open-source browser ray tracer for building lens, mirror and prism setups and watching the light paths.",
+    "free": true
+  },
+  {
+    "id": "res-tool-020",
+    "title": "AAO Retinoscopy Simulator",
+    "url": "https://www.aao.org/education/interactive-tool/retinoscopy-simulator",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "author": "American Academy of Ophthalmology",
+    "description": "Interactive retinoscopy simulator showing with/against motion and neutralization of refractive error.",
+    "free": true
+  },
+  {
+    "id": "res-tool-021",
+    "title": "Acing the ABO (free 7-week live course)",
+    "url": "https://www.uuniversity.com/AcingtheABO.html",
+    "kind": "course",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.anatomy",
+      "abo.products",
+      "abo.instruments",
+      "abo.dispensing",
+      "abo.laws"
+    ],
+    "author": "UUniversity / Andrew Bruce, LDO, ABOM",
+    "description": "Free live 7-section ABO prep series for UUniversity members, running again in fall 2026.",
+    "free": true
+  },
+  {
+    "id": "res-tool-022",
+    "title": "OpenExamPrep ABO-NCLE Practice",
+    "url": "https://open-exam-prep.com/practice/exams/healthcare/abo-ncle",
+    "kind": "practiceTest",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "OpenExamPrep",
+    "description": "Independent ABO-NCLE practice site with 650+ free questions with explanations, plus flashcards.",
+    "free": true
+  },
+  {
+    "id": "res-tool-023",
+    "title": "ABO/NCLE Exam Prep (aboncletest.com)",
+    "url": "https://aboncletest.com/",
+    "kind": "practiceTest",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "ABO/NCLE Exam Prep",
+    "description": "Paid web question bank (1,000+ questions, timed exams, domain analytics, exam-date tracker) with 10 free questions; passes from $19.95 to $129.95.",
+    "free": false
+  },
+  {
+    "id": "res-tool-024",
+    "title": "ODReference Contact Lens Parameters",
+    "url": "https://www.odreference.com/contacts",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.fitting",
+      "ncle.dispensing"
+    ],
+    "author": "ODReference (Dr. Alfonso Puzzo, OD)",
+    "description": "Soft lens parameter tables by modality with material, Dk/t, base curve, diameter and power ranges, plus private-label mapping.",
+    "free": true
+  },
+  {
+    "id": "res-tool-025",
+    "title": "EyeDock",
+    "url": "https://www.eyedock.com/documentation/eyedock-features",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.fitting"
+    ],
+    "author": "EyeDock",
+    "description": "Subscription clinical reference ($15/mo) with the largest soft and specialty lens parameter database, GP calculator and simulated fluorescein patterns.",
+    "free": false
+  },
+  {
+    "id": "res-tool-026",
+    "title": "Tyler's Quarterly Online",
+    "url": "https://tylersquarterly.com/tq-online/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.fitting"
+    ],
+    "author": "Tyler's Quarterly",
+    "description": "Subscription database of soft, GP and specialty contact lens parameters searchable by name, manufacturer or parameter.",
+    "free": false
+  },
+  {
+    "id": "res-tool-027",
+    "title": "ABO-NCLE Certification Database (Verify)",
+    "url": "https://abo-ncle.org/ABONCLE/ABONCLE/Certification/Searchable-Certification-Database.aspx?hkey=00c35604-bf25-4ff3-8d2f-f778ab48388d",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "ABO-NCLE",
+    "description": "Official public search to confirm a person's ABO or NCLE certification status by name, city, state or certificate ID.",
+    "free": true
+  },
+  {
+    "id": "res-tool-028",
+    "title": "DCA License Search",
+    "url": "https://search.dca.ca.gov/",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California Department of Consumer Affairs",
+    "description": "California's official lookup for Registered Spectacle Lens Dispenser, Contact Lens Dispenser and RDO registrations.",
+    "free": true
+  },
+  {
+    "id": "res-tool-029",
+    "title": "CA Board of Optometry: ABO-NCLE and Registration",
+    "url": "https://www.optometry.ca.gov/optician/abo_ncle.html",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "California State Board of Optometry",
+    "description": "Board page explaining how ABO and NCLE certification relates to California SLD and CLD registration.",
+    "free": true
+  },
+  {
+    "id": "res-tool-030",
+    "title": "FDA Product Classification Database",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.laws",
+      "ncle.regulatory"
+    ],
+    "author": "U.S. Food and Drug Administration",
+    "description": "Look up device class and regulation for product codes such as LPL (daily-wear soft lenses), LPM (extended wear, Class III) and HQZ (spectacle frames).",
+    "free": true
+  },
+  {
+    "id": "res-tool-031",
+    "title": "AccessGUDID",
+    "url": "https://accessgudid.nlm.nih.gov/",
+    "kind": "website",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.regulatory",
+      "ncle.dispensing"
+    ],
+    "author": "NLM / FDA",
+    "description": "Public search of FDA's Global Unique Device Identification Database for contact lenses, lens care products and their labeled identifiers.",
+    "free": true
+  },
+  {
+    "id": "res-tool-032",
+    "title": "O*NET: Opticians, Dispensing (29-2081.00)",
+    "url": "https://www.onetonline.org/link/summary/29-2081.00",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "U.S. Department of Labor / O*NET",
+    "description": "Official task, skill, tool and outlook profile for dispensing opticians.",
+    "free": true
+  },
+  {
+    "id": "res-tool-033",
+    "title": "BLS Occupational Outlook: Opticians",
+    "url": "https://www.bls.gov/ooh/healthcare/opticians-dispensing.htm",
+    "kind": "website",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [],
+    "author": "U.S. Bureau of Labor Statistics",
+    "description": "National pay ($47,260 median, May 2025), job count and 2025-35 outlook for opticians.",
+    "free": true
+  },
+  {
+    "id": "res-tool-034",
+    "title": "LensWright: Optician Calc",
+    "url": "https://apps.apple.com/us/app/lenswright-optician-calc/id6790553187",
+    "kind": "app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "Donald Proctor",
+    "description": "Free iPhone optical calculator for eye care professionals and opticianry exam study.",
+    "free": true
+  },
+  {
+    "id": "res-tool-035",
+    "title": "Optical Calculator for ECPs",
+    "url": "https://apps.apple.com/us/app/optical-calculator-for-ecps/id1146297178",
+    "kind": "app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.dispensing"
+    ],
+    "author": "Lens Shapers",
+    "description": "iPhone calculators for lens thickness, vertex, transposition, prism compounding/resolving, tilt and wrap, spectacle magnification and oblique meridians (subscription).",
+    "free": false
+  },
+  {
+    "id": "res-tool-036",
+    "title": "OptiKit",
+    "url": "https://apps.apple.com/us/app/optikit/id6740053137",
+    "kind": "app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "Ronald Baks",
+    "description": "Free iPhone toolkit with step-by-step transposition lessons, unlimited exercises and power-cross and depth-of-field visualizations.",
+    "free": true
+  },
+  {
+    "id": "res-tool-037",
+    "title": "Optics Clinical Calculator",
+    "url": "https://apps.apple.com/us/app/optics-clinical-calculator/id301059660",
+    "kind": "app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "author": "Evan Schoenberg",
+    "description": "Paid iPhone app ($4.99) with 11 clinical optics calculators for prescribing lenses.",
+    "free": false
+  }
+]

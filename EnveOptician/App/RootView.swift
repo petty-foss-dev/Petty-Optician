@@ -65,9 +65,9 @@ struct RootView: View {
                                 .font(.system(size: 18, weight: active ? .semibold : .medium))
                             if active {
                                 Text(tab.label)
-                                    .font(.system(size: 12, weight: .semibold))
+                                    .font(.system(size: 11, weight: .semibold))
                                     .lineLimit(1)
-                                    .minimumScaleFactor(0.8)
+                                    .minimumScaleFactor(0.7)
                                     .transition(.scale.combined(with: .opacity))
                             }
                         }
@@ -81,7 +81,7 @@ struct RootView: View {
             }
         }
         .padding(6)
-        .frame(maxWidth: min(420, CGFloat(Self.tabs.count) * 76 + 24))
+        .frame(maxWidth: min(420, CGFloat(Self.tabs.count) * 84 + 24))
         .frame(height: tabBarHeight)
         .background {
             RoundedRectangle(cornerRadius: 24, style: .continuous)

@@ -59,11 +59,20 @@ struct StudyView: View {
     private var toolkit: some View {
         VStack(alignment: .leading, spacing: 10) {
             SectionTitle(title: "Toolkit")
+            NavigationLink { GlossaryView() } label: {
+                LinkRow(title: "Glossary", subtitle: "\(library.glossary(for: settings.exam).count) terms and abbreviations, A–Z", symbol: "character.book.closed")
+            }
+            NavigationLink { ReferenceTablesView() } label: {
+                LinkRow(title: "Reference Tables", subtitle: "\(library.tables(for: settings.exam).count) at-a-glance charts: materials, tolerances, conversions…", symbol: "tablecells")
+            }
             NavigationLink { DiagramGalleryView() } label: {
                 LinkRow(title: "Diagrams", subtitle: "\(library.diagrams(for: settings.exam).count) labeled, source-checked illustrations", symbol: "photo.on.rectangle.angled")
             }
             NavigationLink { PhotoAtlasView() } label: {
                 LinkRow(title: "Photo Atlas", subtitle: "\(library.images(for: settings.exam).count) real instruments, lenses and eye conditions", symbol: "photo.stack")
+            }
+            NavigationLink { SimulatorLabView() } label: {
+                LinkRow(title: "Simulator Lab", subtitle: "Lensometer trainer plus free online simulators and tools", symbol: "scope")
             }
             NavigationLink { CalculatorsView() } label: {
                 LinkRow(title: "Optics Calculators", subtitle: "Transposition, Prentice, vertex, MBS, K readings…", symbol: "function")

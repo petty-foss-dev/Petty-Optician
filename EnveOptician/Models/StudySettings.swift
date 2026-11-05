@@ -8,6 +8,9 @@ final class StudySettings: ObservableObject {
     private static let examKey = "enveoptician.selectedExam"
     private static let studyDaysKey = "enveoptician.studyDays"
     private static let dailyCardLimitKey = "enveoptician.dailyNewCards"
+    private static let examDatesKey = "enveoptician.examDates"
+    private static let reminderKey = "enveoptician.reminderEnabled"
+    private static let reminderMinutesKey = "enveoptician.reminderMinutes"
 
     @Published var exam: ExamID {
         didSet { UserDefaults.standard.set(exam.rawValue, forKey: Self.examKey) }
@@ -15,6 +18,25 @@ final class StudySettings: ObservableObject {
 
     @Published var dailyNewCards: Int {
         didSet { UserDefaults.standard.set(dailyNewCards, forKey: Self.dailyCardLimitKey) }
+    }
+
+    @Published private var examDateStamps: [String: Double] {
+        didSet { UserDefaults.standard.set(examDateStamps, forKey: Self.examDatesKey) }
+    }
+
+    @Published var reminderEnabled: Bool {
+        didSet {
+            UserDefaults.standard.set(reminderEnabled, forKey: Self.reminderKey)
+            Task { await StudyReminder.sync(self) }
+        }
+    }
+
+    /// Minutes after midnight for the daily reminder.
+    @Published var reminderMinutes: Int {
+        didSet {
+            UserDefaults.standard.set(reminderMinutes, forKey: Self.reminderMinutesKey)
+            Task { await StudyReminder.sync(self) }
+        }
     }
 
     @Published private(set) var studyDays: Set<String> {
@@ -27,6 +49,31 @@ final class StudySettings: ObservableObject {
         studyDays = Set(defaults.stringArray(forKey: Self.studyDaysKey) ?? [])
         let limit = defaults.integer(forKey: Self.dailyCardLimitKey)
         dailyNewCards = limit == 0 ? 20 : limit
+        examDateStamps = defaults.dictionary(forKey: Self.examDatesKey) as? [String: Double] ?? [:]
+        reminderEnabled = defaults.bool(forKey: Self.reminderKey)
+        reminderMinutes = defaults.object(forKey: Self.reminderMinutesKey) as? Int ?? 19 * 60
+    }
+
+    func examDate(for exam: ExamID) -> Date? {
+        examDateStamps[exam.rawValue].map(Date.init(timeIntervalSince1970:))
+    }
+
+    func setExamDate(_ date: Date?, for exam: ExamID) {
+        examDateStamps[exam.rawValue] = date?.timeIntervalSince1970
+    }
+
+    func daysUntilExam(_ exam: ExamID, from now: Date = .now) -> Int? {
+        examDate(for: exam).map {
+            Calendar.current.dateComponents([.day], from: Calendar.current.startOfDay(for: now), to: Calendar.current.startOfDay(for: $0)).day ?? 0
+        }
+    }
+
+    var reminderTime: Date {
+        get { Calendar.current.date(bySettingHour: reminderMinutes / 60, minute: reminderMinutes % 60, second: 0, of: .now) ?? .now }
+        set {
+            let c = Calendar.current.dateComponents([.hour, .minute], from: newValue)
+            reminderMinutes = (c.hour ?? 19) * 60 + (c.minute ?? 0)
+        }
     }
 
     func recordStudy(on date: Date = .now) {

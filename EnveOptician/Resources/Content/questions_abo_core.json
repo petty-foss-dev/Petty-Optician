@@ -3041,10 +3041,10 @@
       "Z80.1-1999",
       "Z80.1-2005",
       "Z80.1-2010",
-      "Z80.1-2020"
+      "Z80.1-2025"
     ],
     "answer": 3,
-    "explanation": "The current edition is ANSI Z80.1-2020. Its main power, axis, add, and prism tolerances match the 2015 edition."
+    "explanation": "The current edition is ANSI Z80.1-2025, which supersedes the 2020 edition. Its main power, axis, add, and prism-imbalance tolerances are unchanged; the revision adds a tolerance for prescribed prism and revises the tolerance summary table."
   },
   {
     "id": "abo-std-003",
@@ -3084,7 +3084,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, what is the sphere power tolerance for a single-vision −4.50 D sphere lens?",
+    "stem": "Under ANSI Z80.1-2025, what is the sphere power tolerance for a single-vision −4.50 D sphere lens?",
     "choices": [
       "±0.06 D",
       "±0.13 D",
@@ -3100,7 +3100,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 3,
-    "stem": "Under ANSI Z80.1-2020, what is the sphere power tolerance for a +8.00 D single-vision sphere lens?",
+    "stem": "Under ANSI Z80.1-2025, what is the sphere power tolerance for a +8.00 D single-vision sphere lens?",
     "choices": [
       "±0.08 D",
       "±0.13 D",
@@ -3116,7 +3116,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 3,
-    "stem": "Under ANSI Z80.1-2020, what is the sphere power tolerance for a −10.00 D single-vision sphere lens?",
+    "stem": "Under ANSI Z80.1-2025, what is the sphere power tolerance for a −10.00 D single-vision sphere lens?",
     "choices": [
       "±0.10 D",
       "±0.13 D",
@@ -3132,7 +3132,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 2,
-    "stem": "A single-vision lens is ordered at −2.00 D sphere. Which lensmeter reading is within ANSI Z80.1-2020 tolerance?",
+    "stem": "A single-vision lens is ordered at −2.00 D sphere. Which lensmeter reading is within ANSI Z80.1-2025 tolerance?",
     "choices": [
       "−1.75 D",
       "−2.12 D",
@@ -3148,7 +3148,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 3,
-    "stem": "A single-vision lens is ordered at +7.50 D sphere. Which reading is OUT of ANSI Z80.1-2020 tolerance?",
+    "stem": "A single-vision lens is ordered at +7.50 D sphere. Which reading is OUT of ANSI Z80.1-2025 tolerance?",
     "choices": [
       "+7.37 D",
       "+7.62 D",
@@ -3164,7 +3164,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020 (single vision), what is the cylinder power tolerance for a −1.75 D cylinder?",
+    "stem": "Under ANSI Z80.1-2025 (single vision), what is the cylinder power tolerance for a −1.75 D cylinder?",
     "choices": [
       "±0.13 D",
       "±0.15 D",
@@ -3180,7 +3180,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020 (single vision), what is the cylinder power tolerance for a −3.25 D cylinder?",
+    "stem": "Under ANSI Z80.1-2025 (single vision), what is the cylinder power tolerance for a −3.25 D cylinder?",
     "choices": [
       "±0.13 D",
       "±0.15 D",
@@ -3196,7 +3196,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 3,
-    "stem": "Under ANSI Z80.1-2020 (single vision), what is the cylinder tolerance for a −6.00 D cylinder?",
+    "stem": "Under ANSI Z80.1-2025 (single vision), what is the cylinder tolerance for a −6.00 D cylinder?",
     "choices": [
       "±0.12 D",
       "±0.15 D",
@@ -3212,7 +3212,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Power Tolerances",
     "difficulty": 2,
-    "stem": "For a progressive addition lens, what is the ANSI Z80.1-2020 sphere power tolerance for powers from −8.00 D to +8.00 D?",
+    "stem": "For a progressive addition lens, what is the ANSI Z80.1-2025 sphere power tolerance for powers from −8.00 D to +8.00 D?",
     "choices": [
       "±0.12 D",
       "±0.13 D",
@@ -3228,7 +3228,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Axis Tolerances",
     "difficulty": 1,
-    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a 0.25 D cylinder?",
+    "stem": "Under ANSI Z80.1-2025, what is the axis tolerance for a 0.25 D cylinder?",
     "choices": [
       "±2°",
       "±5°",
@@ -3244,7 +3244,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Axis Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a −0.50 D cylinder?",
+    "stem": "Under ANSI Z80.1-2025, what is the axis tolerance for a −0.50 D cylinder?",
     "choices": [
       "±14°",
       "±7°",
@@ -3260,7 +3260,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Axis Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a −0.75 D cylinder?",
+    "stem": "Under ANSI Z80.1-2025, what is the axis tolerance for a −0.75 D cylinder?",
     "choices": [
       "±2°",
       "±3°",
@@ -3276,7 +3276,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Axis Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a −1.25 D cylinder?",
+    "stem": "Under ANSI Z80.1-2025, what is the axis tolerance for a −1.25 D cylinder?",
     "choices": [
       "±2°",
       "±3°",
@@ -3292,7 +3292,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Axis Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a −2.50 D cylinder?",
+    "stem": "Under ANSI Z80.1-2025, what is the axis tolerance for a −2.50 D cylinder?",
     "choices": [
       "±1°",
       "±2°",
@@ -3308,7 +3308,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Axis Tolerances",
     "difficulty": 3,
-    "stem": "The Rx is −1.25 −0.75 × 090. Which axis range is acceptable under ANSI Z80.1-2020?",
+    "stem": "The Rx is −1.25 −0.75 × 090. Which axis range is acceptable under ANSI Z80.1-2025?",
     "choices": [
       "076 to 104",
       "083 to 097",
@@ -3324,7 +3324,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Axis Tolerances",
     "difficulty": 3,
-    "stem": "The Rx is −2.00 −1.00 × 180. The finished lens reads −2.00 −1.00 × 004. Is the axis within ANSI Z80.1-2020 tolerance?",
+    "stem": "The Rx is −2.00 −1.00 × 180. The finished lens reads −2.00 −1.00 × 004. Is the axis within ANSI Z80.1-2025 tolerance?",
     "choices": [
       "No — it is 4° off, and the tolerance for a 1.00 D cylinder is ±3°",
       "Yes — the tolerance for a 1.00 D cylinder is ±5°",
@@ -3340,7 +3340,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Add Tolerances",
     "difficulty": 1,
-    "stem": "Under ANSI Z80.1-2020, what is the add power tolerance for a +2.50 D add?",
+    "stem": "Under ANSI Z80.1-2025, what is the add power tolerance for a +2.50 D add?",
     "choices": [
       "±0.06 D",
       "±0.12 D",
@@ -3356,7 +3356,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Add Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, what is the add power tolerance for a +4.50 D add?",
+    "stem": "Under ANSI Z80.1-2025, what is the add power tolerance for a +4.50 D add?",
     "choices": [
       "±2%",
       "±0.25 D",
@@ -3372,7 +3372,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Prism Tolerances",
     "difficulty": 2,
-    "stem": "For a single lens under ANSI Z80.1-2020, the prism at the prism reference point may not exceed:",
+    "stem": "For a single lens under ANSI Z80.1-2025, the prism at the prism reference point may not exceed:",
     "choices": [
       "0.12Δ, or within 0.5 mm",
       "0.33Δ, or the PRP must be within 1.0 mm of its specified position",
@@ -3388,7 +3388,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Prism Tolerances",
     "difficulty": 2,
-    "stem": "For mounted single-vision lenses of ±3.375 D or less in the vertical meridian, the maximum allowed vertical prism imbalance under ANSI Z80.1-2020 is:",
+    "stem": "For mounted single-vision lenses of ±3.375 D or less in the vertical meridian, the maximum allowed vertical prism imbalance under ANSI Z80.1-2025 is:",
     "choices": [
       "1.00Δ",
       "0.67Δ",
@@ -3404,7 +3404,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Prism Tolerances",
     "difficulty": 2,
-    "stem": "For mounted single-vision lenses of ±2.75 D or less in the horizontal meridian, the maximum allowed horizontal prism imbalance under ANSI Z80.1-2020 is:",
+    "stem": "For mounted single-vision lenses of ±2.75 D or less in the horizontal meridian, the maximum allowed horizontal prism imbalance under ANSI Z80.1-2025 is:",
     "choices": [
       "0.33Δ",
       "0.67Δ",
@@ -3420,7 +3420,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Prism Tolerances",
     "difficulty": 2,
-    "stem": "For mounted single-vision lenses with vertical meridian powers stronger than ±3.375 D, ANSI Z80.1-2020 limits vertical imbalance by requiring:",
+    "stem": "For mounted single-vision lenses with vertical meridian powers stronger than ±3.375 D, ANSI Z80.1-2025 limits vertical imbalance by requiring:",
     "choices": [
       "The PRP heights to differ by no more than 1.0 mm",
       "No more than 0.33Δ regardless of power",
@@ -3436,7 +3436,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Prism Tolerances",
     "difficulty": 2,
-    "stem": "For mounted single-vision lenses with horizontal meridian powers stronger than ±2.75 D, the ANSI Z80.1-2020 horizontal tolerance is:",
+    "stem": "For mounted single-vision lenses with horizontal meridian powers stronger than ±2.75 D, the ANSI Z80.1-2025 horizontal tolerance is:",
     "choices": [
       "Measured PD within ±1.0 mm of the specified distance PD",
       "No more than 0.33Δ horizontal imbalance",
@@ -3452,7 +3452,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Prism Tolerances",
     "difficulty": 3,
-    "stem": "For progressive lenses with horizontal meridian powers stronger than ±3.75 D, ANSI Z80.1-2020 requires that:",
+    "stem": "For progressive lenses with horizontal meridian powers stronger than ±3.75 D, ANSI Z80.1-2025 requires that:",
     "choices": [
       "Each fitting cross be within 1.0 mm of the specified monocular PD",
       "The binocular PD be within ±2.5 mm",
@@ -3468,7 +3468,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Prism Tolerances",
     "difficulty": 3,
-    "stem": "Both single-vision lenses are −2.00 D sphere. The ordered PD is 64 mm, but the optical centers measure 60 mm apart. Is the horizontal prism within ANSI Z80.1-2020 tolerance?",
+    "stem": "Both single-vision lenses are −2.00 D sphere. The ordered PD is 64 mm, but the optical centers measure 60 mm apart. Is the horizontal prism within ANSI Z80.1-2025 tolerance?",
     "choices": [
       "Yes — it creates 0.4Δ total, under 0.67Δ",
       "Yes — the PD is within ±2.5 mm, which is the tolerance at this power",
@@ -3484,7 +3484,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Prism Tolerances",
     "difficulty": 3,
-    "stem": "OD −1.00 D sphere, OS −3.00 D sphere. The OD optical center is at pupil height; the OS optical center is 1.0 mm above the pupil. Is the vertical imbalance within ANSI Z80.1-2020 tolerance?",
+    "stem": "OD −1.00 D sphere, OS −3.00 D sphere. The OD optical center is at pupil height; the OS optical center is 1.0 mm above the pupil. Is the vertical imbalance within ANSI Z80.1-2025 tolerance?",
     "choices": [
       "Yes — the imbalance is 0.30Δ, within 0.33Δ",
       "No — the imbalance is 3.0Δ",
@@ -3500,7 +3500,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Other Tolerances",
     "difficulty": 1,
-    "stem": "When a base curve is specified, the ANSI Z80.1-2020 base curve tolerance is:",
+    "stem": "When a base curve is specified, the ANSI Z80.1-2025 base curve tolerance is:",
     "choices": [
       "±0.12 D",
       "±0.25 D",
@@ -3516,7 +3516,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Other Tolerances",
     "difficulty": 1,
-    "stem": "Under ANSI Z80.1-2020, center thickness (when specified) must be within:",
+    "stem": "Under ANSI Z80.1-2025, center thickness (when specified) must be within:",
     "choices": [
       "±0.1 mm",
       "±0.3 mm",
@@ -3532,7 +3532,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Other Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, the segment height tolerance for each multifocal lens is:",
+    "stem": "Under ANSI Z80.1-2025, the segment height tolerance for each multifocal lens is:",
     "choices": [
       "±2.5 mm from the specified near PD",
       "±2.0 mm, and the pair may differ by up to 2.0 mm",
@@ -3548,7 +3548,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Other Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, the segment tilt tolerance for each lined multifocal lens is:",
+    "stem": "Under ANSI Z80.1-2025, the segment tilt tolerance for each lined multifocal lens is:",
     "choices": [
       "±0.5° from the 180 line",
       "±2° from the 180 line",
@@ -3564,7 +3564,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Other Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, segment dimensions (width, depth) may deviate from the nominal value by no more than:",
+    "stem": "Under ANSI Z80.1-2025, segment dimensions (width, depth) may deviate from the nominal value by no more than:",
     "choices": [
       "±2.0 mm",
       "±1.0 mm",
@@ -3580,7 +3580,7 @@
     "domain": "abo.laws",
     "topic": "Z80.1 Other Tolerances",
     "difficulty": 2,
-    "stem": "Under ANSI Z80.1-2020, the distance between the segment geometric centers of a mounted multifocal pair must be within what tolerance of the specified near PD?",
+    "stem": "Under ANSI Z80.1-2025, the distance between the segment geometric centers of a mounted multifocal pair must be within what tolerance of the specified near PD?",
     "choices": [
       "±0.5 mm",
       "±1.0 mm",

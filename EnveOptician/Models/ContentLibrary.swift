@@ -9,6 +9,8 @@ struct ContentLibrary: Sendable {
     let resources: [StudyResource]
     let diagrams: [DiagramInfo]
     let images: [ImageInfo]
+    let glossary: [GlossaryTerm]
+    let tables: [ReferenceTable]
     let california: CaliforniaGuide
 
     private let domainNames: [String: String]
@@ -29,6 +31,8 @@ struct ContentLibrary: Sendable {
         resources: [StudyResource],
         diagrams: [DiagramInfo],
         images: [ImageInfo],
+        glossary: [GlossaryTerm],
+        tables: [ReferenceTable],
         california: CaliforniaGuide
     ) {
         self.exams = exams
@@ -43,6 +47,8 @@ struct ContentLibrary: Sendable {
         self.resources = resources
         self.diagrams = diagrams
         self.images = images
+        self.glossary = glossary.sorted { $0.term.localizedCaseInsensitiveCompare($1.term) == .orderedAscending }
+        self.tables = tables
         self.california = california
         domainNames = Dictionary(
             exams.flatMap(\.domains).map { ($0.id, $0.name) },
@@ -83,6 +89,8 @@ struct ContentLibrary: Sendable {
             resources: all("resources_", as: StudyResource.self),
             diagrams: decode([DiagramInfo].self, file: single("diagrams.json")),
             images: decode([ImageInfo].self, file: single("images.json")),
+            glossary: all("glossary_", as: GlossaryTerm.self),
+            tables: all("tables_", as: ReferenceTable.self),
             california: decode(CaliforniaGuide.self, file: single("california.json"))
         )
     }
@@ -112,6 +120,10 @@ struct ContentLibrary: Sendable {
     func images(for exam: ExamID, domain: String? = nil) -> [ImageInfo] {
         images.filter { $0.exams.contains(exam) && (domain.map($0.domains.contains) ?? true) }
     }
+
+    func glossary(for exam: ExamID) -> [GlossaryTerm] { glossary.filter { $0.exams.contains(exam) } }
+
+    func tables(for exam: ExamID) -> [ReferenceTable] { tables.filter { $0.exams.contains(exam) } }
 
     func topics(for exam: ExamID, domain: String) -> [(name: String, count: Int)] {
         Dictionary(grouping: questions(for: exam, domain: domain), by: \.topic)

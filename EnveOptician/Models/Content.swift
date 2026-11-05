@@ -127,6 +127,32 @@ struct ImageInfo: Codable, Identifiable, Hashable, Sendable {
     }
 }
 
+struct GlossaryTerm: Codable, Identifiable, Hashable, Sendable {
+    let id: String
+    let term: String
+    let definition: String
+    let aliases: [String]?
+    let exams: [ExamID]
+    let domains: [String]
+    let source: SourceLink?
+
+    var index: String {
+        let first = term.first.map { String($0).uppercased() } ?? "#"
+        return first.rangeOfCharacter(from: .letters) == nil ? "#" : first
+    }
+}
+
+struct ReferenceTable: Codable, Identifiable, Hashable, Sendable {
+    let id: String
+    let title: String
+    let exams: [ExamID]
+    let domains: [String]
+    let columns: [String]
+    let rows: [[String]]
+    let notes: String?
+    let sources: [SourceLink]?
+}
+
 struct DiagramInfo: Codable, Identifiable, Hashable, Sendable {
     let id: String
     let title: String
@@ -229,7 +255,20 @@ struct SourceLink: Codable, Hashable, Sendable {
     let url: URL
 }
 
+struct CareerStat: Codable, Hashable, Sendable {
+    let label: String
+    let value: String
+}
+
+struct CareerOutlook: Codable, Sendable {
+    let summary: String
+    let stats: [CareerStat]
+    let asOf: String?
+    let links: [SourceLink]
+}
+
 struct CaliforniaGuide: Codable, Sendable {
+    let career: CareerOutlook?
     let summary: String
     let credentials: [CaliforniaCredential]
     let steps: [CaliforniaStep]

@@ -12,6 +12,8 @@ struct PracticeView: View {
     @State private var source = QuizConfig.Source.all
     @State private var count = 20
     @State private var timed = false
+    @State private var choosingDrills = false
+    @State private var showingLensometer = false
     private let library = ContentLibrary.shared
 
     private var exam: ExamID { settings.exam }
@@ -55,6 +57,23 @@ struct PracticeView: View {
                     start("Flagged Questions", flagged.shuffled())
                 }
                 .disabled(flagged.isEmpty)
+                QuickAction(title: "Math Drills", subtitle: "Endless calculations", symbol: "function") { choosingDrills = true }
+                if exam == .abo {
+                    QuickAction(title: "Lensometer", subtitle: "Read lenses by hand", symbol: "scope") { showingLensometer = true }
+                }
+            }
+        }
+        .sheet(isPresented: $choosingDrills) {
+            DrillPicker(exam: exam) { questions in
+                choosingDrills = false
+                start("Math Drills", questions)
+            }
+            .presentationDetents([.medium, .large])
+        }
+        .sheet(isPresented: $showingLensometer) {
+            NavigationStack {
+                LensometerTrainerView()
+                    .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { showingLensometer = false } } }
             }
         }
     }

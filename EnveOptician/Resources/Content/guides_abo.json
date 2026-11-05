@@ -511,7 +511,7 @@
     "sections": [
       {
         "heading": "Which standard covers what",
-        "body": "- **ANSI Z80.1-2020**: prescription dress-eyewear lenses (current edition)\n- **ANSI/ISEA Z87.1**: occupational and educational eye and face protection\n- **ANSI Z80.3**: nonprescription sunglasses and fashion eyewear\n- **21 CFR 801.410**: FDA impact resistance for eyeglasses and sunglasses\n- **16 CFR Part 456**: FTC Eyeglass Rule (prescription release)"
+        "body": "- **ANSI Z80.1-2025**: prescription dress-eyewear lenses (current edition; supersedes Z80.1-2020)\n- **ANSI/ISEA Z87.1**: occupational and educational eye and face protection\n- **ANSI Z80.3**: nonprescription sunglasses and fashion eyewear\n- **21 CFR 801.410**: FDA impact resistance for eyeglasses and sunglasses\n- **16 CFR Part 456**: FTC Eyeglass Rule (prescription release)"
       },
       {
         "heading": "Z80.1 power tolerances",
@@ -523,7 +523,7 @@
       },
       {
         "heading": "Z80.1 prism and location tolerances",
-        "body": "**Single lens at the PRP**: ≤0.33Δ, or the PRP within 1.0 mm of its specified position.\n\nMounted pair, single vision and multifocal:\n\n- **Vertical, up to ±3.375 D**: ≤0.33Δ imbalance; **above**: PRP heights differ by ≤1.0 mm\n- **Horizontal, up to ±2.75 D**: ≤0.67Δ imbalance; **above**: PD within ±2.5 mm of the specified distance PD\n\nProgressives: vertical as above; horizontal ≤0.67Δ up to ±3.75 D, and above that each fitting cross within 1.0 mm of the specified monocular PD.\n\nWork each problem with Prentice's rule, then compare with the limit for that power range."
+        "body": "**Single lens at the PRP**: ≤0.33Δ, or the PRP within 1.0 mm of its specified position.\n\n**Prescribed prism** (new in Z80.1-2025): ±0.33Δ for 6Δ or less; ±0.5Δ above 6Δ.\n\nMounted pair, single vision and multifocal:\n\n- **Vertical, up to ±3.375 D**: ≤0.33Δ imbalance; **above**: PRP heights differ by ≤1.0 mm\n- **Horizontal, up to ±2.75 D**: ≤0.67Δ imbalance; **above**: PD within ±2.5 mm of the specified distance PD\n\nProgressives: vertical as above; horizontal ≤0.67Δ up to ±3.75 D, and above that each fitting cross within 1.0 mm of the specified monocular PD.\n\nWork each problem with Prentice's rule, then compare with the limit for that power range."
       },
       {
         "heading": "Other Z80.1 tolerances",

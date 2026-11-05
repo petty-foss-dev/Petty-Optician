@@ -10,6 +10,10 @@ struct CalculatorsView: View {
         case keratometry = "K Readings & Tear Lens"
         case blank = "Minimum Blank Size"
         case nearPD = "Near PD"
+        case thickness = "Lens Thickness"
+        case toric = "Toric Rotation (LARS)"
+        case rigid = "RGP Lens Power"
+        case dkt = "Oxygen Transmissibility (Dk/t)"
 
         var id: String { rawValue }
 
@@ -23,24 +27,37 @@ struct CalculatorsView: View {
             case .keratometry: "eye"
             case .blank: "circle.dashed"
             case .nearPD: "book"
+            case .thickness: "ruler.fill"
+            case .toric: "arrow.triangle.2.circlepath"
+            case .rigid: "circle.circle"
+            case .dkt: "aqi.medium"
             }
         }
     }
 
     @Environment(\.bottomBarInset) private var bottomBarInset
 
+    private static let spectacleTools: [Tool] = [.transpose, .prentice, .imbalance, .vertex, .oblique, .blank, .nearPD, .thickness]
+    private static let contactTools: [Tool] = [.keratometry, .rigid, .toric, .dkt, .vertex]
+
     var body: some View {
-        List(Tool.allCases) { tool in
-            NavigationLink {
-                ToolScreen(tool: tool)
-            } label: {
-                Label(tool.rawValue, systemImage: tool.symbol)
-            }
-            .listRowBackground(Rectangle().fill(.ultraThinMaterial))
+        List {
+            Section("Spectacles") { ForEach(Self.spectacleTools) { row($0) } }
+            Section("Contact Lenses") { ForEach(Self.contactTools) { row($0) } }
         }
+        .scrollContentBackground(.hidden)
         .safeAreaPadding(.bottom, bottomBarInset)
         .enveScreen()
         .navigationTitle("Calculators")
+    }
+
+    private func row(_ tool: Tool) -> some View {
+        NavigationLink {
+            ToolScreen(tool: tool)
+        } label: {
+            Label(tool.rawValue, systemImage: tool.symbol)
+        }
+        .listRowBackground(Rectangle().fill(.ultraThinMaterial))
     }
 }
 
@@ -60,6 +77,10 @@ private struct ToolScreen: View {
                 case .keratometry: KeratometryTool()
                 case .blank: BlankSizeTool()
                 case .nearPD: NearPDTool()
+                case .thickness: ThicknessTool()
+                case .toric: ToricTool()
+                case .rigid: RigidPowerTool()
+                case .dkt: DkTTool()
                 }
             }
             .padding()
@@ -296,6 +317,98 @@ private struct NearPDTool: View {
             title: "Near PD",
             value: String(format: "%.1f mm", OpticsMath.nearPD(distancePD: pd, workingDistanceMM: distance)),
             detail: "Near PD = PD × d ÷ (d + 27), where 27 mm ≈ vertex distance + distance to the eye's center of rotation. Rule of thumb: about 3–4 mm less than distance PD at 40 cm."
+        )
+    }
+}
+
+private struct ThicknessTool: View {
+    @State private var power = -6.00
+    @State private var index = 1.586
+    @State private var diameter = 60.0
+    @State private var minimum = 1.5
+
+    var body: some View {
+        let sag = OpticsMath.sagitta(power: power, index: index, semiDiameterMM: diameter / 2)
+        let isMinus = power < 0
+        InputPanel {
+            NumberField(label: "Lens power", value: $power, unit: "D")
+            NumberField(label: "Index", value: $index)
+            NumberField(label: "Diameter", value: $diameter, unit: "mm")
+            NumberField(label: isMinus ? "Center thickness" : "Edge thickness", value: $minimum, unit: "mm")
+        }
+        if let sag {
+            ResultPanel(
+                title: isMinus ? "Edge Thickness" : "Center Thickness",
+                value: String(format: "%.1f mm", minimum + sag),
+                detail: String(format: "Sagitta = r − √(r² − y²) = %.2f mm, with r = 1000(n − 1) ÷ |F| and y = half the diameter. Estimate for a thin lens; real lenses vary with base curve and design. Smaller frames and higher index reduce thickness.", sag)
+            )
+        } else {
+            ResultPanel(title: "Not Possible", value: "—", detail: "The surface radius is smaller than half the diameter. Reduce the diameter or the power.")
+        }
+    }
+}
+
+private struct ToricTool: View {
+    @State private var axis = 180.0
+    @State private var rotation = 10.0
+    @State private var toLeft = true
+
+    var body: some View {
+        InputPanel {
+            NumberField(label: "Rx axis", value: $axis, unit: "°")
+            NumberField(label: "Observed rotation", value: $rotation, unit: "°")
+            Picker("Rotation (examiner's view)", selection: $toLeft) {
+                Text("Left / clockwise").tag(true)
+                Text("Right / counterclockwise").tag(false)
+            }
+            .pickerStyle(.segmented)
+        }
+        ResultPanel(
+            title: "Order Axis",
+            value: String(format: "%03d", OpticsMath.compensatedToricAxis(Int(axis), rotation: Int(rotation), toLeft: toLeft)),
+            detail: "LARS: Left Add, Right Subtract (as you face the patient); also called CAAS: Clockwise Add, Anticlockwise Subtract. Judge rotation from the lens marking after the lens settles."
+        )
+    }
+}
+
+private struct RigidPowerTool: View {
+    @State private var sphere = -3.00
+    @State private var vertex = 12.0
+    @State private var flatK = 43.00
+    @State private var baseCurve = 7.80
+
+    var body: some View {
+        let tear = OpticsMath.tearLensPower(baseCurveMM: baseCurve, flatKMM: OpticsMath.radiusMM(diopters: flatK))
+        let power = OpticsMath.rigidLensPower(sphere: sphere, vertexMM: vertex, baseCurveMM: baseCurve, flatKDiopters: flatK)
+        InputPanel {
+            NumberField(label: "Rx sphere (minus cyl)", value: $sphere, unit: "D")
+            NumberField(label: "Vertex distance", value: $vertex, unit: "mm")
+            NumberField(label: "Flat K", value: $flatK, unit: "D")
+            NumberField(label: "Base curve", value: $baseCurve, unit: "mm")
+        }
+        ResultPanel(
+            title: "RGP Power",
+            value: OpticsMath.formatPower(OpticsMath.roundToQuarter(power)),
+            detail: String(format: "Sphere at the cornea %@, tear lens %@ (base curve %.2f D vs flat K %.2f D). CL power = corneal-plane sphere − tear lens (SAM-FAP). A spherical RGP neutralizes corneal astigmatism; any leftover is residual astigmatism.",
+                           OpticsMath.formatPower(OpticsMath.compensatedPower(sphere, moveMM: vertex)), OpticsMath.formatPower(tear),
+                           OpticsMath.keratometricDiopters(radiusMM: baseCurve), flatK)
+        )
+    }
+}
+
+private struct DkTTool: View {
+    @State private var dk = 100.0
+    @State private var thickness = 0.08
+
+    var body: some View {
+        InputPanel {
+            NumberField(label: "Dk (×10⁻¹¹)", value: $dk)
+            NumberField(label: "Center thickness", value: $thickness, unit: "mm")
+        }
+        ResultPanel(
+            title: "Dk/t",
+            value: String(format: "%.0f ×10⁻⁹", OpticsMath.oxygenTransmissibility(dk: dk, thicknessMM: thickness)),
+            detail: "Dk is a material property; Dk/t depends on lens thickness, so thicker minus or plus lenses transmit less oxygen. Holden–Mertz criteria: about 24 to avoid edema in daily wear and 87 for overnight wear."
         )
     }
 }

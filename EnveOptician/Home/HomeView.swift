@@ -19,7 +19,7 @@ struct HomeView: View {
         let ids = Set(questions.map(\.id))
         let examStats = stats.filter { ids.contains($0.questionID) && $0.seen > 0 }
         let mastered = examStats.filter(\.lastWasCorrect).count
-        let readiness = questions.isEmpty ? 0 : Double(mastered) / Double(questions.count)
+        let readiness = weightedReadiness(stats: examStats)
         let cardIDs = Set(library.flashcards(for: exam).map(\.id))
         let dueCards = reviews.filter { cardIDs.contains($0.cardID) && $0.due <= .now }
 
@@ -29,6 +29,8 @@ struct HomeView: View {
                     ExamSwitcher()
 
                     hero(readiness: readiness, mastered: mastered, total: questions.count, answered: examStats.count)
+
+                    ExamPlanCard(unseen: questions.count - examStats.count, dueCards: dueCards.count)
 
                     HStack(spacing: 12) {
                         StatTile(value: "\(settings.streak)", label: "Day streak", symbol: "flame.fill")
@@ -80,6 +82,19 @@ struct HomeView: View {
         .sheet(isPresented: $showingSettings) { SettingsView() }
     }
 
+    /// Mastery per official section, weighted by its share of the exam.
+    private func weightedReadiness(stats: [QuestionStat]) -> Double {
+        let correct = Set(stats.filter(\.lastWasCorrect).map(\.questionID))
+        let domains = library.domains(for: exam)
+        let totalWeight = domains.map(\.weight).reduce(0, +)
+        guard totalWeight > 0 else { return 0 }
+        return domains.reduce(0) { sum, domain in
+            let ids = library.questions(for: exam, domain: domain.id).map(\.id)
+            guard !ids.isEmpty else { return sum }
+            return sum + domain.weight * Double(ids.filter(correct.contains).count) / Double(ids.count)
+        } / totalWeight
+    }
+
     private func hero(readiness: Double, mastered: Int, total: Int, answered: Int) -> some View {
         let info = library.exam(exam)
         return Panel(padding: 20) {
@@ -103,7 +118,7 @@ struct HomeView: View {
                     Text("\(mastered) of \(total) questions answered correctly")
                         .font(.subheadline)
                         .foregroundStyle(palette.secondaryText)
-                    Text("\(answered) attempted")
+                    Text("\(answered) attempted · weighted by the official outline")
                         .font(.caption)
                         .foregroundStyle(palette.tertiaryText)
                 }

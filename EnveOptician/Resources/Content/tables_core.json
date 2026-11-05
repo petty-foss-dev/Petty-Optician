@@ -1,0 +1,1848 @@
+[
+ {
+  "id": "tbl-lens-materials",
+  "title": "Spectacle Lens Materials",
+  "exams": [
+   "abo"
+  ],
+  "domains": [
+   "abo.products"
+  ],
+  "columns": [
+   "Material",
+   "Index",
+   "Abbe",
+   "Specific gravity",
+   "Notes"
+  ],
+  "rows": [
+   [
+    "CR-39 (hard resin)",
+    "1.498",
+    "58",
+    "1.32",
+    "Base-index plastic; reflects about 4.0% per surface"
+   ],
+   [
+    "Trivex",
+    "1.53",
+    "46",
+    "1.11",
+    "Lightest material; impact resistant; good for drill mounts"
+   ],
+   [
+    "Polycarbonate",
+    "1.586",
+    "29",
+    "1.21",
+    "Most impact resistant; blocks UV; lowest Abbe of common plastics"
+   ],
+   [
+    "1.60 plastic (MR-6)",
+    "1.60",
+    "42",
+    "1.22",
+    "Mid/high-index plastic; reflects about 5.3% per surface"
+   ],
+   [
+    "1.66/1.67 plastic (MR-7)",
+    "1.66",
+    "32",
+    "1.35",
+    "High index; AR coating recommended"
+   ],
+   [
+    "1.74 plastic (MR-174)",
+    "1.74",
+    "32",
+    "1.47",
+    "Thinnest plastic; highest reflectance (about 7.3% per surface)"
+   ],
+   [
+    "Crown glass",
+    "1.52",
+    "59",
+    "2.54",
+    "Scratch resistant, heavy; must be tempered"
+   ],
+   [
+    "1.60 glass",
+    "1.60",
+    "42",
+    "2.60",
+    "High-index glass"
+   ],
+   [
+    "1.70 glass",
+    "1.70",
+    "35",
+    "3.20",
+    "High-index glass"
+   ],
+   [
+    "1.80 glass",
+    "1.80",
+    "25",
+    "3.66",
+    "Highest-index glass; heaviest"
+   ]
+  ],
+  "notes": "Abbe and specific gravity from the Laramy-K comparison chart (it rounds index, e.g. polycarbonate 1.58, MR-174 1.75); other suppliers list polycarbonate as Abbe 30, SG 1.20 and Trivex as Abbe 43–44.",
+  "sources": [
+   {
+    "title": "How to Choose Lens Material | Laramy-K Independent Optical Lab",
+    "url": "https://www.laramyk.com/resources/education/lens-options-and-materials/lens-materials/"
+   },
+   {
+    "title": "CR-39 vs Poly vs Trivex: Index, Abbe and Weight Chart",
+    "url": "https://www.optogrid.com/blog/lens-material-comparison/"
+   }
+  ]
+ },
+ {
+  "id": "tbl-ansi-z80-1-2020",
+  "title": "ANSI Z80.1-2020 Key Tolerances",
+  "exams": [
+   "abo"
+  ],
+  "domains": [
+   "abo.laws",
+   "abo.dispensing"
+  ],
+  "columns": [
+   "Parameter",
+   "Range / condition",
+   "Tolerance"
+  ],
+  "rows": [
+   [
+    "Sphere meridian (SV & lined MF)",
+    "−6.50 to +6.50 D",
+    "±0.13 D"
+   ],
+   [
+    "Sphere meridian (SV & lined MF)",
+    "Stronger than ±6.50 D",
+    "±2%"
+   ],
+   [
+    "Cylinder (SV & lined MF)",
+    "0.00 to 2.00 D",
+    "±0.13 D"
+   ],
+   [
+    "Cylinder (SV & lined MF)",
+    "Over 2.00 to 4.50 D",
+    "±0.15 D"
+   ],
+   [
+    "Cylinder (SV & lined MF)",
+    "Over 4.50 D",
+    "±4%"
+   ],
+   [
+    "Sphere meridian (PAL)",
+    "−8.00 to +8.00 D",
+    "±0.16 D"
+   ],
+   [
+    "Sphere meridian (PAL)",
+    "Stronger than ±8.00 D",
+    "±2%"
+   ],
+   [
+    "Cylinder (PAL)",
+    "0.00 to 2.00 D",
+    "±0.16 D"
+   ],
+   [
+    "Cylinder (PAL)",
+    "Over 2.00 to 3.50 D",
+    "±0.18 D"
+   ],
+   [
+    "Cylinder (PAL)",
+    "Over 3.50 D",
+    "±5%"
+   ],
+   [
+    "Cylinder axis",
+    "Cyl under 0.12 D",
+    "Not defined"
+   ],
+   [
+    "Cylinder axis",
+    "Cyl 0.12 to 0.25 D",
+    "±14°"
+   ],
+   [
+    "Cylinder axis",
+    "Cyl over 0.25 to 0.50 D",
+    "±7°"
+   ],
+   [
+    "Cylinder axis",
+    "Cyl over 0.50 to 0.75 D",
+    "±5°"
+   ],
+   [
+    "Cylinder axis",
+    "Cyl over 0.75 to 1.50 D",
+    "±3°"
+   ],
+   [
+    "Cylinder axis",
+    "Cyl over 1.50 D",
+    "±2°"
+   ],
+   [
+    "Add power (MF & PAL)",
+    "Add up to 4.00 D",
+    "±0.12 D"
+   ],
+   [
+    "Add power (MF & PAL)",
+    "Add over 4.00 D",
+    "±0.18 D"
+   ],
+   [
+    "Prism at PRP (single lens)",
+    "Any power",
+    "≤0.33Δ, or PRP within 1.0 mm of specified position"
+   ],
+   [
+    "Vertical imbalance (mounted pair)",
+    "Vertical power 0.00 to ±3.375 D",
+    "≤0.33Δ"
+   ],
+   [
+    "Vertical imbalance (mounted pair)",
+    "Vertical power over ±3.375 D",
+    "PRP heights differ ≤1.0 mm"
+   ],
+   [
+    "Horizontal prism (SV & MF pair)",
+    "Horizontal power 0.00 to ±2.75 D",
+    "≤0.67Δ"
+   ],
+   [
+    "Horizontal prism (SV & MF pair)",
+    "Horizontal power over ±2.75 D",
+    "PRPs within ±2.5 mm of distance PD"
+   ],
+   [
+    "Horizontal prism (PAL pair)",
+    "Horizontal power 0.00 to ±3.375 D",
+    "≤0.67Δ"
+   ],
+   [
+    "Horizontal prism (PAL pair)",
+    "Horizontal power over ±3.375 D",
+    "Fitting cross within ±1.0 mm of monocular PD"
+   ],
+   [
+    "Base curve",
+    "When specified",
+    "±0.75 D"
+   ],
+   [
+    "Center thickness",
+    "Measured at PRP on convex surface",
+    "±0.3 mm"
+   ],
+   [
+    "Segment size (width, depth)",
+    "Each lens; pair difference",
+    "±0.5 mm; pair ≤0.5 mm"
+   ],
+   [
+    "Segment / horizontal tilt",
+    "Each lens",
+    "±2°"
+   ],
+   [
+    "Segment height (MF)",
+    "Each lens; pair difference",
+    "±1.0 mm; pair ≤1.0 mm"
+   ],
+   [
+    "Fitting cross height (PAL)",
+    "Each lens; pair difference",
+    "±1.0 mm; pair ≤1.0 mm"
+   ],
+   [
+    "Segment horizontal location (MF)",
+    "Distance between seg centers",
+    "±2.5 mm of near PD"
+   ],
+   [
+    "Fitting cross horizontal (PAL)",
+    "Each lens",
+    "±1.0 mm of monocular PD"
+   ],
+   [
+    "Polarized lens axis",
+    "Marked horizontal orientation",
+    "Transmission plane 90° ±3° from the mark"
+   ]
+  ],
+  "notes": "Sphere and cylinder ranges are stated in minus-cylinder form. Areas beyond 30 mm from the distance reference point need not be tested for localized errors; PALs are exempt.",
+  "sources": [
+   {
+    "title": "Quick Reference Guide – ANSI Z80.1-2020 (The Vision Council)",
+    "url": "https://static1.squarespace.com/static/653bcec2d9b772215a6dbf4e/t/65b923f7c62f3a4e69702b6b/1706632183988/ANSI_Z80-1-2020_QuickReferenceGuide.pdf"
+   }
+  ]
+ },
+ {
+  "id": "tbl-impact-tests",
+  "title": "FDA Drop-Ball Test vs ANSI Z87.1 Impact Tests",
+  "exams": [
+   "abo"
+  ],
+  "domains": [
+   "abo.laws",
+   "abo.products"
+  ],
+  "columns": [
+   "Test",
+   "Applies to",
+   "Projectile",
+   "How delivered",
+   "Pass criterion"
+  ],
+  "rows": [
+   [
+    "FDA drop ball (21 CFR 801.410)",
+    "All dress Rx eyeglasses and sunglasses",
+    "5/8-inch steel ball, about 0.56 oz",
+    "Dropped 50 inches onto the lens center",
+    "Lens must not fracture"
+   ],
+   [
+    "Z87 basic impact (drop ball)",
+    "All Z87.1 safety eyewear",
+    "1-inch steel ball, about 2.4 oz",
+    "Dropped 50 inches",
+    "Lens and frame remain intact"
+   ],
+   [
+    "Z87+ high mass",
+    "High-impact (Z87+) eyewear",
+    "Pointed weight, 500 g",
+    "Dropped about 50 inches onto eyewear on a headform",
+    "No pieces break free; no fracture"
+   ],
+   [
+    "Z87+ high velocity",
+    "High-impact (Z87+) eyewear",
+    "1/4-inch steel ball",
+    "Spectacles 150 ft/s (102 mph); goggles 170 mph",
+    "No break-off or fracture; headform eye not contacted"
+   ],
+   [
+    "Z87+ penetration",
+    "Lenses",
+    "Weighted needle, at least 44.2 g",
+    "Dropped at least 50 inches",
+    "Lens not penetrated"
+   ]
+  ],
+  "notes": "Glass Rx lenses are tested individually; plastic lenses are batch-tested on a statistical sample.",
+  "sources": [
+   {
+    "title": "eCFR :: 21 CFR 801.410 -- Use of impact-resistant lenses in eyeglasses and sunglasses.",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-801/subpart-H/section-801.410"
+   },
+   {
+    "title": "What does ANSI Z87.1 mean in safety glasses? - HexArmor",
+    "url": "https://www.hexarmor.com/posts/what-do-lens-markings-and-z87-mean"
+   }
+  ]
+ },
+ {
+  "id": "tbl-rx-abbreviations",
+  "title": "Common Prescription Abbreviations",
+  "exams": [
+   "abo",
+   "ncle"
+  ],
+  "domains": [
+   "abo.optics",
+   "ncle.refraction"
+  ],
+  "columns": [
+   "Abbreviation",
+   "Meaning",
+   "Notes"
+  ],
+  "rows": [
+   [
+    "OD",
+    "Oculus dexter – right eye",
+    "Patient’s right; UK uses RE"
+   ],
+   [
+    "OS",
+    "Oculus sinister – left eye",
+    "Patient’s left; UK uses LE"
+   ],
+   [
+    "OU",
+    "Oculi uterque – both eyes",
+    "UK uses BE"
+   ],
+   [
+    "SPH",
+    "Sphere",
+    "Plus for hyperopia, minus for myopia"
+   ],
+   [
+    "CYL",
+    "Cylinder",
+    "Corrects astigmatism; plus- or minus-cyl form"
+   ],
+   [
+    "AXIS (×)",
+    "Cylinder axis, 1–180°",
+    "180 = horizontal, 90 = vertical"
+   ],
+   [
+    "ADD",
+    "Near addition",
+    "Extra plus added to distance power for near"
+   ],
+   [
+    "PL",
+    "Plano",
+    "No power"
+   ],
+   [
+    "Δ / BI / BO / BU / BD",
+    "Prism diopters and base in, out, up, down",
+    "Base in = toward nose; base out = toward temple"
+   ],
+   [
+    "DV / NV",
+    "Distance vision / near vision",
+    "Portions of the Rx for far and near"
+   ],
+   [
+    "PD / IPD",
+    "Pupillary / interpupillary distance",
+    "Distance between pupil centers"
+   ],
+   [
+    "BVD",
+    "Back vertex distance",
+    "Significant beyond about ±4.00 D"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "Eyeglass prescription - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Eyeglass_prescription"
+   },
+   {
+    "title": "Prism | Laramy-K Independent Optical Lab",
+    "url": "https://www.laramyk.com/resources/education/lens-form-and-theory/prism/"
+   }
+  ]
+ },
+ {
+  "id": "tbl-latin-clinical-abbreviations",
+  "title": "Latin and Clinical Abbreviations",
+  "exams": [
+   "abo",
+   "ncle"
+  ],
+  "domains": [
+   "abo.optics",
+   "ncle.refraction",
+   "ncle.dispensing"
+  ],
+  "columns": [
+   "Abbreviation",
+   "Latin / full form",
+   "Meaning"
+  ],
+  "rows": [
+   [
+    "Rx",
+    "recipe",
+    "Prescription (“take”)"
+   ],
+   [
+    "gtt",
+    "guttae",
+    "Drops"
+   ],
+   [
+    "b.i.d.",
+    "bis in die",
+    "Twice a day"
+   ],
+   [
+    "t.i.d.",
+    "ter in die",
+    "Three times a day"
+   ],
+   [
+    "q.i.d.",
+    "quater in die",
+    "Four times a day"
+   ],
+   [
+    "p.r.n.",
+    "pro re nata",
+    "As needed"
+   ],
+   [
+    "h.s.",
+    "hora somni",
+    "At bedtime"
+   ],
+   [
+    "q.d.",
+    "quaque die",
+    "Daily – on the Joint Commission Do Not Use list; write “daily”"
+   ],
+   [
+    "cc",
+    "cum correctione",
+    "With correction (acuity with glasses/contacts)"
+   ],
+   [
+    "sc",
+    "sine correctione",
+    "Without correction"
+   ],
+   [
+    "PH",
+    "Pinhole",
+    "Acuity through a pinhole; improvement suggests refractive cause"
+   ],
+   [
+    "CF",
+    "Count fingers",
+    "Record distance, e.g. “CF at 3 ft”"
+   ],
+   [
+    "HM",
+    "Hand motion",
+    "Vision worse than count fingers"
+   ],
+   [
+    "LP / NLP",
+    "Light perception / no light perception",
+    "Note projection for LP"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "List of abbreviations used in medical prescriptions - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_abbreviations_used_in_medical_prescriptions"
+   },
+   {
+    "title": "Ophthalmic Abbreviations: Complete COA Exam Reference Guide",
+    "url": "https://www.opterio.com/learn/ophthalmic-abbreviations-coa"
+   }
+  ]
+ },
+ {
+  "id": "tbl-prism-base-rules",
+  "title": "Prism Base Direction Rules",
+  "exams": [
+   "abo"
+  ],
+  "domains": [
+   "abo.optics",
+   "abo.dispensing"
+  ],
+  "columns": [
+   "Situation",
+   "Plus lens",
+   "Minus lens"
+  ],
+  "rows": [
+   [
+    "Lens shape as prisms",
+    "Two prisms base to base (base at center)",
+    "Two prisms apex to apex (base at edge)"
+   ],
+   [
+    "Light vs image",
+    "Light bends toward the base; image is displaced toward the apex",
+    "Same"
+   ],
+   [
+    "Looking above the optical center",
+    "Base down",
+    "Base up"
+   ],
+   [
+    "Looking below the optical center",
+    "Base up",
+    "Base down"
+   ],
+   [
+    "Optical centers wider than PD (looking nasal to OC)",
+    "Base out",
+    "Base in"
+   ],
+   [
+    "Optical centers narrower than PD (looking temporal to OC)",
+    "Base in",
+    "Base out"
+   ],
+   [
+    "Amount of induced prism",
+    "Prentice’s rule: Δ = c (cm) × F (D)",
+    "Same"
+   ],
+   [
+    "Lab 360° notation (lens viewed from front)",
+    "Base direction to the right = 0° (BI for OD, BO for OS)",
+    "Same"
+   ]
+  ],
+  "notes": "Use the lens power in the meridian of the prism base when applying Prentice’s rule.",
+  "sources": [
+   {
+    "title": "Prentice's Rule (National Academy of Opticianry)",
+    "url": "https://www.nao.org/wp-content/uploads/2020/12/Prentices-Rule.pdf"
+   },
+   {
+    "title": "Prism | Laramy-K Independent Optical Lab",
+    "url": "https://www.laramyk.com/resources/education/lens-form-and-theory/prism/"
+   }
+  ]
+ },
+ {
+  "id": "tbl-multifocal-segments",
+  "title": "Multifocal Segment Types and Sizes",
+  "exams": [
+   "abo"
+  ],
+  "domains": [
+   "abo.products",
+   "abo.dispensing"
+  ],
+  "columns": [
+   "Segment",
+   "Size",
+   "Segment optical center",
+   "Notes"
+  ],
+  "rows": [
+   [
+    "Flat-top 25 (FT-25)",
+    "25 mm wide",
+    "5 mm below seg line",
+    "Narrower near zone; less visible"
+   ],
+   [
+    "Flat-top 28 (FT-28)",
+    "28 mm wide",
+    "5 mm below seg line",
+    "Standard, most popular bifocal"
+   ],
+   [
+    "Flat-top 35 (FT-35)",
+    "35 mm wide",
+    "5 mm below seg line",
+    "Wider near field for desk work, music, blueprints"
+   ],
+   [
+    "Round 22 (R-22)",
+    "22 mm diameter",
+    "At center, 11 mm below top",
+    "Small, discreet; more image jump than flat-top"
+   ],
+   [
+    "Round 24 (R-24)",
+    "24 mm diameter",
+    "At center, 12 mm below top",
+    "Slightly larger round seg"
+   ],
+   [
+    "Ultex A",
+    "38 mm half circle",
+    "19 mm below seg top",
+    "One-piece; large near zone; most image jump"
+   ],
+   [
+    "Executive (Franklin)",
+    "Full lens width",
+    "On the seg line",
+    "Widest near field; no image jump; most visible line"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "Bifocal Types & Segment Styles: Complete Guide for ABO Exam",
+    "url": "https://www.opterio.com/learn/bifocal-types-segments"
+   }
+  ]
+ },
+ {
+  "id": "tbl-frame-materials",
+  "title": "Frame Materials and Adjusting Behavior",
+  "exams": [
+   "abo"
+  ],
+  "domains": [
+   "abo.products",
+   "abo.dispensing"
+  ],
+  "columns": [
+   "Material",
+   "Type",
+   "Adjusting behavior",
+   "Notes"
+  ],
+  "rows": [
+   [
+    "Zyl (cellulose acetate)",
+    "Plastic (cut sheet)",
+    "Heat to adjust (about 120 °C); stretches with heat, shrinks on cooling",
+    "Most common plastic; acetone dissolves it; can dry and become brittle"
+   ],
+   [
+    "Cellulose propionate",
+    "Plastic (injection molded)",
+    "Excess heat bubbles it; holds adjustment well",
+    "No acetone or alcohol; light and flexible"
+   ],
+   [
+    "Optyl",
+    "Epoxy resin",
+    "Very malleable when heated",
+    "Can be molded to the face"
+   ],
+   [
+    "Nylon (blended)",
+    "Plastic",
+    "Molds easily",
+    "Strong, light; sports, safety and wrap frames"
+   ],
+   [
+    "Grilamid",
+    "Thermoplastic (nylon family)",
+    "Cold glazing for thin lenses; slight heat (<50 °C) for high powers",
+    "About 20% lighter than zyl; hypoallergenic"
+   ],
+   [
+    "Monel",
+    "Metal (copper–nickel)",
+    "Easily adjusted and reshaped",
+    "Most used frame metal; nickel can irritate some skin"
+   ],
+   [
+    "Stainless steel",
+    "Metal",
+    "Holds its shape",
+    "Nickel-free, hypoallergenic"
+   ],
+   [
+    "Titanium",
+    "Metal (90–100% Ti)",
+    "Adjusts well; rimless needs proper tools",
+    "Very light, strong, corrosion resistant, hypoallergenic"
+   ],
+   [
+    "Beta titanium",
+    "Ti alloy (Ti, V, Al)",
+    "More flexible than pure titanium",
+    "Nickel-free"
+   ],
+   [
+    "Flexon (memory metal)",
+    "Titanium alloy",
+    "Returns to shape after bending or twisting",
+    "Light, hypoallergenic; good for active kids"
+   ],
+   [
+    "Aluminum",
+    "Metal",
+    "Little flexibility; riveted hinges hard to adjust",
+    "Very light; spring hinges available"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "Understanding Frame Materials",
+    "url": "https://www.2020mag.com/article/understanding-frame-materials"
+   },
+   {
+    "title": "How to Choose the Glasses Frame Material That's Right for You - American Academy of Ophthalmology",
+    "url": "https://www.aao.org/eye-health/glasses-contacts/eyeglass-frame-materials"
+   }
+  ]
+ },
+ {
+  "id": "tbl-pal-markings",
+  "title": "Progressive Lens Marking Elements",
+  "exams": [
+   "abo"
+  ],
+  "domains": [
+   "abo.products",
+   "abo.dispensing"
+  ],
+  "columns": [
+   "Marking",
+   "Type",
+   "Location / specification",
+   "Purpose"
+  ],
+  "rows": [
+   [
+    "Fitting cross",
+    "Temporary ink",
+    "Cross or inverted T, at least 4 mm wide",
+    "Placed at pupil center when fitting"
+   ],
+   [
+    "Prism reference point (PRP)",
+    "Temporary ink dot",
+    "Midway between the engravings",
+    "Where prism is verified"
+   ],
+   [
+    "Distance verification circle",
+    "Temporary ink",
+    "10–15 mm circle around the DRP, no closer than 3 mm to the fitting cross",
+    "Where distance Rx is read"
+   ],
+   [
+    "Near verification circle",
+    "Temporary ink",
+    "At least 8 mm circle around the NRP",
+    "Where the add is read"
+   ],
+   [
+    "180° line",
+    "Temporary ink",
+    "Solid line through the engravings",
+    "Checks horizontal alignment"
+   ],
+   [
+    "Alignment reference markings",
+    "Permanent engraving",
+    "Two marks 34 mm (±0.5 mm) apart at PRP height",
+    "Re-marking and identification"
+   ],
+   [
+    "Add power",
+    "Permanent engraving",
+    "Directly below the temporal engraving",
+    "Identifies the add"
+   ],
+   [
+    "Brand / logo",
+    "Permanent engraving",
+    "Below (or as) the nasal engraving",
+    "Identifies design and often material"
+   ],
+   [
+    "Compensation mark (^)",
+    "Permanent engraving",
+    "Below the temporal engraving, temporal to the add",
+    "Shows a compensated Rx was made"
+   ],
+   [
+    "Exclusion zone",
+    "Specification",
+    "30 mm circle centered on the PRP",
+    "No permanent marks that impair vision"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "Lens Marking Guidelines, Version 2.0 (The Vision Council)",
+    "url": "https://thevisioncouncil.org/sites/default/files/TVC%20Lens%20Marking%20Guidelines%20%202-0%20-%20Final.pdf"
+   },
+   {
+    "title": "Hidden Markings on Progressive Lenses (ABDO)",
+    "url": "https://www.abdo.org.uk/wp-content/uploads/2020/03/2018-Hidden-Markings.pdf"
+   }
+  ]
+ },
+ {
+  "id": "tbl-keratometry-mm-to-d",
+  "title": "Keratometry: Radius (mm) to Diopters",
+  "exams": [
+   "ncle"
+  ],
+  "domains": [
+   "ncle.instruments",
+   "ncle.prefitting"
+  ],
+  "columns": [
+   "Radius (mm)",
+   "Power (D)"
+  ],
+  "rows": [
+   [
+    "6.50",
+    "51.92"
+   ],
+   [
+    "6.60",
+    "51.14"
+   ],
+   [
+    "6.70",
+    "50.37"
+   ],
+   [
+    "6.80",
+    "49.63"
+   ],
+   [
+    "6.90",
+    "48.91"
+   ],
+   [
+    "7.00",
+    "48.21"
+   ],
+   [
+    "7.10",
+    "47.54"
+   ],
+   [
+    "7.20",
+    "46.88"
+   ],
+   [
+    "7.30",
+    "46.23"
+   ],
+   [
+    "7.40",
+    "45.61"
+   ],
+   [
+    "7.50",
+    "45.00"
+   ],
+   [
+    "7.60",
+    "44.41"
+   ],
+   [
+    "7.70",
+    "43.83"
+   ],
+   [
+    "7.80",
+    "43.27"
+   ],
+   [
+    "7.90",
+    "42.72"
+   ],
+   [
+    "8.00",
+    "42.19"
+   ],
+   [
+    "8.10",
+    "41.67"
+   ],
+   [
+    "8.20",
+    "41.16"
+   ],
+   [
+    "8.30",
+    "40.66"
+   ],
+   [
+    "8.40",
+    "40.18"
+   ],
+   [
+    "8.50",
+    "39.71"
+   ],
+   [
+    "8.60",
+    "39.24"
+   ],
+   [
+    "8.70",
+    "38.79"
+   ],
+   [
+    "8.80",
+    "38.35"
+   ],
+   [
+    "8.90",
+    "37.92"
+   ],
+   [
+    "9.00",
+    "37.50"
+   ]
+  ],
+  "notes": "D = 337.5 ÷ r (mm), the keratometer convention based on a refractive index of 1.3375.",
+  "sources": [
+   {
+    "title": "RGP Contact Lens Fitting: Complete Guide for NCLE Exam",
+    "url": "https://www.opterio.com/learn/rgp-lens-fitting-ncle"
+   },
+   {
+    "title": "Keratometer - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Keratometer"
+   }
+  ]
+ },
+ {
+  "id": "tbl-keratometry-d-to-mm",
+  "title": "Keratometry: Diopters to Radius (mm)",
+  "exams": [
+   "ncle"
+  ],
+  "domains": [
+   "ncle.instruments",
+   "ncle.prefitting"
+  ],
+  "columns": [
+   "Power (D)",
+   "Radius (mm)"
+  ],
+  "rows": [
+   [
+    "39.00",
+    "8.65"
+   ],
+   [
+    "39.50",
+    "8.54"
+   ],
+   [
+    "40.00",
+    "8.44"
+   ],
+   [
+    "40.50",
+    "8.33"
+   ],
+   [
+    "41.00",
+    "8.23"
+   ],
+   [
+    "41.50",
+    "8.13"
+   ],
+   [
+    "42.00",
+    "8.04"
+   ],
+   [
+    "42.50",
+    "7.94"
+   ],
+   [
+    "43.00",
+    "7.85"
+   ],
+   [
+    "43.50",
+    "7.76"
+   ],
+   [
+    "44.00",
+    "7.67"
+   ],
+   [
+    "44.50",
+    "7.58"
+   ],
+   [
+    "45.00",
+    "7.50"
+   ],
+   [
+    "45.50",
+    "7.42"
+   ],
+   [
+    "46.00",
+    "7.34"
+   ],
+   [
+    "46.50",
+    "7.26"
+   ],
+   [
+    "47.00",
+    "7.18"
+   ],
+   [
+    "47.50",
+    "7.11"
+   ],
+   [
+    "48.00",
+    "7.03"
+   ],
+   [
+    "48.50",
+    "6.96"
+   ],
+   [
+    "49.00",
+    "6.89"
+   ],
+   [
+    "49.50",
+    "6.82"
+   ],
+   [
+    "50.00",
+    "6.75"
+   ]
+  ],
+  "notes": "r (mm) = 337.5 ÷ D. Higher K = steeper cornea = shorter radius.",
+  "sources": [
+   {
+    "title": "RGP Contact Lens Fitting: Complete Guide for NCLE Exam",
+    "url": "https://www.opterio.com/learn/rgp-lens-fitting-ncle"
+   },
+   {
+    "title": "Keratometer - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Keratometer"
+   }
+  ]
+ },
+ {
+  "id": "tbl-vertex-12mm",
+  "title": "Vertex Conversion: Spectacle to Contact Lens Plane (12 mm)",
+  "exams": [
+   "abo",
+   "ncle"
+  ],
+  "domains": [
+   "abo.optics",
+   "ncle.refraction",
+   "ncle.fitting"
+  ],
+  "columns": [
+   "Spectacle power (D)",
+   "Minus Rx: exact",
+   "Minus Rx: order",
+   "Plus Rx: exact",
+   "Plus Rx: order"
+  ],
+  "rows": [
+   [
+    "±4.00",
+    "−3.82",
+    "−3.75",
+    "+4.20",
+    "+4.25"
+   ],
+   [
+    "±4.50",
+    "−4.27",
+    "−4.25",
+    "+4.76",
+    "+4.75"
+   ],
+   [
+    "±5.00",
+    "−4.72",
+    "−4.75",
+    "+5.32",
+    "+5.25"
+   ],
+   [
+    "±5.50",
+    "−5.16",
+    "−5.25",
+    "+5.89",
+    "+6.00"
+   ],
+   [
+    "±6.00",
+    "−5.60",
+    "−5.50",
+    "+6.47",
+    "+6.50"
+   ],
+   [
+    "±6.50",
+    "−6.03",
+    "−6.00",
+    "+7.05",
+    "+7.00"
+   ],
+   [
+    "±7.00",
+    "−6.46",
+    "−6.50",
+    "+7.64",
+    "+7.75"
+   ],
+   [
+    "±7.50",
+    "−6.88",
+    "−7.00",
+    "+8.24",
+    "+8.25"
+   ],
+   [
+    "±8.00",
+    "−7.30",
+    "−7.25",
+    "+8.85",
+    "+8.75"
+   ],
+   [
+    "±8.50",
+    "−7.71",
+    "−7.75",
+    "+9.47",
+    "+9.50"
+   ],
+   [
+    "±9.00",
+    "−8.12",
+    "−8.00",
+    "+10.09",
+    "+10.00"
+   ],
+   [
+    "±9.50",
+    "−8.53",
+    "−8.50",
+    "+10.72",
+    "+10.75"
+   ],
+   [
+    "±10.00",
+    "−8.93",
+    "−9.00",
+    "+11.36",
+    "+11.25"
+   ],
+   [
+    "±10.50",
+    "−9.33",
+    "−9.25",
+    "+12.01",
+    "+12.00"
+   ],
+   [
+    "±11.00",
+    "−9.72",
+    "−9.75",
+    "+12.67",
+    "+12.75"
+   ],
+   [
+    "±11.50",
+    "−10.11",
+    "−10.00",
+    "+13.34",
+    "+13.25"
+   ],
+   [
+    "±12.00",
+    "−10.49",
+    "−10.50",
+    "+14.02",
+    "+14.00"
+   ]
+  ],
+  "notes": "Fc = F ÷ (1 − 0.012F), rounded to the nearest 0.25 D. Minus lenses lose power and plus lenses gain power at the cornea. −9.00 (−8.123) sits just below the −8.125 midpoint, so it rounds to −8.00.",
+  "sources": [
+   {
+    "title": "Vertex distance - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Vertex_distance"
+   },
+   {
+    "title": "Vertex Distance - OpticianWorks Online Optician Training",
+    "url": "https://opticianworks.com/lesson/vertex-distance/"
+   }
+  ]
+ },
+ {
+  "id": "tbl-fda-soft-lens-groups",
+  "title": "FDA Soft Contact Lens Material Groups",
+  "exams": [
+   "ncle"
+  ],
+  "domains": [
+   "ncle.prefitting",
+   "ncle.fitting"
+  ],
+  "columns": [
+   "Group",
+   "Water content",
+   "Ionicity",
+   "Example material",
+   "Notes"
+  ],
+  "rows": [
+   [
+    "I",
+    "Low (<50%)",
+    "Nonionic",
+    "Tefilcon (38%)",
+    "Lowest deposit tendency"
+   ],
+   [
+    "II",
+    "High (≥50%)",
+    "Nonionic",
+    "Alphafilcon A (66%), nesofilcon A (78%)",
+    "Higher Dk than Group I; more dehydration"
+   ],
+   [
+    "III",
+    "Low (<50%)",
+    "Ionic",
+    "Balafilcon A (36%)",
+    "Charged surface attracts protein"
+   ],
+   [
+    "IV",
+    "High (≥50%)",
+    "Ionic",
+    "Etafilcon A (58%)",
+    "Highest protein deposit tendency"
+   ],
+   [
+    "V (silicone hydrogels)",
+    "Subgroups 5A–5C",
+    "5A ionic; 5B nonionic high water; 5C nonionic low water",
+    "Lotrafilcon, balafilcon, galyfilcon families",
+    "Silicone carries oxygen, so Dk is not tied to water content"
+   ]
+  ],
+  "notes": "Wikipedia lists balafilcon A, a silicone hydrogel, under Group III; newer schemes place silicone hydrogels in Group V.",
+  "sources": [
+   {
+    "title": "List of soft contact lens materials - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_soft_contact_lens_materials"
+   },
+   {
+    "title": "SILICONE HYDROGELS: FOUR DECADES OF NEW CHEMISTRY IN CONTACT LENSES | Contact Lens Spectrum",
+    "url": "https://clspectrum.com/issues/2022/december/silicone-hydrogels-four-decades-of-new-chemistry-in-contact-lenses/"
+   },
+   {
+    "title": "Soft Contact Lens Materials: HEMA, Silicone Hydrogel, and FDA Groups",
+    "url": "https://www.opterio.com/learn/soft-cl-materials-ncle"
+   }
+  ]
+ },
+ {
+  "id": "tbl-slit-lamp-illumination",
+  "title": "Slit Lamp Illumination Techniques",
+  "exams": [
+   "ncle"
+  ],
+  "domains": [
+   "ncle.instruments",
+   "ncle.followup"
+  ],
+  "columns": [
+   "Technique",
+   "Setup",
+   "Best for"
+  ],
+  "rows": [
+   [
+    "Diffuse",
+    "Widest beam with diffuser, 30–45°, low–medium magnification",
+    "Broad overview: corneal scars, infiltrates, invading vessels, epithelial edema, Descemet’s folds"
+   ],
+   [
+    "Direct: parallelepiped",
+    "Beam narrowed to 1–2 mm, light about 45° from straight ahead",
+    "Corneal scars, abrasions, vessels, striae, endothelium"
+   ],
+   [
+    "Direct: optic section",
+    "Very thin beam at about 45°, high magnification",
+    "Depth of opacities and foreign bodies; corneal thickness and contour"
+   ],
+   [
+    "Van Herick",
+    "Narrow optic section at the limbus at 60°",
+    "Estimating anterior chamber angle depth (grade 0–4)"
+   ],
+   [
+    "Conical beam",
+    "Small round spot, 45–60° temporally, 16–25×, maximum brightness",
+    "Cells and flare in the anterior chamber (e.g., uveitis)"
+   ],
+   [
+    "Specular reflection",
+    "Light and microscope at equal and opposite angles (about 30° each)",
+    "Smoothness of corneal and lens surfaces; endothelial mosaic"
+   ],
+   [
+    "Tangential",
+    "Medium beam with arms about 90° apart",
+    "Cornea, undilated iris, anterior lens (pseudoexfoliation)"
+   ],
+   [
+    "Sclerotic scatter",
+    "Bright narrow beam on the limbus, 40–60°, 10×",
+    "Glowing ring that highlights subtle corneal pathology"
+   ],
+   [
+    "Retroillumination",
+    "1–4 mm beam reflected off the iris or fundus behind the area viewed",
+    "Keratic precipitates, opacities, lens vacuoles, posterior subcapsular cataract"
+   ],
+   [
+    "Transillumination",
+    "Coaxial pupil-sized beam, 10–16×, pupil 3–4 mm",
+    "Iris pigment defects (red reflex shows through)"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "Sharpen Your Slit Lamp Technique",
+    "url": "https://www.reviewofoptometry.com/article/sharpen-your-slit-lamp-technique"
+   },
+   {
+    "title": "How to Use a Slit Lamp - American Academy of Ophthalmology",
+    "url": "https://www.aao.org/young-ophthalmologists/yo-info/article/how-to-use-slit-lamp"
+   }
+  ]
+ },
+ {
+  "id": "tbl-fluorescein-patterns",
+  "title": "GP Fluorescein Pattern Interpretation",
+  "exams": [
+   "ncle"
+  ],
+  "domains": [
+   "ncle.fitting",
+   "ncle.followup"
+  ],
+  "columns": [
+   "Pattern",
+   "Appearance",
+   "Meaning",
+   "Typical change"
+  ],
+  "rows": [
+   [
+    "Alignment",
+    "Even, minimal fluorescence under the optic zone",
+    "Lens parallels the cornea (ideal)",
+    "None"
+   ],
+   [
+    "Apical clearance",
+    "Central pooling, often with peripheral bearing",
+    "Steep fit; risk of seal-off and trapped bubbles",
+    "Flatten base curve"
+   ],
+   [
+    "Apical bearing (touch)",
+    "Dark central area without fluorescein",
+    "Flat fit; can distort the cornea",
+    "Steepen base curve"
+   ],
+   [
+    "Spherical lens on WTR cornea",
+    "Horizontal band of bearing, vertical pooling (dumbbell)",
+    "Corneal toricity shows through the tear lens",
+    "Consider toric or bitoric design if large"
+   ],
+   [
+    "Minimal edge clearance",
+    "Little or no peripheral band",
+    "Seal-off; poor tear exchange",
+    "Flatten or widen peripheral curve"
+   ],
+   [
+    "Excessive edge clearance",
+    "Wide, bright peripheral band",
+    "Poor centration, excess movement, discomfort, peripheral staining",
+    "Steepen or narrow peripheral curve"
+   ],
+   [
+    "Bubbles / dimple veil",
+    "Bubbles trapped where clearance is excessive",
+    "Excess clearance in that zone",
+    "Reduce clearance (e.g., flatter base curve)"
+   ]
+  ],
+  "notes": "Evaluate with cobalt blue light and a yellow (Wratten) barrier filter; judge lid-attached designs with the lens in its superior position.",
+  "sources": [
+   {
+    "title": "GP Lens Management Guide - 2 - GPLI",
+    "url": "https://gpli.info/gp-management-02/"
+   },
+   {
+    "title": "Contact Lens Primer | Contact Lens Spectrum",
+    "url": "https://www.clspectrum.com/issues/2001/september/contact-lens-primer/"
+   },
+   {
+    "title": "RGP Lens Calculator | ODReference",
+    "url": "https://www.odreference.com/contacts/conversions/rgp"
+   },
+   {
+    "title": "Managing Corneal GP Complications",
+    "url": "https://www.reviewofcontactlenses.com/article/rccl1117-managing-corneal-gp-complications"
+   }
+  ]
+ },
+ {
+  "id": "tbl-cl-complications",
+  "title": "Contact Lens Complications: Sign, Likely Cause, Action",
+  "exams": [
+   "ncle"
+  ],
+  "domains": [
+   "ncle.followup"
+  ],
+  "columns": [
+   "Sign",
+   "Likely cause / condition",
+   "Typical action"
+  ],
+  "rows": [
+   [
+    "Painful red eye on waking after overnight wear; small infiltrates",
+    "CLARE (Gram-negative bacterial endotoxins)",
+    "Discontinue lens wear; often self-limiting; rule out microbial keratitis"
+   ],
+   [
+    "Small round peripheral infiltrate, mild pain, no discharge",
+    "Contact lens peripheral ulcer (sterile)",
+    "Discontinue lenses; usually resolves"
+   ],
+   [
+    "Infiltrate over 2 mm with pain, discharge or AC reaction",
+    "Microbial keratitis (e.g., Pseudomonas)",
+    "Remove lens; same-day referral; culture lens and case"
+   ],
+   [
+    "Severe pain, ring infiltrate, history of water exposure",
+    "Acanthamoeba keratitis",
+    "Urgent referral; keep lenses and cases away from water"
+   ],
+   [
+    "Itching, mucus, excess lens movement, upper tarsal papillae",
+    "Giant papillary conjunctivitis",
+    "Suspend wear; switch to frequent or daily replacement; prescriber may use mast cell stabilizer"
+   ],
+   [
+    "Arcuate staining within 2 mm of superior limbus",
+    "SEAL (mechanical, stiff lens)",
+    "Stop wear until healed; change material or design if it recurs"
+   ],
+   [
+    "Vessels growing into the cornea",
+    "Chronic hypoxia (low Dk/t, extended wear)",
+    "Higher-Dk lens, daily instead of extended wear, or RGP; stop wear if active"
+   ],
+   [
+    "Microcysts, corneal edema, endothelial polymegethism",
+    "Chronic hypoxia",
+    "Refit with high-Dk/t (silicone hydrogel) lenses"
+   ],
+   [
+    "Staining at 3 and 9 o’clock (GP)",
+    "Peripheral drying from edge lift, low-riding lens or poor blinking",
+    "Adjust edge lift and centration, better-wetting material, rewetting drops, blink exercises"
+   ],
+   [
+    "Raised vascularized lesion at the limbus (GP)",
+    "Vascularized limbal keratitis",
+    "Loosen fit (flatter curves, smaller diameter); reduce wear time"
+   ],
+   [
+    "Spectacle blur, distorted mires, irregular topography",
+    "Corneal warpage",
+    "Lens holiday, then refit from baseline corneal findings"
+   ],
+   [
+    "Superior limbal redness and staining",
+    "CL-induced SLK (thimerosal-preserved solutions)",
+    "Preservative-free peroxide care and fresh lenses"
+   ],
+   [
+    "Motionless spheres under SiHy lens leaving pits that pool dye",
+    "Mucin balls",
+    "Generally benign; monitor"
+   ],
+   [
+    "Irritation in a patient sensitive to solution preservatives",
+    "Preservative sensitivity",
+    "Switch to a preservative-free hydrogen peroxide system"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "Bringing Clarity to CLARE",
+    "url": "https://www.reviewofcontactlenses.com/article/bringing-clarity-to-clare"
+   },
+   {
+    "title": "Contact Lens-related Complications: A Review (J Ophthalmic Vis Res, PMC)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5423374/"
+   },
+   {
+    "title": "Managing Contact Lens Complications | Contact Lens Spectrum",
+    "url": "https://www.clspectrum.com/issues/2004/december/managing-contact-lens-complications/"
+   },
+   {
+    "title": "Managing Corneal GP Complications",
+    "url": "https://www.reviewofcontactlenses.com/article/rccl1117-managing-corneal-gp-complications"
+   },
+   {
+    "title": "Contact Lens-induced Superior Limbic | Contact Lens Spectrum",
+    "url": "https://clspectrum.com/issues/1996/february/contact-lens-induced-superior-limbic/"
+   },
+   {
+    "title": "Mucin Balls and High Dk Soft Lenses | Contact Lens Spectrum",
+    "url": "https://clspectrum.com/issues/2000/july/mucin-balls-and-high-dk-soft-lenses/"
+   },
+   {
+    "title": "Contact Lenses: Safe Use of Hydrogen Peroxide Solution | FDA",
+    "url": "https://www.fda.gov/consumers/consumer-updates/contact-lenses-safe-use-hydrogen-peroxide-solution"
+   }
+  ]
+ },
+ {
+  "id": "tbl-care-systems",
+  "title": "Contact Lens Care Systems",
+  "exams": [
+   "ncle"
+  ],
+  "domains": [
+   "ncle.dispensing",
+   "ncle.followup"
+  ],
+  "columns": [
+   "Product",
+   "What it does",
+   "Key points"
+  ],
+  "rows": [
+   [
+    "Multipurpose solution (MPS)",
+    "Cleans, rinses, disinfects and stores",
+    "Convenient; studies show poor activity against Acanthamoeba; rub and rinse"
+   ],
+   [
+    "Hydrogen peroxide, one-step",
+    "Disinfects and neutralizes in the same case",
+    "Preservative-free; never put unneutralized peroxide in the eye; catalytic discs may underexpose Acanthamoeba"
+   ],
+   [
+    "Hydrogen peroxide, two-step",
+    "Disinfects, then a separate neutralizing step",
+    "Rinse with saline before wear"
+   ],
+   [
+    "Sterile saline",
+    "Rinsing before insertion",
+    "Does not disinfect"
+   ],
+   [
+    "Daily cleaner",
+    "Surfactant rubbed on the lens to remove debris",
+    "Common in rigid lens care; rinse afterward"
+   ],
+   [
+    "Enzymatic cleaner",
+    "Removes protein deposits, usually weekly",
+    "Usually a tablet"
+   ],
+   [
+    "Rewetting drops",
+    "Lubricate the eye with lenses in place",
+    "Use only wetting or preservative-free drops the eye doctor recommends; they do not disinfect"
+   ],
+   [
+    "Lens case",
+    "Storage during disinfection",
+    "Rub, rinse with fresh solution, air-dry; replace at least every three months; never tap water"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "Contact lens - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Contact_lens"
+   },
+   {
+    "title": "Contact Lenses: Safe Use of Hydrogen Peroxide Solution | FDA",
+    "url": "https://www.fda.gov/consumers/consumer-updates/contact-lenses-safe-use-hydrogen-peroxide-solution"
+   },
+   {
+    "title": "How to Take Care of Contact Lenses - American Academy of Ophthalmology",
+    "url": "https://www.aao.org/eye-health/glasses-contacts/contact-lens-care"
+   },
+   {
+    "title": "Contact Lens-related Complications: A Review (J Ophthalmic Vis Res, PMC)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5423374/"
+   }
+  ]
+ },
+ {
+  "id": "tbl-ftc-rules",
+  "title": "FTC Contact Lens Rule vs Eyeglass Rule",
+  "exams": [
+   "abo",
+   "ncle"
+  ],
+  "domains": [
+   "abo.laws",
+   "ncle.regulatory"
+  ],
+  "columns": [
+   "Requirement",
+   "Contact Lens Rule (16 CFR 315)",
+   "Eyeglass Rule (16 CFR 456)"
+  ],
+  "rows": [
+   [
+    "Automatic release",
+    "At completion of the CL fitting, whether or not requested",
+    "Immediately after the refractive exam, before offering to sell glasses"
+   ],
+   [
+    "Extra fee, purchase or waiver as a condition",
+    "Not allowed",
+    "Not allowed"
+   ],
+   [
+    "Confirmation of release",
+    "Patient signs confirmation (or digital delivery with consent); keep 3 years",
+    "Same, if the prescriber has a financial interest in selling eyewear; keep 3 years"
+   ],
+   [
+    "Digital delivery",
+    "Only with patient’s affirmative consent; must be accessible, downloadable, printable",
+    "Same"
+   ],
+   [
+    "Copies to patient’s agent / seller",
+    "Within 40 business hours",
+    "—"
+   ],
+   [
+    "Seller verification",
+    "Seller must have Rx or verify; passive verification after 8 business hours",
+    "Not applicable"
+   ],
+   [
+    "Minimum expiration",
+    "At least 1 year unless a documented medical reason",
+    "Set by state law"
+   ],
+   [
+    "Private label lenses",
+    "Rx must name manufacturer, private label brand and equivalent brand",
+    "—"
+   ],
+   [
+    "Pupillary distance",
+    "—",
+    "Not required by the Rule; some states require it"
+   ],
+   [
+    "Exemptions",
+    "Applies to all sellers who sell to US consumers",
+    "Does not apply to government-employed prescribers"
+   ]
+  ],
+  "sources": [
+   {
+    "title": "The Contact Lens Rule: A Guide for Prescribers and Sellers | Federal Trade Commission",
+    "url": "https://www.ftc.gov/business-guidance/resources/contact-lens-rule-guide-prescribers-sellers"
+   },
+   {
+    "title": "FAQs: Complying with the Contact Lens Rule | Federal Trade Commission",
+    "url": "https://www.ftc.gov/business-guidance/resources/faqs-complying-contact-lens-rule"
+   },
+   {
+    "title": "Complying with the Eyeglass Rule | Federal Trade Commission",
+    "url": "https://www.ftc.gov/business-guidance/resources/complying-eyeglass-rule"
+   },
+   {
+    "title": "eCFR :: 16 CFR Part 315 -- Contact Lens Rule",
+    "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+   },
+   {
+    "title": "eCFR :: 16 CFR Part 456 -- Ophthalmic Practice Rules (Eyeglass Rule)",
+    "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-456"
+   }
+  ]
+ },
+ {
+  "id": "tbl-california-registrations",
+  "title": "California Optician Registrations",
+  "exams": [
+   "abo",
+   "ncle"
+  ],
+  "domains": [
+   "abo.laws",
+   "ncle.regulatory"
+  ],
+  "columns": [
+   "Registration",
+   "Who / what",
+   "Agency",
+   "Exam required",
+   "Initial fee"
+  ],
+  "rows": [
+   [
+    "SLD – Spectacle Lens Dispenser",
+    "Individual who fits and adjusts spectacle lenses within an RDO",
+    "California State Board of Optometry",
+    "ABO",
+    "$500 ($200 application + $300 registration)"
+   ],
+   [
+    "CLD – Contact Lens Dispenser",
+    "Individual who fits and adjusts contact lenses within an RDO",
+    "California State Board of Optometry",
+    "NCLE",
+    "$500"
+   ],
+   [
+    "RDO – Registered Dispensing Ophthalmic Business",
+    "Business that fills prescriptions for ophthalmic lenses",
+    "California State Board of Optometry",
+    "None (business registration)",
+    "$500"
+   ],
+   [
+    "NOLD – Nonresident Ophthalmic Lens Dispenser",
+    "Out-of-state business delivering lenses to California patients",
+    "California State Board of Optometry",
+    "None (business registration)",
+    "$350 ($150 + $200)"
+   ]
+  ],
+  "notes": "ABO–NCLE certification is not itself a California registration; renewal fee is $300 ($200 for NOLD). Optical businesses cannot register as LLCs.",
+  "sources": [
+   {
+    "title": "Frequently Asked Questions – Opticians - California State Board of Optometry",
+    "url": "https://www.optometry.ca.gov/optician/faq.shtml"
+   },
+   {
+    "title": "ABO-NCLE - California State Board of Optometry",
+    "url": "https://www.optometry.ca.gov/optician/abo_ncle.html"
+   }
+  ]
+ }
+]

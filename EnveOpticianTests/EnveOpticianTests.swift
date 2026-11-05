@@ -83,6 +83,22 @@ final class ContentTests: XCTestCase {
         }
     }
 
+    func testGlossaryAndTablesAreWellFormed() {
+        let validDomains = Set(library.exams.flatMap { $0.domains.map(\.id) })
+        let ids = library.glossary.map(\.id) + library.tables.map(\.id)
+        XCTAssertEqual(Set(ids).count, ids.count, "Duplicate glossary/table ids")
+        for term in library.glossary {
+            XCTAssertFalse(term.definition.isEmpty, term.id)
+            for domain in term.domains { XCTAssertTrue(validDomains.contains(domain), "\(term.id): \(domain)") }
+        }
+        for table in library.tables {
+            for (index, row) in table.rows.enumerated() {
+                XCTAssertEqual(row.count, table.columns.count, "\(table.id) row \(index)")
+            }
+            for domain in table.domains { XCTAssertTrue(validDomains.contains(domain), "\(table.id): \(domain)") }
+        }
+    }
+
     func testEveryOfficialSectionHasAGuideAndQuestions() {
         for exam in library.exams {
             for domain in exam.domains {
@@ -173,5 +189,56 @@ final class CardSchedulerTests: XCTestCase {
         var state = fresh
         for _ in 0..<20 { state = CardScheduler.next(state, grade: .again) }
         XCTAssertEqual(state.ease, CardScheduler.minimumEase)
+    }
+}
+
+final class ContactLensMathTests: XCTestCase {
+    func testLARS() {
+        XCTAssertEqual(OpticsMath.compensatedToricAxis(180, rotation: 10, toLeft: true), 10)
+        XCTAssertEqual(OpticsMath.compensatedToricAxis(90, rotation: 15, toLeft: false), 75)
+        XCTAssertEqual(OpticsMath.compensatedToricAxis(5, rotation: 10, toLeft: false), 175)
+    }
+
+    func testRigidLensPowerUsesSAM() {
+        // -3.00 Rx, no vertex, BC 0.5 D steeper than K: plus tear lens, so add minus.
+        let k = 43.00
+        let bc = OpticsMath.radiusMM(diopters: 43.50)
+        XCTAssertEqual(OpticsMath.rigidLensPower(sphere: -3, vertexMM: 0, baseCurveMM: bc, flatKDiopters: k), -3.5, accuracy: 1e-9)
+    }
+
+    func testDkT() {
+        XCTAssertEqual(OpticsMath.oxygenTransmissibility(dk: 100, thicknessMM: 0.08), 125, accuracy: 1e-9)
+    }
+
+    func testSagitta() {
+        let s = OpticsMath.sagitta(power: 4, index: 1.5, semiDiameterMM: 25)
+        XCTAssertEqual(s ?? 0, 125 - (125.0 * 125 - 625).squareRoot(), accuracy: 1e-9)
+    }
+}
+
+final class DrillAndTrainerTests: XCTestCase {
+    func testDrillsAreWellFormed() {
+        var rng = SystemRandomNumberGenerator()
+        for exam in ExamID.allCases {
+            for kind in DrillGenerator.kinds(for: exam) {
+                for _ in 0..<200 {
+                    let q = DrillGenerator.make(kind, exam: exam, using: &rng)
+                    XCTAssertEqual(q.choices.count, 4, "\(kind) \(q.stem)")
+                    XCTAssertEqual(Set(q.choices).count, 4, "\(kind) duplicate choices: \(q.choices)")
+                    XCTAssertTrue(q.choices.indices.contains(q.answer))
+                    XCTAssertTrue(q.domain.hasPrefix(exam.rawValue + "."))
+                    XCTAssertFalse(q.choices.contains { $0.contains("(±") }, "\(kind) needed filler: \(q.choices)")
+                }
+            }
+        }
+    }
+
+    func testLensometerAcceptsEitherCylinderForm() {
+        let lens = SpheroCylinder(sphere: -2, cylinder: -1, axis: 180)
+        XCTAssertTrue(LensometerTrainerView.matches(lens, lens))
+        XCTAssertTrue(LensometerTrainerView.matches(SpheroCylinder(sphere: -3, cylinder: 1, axis: 90), lens))
+        XCTAssertTrue(LensometerTrainerView.matches(SpheroCylinder(sphere: -2, cylinder: -1, axis: 2), lens))
+        XCTAssertFalse(LensometerTrainerView.matches(SpheroCylinder(sphere: -2, cylinder: -1, axis: 90), lens))
+        XCTAssertTrue(LensometerTrainerView.matches(SpheroCylinder(sphere: 1, cylinder: 0, axis: 45), SpheroCylinder(sphere: 1, cylinder: 0, axis: 90)))
     }
 }

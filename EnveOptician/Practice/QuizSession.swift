@@ -67,7 +67,7 @@ final class QuizSession: Identifiable {
             return created
         }
 
-        for index in indices {
+        for index in indices where !questions[index].id.hasPrefix(DrillGenerator.idPrefix) {
             let entry = stat(for: questions[index].id)
             let correct = isCorrect(index)
             entry.seen += 1
