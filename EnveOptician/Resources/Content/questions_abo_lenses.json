@@ -1,0 +1,1547 @@
+[
+  {
+    "id": "abo-len-001",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "CR-39",
+    "difficulty": 1,
+    "stem": "What is the index of refraction of CR-39 hard resin?",
+    "choices": [
+      "1.498",
+      "1.523",
+      "1.586",
+      "1.530"
+    ],
+    "answer": 0,
+    "explanation": "CR-39 (allyl diglycol carbonate) has an index of 1.498, usually rounded to 1.50. Crown glass is 1.523, Trivex 1.53, and polycarbonate 1.586."
+  },
+  {
+    "id": "abo-len-002",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Polycarbonate",
+    "difficulty": 1,
+    "stem": "What is the index of refraction of polycarbonate?",
+    "choices": [
+      "1.586",
+      "1.498",
+      "1.530",
+      "1.740"
+    ],
+    "answer": 0,
+    "explanation": "Polycarbonate has an index of 1.586 (often rounded to 1.59)."
+  },
+  {
+    "id": "abo-len-003",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Trivex",
+    "difficulty": 1,
+    "stem": "What is the index of refraction of Trivex?",
+    "choices": [
+      "1.586",
+      "1.53",
+      "1.60",
+      "1.498"
+    ],
+    "answer": 1,
+    "explanation": "Trivex, a urethane-based material, has an index of about 1.53 — close to crown glass, but with high impact resistance and the lowest specific gravity of common lens materials."
+  },
+  {
+    "id": "abo-len-004",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Glass",
+    "difficulty": 1,
+    "stem": "Standard ophthalmic crown glass has an index of refraction of:",
+    "choices": [
+      "1.498",
+      "1.586",
+      "1.700",
+      "1.523"
+    ],
+    "answer": 3,
+    "explanation": "Crown glass is 1.523 with an Abbe value of about 58–59 and a specific gravity of about 2.54."
+  },
+  {
+    "id": "abo-len-005",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Abbe value comparison",
+    "difficulty": 2,
+    "stem": "Which of these lens materials has the lowest Abbe value (most chromatic aberration)?",
+    "choices": [
+      "Polycarbonate",
+      "CR-39",
+      "Crown glass",
+      "Trivex"
+    ],
+    "answer": 0,
+    "explanation": "Approximate Abbe values: crown glass ≈ 59, CR-39 ≈ 58, Trivex ≈ 43–45, polycarbonate ≈ 30. Polycarbonate's low Abbe value means more color fringing away from the optical center in strong prescriptions."
+  },
+  {
+    "id": "abo-len-006",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Specific gravity comparison",
+    "difficulty": 2,
+    "stem": "Which common lens material has the lowest specific gravity (lightest for a given volume)?",
+    "choices": [
+      "Polycarbonate",
+      "CR-39",
+      "Trivex",
+      "Crown glass"
+    ],
+    "answer": 2,
+    "explanation": "Approximate specific gravities: Trivex 1.11, polycarbonate 1.20, CR-39 1.32, crown glass 2.54."
+  },
+  {
+    "id": "abo-len-007",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Specific gravity comparison",
+    "difficulty": 2,
+    "stem": "Which material has the highest specific gravity?",
+    "choices": [
+      "CR-39",
+      "Polycarbonate",
+      "1.67 high-index plastic",
+      "Crown glass"
+    ],
+    "answer": 3,
+    "explanation": "Crown glass (≈2.54) is roughly twice as dense as CR-39 (≈1.32). High-index plastics are typically 1.3–1.5. Glass lenses are therefore much heavier for the same size and thickness."
+  },
+  {
+    "id": "abo-len-008",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Specific gravity comparison",
+    "difficulty": 1,
+    "stem": "Specific gravity of a lens material refers to its:",
+    "choices": [
+      "Ability to bend light",
+      "Density relative to water",
+      "Resistance to scratching",
+      "Dispersion of white light"
+    ],
+    "answer": 1,
+    "explanation": "Specific gravity is the material's density compared with water (1.00). Lens weight depends on both specific gravity and lens volume."
+  },
+  {
+    "id": "abo-len-009",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "CR-39",
+    "difficulty": 1,
+    "stem": "CR-39 lenses are manufactured by:",
+    "choices": [
+      "Injection molding melted pellets (thermoplastic)",
+      "Grinding blocks of cooled glass",
+      "Fusing two glass layers together",
+      "Casting a liquid monomer in molds and curing it (thermosetting)"
+    ],
+    "answer": 3,
+    "explanation": "CR-39 is a thermosetting resin: liquid monomer is poured between molds and cured with heat. Once cured, it cannot be re-melted. Polycarbonate, by contrast, is a thermoplastic that is injection molded."
+  },
+  {
+    "id": "abo-len-010",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Polycarbonate",
+    "difficulty": 2,
+    "stem": "Polycarbonate is described as a thermoplastic. This means it:",
+    "choices": [
+      "Hardens permanently when heated and cannot be reshaped",
+      "Is a type of tempered glass",
+      "Softens when heated and can be injection molded",
+      "Darkens on exposure to UV light"
+    ],
+    "answer": 2,
+    "explanation": "Thermoplastics soften with heat and are formed by injection molding. This also means polycarbonate can be damaged by excessive heat during edging or frame heating."
+  },
+  {
+    "id": "abo-len-011",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Impact resistance",
+    "difficulty": 2,
+    "stem": "For a young child's everyday eyewear, the best material choice for impact resistance is:",
+    "choices": [
+      "CR-39",
+      "Crown glass",
+      "Polycarbonate",
+      "1.74 high-index plastic"
+    ],
+    "answer": 2,
+    "explanation": "Polycarbonate (and Trivex) offers far greater impact resistance than CR-39, glass, or most high-index plastics. They are the standard of care for children, sports, safety eyewear, and monocular patients."
+  },
+  {
+    "id": "abo-len-012",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Trivex",
+    "difficulty": 2,
+    "stem": "For a drill-mount (rimless) frame, which lens material is MOST resistant to cracking at the mounting holes?",
+    "choices": [
+      "Trivex",
+      "CR-39",
+      "Crown glass",
+      "Heat-tempered glass"
+    ],
+    "answer": 0,
+    "explanation": "Trivex has excellent tensile strength and resists stress cracking around drill holes, making it a preferred rimless material (polycarbonate is also used). CR-39 and glass are prone to chipping or cracking at the holes."
+  },
+  {
+    "id": "abo-len-013",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Polycarbonate",
+    "difficulty": 2,
+    "stem": "Why do polycarbonate lenses require a scratch-resistant coating?",
+    "choices": [
+      "The coating is needed to block UV radiation",
+      "Polycarbonate cannot be edged without it",
+      "The coating raises the index to 1.60",
+      "The material is relatively soft and scratches easily"
+    ],
+    "answer": 3,
+    "explanation": "Uncoated polycarbonate is soft and scratches readily, so a factory hard coat is standard. Polycarbonate already blocks UV inherently without a coating."
+  },
+  {
+    "id": "abo-len-014",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "UV protection",
+    "difficulty": 2,
+    "stem": "Which lens material inherently blocks UV radiation to about 380 nm without an added UV treatment?",
+    "choices": [
+      "Uncoated CR-39",
+      "Untreated crown glass",
+      "Polycarbonate",
+      "All plastic materials equally"
+    ],
+    "answer": 2,
+    "explanation": "Polycarbonate (and Trivex and most high-index plastics) absorb UV up to about 380 nm or more. Untreated CR-39 transmits part of the UV-A range, and untreated crown glass transmits more, so a UV treatment is added when full protection is needed."
+  },
+  {
+    "id": "abo-len-015",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Abbe value comparison",
+    "difficulty": 2,
+    "stem": "A patient in strong polycarbonate lenses complains of color fringes when looking off-center. Which change would most directly reduce this?",
+    "choices": [
+      "Remake in a higher-Abbe material such as Trivex or CR-39",
+      "Remake in a 1.74 high-index material",
+      "Add a mirror coating",
+      "Increase the center thickness"
+    ],
+    "answer": 0,
+    "explanation": "Color fringing is transverse chromatic aberration, which is inversely proportional to Abbe value. Trivex (≈45) and CR-39 (≈58) have higher Abbe values than polycarbonate (≈30). 1.74 materials have similarly low Abbe values, so they would not help."
+  },
+  {
+    "id": "abo-len-016",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "High-index",
+    "difficulty": 2,
+    "stem": "Compared with a CR-39 lens of the same prescription and size, a 1.67 high-index lens is usually:",
+    "choices": [
+      "Thicker, with fewer reflections",
+      "Thinner, with a higher Abbe value",
+      "Identical in thickness but lighter",
+      "Thinner, but with more reflections and a lower Abbe value"
+    ],
+    "answer": 3,
+    "explanation": "Higher index allows flatter curves and thinner lenses, but reflections increase (≈6.3% per surface at 1.67 vs ≈4% at 1.50) and Abbe value drops (≈32 vs ≈58). AR coating is strongly recommended."
+  },
+  {
+    "id": "abo-len-017",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "High-index",
+    "difficulty": 1,
+    "stem": "Which of the following is the highest-index plastic lens material commonly available?",
+    "choices": [
+      "1.74",
+      "1.67",
+      "1.60",
+      "1.586"
+    ],
+    "answer": 0,
+    "explanation": "1.74 is the highest-index plastic in routine use. The order is 1.74 > 1.67 > 1.60 > polycarbonate 1.586 > Trivex 1.53 > CR-39 1.498."
+  },
+  {
+    "id": "abo-len-018",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Material comparison",
+    "difficulty": 2,
+    "stem": "Which list correctly ranks these materials from lowest to highest index of refraction?",
+    "choices": [
+      "Crown glass, CR-39, 1.67 plastic, polycarbonate",
+      "CR-39, crown glass, polycarbonate, 1.67 plastic",
+      "Polycarbonate, CR-39, crown glass, 1.67 plastic",
+      "CR-39, polycarbonate, crown glass, 1.67 plastic"
+    ],
+    "answer": 1,
+    "explanation": "CR-39 1.498 < crown glass 1.523 < polycarbonate 1.586 < 1.67 plastic."
+  },
+  {
+    "id": "abo-len-019",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Glass",
+    "difficulty": 2,
+    "stem": "The main advantages of crown glass lenses are:",
+    "choices": [
+      "Light weight and high impact resistance",
+      "Inherent UV blocking and light weight",
+      "Excellent scratch resistance and a high Abbe value",
+      "Easy tinting and low specific gravity"
+    ],
+    "answer": 2,
+    "explanation": "Glass is very scratch resistant and has excellent optics (Abbe ≈ 59), but it is heavy (SG ≈ 2.54) and must be tempered to pass impact testing."
+  },
+  {
+    "id": "abo-len-020",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Impact resistance",
+    "difficulty": 2,
+    "stem": "Under FDA regulations, the drop-ball test for dress ophthalmic lenses uses:",
+    "choices": [
+      "A 1-inch steel ball dropped from 50 inches",
+      "A 5/8-inch steel ball dropped from 50 inches",
+      "A 1/4-inch steel ball fired at 150 ft/s",
+      "A 5/8-inch steel ball dropped from 127 cm onto a frame"
+    ],
+    "answer": 1,
+    "explanation": "FDA 21 CFR 801.410 specifies a 5/8-inch (≈0.56 oz) steel ball dropped 50 inches onto the lens's front surface. The 1/4-inch ball at 150 ft/s is the ANSI Z87.1 high-velocity test for safety eyewear."
+  },
+  {
+    "id": "abo-len-021",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Impact resistance",
+    "difficulty": 2,
+    "stem": "Under FDA impact rules, which lenses must be individually drop-ball tested?",
+    "choices": [
+      "Polycarbonate lenses",
+      "Glass lenses",
+      "All plastic lenses",
+      "Only plano sunglass lenses"
+    ],
+    "answer": 1,
+    "explanation": "Every glass lens must be individually tested (after tempering). Plastic lenses may be tested on a statistically significant sample basis (batch testing) by the manufacturer."
+  },
+  {
+    "id": "abo-len-022",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Glass",
+    "difficulty": 2,
+    "stem": "Chemical tempering of glass lenses is performed by:",
+    "choices": [
+      "Heating the lens and cooling it rapidly with air jets",
+      "Immersing the lens in a hot molten potassium salt bath for an extended time",
+      "Applying a vacuum-deposited hard coat",
+      "Laminating a plastic layer onto the back surface"
+    ],
+    "answer": 1,
+    "explanation": "Chemical tempering uses ion exchange in molten potassium nitrate: larger potassium ions replace sodium ions at the surface, creating a compression layer. It generally gives greater impact resistance than heat tempering. Heat tempering is the air-jet method."
+  },
+  {
+    "id": "abo-len-023",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Glass",
+    "difficulty": 2,
+    "stem": "When a heat-tempered glass lens is viewed between crossed polarizers (colmascope), it typically shows:",
+    "choices": [
+      "A uniform clear field with no pattern",
+      "A rainbow of color fringes only at the optical center",
+      "A characteristic strain pattern, such as a Maltese cross",
+      "The hidden engravings of the lens"
+    ],
+    "answer": 2,
+    "explanation": "Heat tempering creates a stress pattern visible under polarized light (often a Maltese cross). Chemically tempered lenses usually show little or no pattern, so a polariscope cannot confirm chemical tempering."
+  },
+  {
+    "id": "abo-len-024",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Trivex",
+    "difficulty": 1,
+    "stem": "Trivex lens material is based on:",
+    "choices": [
+      "Allyl diglycol carbonate",
+      "A urethane-based prepolymer",
+      "Bisphenol-A polycarbonate",
+      "Lead-oxide flint glass"
+    ],
+    "answer": 1,
+    "explanation": "Trivex is a urethane-based material developed by PPG. CR-39 is allyl diglycol carbonate; polycarbonate is a bisphenol-A thermoplastic."
+  },
+  {
+    "id": "abo-len-025",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Impact resistance",
+    "difficulty": 2,
+    "stem": "Under ANSI Z87.1, a prescription safety lens that meets the high-impact requirements is marked with:",
+    "choices": [
+      "Only the letters \"FDA\"",
+      "The manufacturer's mark and a \"+\" symbol",
+      "The patient's initials",
+      "A red dot at the optical center"
+    ],
+    "answer": 1,
+    "explanation": "Z87.1 prescription safety lenses carry the manufacturer's monogram, and lenses meeting high-impact requirements also bear a \"+\". Safety frames are marked \"Z87\" (\"Z87-2\" for Rx frames)."
+  },
+  {
+    "id": "abo-len-026",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Aspheric design",
+    "difficulty": 1,
+    "stem": "An aspheric lens surface is one whose curvature:",
+    "choices": [
+      "Is identical in every meridian and position",
+      "Differs only between two principal meridians",
+      "Is always flatter on the back than the front",
+      "Changes gradually from the center toward the edge"
+    ],
+    "answer": 3,
+    "explanation": "An aspheric surface departs from a sphere, typically flattening toward the periphery in plus lenses. A toric surface differs between two meridians; a spherical surface is constant everywhere."
+  },
+  {
+    "id": "abo-len-027",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Aspheric design",
+    "difficulty": 2,
+    "stem": "Compared with a spherical lens of the same power, a plus aspheric lens is generally:",
+    "choices": [
+      "Flatter and thinner, with less magnification and better peripheral optics",
+      "Steeper and thicker, with more magnification",
+      "Identical in appearance but heavier",
+      "Better only for minus prescriptions"
+    ],
+    "answer": 0,
+    "explanation": "Asphericity allows a flatter base curve without the oblique astigmatism a flat spherical lens would have. The result is a thinner, lighter, less bulging lens that magnifies the wearer's eyes less."
+  },
+  {
+    "id": "abo-len-028",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Aspheric design",
+    "difficulty": 2,
+    "stem": "When fitting single-vision lenses, a common rule is to lower the optical center below the pupil by:",
+    "choices": [
+      "2 mm for every 1° of pantoscopic tilt",
+      "1 mm for every 2° of pantoscopic tilt",
+      "1 mm for every 10° of face-form wrap",
+      "5 mm regardless of frame tilt"
+    ],
+    "answer": 1,
+    "explanation": "Lowering the OC 1 mm per 2° of pantoscopic tilt keeps the optical axis passing through the eye's center of rotation, reducing off-axis errors. This is especially important for aspheric and high-power lenses."
+  },
+  {
+    "id": "abo-len-029",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Aspheric design",
+    "difficulty": 3,
+    "stem": "A frame has 10° of pantoscopic tilt. Where should the optical center of a single-vision aspheric lens be placed vertically?",
+    "choices": [
+      "5 mm below the pupil center",
+      "10 mm below the pupil center",
+      "At the pupil center",
+      "5 mm above the pupil center"
+    ],
+    "answer": 0,
+    "explanation": "Rule of thumb: lower the OC 1 mm for every 2° of pantoscopic tilt. 10° ÷ 2 = 5 mm below the pupil."
+  },
+  {
+    "id": "abo-len-030",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Atoric design",
+    "difficulty": 2,
+    "stem": "An atoric lens design is most beneficial for:",
+    "choices": [
+      "Plano sunglasses",
+      "Prescriptions with significant cylinder",
+      "Low spherical prescriptions under ±1.00 D",
+      "Lenses mounted only in rimless frames"
+    ],
+    "answer": 1,
+    "explanation": "An atoric surface applies a different aspheric correction to each principal meridian, so it controls off-axis errors in both meridians of an astigmatic correction, where a rotationally symmetric aspheric cannot."
+  },
+  {
+    "id": "abo-len-031",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Aspheric design",
+    "difficulty": 2,
+    "stem": "Why are accurate monocular PDs and optical-center heights especially important with aspheric lenses?",
+    "choices": [
+      "Aspheric lenses cannot be measured on a lensometer",
+      "Decentration moves the eye off the aspheric optical axis, causing unwanted astigmatism and power error",
+      "Aspheric lenses contain built-in prism",
+      "Aspheric lenses have no optical center"
+    ],
+    "answer": 1,
+    "explanation": "Aspheric surfaces are designed around a specific optical axis. If the wearer's line of sight is off that axis, the periphery's aspheric correction is misplaced and induces errors."
+  },
+  {
+    "id": "abo-len-032",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Flat-top bifocals",
+    "difficulty": 1,
+    "stem": "In an FT-28 bifocal, the number 28 refers to:",
+    "choices": [
+      "The segment depth in millimeters",
+      "The add power × 10",
+      "The segment width in millimeters",
+      "The seg height in millimeters"
+    ],
+    "answer": 2,
+    "explanation": "Flat-top (D-seg) bifocals are identified by segment width: FT-22, FT-25, FT-28, FT-35, FT-45. FT-28 is the most commonly prescribed.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-033",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Executive bifocals",
+    "difficulty": 2,
+    "stem": "Which is a characteristic of the Executive (Franklin-style) bifocal?",
+    "choices": [
+      "The segment is round and 22 mm in diameter",
+      "The segment has no visible line",
+      "The segment extends across the full width of the lens and its optical center lies on the seg line",
+      "The segment is placed at the top of the lens"
+    ],
+    "answer": 2,
+    "explanation": "The Executive is a one-piece, full-width segment. Its OC on the dividing line means no image jump and a wide near field, but it has a prominent ledge and can be thick and heavy.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-034",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Round segments",
+    "difficulty": 2,
+    "stem": "Compared with a flat-top segment, a round 22 mm segment:",
+    "choices": [
+      "Produces no image jump",
+      "Has a wider reading area at the top",
+      "Produces more image jump because its optical center is farther below the seg top",
+      "Has its optical center at the top of the seg"
+    ],
+    "answer": 2,
+    "explanation": "A round seg's OC is at its center — 11 mm below the top for a 22 mm seg — so image jump is greatest. The narrow top also gives less usable width just below the seg line.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-035",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Segment placement",
+    "difficulty": 1,
+    "stem": "The standard placement for the top of a flat-top bifocal segment is at the level of the:",
+    "choices": [
+      "Lower eyelid margin",
+      "Center of the pupil",
+      "Upper eyelid margin",
+      "Bottom of the frame"
+    ],
+    "answer": 0,
+    "explanation": "Bifocal seg tops are commonly placed at the lower lid margin (lower edge of the iris for some fitters). Trifocals are set higher, at the lower edge of the pupil.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-036",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Trifocals",
+    "difficulty": 1,
+    "stem": "The standard placement for the top of a trifocal segment is at the:",
+    "choices": [
+      "Lower edge of the pupil",
+      "Lower eyelid margin",
+      "Center of the pupil",
+      "Upper eyelid margin"
+    ],
+    "answer": 0,
+    "explanation": "Trifocals are fitted higher than bifocals — usually at the lower edge of the pupil — so the intermediate zone is easily reached.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-037",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Trifocals",
+    "difficulty": 2,
+    "stem": "In a 7×28 trifocal, the numbers refer to:",
+    "choices": [
+      "A 7 mm seg height and a 28 mm lens diameter",
+      "A 7 mm intermediate depth and a 28 mm segment width",
+      "A +0.70 intermediate and +2.80 near add",
+      "A 7° tilt and a 28 mm PD"
+    ],
+    "answer": 1,
+    "explanation": "Trifocals are described by intermediate depth × segment width: 7×28, 8×35, etc.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-038",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Trifocals",
+    "difficulty": 2,
+    "stem": "A standard trifocal has a +2.50 D near add. What is the usual intermediate add?",
+    "choices": [
+      "+1.25 D",
+      "+2.50 D",
+      "+0.75 D",
+      "+1.75 D"
+    ],
+    "answer": 0,
+    "explanation": "Standard trifocals use an intermediate of 50% of the near add: 0.50 × 2.50 = +1.25 D.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-039",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Blended bifocals",
+    "difficulty": 2,
+    "stem": "A blended (invisible) bifocal differs from a conventional round bifocal in that:",
+    "choices": [
+      "It has a progressive corridor of increasing power",
+      "It has no add power at all",
+      "It eliminates the need for a seg height measurement",
+      "The segment edge is polished into a blend zone so no line is visible, but the blend zone is blurred"
+    ],
+    "answer": 3,
+    "explanation": "Blended bifocals smooth the seg boundary into a few-millimeter blur zone for cosmetics. Unlike a PAL, there is no intermediate corridor — just distance and near with a blurred transition."
+  },
+  {
+    "id": "abo-len-040",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Segment placement",
+    "difficulty": 3,
+    "stem": "A patient has a distance PD of 64 mm and a near PD of 60 mm. What is the seg inset for each lens?",
+    "choices": [
+      "2 mm",
+      "4 mm",
+      "1 mm",
+      "60 mm"
+    ],
+    "answer": 0,
+    "explanation": "Total inset = distance PD − near PD = 64 − 60 = 4 mm. Split between two lenses: 4 ÷ 2 = 2 mm inset per lens (measured from the distance OC).",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-041",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Segment placement",
+    "difficulty": 3,
+    "stem": "A lens shape has a B dimension of 40 mm. The ordered seg height is 18 mm. What is the seg drop?",
+    "choices": [
+      "2 mm above the datum line",
+      "18 mm below the datum line",
+      "2 mm below the datum line",
+      "22 mm below the datum line"
+    ],
+    "answer": 2,
+    "explanation": "The datum line (horizontal centerline) is B ÷ 2 = 20 mm from the bottom of the lens. Seg drop = datum height − seg height = 20 − 18 = 2 mm. A seg top above the datum line would be a seg raise.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-042",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Segment placement",
+    "difficulty": 1,
+    "stem": "Bifocal segment height is measured from:",
+    "choices": [
+      "The center of the pupil to the seg line",
+      "The top of the frame to the seg line",
+      "The optical center of the distance portion to the seg line",
+      "The lowest point of the lens opening (lower bevel) to the seg line"
+    ],
+    "answer": 3,
+    "explanation": "Seg height is the vertical distance from the lowest point of the lens shape (the deepest part of the lower bevel) to the top of the segment.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-043",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Fused bifocals",
+    "difficulty": 2,
+    "stem": "A fused glass bifocal (e.g., Kryptok round seg) is made by:",
+    "choices": [
+      "Grinding the segment curve directly into one piece of crown glass",
+      "Fusing a higher-index glass button into a depression in the crown glass lens",
+      "Cementing a plastic wafer onto the back surface",
+      "Casting the segment in CR-39"
+    ],
+    "answer": 1,
+    "explanation": "Fused bifocals use a higher-index (flint or barium) segment fused into a countersink on the crown carrier; the front is then ground smooth. One-piece designs such as the Executive or Ultex are made from a single material."
+  },
+  {
+    "id": "abo-len-044",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Round segments",
+    "difficulty": 2,
+    "stem": "The Ultex-style bifocal is known for:",
+    "choices": [
+      "A 22 mm fused round segment",
+      "A full-width segment with the OC on the line",
+      "A segment placed at the top of the lens",
+      "A one-piece, very large round segment (about 38 mm)"
+    ],
+    "answer": 3,
+    "explanation": "Ultex lenses are one-piece bifocals with a large round segment (the A style is 38 mm). They provide a wide near field but produce large image jump.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-045",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Segment placement",
+    "difficulty": 2,
+    "stem": "A new bifocal wearer complains that the seg line is in the way when walking and looking straight ahead. The most likely cause is:",
+    "choices": [
+      "The segments were fitted too high",
+      "The segments were fitted too low",
+      "The add power is too weak",
+      "The distance PD is too wide"
+    ],
+    "answer": 0,
+    "explanation": "Segments fitted too high intrude into the distance field of view. Segments too low force the wearer to drop the eyes excessively or tip the head back to read.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-046",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Occupational lenses",
+    "difficulty": 2,
+    "stem": "A double-D occupational lens is most appropriate for:",
+    "choices": [
+      "A truck driver who needs only distance vision",
+      "A child with accommodative esotropia",
+      "An electrician or mechanic who needs near vision both overhead and below",
+      "A computer user who needs only intermediate vision"
+    ],
+    "answer": 2,
+    "explanation": "The double-D has a flat-top segment at the bottom and an inverted one at the top for close work overhead — useful for mechanics, electricians, librarians, and others who look up at near objects."
+  },
+  {
+    "id": "abo-len-047",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Segment placement",
+    "difficulty": 2,
+    "stem": "Dissimilar segments (for example, a round seg in one eye and a flat-top in the other) are used to:",
+    "choices": [
+      "Provide different adds for each eye",
+      "Reduce vertical imbalance at the reading level in anisometropia",
+      "Eliminate chromatic aberration",
+      "Improve cosmetic appearance"
+    ],
+    "answer": 1,
+    "explanation": "Different seg types place their optical centers at different depths, so each segment contributes a different vertical prism at the reading level that can offset induced vertical imbalance.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-len-048",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 1,
+    "stem": "The fitting cross of a progressive addition lens is normally placed:",
+    "choices": [
+      "At the lower eyelid margin",
+      "At the center of the pupil",
+      "At the lower edge of the pupil",
+      "At the upper eyelid margin"
+    ],
+    "answer": 1,
+    "explanation": "PAL fitting crosses are placed at the pupil center (monocular PD and fitting height measured to pupil center) with the patient's head in natural posture.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-049",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "On a progressive lens, prism (including prism thinning) should be verified at the:",
+    "choices": [
+      "Fitting cross",
+      "Distance reference circle",
+      "Near reference circle",
+      "Prism reference point"
+    ],
+    "answer": 3,
+    "explanation": "The prism reference point (PRP) is located midway between the two hidden engravings, usually a few millimeters below the fitting cross. Measuring prism anywhere else picks up induced prism from the progressive surface.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-050",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 1,
+    "stem": "The two permanent (hidden) engravings on most progressive lenses are located:",
+    "choices": [
+      "10 mm apart above the fitting cross",
+      "At the top and bottom of the corridor",
+      "34 mm apart, 17 mm on each side of the prism reference point",
+      "At the near reference circle only"
+    ],
+    "answer": 2,
+    "explanation": "The standard spacing is 34 mm (17 mm each side of the PRP). The engravings allow the lens to be re-marked using the manufacturer's centration chart.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-051",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "On most progressive lenses, the add power is engraved:",
+    "choices": [
+      "At the fitting cross",
+      "Below the temporal hidden engraving",
+      "In the distance reference circle",
+      "On the back surface at the optical center"
+    ],
+    "answer": 1,
+    "explanation": "Typically the add power appears beneath the temporal engraving and the manufacturer's logo or design code beneath the nasal engraving. Locating the add engraving also tells you which side is temporal.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-052",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "Compared with a 'soft' progressive design, a 'hard' design typically has:",
+    "choices": [
+      "Narrower clear zones but lower peripheral astigmatism gradients",
+      "Wider distance and near zones but more rapidly increasing peripheral astigmatism",
+      "No corridor",
+      "No unwanted astigmatism"
+    ],
+    "answer": 1,
+    "explanation": "Hard designs concentrate unwanted astigmatism into smaller areas with steep gradients, giving wide clear zones but more 'swim'. Soft designs spread it over a larger area at lower levels, with narrower clear zones and easier adaptation.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-053",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "A patient chooses a frame with a very shallow B dimension. Which PAL option is most appropriate?",
+    "choices": [
+      "A short-corridor progressive design",
+      "A long-corridor progressive design",
+      "A standard design fitted 4 mm lower",
+      "An Executive bifocal fitted at the pupil center"
+    ],
+    "answer": 0,
+    "explanation": "Every PAL has a minimum fitting height. Short-corridor designs reach full add in less vertical distance, so the near zone isn't cut off in small frames.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-054",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "When verifying the distance power of a progressive lens, the lensometer should be centered on the:",
+    "choices": [
+      "Fitting cross",
+      "Prism reference point",
+      "Distance reference circle above the fitting cross",
+      "Near reference circle"
+    ],
+    "answer": 2,
+    "explanation": "Distance power is verified at the distance reference circle. Reading at the fitting cross may already pick up a little of the progression; add power is checked at the near circle or simply confirmed from the engraving.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-055",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "Prism thinning in a pair of progressive lenses consists of:",
+    "choices": [
+      "Base-up prism in the more minus lens only",
+      "Base-in prism for near vision",
+      "Equal base-down prism in both lenses to reduce thickness",
+      "Unequal vertical prism to correct anisometropia"
+    ],
+    "answer": 2,
+    "explanation": "Prism thinning (yoked prism) grinds equal base-down prism in both lenses to reduce the thickness created by the thick lower portion. Because it is equal in both eyes it creates no imbalance; it is measured at the PRP and should not be mistaken for an error.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-056",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "The unwanted peripheral blur zones on either side of a PAL corridor are caused by:",
+    "choices": [
+      "Chromatic aberration only",
+      "Prism thinning",
+      "AR coating interference",
+      "Unwanted surface astigmatism (cylinder) produced by the changing curvature"
+    ],
+    "answer": 3,
+    "explanation": "Blending power changes across the surface inevitably produces unwanted cylinder in the lower lateral areas. Its amount grows with add power, and its distribution varies by design.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-057",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "A patient's progressive lenses were fitted with the fitting crosses 3 mm below the pupil centers. The most likely complaint is:",
+    "choices": [
+      "Having to lift the chin or drop the eyes excessively to read",
+      "Blurred distance vision when looking straight ahead",
+      "Color fringes in the distance zone",
+      "Double vision at distance"
+    ],
+    "answer": 0,
+    "explanation": "A PAL fitted too low places the near zone too low, so the wearer must lower the eyes far or tip the head back to reach full add. A PAL fitted too high puts the corridor in front of the pupil and blurs distance vision in primary gaze.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-058",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 3,
+    "stem": "When checking a patient's existing unmarked progressive lenses, what is the correct first step?",
+    "choices": [
+      "Read the power at the geometric center of the lens",
+      "Measure prism at the bottom of the near zone",
+      "Locate the hidden engravings and re-mark the lens using the manufacturer's centration chart",
+      "Use a lens clock to locate the fitting cross"
+    ],
+    "answer": 2,
+    "explanation": "Hold the lens under a bright light against a dark background to find the engravings, dot them, and align them on the manufacturer's chart to redraw the fitting cross, PRP, and reference circles. Then verify distance power, prism at the PRP, and add.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-059",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Progressive addition lenses",
+    "difficulty": 2,
+    "stem": "Accurate monocular PDs are especially important when fitting progressive lenses because:",
+    "choices": [
+      "Each corridor must align with that eye's line of sight as it converges for near",
+      "PALs contain no optical center",
+      "Binocular PD cannot be measured with a pupillometer",
+      "The add power depends on the PD"
+    ],
+    "answer": 0,
+    "explanation": "The corridor is narrow. Faces are often asymmetrical, so using a binocular PD split in half can put one eye's line of sight outside its corridor and reduce intermediate and near clarity.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-len-060",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Free-form lenses",
+    "difficulty": 1,
+    "stem": "Free-form (digital) surfacing refers to:",
+    "choices": [
+      "Computer-controlled generators cutting complex, often personalized, surfaces point by point",
+      "Pouring liquid resin into a glass mold",
+      "Fusing a glass segment into a crown blank",
+      "Hand-grinding lenses with laps"
+    ],
+    "answer": 0,
+    "explanation": "Free-form generators can cut almost any surface, allowing back-surface progressive designs and optimization for the patient's Rx, vertex distance, pantoscopic tilt, and wrap."
+  },
+  {
+    "id": "abo-len-061",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Occupational lenses",
+    "difficulty": 2,
+    "stem": "An office (near-variable or 'degressive') progressive lens is designed for:",
+    "choices": [
+      "Driving and other distance tasks",
+      "Sports requiring wide peripheral distance vision",
+      "Patients with no presbyopia",
+      "Extended intermediate and near tasks such as desk and computer work"
+    ],
+    "answer": 3,
+    "explanation": "Office lenses start from the near add at the bottom and reduce power toward the top, giving wide intermediate and near zones. They have no true distance zone and are not for driving."
+  },
+  {
+    "id": "abo-len-062",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "AR coating",
+    "difficulty": 2,
+    "stem": "Anti-reflective coatings reduce surface reflections mainly through:",
+    "choices": [
+      "Absorption of reflected light by a dark dye",
+      "Polarization of reflected light",
+      "Scattering light at the lens surface",
+      "Destructive interference of light reflected from the coating layers"
+    ],
+    "answer": 3,
+    "explanation": "Each layer is about a quarter-wavelength thick, so light reflected from its outer and inner surfaces is out of phase and cancels. Multilayer stacks extend cancellation across the visible spectrum."
+  },
+  {
+    "id": "abo-len-063",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "AR coating",
+    "difficulty": 3,
+    "stem": "For a single-layer AR coating on a 1.50-index lens, the ideal coating index is approximately:",
+    "choices": [
+      "1.50",
+      "2.25",
+      "1.22",
+      "1.00"
+    ],
+    "answer": 2,
+    "explanation": "The ideal single-layer index is √(n_lens) = √1.50 ≈ 1.22. No durable material is that low, so magnesium fluoride (≈1.38) is commonly used, and multilayer designs are used to improve performance."
+  },
+  {
+    "id": "abo-len-064",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "AR coating",
+    "difficulty": 2,
+    "stem": "Which is a benefit of AR coating?",
+    "choices": [
+      "Greater impact resistance",
+      "Increased UV transmission",
+      "Darkening in sunlight",
+      "Increased light transmission and fewer ghost images and glare"
+    ],
+    "answer": 3,
+    "explanation": "AR coatings raise transmission from about 92% (uncoated CR-39) to about 99%, reduce ghost images and night-driving glare, and let others see the wearer's eyes clearly."
+  },
+  {
+    "id": "abo-len-065",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "AR coating",
+    "difficulty": 2,
+    "stem": "Why is a back-surface AR coating especially recommended on sunglasses?",
+    "choices": [
+      "It makes the lens darker",
+      "It replaces the need for polarization",
+      "It reduces light from behind the wearer reflecting off the back surface into the eye",
+      "It increases the lens's impact resistance"
+    ],
+    "answer": 2,
+    "explanation": "With a dark tint, little light comes through the lens, so reflections of bright light from behind, off the back surface, become very noticeable. Front AR on a dark sunglass offers little benefit."
+  },
+  {
+    "id": "abo-len-066",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Hydrophobic coatings",
+    "difficulty": 2,
+    "stem": "The main purpose of a hydrophobic/oleophobic top coat is to:",
+    "choices": [
+      "Block blue light",
+      "Increase the lens index",
+      "Darken the lens outdoors",
+      "Repel water and oils so the lens stays cleaner and is easier to clean"
+    ],
+    "answer": 3,
+    "explanation": "Applied over AR coatings, these low-surface-energy layers make water bead and resist smudges, and they make cleaning easier."
+  },
+  {
+    "id": "abo-len-067",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Mirror coatings",
+    "difficulty": 2,
+    "stem": "A mirror coating on a sunglass lens primarily:",
+    "choices": [
+      "Reflects a portion of incoming light, reducing transmission and hiding the wearer's eyes",
+      "Increases light transmission",
+      "Eliminates the need for UV protection",
+      "Polarizes light horizontally"
+    ],
+    "answer": 0,
+    "explanation": "Mirror coatings are highly reflective thin films, usually over a tinted lens. They reduce transmitted light and are cosmetic; they do not by themselves guarantee UV protection."
+  },
+  {
+    "id": "abo-len-068",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "UV protection",
+    "difficulty": 1,
+    "stem": "UV-B radiation falls within which wavelength range?",
+    "choices": [
+      "100–280 nm",
+      "315–380 nm",
+      "280–315 nm",
+      "400–500 nm"
+    ],
+    "answer": 2,
+    "explanation": "UV-C is 100–280 nm (absorbed by the atmosphere), UV-B is 280–315 nm, and UV-A is 315–380 nm (some definitions extend to 400 nm)."
+  },
+  {
+    "id": "abo-len-069",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "UV protection",
+    "difficulty": 2,
+    "stem": "A lens labeled \"UV400\" blocks:",
+    "choices": [
+      "Only UV-B radiation",
+      "All visible light below 400 nm and all blue light",
+      "Infrared radiation above 400 nm",
+      "Ultraviolet radiation up to 400 nm"
+    ],
+    "answer": 3,
+    "explanation": "UV400 means the lens blocks essentially all radiation below 400 nm, covering both UV-B and the full UV-A range."
+  },
+  {
+    "id": "abo-len-070",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Photochromics",
+    "difficulty": 2,
+    "stem": "Photochromic lenses typically:",
+    "choices": [
+      "Darken more in hot temperatures",
+      "Respond only to visible light",
+      "Darken more in cold temperatures and fade back more slowly in the cold",
+      "Darken equally regardless of temperature"
+    ],
+    "answer": 2,
+    "explanation": "Photochromic activation is temperature dependent. In cold conditions the lens gets darker and fades more slowly; in heat it is lighter and fades faster."
+  },
+  {
+    "id": "abo-len-071",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Photochromics",
+    "difficulty": 2,
+    "stem": "Why do standard photochromic lenses darken very little inside a car?",
+    "choices": [
+      "The car's air conditioning keeps them too cold",
+      "Car windows polarize light",
+      "Photochromics only react to fluorescent light",
+      "The windshield absorbs most of the UV radiation that activates them"
+    ],
+    "answer": 3,
+    "explanation": "Standard photochromics are activated mainly by UV, and windshields block most UV. Some photochromic designs also respond to visible light to darken partially behind the windshield."
+  },
+  {
+    "id": "abo-len-072",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Polarized lenses",
+    "difficulty": 1,
+    "stem": "Polarized sunglass lenses reduce glare by:",
+    "choices": [
+      "Using a filter with a horizontal transmission axis",
+      "Using a filter with a vertical transmission axis to block horizontally polarized reflected light",
+      "Reflecting all wavelengths equally",
+      "Absorbing only ultraviolet light"
+    ],
+    "answer": 1,
+    "explanation": "Light reflected from horizontal surfaces such as water, roads, and car hoods is largely horizontally polarized. A vertically oriented polarizing filter blocks it."
+  },
+  {
+    "id": "abo-len-073",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Polarized lenses",
+    "difficulty": 2,
+    "stem": "A common drawback of polarized lenses is that:",
+    "choices": [
+      "Some LCD displays may appear dark or patchy at certain angles",
+      "They provide no glare reduction on water",
+      "They increase surface reflections",
+      "They darken only in cold weather"
+    ],
+    "answer": 0,
+    "explanation": "LCD screens emit polarized light, so dashboard displays, phones, and some aircraft instruments may look dim or black when the filter axis is crossed with the display's polarization."
+  },
+  {
+    "id": "abo-len-074",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Tints",
+    "difficulty": 2,
+    "stem": "Which sunglass tint color alters color perception the least?",
+    "choices": [
+      "Yellow",
+      "Gray",
+      "Rose",
+      "Blue"
+    ],
+    "answer": 1,
+    "explanation": "Neutral gray absorbs fairly evenly across the visible spectrum, preserving natural color perception. Brown and amber enhance contrast but shift colors; yellow and rose alter colors noticeably."
+  },
+  {
+    "id": "abo-len-075",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Tints",
+    "difficulty": 2,
+    "stem": "A yellow tint is most often recommended to:",
+    "choices": [
+      "Reduce bright sunlight to 15% transmission",
+      "Preserve true color perception for driving",
+      "Block infrared radiation",
+      "Improve contrast in haze, fog, or low light by filtering blue light"
+    ],
+    "answer": 3,
+    "explanation": "Yellow filters absorb short-wavelength blue light, which scatters most in haze, improving perceived contrast. It is not a sunglass tint for bright conditions."
+  },
+  {
+    "id": "abo-len-076",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Tints",
+    "difficulty": 2,
+    "stem": "A gradient tint is:",
+    "choices": [
+      "Uniformly dark across the lens",
+      "Darkest at the top of the lens and gradually lighter toward the bottom",
+      "Darkest at the bottom and clear at the top",
+      "A tint that darkens with UV exposure"
+    ],
+    "answer": 1,
+    "explanation": "Gradient tints shade the upper field (sky) while leaving the lower portion lighter for reading or viewing a dashboard. Double gradients are dark at both top and bottom."
+  },
+  {
+    "id": "abo-len-077",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Tints",
+    "difficulty": 2,
+    "stem": "When a high-minus glass lens is tinted 'in the mass' (the tint is in the glass itself), the result is:",
+    "choices": [
+      "Perfectly uniform color across the lens",
+      "Darker edges than center, because the edges are thicker",
+      "Darker center than edges",
+      "No tint visible at all"
+    ],
+    "answer": 1,
+    "explanation": "Solid (in-mass) glass tints absorb in proportion to thickness, so thick minus-lens edges appear darker. Plastic lenses are dyed in a surface layer, so they tint uniformly regardless of power."
+  },
+  {
+    "id": "abo-len-078",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Tints",
+    "difficulty": 1,
+    "stem": "Plastic lenses such as CR-39 are usually tinted by:",
+    "choices": [
+      "Adding pigment to the glass melt",
+      "Vacuum-depositing a metal oxide",
+      "Painting the back surface",
+      "Immersing them in a heated dye bath that absorbs into the surface"
+    ],
+    "answer": 3,
+    "explanation": "Plastic lenses absorb dye into the surface layer in a heated dye bath; darkness depends on dye time and material. Many scratch coats and AR coatings limit or block tint absorption, so tinting is done before or through tintable coatings."
+  },
+  {
+    "id": "abo-len-079",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Blue-light filters",
+    "difficulty": 2,
+    "stem": "Blue-light filtering lenses are designed to reduce transmission of:",
+    "choices": [
+      "UV-C radiation",
+      "Infrared radiation",
+      "High-energy visible (blue-violet) light, roughly 400–455 nm",
+      "Red light above 650 nm"
+    ],
+    "answer": 2,
+    "explanation": "Blue-light filters use absorbers in the material or reflective coatings to reduce short-wavelength visible light. Reflective versions often show a bluish or violet residual reflection, and absorptive versions may have a slight yellow cast."
+  },
+  {
+    "id": "abo-len-080",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Scratch coatings",
+    "difficulty": 1,
+    "stem": "A scratch-resistant coating makes a plastic lens:",
+    "choices": [
+      "Completely scratch-proof",
+      "More impact resistant than polycarbonate",
+      "Thinner",
+      "More resistant to scratching, but not scratch-proof"
+    ],
+    "answer": 3,
+    "explanation": "Hard coats improve abrasion resistance, but any lens can be scratched. Patients should still clean lenses wet and store them in a case."
+  },
+  {
+    "id": "abo-len-081",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Slab-off",
+    "difficulty": 2,
+    "stem": "A conventional slab-off (bicentric grinding) creates:",
+    "choices": [
+      "Base-up prism in the lower portion of the lens",
+      "Base-down prism in the upper portion of the lens",
+      "Base-in prism for reading",
+      "Equal base-down prism in both lenses"
+    ],
+    "answer": 0,
+    "explanation": "Bicentric grinding removes material from the lower front portion, creating base-up prism below the slab line to offset the base-down imbalance in the more minus lens at the reading level."
+  },
+  {
+    "id": "abo-len-082",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Slab-off",
+    "difficulty": 2,
+    "stem": "A conventional slab-off is applied to the lens that has the:",
+    "choices": [
+      "Most plus (least minus) power in the vertical meridian",
+      "Most minus (least plus) power in the vertical meridian",
+      "Highest cylinder regardless of axis",
+      "Lower add power"
+    ],
+    "answer": 1,
+    "explanation": "The more minus lens produces more base-down prism below its OC, so base-up slab-off goes on that lens. Reverse slab (base down) goes on the more plus lens."
+  },
+  {
+    "id": "abo-len-083",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Slab-off",
+    "difficulty": 3,
+    "stem": "OD −1.00 D sphere; OS −4.00 D sphere. The patient reads 10 mm below the optical centers. How much slab-off is needed, and on which lens?",
+    "choices": [
+      "3.00Δ on the OS lens",
+      "3.00Δ on the OD lens",
+      "5.00Δ on the OS lens",
+      "1.50Δ on each lens"
+    ],
+    "answer": 0,
+    "explanation": "OD: 1.0 cm × 1.00 = 1.00Δ BD. OS: 1.0 × 4.00 = 4.00Δ BD. Imbalance = 4.00 − 1.00 = 3.00Δ. Slab-off (base up) goes on the more minus lens, OS."
+  },
+  {
+    "id": "abo-len-084",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Slab-off",
+    "difficulty": 2,
+    "stem": "A reverse slab (negative slab) lens differs from a conventional slab-off in that it:",
+    "choices": [
+      "Produces base-up prism and is placed on the more minus lens",
+      "Produces base-in prism for near",
+      "Produces base-down prism and is placed on the more plus lens",
+      "Is used only on single-vision lenses"
+    ],
+    "answer": 2,
+    "explanation": "Reverse slab lenses are typically molded plastic with base-down prism in the lower portion. They are placed on the more plus (least minus) lens to achieve the same net correction."
+  },
+  {
+    "id": "abo-len-085",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Slab-off",
+    "difficulty": 1,
+    "stem": "A slab-off lens can be identified by:",
+    "choices": [
+      "A faint horizontal line across the lens at the level of the segment top",
+      "A circular ring around the optical center",
+      "Two hidden engravings 34 mm apart",
+      "A gradient tint"
+    ],
+    "answer": 0,
+    "explanation": "The slab line runs horizontally across the full lens width and is usually aligned with the top of the bifocal segment."
+  },
+  {
+    "id": "abo-len-086",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Slab-off",
+    "difficulty": 2,
+    "stem": "Vertical imbalance at the reading level is generally considered significant enough to consider slab-off when it reaches about:",
+    "choices": [
+      "1.5Δ or more",
+      "0.25Δ",
+      "6Δ or more",
+      "10Δ or more"
+    ],
+    "answer": 0,
+    "explanation": "Most patients tolerate small vertical imbalance, but around 1.5Δ or more (sometimes as little as 1Δ in sensitive patients) commonly causes symptoms at near and warrants compensation such as slab-off."
+  },
+  {
+    "id": "abo-len-087",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Fresnel prisms",
+    "difficulty": 2,
+    "stem": "Fresnel press-on prisms are:",
+    "choices": [
+      "Glass prisms cemented to the front of the lens",
+      "Thin, flexible plastic membranes with a series of tiny prism ridges applied to the back of the lens",
+      "Permanent prisms ground into the lens surface",
+      "Tints that shift image position"
+    ],
+    "answer": 1,
+    "explanation": "Fresnel prisms are thin vinyl sheets with many small parallel prism facets. They adhere to the back (concave) surface with water, providing high prism with little weight or thickness."
+  },
+  {
+    "id": "abo-len-088",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Fresnel prisms",
+    "difficulty": 2,
+    "stem": "A disadvantage of Fresnel press-on prisms is that they:",
+    "choices": [
+      "Are extremely heavy",
+      "Cannot be removed once applied",
+      "Cannot provide more than 1Δ",
+      "Reduce visual acuity and contrast and have visible lines"
+    ],
+    "answer": 3,
+    "explanation": "The facets scatter light and create visible ridges, so Fresnels typically lower acuity and contrast. They are best suited to temporary, diagnostic, or trial use."
+  },
+  {
+    "id": "abo-len-089",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Lenticulars",
+    "difficulty": 2,
+    "stem": "A high-plus lenticular lens is designed with:",
+    "choices": [
+      "A small central aperture of prescription power on a thin carrier",
+      "A full-size aperture with a steep aspheric front",
+      "A ground-in slab-off line",
+      "No usable optical zone"
+    ],
+    "answer": 0,
+    "explanation": "Lenticular design limits the full-power portion to a small central bowl (aperture), dramatically reducing thickness and weight of very high plus lenses, at the cost of a restricted field of view."
+  },
+  {
+    "id": "abo-len-090",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "High-plus lenses",
+    "difficulty": 2,
+    "stem": "The 'jack-in-the-box' phenomenon experienced by high-plus (e.g., aphakic) spectacle wearers results from:",
+    "choices": [
+      "Chromatic aberration at the optical center",
+      "Barrel distortion",
+      "A ring scotoma caused by the strong prism (base toward the center) at the lens edge",
+      "Reflections from the back surface"
+    ],
+    "answer": 2,
+    "explanation": "The edge of a strong plus lens acts as a powerful base-toward-center prism, creating a ring-shaped blind area. Objects pop in and out of view as the eye or head moves."
+  },
+  {
+    "id": "abo-len-091",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "High-minus lenses",
+    "difficulty": 2,
+    "stem": "Which frame selection best minimizes edge thickness in a high-minus prescription?",
+    "choices": [
+      "A large aviator frame",
+      "A rectangular frame with a frame PD much wider than the patient's PD",
+      "Any frame, because edge thickness depends only on index",
+      "A small, rounded frame with a frame PD close to the patient's PD"
+    ],
+    "answer": 3,
+    "explanation": "Minus edge thickness grows with distance from the OC. A small eye size, rounded shape, and minimal decentration keep edges thin. High-index material and edge polishing/rolling further improve appearance."
+  },
+  {
+    "id": "abo-len-092",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "High-minus lenses",
+    "difficulty": 2,
+    "stem": "A myodisc is a:",
+    "choices": [
+      "Round plus segment for reading",
+      "Fresnel prism for myopes",
+      "Polarized minus lens",
+      "High-minus lenticular lens with a small central optical zone and a flattened carrier"
+    ],
+    "answer": 3,
+    "explanation": "The myodisc confines high-minus power to a small central bowl and flattens the margin, reducing edge thickness and weight. It gives a 'bowl' appearance."
+  },
+  {
+    "id": "abo-len-093",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "High-minus lenses",
+    "difficulty": 3,
+    "stem": "A patient with a 60 mm PD chooses a frame with a 70 mm frame PD and −7.00 D lenses. Which effect should be expected?",
+    "choices": [
+      "Thicker nasal edges, because each lens is decentered 5 mm temporally",
+      "No change in edge thickness",
+      "Thicker temporal edges, because each lens is decentered 5 mm nasally",
+      "Thinner edges overall"
+    ],
+    "answer": 2,
+    "explanation": "Decentration per lens = (70 − 60) ÷ 2 = 5 mm inward. With the OC moved nasally, the temporal edge is farther from the OC, so on a minus lens it becomes thicker. Choosing a frame PD closer to the patient's PD minimizes this."
+  },
+  {
+    "id": "abo-len-094",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Minimum Blank Size",
+    "difficulty": 3,
+    "stem": "A frame has an A of 52 mm, a DBL of 18 mm, and an ED of 56 mm. The patient's PD is 62 mm. What is the minimum blank size, allowing 2 mm for edging?",
+    "choices": [
+      "58 mm",
+      "62 mm",
+      "66 mm",
+      "74 mm"
+    ],
+    "answer": 2,
+    "explanation": "Frame PD = A + DBL = 52 + 18 = 70 mm. Decentration per lens = (70 − 62) ÷ 2 = 4 mm. MBS = ED + (2 × decentration) + 2 = 56 + 8 + 2 = 66 mm."
+  },
+  {
+    "id": "abo-len-095",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "High-plus lenses",
+    "difficulty": 2,
+    "stem": "Which is the best practice when dispensing high-plus lenses?",
+    "choices": [
+      "Choose the largest available frame to widen the field",
+      "Choose a small frame, minimize decentration, and use an aspheric or lenticular design",
+      "Decenter the lenses as much as possible",
+      "Use a steep spherical base curve to reduce magnification"
+    ],
+    "answer": 1,
+    "explanation": "Plus lens center thickness rises with lens diameter, so a small, well-centered frame keeps the lens thinner and lighter. Aspheric or lenticular designs further reduce thickness, magnification, and aberrations."
+  }
+]

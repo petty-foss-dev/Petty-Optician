@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "fc-ncle-ana-001",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Corneal layers, anterior to posterior",
+    "back": "Epithelium, Bowman's layer, stroma, Descemet's membrane, endothelium."
+  },
+  {
+    "id": "fc-ncle-ana-002",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Which corneal layer is ~90% of thickness?",
+    "back": "The stroma: regularly spaced collagen lamellae with keratocytes."
+  },
+  {
+    "id": "fc-ncle-ana-003",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Normal central corneal thickness",
+    "back": "About 0.52–0.56 mm (≈540 µm). Peripheral cornea is thicker, about 0.65–0.70 mm."
+  },
+  {
+    "id": "fc-ncle-ana-004",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Bowman's layer: regenerates?",
+    "back": "No. Damage at or below Bowman's heals with a scar."
+  },
+  {
+    "id": "fc-ncle-ana-005",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Endothelium: key facts",
+    "back": "Single layer of hexagonal cells. It pumps fluid out of the stroma (deturgescence) and does not divide in adults. Lost cells are replaced by neighbors enlarging, which causes polymegethism."
+  },
+  {
+    "id": "fc-ncle-ana-006",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Typical adult endothelial cell density",
+    "back": "About 2,500–3,000 cells/mm², slowly declining with age."
+  },
+  {
+    "id": "fc-ncle-ana-007",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Epithelial turnover time",
+    "back": "About 7 days."
+  },
+  {
+    "id": "fc-ncle-ana-008",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Corneal water content",
+    "back": "About 78%."
+  },
+  {
+    "id": "fc-ncle-ana-009",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Open-eye vs closed-eye O₂ at the cornea",
+    "back": "Open: about 155 mmHg from the atmosphere through the tears. Closed: about 55 mmHg from the palpebral conjunctival vessels."
+  },
+  {
+    "id": "fc-ncle-ana-010",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Main corneal glucose source",
+    "back": "The aqueous humor."
+  },
+  {
+    "id": "fc-ncle-ana-011",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Why hypoxia causes edema",
+    "back": "Anaerobic glycolysis produces lactate. The osmotic load in the stroma draws in water faster than the endothelium can pump it out."
+  },
+  {
+    "id": "fc-ncle-ana-012",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Dk vs Dk/t",
+    "back": "Dk = oxygen permeability of the material. Dk/t = transmissibility of a specific lens (Dk ÷ thickness)."
+  },
+  {
+    "id": "fc-ncle-ana-013",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Holden–Mertz Dk/t criteria",
+    "back": "About 24 ×10⁻⁹ to avoid daily-wear edema. About 87 ×10⁻⁹ to keep overnight swelling to about 4%."
+  },
+  {
+    "id": "fc-ncle-ana-014",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Tear film layers and sources",
+    "back": "Lipid: meibomian glands. Aqueous: main and accessory lacrimal glands (Krause, Wolfring). Mucin: conjunctival goblet cells."
+  },
+  {
+    "id": "fc-ncle-ana-015",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Function of the tear lipid layer",
+    "back": "Slows evaporation and stabilizes the tear film."
+  },
+  {
+    "id": "fc-ncle-ana-016",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Function of the tear mucin layer",
+    "back": "Makes the hydrophobic epithelium wettable (hydrophilic)."
+  },
+  {
+    "id": "fc-ncle-ana-017",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Tear drainage pathway",
+    "back": "Puncta → canaliculi → lacrimal sac → nasolacrimal duct → inferior meatus."
+  },
+  {
+    "id": "fc-ncle-ana-018",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Normal tear pH",
+    "back": "About 7.4."
+  },
+  {
+    "id": "fc-ncle-ana-019",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Lid closure muscle and nerve",
+    "back": "Orbicularis oculi, facial nerve (CN VII)."
+  },
+  {
+    "id": "fc-ncle-ana-020",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Upper lid elevator and nerve",
+    "back": "Levator palpebrae superioris, oculomotor nerve (CN III). Müller's muscle (sympathetic) assists."
+  },
+  {
+    "id": "fc-ncle-ana-021",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Normal blink rate",
+    "back": "About 12–20 per minute. It drops during concentrated near work."
+  },
+  {
+    "id": "fc-ncle-ana-022",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Corneal sensory nerve supply",
+    "back": "Ophthalmic division of the trigeminal nerve (CN V)."
+  },
+  {
+    "id": "fc-ncle-ana-023",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Limbal stem cells",
+    "back": "Located at the limbus (palisades of Vogt). They regenerate the corneal epithelium."
+  },
+  {
+    "id": "fc-ncle-ana-024",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Average HVID",
+    "back": "About 11.5–12.0 mm."
+  },
+  {
+    "id": "fc-ncle-ana-025",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Average corneal radius and power",
+    "back": "About 7.8 mm ≈ 43.25 D (337.5 ÷ 7.8)."
+  },
+  {
+    "id": "fc-ncle-ana-026",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Normal corneal shape",
+    "back": "Prolate: steep centrally, flattening toward the periphery."
+  },
+  {
+    "id": "fc-ncle-opt-001",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Vertex (effectivity) formula",
+    "back": "Fc = F ÷ (1 − dF), with d in meters. Round to the nearest 0.25 D."
+  },
+  {
+    "id": "fc-ncle-opt-002",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "When to compensate vertex distance",
+    "back": "When either principal meridian exceeds about ±4.00 D."
+  },
+  {
+    "id": "fc-ncle-opt-003",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Vertex effect on minus vs plus",
+    "back": "Minus Rx → less minus in the contact lens. Plus Rx → more plus in the contact lens."
+  },
+  {
+    "id": "fc-ncle-opt-004",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "−5.00 D at 12 mm → CL power",
+    "back": "−5.00 ÷ 1.06 = −4.72 → −4.75 D."
+  },
+  {
+    "id": "fc-ncle-opt-005",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "+10.00 D at 12 mm → CL power",
+    "back": "+10.00 ÷ 0.88 = +11.36 → +11.25 D."
+  },
+  {
+    "id": "fc-ncle-opt-006",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "−10.00 D at 12 mm → CL power",
+    "back": "−10.00 ÷ 1.12 = −8.93 → −9.00 D."
+  },
+  {
+    "id": "fc-ncle-opt-007",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Vertexing a spherocylinder",
+    "back": "Convert each principal meridian separately, then re-form the sphere and cylinder."
+  },
+  {
+    "id": "fc-ncle-opt-008",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "SAM-FAP",
+    "back": "Steeper Add Minus, Flatter Add Plus. It compensates the tear lens when an RGP base curve differs from K."
+  },
+  {
+    "id": "fc-ncle-opt-009",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Tear lens rule of thumb",
+    "back": "0.05 mm change in radius ≈ 0.25 D near normal corneal curvatures."
+  },
+  {
+    "id": "fc-ncle-opt-010",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "K to radius conversion",
+    "back": "r (mm) = 337.5 ÷ K (D), and K = 337.5 ÷ r."
+  },
+  {
+    "id": "fc-ncle-opt-011",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Where does 337.5 come from?",
+    "back": "(1.3375 − 1) × 1000. 1.3375 is the keratometric index."
+  },
+  {
+    "id": "fc-ncle-opt-012",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "45.00 D in mm",
+    "back": "7.50 mm."
+  },
+  {
+    "id": "fc-ncle-opt-013",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Corneal astigmatism from Ks",
+    "back": "Steep K − flat K. In minus cylinder, the axis is the flat meridian."
+  },
+  {
+    "id": "fc-ncle-opt-014",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Residual astigmatism (spherical RGP)",
+    "back": "Refractive cylinder − corneal cylinder (same notation). It is what a spherical RGP leaves uncorrected."
+  },
+  {
+    "id": "fc-ncle-opt-015",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Residual astigmatism with spherical soft lenses",
+    "back": "About the full refractive cylinder, because the soft lens drapes and the tear lens is plano."
+  },
+  {
+    "id": "fc-ncle-opt-016",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Spherical equivalent",
+    "back": "Sphere + ½ cylinder. Often used for spherical soft lenses when the cylinder is low."
+  },
+  {
+    "id": "fc-ncle-opt-017",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "LARS",
+    "back": "Left Add, Right Subtract: soft toric axis compensation for rotation, as seen by the examiner."
+  },
+  {
+    "id": "fc-ncle-opt-018",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "CAAS",
+    "back": "Clockwise Add, Anticlockwise Subtract (examiner's view). It is the same rule as LARS."
+  },
+  {
+    "id": "fc-ncle-opt-019",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "One clock hour of toric rotation",
+    "back": "30° (360 ÷ 12)."
+  },
+  {
+    "id": "fc-ncle-opt-020",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Unstable toric rotation",
+    "back": "Do not compensate. Change the design or fit to get stable orientation."
+  },
+  {
+    "id": "fc-ncle-opt-021",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Monovision convention",
+    "back": "Dominant eye for distance, non-dominant eye for near. Stereopsis is reduced."
+  },
+  {
+    "id": "fc-ncle-opt-022",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Myope switching from glasses to CLs",
+    "back": "Must accommodate and converge more at near, because the spectacle base-in prism and the minus lens effect are lost."
+  },
+  {
+    "id": "fc-ncle-opt-023",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Hyperope switching from glasses to CLs",
+    "back": "Accommodates and converges less at near."
+  },
+  {
+    "id": "fc-ncle-opt-024",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "front": "Image size: myope in CLs vs glasses",
+    "back": "Larger in CLs, because spectacle minification is removed."
+  },
+  {
+    "id": "fc-ncle-opt-025",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Over-refraction rule",
+    "back": "Final power = trial lens power + over-refraction. Vertex the over-refraction first if it exceeds about ±4.00 D."
+  },
+  {
+    "id": "fc-ncle-mat-001",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "FDA Group I",
+    "back": "Low water (<50%), nonionic."
+  },
+  {
+    "id": "fc-ncle-mat-002",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "FDA Group II",
+    "back": "High water (≥50%), nonionic."
+  },
+  {
+    "id": "fc-ncle-mat-003",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "FDA Group III",
+    "back": "Low water (<50%), ionic."
+  },
+  {
+    "id": "fc-ncle-mat-004",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "FDA Group IV",
+    "back": "High water (≥50%), ionic. Most protein (lysozyme) deposition."
+  },
+  {
+    "id": "fc-ncle-mat-005",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "What makes a hydrogel ionic?",
+    "back": "Methacrylic acid, which adds negative charge."
+  },
+  {
+    "id": "fc-ncle-mat-006",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Hydrogel Dk vs water content",
+    "back": "Dk rises with water content. A 38% HEMA lens has a Dk of about 8–9."
+  },
+  {
+    "id": "fc-ncle-mat-007",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Silicone hydrogel Dk vs water",
+    "back": "More silicone gives higher Dk and usually lower water."
+  },
+  {
+    "id": "fc-ncle-mat-008",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Silicone hydrogel trade-offs",
+    "back": "High Dk, but higher modulus (stiffer), lipid deposits, and lower wettability (needs surface treatment or an internal wetting agent)."
+  },
+  {
+    "id": "fc-ncle-mat-009",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "PMMA",
+    "back": "Excellent optics and durability, Dk ≈ 0, refractive index about 1.49."
+  },
+  {
+    "id": "fc-ncle-mat-010",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Fluorosilicone acrylate (FSA)",
+    "back": "The main modern RGP material. Silicone adds Dk. Fluorine improves wettability and deposit resistance and raises specific gravity."
+  },
+  {
+    "id": "fc-ncle-mat-011",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Wetting angle",
+    "back": "Lower angle = more wettable surface."
+  },
+  {
+    "id": "fc-ncle-mat-012",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Base curve (BOZR)",
+    "back": "Radius of the back central optic zone."
+  },
+  {
+    "id": "fc-ncle-mat-013",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Edge lift",
+    "back": "Distance from the lens edge to an extension of the base curve. It comes from peripheral curves flatter than the base curve."
+  },
+  {
+    "id": "fc-ncle-mat-014",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Plus vs minus lenticular",
+    "back": "Plus (CN-bevel) carrier thins high-minus edges. Minus (myoflange) carrier lets the lid grip high-plus lenses."
+  },
+  {
+    "id": "fc-ncle-mat-015",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Prism ballast",
+    "back": "About 1.0–1.5 Δ base-down to stabilize toric (or translating) lenses."
+  },
+  {
+    "id": "fc-ncle-mat-016",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Dynamic stabilization",
+    "back": "Thin superior and inferior zones held by lid pressure. No prism, and works the same in either eye."
+  },
+  {
+    "id": "fc-ncle-mat-017",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Truncation",
+    "back": "Bottom edge cut straight to rest on the lower lid. Usually combined with prism ballast."
+  },
+  {
+    "id": "fc-ncle-mat-018",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Simultaneous vs translating multifocal",
+    "back": "Simultaneous: distance and near zones over the pupil at once. Translating: the lens shifts up in downgaze so the pupil looks through the near segment."
+  },
+  {
+    "id": "fc-ncle-mat-019",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Orthokeratology",
+    "back": "Overnight reverse-geometry RGP that temporarily flattens the central cornea to reduce myopia."
+  },
+  {
+    "id": "fc-ncle-mat-020",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Scleral lens",
+    "back": "Large rigid lens that vaults the cornea and limbus, lands on the sclera, and is filled with non-preserved saline."
+  },
+  {
+    "id": "fc-ncle-mat-021",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Hybrid lens",
+    "back": "RGP center with a soft skirt."
+  },
+  {
+    "id": "fc-ncle-mat-022",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Hydrogen peroxide systems",
+    "back": "3% H₂O₂ disinfects without preservatives. It must be fully neutralized (platinum disc or catalase) before insertion."
+  },
+  {
+    "id": "fc-ncle-mat-023",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Why no BAK for soft lenses?",
+    "back": "Hydrogels absorb and concentrate it, which is toxic to the cornea."
+  },
+  {
+    "id": "fc-ncle-mat-024",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "EDTA",
+    "back": "Chelating agent that enhances preservatives. Not a stand-alone disinfectant."
+  },
+  {
+    "id": "fc-ncle-mat-025",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Saline",
+    "back": "Rinses only and does not disinfect. Never homemade, and never tap water."
+  },
+  {
+    "id": "fc-ncle-mat-026",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Lens case replacement",
+    "back": "At least every 3 months. Rinse with fresh solution and air-dry face down."
+  },
+  {
+    "id": "fc-ncle-mat-027",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Extended wear history",
+    "back": "1989: FDA recommended hydrogel extended wear be limited to 7 days (6 nights). 2001: silicone hydrogels approved for up to 30 nights."
+  },
+  {
+    "id": "fc-ncle-fit-001",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Absolute 'do not fit' finding",
+    "back": "Active corneal infection or acute anterior segment inflammation."
+  },
+  {
+    "id": "fc-ncle-fit-002",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Medications that dry the eye",
+    "back": "Antihistamines, decongestants, many antidepressants, diuretics, isotretinoin."
+  },
+  {
+    "id": "fc-ncle-fit-003",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Normal TBUT",
+    "back": "More than about 10 seconds."
+  },
+  {
+    "id": "fc-ncle-fit-004",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Normal Schirmer I (no anesthetic, 5 min)",
+    "back": "About 10 mm or more. About 5 mm or less suggests aqueous deficiency."
+  },
+  {
+    "id": "fc-ncle-fit-005",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Soft lens diameter rule of thumb",
+    "back": "About HVID + 2 mm (commonly 13.8–14.5 mm)."
+  },
+  {
+    "id": "fc-ncle-fit-006",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Ideal soft lens movement",
+    "back": "About 0.25–0.5 mm on the blink, with full corneal coverage."
+  },
+  {
+    "id": "fc-ncle-fit-007",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Push-up test",
+    "back": "Push the lens up with the lower lid. Moderate resistance and a prompt recenter mean a good fit."
+  },
+  {
+    "id": "fc-ncle-fit-008",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Signs of a tight soft lens",
+    "back": "Little movement, conjunctival indentation, redness after hours of wear, comfortable at first. Vision clears right after a blink, then blurs."
+  },
+  {
+    "id": "fc-ncle-fit-009",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Signs of a loose soft lens",
+    "back": "Excess movement, decentration, edge fluting, lens awareness. Vision blurs right after a blink, then clears."
+  },
+  {
+    "id": "fc-ncle-fit-010",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "To tighten a soft lens",
+    "back": "Steeper base curve or larger diameter."
+  },
+  {
+    "id": "fc-ncle-fit-011",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "To loosen a soft lens",
+    "back": "Flatter base curve or smaller diameter."
+  },
+  {
+    "id": "fc-ncle-fit-012",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "On-K RGP fit",
+    "back": "Base curve equal to the flat K."
+  },
+  {
+    "id": "fc-ncle-fit-013",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Spherical RGP on a toric cornea",
+    "back": "Fit somewhat steeper than flat K as toricity increases."
+  },
+  {
+    "id": "fc-ncle-fit-014",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Lid-attachment RGP fit",
+    "back": "Larger lens (about 9.2–9.8 mm), alignment or slightly flat, held under the upper lid."
+  },
+  {
+    "id": "fc-ncle-fit-015",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Interpalpebral RGP fit",
+    "back": "Smaller, steeper lens centered between the lids."
+  },
+  {
+    "id": "fc-ncle-fit-016",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Alignment fluorescein pattern",
+    "back": "Thin, even central fluorescein with a moderate bright edge band."
+  },
+  {
+    "id": "fc-ncle-fit-017",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Apical clearance (steep) pattern",
+    "back": "Central pooling, mid-peripheral dark touch ring, possible bubbles."
+  },
+  {
+    "id": "fc-ncle-fit-018",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Apical touch (flat) pattern",
+    "back": "Dark central bearing, peripheral pooling, wide edge band, decentration."
+  },
+  {
+    "id": "fc-ncle-fit-019",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "WTR cornea under a spherical RGP",
+    "back": "Horizontal band of touch with pooling at the top and bottom."
+  },
+  {
+    "id": "fc-ncle-fit-020",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Insufficient vs excessive edge lift",
+    "back": "Insufficient: dark, narrow edge band, seal-off, adherence. Excessive: wide bright band, awareness, decentration."
+  },
+  {
+    "id": "fc-ncle-fit-021",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Fluorescein with soft lenses",
+    "back": "Remove the lens first, or use high-molecular-weight fluorescein (fluorexon). Sodium fluorescein stains hydrogels."
+  },
+  {
+    "id": "fc-ncle-fit-022",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Typical RGP movement",
+    "back": "About 1–2 mm on the blink."
+  },
+  {
+    "id": "fc-ncle-fit-023",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Night glare with an RGP",
+    "back": "Usually the optic zone is too small for the dim-light pupil, or the lens is decentered."
+  },
+  {
+    "id": "fc-ncle-fit-024",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Ocular dominance",
+    "back": "Determine it before monovision or multifocal fitting. The dominant eye usually gets distance."
+  },
+  {
+    "id": "fc-ncle-fit-025",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Multifocal evaluation",
+    "back": "Binocular, in normal lighting, after settling, refined with hand-held ±0.25 D lenses."
+  },
+  {
+    "id": "fc-ncle-fit-026",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Keratoconus RGP approach",
+    "back": "Three-point touch (divided support) traditionally. Scleral lenses for more advanced cones."
+  },
+  {
+    "id": "fc-ncle-fit-027",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "front": "Patient hand hygiene",
+    "back": "Wash with mild, non-oily, unscented soap and dry with a lint-free towel before handling lenses."
+  },
+  {
+    "id": "fc-ncle-ins-001",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "What a keratometer measures",
+    "back": "Central anterior corneal curvature from points about 3 mm apart."
+  },
+  {
+    "id": "fc-ncle-ins-002",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "B&L keratometer type",
+    "back": "One-position: measures both meridians without rotating the instrument."
+  },
+  {
+    "id": "fc-ncle-ins-003",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "B&L mires",
+    "back": "Plus signs = horizontal drum. Minus signs = vertical drum."
+  },
+  {
+    "id": "fc-ncle-ins-004",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "B&L standard range",
+    "back": "About 36.00–52.00 D."
+  },
+  {
+    "id": "fc-ncle-ins-005",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Extending the B&L range",
+    "back": "+1.25 D lens: up to about 61 D. −1.00 D lens: down to about 30 D. Use a conversion table."
+  },
+  {
+    "id": "fc-ncle-ins-006",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Keratometer calibration",
+    "back": "Steel balls of known radius."
+  },
+  {
+    "id": "fc-ncle-ins-007",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Focusing the keratometer eyepiece",
+    "back": "Turn it fully counterclockwise, then clockwise until the reticle is just sharp."
+  },
+  {
+    "id": "fc-ncle-ins-008",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Why keratometers use doubling",
+    "back": "Small eye movements don't change the doubled-image alignment."
+  },
+  {
+    "id": "fc-ncle-ins-009",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Diffuse illumination",
+    "back": "Low-magnification overview. Soft lens coverage and movement."
+  },
+  {
+    "id": "fc-ncle-ins-010",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Optic section",
+    "back": "Very narrow beam showing a corneal cross-section to localize depth."
+  },
+  {
+    "id": "fc-ncle-ins-011",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Parallelepiped",
+    "back": "About 1–2 mm direct beam giving a 3-D view of corneal tissue."
+  },
+  {
+    "id": "fc-ncle-ins-012",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Sclerotic scatter",
+    "back": "Beam at the limbus. Total internal reflection shows central corneal clouding or edema."
+  },
+  {
+    "id": "fc-ncle-ins-013",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Specular reflection",
+    "back": "Angle of incidence = angle of reflection at high magnification. Shows the endothelial mosaic and tear lipid layer."
+  },
+  {
+    "id": "fc-ncle-ins-014",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Retroillumination",
+    "back": "Backlights the cornea. Shows microcysts, vacuoles, ghost vessels, and deposits."
+  },
+  {
+    "id": "fc-ncle-ins-015",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Cobalt blue + Wratten #12",
+    "back": "Blue excites fluorescein. The yellow barrier filter over the microscope boosts contrast."
+  },
+  {
+    "id": "fc-ncle-ins-016",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Red-free filter",
+    "back": "Green light makes vessels appear dark and high-contrast."
+  },
+  {
+    "id": "fc-ncle-ins-017",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Conical beam",
+    "back": "Small spot beam through the anterior chamber in the dark to detect cells and flare."
+  },
+  {
+    "id": "fc-ncle-ins-018",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Van Herick",
+    "back": "Compare peripheral anterior chamber depth with corneal thickness using a narrow beam at 60°."
+  },
+  {
+    "id": "fc-ncle-ins-019",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Placido topography",
+    "back": "Reflected rings map the anterior surface curvature."
+  },
+  {
+    "id": "fc-ncle-ins-020",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Axial vs tangential maps",
+    "back": "Axial: smoothed, curvature referenced to the instrument axis. Tangential: local curvature, better for cone location and ortho-k zones."
+  },
+  {
+    "id": "fc-ncle-ins-021",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Topography color convention",
+    "back": "Warm (red) = steep. Cool (blue) = flat."
+  },
+  {
+    "id": "fc-ncle-ins-022",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Vertical bow-tie",
+    "back": "With-the-rule astigmatism."
+  },
+  {
+    "id": "fc-ncle-ins-023",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Radiuscope principle",
+    "back": "Drysdale: the distance between the surface focus and the center-of-curvature (aerial) image focus = radius."
+  },
+  {
+    "id": "fc-ncle-ins-024",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Radiuscope lens mounting",
+    "back": "Concave side up, on a drop of fluid."
+  },
+  {
+    "id": "fc-ncle-ins-025",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Lensometer and contact lenses",
+    "back": "Back surface against the stop. Reads back vertex power."
+  },
+  {
+    "id": "fc-ncle-ins-026",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "V-groove gauge",
+    "back": "Measures RGP diameter. Let the lens slide and stop on its own, never force it."
+  },
+  {
+    "id": "fc-ncle-ins-027",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Burton lamp limitation",
+    "back": "UV source. Won't excite fluorescein under UV-blocking RGPs."
+  },
+  {
+    "id": "fc-ncle-ins-028",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Scheimpflug tomography",
+    "back": "Anterior and posterior elevation plus pachymetry."
+  },
+  {
+    "id": "fc-ncle-fol-001",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Typical soft daily-wear follow-up schedule",
+    "back": "About 1–2 weeks, about 1 month, about 3 months, then every 6–12 months."
+  },
+  {
+    "id": "fc-ncle-fol-002",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "First extended-wear follow-up",
+    "back": "The morning after the first overnight wear."
+  },
+  {
+    "id": "fc-ncle-fol-003",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Striae and folds",
+    "back": "Striae appear at about 5% corneal swelling, folds at about 8% or more."
+  },
+  {
+    "id": "fc-ncle-fol-004",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Epithelial microcysts",
+    "back": "Chronic hypoxia. They often increase briefly about a week after stopping wear, then resolve."
+  },
+  {
+    "id": "fc-ncle-fol-005",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Microcysts vs vacuoles (retroillumination)",
+    "back": "Microcysts: reversed illumination. Vacuoles: unreversed."
+  },
+  {
+    "id": "fc-ncle-fol-006",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Neovascularization cause and fix",
+    "back": "Chronic hypoxia. Increase Dk/t and reduce wear. Vessels become ghost vessels."
+  },
+  {
+    "id": "fc-ncle-fol-007",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "CLARE",
+    "back": "Extended wear. Wakes with a red, painful, photophobic eye and peripheral infiltrates, no major epithelial defect. Gram-negative endotoxins."
+  },
+  {
+    "id": "fc-ncle-fol-008",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "CLPU",
+    "back": "Small, round, peripheral infiltrate with an overlying epithelial defect. Linked to Staph aureus. Sterile, leaves a round scar."
+  },
+  {
+    "id": "fc-ncle-fol-009",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "GPC/CLPC signs",
+    "back": "Upper tarsal papillae, itching after removal, mucus, lens riding high, reduced tolerance."
+  },
+  {
+    "id": "fc-ncle-fol-010",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "GPC management",
+    "back": "Reduce or stop wear, then daily disposables or more frequent replacement, peroxide, lower-modulus material. The prescriber may use anti-allergy drops."
+  },
+  {
+    "id": "fc-ncle-fol-011",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "SEAL",
+    "back": "Superior arcuate epithelial split from mechanical pressure (stiff lens or poor fit). Usually without symptoms."
+  },
+  {
+    "id": "fc-ncle-fol-012",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "3 & 9 o'clock staining",
+    "back": "RGP. Horizontal peripheral desiccation from incomplete blinking and lens edge design."
+  },
+  {
+    "id": "fc-ncle-fol-013",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Dellen",
+    "back": "Localized thinning from dehydration next to an elevation. Pools fluorescein."
+  },
+  {
+    "id": "fc-ncle-fol-014",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Corneal warpage",
+    "back": "Low-Dk rigid lenses. Irregular topography, distorted mires, spectacle blur."
+  },
+  {
+    "id": "fc-ncle-fol-015",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Most common CL bacterial keratitis organism",
+    "back": "Pseudomonas aeruginosa."
+  },
+  {
+    "id": "fc-ncle-fol-016",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Biggest MK risk factor",
+    "back": "Overnight wear."
+  },
+  {
+    "id": "fc-ncle-fol-017",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Acanthamoeba clues",
+    "back": "Water exposure. Pain out of proportion. Radial keratoneuritis. Later a ring infiltrate. Often mistaken for herpes simplex."
+  },
+  {
+    "id": "fc-ncle-fol-018",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Never do this for a CL-related abrasion",
+    "back": "Pressure patch. It raises Pseudomonas infection risk."
+  },
+  {
+    "id": "fc-ncle-fol-019",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Suspected microbial keratitis",
+    "back": "Remove the lens. Same-day referral. Bring the lens and case for culture."
+  },
+  {
+    "id": "fc-ncle-fol-020",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Sterile vs infectious infiltrate",
+    "back": "Infectious: larger, central, epithelial defect, pain, discharge, anterior chamber reaction. Sterile: small, peripheral, intact epithelium, mild symptoms."
+  },
+  {
+    "id": "fc-ncle-fol-021",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Solution-induced corneal staining",
+    "back": "Diffuse or annular punctate staining peaking about 1–2 hours after insertion. Preservative or lens incompatibility."
+  },
+  {
+    "id": "fc-ncle-fol-022",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Toxic vs allergic solution reaction",
+    "back": "Toxic: prompt. Allergic: delayed, after sensitization."
+  },
+  {
+    "id": "fc-ncle-fol-023",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Protein deposits",
+    "back": "Whitish film. Heaviest on Group IV."
+  },
+  {
+    "id": "fc-ncle-fol-024",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Lipid deposits",
+    "back": "Greasy smear. Common on silicone hydrogels."
+  },
+  {
+    "id": "fc-ncle-fol-025",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Jelly bumps",
+    "back": "Raised calcium-lipid-protein front-surface deposits. Replace the lens."
+  },
+  {
+    "id": "fc-ncle-fol-026",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Dimple veil",
+    "back": "Bubbles under a steep RGP leave epithelial dimples that pool fluorescein."
+  },
+  {
+    "id": "fc-ncle-fol-027",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Inferior 'smile' staining",
+    "back": "Dehydration (pervaporation) with thin, high-water hydrogels."
+  },
+  {
+    "id": "fc-ncle-fol-028",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Product recalls to know",
+    "back": "2006: ReNu MoistureLoc (Fusarium). 2007: Complete MoisturePlus (Acanthamoeba)."
+  },
+  {
+    "id": "fc-ncle-std-001",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "FCLCA",
+    "back": "Fairness to Contact Lens Consumers Act, 2003. Implemented by the FTC Contact Lens Rule (16 CFR Part 315)."
+  },
+  {
+    "id": "fc-ncle-std-002",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Automatic Rx release",
+    "back": "The prescriber must give the contact lens Rx at completion of the fitting, even if not asked."
+  },
+  {
+    "id": "fc-ncle-std-003",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Passive verification window",
+    "back": "8 business hours. If the prescriber doesn't respond, the seller may fill the order."
+  },
+  {
+    "id": "fc-ncle-std-004",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Minimum Rx expiration",
+    "back": "1 year (or longer if state law requires), unless a documented medical reason justifies shorter."
+  },
+  {
+    "id": "fc-ncle-std-005",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Prescriber prohibitions",
+    "back": "No requiring a lens purchase, no extra release fee, no waiver as a condition of release."
+  },
+  {
+    "id": "fc-ncle-std-006",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Exam fee before release",
+    "back": "Allowed only if the practice also requires immediate payment when the exam shows no need for lenses."
+  },
+  {
+    "id": "fc-ncle-std-007",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "2020 confirmation rule",
+    "back": "Get the patient's confirmation of Rx receipt (signed statement, signed copy, or proof of digital delivery). Keep records 3 years."
+  },
+  {
+    "id": "fc-ncle-std-008",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "2020: patient copy requests",
+    "back": "Respond within 40 business hours."
+  },
+  {
+    "id": "fc-ncle-std-009",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Who is exempt from confirmation",
+    "back": "Prescribers with no direct or indirect financial interest in lens sales."
+  },
+  {
+    "id": "fc-ncle-std-010",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Required Rx elements",
+    "back": "Patient name, exam date, issue and expiration dates, prescriber name, address, phone, and fax, power, material and/or manufacturer, base curve (or designation), diameter when appropriate. Private label: manufacturer, private-label trade name, equivalent brand if applicable."
+  },
+  {
+    "id": "fc-ncle-std-011",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Spectacle Rx for contacts?",
+    "back": "No. A contact lens Rx from a fitting is required."
+  },
+  {
+    "id": "fc-ncle-std-012",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Seller substitution",
+    "back": "Only the same lens from the same manufacturer under a different label."
+  },
+  {
+    "id": "fc-ncle-std-013",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "FDA class: daily-wear lenses",
+    "back": "Class II."
+  },
+  {
+    "id": "fc-ncle-std-014",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "FDA class: extended-wear lenses",
+    "back": "Class III."
+  },
+  {
+    "id": "fc-ncle-std-015",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Decorative lens law",
+    "back": "2005: plano decorative lenses are medical devices and need a prescription."
+  },
+  {
+    "id": "fc-ncle-std-016",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "FDA vs FTC",
+    "back": "FDA: device safety and approval. FTC: Rx release, verification, seller conduct."
+  },
+  {
+    "id": "fc-ncle-std-017",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "ANSI Z80.20",
+    "back": "U.S. standard for contact lens terminology, tolerances, measurements, and physicochemical properties."
+  },
+  {
+    "id": "fc-ncle-std-018",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "California CLD registration",
+    "back": "Pass the NCLE exam and register with the California State Board of Optometry (program formerly under the Medical Board of California)."
+  },
+  {
+    "id": "fc-ncle-std-019",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "California SLD registration",
+    "back": "Pass the ABO exam."
+  },
+  {
+    "id": "fc-ncle-std-020",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "California dispensing scope",
+    "back": "Fit and dispense only under a valid physician or optometrist prescription. No examining, diagnosing, or prescribing."
+  },
+  {
+    "id": "fc-ncle-std-021",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Soft diagnostic lenses",
+    "back": "Single use. Discard after each patient."
+  },
+  {
+    "id": "fc-ncle-std-022",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Rigid diagnostic lenses",
+    "back": "Clean and disinfect with an appropriate method between patients."
+  },
+  {
+    "id": "fc-ncle-std-023",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Hand hygiene",
+    "back": "Before and after every patient. California requires accessible hand-washing facilities where contacts are fitted."
+  }
+]

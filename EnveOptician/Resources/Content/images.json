@@ -1,0 +1,762 @@
+[
+  {
+    "id": "img-lensometer-manual",
+    "file": "img-lensometer-manual.jpg",
+    "title": "Manual lensometer (focimeter)",
+    "caption": "A lensometer neutralizes a spectacle lens to read its back vertex power, cylinder axis, prism and add, and is used to mark optical centers before edging.",
+    "author": "Janee",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Topcon_Lensmeter_11.JPG",
+    "credit": "Janee / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ]
+  },
+  {
+    "id": "img-autolensmeter",
+    "file": "img-autolensmeter.jpg",
+    "title": "Automated lensmeter",
+    "caption": "An automated lensmeter reads sphere, cylinder, axis and prism electronically, but the lens must still be positioned with the back surface against the lens stop.",
+    "author": "Phoropter99",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Autolensmeter.jpg",
+    "credit": "Phoropter99 / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ]
+  },
+  {
+    "id": "img-lens-clock",
+    "file": "img-lens-clock.jpg",
+    "title": "Lens clock (Geneva lens measure)",
+    "caption": "A lens clock measures surface curvature by sagitta and is calibrated for index 1.53, so readings on other materials must be converted to true power.",
+    "author": "Frank Eichler",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Lens_Clock.jpg",
+    "credit": "Frank Eichler / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments"
+    ]
+  },
+  {
+    "id": "img-lens-clock-diagram",
+    "file": "img-lens-clock-diagram.png",
+    "title": "Lens clock principle diagram",
+    "caption": "The two fixed outer pins and the movable center pin measure the sagitta of a surface, which the dial converts to dioptric surface power.",
+    "author": "StationNT5Bmedia and Srleffler",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:LensClockSF.svg",
+    "credit": "StationNT5Bmedia and Srleffler / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments",
+      "abo.optics"
+    ]
+  },
+  {
+    "id": "img-pupillometer",
+    "file": "img-pupillometer.jpg",
+    "title": "Corneal-reflex pupillometer",
+    "caption": "A corneal-reflex pupillometer measures binocular and monocular PD by aligning a hairline with each corneal light reflex, at distance or near fixation.",
+    "author": "Issa not",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:The_Optometry_Clinic_at_The_Ohio_State_University_-_Pupilometer.jpg",
+    "credit": "Issa not / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.instruments",
+      "abo.dispensing"
+    ]
+  },
+  {
+    "id": "img-phoropter",
+    "file": "img-phoropter.jpg",
+    "title": "Phoropter (refractor)",
+    "caption": "A phoropter holds spherical and cylindrical trial lenses, prisms and a Jackson cross cylinder used to determine the refraction that becomes the spectacle Rx.",
+    "author": "Phoropter99",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Nidek_RT-3100_Phoropter.jpg",
+    "credit": "Phoropter99 / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ]
+  },
+  {
+    "id": "img-progressive-lens",
+    "file": "img-progressive-lens.jpg",
+    "title": "Progressive addition lens in a frame",
+    "caption": "A progressive addition lens has no visible segment line; power increases gradually down the corridor from distance to the full near add.",
+    "author": "Stanistani",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Progressive_Trifocal_Lens.jpg",
+    "credit": "Stanistani / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-progressive-zones",
+    "file": "img-progressive-zones.jpg",
+    "title": "Progressive lens clear and distorted zones",
+    "caption": "Progressive lenses have unwanted peripheral astigmatism (gray) on either side of the corridor; harder designs have narrower, more intense blur zones.",
+    "author": "Hold2file (English Wikipedia)",
+    "license": "Public domain",
+    "licenseURL": null,
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:ClearVisionArea.jpg",
+    "credit": "Hold2file (English Wikipedia) / Wikimedia Commons, Public domain",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-bifocal",
+    "file": "img-bifocal.jpg",
+    "title": "Lined bifocal spectacles",
+    "caption": "A lined bifocal has a visible near segment; seg height is normally fit at or slightly below the lower lid margin.",
+    "author": "Frank C. Müller, Baden-Baden",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Bifokalbrille_(fcm).jpg",
+    "credit": "Frank C. Müller, Baden-Baden / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-executive-bifocal",
+    "file": "img-executive-bifocal.jpg",
+    "title": "Executive (Franklin) bifocal lens blank",
+    "caption": "An executive bifocal's segment spans the full lens width with a straight ledge line, giving the widest near field but a heavier, thicker lens.",
+    "author": "Controldemiopia",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Bifocal_ejecutivo.jpg",
+    "credit": "Controldemiopia / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-rimless",
+    "file": "img-rimless.jpg",
+    "title": "Rimless (drill-mount) frame",
+    "caption": "Rimless mountings attach the bridge and temples directly to drilled lenses, so impact-resistant materials like polycarbonate or Trivex are preferred.",
+    "author": "Sciencia58",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Rimless_glasses.jpg",
+    "credit": "Sciencia58 / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-safety-z87",
+    "file": "img-safety-z87.jpg",
+    "title": "Z87+ marked safety eyewear",
+    "caption": "ANSI Z87.1 safety eyewear is marked Z87 (Z87+ for high-impact rated), and prescription safety lenses carry the manufacturer's monogram.",
+    "author": "Карма2",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:ACE_Didymium_Glasses_RX-1205-BK_Z87%2B.JPG",
+    "credit": "Карма2 / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.laws",
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-polarized-test",
+    "file": "img-polarized-test.jpg",
+    "title": "Polarized vs non-polarized lens test",
+    "caption": "Two polarized lenses crossed at 90 degrees block transmitted light, a quick check that a sunlens is polarized and its axis is vertical.",
+    "author": "Keministi",
+    "license": "CC0",
+    "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Test_for_polarized_and_non-polarized_sunglasses.jpg",
+    "credit": "Keministi / Wikimedia Commons, CC0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-photochromic",
+    "file": "img-photochromic.jpg",
+    "title": "Photochromic lens",
+    "caption": "Photochromic lenses darken under UV exposure and lighten indoors; most activate poorly behind a car windshield, which blocks UV.",
+    "author": "Vista Lowcost",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:PhotochromicLens.jpg",
+    "credit": "Vista Lowcost / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-ar-coating",
+    "file": "img-ar-coating.jpg",
+    "title": "Anti-reflective coating comparison",
+    "caption": "An uncoated lens (top) shows strong surface reflections, while an AR-coated lens (bottom) uses thin-film interference to cut reflections and leaves a faint residual tint.",
+    "author": "Justin Lebar",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Anti-reflective_coating_comparison.jpg",
+    "credit": "Justin Lebar / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products"
+    ]
+  },
+  {
+    "id": "img-keratometer",
+    "file": "img-keratometer.jpg",
+    "title": "Keratometer",
+    "caption": "A keratometer measures the radius of curvature of the central cornea (about a 3 mm zone), giving the K readings used to select a contact lens base curve.",
+    "author": "Mike Blyth",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Eye_doctor_examining_Nigerian_patient_with_keratometer.jpg",
+    "credit": "Mike Blyth / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ]
+  },
+  {
+    "id": "img-slit-lamp",
+    "file": "img-slit-lamp.jpg",
+    "title": "Slit lamp biomicroscope",
+    "caption": "The slit lamp biomicroscope is the core tool for evaluating contact lens fit, movement and the health of the cornea, conjunctiva and lids.",
+    "author": "Issa not",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:The_Optometry_Clinic_at_The_Ohio_State_University_-_Slit_lamp.jpg",
+    "credit": "Issa not / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ]
+  },
+  {
+    "id": "img-corneal-topography",
+    "file": "img-corneal-topography.jpg",
+    "title": "Corneal topography map",
+    "caption": "Corneal topography maps curvature across the whole cornea, with warm colors marking steeper areas and cool colors flatter ones.",
+    "author": "Jason7825 (English Wikipedia)",
+    "license": "Public domain",
+    "licenseURL": null,
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Computerised_Corneal_Topography.jpg",
+    "credit": "Jason7825 (English Wikipedia) / Wikimedia Commons, Public domain",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ]
+  },
+  {
+    "id": "img-keratoconus-topography",
+    "file": "img-keratoconus-topography.jpg",
+    "title": "Keratoconus on corneal topography",
+    "caption": "Keratoconus shows as a localized inferior area of steepening on a topography map, often with irregular astigmatism best corrected by rigid or scleral lenses.",
+    "author": "Elise A. Slim et al.",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Corneal_topography,_stage_II_keratoconus_(Elise_A._Slim_et_al.).jpg",
+    "credit": "Elise A. Slim et al. / Wikimedia Commons, CC BY 4.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments",
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-soft-lens",
+    "file": "img-soft-lens.jpg",
+    "title": "Soft (silicone hydrogel) contact lens",
+    "caption": "Silicone hydrogel soft lenses combine silicone for high oxygen permeability (Dk) with hydrogel for wettability and comfort.",
+    "author": "David McClenaghan, CSIRO",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3241_O2OPTIXTM_contact_lens_for_healthier_eyes.jpg",
+    "credit": "David McClenaghan, CSIRO / Wikimedia Commons, CC BY 3.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ]
+  },
+  {
+    "id": "img-soft-lens-on-eye",
+    "file": "img-soft-lens-on-eye.jpg",
+    "title": "Soft contact lens on the eye",
+    "caption": "A soft lens is larger than the cornea and should cover it fully with the edge resting on the conjunctiva beyond the limbus.",
+    "author": "Reinhard Müller",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Eye_with_contact_lens.jpg",
+    "credit": "Reinhard Müller / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ]
+  },
+  {
+    "id": "img-rgp-lens",
+    "file": "img-rgp-lens.jpg",
+    "title": "Rigid gas permeable (RGP) contact lens",
+    "caption": "A rigid gas permeable lens is smaller than the cornea and masks corneal astigmatism with a tear lens, here designed for keratoconus.",
+    "author": "BillC (English Wikipedia)",
+    "license": "Public domain",
+    "licenseURL": null,
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:KC-lens.jpg",
+    "credit": "BillC (English Wikipedia) / Wikimedia Commons, Public domain",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ]
+  },
+  {
+    "id": "img-ortho-k-lens",
+    "file": "img-ortho-k-lens.jpg",
+    "title": "Reverse-geometry orthokeratology lens",
+    "caption": "An orthokeratology lens uses reverse geometry, a flat center with a steeper reverse curve, to temporarily flatten the central cornea overnight to reduce myopia.",
+    "author": "Antonio Calossi",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:ESA_per_miopia.jpg",
+    "credit": "Antonio Calossi / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting",
+      "ncle.fitting"
+    ]
+  },
+  {
+    "id": "img-scleral-lens",
+    "file": "img-scleral-lens.jpg",
+    "title": "Scleral contact lens",
+    "caption": "A scleral lens vaults completely over the cornea and rests on the sclera, holding a fluid reservoir useful for irregular corneas and severe dry eye.",
+    "author": "L8rgator",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Dry_eye_scleral_lens_with_visible_vault,_side_view.jpg",
+    "credit": "L8rgator / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ]
+  },
+  {
+    "id": "img-pmma-vs-soft",
+    "file": "img-pmma-vs-soft.jpg",
+    "title": "1950s contact lens vs 1990s contact lens",
+    "caption": "Early contact lenses were rigid PMMA with essentially no oxygen permeability; modern lenses use gas permeable or hydrogel materials.",
+    "author": "Bienengasse",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Contact-lenses-old-new.png",
+    "credit": "Bienengasse / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.prefitting"
+    ]
+  },
+  {
+    "id": "img-fluorescein-staining",
+    "file": "img-fluorescein-staining.jpg",
+    "title": "Fluorescein staining under cobalt blue light",
+    "caption": "Sodium fluorescein pools in areas of epithelial loss and glows green under the slit lamp's cobalt blue filter, revealing corneal abrasions and staining.",
+    "author": "James Heilman, MD",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Corneal_Abrasion_with_Fluorescein_Staining.jpg",
+    "credit": "James Heilman, MD / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup",
+      "ncle.instruments"
+    ]
+  },
+  {
+    "id": "img-corneal-neovascularization",
+    "file": "img-corneal-neovascularization.jpg",
+    "title": "Corneal neovascularization",
+    "caption": "Chronic corneal hypoxia from low-Dk lenses or overwear can drive blood vessels to grow from the limbus into the normally avascular cornea.",
+    "author": "Etung1",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Corneaneo.jpg",
+    "credit": "Etung1 / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup",
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-cl-corneal-ulcer",
+    "file": "img-cl-corneal-ulcer.jpg",
+    "title": "Contact lens related corneal ulcer",
+    "caption": "A contact lens related corneal ulcer is a sight-threatening infection; the patient must stop lens wear and be seen urgently by an eye doctor.",
+    "author": "Iceclanl",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Contact_Lens_Related_Small_Corneal_Ulcer_with_Sodium_Fluorescein_Staining_1.jpg",
+    "credit": "Iceclanl / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup"
+    ]
+  },
+  {
+    "id": "img-acanthamoeba-keratitis",
+    "file": "img-acanthamoeba-keratitis.jpg",
+    "title": "Acanthamoeba keratitis",
+    "caption": "Acanthamoeba keratitis is linked to exposing lenses to tap water, swimming or hot tubs, and causes pain out of proportion to the findings.",
+    "author": "Jacob Lorenzo-Morales, Naveed A. Khan, Julia Walochnik",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Parasite140120-fig1_Acanthamoeba_keratitis_Figure_1A.png",
+    "credit": "Jacob Lorenzo-Morales, Naveed A. Khan, Julia Walochnik / Wikimedia Commons, CC BY 4.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.followup",
+      "ncle.dispensing"
+    ]
+  },
+  {
+    "id": "img-eye-cross-section",
+    "file": "img-eye-cross-section.png",
+    "title": "Human eye cross-section diagram",
+    "caption": "The cornea provides about two-thirds of the eye's refracting power, with the crystalline lens supplying the adjustable remainder through accommodation.",
+    "author": "Rhcastilhos. And Jmarchn.",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Schematic_diagram_of_the_human_eye_en.svg",
+    "credit": "Rhcastilhos. And Jmarchn. / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-eye-chambers",
+    "file": "img-eye-chambers.png",
+    "title": "Anterior, posterior and vitreous chambers",
+    "caption": "Aqueous humor is made by the ciliary body in the posterior chamber, flows through the pupil into the anterior chamber, and drains through the trabecular meshwork.",
+    "author": "Holly Fischer; vector by Pixelsquid",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Three_Internal_chambers_of_the_Eye.svg",
+    "credit": "Holly Fischer; vector by Pixelsquid / Wikimedia Commons, CC BY 3.0; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-anterior-chamber-angle",
+    "file": "img-anterior-chamber-angle.jpg",
+    "title": "Anterior chamber angle structures (gonioscopy)",
+    "caption": "Seen by gonioscopy, the angle shows Schwalbe's line (1), trabecular meshwork (2), scleral spur (3), ciliary body band (4) and iris (5).",
+    "author": "Snoop",
+    "license": "CC BY-SA 3.0 de",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Kammerwinkel.jpg",
+    "credit": "Snoop / Wikimedia Commons, CC BY-SA 3.0 de; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-cornea-layers",
+    "file": "img-cornea-layers.jpg",
+    "title": "Cornea layers (histology)",
+    "caption": "The cornea's layers from front to back are epithelium, Bowman's layer, stroma, Descemet's membrane and endothelium; the stroma makes up about 90% of its thickness.",
+    "author": "Henry Vandyke Carter",
+    "license": "Public domain",
+    "licenseURL": null,
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Vertical_section_human_cornea-Gray871.png",
+    "credit": "Henry Vandyke Carter / Wikimedia Commons, Public domain",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy",
+      "abo.anatomy"
+    ]
+  },
+  {
+    "id": "img-extraocular-muscles",
+    "file": "img-extraocular-muscles.jpg",
+    "title": "Extraocular muscles",
+    "caption": "Six extraocular muscles, four recti and two obliques, move each eye; imbalance between them underlies phorias, tropias and prism prescriptions.",
+    "author": "OpenStax College",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:1412_Extraocular_Muscles.jpg",
+    "credit": "OpenStax College / Wikimedia Commons, CC BY 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ]
+  },
+  {
+    "id": "img-cataract",
+    "file": "img-cataract.jpg",
+    "title": "Cataract",
+    "caption": "A cataract is clouding of the crystalline lens, causing glare and blurred vision; after surgery an intraocular lens replaces the natural lens.",
+    "author": "Rakesh Ahuja, MD",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Cataract_in_human_eye.png",
+    "credit": "Rakesh Ahuja, MD / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-glaucoma-cupping",
+    "file": "img-glaucoma-cupping.jpg",
+    "title": "Glaucomatous optic disc cupping",
+    "caption": "Advanced glaucoma enlarges the optic cup relative to the disc as nerve fibers are lost, producing peripheral visual field loss.",
+    "author": "Snoop (German Wikipedia)",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Glaukompapille2.jpg",
+    "credit": "Snoop (German Wikipedia) / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ]
+  },
+  {
+    "id": "img-amd-fundus",
+    "file": "img-amd-fundus.jpg",
+    "title": "Age-related macular degeneration fundus",
+    "caption": "Age-related macular degeneration damages the macula and central vision, while peripheral vision is usually preserved.",
+    "author": "Tmhlee",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:MacularDegenerationFundus.jpg",
+    "credit": "Tmhlee / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ]
+  },
+  {
+    "id": "img-diabetic-retinopathy",
+    "file": "img-diabetic-retinopathy.jpg",
+    "title": "Diabetic retinopathy fundus",
+    "caption": "Diabetic retinopathy shows hemorrhages, exudates and abnormal vessels in the retina; fluctuating blood sugar can also shift a diabetic patient's refraction.",
+    "author": "Shaofeng Hao et al.",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Fundus_-_diabetic_retinopathy.png",
+    "credit": "Shaofeng Hao et al. / Wikimedia Commons, CC BY 4.0; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-pterygium",
+    "file": "img-pterygium.jpg",
+    "title": "Pterygium",
+    "caption": "A pterygium is a wedge of fibrovascular conjunctival tissue growing onto the cornea, linked to UV exposure, and can induce astigmatism.",
+    "author": "José Miguel Varas, MD",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Pterygium_Slitlamp.jpg",
+    "credit": "José Miguel Varas, MD / Wikimedia Commons, CC BY 3.0; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-pinguecula",
+    "file": "img-pinguecula.jpg",
+    "title": "Pinguecula",
+    "caption": "A pinguecula is a yellowish raised deposit on the bulbar conjunctiva near the limbus that, unlike a pterygium, does not grow onto the cornea.",
+    "author": "Red eye2008",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:PRE-OPERATIVE_PINGUECULA.JPG",
+    "credit": "Red eye2008 / Wikimedia Commons, CC BY-SA 3.0; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy",
+      "abo.anatomy"
+    ]
+  },
+  {
+    "id": "img-munson-sign",
+    "file": "img-munson-sign.jpg",
+    "title": "Keratoconus (Munson's sign)",
+    "caption": "In advanced keratoconus the cone pushes the lower lid into a V shape on downgaze, called Munson's sign.",
+    "author": "William Charles Caccamise, Sr, MD",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Keratoconus-with-Munsons-sign-USA-1965.jpg",
+    "credit": "William Charles Caccamise, Sr, MD / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy"
+    ]
+  },
+  {
+    "id": "img-conjunctivitis",
+    "file": "img-conjunctivitis.jpg",
+    "title": "Allergic conjunctivitis",
+    "caption": "Allergic conjunctivitis causes itching, redness and conjunctival swelling (chemosis); contact lens wear is usually suspended until it settles.",
+    "author": "James Heilman, MD",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Allergicconjunctivitis.jpg",
+    "credit": "James Heilman, MD / Wikimedia Commons, CC BY-SA 4.0; resized for this app",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "ncle.anatomy",
+      "ncle.followup",
+      "abo.anatomy"
+    ]
+  },
+  {
+    "id": "img-normal-fundus",
+    "file": "img-normal-fundus.jpg",
+    "title": "Normal fundus",
+    "caption": "A normal fundus shows the optic disc with a small central cup, the retinal arteries and veins, and the darker macula with the fovea at its center.",
+    "author": "Mikael Häggström, M.D.",
+    "license": "CC0",
+    "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Fundus_photograph_of_normal_left_eye.jpg",
+    "credit": "Mikael Häggström, M.D. / Wikimedia Commons, CC0; resized for this app",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.anatomy"
+    ]
+  }
+]

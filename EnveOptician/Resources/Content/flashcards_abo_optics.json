@@ -1,0 +1,534 @@
+[
+  {
+    "id": "fc-abo-opt-001",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Index of refraction (n)",
+    "back": "n = c ÷ v: the speed of light in a vacuum divided by its speed in the material. Always greater than 1."
+  },
+  {
+    "id": "fc-abo-opt-002",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Snell's law",
+    "back": "n₁ sin i = n₂ sin r. Light entering a higher-index medium bends toward the normal; leaving it, light bends away from the normal."
+  },
+  {
+    "id": "fc-abo-opt-003",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Critical angle",
+    "back": "The angle of incidence (in the denser medium) beyond which light is totally internally reflected. sin c = n₂ ÷ n₁; about 41.8° for n = 1.50."
+  },
+  {
+    "id": "fc-abo-opt-004",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Visible spectrum",
+    "back": "Approximately 380–760 nm (violet to red). Shorter wavelengths are refracted more than longer ones."
+  },
+  {
+    "id": "fc-abo-opt-005",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Diopter (D)",
+    "back": "Unit of lens power: the reciprocal of the focal length in meters. F = 1 ÷ f."
+  },
+  {
+    "id": "fc-abo-opt-006",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Focal length of a +4.00 D lens",
+    "back": "f = 1 ÷ 4.00 = 0.25 m = 25 cm."
+  },
+  {
+    "id": "fc-abo-opt-007",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Vergence",
+    "back": "The curvature of a wavefront, in diopters = 1 ÷ distance (m). Diverging light is minus, converging light is plus, parallel light is zero."
+  },
+  {
+    "id": "fc-abo-opt-008",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Vergence equation",
+    "back": "V = U + F: image vergence = object vergence + lens power."
+  },
+  {
+    "id": "fc-abo-opt-009",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Optical infinity",
+    "back": "6 m (20 ft) or more; light from that distance is treated as parallel (vergence ≈ 0)."
+  },
+  {
+    "id": "fc-abo-opt-010",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Surface power formula",
+    "back": "F = (n′ − n) ÷ r, with r in meters. For a lens surface in air: F = (n − 1) ÷ r."
+  },
+  {
+    "id": "fc-abo-opt-011",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Nominal (approximate) lens power",
+    "back": "F₁ + F₂: front surface power plus back surface power. Ignores thickness."
+  },
+  {
+    "id": "fc-abo-opt-012",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Meniscus lens",
+    "back": "Convex front and concave back. The standard form for modern spectacle lenses."
+  },
+  {
+    "id": "fc-abo-opt-013",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "'With' vs 'against' motion",
+    "back": "During hand neutralization, a minus lens gives 'with' motion and a plus lens gives 'against' motion."
+  },
+  {
+    "id": "fc-abo-opt-014",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Scissors motion",
+    "back": "Rotating a lens makes cross-target lines tilt toward and away from each other. Indicates cylinder."
+  },
+  {
+    "id": "fc-abo-opt-015",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Cylinder axis",
+    "back": "The meridian with no cylinder power. Maximum cylinder power is 90° away. Axes are written 1–180."
+  },
+  {
+    "id": "fc-abo-opt-016",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Transposition steps",
+    "back": "1) New sphere = sphere + cylinder (algebraically). 2) Change the cylinder sign. 3) Change the axis by 90°."
+  },
+  {
+    "id": "fc-abo-opt-017",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Transpose −2.00 −1.00 × 180",
+    "back": "−3.00 +1.00 × 090"
+  },
+  {
+    "id": "fc-abo-opt-018",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Spherical equivalent",
+    "back": "SE = sphere + (cylinder ÷ 2). Example: −3.25 −1.50 × 180 → −4.00 D."
+  },
+  {
+    "id": "fc-abo-opt-019",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Optical cross",
+    "back": "Diagram showing the power in each principal meridian. The sphere is in the axis meridian; sphere + cylinder is 90° away."
+  },
+  {
+    "id": "fc-abo-opt-020",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Power in an oblique meridian (approx.)",
+    "back": "F_θ = S + C sin²θ, where θ is the angle between that meridian and the cylinder axis."
+  },
+  {
+    "id": "fc-abo-opt-021",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "sin² values to memorize",
+    "back": "sin² 30° = 0.25; sin² 45° = 0.50; sin² 60° = 0.75; sin² 90° = 1.00."
+  },
+  {
+    "id": "fc-abo-opt-022",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Mixed astigmatism",
+    "back": "One principal meridian is myopic and the other hyperopic, e.g., +1.00 −2.00 × 090."
+  },
+  {
+    "id": "fc-abo-opt-023",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Simple myopic astigmatism",
+    "back": "One meridian is emmetropic and the other myopic, e.g., plano −1.50 × 180."
+  },
+  {
+    "id": "fc-abo-opt-024",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Compound hyperopic astigmatism",
+    "back": "Both meridians are hyperopic but unequal, e.g., +3.00 −1.00 × 180 (+3.00 and +2.00)."
+  },
+  {
+    "id": "fc-abo-opt-025",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "With-the-rule astigmatism",
+    "back": "The vertical meridian is steepest. Corrected by minus cylinder at an axis near 180 (plus cylinder near 090)."
+  },
+  {
+    "id": "fc-abo-opt-026",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Prism diopter (Δ)",
+    "back": "Displaces an image 1 cm at a distance of 1 m."
+  },
+  {
+    "id": "fc-abo-opt-027",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Prism: light vs. image",
+    "back": "Light bends toward the base; the image appears displaced toward the apex."
+  },
+  {
+    "id": "fc-abo-opt-028",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Prentice's rule",
+    "back": "Δ = c × F, where c is decentration in centimeters and F is the power in diopters in that meridian."
+  },
+  {
+    "id": "fc-abo-opt-029",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Base direction in a plus lens",
+    "back": "Base points toward the optical center (plus = two prisms base to base)."
+  },
+  {
+    "id": "fc-abo-opt-030",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Base direction in a minus lens",
+    "back": "Base points away from the optical center (minus = two prisms apex to apex)."
+  },
+  {
+    "id": "fc-abo-opt-031",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Decentration for prism",
+    "back": "c = Δ ÷ F (cm). Plus lens: move the OC in the direction of the desired base. Minus lens: move the OC opposite the desired base."
+  },
+  {
+    "id": "fc-abo-opt-032",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "OCs too wide in plus lenses",
+    "back": "Base-out prism. (Plus OCs too narrow → base in.)"
+  },
+  {
+    "id": "fc-abo-opt-033",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "OCs too narrow in minus lenses",
+    "back": "Base-out prism. (Minus OCs too wide → base in.)"
+  },
+  {
+    "id": "fc-abo-opt-034",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Compounding prism",
+    "back": "Resultant = √(V² + H²); angle from horizontal = tan⁻¹(V ÷ H)."
+  },
+  {
+    "id": "fc-abo-opt-035",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Resolving oblique prism",
+    "back": "Vertical = P × sin θ; horizontal = P × cos θ."
+  },
+  {
+    "id": "fc-abo-opt-036",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "360° base notation (TABO, viewed facing the patient)",
+    "back": "90° = base up, 270° = base down. OD: 0° = base in, 180° = base out. OS: 0° = base out, 180° = base in."
+  },
+  {
+    "id": "fc-abo-opt-037",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Splitting horizontal prism",
+    "back": "Divide equally with the same base direction: 4Δ BO = 2Δ BO OD + 2Δ BO OS."
+  },
+  {
+    "id": "fc-abo-opt-038",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Splitting vertical prism",
+    "back": "Divide with opposite bases: 2Δ BU OD = 1Δ BU OD + 1Δ BD OS."
+  },
+  {
+    "id": "fc-abo-opt-039",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Vertical imbalance at reading level",
+    "back": "Find the prism in each eye with Prentice's rule using the 90° meridian power at the reading depth (often 10 mm). Same base direction → subtract; opposite → add."
+  },
+  {
+    "id": "fc-abo-opt-040",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Why vertical prism is poorly tolerated",
+    "back": "Vertical fusional reserves are only about 1–2Δ, much smaller than horizontal reserves."
+  },
+  {
+    "id": "fc-abo-opt-041",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Vertex distance",
+    "back": "Distance from the back surface of the lens to the front of the cornea. Typically 10–15 mm."
+  },
+  {
+    "id": "fc-abo-opt-042",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Vertex compensation threshold",
+    "back": "Becomes significant above about ±4.00 D."
+  },
+  {
+    "id": "fc-abo-opt-043",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Vertex compensation formula",
+    "back": "Fc = F ÷ (1 − dF); d in meters, positive when the lens moves toward the eye."
+  },
+  {
+    "id": "fc-abo-opt-044",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Moving a lens closer to the eye",
+    "back": "Plus lens needs more plus; minus lens needs less minus. Example: −8.00 at 13 mm → −7.25 D at the cornea."
+  },
+  {
+    "id": "fc-abo-opt-045",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Effective power rule",
+    "back": "Moving any lens away from the eye shifts its effect in the plus direction (plus stronger, minus weaker)."
+  },
+  {
+    "id": "fc-abo-opt-046",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Back vertex power",
+    "back": "Power measured from the back surface; what a lensometer reads and what the Rx specifies."
+  },
+  {
+    "id": "fc-abo-opt-047",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Thick-lens back vertex power",
+    "back": "Fv = F₁ ÷ (1 − (t/n)F₁) + F₂."
+  },
+  {
+    "id": "fc-abo-opt-048",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Front vertex power use",
+    "back": "Used to measure the add of front-surface multifocals: place the front surface against the lens stop."
+  },
+  {
+    "id": "fc-abo-opt-049",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lensometer in minus cylinder",
+    "back": "Focus the most plus lines first (sphere), then the second lines; the difference is the minus cylinder, and the axis wheel gives the axis."
+  },
+  {
+    "id": "fc-abo-opt-050",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Exact sagitta formula",
+    "back": "s = r − √(r² − y²), where y is the semi-diameter (half the lens diameter)."
+  },
+  {
+    "id": "fc-abo-opt-051",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Approximate sagitta formula",
+    "back": "s ≈ y²F ÷ 2000(n − 1), with y in mm and F in diopters; gives s in mm."
+  },
+  {
+    "id": "fc-abo-opt-052",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Minus lens edge thickness",
+    "back": "Edge = center thickness + sag."
+  },
+  {
+    "id": "fc-abo-opt-053",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Plus lens center thickness",
+    "back": "Center = edge thickness + sag."
+  },
+  {
+    "id": "fc-abo-opt-054",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Diameter and thickness",
+    "back": "Sag ∝ y², so doubling lens diameter roughly quadruples the sag."
+  },
+  {
+    "id": "fc-abo-opt-055",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Vogel's rule — plus lenses",
+    "back": "Base curve = SE + 6.00 D."
+  },
+  {
+    "id": "fc-abo-opt-056",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Vogel's rule — minus lenses",
+    "back": "Base curve = (SE ÷ 2) + 6.00 D."
+  },
+  {
+    "id": "fc-abo-opt-057",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Base curve of a minus-cylinder lens",
+    "back": "The front spherical surface. On a toric surface, the base curve is the flattest curve."
+  },
+  {
+    "id": "fc-abo-opt-058",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Tscherning's ellipse",
+    "back": "Plots base curves that eliminate oblique astigmatism. Ostwalt (flatter) branch is used in practice; Wollaston is steeper."
+  },
+  {
+    "id": "fc-abo-opt-059",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens clock (lens measure)",
+    "back": "Measures surface sagitta with three pins; calibrated for n = 1.53."
+  },
+  {
+    "id": "fc-abo-opt-060",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens clock conversion",
+    "back": "True power = reading × (n − 1) ÷ 0.53. Example: +6.00 on polycarbonate → +6.63 D."
+  },
+  {
+    "id": "fc-abo-opt-061",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Spectacle magnification",
+    "back": "SM = power factor × shape factor. Power factor = 1 ÷ (1 − hF); shape factor = 1 ÷ (1 − (t/n)F₁)."
+  },
+  {
+    "id": "fc-abo-opt-062",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Increasing plus lens magnification",
+    "back": "Steeper front curve, greater center thickness, or larger distance from the eye."
+  },
+  {
+    "id": "fc-abo-opt-063",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Fresnel reflection",
+    "back": "R = ((n − 1) ÷ (n + 1))² per surface. n 1.50 ≈ 4%; 1.60 ≈ 5.3%; 1.67 ≈ 6.3%; 1.74 ≈ 7.3%."
+  },
+  {
+    "id": "fc-abo-opt-064",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Abbe value",
+    "back": "V = (n_d − 1) ÷ (n_F − n_C). Higher V = less dispersion and less chromatic aberration."
+  },
+  {
+    "id": "fc-abo-opt-065",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Transverse chromatic aberration",
+    "back": "TCA = prism ÷ Abbe value = cF ÷ V. Grows away from the optical center."
+  },
+  {
+    "id": "fc-abo-opt-066",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Distortion",
+    "back": "Plus lenses → pincushion distortion. Minus lenses → barrel distortion."
+  },
+  {
+    "id": "fc-abo-opt-067",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Oblique (marginal) astigmatism",
+    "back": "Unwanted cylinder when looking obliquely through the lens periphery. Controlled by base curve selection."
+  },
+  {
+    "id": "fc-abo-opt-068",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Myopia",
+    "back": "Light focuses in front of the retina. Corrected with minus lenses. Far point = 1 ÷ error, in front of the eye."
+  },
+  {
+    "id": "fc-abo-opt-069",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Hyperopia",
+    "back": "Light focuses behind the retina. Corrected with plus lenses."
+  },
+  {
+    "id": "fc-abo-opt-070",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Far point of a −2.50 D myope",
+    "back": "1 ÷ 2.50 = 40 cm in front of the eye."
+  },
+  {
+    "id": "fc-abo-opt-071",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Presbyopia",
+    "back": "Age-related loss of accommodation; corrected with a plus add for near."
+  },
+  {
+    "id": "fc-abo-opt-072",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Add calculation (half-amplitude reserve)",
+    "back": "Add = (1 ÷ working distance in m) − (amplitude ÷ 2). Example: 40 cm, 2.00 D amplitude → 2.50 − 1.00 = +1.50."
+  },
+  {
+    "id": "fc-abo-opt-073",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Near-only Rx",
+    "back": "Add the add to the distance sphere only; cylinder and axis do not change."
+  },
+  {
+    "id": "fc-abo-opt-074",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Near PD rule of thumb",
+    "back": "Approximately 3–4 mm less than the distance PD for a 40 cm reading distance."
+  },
+  {
+    "id": "fc-abo-opt-075",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Image jump",
+    "back": "Prism at the seg top = add × distance (cm) from seg top to seg OC. Round 22 seg with +2.00 add → 1.1 × 2 = 2.2Δ."
+  },
+  {
+    "id": "fc-abo-opt-076",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Seg design and image jump",
+    "back": "Executive: none (OC on line). Flat-top: minimal (OC near the line). Round: greatest (OC at seg center)."
+  }
+]

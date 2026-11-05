@@ -1,0 +1,558 @@
+[
+  {
+    "id": "guide-abo-optics",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "title": "Ophthalmic Optics",
+    "summary": "Light, lens power, prescriptions and transposition, prism and Prentice's rule, vertex and effective power, thickness and base curves, magnification, and the boxing measurement system.",
+    "sections": [
+      {
+        "heading": "Boxing system",
+        "body": "The boxing system draws a rectangle tangent to the lens shape.\n\n- **A**: horizontal box width\n- **B**: vertical box height\n- **ED**: effective diameter = 2 × the longest radius from the geometric center\n- **DBL**: distance between lenses (between the nasal box lines)\n- **Geometric center**: where the box midlines cross\n- **Frame PD (GCD)** = A + DBL\n- **Frame difference** = A − B\n\nThe older **datum system** measured along a datum line midway between the horizontal tangents. Boxing is the current standard.",
+        "diagram": "boxing-system"
+      },
+      {
+        "heading": "Reading the prescription",
+        "body": "- **OD** right eye, **OS** left eye, **OU** both eyes\n- **Sph**: sphere power; **Cyl**: cylinder power; **Axis**: 1–180 (write 180, not 000)\n- **Add**: extra plus for near, added to the sphere\n- **Prism**: amount in Δ with base direction BU, BD, BI, or BO\n\n**Transposition**: add the cylinder to the sphere, change the cylinder sign, and change the axis by 90°. For example, −2.00 +1.00 × 090 = −1.00 −1.00 × 180.\n\n**Spherical equivalent** = sphere + cyl ÷ 2. The meridian 90° from the axis carries sphere + cylinder."
+      },
+      {
+        "heading": "Prism and Prentice's rule",
+        "body": "**Prentice's rule**: Δ = c × F, with c the decentration in centimeters and F the power in diopters.\n\n- **Plus lens**: base toward the optical center\n- **Minus lens**: base away from the optical center\n- **Splitting horizontal prism**: same base direction in each eye\n- **Splitting vertical prism**: opposite directions (BU OD = BD OS)\n- **Resultant**: √(H² + V²); for example 3Δ BI + 4Δ BU = 5Δ\n\nExample: −6.00 D lenses with OCs 2 mm temporal to each pupil give 1.2Δ BI per lens, 2.4Δ BI total.",
+        "diagram": "prentice"
+      },
+      {
+        "heading": "Light, refraction, and index",
+        "body": "Light travels at about 300,000 km/s in a vacuum and slower in any material. The **index of refraction** is the ratio n = c ÷ v, so it is always greater than 1. Common values: air 1.00, water 1.333, CR-39 1.498, crown glass 1.523, polycarbonate 1.586.\n\nWhen light passes obliquely into a higher-index material it slows and **bends toward the normal**; leaving the material, it bends away from the normal. Light striking a surface perpendicularly is not bent. **Snell's law** describes the relationship: n₁ sin i = n₂ sin r.\n\nGoing from a dense medium into a less dense one, light beyond the **critical angle** is totally internally reflected (sin c = n₂ ÷ n₁; about 41.8° for n = 1.50).\n\n- Visible light runs from about 380 nm (violet) to 760 nm (red).\n- Shorter wavelengths are bent more than longer ones; this is dispersion.\n- A prism bends light toward its base, so the image appears displaced toward the apex."
+      },
+      {
+        "heading": "Vergence, diopters, and lens power",
+        "body": "Lens power is measured in **diopters**: F = 1 ÷ f, with f in meters. A +4.00 D lens focuses parallel light 25 cm behind it; a −5.00 D lens has a virtual focal point 20 cm in front of it.\n\n**Vergence** describes how light is spreading or converging at a given point, in diopters (1 ÷ distance in meters). Light diverging from an object is minus, converging light is plus, and light from optical infinity (6 m / 20 ft or more) is treated as parallel, zero vergence.\n\nThe vergence equation **V = U + F** finds the image. Example: an object 50 cm in front of a +5.00 D lens has U = −2.00 D, so V = +3.00 D and the image forms 33.3 cm behind the lens.\n\nEach surface has power F = (n − 1) ÷ r. The thin-lens (nominal) power is the sum of the surfaces: F₁ + F₂. Modern spectacle lenses are **meniscus** form — convex front, concave back. Plus lenses are thickest in the center and give 'against' motion in hand neutralization; minus lenses are thickest at the edge and give 'with' motion.",
+        "diagram": "lens-forms"
+      },
+      {
+        "heading": "Sphere, cylinder, transposition, and the optical cross",
+        "body": "A sphero-cylinder has two principal meridians 90° apart. The sphere power lies along the **axis**; the meridian 90° away receives **sphere + cylinder**. Axes are written from 1 to 180 (horizontal = 180).\n\n**Transposition** converts between plus- and minus-cylinder forms:\n- New sphere = sphere + cylinder (algebraic sum)\n- Change the sign of the cylinder\n- Change the axis by 90°\n\nExample: −2.00 −1.00 × 180 = −3.00 +1.00 × 090. Both describe the same lens: −2.00 in the 180 meridian and −3.00 in the 90 meridian.\n\nTo go from an **optical cross** to a minus-cylinder Rx, choose the more plus meridian as the sphere, use that meridian as the axis, and subtract to find the cylinder. +1.00 @ 090 and −2.00 @ 180 becomes +1.00 −3.00 × 090.\n\nThe **spherical equivalent** is sphere + ½ cylinder. For an oblique meridian, use the approximation **F_θ = S + C sin²θ**, where θ is the angle from the axis (sin² 30° = 0.25, 45° = 0.50, 60° = 0.75).\n\nClassify astigmatism by where the meridians fall: simple myopic (one plano, one myopic), compound myopic (both myopic), simple or compound hyperopic, and mixed (one plus, one minus).",
+        "diagram": "optical-cross"
+      },
+      {
+        "heading": "Prism and Prentice's rule",
+        "body": "One **prism diopter** displaces an image 1 cm at 1 m. Away from the optical center, every lens behaves like a prism. **Prentice's rule** gives the amount: **Δ = c × F**, with c the decentration in **centimeters** and F the power in the meridian of decentration.\n\nBase direction depends on the lens type:\n- **Plus** lenses: base points toward the optical center\n- **Minus** lenses: base points away from the optical center\n\nExample: looking 5 mm below the OC of a +3.00 D lens gives 0.5 × 3.00 = 1.50Δ base up. Plus OCs set too wide or minus OCs set too narrow both produce base-out prism.\n\nTo create prism by decentration, rearrange to **c = Δ ÷ F**. In a plus lens, move the OC in the direction you want the base; in a minus lens, move it the opposite way. For 2.00Δ BI from a +4.00 D lens, decenter 5 mm in.\n\nWith cylinder, use the power in the meridian of decentration: horizontal prism uses the 180 meridian power, vertical prism uses the 90 meridian power.",
+        "diagram": "prism"
+      },
+      {
+        "heading": "Combining, resolving, and balancing prism",
+        "body": "Vertical and horizontal prism in the same eye combine as a right triangle: resultant = √(V² + H²), angle from horizontal = tan⁻¹(V ÷ H). 3Δ BU + 4Δ BO = 5Δ at about 37° from horizontal.\n\nIn standard 360° notation (viewed facing the patient), base up is 90° and base down 270°. For **OD**, base in is 0° and base out 180°; for **OS**, base out is 0° and base in 180°. So 5Δ up-and-out in the right eye is written base 143°.\n\nTo resolve an oblique prism, vertical = P sin θ and horizontal = P cos θ.\n\nPrism is often split between the eyes:\n- Horizontal: equal amounts, same base direction (4Δ BO → 2Δ BO each eye)\n- Vertical: equal amounts, opposite bases (2Δ BU OD → 1Δ BU OD + 1Δ BD OS)\n\n**Vertical imbalance** at the reading level arises in anisometropia when the eyes drop below the OCs (often about 10 mm). Compute each eye's vertical prism from the 90° meridian power; subtract when bases match. OD +1.00, OS +3.50 at 10 mm → 1.00Δ and 3.50Δ BU → 2.50Δ imbalance. Vertical fusional reserves are only about 1–2Δ, so imbalance of roughly 1.5Δ or more often needs compensation such as slab-off."
+      },
+      {
+        "heading": "Vertex distance, effective power, and lensometry",
+        "body": "**Vertex distance** is measured from the back of the lens to the cornea. Moving a lens changes its effect on the eye, which becomes significant above about ±4.00 D.\n\nCompensate with **Fc = F ÷ (1 − dF)**, d in meters, positive when the lens moves closer to the eye. Examples:\n- −8.00 D at 13 mm → −8.00 ÷ 1.104 = −7.25 D at the cornea\n- +12.00 D at 10 mm → +12.00 ÷ 0.88 = +13.64 D at the cornea\n\nRule of thumb: moving a lens **away** from the eye makes it act **more plus**. Plus lenses moved closer need more plus; minus lenses moved closer need less minus.\n\nReal lenses have thickness, so **back vertex power** differs from nominal power: Fv = F₁ ÷ (1 − (t/n)F₁) + F₂. The lensometer reads back vertex power. Measure the add of front-surface multifocals as a **front vertex** difference by turning the lens around.\n\nIn minus-cylinder lensometry, focus the most plus lines first (sphere), then the second set; the difference is the cylinder and the axis wheel gives the axis.",
+        "diagram": "vertex-distance"
+      },
+      {
+        "heading": "Thickness, sagitta, base curves, and the lens clock",
+        "body": "The **sagitta** (sag) is the depth of a curve across a chord. Exact: s = r − √(r² − y²), where y is half the diameter. Approximate: **s ≈ y²F ÷ 2000(n − 1)** in millimeters.\n\n- Minus lens: edge thickness = center thickness + sag\n- Plus lens: center thickness = edge thickness + sag\n- Sag grows with y², so doubling the diameter roughly quadruples it\n- Higher index needs flatter curves, giving less sag and thinner lenses\n\nExample: a −6.00 D, 50 mm, n = 1.50 lens with 2.0 mm center: sag = 625 × 6 ÷ 1000 = 3.75 mm, so the edge is about 5.75 mm.\n\n**Base curve** selection controls peripheral optics. On a minus-cylinder lens, the base curve is the front sphere. **Vogel's rule** gives a starting point: plus lenses BC = SE + 6; minus lenses BC = SE ÷ 2 + 6. **Tscherning's ellipse** plots the curves that eliminate oblique astigmatism; the flatter Ostwalt branch is used in practice.\n\nThe **lens clock** reads surface power for n = 1.53. Convert with true power = reading × (n − 1) ÷ 0.53. A +6.00 reading on polycarbonate is +6.63 D; on CR-39 it is +5.64 D. Different readings in different meridians indicate a toric surface."
+      },
+      {
+        "heading": "Magnification, reflection, dispersion, and aberrations",
+        "body": "**Spectacle magnification** = power factor × shape factor. Plus lenses magnify, minus lenses minify. Magnification rises with steeper front curves, thicker lenses, and greater distance from the eye. A +10.00 D lens 12 mm from the entrance pupil has a power factor of 1 ÷ 0.88 ≈ 1.136 (13.6%).\n\n**Fresnel reflection** per surface is ((n − 1) ÷ (n + 1))²: about 4% at 1.50 and 7.3% at 1.74. Higher-index lenses reflect more, which is why AR coatings matter more for them.\n\n**Abbe value** measures dispersion; higher is better. Transverse chromatic aberration = prism ÷ Abbe. A −6.00 D polycarbonate lens (Abbe 30) viewed 10 mm off center shows 6Δ ÷ 30 = 0.20Δ of color spread — seen as color fringes in the periphery.\n\nMonochromatic aberrations that matter most in spectacle lenses:\n- **Oblique astigmatism** — unwanted cylinder off-axis; controlled by base curve\n- **Curvature of field** (power error) — peripheral image shell misses the far-point sphere\n- **Distortion** — pincushion with plus, barrel with minus\n\nSpherical aberration and coma are minor because the pupil limits the ray bundle."
+      },
+      {
+        "heading": "Refractive errors, accommodation, near PD, and image jump",
+        "body": "- **Myopia**: focus in front of the retina; minus correction; far point = 1 ÷ error in front of the eye (−2.50 D → 40 cm)\n- **Hyperopia**: focus behind the retina; plus correction\n- **Astigmatism**: two focal lines; cylinder correction. With-the-rule is corrected by minus cylinder near axis 180\n- **Anisometropia**: unequal refractive errors between the eyes\n\n**Presbyopia** is the age-related loss of accommodation. Add = working-distance demand − usable accommodation. Demand at 40 cm is 2.50 D; a patient with 2.00 D amplitude who keeps half in reserve uses 1.00 D, so the add is +1.50. For a reading-only Rx, add the add to the sphere only.\n\nThe eyes converge at near, so the **near PD** is typically 3–4 mm less than the distance PD at 40 cm.\n\n**Image jump** is the sudden prism at the top of a segment: add × distance (cm) from the seg top to the seg OC. A round 22 seg with a +2.00 add jumps 1.1 × 2.00 = 2.2Δ, and objects appear to jump upward. Executive segs (OC on the line) have none; flat-tops have little; round segs have the most. Distance power does not affect image jump."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Index of refraction",
+        "expression": "n = c ÷ v",
+        "notes": "c = speed of light in a vacuum; v = speed in the material"
+      },
+      {
+        "name": "Snell's law",
+        "expression": "n₁ sin i = n₂ sin r",
+        "notes": "i = angle of incidence, r = angle of refraction, both from the normal"
+      },
+      {
+        "name": "Critical angle",
+        "expression": "sin c = n₂ ÷ n₁",
+        "notes": "Light traveling from the higher index n₁ to the lower index n₂"
+      },
+      {
+        "name": "Lens power",
+        "expression": "F = 1 ÷ f",
+        "notes": "F in diopters; f in meters"
+      },
+      {
+        "name": "Vergence equation",
+        "expression": "V = U + F",
+        "notes": "U = object vergence (−1 ÷ object distance in m); V = image vergence"
+      },
+      {
+        "name": "Surface power",
+        "expression": "F = (n − 1) ÷ r",
+        "notes": "r in meters; for a surface in air"
+      },
+      {
+        "name": "Nominal power",
+        "expression": "F = F₁ + F₂",
+        "notes": "Thin-lens approximation; ignores thickness"
+      },
+      {
+        "name": "Spherical equivalent",
+        "expression": "SE = S + C ÷ 2",
+        "notes": "S = sphere, C = cylinder"
+      },
+      {
+        "name": "Power in an oblique meridian",
+        "expression": "F_θ = S + C × sin²θ",
+        "notes": "θ = angle between the meridian and the cylinder axis"
+      },
+      {
+        "name": "Prentice's rule",
+        "expression": "Δ = c × F",
+        "notes": "c = decentration in cm; F = power in D in that meridian"
+      },
+      {
+        "name": "Decentration for prism",
+        "expression": "c = Δ ÷ F",
+        "notes": "Result in cm; multiply by 10 for mm"
+      },
+      {
+        "name": "Resultant prism",
+        "expression": "P = √(V² + H²); θ = tan⁻¹(V ÷ H)",
+        "notes": "θ measured from the horizontal"
+      },
+      {
+        "name": "Resolving prism",
+        "expression": "V = P × sin θ; H = P × cos θ",
+        "notes": "θ = base angle in 360° notation"
+      },
+      {
+        "name": "Vertex distance compensation",
+        "expression": "Fc = F ÷ (1 − dF)",
+        "notes": "d in meters, positive when the lens moves toward the eye"
+      },
+      {
+        "name": "Back vertex power",
+        "expression": "Fv = F₁ ÷ (1 − (t ÷ n)F₁) + F₂",
+        "notes": "t = center thickness in meters"
+      },
+      {
+        "name": "Sagitta (exact)",
+        "expression": "s = r − √(r² − y²)",
+        "notes": "y = half the lens diameter; same units as r"
+      },
+      {
+        "name": "Sagitta (approximate)",
+        "expression": "s = y² × F ÷ 2000(n − 1)",
+        "notes": "y in mm, F in D; s in mm"
+      },
+      {
+        "name": "Vogel's rule (plus)",
+        "expression": "BC = SE + 6.00",
+        "notes": "Starting base curve for plus lenses"
+      },
+      {
+        "name": "Vogel's rule (minus)",
+        "expression": "BC = SE ÷ 2 + 6.00",
+        "notes": "Starting base curve for minus lenses"
+      },
+      {
+        "name": "Lens clock conversion",
+        "expression": "F_true = F_clock × (n − 1) ÷ 0.53",
+        "notes": "Lens clock is calibrated for n = 1.53"
+      },
+      {
+        "name": "Spectacle magnification",
+        "expression": "SM = [1 ÷ (1 − hF)] × [1 ÷ (1 − (t ÷ n)F₁)]",
+        "notes": "Power factor × shape factor; h = lens to entrance pupil in m"
+      },
+      {
+        "name": "Fresnel reflection",
+        "expression": "R = ((n − 1) ÷ (n + 1))²",
+        "notes": "Fraction reflected per surface at normal incidence"
+      },
+      {
+        "name": "Abbe value",
+        "expression": "V = (n_d − 1) ÷ (n_F − n_C)",
+        "notes": "Higher V = less dispersion"
+      },
+      {
+        "name": "Transverse chromatic aberration",
+        "expression": "TCA = Δ ÷ V = (c × F) ÷ V",
+        "notes": "In prism diopters"
+      },
+      {
+        "name": "Add power",
+        "expression": "Add = 1 ÷ d − (amplitude ÷ 2)",
+        "notes": "d = working distance in m; keeps half the amplitude in reserve"
+      },
+      {
+        "name": "Image jump",
+        "expression": "Jump = add × (seg top to seg OC in cm)",
+        "notes": "Round seg OC = seg radius below the top"
+      }
+    ]
+  },
+  {
+    "id": "guide-abo-anatomy",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "title": "Ocular Anatomy, Physiology, Pathology & Refraction",
+    "summary": "Eye structures and function, the visual pathway, refractive errors, binocular vision, common diseases, and the red flags an optician must refer.",
+    "sections": [
+      {
+        "heading": "Outer coat: cornea, sclera, conjunctiva",
+        "body": "The **cornea** is the clear, avascular front window of the eye and supplies about two-thirds of its refractive power (about +43 D of about +60 D). It gets most of its oxygen from the air through the tear film.\n\n- **Epithelium**: outermost; regenerates quickly after abrasions\n- **Bowman's layer**: tough layer under the epithelium\n- **Stroma**: about 90% of thickness; regularly spaced collagen keeps it clear\n- **Descemet's membrane**: basement membrane of the endothelium\n- **Endothelium**: single cell layer that pumps fluid out of the stroma; does not meaningfully regenerate\n\nThe **sclera** is the white, collagen outer coat. Optic nerve fibers leave through the **lamina cribrosa**. The **limbus** is the corneoscleral junction. The **conjunctiva** is a thin membrane: bulbar over the sclera, palpebral inside the lids. Its goblet cells make tear mucin.",
+        "diagram": "eye-anatomy"
+      },
+      {
+        "heading": "Uvea, aqueous, and IOP",
+        "body": "The **uvea** is the iris, ciliary body, and choroid.\n\n- **Iris**: the sphincter pupillae constricts the pupil (miosis, parasympathetic via CN III); the dilator pupillae dilates it (mydriasis, sympathetic)\n- **Ciliary body**: ciliary processes make aqueous; the ciliary muscle drives accommodation\n- **Choroid**: vascular layer nourishing the outer retina\n\nAqueous flows: posterior chamber → pupil → anterior chamber → trabecular meshwork → Schlemm's canal → episcleral veins, with a smaller uveoscleral route. Normal IOP is about 10–21 mmHg."
+      },
+      {
+        "heading": "Lens, accommodation, vitreous, retina",
+        "body": "The **crystalline lens** hangs from the ciliary body on **zonules**. In accommodation the ciliary muscle contracts, the zonules relax, and the lens rounds up, adding plus. **Presbyopia** is the age-related loss of that ability.\n\nThe **vitreous** is the clear gel filling the back of the eye. With age it can pull away from the retina (posterior vitreous detachment), causing floaters and flashes.\n\nThe **retina** lines the back of the eye:\n\n- **Rods**: dim-light and peripheral vision\n- **Cones**: color and detail; packed into the rod-free **fovea** at the center of the **macula**\n- **Optic disc**: nerve exit with no photoreceptors (the blind spot)\n- **Retinal pigment epithelium**: the layer the neurosensory retina separates from in a detachment"
+      },
+      {
+        "heading": "Visual pathway and eye movements",
+        "body": "Optic nerve → optic chiasm → optic tract → lateral geniculate nucleus → optic radiations → primary visual cortex (occipital lobe). Nasal retinal fibers cross at the chiasm, so pressure on the chiasm (for example, a pituitary tumor) causes **bitemporal hemianopia**.\n\nSix extraocular muscles move each eye: four recti and two obliques. Innervation is **LR6 SO4, rest 3**. The medial rectus adducts and the lateral rectus abducts. The levator palpebrae superioris (CN III) lifts the lid; the orbicularis oculi (CN VII) closes it."
+      },
+      {
+        "heading": "Tear film and eyelids",
+        "body": "- **Lipid layer** (outer): meibomian glands; slows evaporation\n- **Aqueous layer** (middle): main lacrimal gland plus accessory glands of Krause and Wolfring\n- **Mucin layer** (inner): conjunctival goblet cells; helps tears wet the cornea\n\nDrainage: puncta → canaliculi → lacrimal sac → nasolacrimal duct → nose.\n\nLid terms: **ptosis** (drooping upper lid), **ectropion** (lid turned out), **entropion** (lid turned in), **chalazion** (painless blocked meibomian gland), **hordeolum** (acute, painful stye)."
+      },
+      {
+        "heading": "Refractive errors and binocular vision",
+        "body": "- **Myopia**: focus in front of the retina; minus lenses; far point = 1 ÷ D (for example, −2.50 D → 40 cm)\n- **Hyperopia**: focus behind the retina; plus lenses\n- **Astigmatism**: two principal meridians with different powers; simple, compound, or mixed depending on where each meridian focuses\n- **Presbyopia**: loss of accommodation with age; corrected with an add\n- **Anisometropia**: unequal refraction between the eyes; can cause **aniseikonia** (unequal image size)\n\n**Amblyopia** is reduced best-corrected vision from abnormal development in childhood. A **phoria** is latent (held by fusion); a **tropia** is manifest. Eso = in, exo = out, hyper = up. Relieving prism: base out for eso, base in for exo, base down over a hyper eye.",
+        "diagram": "refractive-errors"
+      },
+      {
+        "heading": "Common eye diseases",
+        "body": "- **Cataract**: lens opacity. Nuclear (myopic shift, 'second sight'), cortical, posterior subcapsular (steroids, diabetes; glare)\n- **Primary open-angle glaucoma**: painless, gradual peripheral loss\n- **Acute angle-closure glaucoma**: painful red eye, halos, blur, nausea; emergency\n- **AMD**: dry (drusen, slow) vs wet (neovascular, fast, anti-VEGF); distortion shows on an Amsler grid\n- **Diabetic retinopathy**: retinal vascular damage; swinging glucose also shifts the refraction\n- **Keratoconus**: thinning, cone-shaped cornea with irregular astigmatism; RGP or scleral lenses\n- **Conjunctivitis**: allergic (itch), bacterial (purulent), viral (watery, contagious)\n- **Dry eye**: burning, grittiness, and paradoxical reflex tearing\n- **Pterygium** (grows onto the cornea) vs **pinguecula** (stays on the conjunctiva); both are UV-linked"
+      },
+      {
+        "heading": "Medications, red flags, and professional roles",
+        "body": "Drug effects to know:\n\n- **Cycloplegics** (tropicamide, cyclopentolate, atropine): dilate the pupil and paralyze accommodation, causing light sensitivity and near blur\n- **Phenylephrine**: dilates without much effect on accommodation\n- **Prostaglandin analogs** (latanoprost): iris darkening and longer lashes\n- **Corticosteroids**: PSC cataract and raised IOP\n- **Hydroxychloroquine**: retinal toxicity, so screening exams are needed\n\nRefer the same day or immediately for: sudden vision loss; flashes, new floaters, or a curtain; a painful red eye with halos; chemical splash (irrigate first); penetrating injury; sudden double vision.\n\n**Ophthalmologist** (MD/DO): medical and surgical care. **Optometrist** (OD): exams, prescriptions, and treatment within state scope. **Optician**: fits and dispenses eyewear from a prescription; does not diagnose or prescribe."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Far point of a myope",
+        "expression": "Far point (m) = 1 ÷ |refractive error (D)|",
+        "notes": "Example: −2.50 D → 1 ÷ 2.50 = 0.40 m (40 cm)."
+      }
+    ]
+  },
+  {
+    "id": "guide-abo-products",
+    "exam": "abo",
+    "domain": "abo.products",
+    "title": "Ophthalmic Products",
+    "summary": "Frame parts and materials, lens materials and designs, multifocals and progressives, coatings, tints, polarized and photochromic lenses, and high-power lens options.",
+    "sections": [
+      {
+        "heading": "Frame parts",
+        "body": "- **Eyewire (rim)**: holds the lens\n- **Bridge**: joins the eyewires; saddle, keyhole, or adjustable pad\n- **Endpiece**: outer part of the front, carries the hinge\n- **Pad arms (guard arms)**: hold nose pads on metal frames\n- **Temple**: butt end, shank, bend, and earpiece (temple tip)\n\nMarking example: **52□18 140** means eye size (A) 52 mm, bridge (DBL) 18 mm, temple length 140 mm."
+      },
+      {
+        "heading": "Frame materials and adjustment behavior",
+        "body": "- **Cellulose acetate (zyl)**: most common plastic; adjust with even heat (salt pan or hot air)\n- **Cellulose propionate**: lightweight injection-molded plastic; heat-adjustable\n- **Optyl (epoxy)**: memory, returns to molded shape when reheated; doesn't stretch, so lenses must be edged exactly to size\n- **Nylon / TR-90 (Grilamid)**: light, flexible, high memory; limited heat adjustment\n- **Monel**: nickel-copper; solderable and adjustable; nickel allergy risk\n- **Stainless steel**: iron-chromium; strong and thin\n- **Titanium**: light, strong, hypoallergenic; needs special welding\n- **Beta-titanium**: more flexible titanium alloy for thin temples\n- **Aluminum**: lightest common metal; can't be soldered\n- **Memory metal (NiTi)**: superelastic; memory parts resist adjustment\n\nHeat only the area you are adjusting, and keep heat away from coated lenses. Too much heat can craze AR coatings."
+      },
+      {
+        "heading": "Comparing lens materials",
+        "body": "Three properties drive most material choices: **index of refraction** (thinness), **Abbe value** (optical clarity off-center), and **specific gravity** (weight per volume). Impact resistance and UV blocking round out the comparison.\n\n- **CR-39**: n 1.498, Abbe ≈ 58, SG 1.32 — thermoset, cast-molded, excellent optics, easily tinted\n- **Crown glass**: n 1.523, Abbe ≈ 59, SG 2.54 — most scratch resistant, heavy, must be tempered\n- **Trivex**: n 1.53, Abbe ≈ 43–45, SG 1.11 — lightest, high impact, great for drill mounts\n- **Polycarbonate**: n 1.586, Abbe ≈ 30, SG 1.20 — thermoplastic, highest impact, UV blocking, needs a hard coat\n- **High-index plastics**: 1.60 (Abbe ≈ 36–42), 1.67 (≈ 32), 1.74 (≈ 33) — thinnest, more reflective\n\nHigher index generally means lower Abbe value and more reflection. When a patient in a strong low-Abbe lens reports color fringes, the answer is a higher-Abbe material, not a higher index."
+      },
+      {
+        "heading": "Impact resistance and safety",
+        "body": "The FDA requires every dress lens to pass a **drop-ball test**: a 5/8-inch steel ball dropped 50 inches. Each glass lens is tested individually after tempering; plastic lenses may be batch tested.\n\nGlass is strengthened by **heat tempering** (heat, then air-jet cooling; shows a strain pattern under polarized light) or **chemical tempering** (ion exchange in molten potassium nitrate; generally stronger, little visible pattern).\n\n**Safety eyewear** falls under ANSI Z87.1. The high-velocity test fires a 1/4-inch ball at 150 ft/s. High-impact Rx lenses carry the manufacturer's mark plus a '+'.\n\nPolycarbonate and Trivex are the standard of care for children, active sports, safety work, and monocular patients."
+      },
+      {
+        "heading": "Aspheric and atoric designs",
+        "body": "An **aspheric** surface changes curvature from center to edge. It lets the designer use a flatter base curve without the oblique astigmatism a flat spherical lens would have.\n\nBenefits are greatest in plus lenses: thinner centers, less bulge, less magnification of the wearer's eyes, and better peripheral clarity. **Atoric** designs apply a different aspheric correction to each principal meridian, improving off-axis vision for high cylinder.\n\nBecause the correction is built around an optical axis, aspherics demand accurate monocular PDs and heights. For single-vision lenses, lower the OC **1 mm for every 2° of pantoscopic tilt** (10° tilt → 5 mm below the pupil)."
+      },
+      {
+        "heading": "Bifocals and trifocals",
+        "body": "- **Flat-top (D-seg)**: FT-22, 25, 28, 35, 45 — the number is the width in mm. OC close to the line, so little image jump. FT-28 is the most common.\n- **Executive**: full-width one-piece seg with the OC on the line — no image jump, widest near field, visible ledge.\n- **Round**: OC at the seg center — most image jump. Kryptok is a fused glass round seg; Ultex is a large one-piece round seg (38 mm).\n- **Blended**: no visible line, but a blurred blend zone and no intermediate.\n\nTrifocals are named by intermediate depth × width (7×28, 8×35); the intermediate is usually 50% of the add.\n\n**Placement**: bifocal seg tops at the lower lid margin; trifocal tops at the lower edge of the pupil. Seg height is measured from the lowest point of the lens opening to the seg line. Seg drop = B ÷ 2 − seg height. Seg inset per lens = (distance PD − near PD) ÷ 2.\n\nSegs too high get in the way of distance vision; segs too low force the patient to drop the eyes or tip the head back to read. **Occupational** options include the double-D (segs at top and bottom for overhead near work) and office/degressive progressives for desk and computer distances.",
+        "diagram": "multifocals"
+      },
+      {
+        "heading": "Progressive addition lenses",
+        "body": "A PAL blends distance, intermediate, and near powers through a **corridor**. The changing surface inevitably creates **unwanted astigmatism** in the lower lateral areas; it increases with the add.\n\n- **Hard** designs: wide distance and near zones, shorter corridor, steep astigmatism gradients\n- **Soft** designs: gentler gradients spread over more area, narrower clear zones, easier adaptation\n- **Short-corridor** designs: for frames with a small B dimension\n- **Free-form** designs: computer-surfaced, often on the back surface, personalized for fit parameters\n\n**Fitting**: place the fitting cross at the pupil center using monocular PDs, with the patient's head in natural posture. Too low → the patient lifts the chin to read; too high → distance blur straight ahead.\n\n**Markings**: two hidden engravings sit 34 mm apart (17 mm each side of the PRP). The add is usually engraved below the temporal mark. The **prism reference point** lies midway between the engravings, a few millimeters below the fitting cross.\n\n**Verification**: re-mark using the engravings and the manufacturer's chart; check distance power at the distance circle, prism at the PRP, and add at the near circle or from the engraving. Equal base-down **prism thinning** in both lenses is normal and reduces thickness.",
+        "diagram": "pal-layout"
+      },
+      {
+        "heading": "Anti-reflective and surface coatings",
+        "body": "Uncoated 1.50 lenses reflect about 4% per surface. **AR coatings** use quarter-wave thin films so reflected waves cancel by destructive interference. The ideal single-layer index is √n (≈1.22 for 1.50); magnesium fluoride (1.38) is common, and multilayer stacks broaden the effect.\n\nAR raises transmission to about 99%, reduces ghost images and night glare, and improves appearance. It is most valuable on high-index lenses. On sunglasses, **back-surface AR** prevents glare from behind.\n\n- **Scratch-resistant (hard) coats**: required on polycarbonate; improve but do not prevent scratching\n- **Hydrophobic/oleophobic top coats**: repel water and oils for easier cleaning\n- **Mirror coatings**: reflective front films over a tint; reduce transmission and hide the eyes"
+      },
+      {
+        "heading": "UV, tints, photochromics, polarized, and blue-light filters",
+        "body": "UV-B is 280–315 nm and UV-A 315–380 nm (to 400 by some definitions). **UV400** blocks everything below 400 nm. Polycarbonate, Trivex, and most high-index plastics block UV inherently; untreated CR-39 and glass do not fully block UV-A.\n\n**Tints**: gray is neutral for color perception; brown/amber enhance contrast; yellow improves contrast in haze and low light; **gradients** are darker at the top. Plastic is surface-dyed in a heated bath and tints evenly; glass tinted in the mass darkens with thickness, so high-minus edges look darker.\n\n**Photochromics** darken with UV and are temperature dependent: darker and slower to fade in the cold. Windshields block most UV, so standard photochromics barely darken in a car.\n\n**Polarized** lenses have a vertical transmission axis that blocks horizontally polarized glare from water and roads; some LCD screens may appear dark through them.\n\n**Blue-light filters** reduce high-energy visible light around 400–455 nm using absorbers (slight yellow tint) or reflective coatings (bluish reflection)."
+      },
+      {
+        "heading": "Correcting vertical imbalance: slab-off and alternatives",
+        "body": "Anisometropic bifocal wearers can experience vertical imbalance at the reading level. Calculate it with Prentice's rule using each eye's 90° meridian power at the reading depth. Compensation is usually considered at about 1.5Δ or more.\n\n**Slab-off (bicentric grinding)** removes material to create **base-up** prism in the lower part of the lens. It goes on the **most minus (least plus)** lens, and its amount equals the imbalance. A faint horizontal **slab line** at the seg-top level identifies it.\n\n**Reverse slab** lenses are molded with **base-down** prism in the lower portion and go on the **most plus (least minus)** lens.\n\nAlternatives include dissimilar segments, separate single-vision reading glasses, contact lenses, and **Fresnel press-on prisms** for temporary or diagnostic use. Fresnels are thin vinyl sheets of tiny prism ridges applied to the back surface; they are light but reduce acuity and contrast."
+      },
+      {
+        "heading": "High-power lens considerations",
+        "body": "**High plus**: center thickness, weight, and magnification climb quickly. Choose a small, round frame, minimize decentration, and use aspheric or **lenticular** designs (a small full-power aperture on a thin carrier). Strong edge prism creates a ring scotoma and the 'jack-in-the-box' effect.\n\n**High minus**: edge thickness rises with distance from the OC. Choose a small eye size and a frame PD close to the patient's PD; if the frame PD is wider than the patient's, inward decentration thickens the temporal edges. Use high-index material, AR coating, and polished or rolled edges. A **myodisc** confines the power to a small central bowl.\n\n**Minimum blank size** = ED + 2 × decentration per lens + 2 mm. With A 52, DBL 18 (frame PD 70), patient PD 62, and ED 56: decentration 4 mm per lens → MBS = 56 + 8 + 2 = 66 mm."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Specific gravity",
+        "expression": "SG = density of material ÷ density of water",
+        "notes": "Lens weight depends on SG × volume"
+      },
+      {
+        "name": "Ideal single-layer AR index",
+        "expression": "n_coating = √n_lens",
+        "notes": "≈1.22 for a 1.50 lens"
+      },
+      {
+        "name": "AR quarter-wave thickness",
+        "expression": "t = λ ÷ (4 × n_coating)",
+        "notes": "Optical thickness of one quarter wavelength"
+      },
+      {
+        "name": "Fresnel reflection",
+        "expression": "R = ((n − 1) ÷ (n + 1))²",
+        "notes": "Per surface; ≈4% at 1.50, ≈7.3% at 1.74"
+      },
+      {
+        "name": "Pantoscopic tilt OC drop",
+        "expression": "OC drop (mm) = tilt (°) ÷ 2",
+        "notes": "Lower the OC 1 mm per 2° of tilt"
+      },
+      {
+        "name": "Seg inset",
+        "expression": "Inset = (distance PD − near PD) ÷ 2",
+        "notes": "Per lens"
+      },
+      {
+        "name": "Seg drop",
+        "expression": "Seg drop = (B ÷ 2) − seg height",
+        "notes": "Negative result = seg raise"
+      },
+      {
+        "name": "Trifocal intermediate",
+        "expression": "Intermediate add = 0.50 × near add",
+        "notes": "Standard 50% intermediate"
+      },
+      {
+        "name": "Vertical imbalance",
+        "expression": "Imbalance = |c × F₉₀(OD) − c × F₉₀(OS)|",
+        "notes": "Same base direction; c in cm; F₉₀ = power in the 90° meridian"
+      },
+      {
+        "name": "Slab-off amount",
+        "expression": "Slab-off = vertical imbalance at reading level",
+        "notes": "Base up on the most minus lens"
+      },
+      {
+        "name": "Decentration per lens",
+        "expression": "Dec = (frame PD − patient PD) ÷ 2",
+        "notes": "Frame PD = A + DBL"
+      },
+      {
+        "name": "Minimum blank size",
+        "expression": "MBS = ED + 2 × Dec + 2 mm",
+        "notes": "2 mm allowance for edging"
+      },
+      {
+        "name": "Transverse chromatic aberration",
+        "expression": "TCA = (c × F) ÷ Abbe",
+        "notes": "Explains color fringing in low-Abbe materials"
+      }
+    ]
+  },
+  {
+    "id": "guide-abo-instruments",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "title": "Instrumentation",
+    "summary": "Using the lensmeter, lens clock, calipers and thickness gauges, and the layout, blocking and edging workflow.",
+    "sections": [
+      {
+        "heading": "Lensmeter verification",
+        "body": "- Focus the eyepiece: fully counterclockwise (plus), then turn in until the reticle is just sharp\n- Rest both eyewires on the frame table so the 180 line is level\n- **Minus-cylinder technique**: start at high plus; the first meridian to focus is the sphere, and the axis wheel gives the axis; second reading − first = cylinder\n- **Add (front-surface multifocal)**: front surface toward the lens stop; add = near reading − distance reading\n- **Prism**: the target moves toward the base; count the rings\n- **Mark the OC**: center the target and use the marking device; the middle dot is the OC\n- **Automated lensmeters**: match the cylinder form and lens-type settings to the order\n\n**PALs**: re-mark from the hidden engravings. Check distance power at the distance circle, prism at the PRP (midway between the engravings), and the add in the near circle. The add is usually engraved below the temporal mark. Equal base-down prism in both lenses is prism thinning."
+      },
+      {
+        "heading": "Lens measuring tools, layout, and edging",
+        "body": "- **Lens clock**: measures surface curvature; calibrated for n ≈ 1.53, so it underreads higher-index lenses (true = reading × (n − 1) ÷ 0.53)\n- **Calipers**: center and edge thickness\n- **Layout and blocking**: mark the OC or MRP and the axis; block so the edger applies the right decentration and axis\n- **Edges**: V-bevel for full rims, groove for nylon cord, flat edge plus holes for drill mounts\n- **Safety (pin) bevel**: removes sharp corners and reduces chipping"
+      }
+    ],
+    "formulas": []
+  },
+  {
+    "id": "guide-abo-dispensing",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "title": "Dispensing Procedures",
+    "summary": "Measuring PD and heights, placing multifocals and optical centers, decentration and blank size, frame selection, alignment, adjustment, and troubleshooting.",
+    "sections": [
+      {
+        "heading": "Minimum blank size",
+        "body": "MBS is the smallest uncut lens that will cover the shape once decentered.\n\n**MBS = ED + (frame PD − patient PD) + 2 mm**\n\nWith monocular PDs, work each eye separately: MBS = ED + 2 × (that lens's decentration) + 2 mm. The extra 2 mm allows for edging and edge chips.\n\nExample: A 52, DBL 18, ED 57, PD 64. Frame PD = 70; total decentration = 6; MBS = 57 + 6 + 2 = 65 mm."
+      },
+      {
+        "heading": "Frame selection",
+        "body": "Face shape: pick a frame that contrasts with it. Round face → angular; square face → round or oval; long face → deeper frame with decorative or low temples; oval face → most shapes.\n\nPrescription:\n\n- **High minus**: small eye size, frame PD close to patient PD, so edges stay thinner\n- **High plus**: small eye size and minimal decentration, so the lens is thinner and lighter in the center\n- **Multifocal/PAL**: enough B depth for the seg or the design's minimum fitting height\n- **Bridge fit**: the DBL and bridge style must suit the patient's nose\n\nTemples: **skull** (most common), **library** (straight), **riding bow/cable** (wraps the ear; kids and sports)."
+      },
+      {
+        "heading": "Standard alignment",
+        "body": "Before fitting, true the frame to standard alignment:\n\n- **Horizontal alignment**: both eyewires level on a common line\n- **Four-point touch**: a straight edge across the back of the front touches the nasal and temporal edges of both eyewires\n- **No X-ing**: lens planes not twisted relative to each other\n- **Temple spread**: about 90–95° from the front\n- **Temple parallelism**: both temples at the same angle when viewed from the side\n- **Matching temple bends**: both temples bent the same way at the same point"
+      },
+      {
+        "heading": "Tilt, wrap, and vertex",
+        "body": "**Pantoscopic tilt**: lower rims toward the cheeks. Lower the OC **1 mm for every 2°** of tilt below the pupil center in primary gaze, so the optical axis passes through the eye's center of rotation.\n\nExample: pupil 26 mm above the lowest point of the shape, 8° tilt → OC at 26 − 4 = 22 mm.\n\n**Face form** (wrap): temporal edges closer to the face. **Vertex distance**: back surface of the lens to the cornea; matters most for higher powers.",
+        "diagram": "frame-adjustments"
+      },
+      {
+        "heading": "Fitting adjustments, rimless, and safety frames",
+        "body": "- **Frame higher on one side**: bend that side's temple up, or the other temple down\n- **One lens farther from the face**: bend that side's temple in, or open the other\n- **Raise the frame (adjustable pads)**: bring the pads closer together; spread them to lower it\n- **Pressure at the sides of the head**: increase the temple spread\n- **Sliding down**: check the pads, the temple bends, and the earpiece fit behind the ear\n\n**Drill mounts** work best with Trivex or polycarbonate. **Nylon-cord** mounts need a grooved edge with enough edge thickness.\n\n**Safety eyewear** requires a Z87.1-marked frame and Z87.1 lenses. Safety lenses in a dress frame are not safety eyewear."
+      },
+      {
+        "heading": "Pupillary distance",
+        "body": "Distance PD is measured with the patient fixing at distance, using a pupillometer (corneal reflex) or a PD ruler at about 40 cm with the dispenser at eye level, alternately closing one eye.\n\n**Monocular PDs** (bridge center to each pupil) are needed for PALs and asymmetric faces.\n\n**Near PD** = distance PD × WD ÷ (WD + 27 mm), where 27 mm approximates the spectacle plane to the eye's center of rotation. Rule of thumb: 3–4 mm less than distance PD at about 40 cm. Example: 64 × 400 ÷ 427 ≈ 60 mm."
+      },
+      {
+        "heading": "Heights and multifocal placement",
+        "body": "Measure heights only after adjusting the frame to the patient, with the dispenser at the patient's eye level and the patient's head in natural posture.\n\n- **Flat-top bifocal**: seg top at the lower lid margin\n- **Trifocal**: seg top at the lower pupil margin\n- **PAL**: fitting cross at the pupil center in distance gaze\n- **Single-vision OC**: at the pupil, lowered 1 mm per 2° of pantoscopic tilt\n\nHeights are measured from the lowest point of the lens shape (lower boxing line)."
+      },
+      {
+        "heading": "Decentration",
+        "body": "- **Horizontal per lens**: (frame PD − patient PD) ÷ 2, or (frame PD ÷ 2) − monocular PD\n- **Vertical**: OC height − (B ÷ 2); positive means above the geometric center\n- **Seg inset from the geometric center**: (frame PD − near PD) ÷ 2 per lens\n\nExample: A 52, DBL 18, PD 64/60 → distance decentration 3 mm in, plus 2 mm extra seg inset = 5 mm total seg inset per lens."
+      },
+      {
+        "heading": "Dispensing and troubleshooting",
+        "body": "At delivery: verify the lenses, put the frame in standard alignment, fit it to the face, and check vision with each eye and both together. Review care, adaptation, and any warranty terms, and record the dispensing.\n\nCommon complaints:\n\n- **PAL too low**: patient lifts the chin to read; narrow reading area\n- **PAL too high**: distance blur straight ahead; patient drops the chin\n- **Bifocal seg too high**: seg line gets in the way when walking; too low: hard to reach for reading\n- **Wrong OCs**: induced prism, causing eyestrain, headaches, or double vision\n- **Axis change**: tilted floors; verify, then allow adaptation or refer\n- **Base curve change**: distortion; remake closer to the habitual base curve\n- **Insufficient pantoscopic tilt**: smaller usable PAL zones\n\nAlways verify the lenses and the fit before blaming adaptation. Refer persistent problems back to the prescriber."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Frame PD",
+        "expression": "Frame PD = A + DBL",
+        "notes": "Distance between the geometric centers."
+      },
+      {
+        "name": "Frame difference",
+        "expression": "Frame difference = A − B",
+        "notes": ""
+      },
+      {
+        "name": "Minimum blank size",
+        "expression": "MBS = ED + (frame PD − patient PD) + 2 mm",
+        "notes": "Per lens with monocular PDs: ED + 2 × decentration + 2 mm."
+      },
+      {
+        "name": "OC drop for pantoscopic tilt",
+        "expression": "OC drop (mm) = tilt (°) ÷ 2",
+        "notes": "Measure the pupil height in primary gaze, then subtract the drop."
+      },
+      {
+        "name": "Transposition",
+        "expression": "New sphere = sphere + cyl; cyl sign reversed; axis ± 90°",
+        "notes": ""
+      },
+      {
+        "name": "Spherical equivalent",
+        "expression": "SE = sphere + (cyl ÷ 2)",
+        "notes": ""
+      },
+      {
+        "name": "Prentice's rule",
+        "expression": "Δ = c (cm) × F (D)",
+        "notes": "Plus: base toward the OC. Minus: base away from the OC."
+      },
+      {
+        "name": "Resultant prism",
+        "expression": "Δ = √(H² + V²)",
+        "notes": "Angle = arctan(V ÷ H) from the horizontal."
+      },
+      {
+        "name": "Near PD",
+        "expression": "NPD = DPD × WD ÷ (WD + 27 mm)",
+        "notes": "WD = working distance from the spectacle plane, in mm."
+      },
+      {
+        "name": "Horizontal decentration",
+        "expression": "Dec = (frame PD − patient PD) ÷ 2",
+        "notes": "Per lens; or (frame PD ÷ 2) − monocular PD."
+      },
+      {
+        "name": "Vertical decentration",
+        "expression": "Dec = OC height − (B ÷ 2)",
+        "notes": "Positive = above the geometric center."
+      },
+      {
+        "name": "Total seg inset",
+        "expression": "Inset = (frame PD − near PD) ÷ 2",
+        "notes": "Per lens, measured from the geometric center."
+      },
+      {
+        "name": "Vertex compensation",
+        "expression": "Fc = F ÷ (1 − d × F)",
+        "notes": "d in meters, positive when the lens moves toward the eye."
+      },
+      {
+        "name": "Lens clock correction",
+        "expression": "True surface power = reading × (n − 1) ÷ 0.53",
+        "notes": "For a clock calibrated to n ≈ 1.53."
+      }
+    ]
+  },
+  {
+    "id": "guide-abo-laws",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "title": "Laws, Regulations & Standards",
+    "summary": "ANSI Z80.1 tolerances, FDA impact resistance, ANSI Z87.1 safety eyewear, the FTC Eyeglass Rule, HIPAA, and California optician registration.",
+    "sections": [
+      {
+        "heading": "Which standard covers what",
+        "body": "- **ANSI Z80.1-2020**: prescription dress-eyewear lenses (current edition)\n- **ANSI/ISEA Z87.1**: occupational and educational eye and face protection\n- **ANSI Z80.3**: nonprescription sunglasses and fashion eyewear\n- **21 CFR 801.410**: FDA impact resistance for eyeglasses and sunglasses\n- **16 CFR Part 456**: FTC Eyeglass Rule (prescription release)"
+      },
+      {
+        "heading": "Z80.1 power tolerances",
+        "body": "Single vision and lined multifocal (minus-cylinder convention):\n\n- **Sphere meridian, −6.50 to +6.50 D**: ±0.13 D; **stronger than ±6.50 D**: ±2%\n- **Cylinder 0.00–2.00 D**: ±0.13 D; **over 2.00–4.50 D**: ±0.15 D; **over 4.50 D**: ±4%\n\nProgressive addition lenses:\n\n- **Sphere meridian, −8.00 to +8.00 D**: ±0.16 D; stronger: ±2%\n- **Cylinder 0.00–2.00 D**: ±0.16 D; **over 2.00–3.50 D**: ±0.18 D; **over 3.50 D**: ±5%\n\n**Add**: up to +4.00 D: ±0.12 D; over +4.00 D: ±0.18 D.\n\nExample: +8.00 D single vision → 2% = ±0.16 D → acceptable +7.84 to +8.16 D."
+      },
+      {
+        "heading": "Z80.1 axis tolerances",
+        "body": "- 0.12 to 0.25 D cylinder: ±14°\n- Over 0.25 to 0.50 D: ±7°\n- Over 0.50 to 0.75 D: ±5°\n- Over 0.75 to 1.50 D: ±3°\n- Over 1.50 D: ±2°\n\nThe axis scale wraps at 180: axis 004 is 4° from 180."
+      },
+      {
+        "heading": "Z80.1 prism and location tolerances",
+        "body": "**Single lens at the PRP**: ≤0.33Δ, or the PRP within 1.0 mm of its specified position.\n\nMounted pair, single vision and multifocal:\n\n- **Vertical, up to ±3.375 D**: ≤0.33Δ imbalance; **above**: PRP heights differ by ≤1.0 mm\n- **Horizontal, up to ±2.75 D**: ≤0.67Δ imbalance; **above**: PD within ±2.5 mm of the specified distance PD\n\nProgressives: vertical as above; horizontal ≤0.67Δ up to ±3.75 D, and above that each fitting cross within 1.0 mm of the specified monocular PD.\n\nWork each problem with Prentice's rule, then compare with the limit for that power range."
+      },
+      {
+        "heading": "Other Z80.1 tolerances",
+        "body": "- **Base curve** (when specified): ±0.75 D\n- **Center thickness**: ±0.3 mm, measured at the PRP on the convex surface\n- **Seg height / PAL fitting cross height**: ±1.0 mm per lens; the pair may differ by no more than 1.0 mm\n- **Seg size** (width, depth): ±0.5 mm\n- **Seg tilt / PAL horizontal markings**: ±2°\n- **Seg horizontal location**: seg centers within ±2.5 mm of the specified near PD\n- **PAL fitting cross horizontal**: within ±1.0 mm of the monocular PD\n- **Polarization axis**: 90° ± 3° from the orientation marking"
+      },
+      {
+        "heading": "Impact resistance: FDA and Z87.1",
+        "body": "**FDA 21 CFR 801.410** (dress eyewear and sunglasses): lenses must withstand a **5/8-inch steel ball (about 0.56 oz) dropped 50 inches**.\n\n- Glass lenses are tested individually, in finished form\n- Plastic lenses may be batch tested by the manufacturer using statistical sampling\n- Test records are kept **3 years**\n- Exemption: the prescriber decides impact-resistant lenses won't meet the patient's visual needs and notifies the patient in writing\n\n**ANSI Z87.1** (safety eyewear):\n\n- **Basic impact**: 1-inch steel ball dropped 50 inches; marked **Z87**\n- **High impact**: includes a 1/4-inch steel ball at 150 ft/s for spectacles, plus high-mass testing; marked **Z87+**\n- Frame and lenses must both be safety-rated and marked"
+      },
+      {
+        "heading": "FTC Eyeglass Rule and HIPAA",
+        "body": "**FTC Eyeglass Rule** (16 CFR 456):\n\n- Release the Rx immediately after the refraction, automatically, at no extra cost\n- Release can't depend on buying eyewear, paying an extra fee, or signing a liability waiver\n- An exam fee may be collected first only if the prescriber would require immediate payment no matter what the exam found\n- **2024 amendment**: get the patient's confirmation of receipt (signed, or proof of digital delivery) and keep it **3 years**\n\n**HIPAA** basics for opticians:\n\n- Prescriptions, purchase history, and insurance data are **PHI**\n- Follow the **minimum necessary** standard\n- Never share PHI with employers or family without authorization\n- Respond to patient access requests within 30 days (one 30-day extension)"
+      },
+      {
+        "heading": "California optician registration",
+        "body": "California's Registered Dispensing Optician program is run by the **California State Board of Optometry** (formerly the Medical Board of California). The governing statutes are in the Business and Professions Code beginning at § 2550.\n\n- **Registered Dispensing Ophthalmic Business (RDO)**: the registered business\n- **Spectacle Lens Dispenser (SLD)**: must pass the **ABO** exam\n- **Contact Lens Dispenser (CLD)**: must pass the **NCLE** exam\n- **Nonresident Ophthalmic Lens Dispenser**: out-of-state sellers\n\nKey points:\n\n- Dispense only on a valid prescription from a physician or optometrist\n- Display your certificate where you are fitting and adjusting\n- Update your address within 30 days (B&P § 136)\n- No state CE is required for SLD/CLD renewal (ABO/NCLE certification has its own)\n- Assistants working under a physician or optometrist don't need to register\n- B&P § 655 bars optometrist or physician co-ownership or profit-sharing with an RDO, with limited lease exceptions"
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Percentage tolerance",
+        "expression": "Tolerance (D) = power × percentage",
+        "notes": "Sphere above ±6.50 D: 2%; cylinder above 4.50 D: 4% (single vision and multifocal)."
+      },
+      {
+        "name": "Prism check against tolerance",
+        "expression": "Δ = c (cm) × F (D), per lens; imbalance = difference (vertical) or sum/difference by base direction (horizontal)",
+        "notes": "Compare with 0.33Δ vertical / 0.67Δ horizontal at lower powers."
+      }
+    ]
+  }
+]

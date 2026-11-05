@@ -1,0 +1,2950 @@
+[
+  {
+    "id": "abo-out-001",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "With the spectacles placed temples-away so the back surface rests on the lens stop, which power does a manual lensmeter read?",
+    "choices": [
+      "Equivalent power measured from the principal planes",
+      "Front vertex power",
+      "Nominal power (the sum of the two surface powers)",
+      "Back vertex power"
+    ],
+    "answer": 3,
+    "explanation": "The lensmeter's field lens puts its focal point at the back surface of the lens being read, so the instrument reports back vertex power, the reciprocal of the back focal length. That is the power that matters for the eye behind the lens.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-002",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "Before reading any lens, how should the lensmeter eyepiece be focused?",
+    "choices": [
+      "With no lens in place, turn it fully toward plus to blur the reticle, then turn slowly back just until the reticle clears",
+      "With no lens in place, turn it fully toward minus, then back toward plus until the reticle clears",
+      "Leave it at the factory zero; the eyepiece is not user-adjustable",
+      "With the patient's lens in place, rock it back and forth until the mires look sharpest"
+    ],
+    "answer": 0,
+    "explanation": "Fogging the eyepiece in the plus direction and then backing off only until the reticle is clear focuses it for the examiner's eye while keeping accommodation relaxed. Check this every time the instrument is used.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-003",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "Why should you stop turning the eyepiece the moment the reticle first comes into focus?",
+    "choices": [
+      "It moves the lens stop off the optical axis",
+      "It rescales the prism rings",
+      "Turning past that point lets your own accommodation enter the reading",
+      "Turning further shifts the axis protractor"
+    ],
+    "answer": 2,
+    "explanation": "Once the reticle is just clear, any extra turn makes the eyepiece too minus for a relaxed eye. You then accommodate to keep the reticle sharp, and that accommodation skews the power readings.",
+    "source": {
+      "title": "Lensometry – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Lensometry"
+    }
+  },
+  {
+    "id": "abo-out-004",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "After focusing the eyepiece with no lens in place, the mires come into focus at +0.25 D instead of zero. What is the correct response?",
+    "choices": [
+      "Accept it, because 0.25 D is within tolerance",
+      "Refocus the eyepiece; if the mires still don't focus at plano, have the instrument recalibrated",
+      "Rotate the axis wheel 90° and refocus",
+      "Subtract 0.25 D from every reading"
+    ],
+    "answer": 1,
+    "explanation": "With no lens in place, the mires should focus at a drum reading of zero. If they don't, repeat the eyepiece procedure. A persistent offset means the lensmeter needs calibration; don't correct readings in your head.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-005",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "When positioning the spectacles on a manual lensmeter, what is the standard orientation?",
+    "choices": [
+      "Temples facing the operator, front surface against the lens stop",
+      "Temples pointing straight up, lens held at 90° to the stop",
+      "Temples facing away from the operator, back surface against the lens stop",
+      "Either way, because both orientations give the same reading for every lens"
+    ],
+    "answer": 2,
+    "explanation": "Temples-away puts the back surface on the stop so the instrument reads back vertex power, which is the correct surface for most measurements.",
+    "source": {
+      "title": "Manual Lensometry – OSMA Ophthalmic Skills Workshop",
+      "url": "https://osma.org/aws/OSMA/asset_manager/get_file/918968?ver=1"
+    }
+  },
+  {
+    "id": "abo-out-006",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "Why should the bottoms of both eyewires rest evenly on the spectacle table while you read a lens?",
+    "choices": [
+      "It keeps the lens stop from scratching the coating",
+      "It sets the vertex distance for the reading",
+      "It centers the bifocal segment automatically",
+      "It keeps the frame's 180° line level, so axis and prism readings aren't rotated"
+    ],
+    "answer": 3,
+    "explanation": "If the frame tips on the table, the lens rotates with it. The cylinder axis and the prism base direction then read off by the same amount.",
+    "source": {
+      "title": "Manual Lensometry – OSMA Ophthalmic Skills Workshop",
+      "url": "https://osma.org/aws/OSMA/asset_manager/get_file/918968?ver=1"
+    }
+  },
+  {
+    "id": "abo-out-007",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "In plus-cylinder technique on a crossed-line (American cross) target, where along the power drum do the sphere (single) lines come into focus?",
+    "choices": [
+      "At the most plus reading of the two",
+      "At the least plus (most minus) reading of the two",
+      "At whichever reading is closer to plano",
+      "At the same reading as the cylinder lines, for any spherocylinder"
+    ],
+    "answer": 1,
+    "explanation": "In plus-cylinder technique you work from high minus toward plus. The sphere lines focus first, at the less plus power. The cylinder lines focus later in the plus direction, so the difference is a plus cylinder.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-008",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "Working in plus-cylinder technique, you turn the drum from high minus toward plus and the thick cylinder lines come into focus before the thin sphere lines. What should you do?",
+    "choices": [
+      "Rotate the axis wheel 90° and start again",
+      "Record a minus cylinder at the current axis",
+      "Record the thick-line reading as the sphere",
+      "Turn the eyepiece toward plus and refocus"
+    ],
+    "answer": 0,
+    "explanation": "If the cylinder lines focus first, the target is set 90° from the plus-cylinder axis. Rotating the axis wheel 90° brings the sphere lines in first so the second reading gives a plus cylinder.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-009",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "In plus-cylinder technique, the sphere lines are sharp and unbroken at −2.00 with the axis wheel at 090. Turning toward plus, the cylinder lines focus at −0.75. What is the lens power?",
+    "choices": [
+      "−2.00 −1.25 × 180",
+      "−0.75 +1.25 × 090",
+      "−2.00 +1.25 × 090",
+      "−2.75 +1.25 × 090"
+    ],
+    "answer": 2,
+    "explanation": "Sphere = first reading = −2.00. Cylinder = second − first = −0.75 − (−2.00) = +1.25. Axis = 090 from the wheel. In minus cylinder this is −0.75 −1.25 × 180.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-010",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "A lens reads −2.00 +1.25 × 090 in plus-cylinder form. How should it be written in minus-cylinder form?",
+    "choices": [
+      "−0.75 −1.25 × 180",
+      "−0.75 −1.25 × 090",
+      "−2.00 −1.25 × 180",
+      "−3.25 −1.25 × 180"
+    ],
+    "answer": 0,
+    "explanation": "To transpose, add the cylinder to the sphere (−2.00 + 1.25 = −0.75), change the cylinder's sign, and rotate the axis 90° (090 → 180).",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-011",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "On the power drum number line, the first (sphere-line) reading is −2.00 and the second (cylinder-line) reading is +1.00. What is the cylinder power?",
+    "choices": [
+      "+1.00 D",
+      "+3.00 D",
+      "−1.00 D",
+      "−3.00 D"
+    ],
+    "answer": 1,
+    "explanation": "Cylinder is the distance traveled along the number line between the two readings. From −2.00 to +1.00 is three units in the plus direction, so +3.00 D.",
+    "source": {
+      "title": "Manual Lensometry – OSMA Ophthalmic Skills Workshop",
+      "url": "https://osma.org/aws/OSMA/asset_manager/get_file/918968?ver=1"
+    }
+  },
+  {
+    "id": "abo-out-012",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "On a crossed-line lensmeter target, how do you recognize a spherical lens?",
+    "choices": [
+      "The lines focus only after the axis wheel is turned 90°",
+      "The thin lines focus but the thick lines never do",
+      "The target can't be centered on the reticle",
+      "The thin and thick lines come into focus at the same drum reading"
+    ],
+    "answer": 3,
+    "explanation": "A sphere has the same power in every meridian, so both sets of lines sharpen at once. If they focus at different readings, the lens has cylinder.",
+    "source": {
+      "title": "Lensometry – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Lensometry"
+    }
+  },
+  {
+    "id": "abo-out-013",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "Reading a lined bifocal, the distance sphere lines focus at −4.00. With the segment centered, the sphere lines refocus at −1.75. What is the add?",
+    "choices": [
+      "+2.25",
+      "+5.75",
+      "−2.25",
+      "+1.75"
+    ],
+    "answer": 0,
+    "explanation": "The add is the algebraic difference between the near and distance sphere readings: −1.75 − (−4.00) = +2.25. Adds are always recorded as plus.",
+    "source": {
+      "title": "Manual Lensometry – OSMA Ophthalmic Skills Workshop",
+      "url": "https://osma.org/aws/OSMA/asset_manager/get_file/918968?ver=1"
+    }
+  },
+  {
+    "id": "abo-out-014",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "When measuring the add of a spherocylindrical multifocal, which lines do you refocus through the segment?",
+    "choices": [
+      "Both sets, after turning the axis wheel 90°",
+      "Only the sphere (single) lines, leaving the axis wheel where it was for distance",
+      "Only the cylinder (triple) lines",
+      "Whichever set happens to focus first"
+    ],
+    "answer": 1,
+    "explanation": "The add is spherical and is the difference between the distance and near sphere readings. Leave the axis setting from distance and refocus only the single lines.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-015",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "According to standard lensometry teaching, when should a bifocal add be read with the spectacles turned around so the front vertex power is measured?",
+    "choices": [
+      "For every minus-powered lens",
+      "Only for progressive lenses",
+      "When the add is high (greater than about +2.50 D)",
+      "Never; adds are always read with the temples away"
+    ],
+    "answer": 2,
+    "explanation": "A front-surface segment acts on diverging light from the near object. For strong adds, the back-vertex reading departs noticeably from the true add, so high adds are verified at the front vertex.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-016",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 3,
+    "stem": "If a strong front-surface bifocal add is read only as back vertex power, how does the reading compare with the true add?",
+    "choices": [
+      "It reads the same at any add strength",
+      "It reads weaker than the true add",
+      "It reads as a plus cylinder",
+      "It reads stronger than the true add"
+    ],
+    "answer": 3,
+    "explanation": "Iowa's lensometry guide notes that higher bifocal powers read more powerful than they are when back vertex is used instead of front vertex. That is why high adds are rechecked with the glasses turned around.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-017",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter prism",
+    "difficulty": 1,
+    "stem": "Reading a RIGHT lens, the center of the target lands on the second ring, displaced toward the wearer's temple. What prism is present at that point?",
+    "choices": [
+      "1Δ base out",
+      "2Δ base in",
+      "4Δ base out",
+      "2Δ base out"
+    ],
+    "answer": 3,
+    "explanation": "Each reticle ring is 1Δ, and the base points the way the target is displaced. Toward the temple is base out, so this is 2Δ BO.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-018",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter prism",
+    "difficulty": 1,
+    "stem": "Reading a LEFT lens, the target center sits three rings from the reticle center toward the wearer's nose. What is recorded?",
+    "choices": [
+      "3Δ base down",
+      "1.5Δ base in",
+      "3Δ base in",
+      "3Δ base out"
+    ],
+    "answer": 2,
+    "explanation": "Displacement toward the nose means base in, whichever eye you are reading. Three rings is 3Δ.",
+    "source": {
+      "title": "Manual Lensometry – OSMA Ophthalmic Skills Workshop",
+      "url": "https://osma.org/aws/OSMA/asset_manager/get_file/918968?ver=1"
+    }
+  },
+  {
+    "id": "abo-out-019",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter prism",
+    "difficulty": 1,
+    "stem": "The target center is displaced straight down, halfway between the first and second rings. What prism does the lens have at that point?",
+    "choices": [
+      "1.5Δ base down",
+      "3Δ base down",
+      "0.5Δ base down",
+      "1.5Δ base up"
+    ],
+    "answer": 0,
+    "explanation": "Downward displacement means base down. Halfway between ring 1 and ring 2 is 1.5Δ.",
+    "source": {
+      "title": "Manual Lensometry – OSMA Ophthalmic Skills Workshop",
+      "url": "https://osma.org/aws/OSMA/asset_manager/get_file/918968?ver=1"
+    }
+  },
+  {
+    "id": "abo-out-020",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter prism",
+    "difficulty": 2,
+    "stem": "The target is off the reticle field. Holding a 6Δ base-in loose prism over the lens brings it back to center. How much prism is in the lens?",
+    "choices": [
+      "12Δ base in",
+      "6Δ base out",
+      "6Δ base in",
+      "3Δ base out"
+    ],
+    "answer": 1,
+    "explanation": "A loose prism that neutralizes the lens's prism has to be oriented opposite to it. If 6Δ BI centers the target, the lens contains 6Δ BO.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-021",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter prism",
+    "difficulty": 2,
+    "stem": "A lens contains more prism than the reticle rings can show (well over 5Δ). Which method lets you measure it on a manual lensmeter?",
+    "choices": [
+      "Use the prism compensating device or hold auxiliary loose prisms to bring the target back to center",
+      "Refocus the eyepiece in the plus direction until the target reappears",
+      "Record the reading as 'over 5Δ'",
+      "Decenter the lens until the target appears and record no prism"
+    ],
+    "answer": 0,
+    "explanation": "The rings only cover about 5Δ. Beyond that, add a known amount of opposing prism (a PCD or loose prisms) until the target is centered, then read the amount and direction.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-022",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter prism",
+    "difficulty": 2,
+    "stem": "What is the most reliable way to find out whether a patient's single-vision glasses are inducing prism by decentration?",
+    "choices": [
+      "Center each lens on its optical center and read the rings",
+      "Compare the frame PD with the patient's PD on the order form",
+      "Read the lenses on an automated lensmeter in progressive mode",
+      "Mark each pupil center on the lenses while the patient wears the glasses, then center those marks on the lens stop"
+    ],
+    "answer": 3,
+    "explanation": "If you simply center each lens, you will always find the optical center and see no prism. Reading at the marked pupil locations shows the prism the patient actually looks through.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-023",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter prism",
+    "difficulty": 2,
+    "stem": "A right lens is +4.00 D sphere. The wearer's pupil mark is 3 mm nasal to the optical center. What prism does the patient look through?",
+    "choices": [
+      "12Δ base out",
+      "1.2Δ base out",
+      "0.75Δ base out",
+      "1.2Δ base in"
+    ],
+    "answer": 1,
+    "explanation": "Prentice's rule: P = D × d(cm) = 4.00 × 0.3 = 1.2Δ. In a plus lens the base points toward the optical center. Here the OC is temporal to the pupil, so the prism is base out.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-024",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter prism",
+    "difficulty": 2,
+    "stem": "A −5.00 D sphere has its optical center 2 mm above the wearer's pupil mark. What vertical prism is at the pupil?",
+    "choices": [
+      "1.0Δ base up",
+      "0.4Δ base down",
+      "1.0Δ base down",
+      "10Δ base down"
+    ],
+    "answer": 2,
+    "explanation": "P = 5.00 × 0.2 = 1.0Δ. In a minus lens the base points away from the optical center. The OC is above the pupil, so the base is down.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-025",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "With the lens positioned so the target crosses at the center of the reticle, the marking device dots the lens. What does the center dot locate?",
+    "choices": [
+      "The geometric center of the lens shape",
+      "The patient's pupil center",
+      "The lens's optical center",
+      "The fitting cross of a progressive"
+    ],
+    "answer": 2,
+    "explanation": "When the target is centered, the lens has no prism at the spot over the lens stop. By definition that spot is the optical center, and the marker dots it.",
+    "source": {
+      "title": "Lensometry – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Lensometry"
+    }
+  },
+  {
+    "id": "abo-out-026",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 2,
+    "stem": "Where should the add of a progressive lens be read on a lensmeter?",
+    "choices": [
+      "At the fitting cross",
+      "Anywhere along the corridor, since the power is constant there",
+      "At the prism reference point",
+      "In the near reference area, as low in the lens as practical, avoiding the distorted periphery"
+    ],
+    "answer": 3,
+    "explanation": "Power keeps increasing down the corridor and the periphery is distorted, so read the add through the near area low in the lens and choose the least-distorted spot.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    },
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-out-027",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 1,
+    "stem": "At which point on a progressive lens is the prism verified?",
+    "choices": [
+      "The fitting cross",
+      "The prism reference point (PRP)",
+      "The distance reference circle",
+      "The near reference circle"
+    ],
+    "answer": 1,
+    "explanation": "Prism in a progressive is measured at the prism reference point. Its target displacement there gives the prism amount and base direction.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    },
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-out-028",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 2,
+    "stem": "Where is the prism reference point of a progressive lens normally found?",
+    "choices": [
+      "Midway between the two permanent engraved circles, a few millimeters below the fitting cross",
+      "At the fitting cross itself",
+      "At the center of the near reference circle",
+      "Inside the distance reference circle above the fitting cross"
+    ],
+    "answer": 0,
+    "explanation": "The PRP sits halfway between the factory engravings, typically 2–4 mm below the fitting cross. Find the engravings first, then mark the PRP.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    },
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-out-029",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 1,
+    "stem": "By international standard, how far apart are the two permanent alignment engravings on a progressive lens?",
+    "choices": [
+      "40 mm",
+      "34 mm",
+      "24 mm",
+      "17 mm"
+    ],
+    "answer": 1,
+    "explanation": "The two identical alignment marks are set 34 mm apart. They are used to lay the lens off horizontally and to restore the removable markings.",
+    "source": {
+      "title": "Hidden Markings on Progressive Power Lenses – ABDO",
+      "url": "https://www.abdo.org.uk/wp-content/uploads/2020/03/2018-Hidden-Markings.pdf"
+    },
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-out-030",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 2,
+    "stem": "On most progressive lenses, where is the add power engraved?",
+    "choices": [
+      "Beneath the temporal alignment engraving",
+      "In the center of the near circle",
+      "Inside the fitting cross",
+      "Beneath the nasal alignment engraving"
+    ],
+    "answer": 0,
+    "explanation": "The temporal engraving typically carries the add. The nasal engraving identifies the design and often the index.",
+    "source": {
+      "title": "Hidden Markings on Progressive Power Lenses – ABDO",
+      "url": "https://www.abdo.org.uk/wp-content/uploads/2020/03/2018-Hidden-Markings.pdf"
+    },
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-out-031",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 1,
+    "stem": "A progressive lens has the hidden engraving \"20\" under the temporal circle. What does it most likely indicate?",
+    "choices": [
+      "A 2.0 mm center thickness",
+      "A 20 mm corridor length",
+      "A +2.00 add",
+      "Index 1.620"
+    ],
+    "answer": 2,
+    "explanation": "The add is abbreviated on the lens. For example, \"22\" means +2.25 and \"20\" means +2.00.",
+    "source": {
+      "title": "Manual Lensometry – OSMA Ophthalmic Skills Workshop",
+      "url": "https://osma.org/aws/OSMA/asset_manager/get_file/918968?ver=1"
+    },
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-out-032",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 1,
+    "stem": "What is \"restoring\" the markings on a progressive lens?",
+    "choices": [
+      "Re-engraving the lens with a laser in the office",
+      "Re-coating the lens so the engravings disappear",
+      "Reading the add with the glasses turned around",
+      "Finding and dotting the permanent engravings, then using the manufacturer's chart to relocate the fitting cross and reference points"
+    ],
+    "answer": 3,
+    "explanation": "The engravings are semi-visible. Dot them with a marker and lay the lens on the maker's centration chart to put back the fitting cross, PRP, and reference circles.",
+    "source": {
+      "title": "Hidden Markings on Progressive Power Lenses – ABDO",
+      "url": "https://www.abdo.org.uk/wp-content/uploads/2020/03/2018-Hidden-Markings.pdf"
+    },
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-out-033",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 2,
+    "stem": "A free-form (digital) progressive reads slightly different from the ordered Rx on the lensmeter. What is the most likely explanation?",
+    "choices": [
+      "The lensmeter is calibrated for index 1.53",
+      "The lens was edged off axis",
+      "The design is compensated for position of wear, so the lensmeter reading is not meant to match the ordered Rx exactly",
+      "The eyepiece was focused in the minus direction"
+    ],
+    "answer": 2,
+    "explanation": "Digital lenses are calculated for how the wearer sees through each part of the lens. The lensmeter reading therefore differs from the written Rx. Check against the lab's compensated values, not the raw Rx.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    },
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-out-034",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Automated lensmeter",
+    "difficulty": 2,
+    "stem": "Which statement about automated lensmeters is accurate?",
+    "choices": [
+      "They can't measure progressive lenses",
+      "They detect prism but can misread large amounts (over about 5Δ), so suspicious results should be rechecked on a manual instrument",
+      "They always read front vertex power",
+      "They are more accurate than a manual lensmeter for every lens"
+    ],
+    "answer": 1,
+    "explanation": "Automated lensmeters are fast and repeatable, but they can mismeasure large prism. When a reading doesn't fit the prescription, verify it manually.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-035",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Automated lensmeter",
+    "difficulty": 1,
+    "stem": "Besides sphere, cylinder, axis, add, and prism, which additional measurement do many automated lensmeters offer?",
+    "choices": [
+      "UV transmittance of the lens",
+      "Abbe value of the material",
+      "Refractive index of the material",
+      "Base curve of the front surface"
+    ],
+    "answer": 0,
+    "explanation": "Current automated lensmeters such as the Marco LM-1800 add features like automatic lens-type detection, PD measurement, and UV transmittance readout.",
+    "source": {
+      "title": "LM-1800/1800PD Automated Lensmeter – Marco",
+      "url": "https://marco.com/product/lm-1800-auto-lensmeter/"
+    }
+  },
+  {
+    "id": "abo-out-036",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Automated lensmeter",
+    "difficulty": 1,
+    "stem": "What is the main practical tradeoff of an automated lensmeter compared with a manual one?",
+    "choices": [
+      "It can only read single-vision lenses",
+      "It is more accurate but requires focusing the eyepiece for each operator",
+      "It reads front vertex power, so adds must always be recalculated",
+      "It is faster and easier to operate but considered less accurate in some cases"
+    ],
+    "answer": 3,
+    "explanation": "Automated units measure all values in one operation and display them digitally. EyeWiki notes they are easier to operate but relatively less accurate than a manual lensmeter.",
+    "source": {
+      "title": "Lensometry – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Lensometry"
+    }
+  },
+  {
+    "id": "abo-out-037",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 1,
+    "stem": "Which index of refraction is a standard optician's lens clock (Geneva lens measure) calibrated for?",
+    "choices": [
+      "1.66",
+      "1.498",
+      "1.586",
+      "1.53"
+    ],
+    "answer": 3,
+    "explanation": "The standard Geneva lens measure reads in diopters for an index of 1.53. Some versions intended for crown glass are marked 1.523. On any other material, correct the reading.",
+    "source": {
+      "title": "Optician's Hand Tools for Frame Adjustments – Bristal Optical",
+      "url": "https://bristal.com/opticians-hand-tools-for-frame-adjustments/"
+    }
+  },
+  {
+    "id": "abo-out-038",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 1,
+    "stem": "What does a lens clock physically measure?",
+    "choices": [
+      "The back vertex power of the lens",
+      "The refractive index of the lens material",
+      "The sagittal depth of the surface between its fixed outer pins and the movable center pin",
+      "The thickness of the lens at its center"
+    ],
+    "answer": 2,
+    "explanation": "The center pin's travel relative to the two fixed pins is the sagitta over a known chord. The dial converts that sag to diopters using the index the gauge is calibrated for.",
+    "source": {
+      "title": "A Lens Gauge is a Beautiful Thing – OptikConEd (ABO-approved CE)",
+      "url": "https://www.optikconed.com/uploads/photos/A_Lens_Gauge_is_a_Beautiful_Thing.pdf"
+    }
+  },
+  {
+    "id": "abo-out-039",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 3,
+    "stem": "A 1.53-calibrated lens clock reads +6.00 D on the front of a 1.66 high-index lens. What is the true surface power?",
+    "choices": [
+      "About +4.75 D",
+      "About +7.50 D",
+      "About +6.75 D",
+      "+6.00 D"
+    ],
+    "answer": 1,
+    "explanation": "True power = reading × (n − 1) / (1.53 − 1) = 6.00 × 0.66 / 0.53 ≈ +7.47 D, or about +7.50. A higher-index material has more power for the same curvature.",
+    "source": {
+      "title": "A Lens Gauge is a Beautiful Thing – OptikConEd (ABO-approved CE)",
+      "url": "https://www.optikconed.com/uploads/photos/A_Lens_Gauge_is_a_Beautiful_Thing.pdf"
+    }
+  },
+  {
+    "id": "abo-out-040",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 3,
+    "stem": "A 1.53-calibrated lens clock reads −4.00 D on the back of a polycarbonate (n = 1.586) lens. What is the true surface power?",
+    "choices": [
+      "About −4.42 D",
+      "About −3.62 D",
+      "−4.00 D",
+      "About −5.17 D"
+    ],
+    "answer": 0,
+    "explanation": "True = −4.00 × 0.586 / 0.53 ≈ −4.42 D. The reading understates the power of any material with an index above 1.53.",
+    "source": {
+      "title": "A Lens Gauge is a Beautiful Thing – OptikConEd (ABO-approved CE)",
+      "url": "https://www.optikconed.com/uploads/photos/A_Lens_Gauge_is_a_Beautiful_Thing.pdf"
+    }
+  },
+  {
+    "id": "abo-out-041",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 2,
+    "stem": "A 1.53 lens clock reads +8.00 D on the front of a CR-39 (n = 1.498) lens. Compared with the dial reading, the true surface power is:",
+    "choices": [
+      "Slightly more, about +8.50 D",
+      "About +5.30 D",
+      "Slightly less, about +7.52 D",
+      "Exactly +8.00 D"
+    ],
+    "answer": 2,
+    "explanation": "True = 8.00 × 0.498 / 0.53 ≈ +7.52 D. A material with an index below the calibration index has less power than the dial shows.",
+    "source": {
+      "title": "Lens clock – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lens_clock"
+    }
+  },
+  {
+    "id": "abo-out-042",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 1,
+    "stem": "A thin lens made of 1.53 material clocks +5.00 D on the front and −7.25 D on the back. What is its approximate (nominal) power?",
+    "choices": [
+      "+12.25 D",
+      "−2.25 D",
+      "+2.25 D",
+      "−12.25 D"
+    ],
+    "answer": 1,
+    "explanation": "For a thin lens, nominal power ≈ F1 + F2 = +5.00 + (−7.25) = −2.25 D. Thickness is ignored in this approximation.",
+    "source": {
+      "title": "A Lens Gauge is a Beautiful Thing – OptikConEd (ABO-approved CE)",
+      "url": "https://www.optikconed.com/uploads/photos/A_Lens_Gauge_is_a_Beautiful_Thing.pdf"
+    }
+  },
+  {
+    "id": "abo-out-043",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 2,
+    "stem": "Rotating a lens clock on a back surface, the needle swings between −6.00 D and −8.50 D at positions 90° apart. What does this show?",
+    "choices": [
+      "A toric surface with 2.50 D of surface cylinder",
+      "A spherical surface; the swing is normal pin play",
+      "Warpage that has added 8.50 D of power",
+      "An aspheric surface with 14.50 D of asphericity"
+    ],
+    "answer": 0,
+    "explanation": "Two stable readings 90° apart are the surface's principal meridians. The difference between them, 8.50 − 6.00 = 2.50 D, is the surface cylinder.",
+    "source": {
+      "title": "A Lens Gauge is a Beautiful Thing – OptikConEd (ABO-approved CE)",
+      "url": "https://www.optikconed.com/uploads/photos/A_Lens_Gauge_is_a_Beautiful_Thing.pdf"
+    }
+  },
+  {
+    "id": "abo-out-044",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 2,
+    "stem": "Why are lens clock readings unreliable on progressive and aspheric surfaces?",
+    "choices": [
+      "The gauge is calibrated only for minus surfaces",
+      "Those lenses are always made of polycarbonate",
+      "Their hard coats push the center pin out",
+      "The gauge assumes a single spherical curve across its three pins, so a changing curvature can clock almost the same as a sphere"
+    ],
+    "answer": 3,
+    "explanation": "A three-point gauge only matches pin depths. An asphere or a small steeper zone can sit on the pins almost exactly like a sphere, so the dial can't capture the true curvature.",
+    "source": {
+      "title": "Back To Basics: Understanding the Use and Limitations of a Lens Measure – 20/20 Magazine",
+      "url": "https://www.2020mag.com/article/back-to-basics-understanding-the-use-and-limitations-of-a-lens-measure"
+    }
+  },
+  {
+    "id": "abo-out-045",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 1,
+    "stem": "How do you check a lens clock's zero before use?",
+    "choices": [
+      "Read a plano lens on the lensmeter first",
+      "Press it on a known +6.00 D lens",
+      "Hold it pins-up and check the needle",
+      "Press it on a flat surface, such as plate glass; it should read zero"
+    ],
+    "answer": 3,
+    "explanation": "A flat surface has no sag, so a calibrated clock reads zero. If it doesn't, adjust the center pin before measuring lenses.",
+    "source": {
+      "title": "Optician's Hand Tools for Frame Adjustments – Bristal Optical",
+      "url": "https://bristal.com/opticians-hand-tools-for-frame-adjustments/"
+    }
+  },
+  {
+    "id": "abo-out-046",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Thickness calipers",
+    "difficulty": 2,
+    "stem": "Lens calipers on a plano plastic lens read 3.0 mm at the center. What is this consistent with?",
+    "choices": [
+      "A lens that fails the FDA drop-ball test",
+      "Standard dress thickness for any plastic lens",
+      "Safety-thickness lenses (about 3 mm) rather than standard dress thickness (about 2 mm)",
+      "A reading taken off-center that should be ignored"
+    ],
+    "answer": 2,
+    "explanation": "Calipers read in tenths of a millimeter. They are used to check whether lenses were made at standard (about 2 mm) or safety (about 3 mm) thickness.",
+    "source": {
+      "title": "Optician's Hand Tools for Frame Adjustments – Bristal Optical",
+      "url": "https://bristal.com/opticians-hand-tools-for-frame-adjustments/"
+    }
+  },
+  {
+    "id": "abo-out-047",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Circumference gauge",
+    "difficulty": 1,
+    "stem": "What does a lens circumference gauge measure, and when is it most useful?",
+    "choices": [
+      "The frame's A and B dimensions, for minimum blank size",
+      "The perimeter (C-size) of an edged lens, used to size lenses accurately when the frame can't be sent to the lab",
+      "The base curve, for matching a second pair",
+      "The lens's center thickness, for safety verification"
+    ],
+    "answer": 1,
+    "explanation": "Circumference measurers wrap a calibrated tape around the edged lens. Labs consider C-size an accurate way to finish lenses to size without the frame.",
+    "source": {
+      "title": "Question about lens circumference – OptiBoard",
+      "url": "https://www.optiboard.com/forums/forum/optical-forums/general-optics-and-eyecare-discussion-forum/36556-question-about-lens-circumference"
+    }
+  },
+  {
+    "id": "abo-out-048",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Circumference gauge",
+    "difficulty": 2,
+    "stem": "An optician files the polished edge of a rimless lens to reduce shine. Which measurement is most at risk?",
+    "choices": [
+      "The lens circumference (C-size), which can become too small for the mounting",
+      "The cylinder axis",
+      "The base curve",
+      "The lens's back vertex power"
+    ],
+    "answer": 0,
+    "explanation": "Removing edge material shrinks the perimeter. Too much leaves the lens undersized for the frame, so work carefully or ask the lab.",
+    "source": {
+      "title": "Polished Lens Edges, Friend or Foe? – 20/20 Magazine",
+      "url": "https://www.2020mag.com/article/polished-lens-edges-friend-or-foe"
+    }
+  },
+  {
+    "id": "abo-out-049",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PD rule",
+    "difficulty": 2,
+    "stem": "When measuring the patient's RIGHT monocular PD with a millimeter rule, what does the examiner do?",
+    "choices": [
+      "Closes their own left eye and has the patient look into the examiner's open right eye",
+      "Closes their own right eye and has the patient look into the examiner's left eye",
+      "Keeps both eyes open while the patient looks over the examiner's shoulder",
+      "Has the patient close the left eye and look at the ceiling"
+    ],
+    "answer": 0,
+    "explanation": "The examiner's open eye sits directly in front of the patient's eye being measured, so the patient's line of sight is straight ahead. Then reverse for the left eye.",
+    "source": {
+      "title": "Agreement and inter-session repeatability of manual and automatic interpupillary distance measurements – PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8569403/"
+    }
+  },
+  {
+    "id": "abo-out-050",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PD rule",
+    "difficulty": 1,
+    "stem": "Where should a PD rule be held when measuring a patient's PD?",
+    "choices": [
+      "On the patient's cheeks below the lower lids",
+      "Resting on the bridge of the nose, roughly in the spectacle plane, and kept straight and level",
+      "At arm's length, halfway between examiner and patient",
+      "Against the patient's forehead above the brows"
+    ],
+    "answer": 1,
+    "explanation": "Holding the rule at about the plane the lenses will occupy, and keeping it level, reduces parallax and tilt error.",
+    "source": {
+      "title": "Agreement and inter-session repeatability of manual and automatic interpupillary distance measurements – PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8569403/"
+    }
+  },
+  {
+    "id": "abo-out-051",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Pupillometer",
+    "difficulty": 2,
+    "stem": "A corneal-reflection pupillometer aligns with the corneal reflex rather than the pupil center. Compared with a pupil-center PD, what does a binocular reflex PD typically read?",
+    "choices": [
+      "About 2 mm wider",
+      "Exactly the same",
+      "About 2 mm narrower",
+      "About 6 mm narrower"
+    ],
+    "answer": 2,
+    "explanation": "The corneal reflex sits about 1 mm nasal to each pupil center at the spectacle plane, so the binocular value is typically about 2 mm narrower.",
+    "source": {
+      "title": "Meet Your Pupilometer – 20/20 Magazine",
+      "url": "https://www.2020mag.com/article/meet-your-pupilometer"
+    }
+  },
+  {
+    "id": "abo-out-052",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Pupillometer",
+    "difficulty": 2,
+    "stem": "A patient has a latent phoria that may shift one eye during PD measurement. What is good pupillometer practice?",
+    "choices": [
+      "Measure near PD only",
+      "Skip the pupillometer and use the frame PD",
+      "Take only a binocular reading with both eyes open",
+      "Take monocular readings using the occlusion bar and note any differences"
+    ],
+    "answer": 3,
+    "explanation": "Without fusion locked in, a phoria can shift one eye. Occluding each eye in turn for monocular readings shows whether the measurement changes.",
+    "source": {
+      "title": "Meet Your Pupilometer – 20/20 Magazine",
+      "url": "https://www.2020mag.com/article/meet-your-pupilometer"
+    }
+  },
+  {
+    "id": "abo-out-053",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Distometer",
+    "difficulty": 1,
+    "stem": "With the patient's eyes closed, a distometer reads 11 mm from the back of the lens to the lid. What vertex distance do you record?",
+    "choices": [
+      "13 mm",
+      "10 mm",
+      "11 mm",
+      "12 mm"
+    ],
+    "answer": 3,
+    "explanation": "The distometer contacts the closed lid, so add about 1 mm for lid thickness: 11 + 1 = 12 mm.",
+    "source": {
+      "title": "Measuring Vertex: Distometer – 20/20 Magazine",
+      "url": "https://www.2020mag.com/article/measuring-vertex-distometer"
+    }
+  },
+  {
+    "id": "abo-out-054",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Adjusting pliers",
+    "difficulty": 1,
+    "stem": "Which pliers are used to change a frame's pantoscopic tilt and to equalize temple heights?",
+    "choices": [
+      "Snipe-nose pliers",
+      "Strapping pliers",
+      "Angling pliers",
+      "Lens axis (turning) pliers"
+    ],
+    "answer": 2,
+    "explanation": "Angling pliers grip at the endpiece and angle the temple relative to the front. That changes pantoscopic or retroscopic tilt and corrects uneven temples.",
+    "source": {
+      "title": "Optician's Hand Tools for Frame Adjustments – Bristal Optical",
+      "url": "https://bristal.com/opticians-hand-tools-for-frame-adjustments/"
+    }
+  },
+  {
+    "id": "abo-out-055",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Adjusting pliers",
+    "difficulty": 2,
+    "stem": "Using round/flat (snipe) pliers to bend a pad arm, which jaw goes on the inside of the bend?",
+    "choices": [
+      "The round jaw",
+      "Either jaw; it makes no difference",
+      "Neither; pad arms are bent with angling pliers only",
+      "The flat jaw"
+    ],
+    "answer": 0,
+    "explanation": "Putting the round jaw on the inside of the bend gives the metal a radius to curve around instead of a sharp crease, so the pad arm isn't cut or weakened.",
+    "source": {
+      "title": "Optician's Hand Tools for Frame Adjustments – Bristal Optical",
+      "url": "https://bristal.com/opticians-hand-tools-for-frame-adjustments/"
+    }
+  },
+  {
+    "id": "abo-out-056",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Adjusting pliers",
+    "difficulty": 2,
+    "stem": "What are European (cup-jaw) nose pad pliers designed to do?",
+    "choices": [
+      "Cut temple screws flush",
+      "Grip screw-in or push-in pads by fitting a cup over the pad box while the other jaw rests on the pad face",
+      "Turn a lens in its eyewire",
+      "Widen a plastic bridge"
+    ],
+    "answer": 1,
+    "explanation": "The cup-shaped jaw fits over the pad's screw or box assembly, so the pad angle can be adjusted without crushing it.",
+    "source": {
+      "title": "Optician's Hand Tools for Frame Adjustments – Bristal Optical",
+      "url": "https://bristal.com/opticians-hand-tools-for-frame-adjustments/"
+    }
+  },
+  {
+    "id": "abo-out-057",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Adjusting pliers",
+    "difficulty": 1,
+    "stem": "A flat-top segment is slightly tilted in a full-rim frame. Which tool lets you rotate the lens without removing it?",
+    "choices": [
+      "Bridge-narrowing pliers",
+      "Snipe-nose pliers",
+      "Angling pliers",
+      "Lens axis (lens turning) pliers with rubber-padded jaws"
+    ],
+    "answer": 3,
+    "explanation": "Lens axis pliers have large rubber pads that grip both lens surfaces, so you can turn the lens in the eyewire to realign the cylinder axis or segment line.",
+    "source": {
+      "title": "Optician's Hand Tools for Frame Adjustments – Bristal Optical",
+      "url": "https://bristal.com/opticians-hand-tools-for-frame-adjustments/"
+    }
+  },
+  {
+    "id": "abo-out-058",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Adjusting pliers",
+    "difficulty": 2,
+    "stem": "A rimless lens has worked loose because its mounting straps have spread wider than the lens is thick. Which pliers address this?",
+    "choices": [
+      "Cutting pliers",
+      "European pad pliers",
+      "Strapping pliers",
+      "Angling pliers"
+    ],
+    "answer": 2,
+    "explanation": "Strapping pliers have overlapping flat jaws that press the straps back parallel and snug against the lens surfaces.",
+    "source": {
+      "title": "Optician's Hand Tools for Frame Adjustments – Bristal Optical",
+      "url": "https://bristal.com/opticians-hand-tools-for-frame-adjustments/"
+    }
+  },
+  {
+    "id": "abo-out-059",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Digital centration",
+    "difficulty": 2,
+    "stem": "What did the cited studies find about PD measurement repeatability with different methods?",
+    "choices": [
+      "Ruler measurements varied by almost 3 mm between opticians, while digital systems varied by about 0.1–0.25 mm",
+      "Digital systems varied by about 3 mm",
+      "Pupillometers varied more than rulers",
+      "Rulers and digital systems agreed within 0.1 mm"
+    ],
+    "answer": 0,
+    "explanation": "Rulers depend heavily on the operator. Digital centration systems are far more consistent from one operator to the next, which matters for progressives and free-form lenses.",
+    "source": {
+      "title": "Taking the Measure of Digital Centration Systems – 20/20 Magazine CE",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/taking-the-measure-of-digital-74708"
+    }
+  },
+  {
+    "id": "abo-out-060",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Digital centration",
+    "difficulty": 1,
+    "stem": "Besides PD and fitting height, which measurements do digital centration systems capture to personalize free-form lenses?",
+    "choices": [
+      "Lens material index and Abbe value",
+      "Vertex distance, pantoscopic tilt, and frame wrap in the chosen frame",
+      "Intraocular pressure and pupil reaction",
+      "Corneal curvature and tear breakup time"
+    ],
+    "answer": 1,
+    "explanation": "These position-of-wear values let the lab compensate a digital design for how the frame actually sits on the patient's face.",
+    "source": {
+      "title": "Taking the Measure of Digital Centration Systems – 20/20 Magazine CE",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/taking-the-measure-of-digital-74708"
+    }
+  },
+  {
+    "id": "abo-out-061",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Digital centration",
+    "difficulty": 1,
+    "stem": "What should be done before taking measurements with a digital centration device?",
+    "choices": [
+      "Set the frame to zero pantoscopic tilt",
+      "Dilate the patient's pupils",
+      "Remove the demo lenses' markings with alcohol",
+      "Adjust the chosen frame so it fits the patient properly"
+    ],
+    "answer": 3,
+    "explanation": "The device measures the frame as worn. If the frame is out of adjustment, it records the wrong fitting values.",
+    "source": {
+      "title": "Taking the Measure of Digital Centration Systems – 20/20 Magazine CE",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/taking-the-measure-of-digital-74708"
+    }
+  },
+  {
+    "id": "abo-out-062",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 1,
+    "stem": "How is reading material positioned with a hand-held magnifier?",
+    "choices": [
+      "At the magnifier's focal point, used with the patient's distance correction",
+      "Touching the lens, used with a bifocal",
+      "Inside the focal length, used with a strong reading add",
+      "Beyond twice the focal length, used without glasses"
+    ],
+    "answer": 0,
+    "explanation": "At the focal point, light leaving the magnifier is parallel, so the image appears to come from infinity. The patient views it through their distance Rx.",
+    "source": {
+      "title": "Optical and Low Tech Devices – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas-video/optical-and-low-tech-devices.htm"
+    }
+  },
+  {
+    "id": "abo-out-063",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 2,
+    "stem": "Why does a stand magnifier usually require the patient to accommodate or wear a reading add?",
+    "choices": [
+      "Stand magnifiers are always minus lenses",
+      "The stand holds the lens beyond its focal length, so the image is real and inverted",
+      "The print sits inside the lens's focal length, so the virtual image is at a finite distance and light leaving the lens diverges",
+      "The illumination constricts the pupil"
+    ],
+    "answer": 2,
+    "explanation": "Because the image isn't at infinity, the eye must focus for a near distance. That takes accommodation or an add.",
+    "source": {
+      "title": "Low-Vision Aids – American Academy of Ophthalmology",
+      "url": "https://www.aao.org/eye-health/diseases/low-vision-aids"
+    }
+  },
+  {
+    "id": "abo-out-064",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 1,
+    "stem": "A patient asks for the largest, strongest hand magnifier available. What should you explain?",
+    "choices": [
+      "Diameter has no relation to power",
+      "The larger the lens diameter, the weaker the power tends to be",
+      "Larger magnifiers are always stronger",
+      "Large magnifiers are only available as stand magnifiers"
+    ],
+    "answer": 1,
+    "explanation": "Strong magnifiers have steep curves and short focal lengths, which limits their diameter. Big lenses come in lower powers.",
+    "source": {
+      "title": "Optical and Low Tech Devices – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas-video/optical-and-low-tech-devices.htm"
+    }
+  },
+  {
+    "id": "abo-out-065",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 2,
+    "stem": "Which describes a Galilean telescope used as a low vision aid?",
+    "choices": [
+      "A plus objective and minus eyepiece, typically 2×–4×, lighter and shorter with an erect image",
+      "Two plus lenses with an inverting prism, typically 6×–10×",
+      "A single high-plus lens mounted in a half-eye",
+      "A minus objective and plus eyepiece, used only for near"
+    ],
+    "answer": 0,
+    "explanation": "Galilean scopes are compact and inexpensive with a larger exit pupil. Keplerian scopes use two plus lenses, need a prism to erect the image, and are longer and heavier.",
+    "source": {
+      "title": "Optical and Low Tech Devices – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas-video/optical-and-low-tech-devices.htm"
+    }
+  },
+  {
+    "id": "abo-out-066",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 2,
+    "stem": "Why does a Keplerian (astronomical) telescope used as a low vision aid need a prism system?",
+    "choices": [
+      "To correct the patient's astigmatism",
+      "To add base-in prism for convergence",
+      "Its two plus lenses form an inverted image that must be re-erected",
+      "To reduce its weight"
+    ],
+    "answer": 2,
+    "explanation": "Two plus lenses produce an inverted image. An erecting prism turns it right side up, which adds length, weight, and cost.",
+    "source": {
+      "title": "Low-Vision Aids – American Academy of Ophthalmology",
+      "url": "https://www.aao.org/eye-health/diseases/low-vision-aids"
+    }
+  },
+  {
+    "id": "abo-out-067",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 1,
+    "stem": "What is a bioptic telescope?",
+    "choices": [
+      "A telescope mounted in the reading segment for near work",
+      "A small telescope mounted high in a spectacle carrier lens, so the patient looks through the regular lens and dips the head to spot through the telescope",
+      "A hand-held monocular with an autofocus lens",
+      "Two telescopes cemented together for binocular use"
+    ],
+    "answer": 1,
+    "explanation": "Mounting the telescope in the upper part of the lens keeps the wide field of the carrier lens for walking. The telescope is used briefly for distance detail.",
+    "source": {
+      "title": "Optical and Low Tech Devices – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas-video/optical-and-low-tech-devices.htm"
+    }
+  },
+  {
+    "id": "abo-out-068",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 2,
+    "stem": "Using the common prescribing rule of add power plus 2Δ base-in per eye, how much prism goes in a binocular +10.00 D reading spectacle?",
+    "choices": [
+      "6Δ base in, each eye",
+      "12Δ base out, each eye",
+      "10Δ base in, each eye",
+      "12Δ base in, each eye"
+    ],
+    "answer": 3,
+    "explanation": "The rule is add + 2Δ base in for each eye. With +10.00 D that is 12Δ BI per eye, which reduces the heavy convergence demand at the close working distance.",
+    "source": {
+      "title": "Optical and Low Tech Devices – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas-video/optical-and-low-tech-devices.htm"
+    }
+  },
+  {
+    "id": "abo-out-069",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 1,
+    "stem": "What should patients be told about high-power prismatic half-eye readers?",
+    "choices": [
+      "They work best for driving",
+      "They should be worn full time",
+      "They are for reading only, not for walking around",
+      "They replace the distance prescription"
+    ],
+    "answer": 2,
+    "explanation": "These lenses focus at a short working distance, so the world beyond it is blurred. They are for seated near tasks only.",
+    "source": {
+      "title": "Optical and Low Tech Devices – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas-video/optical-and-low-tech-devices.htm"
+    }
+  },
+  {
+    "id": "abo-out-070",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 2,
+    "stem": "A microscopic spectacle lens has an equivalent power of +32 D. Using the conventional rating, what is its magnification?",
+    "choices": [
+      "32×",
+      "8×",
+      "6×",
+      "4×"
+    ],
+    "answer": 1,
+    "explanation": "Microscopic spectacles are rated by dividing the dioptric power by 4: 32 ÷ 4 = 8×.",
+    "source": {
+      "title": "Optical and Low Tech Devices – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas-video/optical-and-low-tech-devices.htm"
+    }
+  },
+  {
+    "id": "abo-out-071",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 2,
+    "stem": "Up to about what add power can high-plus reading spectacles still be prescribed binocularly?",
+    "choices": [
+      "About +20 D",
+      "Any power, if base-out prism is added",
+      "About +4 D",
+      "About +10 D"
+    ],
+    "answer": 3,
+    "explanation": "AAO notes high-plus spectacles can be prescribed binocularly up to about 10 D. Beyond that, the convergence demand makes monocular use the norm.",
+    "source": {
+      "title": "Low-Vision Aids – American Academy of Ophthalmology",
+      "url": "https://www.aao.org/eye-health/diseases/low-vision-aids"
+    }
+  },
+  {
+    "id": "abo-out-072",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 1,
+    "stem": "What is another name for a telemicroscope?",
+    "choices": [
+      "Reading telescope or surgical loupe",
+      "Bioptic carrier",
+      "Stand magnifier",
+      "Fresnel prism"
+    ],
+    "answer": 0,
+    "explanation": "A telemicroscope is a telescope focused for near, by a reading cap or by focusing. It gives a longer working distance than a simple high-plus lens of the same magnification.",
+    "source": {
+      "title": "Optical and Low Tech Devices – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas-video/optical-and-low-tech-devices.htm"
+    }
+  },
+  {
+    "id": "abo-out-073",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Low vision aids",
+    "difficulty": 2,
+    "stem": "How does the FDA classify a low-vision magnifier, whether hand-held or spectacle-mounted?",
+    "choices": [
+      "Class I, exempt from premarket notification",
+      "Not regulated as a medical device",
+      "Class II, requiring 510(k) clearance",
+      "Class III, requiring premarket approval"
+    ],
+    "answer": 0,
+    "explanation": "21 CFR 886.5540 places low-vision magnifiers in Class I (general controls) and exempts them from 510(k) premarket notification.",
+    "source": {
+      "title": "21 CFR 886.5540 – Low-vision magnifier (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-886/subpart-F/section-886.5540"
+    }
+  },
+  {
+    "id": "abo-out-074",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Ready-made readers",
+    "difficulty": 1,
+    "stem": "What power range are over-the-counter reading glasses typically sold in?",
+    "choices": [
+      "+4.00 to +10.00 D",
+      "+0.75 to +3.50 D",
+      "+0.25 to +1.00 D",
+      "−1.00 to +1.00 D"
+    ],
+    "answer": 1,
+    "explanation": "Ready readers cover common reading powers from about +0.75 to +3.50 D, with the same power in both lenses.",
+    "source": {
+      "title": "Corrective lens (Reading glasses) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Corrective_lens"
+    }
+  },
+  {
+    "id": "abo-out-075",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Ready-made readers",
+    "difficulty": 1,
+    "stem": "Which patient is the poorest candidate for ready-made readers?",
+    "choices": [
+      "A patient who wants a spare pair for occasional reading",
+      "A patient who wants half-eye readers to look over for distance",
+      "An emmetropic presbyope who needs +1.50 at near",
+      "A presbyope with significant astigmatism or a large difference in power between the eyes"
+    ],
+    "answer": 3,
+    "explanation": "OTC readers have equal spherical powers and a standard centration. They don't correct astigmatism or anisometropia, so these patients need a custom Rx.",
+    "source": {
+      "title": "Corrective lens (Reading glasses) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Corrective_lens"
+    }
+  },
+  {
+    "id": "abo-out-076",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Ready-made readers",
+    "difficulty": 2,
+    "stem": "Must over-the-counter reading glasses meet the FDA impact-resistance requirement?",
+    "choices": [
+      "No; only prescription lenses must be impact resistant",
+      "Only if they are sold with a case",
+      "Yes; 21 CFR 801.410 applies to nonprescription eyeglasses, and their lenses may be tested by statistically significant batch sampling",
+      "Only if they are made of glass"
+    ],
+    "answer": 2,
+    "explanation": "801.410 covers eyeglasses and sunglasses generally. It specifically allows nonprescription lenses to be batch-tested on a statistical basis in finished or uncut-finished form.",
+    "source": {
+      "title": "21 CFR 801.410 – Use of impact-resistant lenses in eyeglasses and sunglasses (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-801/subpart-H/section-801.410"
+    }
+  },
+  {
+    "id": "abo-out-077",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Ready-made readers",
+    "difficulty": 1,
+    "stem": "What is the practical advantage of half-eye readers over full-frame readers?",
+    "choices": [
+      "The wearer can look over the top for distance without removing them",
+      "They provide a wider reading field",
+      "They correct astigmatism",
+      "They give more magnification at the same power"
+    ],
+    "answer": 0,
+    "explanation": "Half-eyes sit low on the nose. Full-frame readers must be removed to see clearly at distance.",
+    "source": {
+      "title": "Corrective lens (Reading glasses) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Corrective_lens"
+    }
+  },
+  {
+    "id": "abo-out-078",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Surfacing",
+    "difficulty": 1,
+    "stem": "How does free-form (digital) surfacing produce a lens surface?",
+    "choices": [
+      "The lens is cast in a mold with the full Rx on the front",
+      "A computer-controlled generator cuts the surface point by point to a file of x, y, z coordinates",
+      "Abrasive laps of fixed curvature grind the surface, then fine it",
+      "A laser ablates the back surface to the prescribed curve"
+    ],
+    "answer": 1,
+    "explanation": "Digital generators follow a surface data file. That allows complex shapes and power accuracy to about 0.01 D instead of the tenth-of-a-diopter steps of conventional surfacing.",
+    "source": {
+      "title": "Digital Lens Surfacing: The Time is Now – Coburn Technologies",
+      "url": "https://www.coburntechnologies.com/2017/08/01/digital-surfacing-now-time/"
+    }
+  },
+  {
+    "id": "abo-out-079",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Surfacing",
+    "difficulty": 1,
+    "stem": "Compared with conventional surfacing, about how precise can free-form lens power be?",
+    "choices": [
+      "About 0.12 D",
+      "About 0.50 D",
+      "About 0.25 D",
+      "About 0.01 D"
+    ],
+    "answer": 3,
+    "explanation": "HOYA cites conventional accuracy near 1/10 D, versus about 1/100 D for free-form.",
+    "source": {
+      "title": "Understanding Free Form vs. Conventional – HOYA Vision Care",
+      "url": "https://www.hoyavision.com/en-us/blog/blogs-and-article/understanding-free-form-vs.-conventional"
+    }
+  },
+  {
+    "id": "abo-out-080",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Surfacing",
+    "difficulty": 3,
+    "stem": "Why is conventional surfacing limited to spherical and toric curves?",
+    "choices": [
+      "Only spherical curves can be polished to a clear finish",
+      "Conventional generators can only cut convex surfaces",
+      "The lap fining step uses fixed-curvature tools, which can only reproduce circular (spherical or toric) surfaces",
+      "Spherical curves are required by ANSI Z80.1"
+    ],
+    "answer": 2,
+    "explanation": "In conventional processing the generated surface is fined and polished on laps. Those laps restrict the result to circular curves. Free-form cuts smooth enough to skip laps, so aspheric, atoric, and progressive back surfaces are possible.",
+    "source": {
+      "title": "The Other Side of Free-Form – 20/20 Magazine",
+      "url": "https://www.2020mag.com/article/the-other-side-of-freeform"
+    }
+  },
+  {
+    "id": "abo-out-081",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Surfacing",
+    "difficulty": 2,
+    "stem": "Why can a digital surfacing lab keep a much smaller lens inventory than a conventional lab?",
+    "choices": [
+      "It needs only one base curve for all powers",
+      "It outsources all progressive work",
+      "It can generate the progressive design and Rx on the back of an inexpensive single-vision blank",
+      "It buys finished lenses for every Rx"
+    ],
+    "answer": 2,
+    "explanation": "Conventional progressives require stocking molded front-surface progressive blanks in many base curves and adds. Free-form cuts the progressive onto the back of a single-vision semi-finished blank.",
+    "source": {
+      "title": "Digital Lens Surfacing: The Time is Now – Coburn Technologies",
+      "url": "https://www.coburntechnologies.com/2017/08/01/digital-surfacing-now-time/"
+    }
+  },
+  {
+    "id": "abo-out-082",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Edge treatments",
+    "difficulty": 2,
+    "stem": "What is the main tradeoff of polishing the exposed edges of rimless or semi-rimless lenses?",
+    "choices": [
+      "They look cleaner and less visible, but some wearers notice rainbows or internal reflections",
+      "They block more UV but scratch more easily",
+      "They make the lens thinner but change its power",
+      "They become more impact resistant but heavier"
+    ],
+    "answer": 0,
+    "explanation": "A polished edge removes the chalky white ring. It can also send stray light into the lens, which some wearers see as rings or rainbows, especially at night. AR coating reduces this.",
+    "source": {
+      "title": "Polished Lens Edges, Friend or Foe? – 20/20 Magazine",
+      "url": "https://www.2020mag.com/article/polished-lens-edges-friend-or-foe"
+    }
+  },
+  {
+    "id": "abo-out-083",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Edge treatments",
+    "difficulty": 2,
+    "stem": "What does \"rolling\" a lens edge do, and when is it typically needed?",
+    "choices": [
+      "It reduces the C-size so the lens fits a smaller frame",
+      "It fines down the sharp edge, mainly on high-minus lenses or when the edge interferes with temple closure or a pad arm",
+      "It adds a safety bevel required on all dress lenses",
+      "It thins the center of a high-plus lens"
+    ],
+    "answer": 1,
+    "explanation": "Rolling bevels the sharp corner of a thick edge. It makes the edge look thinner and clears parts that bump it. It is often paired with polish.",
+    "source": {
+      "title": "Living on the Edge – Eyecare Business",
+      "url": "https://www.eyecarebusiness.com/issues/2004/october/living-on-the-edge/"
+    }
+  },
+  {
+    "id": "abo-out-084",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Edge treatments",
+    "difficulty": 1,
+    "stem": "How does a dark edge coating help a thick high-minus lens?",
+    "choices": [
+      "It reduces the actual edge thickness",
+      "It lowers the effective power",
+      "It strengthens the lens for safety use",
+      "It makes the edge less visible against the frame, and it does not change the lens power or thickness"
+    ],
+    "answer": 3,
+    "explanation": "Edge coatings seal or pigment the cut edge. They hide the thickness visually but leave the lens optics unchanged.",
+    "source": {
+      "title": "Edge Coating/Polishing for High Prescriptions – Specialty Vision",
+      "url": "https://specialty.vision/article/edge-coating-polishing-for-high-prescriptions/"
+    }
+  },
+  {
+    "id": "abo-out-085",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame limitations",
+    "difficulty": 2,
+    "stem": "For a high-minus patient, which frame choice does the most to reduce edge thickness and weight?",
+    "choices": [
+      "Any frame, provided the lenses are high-index",
+      "A rimless frame with polished edges",
+      "A large frame with a flat base curve",
+      "A frame that holds physically small lenses"
+    ],
+    "answer": 3,
+    "explanation": "Smaller lenses use less of the surface sphere, so a minus lens ends with a thinner edge. A 40 mm lens can weigh about half as much as a 50 mm one.",
+    "source": {
+      "title": "Corrective lens (Reading glasses) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Corrective_lens"
+    }
+  },
+  {
+    "id": "abo-out-086",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Infection control",
+    "difficulty": 1,
+    "stem": "Under OSHA's bloodborne pathogens standard, what does \"universal precautions\" mean?",
+    "choices": [
+      "Wearing gloves only when blood is visible",
+      "Vaccinating all patients before treatment",
+      "Treating all human blood and certain body fluids as if known to be infectious",
+      "Disinfecting only items used on patients known to be infected"
+    ],
+    "answer": 2,
+    "explanation": "OSHA defines universal precautions as an approach in which all human blood and certain body fluids are treated as if infectious for HIV, HBV, and other bloodborne pathogens.",
+    "source": {
+      "title": "29 CFR 1910.1030 – Bloodborne pathogens (OSHA)",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+    }
+  },
+  {
+    "id": "abo-out-087",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Infection control",
+    "difficulty": 2,
+    "stem": "Under OSHA 1910.1030, when must hepatitis B vaccination be made available to an employee with occupational exposure?",
+    "choices": [
+      "After required training and within 10 working days of initial assignment",
+      "Within one year of hire",
+      "Only after an exposure incident",
+      "Only if the employee requests it in writing"
+    ],
+    "answer": 0,
+    "explanation": "The employer must offer the vaccine series within 10 working days of initial assignment, unless the employee is already vaccinated, is immune, or has a medical contraindication.",
+    "source": {
+      "title": "29 CFR 1910.1030 – Bloodborne pathogens (OSHA)",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+    }
+  },
+  {
+    "id": "abo-out-088",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Infection control",
+    "difficulty": 2,
+    "stem": "How often must an employer's bloodborne pathogens Exposure Control Plan be reviewed and updated?",
+    "choices": [
+      "Every five years",
+      "At least annually, and whenever tasks or positions with exposure change",
+      "Only after an OSHA inspection",
+      "Only when a new employee is hired"
+    ],
+    "answer": 1,
+    "explanation": "OSHA requires review at least annually and whenever new or modified tasks or positions affect occupational exposure.",
+    "source": {
+      "title": "29 CFR 1910.1030 – Bloodborne pathogens (OSHA)",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+    }
+  },
+  {
+    "id": "abo-out-089",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Infection control",
+    "difficulty": 1,
+    "stem": "CDC standard precautions apply to which patients?",
+    "choices": [
+      "Only patients with open wounds",
+      "All patients, in all patient care",
+      "Only patients with a known infection",
+      "Only patients undergoing surgery"
+    ],
+    "answer": 1,
+    "explanation": "Standard precautions are the baseline for all patient care: hand hygiene, PPE when exposure is expected, respiratory etiquette, and cleaning and disinfecting equipment and the environment.",
+    "source": {
+      "title": "Standard Precautions for All Patient Care – CDC",
+      "url": "https://www.cdc.gov/infection-control/hcp/basics/standard-precautions.html"
+    }
+  },
+  {
+    "id": "abo-out-090",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Infection control",
+    "difficulty": 2,
+    "stem": "Under the Spaulding classification, frames, pupillometers, and hand tools that touch only intact skin are:",
+    "choices": [
+      "Critical items requiring sterilization",
+      "Semicritical items requiring high-level disinfection",
+      "Noncritical items requiring low-level disinfection",
+      "Exempt from any cleaning"
+    ],
+    "answer": 2,
+    "explanation": "Noncritical items contact intact skin but not mucous membranes. Intact skin is an effective barrier, so low-level disinfection is appropriate.",
+    "source": {
+      "title": "A Rational Approach to Disinfection and Sterilization – CDC",
+      "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html"
+    }
+  },
+  {
+    "id": "abo-out-091",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Infection control",
+    "difficulty": 2,
+    "stem": "Under the Spaulding classification, a device that contacts mucous membranes, such as the conjunctiva, is:",
+    "choices": [
+      "Semicritical, requiring at least high-level disinfection",
+      "Exempt if used on only one patient per day",
+      "Noncritical, requiring low-level disinfection",
+      "Critical, requiring sterilization"
+    ],
+    "answer": 0,
+    "explanation": "Semicritical items contact mucous membranes or nonintact skin. They must be free of all microorganisms except small numbers of bacterial spores, which means high-level disinfection at minimum.",
+    "source": {
+      "title": "A Rational Approach to Disinfection and Sterilization – CDC",
+      "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html"
+    }
+  },
+  {
+    "id": "abo-out-092",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Infection control",
+    "difficulty": 2,
+    "stem": "When an optical office disinfects counters and tools with a hospital disinfectant, what does federal law require?",
+    "choices": [
+      "Label contact times are only suggestions",
+      "The product must be FDA-approved as a drug",
+      "Any household cleaner may be used if it is diluted",
+      "The product must be EPA-registered, and all label directions, including contact time, must be followed"
+    ],
+    "answer": 3,
+    "explanation": "EPA registers disinfectants under FIFRA. CDC notes that federal law requires users to follow all label instructions, such as use-dilution, contact time, storage, and disposal.",
+    "source": {
+      "title": "A Rational Approach to Disinfection and Sterilization – CDC",
+      "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html"
+    }
+  },
+  {
+    "id": "abo-out-093",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "OSHA",
+    "difficulty": 1,
+    "stem": "Under OSHA's Hazard Communication Standard, what must an optical lab provide to workers who handle hazardous chemicals such as tints, solvents, and coating chemicals?",
+    "choices": [
+      "A signed liability waiver",
+      "Only a verbal warning from the supervisor",
+      "Labels and safety data sheets, plus training on the hazards",
+      "Annual hepatitis B testing"
+    ],
+    "answer": 2,
+    "explanation": "All employers with hazardous chemicals in the workplace must have labels and safety data sheets for exposed workers and must train them to handle the chemicals appropriately.",
+    "source": {
+      "title": "Hazard Communication – OSHA",
+      "url": "https://www.osha.gov/hazcom"
+    }
+  },
+  {
+    "id": "abo-out-094",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "OSHA",
+    "difficulty": 2,
+    "stem": "Under the current OSHA Hazard Communication Standard, aligned with GHS, how is a safety data sheet (SDS) organized?",
+    "choices": [
+      "However the manufacturer prefers",
+      "As a free-form one-page summary",
+      "In an 8-section format",
+      "In a specified 16-section format"
+    ],
+    "answer": 3,
+    "explanation": "The HCS adopted the Globally Harmonized System, which specifies a 16-section SDS and harmonized label elements: signal word, pictogram, and hazard statement.",
+    "source": {
+      "title": "Hazard Communication – OSHA",
+      "url": "https://www.osha.gov/hazcom"
+    }
+  },
+  {
+    "id": "abo-out-095",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FDA Impact Resistance",
+    "difficulty": 2,
+    "stem": "Under 21 CFR 801.410, how long must invoices and records of sale for impact-resistant lenses be kept?",
+    "choices": [
+      "3 years",
+      "7 years",
+      "1 year",
+      "5 years"
+    ],
+    "answer": 0,
+    "explanation": "Shipping and sales records for impact-resistant lenses, including finished eyeglasses and sunglasses, must be kept for 3 years. Retailers need not record the names of nonprescription purchasers.",
+    "source": {
+      "title": "21 CFR 801.410 – Use of impact-resistant lenses in eyeglasses and sunglasses (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-801/subpart-H/section-801.410"
+    }
+  },
+  {
+    "id": "abo-out-096",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FDA Impact Resistance",
+    "difficulty": 3,
+    "stem": "In the National Academy of Opticianry's liability analysis, what is an optician who mounts uncut lenses into frames considered?",
+    "choices": [
+      "The lens manufacturer's agent, covered by its testing",
+      "The manufacturer, legally responsible for the finished eyewear",
+      "A distributor with no liability",
+      "Exempt, as long as the prescriber signed the Rx"
+    ],
+    "answer": 1,
+    "explanation": "NAO points out that an optician who edges and assembles lenses is the manufacturer under FDA rules. Processing beyond simple edging and tinting can remove the protection of the lens maker's batch testing.",
+    "source": {
+      "title": "Professional Liability for Opticians, Part I – National Academy of Opticianry",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Professional-Liability-for-Opticians-Part-1.pdf"
+    }
+  },
+  {
+    "id": "abo-out-097",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Duty to warn",
+    "difficulty": 1,
+    "stem": "What is the core of the optician's \"duty to warn\"?",
+    "choices": [
+      "Posting the FDA drop-ball test procedure in the office",
+      "Refusing to dispense any lens other than polycarbonate",
+      "Informing patients about the relative impact resistance of lens materials so they can make an informed choice, and documenting that they were told",
+      "Warning patients that all lenses are shatterproof"
+    ],
+    "answer": 2,
+    "explanation": "The duty to warn rests on informed choice. Patients must know that some materials, such as polycarbonate, resist impact better. The patient record should note that the information was given.",
+    "source": {
+      "title": "Protecting Kids (and others) through 'Duty to Warn' – Eyecare Business",
+      "url": "https://www.eyecarebusiness.com/issues/2000/june/protecting-kids-and-others-through-duty-to-warn/"
+    }
+  },
+  {
+    "id": "abo-out-098",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Duty to warn",
+    "difficulty": 1,
+    "stem": "Which group of patients is most often cited as needing a recommendation of impact-resistant lenses like polycarbonate?",
+    "choices": [
+      "Children, industrial workers, police and fire personnel, and sports participants",
+      "Only patients who buy sunglasses",
+      "Only patients with high-minus prescriptions",
+      "Only patients over age 65"
+    ],
+    "answer": 0,
+    "explanation": "These groups are the most likely to have their eyewear struck. Many offices insist on polycarbonate for children.",
+    "source": {
+      "title": "Protecting Kids (and others) through 'Duty to Warn' – Eyecare Business",
+      "url": "https://www.eyecarebusiness.com/issues/2000/june/protecting-kids-and-others-through-duty-to-warn/"
+    }
+  },
+  {
+    "id": "abo-out-099",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Product liability",
+    "difficulty": 2,
+    "stem": "In product liability law, when a product's users weren't told what it can and can't do, what kind of defect is that?",
+    "choices": [
+      "Manufacturing defect",
+      "Defective warning",
+      "Breach of express warranty",
+      "Design defect"
+    ],
+    "answer": 1,
+    "explanation": "NAO lists three defect areas. A manufacturing defect doesn't match its design, a design defect is a flawed design, and a defective warning means effective instructions or warnings were missing.",
+    "source": {
+      "title": "Professional Liability for Opticians, Part I – National Academy of Opticianry",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Professional-Liability-for-Opticians-Part-1.pdf"
+    }
+  },
+  {
+    "id": "abo-out-100",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Product liability",
+    "difficulty": 2,
+    "stem": "A patient tells the optician the glasses are for racquetball, and the optician supplies dress eyewear that fails in play. Which legal concept most directly applies?",
+    "choices": [
+      "Express warranty",
+      "Implied warranty of merchantability",
+      "Strict liability for prescribers only",
+      "Implied warranty of fitness for a particular purpose"
+    ],
+    "answer": 3,
+    "explanation": "When a buyer relies on the seller's expertise for a specific use, the goods are implied to be fit for that purpose. Opticians have a duty to ask how the eyewear will be used.",
+    "source": {
+      "title": "Professional Liability for Opticians, Part I – National Academy of Opticianry",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Professional-Liability-for-Opticians-Part-1.pdf"
+    }
+  },
+  {
+    "id": "abo-out-101",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Product liability",
+    "difficulty": 3,
+    "stem": "What is wrong with putting safety-thickness lenses in a dress frame for a patient who needs protective eyewear?",
+    "choices": [
+      "Nothing; lens thickness alone defines safety eyewear",
+      "The FDA prohibits safety lenses in any dress frame",
+      "The patient needs protection, but the frame doesn't provide it, which is hard to defend if the eyewear fails",
+      "Dress frames can't hold 3 mm lenses"
+    ],
+    "answer": 2,
+    "explanation": "NAO points out that recognizing a patient needs extra lens protection but not frame protection is awkward to defend. Protective eyewear is a lens-and-frame system.",
+    "source": {
+      "title": "Professional Liability for Opticians, Part I – National Academy of Opticianry",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Professional-Liability-for-Opticians-Part-1.pdf"
+    }
+  },
+  {
+    "id": "abo-out-102",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Sports protection",
+    "difficulty": 1,
+    "stem": "For basketball and soccer, which standard should sports eye guards be certified to?",
+    "choices": [
+      "ASTM F803",
+      "ANSI Z87.1",
+      "21 CFR 801.410",
+      "ANSI Z80.3"
+    ],
+    "answer": 0,
+    "explanation": "Prevent Blindness recommends eye guards approved to ASTM F803 (or the current sport-specific ASTM standard), with polycarbonate lenses. Racket sports now use ASTM F3164.",
+    "source": {
+      "title": "Recommended Sports Eye Protectors – Prevent Blindness Texas",
+      "url": "https://texas.preventblindness.org/recommended-sports-eye-protectors/"
+    }
+  },
+  {
+    "id": "abo-out-103",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Sports protection",
+    "difficulty": 2,
+    "stem": "For racquetball and squash, which ASTM standard does Prevent Blindness currently recommend for eye guards?",
+    "choices": [
+      "ASTM F2713",
+      "ASTM F3164",
+      "ASTM F803 only",
+      "ASTM F3077"
+    ],
+    "answer": 1,
+    "explanation": "Racket sports have their own standard, F3164. F2713 covers field hockey and F3077 covers women's lacrosse.",
+    "source": {
+      "title": "Recommended Sports Eye Protectors – Prevent Blindness Texas",
+      "url": "https://texas.preventblindness.org/recommended-sports-eye-protectors/"
+    }
+  },
+  {
+    "id": "abo-out-104",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "UV and HEV",
+    "difficulty": 2,
+    "stem": "According to FDA guidance, which claim may a nonprescription sunglass make if it meets the UV requirements of ANSI Z80.3?",
+    "choices": [
+      "That it blocks 100% of all UV regardless of testing",
+      "That it prevents macular degeneration",
+      "That it replaces the need for a hat",
+      "That its lenses meet ANSI Z80.3 UV-blocking requirements, optionally stating the percentage of UVB and UVA blocked"
+    ],
+    "answer": 3,
+    "explanation": "FDA guidance allows labeling that references ANSI Z80.3 UV requirements and percentage blocked. FDA has taken exception to unsubstantiated performance claims.",
+    "source": {
+      "title": "Guidance Document for Nonprescription Sunglasses – FDA",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-document-nonprescription-sunglasses-guidance-industry"
+    }
+  },
+  {
+    "id": "abo-out-105",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "UV and HEV",
+    "difficulty": 1,
+    "stem": "Which wavelength band is generally meant by \"high-energy visible\" (HEV) light?",
+    "choices": [
+      "About 280–315 nm, UVB",
+      "About 315–380 nm, UVA",
+      "About 400–450 nm, violet-blue",
+      "About 600–700 nm, red"
+    ],
+    "answer": 2,
+    "explanation": "HEV refers to short-wave visible light in the violet-blue band, roughly 400 to 450 nm, just beyond the UV range.",
+    "source": {
+      "title": "High-energy visible light – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/High-energy_visible_light"
+    }
+  },
+  {
+    "id": "abo-out-106",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "UV and HEV",
+    "difficulty": 2,
+    "stem": "When discussing blue-light filters with a computer user, which statement reflects the American Academy of Ophthalmology's position?",
+    "choices": [
+      "Screens emit more blue light than the sun",
+      "There's no scientific evidence that blue light from screens damages the eye, and the AAO doesn't recommend blue-blocking eyewear for computer use",
+      "Blue-light filters cure digital eye strain",
+      "Blue-light filters are proven to prevent macular degeneration"
+    ],
+    "answer": 1,
+    "explanation": "AAO attributes screen discomfort mainly to digital eye strain from reduced blinking. Sunlight is the largest source of blue light. Accurate product claims are part of the duty to warn.",
+    "source": {
+      "title": "Should You Be Worried About Blue Light? – American Academy of Ophthalmology",
+      "url": "https://www.aao.org/eye-health/tips-prevention/should-you-be-worried-about-blue-light"
+    }
+  },
+  {
+    "id": "abo-out-107",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Coding",
+    "difficulty": 1,
+    "stem": "Which CPT code reports fitting of monofocal (single-vision) spectacles for a patient without aphakia?",
+    "choices": [
+      "92342",
+      "92341",
+      "92352",
+      "92340"
+    ],
+    "answer": 3,
+    "explanation": "92340 = monofocal fitting; 92341 = bifocal; 92342 = multifocal other than bifocal; 92352/92353 = aphakic spectacle prosthesis fitting.",
+    "source": {
+      "title": "Eyeglass Lenses – Medi-Cal Provider Manual",
+      "url": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov/file/manual?fn=eyeglasslens.pdf"
+    }
+  },
+  {
+    "id": "abo-out-108",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Coding",
+    "difficulty": 1,
+    "stem": "Which CPT code reports fitting of trifocal or progressive (multifocal, other than bifocal) spectacles for a patient without aphakia?",
+    "choices": [
+      "92342",
+      "92341",
+      "92353",
+      "92340"
+    ],
+    "answer": 0,
+    "explanation": "92342 is \"fitting of spectacles, except for aphakia; multifocal, other than bifocal.\" 92353 is the multifocal code for aphakia.",
+    "source": {
+      "title": "Eyeglass Lenses – Medi-Cal Provider Manual",
+      "url": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov/file/manual?fn=eyeglasslens.pdf"
+    }
+  },
+  {
+    "id": "abo-out-109",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Coding",
+    "difficulty": 2,
+    "stem": "Which CPT codes cover fitting of spectacle-mounted low vision aids?",
+    "choices": [
+      "92340 and 92341",
+      "92352 and 92353",
+      "92354 (single-element system) and 92355 (telescopic or other compound lens system)",
+      "92370 and 92371"
+    ],
+    "answer": 2,
+    "explanation": "92354 is for a single-element system and 92355 for a telescopic or compound lens system. 92370/92371 are repair and refitting.",
+    "source": {
+      "title": "Vision Care Procedure Codes – eMedNY (NY Medicaid)",
+      "url": "https://www.emedny.org/ProviderManuals/VisionCare/PDFS/VisionCare_Procedure_Codes.pdf"
+    }
+  },
+  {
+    "id": "abo-out-110",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Coding",
+    "difficulty": 2,
+    "stem": "A patient (not aphakic) brings in glasses for repair and refitting. Which CPT code describes this service?",
+    "choices": [
+      "92340",
+      "92370",
+      "92371",
+      "92358"
+    ],
+    "answer": 1,
+    "explanation": "92370 is repair and refitting of spectacles except for aphakia. 92371 is the same service for an aphakic spectacle prosthesis.",
+    "source": {
+      "title": "Vision Care Procedure Codes – eMedNY (NY Medicaid)",
+      "url": "https://www.emedny.org/ProviderManuals/VisionCare/PDFS/VisionCare_Procedure_Codes.pdf"
+    }
+  },
+  {
+    "id": "abo-out-111",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Coding",
+    "difficulty": 1,
+    "stem": "Which HCPCS code describes a progressive lens?",
+    "choices": [
+      "V2100, per lens",
+      "V2020, per frame",
+      "V2750, per lens",
+      "V2781, per lens"
+    ],
+    "answer": 3,
+    "explanation": "V2781 = progressive lens, per lens. V2020 = frames, purchases. V2100 = single-vision sphere, plano to ±4.00. V2750 = anti-reflective coating.",
+    "source": {
+      "title": "HCPCS 'V' Codes – HCPCSData.com",
+      "url": "https://www.hcpcsdata.com/Codes/V"
+    }
+  },
+  {
+    "id": "abo-out-112",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Coding",
+    "difficulty": 2,
+    "stem": "Which pair correctly matches HCPCS V-codes with lens add-ons?",
+    "choices": [
+      "V2784 = polycarbonate lens; V2744 = photochromatic tint",
+      "V2784 = progressive lens; V2744 = scratch coating",
+      "V2784 = frame, deluxe; V2744 = UV coating",
+      "V2784 = anti-reflective coating; V2744 = polarization"
+    ],
+    "answer": 0,
+    "explanation": "V2784 is lens, polycarbonate or equal, per lens. V2744 is tint, photochromatic, per lens. V2750 is AR, V2755 is UV, V2760 is scratch-resistant coating.",
+    "source": {
+      "title": "HCPCS 'V' Codes – HCPCSData.com",
+      "url": "https://www.hcpcsdata.com/Codes/V"
+    }
+  },
+  {
+    "id": "abo-out-113",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Insurance",
+    "difficulty": 2,
+    "stem": "After cataract surgery with an intraocular lens, what does Medicare Part B cover?",
+    "choices": [
+      "A new pair of eyeglasses every year",
+      "Nothing; Medicare never covers eyewear",
+      "Unlimited replacements for one year",
+      "One pair of eyeglasses with standard frames (or one set of contact lenses) after each cataract surgery"
+    ],
+    "answer": 3,
+    "explanation": "Medicare doesn't cover routine eyewear. It does pay for one pair of glasses with standard frames, or contacts, after each cataract surgery that implants an IOL, from a Medicare-enrolled supplier.",
+    "source": {
+      "title": "Eyeglasses & contact lenses – Medicare.gov",
+      "url": "https://www.medicare.gov/coverage/eyeglasses-contact-lenses"
+    }
+  },
+  {
+    "id": "abo-out-114",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Insurance",
+    "difficulty": 3,
+    "stem": "A Medicare post-cataract patient wants progressive lenses and AR coating that Medicare treats as noncovered upgrades. What should the dispensary do?",
+    "choices": [
+      "Have the patient sign a general waiver saying 'Medicare may not pay'",
+      "Bill the upgrades as standard lenses",
+      "Have the patient sign an Advance Beneficiary Notice (ABN) before dispensing and append modifier GA to the claim",
+      "Refuse to sell the upgrades"
+    ],
+    "answer": 2,
+    "explanation": "The ABN must be completed and reviewed with the patient beforehand. A general statement is not acceptable, and claims with an ABN on file carry modifier GA.",
+    "source": {
+      "title": "Learn to Code Optical Dispensing – American Academy of Ophthalmology",
+      "url": "https://www.aao.org/Assets/1774ecf4-fb87-4a64-899f-510481150cd7/637110863901930000/optical-dispensing-coding-module-1119-pdf?inline=1"
+    }
+  },
+  {
+    "id": "abo-out-115",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Insurance",
+    "difficulty": 1,
+    "stem": "What is a frame \"allowance\" in a vision plan?",
+    "choices": [
+      "The maximum frame size the plan covers",
+      "A set dollar amount the plan pays toward a frame; the patient pays any difference",
+      "A copay for the eye exam",
+      "A discount on contact lenses only"
+    ],
+    "answer": 1,
+    "explanation": "Plans typically pay up to an allowance for frames and lenses within a benefit period, often every one to two years. The patient pays the overage.",
+    "source": {
+      "title": "Vision insurance: A guide to plans, costs and benefits – All About Vision",
+      "url": "https://www.allaboutvision.com/vision-insurance/coverage-benefits/what-is-vision-insurance/"
+    }
+  },
+  {
+    "id": "abo-out-116",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Insurance",
+    "difficulty": 1,
+    "stem": "A patient on a vision plan is diagnosed with glaucoma. Which coverage generally pays for diagnosing and treating the disease?",
+    "choices": [
+      "The patient's medical (health) insurance",
+      "Neither; eye disease is never covered",
+      "The vision plan's lens benefit",
+      "The vision plan's frame allowance"
+    ],
+    "answer": 0,
+    "explanation": "Vision plans cover routine exams and eyewear. Medical insurance covers diagnosis and treatment of eye diseases, conditions, and injuries.",
+    "source": {
+      "title": "Vision insurance: A guide to plans, costs and benefits – All About Vision",
+      "url": "https://www.allaboutvision.com/vision-insurance/coverage-benefits/what-is-vision-insurance/"
+    }
+  },
+  {
+    "id": "abo-out-117",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "EMR",
+    "difficulty": 2,
+    "stem": "What is the difference between an electronic medical record (EMR) and an electronic health record (EHR)?",
+    "choices": [
+      "An EMR is a practice's digital chart for its own encounters, while an EHR is a broader, longitudinal record that can draw on multiple EMRs",
+      "An EMR is a paper chart that has been scanned",
+      "An EHR stores only billing data",
+      "They are legally distinct; only an EHR is covered by HIPAA"
+    ],
+    "answer": 0,
+    "explanation": "The terms are often used interchangeably, but an EMR is the provider's encounter record within a practice and can serve as a data source for an EHR. Both are subject to HIPAA security requirements.",
+    "source": {
+      "title": "Electronic health record – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Electronic_health_record"
+    }
+  },
+  {
+    "id": "abo-out-118",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Nystagmus",
+    "difficulty": 1,
+    "stem": "What is nystagmus?",
+    "choices": [
+      "A latent turning tendency revealed by covering one eye",
+      "Involuntary, repetitive eye movement",
+      "Absence of the crystalline lens",
+      "A blind spot surrounded by normal vision"
+    ],
+    "answer": 1,
+    "explanation": "Nystagmus is an involuntary (occasionally voluntary) to-and-fro eye movement. It may be congenital or acquired and often reduces vision.",
+    "source": {
+      "title": "Nystagmus – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nystagmus"
+    }
+  },
+  {
+    "id": "abo-out-119",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Nystagmus",
+    "difficulty": 2,
+    "stem": "In jerk nystagmus, how are the two phases of the movement described?",
+    "choices": [
+      "Two equal-speed swings, like a pendulum",
+      "Two slow phases with no fast phase",
+      "A slow drift in one direction followed by a fast corrective movement; the nystagmus is named for the fast phase",
+      "Only a fast phase, with no drift"
+    ],
+    "answer": 2,
+    "explanation": "Equal-speed oscillation is pendular nystagmus. Jerk nystagmus has a slow drift and a quick return, and its direction is named by the quick phase.",
+    "source": {
+      "title": "Nystagmus – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Nystagmus"
+    }
+  },
+  {
+    "id": "abo-out-120",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Nystagmus",
+    "difficulty": 2,
+    "stem": "A patient with nystagmus habitually turns the head to one side. What does this most likely indicate?",
+    "choices": [
+      "Aniseikonia from unequal lenses",
+      "A scotoma in the central field",
+      "A tropia that needs base-down prism",
+      "Their null point, where the nystagmus is least, lies away from primary gaze"
+    ],
+    "answer": 3,
+    "explanation": "When the gaze direction that dampens the nystagmus is off to one side, patients turn the head to put the eyes there. Keep this in mind when fitting and measuring.",
+    "source": {
+      "title": "Nystagmus – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Nystagmus"
+    }
+  },
+  {
+    "id": "abo-out-121",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Nystagmus",
+    "difficulty": 3,
+    "stem": "For nystagmus that dampens with convergence, what kind of prism may be prescribed?",
+    "choices": [
+      "Yoked base-down prism",
+      "Base-out prism, to stimulate convergence",
+      "Base-in prism, to relax convergence",
+      "Base-up prism over both eyes"
+    ],
+    "answer": 1,
+    "explanation": "Base-out prism makes the eyes converge. When convergence dampens the nystagmus, as in infantile idiopathic nystagmus, this can steady the eyes.",
+    "source": {
+      "title": "Nystagmus – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Nystagmus"
+    }
+  },
+  {
+    "id": "abo-out-122",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Visual field",
+    "difficulty": 1,
+    "stem": "What is a scotoma?",
+    "choices": [
+      "Double vision",
+      "Involuntary eye movement",
+      "A difference in image size between the eyes",
+      "An area of reduced or lost vision surrounded by relatively normal vision"
+    ],
+    "answer": 3,
+    "explanation": "Every eye has a physiological scotoma, the blind spot at the optic disc. Pathological scotomas can result from macular degeneration, optic nerve disease, or brain injury.",
+    "source": {
+      "title": "Scotoma – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scotoma"
+    }
+  },
+  {
+    "id": "abo-out-123",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Aphakia",
+    "difficulty": 1,
+    "stem": "What are the main optical consequences of aphakia, the absence of the crystalline lens?",
+    "choices": [
+      "Astigmatism only, with no change in sphere",
+      "Presbyopia that reverses itself",
+      "High hyperopia and total loss of accommodation",
+      "High myopia with normal accommodation"
+    ],
+    "answer": 2,
+    "explanation": "Removing the lens takes away a large share of the eye's plus power and all ability to accommodate. Before IOLs, this was corrected with thick high-plus cataract spectacles.",
+    "source": {
+      "title": "Aphakia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aphakia"
+    }
+  },
+  {
+    "id": "abo-out-124",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Pseudophakia",
+    "difficulty": 2,
+    "stem": "A pseudophakic patient has a standard monofocal IOL set for distance. What will they most likely still need?",
+    "choices": [
+      "Reading glasses or an add for near work, because the IOL can't accommodate",
+      "A high-plus cataract lens for distance",
+      "Base-in prism for distance",
+      "No correction at any distance"
+    ],
+    "answer": 0,
+    "explanation": "Most IOLs are fixed monofocal lenses matched to distance. Without accommodation, near work needs plus, unless a multifocal or EDOF IOL was used.",
+    "source": {
+      "title": "Intraocular lens – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intraocular_lens"
+    }
+  },
+  {
+    "id": "abo-out-125",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Binocular vision",
+    "difficulty": 1,
+    "stem": "What distinguishes a phoria from a tropia?",
+    "choices": [
+      "A phoria causes constant diplopia; a tropia never does",
+      "A phoria occurs only at near; a tropia only at distance",
+      "A phoria is a latent deviation held in check by fusion; a tropia is a manifest misalignment present with both eyes open",
+      "A phoria is always vertical; a tropia is always horizontal"
+    ],
+    "answer": 2,
+    "explanation": "A heterophoria appears only when fusion is broken, for example by covering one eye. Strabismus (a tropia) is a misalignment while the patient is trying to fixate with both eyes.",
+    "source": {
+      "title": "Heterophoria – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heterophoria"
+    }
+  },
+  {
+    "id": "abo-out-126",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Binocular vision",
+    "difficulty": 1,
+    "stem": "What is the term for a latent tendency of the eyes to turn outward when fusion is broken?",
+    "choices": [
+      "Exophoria",
+      "Exotropia",
+      "Esophoria",
+      "Hyperphoria"
+    ],
+    "answer": 0,
+    "explanation": "Exo- means outward and -phoria means latent. Esophoria is a latent inward tendency, hyperphoria is vertical, and exotropia is a manifest outward turn.",
+    "source": {
+      "title": "Heterophoria – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heterophoria"
+    }
+  },
+  {
+    "id": "abo-out-127",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Binocular vision",
+    "difficulty": 2,
+    "stem": "When prism is prescribed to help an esotropic (inward-turning) eye, which base direction is typically used?",
+    "choices": [
+      "Base up",
+      "Base out",
+      "Base in",
+      "Base down"
+    ],
+    "answer": 1,
+    "explanation": "Prism moves the image toward its apex. Base-out prism shifts the image inward, to where the esotropic eye is pointing. Exotropia takes base in.",
+    "source": {
+      "title": "Manual Lensometry – OSMA Ophthalmic Skills Workshop",
+      "url": "https://osma.org/aws/OSMA/asset_manager/get_file/918968?ver=1"
+    }
+  },
+  {
+    "id": "abo-out-128",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Diplopia",
+    "difficulty": 2,
+    "stem": "A patient's double vision persists with one eye covered. How is it classified?",
+    "choices": [
+      "Decompensated phoria",
+      "Binocular diplopia",
+      "Physiological diplopia",
+      "Monocular diplopia"
+    ],
+    "answer": 3,
+    "explanation": "Diplopia that persists with one eye closed is monocular and points to a problem within that eye. Binocular diplopia disappears when either eye is covered.",
+    "source": {
+      "title": "Diplopia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diplopia"
+    }
+  },
+  {
+    "id": "abo-out-129",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Vergence",
+    "difficulty": 1,
+    "stem": "What happens to the eyes when a person shifts fixation from a distant object to a near one?",
+    "choices": [
+      "They make a vertical vergence movement",
+      "They converge (rotate toward each other), together with accommodation",
+      "They stay parallel while only the pupils constrict",
+      "They diverge until the lines of sight are parallel"
+    ],
+    "answer": 1,
+    "explanation": "Near fixation drives convergence, and distance fixation drives divergence toward parallel lines of sight. Vergence is closely linked with accommodation.",
+    "source": {
+      "title": "Vergence – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vergence"
+    }
+  },
+  {
+    "id": "abo-out-130",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Anisometropia",
+    "difficulty": 1,
+    "stem": "At what refractive difference between the two eyes is anisometropia generally diagnosed?",
+    "choices": [
+      "About 0.25 diopter",
+      "About 5 diopters",
+      "About 10 diopters",
+      "About 1 diopter"
+    ],
+    "answer": 3,
+    "explanation": "A 1 D difference is the usual threshold. Many patients tolerate up to about 3 D before symptoms like headache, eyestrain, or diplopia appear.",
+    "source": {
+      "title": "Anisometropia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anisometropia"
+    }
+  },
+  {
+    "id": "abo-out-131",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Anisometropia",
+    "difficulty": 2,
+    "stem": "Why is uncorrected anisometropia in early childhood a concern?",
+    "choices": [
+      "It permanently paralyzes accommodation",
+      "It produces a scotoma at the optic disc",
+      "The brain may suppress the more blurred eye, leading to amblyopia",
+      "It always causes a cataract"
+    ],
+    "answer": 2,
+    "explanation": "When one image is consistently poorer during visual development, the cortex suppresses it. That can leave the eye amblyopic even after correction.",
+    "source": {
+      "title": "Anisometropia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anisometropia"
+    }
+  },
+  {
+    "id": "abo-out-132",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Aphakia",
+    "difficulty": 2,
+    "stem": "Before IOLs, why was cataract removal in only one eye a classic cause of aniseikonia when corrected with spectacles?",
+    "choices": [
+      "The operated eye became highly hyperopic, creating a large anisometropia whose spectacle correction produced very unequal image sizes",
+      "The operated eye became highly myopic and needed a minus lenticular",
+      "Removing the lens shrank the retina in the operated eye",
+      "The crystalline lens of the other eye magnified images"
+    ],
+    "answer": 0,
+    "explanation": "Without its crystalline lens the eye is strongly hyperopic. Correcting one aphakic eye with a high-plus spectacle lens next to a normal fellow eye creates marked anisometropia and image-size difference. IOLs largely solved this.",
+    "source": {
+      "title": "Aniseikonia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aniseikonia"
+    }
+  },
+  {
+    "id": "abo-out-133",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Antimetropia",
+    "difficulty": 1,
+    "stem": "What is antimetropia?",
+    "choices": [
+      "Both eyes are equally myopic",
+      "The two eyes see images of different sizes",
+      "One eye has astigmatism and the other is spherical",
+      "One eye is myopic and the other is hyperopic"
+    ],
+    "answer": 3,
+    "explanation": "Antimetropia is a rare subtype of anisometropia, about 0.1% of people, with opposite-sign refractive errors.",
+    "source": {
+      "title": "Anisometropia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anisometropia"
+    }
+  },
+  {
+    "id": "abo-out-134",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Aniseikonia",
+    "difficulty": 1,
+    "stem": "What is aniseikonia?",
+    "choices": [
+      "A difference in accommodation between the eyes",
+      "A significant difference in the perceived image size between the two eyes",
+      "A vertical misalignment of the eyes",
+      "A difference in pupil size between the eyes"
+    ],
+    "answer": 1,
+    "explanation": "Aniseikonia can be an overall or a meridional size difference. It is often induced by spectacle correction of anisometropia.",
+    "source": {
+      "title": "Aniseikonia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aniseikonia"
+    }
+  },
+  {
+    "id": "abo-out-135",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Aniseikonia",
+    "difficulty": 2,
+    "stem": "Using the clinical rule of thumb, about how much aniseikonia is expected when spectacles correct OD −1.00 and OS −4.50?",
+    "choices": [
+      "About 3.5%",
+      "About 1%",
+      "About 5.5%",
+      "About 10%"
+    ],
+    "answer": 0,
+    "explanation": "Spectacle-corrected anisometropia produces about 1% aniseikonia per diopter. The difference here is 3.50 D, so about 3.5%.",
+    "source": {
+      "title": "Aniseikonia – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Aniseikonia"
+    }
+  },
+  {
+    "id": "abo-out-136",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Aniseikonia",
+    "difficulty": 3,
+    "stem": "According to Knapp's rule, when anisometropia is corrected with spectacles, which type produces less aniseikonia?",
+    "choices": [
+      "Refractive anisometropia",
+      "Both produce the same aniseikonia",
+      "Axial anisometropia",
+      "Neither; spectacles do not change image size"
+    ],
+    "answer": 2,
+    "explanation": "Knapp's rule: with spectacle correction, axial anisometropia produces less aniseikonia than refractive anisometropia. The reverse is true with contact lenses. In practice, non-optical factors such as retinal stretching in long myopic eyes also contribute.",
+    "source": {
+      "title": "Aniseikonia – EyeWiki (American Academy of Ophthalmology)",
+      "url": "https://eyewiki.org/Aniseikonia"
+    }
+  },
+  {
+    "id": "abo-out-137",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Aniseikonia",
+    "difficulty": 2,
+    "stem": "Which spectacle lens parameters can be adjusted to change magnification and reduce aniseikonia?",
+    "choices": [
+      "Base curve, center thickness, and vertex distance",
+      "Add power and segment height only",
+      "Abbe value and lens index only",
+      "Tint, coating, and frame color"
+    ],
+    "answer": 0,
+    "explanation": "The shape factor (front curve and thickness) and the power factor (power and vertex) together set spectacle magnification. Iseikonic designs adjust them to equalize image size.",
+    "source": {
+      "title": "Aniseikonia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aniseikonia"
+    }
+  },
+  {
+    "id": "abo-out-138",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Anisometropia",
+    "difficulty": 2,
+    "stem": "Antimetropic bifocal wearer: OD −2.00 D, OS +2.00 D, both spheres. Reading 8 mm below the optical centers, how much vertical imbalance is induced?",
+    "choices": [
+      "0Δ",
+      "3.2Δ",
+      "1.6Δ",
+      "4.0Δ"
+    ],
+    "answer": 1,
+    "explanation": "OD: 2.00 × 0.8 = 1.6Δ base down (minus lens, below the OC). OS: 2.00 × 0.8 = 1.6Δ base up (plus lens, below the OC). Opposite base directions add, so the imbalance is 3.2Δ.",
+    "source": {
+      "title": "Plus Cylinder Lensometry – University of Iowa Ophthalmology",
+      "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+    }
+  },
+  {
+    "id": "abo-out-139",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Hand neutralization",
+    "difficulty": 1,
+    "stem": "In hand neutralization, a target seen through an unknown lens moves in the same direction as the lens (\"with\" motion). What does this indicate?",
+    "choices": [
+      "Prism with no power",
+      "A spherical lens with no cylinder",
+      "Plus power in that meridian; neutralize it with minus trial lenses",
+      "Minus power in that meridian; neutralize it with plus trial lenses"
+    ],
+    "answer": 3,
+    "explanation": "With motion means minus and against motion means plus. Stack trial lenses of the opposite sign until the motion stops. The unknown power is equal and opposite to the neutralizing lens.",
+    "source": {
+      "title": "Lens Neutralisation by Hand – Eyedocs",
+      "url": "https://www.eyedocs.co.uk/ophthalmology-articles/optics-refraction/642-lens-neutralisation.html"
+    }
+  },
+  {
+    "id": "abo-out-140",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Hand neutralization",
+    "difficulty": 2,
+    "stem": "During hand neutralization, rotating the unknown lens makes the image of a cross appear to \"scissor.\" What does this reveal?",
+    "choices": [
+      "The lens is spherical",
+      "The lens is a bifocal",
+      "The lens has cylinder; the principal meridians are where the image lines line up with the object cross",
+      "The lens has prism but no power"
+    ],
+    "answer": 2,
+    "explanation": "Scissoring means astigmatic power. Rotate until the image lines are perpendicular and continuous with the object lines, then mark those principal meridians and neutralize each separately.",
+    "source": {
+      "title": "Lens Neutralisation by Hand – Eyedocs",
+      "url": "https://www.eyedocs.co.uk/ophthalmology-articles/optics-refraction/642-lens-neutralisation.html"
+    }
+  },
+  {
+    "id": "abo-out-141",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Hand neutralization",
+    "difficulty": 3,
+    "stem": "Hand neutralizing an unknown lens: the vertical meridian is neutralized by a −1.50 D trial lens and the horizontal meridian by a −0.50 D trial lens. What is the lens power?",
+    "choices": [
+      "+1.50 −1.00 × 090",
+      "+1.50 −1.00 × 180",
+      "−1.50 +1.00 × 090",
+      "+0.50 −1.00 × 180"
+    ],
+    "answer": 0,
+    "explanation": "The lens is equal and opposite to the neutralizers: +1.50 at 90 and +0.50 at 180. In minus-cylinder form, sphere = the more plus meridian (+1.50), cylinder = −1.00, and the axis is that meridian (090).",
+    "source": {
+      "title": "Lens Neutralisation by Hand – Eyedocs",
+      "url": "https://www.eyedocs.co.uk/ophthalmology-articles/optics-refraction/642-lens-neutralisation.html"
+    }
+  },
+  {
+    "id": "abo-out-142",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Hand neutralization",
+    "difficulty": 2,
+    "stem": "During hand neutralization, the image of the cross can't be brought into line with the object cross no matter how the lens is moved. What does this indicate?",
+    "choices": [
+      "The trial lens is too strong",
+      "The lens is a pure cylinder",
+      "The lens contains ground-in prism",
+      "The lens is plano"
+    ],
+    "answer": 2,
+    "explanation": "If no position aligns the image with the object, there is no point free of prism. The lens has prism ground in.",
+    "source": {
+      "title": "Lens Neutralisation by Hand – Eyedocs",
+      "url": "https://www.eyedocs.co.uk/ophthalmology-articles/optics-refraction/642-lens-neutralisation.html"
+    }
+  },
+  {
+    "id": "abo-out-143",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation",
+    "difficulty": 2,
+    "stem": "A presbyope fully corrected for distance has 1.00 D of amplitude remaining and wears a +2.00 add. What is the range of clear vision through the add?",
+    "choices": [
+      "About 20 cm to 33 cm",
+      "About 33 cm to 50 cm",
+      "About 25 cm to 100 cm",
+      "About 50 cm to infinity"
+    ],
+    "answer": 1,
+    "explanation": "Relaxed, the add focuses at 1/2.00 = 50 cm. With full accommodation the total is 3.00 D, which focuses at 1/3.00 ≈ 33 cm.",
+    "source": {
+      "title": "The Near Point – AAO Basic Optics, Chapter 9",
+      "url": "https://www.aao.org/Assets/60ff3cd2-9a28-40ec-86a8-9db045096158/637151349609500000/bo9-pdf?inline=1"
+    }
+  },
+  {
+    "id": "abo-out-144",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation",
+    "difficulty": 2,
+    "stem": "Using the guideline that half of the amplitude is kept in reserve, what tentative add does a patient with 1.50 D of amplitude need for a 33 cm working distance?",
+    "choices": [
+      "+0.75",
+      "+3.00",
+      "+1.50",
+      "+2.25"
+    ],
+    "answer": 3,
+    "explanation": "Demand at 33 cm = 3.00 D. Usable accommodation = ½ × 1.50 = 0.75 D. Tentative add = 3.00 − 0.75 = +2.25.",
+    "source": {
+      "title": "Understanding Presbyopia – Journal of Current Research and Studies",
+      "url": "https://journalcurrentresearch.com/pub/jcr/article/view/41/34"
+    }
+  },
+  {
+    "id": "abo-out-145",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation",
+    "difficulty": 2,
+    "stem": "By Hofstetter's average formula, what is the expected amplitude of accommodation at age 50?",
+    "choices": [
+      "3.5 D",
+      "5.0 D",
+      "6.5 D",
+      "1.5 D"
+    ],
+    "answer": 0,
+    "explanation": "Average amplitude = 18.5 − (0.30 × age) = 18.5 − 15 = 3.5 D. Keeping half in reserve leaves about 1.75 D for sustained near work.",
+    "source": {
+      "title": "Accommodation (vertebrate eye) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Accommodation_(vertebrate_eye)"
+    }
+  },
+  {
+    "id": "abo-out-146",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation",
+    "difficulty": 3,
+    "stem": "An uncorrected −3.00 D myope has 4.00 D of accommodation. What is the range of clear vision without glasses?",
+    "choices": [
+      "About 10 cm to 25 cm",
+      "About 33 cm to 100 cm",
+      "About 14 cm to 33 cm",
+      "About 25 cm to infinity"
+    ],
+    "answer": 2,
+    "explanation": "Far point = 1/3.00 ≈ 33 cm. Full accommodation adds 4.00 D for a total of 7.00 D, so the near point is 1/7 ≈ 14 cm.",
+    "source": {
+      "title": "The Near Point – AAO Basic Optics, Chapter 9",
+      "url": "https://www.aao.org/Assets/60ff3cd2-9a28-40ec-86a8-9db045096158/637151349609500000/bo9-pdf?inline=1"
+    }
+  },
+  {
+    "id": "abo-out-147",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation",
+    "difficulty": 3,
+    "stem": "An uncorrected +2.00 D hyperope has 5.00 D of accommodation. Where is the near point without glasses?",
+    "choices": [
+      "About 20 cm",
+      "About 33 cm",
+      "About 14 cm",
+      "About 50 cm"
+    ],
+    "answer": 1,
+    "explanation": "Two diopters of accommodation go to offsetting the hyperopia, which leaves 3.00 D for near: 1/3.00 ≈ 33 cm.",
+    "source": {
+      "title": "The Near Point – AAO Basic Optics, Chapter 9",
+      "url": "https://www.aao.org/Assets/60ff3cd2-9a28-40ec-86a8-9db045096158/637151349609500000/bo9-pdf?inline=1"
+    }
+  }
+]

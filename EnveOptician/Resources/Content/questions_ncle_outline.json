@@ -1,0 +1,3182 @@
+[
+  {
+    "id": "ncle-out-001",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Wearing schedules",
+    "difficulty": 1,
+    "stem": "Compared with soft lenses, how long does adaptation to rigid gas permeable (RGP) lenses typically take?",
+    "choices": [
+      "About the same few days as soft lenses",
+      "A few weeks, compared with several days for soft lenses",
+      "Less time, because RGP lenses are more durable",
+      "Several months, compared with a few weeks for soft lenses"
+    ],
+    "answer": 1,
+    "explanation": "The FDA notes that RGP lenses are not as comfortable initially as soft lenses and that it may take a few weeks to get used to them, compared with several days for soft lenses. This is why new rigid wearers are given a gradual wearing schedule.",
+    "source": {
+      "title": "FDA: Types of Contact Lenses",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses"
+    }
+  },
+  {
+    "id": "ncle-out-002",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Wearing schedules",
+    "difficulty": 2,
+    "stem": "A new RGP wearer could not wear the lenses at all yesterday. What should they do today?",
+    "choices": [
+      "Wear the lenses for the full scheduled time plus yesterday's missed hours",
+      "Continue exactly where the schedule left off",
+      "Sleep in the lenses one night to catch up on adaptation",
+      "Reduce the wearing time below their scheduled amount and build back up"
+    ],
+    "answer": 3,
+    "explanation": "Rigid lens adaptation depends on regular, gradual build-up. Patient instructions from an NHS contact lens service tell RGP wearers who miss a day to reduce wearing time the following day, and never to wear lenses longer than recommended.",
+    "source": {
+      "title": "East Kent Hospitals NHS: Rigid gas permeable contact lens patient leaflet (2021)",
+      "url": "https://leaflets.ekhuft.nhs.uk/s3/assets/easysite-leaflets/rigid-contact-lens-july-2021.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-003",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Wearing schedules",
+    "difficulty": 2,
+    "stem": "During the first week of RGP wear, which symptom calls for removing the lenses and contacting the practice rather than simply continuing the schedule?",
+    "choices": [
+      "Mild lens awareness",
+      "Slightly increased tearing",
+      "A red, painful eye",
+      "Blinking more often than usual"
+    ],
+    "answer": 2,
+    "explanation": "Slight discomfort, extra tearing, increased blinking, and mild light sensitivity are expected during RGP adaptation and usually settle with time. A painful or red eye is not part of normal adaptation, and the patient should remove the lenses and call.",
+    "source": {
+      "title": "East Kent Hospitals NHS: Rigid gas permeable contact lens patient leaflet (2021)",
+      "url": "https://leaflets.ekhuft.nhs.uk/s3/assets/easysite-leaflets/rigid-contact-lens-july-2021.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-004",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Wearing schedules",
+    "difficulty": 1,
+    "stem": "What distinguishes a daily-wear lens from an extended-wear lens?",
+    "choices": [
+      "Daily wear is discarded nightly; extended wear is cleaned every night",
+      "Daily wear comes out before sleep; extended wear is made for overnight use",
+      "Daily wear lenses are always rigid; extended wear lenses are always soft",
+      "Daily wear may be napped in; extended wear must never be slept in"
+    ],
+    "answer": 1,
+    "explanation": "Wear schedule describes how long a lens is worn before removal. Daily-wear lenses come out before sleep. Extended-wear lenses are designed for continuous overnight wear, typically up to six nights, and silicone hydrogel continuous-wear lenses up to 30 nights.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-005",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Wearing schedules",
+    "difficulty": 2,
+    "stem": "After each scheduled removal of extended-wear lenses, what does the FDA advise?",
+    "choices": [
+      "Leave the eyes without lenses for at least one night",
+      "Reinsert a fresh pair immediately to avoid corneal rebound",
+      "Switch to spectacles for at least one week",
+      "Store the lenses dry for 24 hours before reuse"
+    ],
+    "answer": 0,
+    "explanation": "The FDA states that it is important for the eyes to have a rest without lenses for at least one night following each scheduled removal of extended-wear lenses.",
+    "source": {
+      "title": "FDA: Types of Contact Lenses",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses"
+    }
+  },
+  {
+    "id": "ncle-out-006",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Wearing schedules",
+    "difficulty": 2,
+    "stem": "A patient wearing lenses approved only for daily wear admits to sleeping in them several nights a week. Which risk is most directly increased?",
+    "choices": [
+      "Faster onset of presbyopia in both eyes",
+      "A permanent increase in the patient's myopia",
+      "Corneal infection, ulcer, and neovascularization",
+      "Discoloration of the lens from tear proteins"
+    ],
+    "answer": 2,
+    "explanation": "Sleeping in lenses designed for daily wear increases the risk of corneal infection, corneal ulcers, and corneal neovascularization because the closed eye receives far less oxygen. CDC also lists avoiding sleep in lenses, unless directed by the eye care provider, as a core prevention step.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-007",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Replacement intervals",
+    "difficulty": 1,
+    "stem": "As the FDA defines it, what does 'disposable' mean for a contact lens?",
+    "choices": [
+      "Replaced every two weeks",
+      "Any lens replaced at least every three months",
+      "Used once and then discarded",
+      "Any soft lens sold in blister packs"
+    ],
+    "answer": 2,
+    "explanation": "The FDA defines disposable as used once and discarded. Lenses that sellers call disposable but that are replaced every two or four weeks are frequent or planned replacement lenses, and they must be cleaned and disinfected each time they are removed.",
+    "source": {
+      "title": "FDA: Types of Contact Lenses",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses"
+    }
+  },
+  {
+    "id": "ncle-out-008",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Replacement intervals",
+    "difficulty": 2,
+    "stem": "Which patient is the strongest candidate for single-use daily disposable lenses?",
+    "choices": [
+      "A patient who wants the longest-lasting lens possible",
+      "A patient with ocular allergies who wears lenses only a few days a month",
+      "A patient who needs a lens approved for 30 nights of continuous wear",
+      "A patient who wants to save money by reusing lenses"
+    ],
+    "answer": 1,
+    "explanation": "Daily disposables collect fewer deposits and allergens and need no cleaning, which suits patients with ocular allergies, part-time wearers, and children. They are discarded after one use.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-009",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Replacement intervals",
+    "difficulty": 1,
+    "stem": "Which lens type typically has the longest replacement interval?",
+    "choices": [
+      "Two-week soft lenses",
+      "Monthly silicone hydrogel lenses",
+      "Daily disposable hydrogel lenses",
+      "Rigid gas permeable lenses"
+    ],
+    "answer": 3,
+    "explanation": "RGP lenses are very durable and may last several years before replacement. Soft lenses are commonly replaced daily, every two weeks, or monthly.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-010",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Replacement intervals",
+    "difficulty": 2,
+    "stem": "A patient wears two-week lenses that the online seller called 'disposable.' What does this mean for lens care?",
+    "choices": [
+      "They are single-use and need no care system at all",
+      "They need cleaning only on the day they are discarded",
+      "They can be stored in saline alone between wearings",
+      "They must be cleaned and disinfected at every removal"
+    ],
+    "answer": 3,
+    "explanation": "The FDA notes that some lenses called disposable by sellers are actually frequent or planned replacement lenses. Any lens removed and reinserted must be cleaned and disinfected before it is worn again.",
+    "source": {
+      "title": "FDA: Types of Contact Lenses",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses"
+    }
+  },
+  {
+    "id": "ncle-out-011",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Compliance",
+    "difficulty": 2,
+    "stem": "In CDC's 2014 national survey of contact lens wearers, about what share reported at least one hygiene behavior linked to eye infection or inflammation?",
+    "choices": [
+      "About 99%",
+      "About 25%",
+      "About 50%",
+      "About 75%"
+    ],
+    "answer": 0,
+    "explanation": "CDC found that approximately 99% of wearers reported at least one risky hygiene behavior, such as sleeping or napping in lenses, topping off solution, or exposing lenses to water. Nearly one third had needed a doctor's visit for a red or painful eye.",
+    "source": {
+      "title": "CDC MMWR: Contact Lens Wearer Demographics and Risk Behaviors, 2014",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6432a2.htm"
+    }
+  },
+  {
+    "id": "ncle-out-012",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Compliance",
+    "difficulty": 2,
+    "stem": "In the same CDC survey, about how many U.S. adults were estimated to wear contact lenses?",
+    "choices": [
+      "About one in twenty adults (roughly 12 million)",
+      "About one in six adults (roughly 41 million)",
+      "About one in three adults (roughly 80 million)",
+      "About one in two adults (roughly 120 million)"
+    ],
+    "answer": 1,
+    "explanation": "CDC estimated 40.9 million U.S. adults wear contact lenses, about 16.7% of adults or roughly one in six. Most (93%) wore soft lenses.",
+    "source": {
+      "title": "CDC MMWR: Contact Lens Wearer Demographics and Risk Behaviors, 2014",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6432a2.htm"
+    }
+  },
+  {
+    "id": "ncle-out-013",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Compliance",
+    "difficulty": 1,
+    "stem": "Lenses have been stored in their case for 30 days without use. According to the American Academy of Ophthalmology, what must happen before they are worn?",
+    "choices": [
+      "They can be worn as long as the case stayed closed",
+      "They must be re-disinfected",
+      "They only need a rinse with saline",
+      "They should be rinsed in tap water and reinserted"
+    ],
+    "answer": 1,
+    "explanation": "AAO advises never wearing lenses that have been stored 30 days or longer without re-disinfecting them, and checking the solution instructions about re-disinfecting after shorter storage periods.",
+    "source": {
+      "title": "American Academy of Ophthalmology: How to Take Care of Contact Lenses",
+      "url": "https://www.aao.org/eye-health/glasses-contacts/contact-lens-care"
+    }
+  },
+  {
+    "id": "ncle-out-014",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Compliance",
+    "difficulty": 2,
+    "stem": "Which practice approach best reduces unintentional noncompliance with lens care?",
+    "choices": [
+      "Written instructions naming the recommended products",
+      "Letting patients choose any solution that is on sale",
+      "A single verbal explanation at the dispensing visit",
+      "Skipping care instructions for experienced wearers"
+    ],
+    "answer": 0,
+    "explanation": "Noncompliance is often unintentional and avoidable with clear instructions, especially when patients understand why the prescribed products matter. Keeping samples and handouts with photos or written steps on hand helps patients buy and use the right products.",
+    "source": {
+      "title": "Contact Lens Spectrum: GP Insights (stocking and maintaining fitting supplies), Jun 2022",
+      "url": "https://clspectrum.com/issues/2022/june/gp-insights"
+    }
+  },
+  {
+    "id": "ncle-out-015",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Solution compatibility",
+    "difficulty": 1,
+    "stem": "A patient wants to use leftover RGP care products on new soft lenses. What should they be told?",
+    "choices": [
+      "Never use hard-lens products on soft lenses",
+      "RGP solutions are stronger, so they work better on soft lenses",
+      "RGP solutions are fine if the soft lens is rinsed first",
+      "Only the RGP daily cleaner is safe on soft lenses"
+    ],
+    "answer": 0,
+    "explanation": "RGP care systems differ from soft lens systems and often use separate wetting, cleaning, and disinfecting solutions. CDC warns never to use hard-lens products on soft lenses.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-016",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Solution compatibility",
+    "difficulty": 2,
+    "stem": "A Boston-type RGP conditioning solution is labeled for which uses?",
+    "choices": [
+      "Cleaning, disinfecting, and storing soft lenses",
+      "Wetting, disinfecting, and soaking RGP lenses",
+      "Removing protein from soft lenses each week",
+      "Neutralizing hydrogen peroxide before insertion"
+    ],
+    "answer": 1,
+    "explanation": "The Boston ADVANCE conditioning solution insert lists its indications as wetting, disinfecting, and soaking fluoro silicone acrylate and silicone acrylate RGP lenses after cleaning and rinsing. It is labeled not for use with soft (hydrophilic) lenses.",
+    "source": {
+      "title": "Bausch + Lomb: Boston ADVANCE Comfort Formula Conditioning Solution package insert",
+      "url": "https://www.bausch.ca/wp-content/uploads/2019/12/boston-advanced-package-insert.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-017",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Solution compatibility",
+    "difficulty": 2,
+    "stem": "How should an RGP daily cleaner be used?",
+    "choices": [
+      "Soak the lenses in it overnight in the case",
+      "Rub, then rinse off; never soak lenses in it",
+      "Use it as a wetting drop just before insertion",
+      "Mix it with conditioning solution in the case"
+    ],
+    "answer": 1,
+    "explanation": "Daily cleaners loosen deposits by rubbing and are then rinsed away. The Boston insert states never to soak lenses in any Boston cleaner; the conditioning solution is used for soaking.",
+    "source": {
+      "title": "Bausch + Lomb: Boston ADVANCE Comfort Formula Conditioning Solution package insert",
+      "url": "https://www.bausch.ca/wp-content/uploads/2019/12/boston-advanced-package-insert.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-018",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Solution compatibility",
+    "difficulty": 1,
+    "stem": "According to the Boston conditioning solution insert, when should an opened bottle be discarded?",
+    "choices": [
+      "30 days after opening",
+      "One year after opening",
+      "Only when it reaches the printed expiration date",
+      "90 days after opening"
+    ],
+    "answer": 3,
+    "explanation": "The insert directs users to discard the solution 90 days after opening and to record the opening date on the bottle label.",
+    "source": {
+      "title": "Bausch + Lomb: Boston ADVANCE Comfort Formula Conditioning Solution package insert",
+      "url": "https://www.bausch.ca/wp-content/uploads/2019/12/boston-advanced-package-insert.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-019",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Solution compatibility",
+    "difficulty": 3,
+    "stem": "An RGP wearer using only a GP multipurpose solution has coated, non-wetting lenses. Why might a separate daily cleaner help?",
+    "choices": [
+      "MPS products contain no disinfectant for rigid lenses",
+      "MPS surfactants are mild because the solution goes in the eye",
+      "Daily cleaners neutralize the preservative in the MPS",
+      "MPS products are formulated only for soft lens materials"
+    ],
+    "answer": 1,
+    "explanation": "Because a multipurpose solution goes directly into the eye, its surfactants are necessarily mild. A patient with heavy deposits can keep the MPS for disinfection and wetting but add a stronger daily cleaner after removal and a weekly enzymatic cleaner.",
+    "source": {
+      "title": "Contact Lens Spectrum: Contact Lens Care (GP lens deposits and MPS), Mar 2005",
+      "url": "https://clspectrum.com/issues/2005/march/contact-lens-care/"
+    }
+  },
+  {
+    "id": "ncle-out-020",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Solution compatibility",
+    "difficulty": 3,
+    "stem": "A brand-new RGP lens shows a shiny patch where tears and fluorescein break up on the front surface. What is the most likely cause?",
+    "choices": [
+      "Protein deposits from the patient's tears",
+      "Lens warpage from improper storage",
+      "Preservative binding from the conditioning solution",
+      "Residual pitch left on the lens surface from manufacturing"
+    ],
+    "answer": 3,
+    "explanation": "Initial nonwetting of new GP lenses most often comes from residual pitch, a waxy substance used to hold the lens button during lathing and polishing. It can be removed by light polishing or a brief rub with a practitioner-only laboratory cleaner, followed by thorough rinsing.",
+    "source": {
+      "title": "Contact Lens Spectrum: Contact Lens Care (initial GP nonwetting), Dec 2003",
+      "url": "https://clspectrum.com/issues/2003/december/contact-lens-care/"
+    }
+  },
+  {
+    "id": "ncle-out-021",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 1,
+    "stem": "What is the difference between cleaning and disinfecting a contact lens?",
+    "choices": [
+      "Cleaning kills germs; disinfection removes deposits",
+      "They are the same step sold under different names",
+      "Cleaning is for soft lenses; disinfecting is for rigid",
+      "Cleaning removes deposits; disinfection kills germs"
+    ],
+    "answer": 3,
+    "explanation": "CDC explains that cleaning removes deposits, debris, and some germs from the lens surface, while disinfection kills the harmful germs that can cause severe eye infections.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-022",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 1,
+    "stem": "Which soft lens care product is the most commonly used, because it cleans, rinses, disinfects, and stores lenses?",
+    "choices": [
+      "Multipurpose solution",
+      "Sterile saline",
+      "Enzymatic cleaner tablets",
+      "Rewetting drops"
+    ],
+    "answer": 0,
+    "explanation": "Multipurpose solution is an all-in-one system and the most commonly used care system among soft lens wearers. Saline and rewetting drops do not disinfect, and enzymatic cleaners only remove protein.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-023",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "A patient uses a 'no-rub' multipurpose solution. What does the American Academy of Ophthalmology recommend?",
+    "choices": [
+      "Skip rubbing because the label says no-rub",
+      "Rub only once a week",
+      "Rub and rinse the lenses anyway",
+      "Rinse with tap water instead of rubbing"
+    ],
+    "answer": 2,
+    "explanation": "AAO recommends a rub-and-rinse method no matter which solution is used, including no-rub products. In 2010 the FDA recommended removing 'no rub' claims from labeling because rubbing helps prevent microbial adhesion and biofilm formation.",
+    "source": {
+      "title": "American Academy of Ophthalmology: How to Take Care of Contact Lenses",
+      "url": "https://www.aao.org/eye-health/glasses-contacts/contact-lens-care"
+    }
+  },
+  {
+    "id": "ncle-out-024",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "Why did the FDA recommend in 2010 that manufacturers remove 'no rub' from multipurpose solution labeling?",
+    "choices": [
+      "Rubbing reduces microbial adhesion and biofilm",
+      "Rubbing was found to tear most modern lenses",
+      "No-rub products were found to lack disinfectant",
+      "Rubbing is needed only for rigid lens materials"
+    ],
+    "answer": 0,
+    "explanation": "The FDA's reasoning was that rub-and-rinse regimens help prevent microbial adhesion to the lens, help prevent biofilms, and generally reduce the microbial load on the lens and case.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-025",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 1,
+    "stem": "What does sterile saline do in a lens care routine?",
+    "choices": [
+      "Disinfects lenses overnight",
+      "Removes protein deposits",
+      "Neutralizes hydrogen peroxide",
+      "Rinses lenses; it does not disinfect"
+    ],
+    "answer": 3,
+    "explanation": "Saline is only for rinsing after cleaning and disinfecting with another system. CDC and AAO both state that saline and rewetting drops are not disinfectants.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-026",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "How does a one-step hydrogen peroxide system differ from a two-step system?",
+    "choices": [
+      "One-step needs no neutralization; two-step does",
+      "One-step uses 6% peroxide; two-step uses 3% peroxide",
+      "One-step neutralizes in the case; two-step adds a tablet",
+      "One-step is for rigid lenses; two-step is for soft lenses"
+    ],
+    "answer": 2,
+    "explanation": "The FDA explains that most peroxide products are one-step, with a lens case containing a built-in neutralizer that works during disinfection. If the case has no neutralizer, a neutralizing tablet is added after disinfecting, making it a two-step process.",
+    "source": {
+      "title": "FDA: Contact Lenses: Safe Use of Hydrogen Peroxide Solution",
+      "url": "https://www.fda.gov/consumers/consumer-updates/contact-lenses-safe-use-hydrogen-peroxide-solution"
+    }
+  },
+  {
+    "id": "ncle-out-027",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 1,
+    "stem": "How can a patient recognize a hydrogen peroxide solution bottle?",
+    "choices": [
+      "Most have a blue tip and cap",
+      "Most have a red tip and cap",
+      "They are always sold in glass bottles",
+      "They are labeled 'saline'"
+    ],
+    "answer": 1,
+    "explanation": "The FDA points out the red tip and cap on most hydrogen peroxide bottles as a way to recognize that the product needs special care and must never go directly into the eye.",
+    "source": {
+      "title": "FDA: Contact Lenses: Safe Use of Hydrogen Peroxide Solution",
+      "url": "https://www.fda.gov/consumers/consumer-updates/contact-lenses-safe-use-hydrogen-peroxide-solution"
+    }
+  },
+  {
+    "id": "ncle-out-028",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "Why must a one-step peroxide user use only the special case supplied with the solution?",
+    "choices": [
+      "Other cases let the oxygen leak out",
+      "Other cases are too small for lenses",
+      "It adds preservative to the solution",
+      "Only it contains the neutralizer"
+    ],
+    "answer": 3,
+    "explanation": "CDC notes that peroxide systems come with a special case that converts hydrogen peroxide to saline over time; other cases will not, and lenses from them cause discomfort on insertion. The FDA adds that a new case comes with each bottle and an old case should not be reused.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-029",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "A patient using a one-step peroxide system wants to rinse the lenses just before insertion. What should they use?",
+    "choices": [
+      "Fresh hydrogen peroxide from the bottle",
+      "Tap water",
+      "The neutralized solution left over from yesterday",
+      "Sterile saline, not the peroxide solution"
+    ],
+    "answer": 3,
+    "explanation": "CDC advises avoiding rinsing lenses with hydrogen peroxide directly before insertion, and the FDA says not to rinse lenses with peroxide that has not been neutralized. Some peroxide systems suggest a saline rinse before insertion.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-030",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "Hydrogen peroxide systems are often recommended for which patients?",
+    "choices": [
+      "Patients sensitive to multipurpose solution preservatives",
+      "Patients who want to skip the disinfection step entirely",
+      "Patients who reinsert lenses right after removing them",
+      "Patients who prefer to rinse their lenses in tap water"
+    ],
+    "answer": 0,
+    "explanation": "Hydrogen peroxide solutions are generally preservative-free, which makes them an option for people allergic or sensitive to the preservatives in multipurpose solutions.",
+    "source": {
+      "title": "FDA: Contact Lenses: Safe Use of Hydrogen Peroxide Solution",
+      "url": "https://www.fda.gov/consumers/consumer-updates/contact-lenses-safe-use-hydrogen-peroxide-solution"
+    }
+  },
+  {
+    "id": "ncle-out-031",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 3,
+    "stem": "Why are one-step catalytic-disc peroxide systems considered less effective against Acanthamoeba than two-step systems?",
+    "choices": [
+      "Neutralization starts before cysts get 2–3 hours of exposure",
+      "The platinum disc releases a chemical that shields the cysts",
+      "One-step systems use a much weaker 1% peroxide solution",
+      "Two-step systems add an antibiotic that kills the cysts"
+    ],
+    "answer": 0,
+    "explanation": "An exposure of 2–3 hours to non-neutralized 3% peroxide kills bacteria, fungi, and Acanthamoeba. A catalytic disc starts neutralizing at once, so the exposure is too short for Acanthamoeba; a two-step system or delayed tablet allows the full exposure.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-032",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "With a two-step hydrogen peroxide system, what must happen before the lens is worn?",
+    "choices": [
+      "Nothing; the lens can go straight from the case into the eye",
+      "The lens must be rinsed in tap water",
+      "The peroxide must be neutralized and rinsed away with saline",
+      "The lens must be stored dry for one hour"
+    ],
+    "answer": 2,
+    "explanation": "With two-step products the peroxide must be neutralized and then rinsed off with saline before wear. One-step systems turn the peroxide into water and do not need a rinse, as long as enough time has passed.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-033",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "How long does CDC say a peroxide user should wait before wearing the lenses?",
+    "choices": [
+      "15 minutes, until bubbling slows",
+      "1 hour, then rinse with saline",
+      "4 to 6 hours, as directed",
+      "24 hours, then rinse with peroxide"
+    ],
+    "answer": 2,
+    "explanation": "CDC advises waiting 4 to 6 hours, as directed on the label, so neutralization is complete before lenses go back in the eye.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-034",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "Heat disinfection is not recommended for which lens materials?",
+    "choices": [
+      "Silicone hydrogels and FDA Groups II and IV",
+      "FDA Group I low-water nonionic hydrogels only",
+      "Rigid gas permeable lens materials only",
+      "Daily disposable hydrogel lenses only"
+    ],
+    "answer": 0,
+    "explanation": "Heat disinfection units work at about 80 °C (160–176 °F), but heat is not recommended for silicone hydrogel lenses or FDA Group II and IV (high-water) hydrogels. It can also fade opaque tinted lenses.",
+    "source": {
+      "title": "Contact Lens Spectrum: Contact Lens Care (heat disinfection), Feb 2004",
+      "url": "https://clspectrum.com/issues/2004/february/contact-lens-care/"
+    }
+  },
+  {
+    "id": "ncle-out-035",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 3,
+    "stem": "Why must a lens be rubbed with a cleaner before it goes into a heat disinfection unit?",
+    "choices": [
+      "Heat cannot kill Acanthamoeba",
+      "The cleaner activates the heating element",
+      "Heat bakes on any deposits left on the lens",
+      "Rubbing makes the lens swell to its full size"
+    ],
+    "answer": 2,
+    "explanation": "Heat is highly effective against almost all microorganisms, including Acanthamoeba, but deposits not cleaned off first are baked onto the lens. That shortens lens life and can lead to complications such as giant papillary conjunctivitis.",
+    "source": {
+      "title": "Contact Lens Spectrum: Contact Lens Care (heat disinfection), Feb 2004",
+      "url": "https://clspectrum.com/issues/2004/february/contact-lens-care/"
+    }
+  },
+  {
+    "id": "ncle-out-036",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "Which solution is recommended for use in a heat disinfection unit?",
+    "choices": [
+      "Multipurpose solution",
+      "Non-preserved saline",
+      "Homemade saline",
+      "Tap water"
+    ],
+    "answer": 1,
+    "explanation": "Non-preserved saline is recommended for heat units. Homemade saline, tap water, and multipurpose solutions are contraindicated.",
+    "source": {
+      "title": "Contact Lens Spectrum: Contact Lens Care (heat disinfection), Feb 2004",
+      "url": "https://clspectrum.com/issues/2004/february/contact-lens-care/"
+    }
+  },
+  {
+    "id": "ncle-out-037",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "Can a battery-powered UV, vibration, or ultrasonic lens cleaning device replace the rub-and-rinse step?",
+    "choices": [
+      "Yes; UV light removes all protein and lipid deposits",
+      "Yes, as long as the device runs for at least 10 minutes",
+      "Only for rigid lenses, never for soft lens materials",
+      "No; they cannot supply the rubbing that cleaning needs"
+    ],
+    "answer": 3,
+    "explanation": "Such devices run for a few minutes to disinfect and clean, but vibration and ultrasound cannot create the relative motion between lens and solution that rubbing provides, so they cannot replace rub and rinse.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-038",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 3,
+    "stem": "What did a laboratory study of a UV-only lens disinfection device show, according to an AAO review?",
+    "choices": [
+      "Strong cyst kill, but more safety data were needed",
+      "No measurable effect on Acanthamoeba cysts at all",
+      "Damage to every lens material after a single cycle",
+      "Proof that UV is safer than every chemical system"
+    ],
+    "answer": 0,
+    "explanation": "The in vitro study found a UV dose of 130 mJ/cm² produced about a 3.5 log reduction of Acanthamoeba cysts without gross changes in six lens materials after 30 cycles. The reviewers concluded further safety data were needed.",
+    "source": {
+      "title": "AAO Editors' Choice: UV irradiation shows promise for contact lens disinfection",
+      "url": "https://www.aao.org/editors-choice/uv-irradiation-shows-promise-contact-lens-disinfec"
+    }
+  },
+  {
+    "id": "ncle-out-039",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "In an RGP care routine using Boston products, how often is the liquid enzymatic cleaner typically used?",
+    "choices": [
+      "After every wear",
+      "Every three months",
+      "Only when the lens is replaced",
+      "Weekly"
+    ],
+    "answer": 3,
+    "explanation": "The Boston conditioning solution insert directs weekly protein removal with a liquid enzymatic cleaner. Enzymatic cleaners in general are used about weekly when the daily cleaner is not enough.",
+    "source": {
+      "title": "Bausch + Lomb: Boston ADVANCE Comfort Formula Conditioning Solution package insert",
+      "url": "https://www.bausch.ca/wp-content/uploads/2019/12/boston-advanced-package-insert.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-040",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care systems",
+    "difficulty": 2,
+    "stem": "How should a daily cleaner be used on a rigid lens?",
+    "choices": [
+      "Soak the lens in it for at least four hours",
+      "Shake the lens with the cleaner in a closed case",
+      "Apply it to the eye just before inserting the lens",
+      "Rub each side in the palm about 20 seconds, then rinse"
+    ],
+    "answer": 3,
+    "explanation": "Daily cleaner is applied to the lens resting in the palm and rubbed with a clean fingertip, typically for about 20 seconds per side depending on the product, and then thoroughly rinsed off.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-041",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 1,
+    "stem": "Water accidentally gets on a patient's lenses. What does CDC recommend?",
+    "choices": [
+      "Keep wearing them and add rewetting drops hourly",
+      "Rinse them again with more water and reinsert them",
+      "Remove them; discard or disinfect them overnight",
+      "Blot them dry with a clean tissue and reinsert them"
+    ],
+    "answer": 2,
+    "explanation": "If water touches contact lenses for any reason, CDC advises taking them out as soon as possible and either throwing them away or cleaning and disinfecting them overnight before wearing them again.",
+    "source": {
+      "title": "CDC: Healthy Habits: Keeping Water Away from Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-042",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 2,
+    "stem": "Besides carrying germs, how can water physically harm a soft lens wearer?",
+    "choices": [
+      "Lenses may swell, change shape, and stick to the eye",
+      "It dissolves the lens polymer within a few minutes",
+      "It permanently tints the lens a gray-brown color",
+      "It makes soft lenses shrink, harden, and fall out"
+    ],
+    "answer": 0,
+    "explanation": "CDC explains that water can cause soft lenses to change shape, swell, and stick to the eye, which is uncomfortable and can scratch the cornea, giving germs an easier way in.",
+    "source": {
+      "title": "CDC: Healthy Habits: Keeping Water Away from Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-043",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 2,
+    "stem": "Which ameba, common in tap, lake, and well water, causes a severe lens-related keratitis that can take a year or more to treat?",
+    "choices": [
+      "Giardia",
+      "Naegleria",
+      "Entamoeba",
+      "Acanthamoeba"
+    ],
+    "answer": 3,
+    "explanation": "CDC names Acanthamoeba as a dangerous germ commonly found in tap, lake, and well water. Acanthamoeba keratitis is often very painful, may need a year or more of treatment, and can lead to corneal transplant or blindness.",
+    "source": {
+      "title": "CDC: Healthy Habits: Keeping Water Away from Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-044",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 1,
+    "stem": "How does CDC say a lens case should be stored after each use?",
+    "choices": [
+      "Closed tightly with the old solution inside",
+      "Upside down on a clean tissue, caps off",
+      "Filled with tap water to keep it from drying",
+      "Capped and kept in a humid bathroom cabinet"
+    ],
+    "answer": 1,
+    "explanation": "CDC recommends rubbing and rinsing the case with fresh solution (never water), emptying it, drying it with a clean tissue, and storing it upside down with the caps off to prevent germ buildup.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-045",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 2,
+    "stem": "Why does CDC warn against 'topping off' solution in the lens case?",
+    "choices": [
+      "Mixing fresh with used solution reduces disinfection",
+      "It wastes solution but is otherwise harmless to the eye",
+      "It makes lenses too slippery to handle and insert",
+      "It gradually changes the power of soft lenses"
+    ],
+    "answer": 0,
+    "explanation": "Topping off means adding fresh solution to old solution already in the case. CDC states this reduces disinfection effectiveness; the case should be emptied and refilled with fresh solution every time.",
+    "source": {
+      "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/about-cleaning-disinfecting-and-storing-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-046",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 1,
+    "stem": "What does the FDA say about using water to rinse or store contact lenses?",
+    "choices": [
+      "Avoid all water, including tap, bottled, and distilled",
+      "Distilled water is fine because minerals are removed",
+      "Bottled spring water is fine because it is sealed",
+      "Boiled tap water is fine because heat kills germs"
+    ],
+    "answer": 0,
+    "explanation": "The FDA says not to expose lenses to any water, including tap, bottled, distilled, lake, or ocean water, and never to use non-sterile water or homemade saline. Tap and distilled water have been linked to Acanthamoeba keratitis.",
+    "source": {
+      "title": "FDA: Contact Lens Risks",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks"
+    }
+  },
+  {
+    "id": "ncle-out-047",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 2,
+    "stem": "A lens wearer develops eye irritation. Besides removing the lenses, what does the FDA advise doing with them?",
+    "choices": [
+      "Keep them in the case and bring them to the eye doctor",
+      "Throw them away immediately so they cannot be reused",
+      "Rinse them in tap water and reinsert them the next day",
+      "Switch the lenses between eyes to see if symptoms move"
+    ],
+    "answer": 0,
+    "explanation": "The FDA advises removing lenses and not reinserting them, but not throwing them away: store them in the case and bring them to the eye care professional, who may use them to find the cause of the symptoms.",
+    "source": {
+      "title": "FDA: Contact Lens Risks",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks"
+    }
+  },
+  {
+    "id": "ncle-out-048",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 1,
+    "stem": "A competitive swimmer cannot see well enough without correction. What does CDC suggest?",
+    "choices": [
+      "Prescription goggles instead of lenses in the water",
+      "Daily disposable lenses worn while swimming",
+      "Lenses worn under non-prescription goggles",
+      "Lenses rinsed in pool water before insertion"
+    ],
+    "answer": 0,
+    "explanation": "CDC says wearers should remove lenses before swimming or showering, and that prescription goggles may be a good option for people active in water sports who need correction.",
+    "source": {
+      "title": "CDC: Healthy Habits: Keeping Water Away from Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+    }
+  },
+  {
+    "id": "ncle-out-049",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Hygiene guidance",
+    "difficulty": 2,
+    "stem": "Which solution-handling habit does the American Academy of Ophthalmology warn against?",
+    "choices": [
+      "Keeping the bottle tightly closed between uses",
+      "Using fresh solution for every disinfection",
+      "Keeping the bottle tip away from all surfaces",
+      "Decanting solution into a smaller travel bottle"
+    ],
+    "answer": 3,
+    "explanation": "AAO advises not pouring solution into a different bottle because it will no longer be sterile, along with keeping the tip from touching surfaces and keeping the bottle closed.",
+    "source": {
+      "title": "American Academy of Ophthalmology: How to Take Care of Contact Lenses",
+      "url": "https://www.aao.org/eye-health/glasses-contacts/contact-lens-care"
+    }
+  },
+  {
+    "id": "ncle-out-050",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 1,
+    "stem": "Where should a rigid corneal lens be placed during insertion?",
+    "choices": [
+      "On the lower sclera, then slid up",
+      "Under the upper lid",
+      "Directly on the cornea",
+      "On the nasal conjunctiva"
+    ],
+    "answer": 2,
+    "explanation": "Rigid lenses should be placed directly on the cornea. Soft lenses may be placed on the sclera and slid into place.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-051",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 2,
+    "stem": "In the blink (lateral canthus) method of RGP removal, what causes the lens to come out?",
+    "choices": [
+      "The blink creates suction that pulls the lens onto the finger",
+      "Pressing on the lens center pops it off the cornea",
+      "Lid margins tighten against the lens edge and break its adherence",
+      "Looking up lets gravity pull the lens down and out"
+    ],
+    "answer": 2,
+    "explanation": "A finger at the lateral canthus stretches the lids toward the ear. The increased tension of the lid margins against the lens edge lets the blink break the capillary attraction holding the lens, and it drops into the cupped hand below.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-052",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 2,
+    "stem": "A patient tries the two-finger (lid) method of RGP removal, pushing the upper and lower lid margins together, but the lens does not pop out. What is the most likely reason?",
+    "choices": [
+      "The lens is stuck and must be removed by a doctor",
+      "The eye was not open wide enough to catch the lens edges",
+      "The patient pressed too gently on the lens center",
+      "The lens has slipped behind the eye and is out of reach"
+    ],
+    "answer": 1,
+    "explanation": "In this method the lid margins trap the top and bottom lens edges and push the lens off. If it fails, NHS instructions tell the patient to start again with the eye opened wider, because the lid edges missed the lens edge. A lens cannot go behind the eye.",
+    "source": {
+      "title": "East Kent Hospitals NHS: Rigid gas permeable contact lens patient leaflet (2021)",
+      "url": "https://leaflets.ekhuft.nhs.uk/s3/assets/easysite-leaflets/rigid-contact-lens-july-2021.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-053",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 2,
+    "stem": "An RGP lens has slipped up under the upper lid. Which first step matches standard patient instructions?",
+    "choices": [
+      "Look up toward the lens and press firmly on the eyeball",
+      "Look down, away from the lens, then guide it back with the lid",
+      "Hook the lens edge with a fingernail and pull it out",
+      "Apply a suction remover to the displaced lens at once"
+    ],
+    "answer": 1,
+    "explanation": "Patients are taught to locate the lens, look in the direction opposite to where it is (down if it is under the upper lid), and then gently guide it back into place with fingertips on the lid while shifting gaze.",
+    "source": {
+      "title": "Optometrists.org: How to Insert and Remove Hard Contact Lenses",
+      "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-contact-lenses/guide-to-hard-contact-lenses/how-to-insert-and-remove-hard-contact-lenses/"
+    }
+  },
+  {
+    "id": "ncle-out-054",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 1,
+    "stem": "Where should a patient remove rigid lenses to avoid losing or contaminating them?",
+    "choices": [
+      "Over an open sink drain, so the lens rinses away",
+      "While lying back on a bed, looking at the ceiling",
+      "Over a flat, clean surface or a covered drain",
+      "In the shower, where the lens stays wet and clean"
+    ],
+    "answer": 2,
+    "explanation": "Patient instructions advise removing lenses over a flat clean surface and avoiding an open sink, or covering the drain with a clean towel, so the lens is not lost or contaminated.",
+    "source": {
+      "title": "Manchester Royal Eye Hospital: Rigid Gas Permeable (RGP) Contact Lens Wearers patient leaflet",
+      "url": "https://mft.nhs.uk/app/uploads/sites/2/2018/04/REH-231.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-055",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 2,
+    "stem": "How should a scleral lens be filled before insertion?",
+    "choices": [
+      "Fill it halfway with multipurpose disinfecting solution",
+      "Insert it dry and let the tears fill the vault",
+      "Fill the bowl completely with preservative-free saline",
+      "Fill it with tap water mixed with fluorescein dye"
+    ],
+    "answer": 2,
+    "explanation": "Scleral lenses are filled to the brim with preservative-free saline so no air is trapped behind the lens. The patient then leans forward with the face parallel to the ground and places the lens while looking straight down.",
+    "source": {
+      "title": "OHSU Casey Eye Institute: Scleral Lens Care Instructions",
+      "url": "https://www.ohsu.edu/casey-eye-institute/scleral-lens-care-instructions"
+    }
+  },
+  {
+    "id": "ncle-out-056",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 2,
+    "stem": "Right after inserting a scleral lens, the patient's vision is blurry and the lens is uncomfortable. What is the most likely problem and fix?",
+    "choices": [
+      "Normal settling; keep wearing it for a week",
+      "A trapped bubble; remove, refill, and reapply",
+      "A torn lens; discard it",
+      "Too much saline; tilt the head back to drain it"
+    ],
+    "answer": 1,
+    "explanation": "A bubble under the lens is the most likely cause of blur and discomfort after insertion. The patient should remove the lens, refill it, and reapply. If it is still blurry, check for a bubble again and make sure the lens is in the correct eye.",
+    "source": {
+      "title": "OHSU Casey Eye Institute: Scleral Lens Care Instructions",
+      "url": "https://www.ohsu.edu/casey-eye-institute/scleral-lens-care-instructions"
+    }
+  },
+  {
+    "id": "ncle-out-057",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 3,
+    "stem": "During scleral lens training, why might a fitter add fluorescein to the saline in the lens bowl?",
+    "choices": [
+      "To disinfect the lens during insertion",
+      "To make the lens easier to grip with the plunger",
+      "To make bubbles beneath the lens easy to see",
+      "To lubricate the eye after insertion"
+    ],
+    "answer": 2,
+    "explanation": "Fitting instructions describe touching the saline with a fluorescein strip until deeply stained, inserting the lens, and then checking for bubbles beneath it. If any are present, the lens is removed and reapplied.",
+    "source": {
+      "title": "Metro Optics: Scleral Insertion and Removal",
+      "url": "https://www.metro-optics.com/scleral-insertion-and-removal/"
+    }
+  },
+  {
+    "id": "ncle-out-058",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 2,
+    "stem": "Which saline should scleral lens patients use to fill their lenses?",
+    "choices": [
+      "Large bottles labeled 'saline eye wash'",
+      "Any multipurpose disinfecting solution",
+      "Homemade saline made from salt tablets",
+      "Single-use preservative-free 0.9% saline"
+    ],
+    "answer": 3,
+    "explanation": "Filling solution should be preservative-free saline in single-use vials, discarded once the lenses are on. Large bottles and eye-wash saline often contain preservatives that can be toxic to the cornea, and saline should not be used for overnight storage.",
+    "source": {
+      "title": "OHSU Casey Eye Institute: Scleral Lens Care Instructions",
+      "url": "https://www.ohsu.edu/casey-eye-institute/scleral-lens-care-instructions"
+    }
+  },
+  {
+    "id": "ncle-out-059",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 2,
+    "stem": "How should a scleral lens be removed with a small plunger?",
+    "choices": [
+      "Plunger on the lens center, then pull straight out quickly",
+      "Pinch the lens at its center between two fingers",
+      "Rotate the lens with the plunger until it slides off",
+      "Plunger on the lower edge, tilt to break the seal, lift away"
+    ],
+    "answer": 3,
+    "explanation": "Instructions place the removal plunger on the lower edge, not the center, and tilt it slightly to break the seal before pulling the lens away. A lubricating drop can help if the lens feels stuck, and the lens should never be forced.",
+    "source": {
+      "title": "OHSU Casey Eye Institute: Scleral Lens Care Instructions",
+      "url": "https://www.ohsu.edu/casey-eye-institute/scleral-lens-care-instructions"
+    }
+  },
+  {
+    "id": "ncle-out-060",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Insertion and removal",
+    "difficulty": 1,
+    "stem": "Why is a soft lens usually slid off the cornea before it is pinched out?",
+    "choices": [
+      "It neutralizes solution left on the lens",
+      "Less risk of scratching the cornea",
+      "It turns the lens inside out for storage",
+      "It stretches the lens to fit the case"
+    ],
+    "answer": 1,
+    "explanation": "Moving a soft lens onto the sclera first makes pinching more comfortable and lowers the risk of scratching the cornea with a fingernail.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-061",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Personal care products",
+    "difficulty": 2,
+    "stem": "Which hand soap is best before handling contact lenses?",
+    "choices": [
+      "Plain soap without moisturizers or fragrance",
+      "Moisturizing soap that leaves a lotion film",
+      "Heavily perfumed bar soap for a clean scent",
+      "Oil-based pump soap that is gentle on skin"
+    ],
+    "answer": 0,
+    "explanation": "Soaps containing moisturizers or allergens can irritate the eye, and the Boston insert cautions that pump soaps may contain oil-based suspension agents. Scleral lens instructions specify unscented soap and no lotion.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-062",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Personal care products",
+    "difficulty": 1,
+    "stem": "What order do hospital RGP instructions give for makeup?",
+    "choices": [
+      "Makeup on first, then insert lenses over the makeup",
+      "Makeup removed first, then remove the lenses afterward",
+      "Lenses in before makeup; lenses out before makeup removal",
+      "Apply makeup only while the lenses are soaking overnight"
+    ],
+    "answer": 2,
+    "explanation": "NHS RGP instructions say to apply non-greasy makeup and cream after inserting lenses, keep the eyes closed when using hair spray, and remove the lenses before removing makeup.",
+    "source": {
+      "title": "Manchester Royal Eye Hospital: Rigid Gas Permeable (RGP) Contact Lens Wearers patient leaflet",
+      "url": "https://mft.nhs.uk/app/uploads/sites/2/2018/04/REH-231.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-063",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Personal care products",
+    "difficulty": 2,
+    "stem": "Which item should a contact lens wearer's hands be free of before handling lenses?",
+    "choices": [
+      "Water from rinsing after washing",
+      "Creams, perfumes, and nicotine",
+      "A fresh, lint-free towel",
+      "Short, clean fingernails"
+    ],
+    "answer": 1,
+    "explanation": "NHS RGP instructions ask patients to make sure their hands are washed, dried, and free of creams, perfumes, and nicotine.",
+    "source": {
+      "title": "East Kent Hospitals NHS: Rigid gas permeable contact lens patient leaflet (2021)",
+      "url": "https://leaflets.ekhuft.nhs.uk/s3/assets/easysite-leaflets/rigid-contact-lens-july-2021.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-064",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Personal care products",
+    "difficulty": 2,
+    "stem": "Which mascara habit does the FDA warn against?",
+    "choices": [
+      "Discarding mascara two to four months after purchase",
+      "Using your own mascara rather than a store tester",
+      "Adding saliva or water to moisten dried mascara",
+      "Washing hands before applying eye cosmetics"
+    ],
+    "answer": 2,
+    "explanation": "The FDA warns that saliva or water can introduce bacteria and dilute the preservative. It advises discarding mascara two to four months after purchase, not sharing eye cosmetics, and washing hands before use.",
+    "source": {
+      "title": "FDA: Eye Cosmetic Safety",
+      "url": "https://www.fda.gov/cosmetics/cosmetic-products/eye-cosmetic-safety"
+    }
+  },
+  {
+    "id": "ncle-out-065",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Systemic disease",
+    "difficulty": 2,
+    "stem": "What is the most common presenting sign of thyroid eye disease?",
+    "choices": [
+      "Upper eyelid retraction",
+      "Ptosis of the upper lid",
+      "Corneal neovascularization",
+      "Miotic pupils"
+    ],
+    "answer": 0,
+    "explanation": "Eyelid retraction (Dalrymple sign) is the most common presenting sign of thyroid eye disease, seen in up to 90% of patients. Other signs include lid lag in downgaze (von Graefe sign) and proptosis.",
+    "source": {
+      "title": "EyeWiki: Thyroid Eye Disease",
+      "url": "https://eyewiki.org/Thyroid_Eye_Disease"
+    }
+  },
+  {
+    "id": "ncle-out-066",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Systemic disease",
+    "difficulty": 2,
+    "stem": "Why can thyroid eye disease make contact lens wear difficult?",
+    "choices": [
+      "It steepens the cornea a little more each year",
+      "Lid retraction and proptosis can cause exposure keratopathy",
+      "It reduces the oxygen permeability of lens materials",
+      "It causes the crystalline lens to swell and shift"
+    ],
+    "answer": 1,
+    "explanation": "Patients report grittiness, dry eye, and tearing. Lagophthalmos from proptosis and lid retraction can lead to exposure keratopathy, a major cause of reduced vision in the disease.",
+    "source": {
+      "title": "EyeWiki: Thyroid Eye Disease",
+      "url": "https://eyewiki.org/Thyroid_Eye_Disease"
+    }
+  },
+  {
+    "id": "ncle-out-067",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Systemic disease",
+    "difficulty": 2,
+    "stem": "Which environmental factor is most consistently linked to developing or worsening thyroid eye disease?",
+    "choices": [
+      "Contact lens wear",
+      "Computer use",
+      "High altitude",
+      "Smoking"
+    ],
+    "answer": 3,
+    "explanation": "Smoking is the most consistently linked environmental risk factor, with risk rising with cigarettes per day. Quitting is associated with reduced risk.",
+    "source": {
+      "title": "EyeWiki: Thyroid Eye Disease",
+      "url": "https://eyewiki.org/Thyroid_Eye_Disease"
+    }
+  },
+  {
+    "id": "ncle-out-068",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Systemic disease",
+    "difficulty": 3,
+    "stem": "Superior limbic keratoconjunctivitis (SLK) has an increased incidence with which systemic condition?",
+    "choices": [
+      "Type 2 diabetes mellitus",
+      "Essential hypertension",
+      "Thyroid eye disease",
+      "Migraine with aura"
+    ],
+    "answer": 2,
+    "explanation": "SLK is associated with thyroid dysfunction, and the retracted lid and altered blinking in thyroid eye disease may increase lid-globe friction at the superior limbus. Patients with suspected SLK may also be examined for thyroid orbitopathy.",
+    "source": {
+      "title": "Columbia Digital Reference of Ophthalmology: Superior Limbic Keratoconjunctivitis",
+      "url": "https://www.vagelos.columbia.edu/departments-centers/ophthalmology/education/digital-reference-ophthalmology/cornea-and-external-diseases/non-infectious/superior-limbic-keratoconjunctivitis"
+    }
+  },
+  {
+    "id": "ncle-out-069",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Systemic disease",
+    "difficulty": 1,
+    "stem": "Sjögren's disease is an autoimmune disease that mainly affects which glands?",
+    "choices": [
+      "Meibomian and sweat glands",
+      "Lacrimal and salivary glands",
+      "Thyroid and adrenal glands",
+      "Goblet cells and the pancreas"
+    ],
+    "answer": 1,
+    "explanation": "Sjögren's disease primarily attacks the exocrine glands, especially the lacrimal and salivary glands. Its hallmark symptoms are dry mouth and keratoconjunctivitis sicca, which makes lens wear difficult.",
+    "source": {
+      "title": "Wikipedia: Sjögren's disease",
+      "url": "https://en.wikipedia.org/wiki/Sj%C3%B6gren%27s_disease"
+    }
+  },
+  {
+    "id": "ncle-out-070",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Systemic disease",
+    "difficulty": 2,
+    "stem": "In rheumatoid arthritis, which eye problem is more common than scleritis and most relevant to contact lens wear?",
+    "choices": [
+      "Keratoconjunctivitis sicca (dry eye)",
+      "Rhegmatogenous retinal detachment",
+      "Keratoconus with inferior steepening",
+      "Acute angle-closure glaucoma"
+    ],
+    "answer": 0,
+    "explanation": "RA can directly cause episcleritis or scleritis, but the more common effect is keratoconjunctivitis sicca from lymphocyte infiltration of the lacrimal and salivary glands, often as secondary Sjögren's.",
+    "source": {
+      "title": "Wikipedia: Rheumatoid arthritis",
+      "url": "https://en.wikipedia.org/wiki/Rheumatoid_arthritis"
+    }
+  },
+  {
+    "id": "ncle-out-071",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Systemic disease",
+    "difficulty": 2,
+    "stem": "Why is reduced corneal sensitivity in diabetic patients a concern for lens wear?",
+    "choices": [
+      "Problems may go unnoticed, and the epithelium heals slowly",
+      "Diabetes makes the cornea too thick for most lenses",
+      "Reduced sensation causes excessive reflex tearing",
+      "Reduced sensation makes lenses dehydrate faster"
+    ],
+    "answer": 0,
+    "explanation": "Decreased corneal sensitivity in diabetes is related to neuropathy, and epithelial healing is slowed by reduced basal cell mitosis. Frequent replacement, daily disposables, and high-Dk lenses are considered well suited, and some practitioners avoid extended wear.",
+    "source": {
+      "title": "Review of Optometry: Diabetic Keratopathy and Contact Lens Wear",
+      "url": "https://www.reviewofoptometry.com/article/pathology-diabetic-keratopathy-and-contact-lens-wear"
+    }
+  },
+  {
+    "id": "ncle-out-072",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Systemic disease",
+    "difficulty": 2,
+    "stem": "A diabetic patient's distance vision with lenses fluctuates from week to week. What systemic factor may explain this?",
+    "choices": [
+      "Low thyroid hormone",
+      "High blood pressure medication",
+      "Changes in blood glucose",
+      "Dehydration of the lens from oral contraceptives"
+    ],
+    "answer": 2,
+    "explanation": "Variations in refraction and accommodation may be related to fluctuating blood glucose in diabetic patients. Cataract can also change refraction in this population.",
+    "source": {
+      "title": "Review of Optometry: Diabetic Keratopathy and Contact Lens Wear",
+      "url": "https://www.reviewofoptometry.com/article/pathology-diabetic-keratopathy-and-contact-lens-wear"
+    }
+  },
+  {
+    "id": "ncle-out-073",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Medications",
+    "difficulty": 2,
+    "stem": "How do older oral antihistamines affect contact lens wear?",
+    "choices": [
+      "They increase tear volume and decenter lenses",
+      "They reduce aqueous tears and cause dryness",
+      "They discolor soft lenses a bright orange",
+      "They steepen the cornea and change the fit"
+    ],
+    "answer": 1,
+    "explanation": "Antihistamines decrease lacrimal secretion through antimuscarinic activity. Newer, more H1-selective drugs such as cetirizine and fexofenadine are less likely to cause dryness than earlier generations.",
+    "source": {
+      "title": "Contact Lens Spectrum: Medication Effects on the Anterior Segment and Contact Lens Wear, Sep 2003",
+      "url": "https://clspectrum.com/issues/2003/september/medication-effects-on-the-anterior-segment-and-contact-lens-wear/"
+    }
+  },
+  {
+    "id": "ncle-out-074",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Medications",
+    "difficulty": 2,
+    "stem": "Isotretinoin, used for severe acne, makes lens wear difficult mainly by affecting which glands?",
+    "choices": [
+      "Meibomian glands, causing evaporative dry eye",
+      "Lacrimal glands, causing excess tearing",
+      "Goblet cells, causing excess mucus",
+      "Glands of Moll, causing styes"
+    ],
+    "answer": 0,
+    "explanation": "Isotretinoin suppresses sebaceous glands, and the meibomian glands are modified sebaceous glands. Reduced meibum increases evaporation and causes dry eye, and complaints may take several months to clear after the drug is stopped.",
+    "source": {
+      "title": "Contact Lens Spectrum: Medication Effects on the Anterior Segment and Contact Lens Wear, Sep 2003",
+      "url": "https://clspectrum.com/issues/2003/september/medication-effects-on-the-anterior-segment-and-contact-lens-wear/"
+    }
+  },
+  {
+    "id": "ncle-out-075",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Medications",
+    "difficulty": 3,
+    "stem": "What does the clinical literature say about oral contraceptives and contact lens problems?",
+    "choices": [
+      "They are proven to cause corneal edema in most wearers",
+      "They are an absolute contraindication to lens wear",
+      "A link is suspected but not well documented",
+      "They have been shown to improve lens tolerance"
+    ],
+    "answer": 2,
+    "explanation": "Clinicians have long suspected oral contraceptives of affecting tear production, curvature, or thickness, but well-documented studies proving a relationship with lens complications are lacking. Hormone replacement therapy, by contrast, has been associated with more dry eye symptoms.",
+    "source": {
+      "title": "Contact Lens Spectrum: Medication Effects on the Anterior Segment and Contact Lens Wear, Sep 2003",
+      "url": "https://clspectrum.com/issues/2003/september/medication-effects-on-the-anterior-segment-and-contact-lens-wear/"
+    }
+  },
+  {
+    "id": "ncle-out-076",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Medications",
+    "difficulty": 2,
+    "stem": "A patient taking rifampin for tuberculosis notices that his soft lenses have changed color. What color is most likely?",
+    "choices": [
+      "Blue",
+      "Green",
+      "Black",
+      "Orange"
+    ],
+    "answer": 3,
+    "explanation": "Rifampin is excreted into the tear film and usually turns tears and soft lenses orange, sometimes pink or red. Tetracycline, by contrast, can cause grayish-brown discoloration.",
+    "source": {
+      "title": "Contact Lens Spectrum: Medication Effects on the Anterior Segment and Contact Lens Wear, Sep 2003",
+      "url": "https://clspectrum.com/issues/2003/september/medication-effects-on-the-anterior-segment-and-contact-lens-wear/"
+    }
+  },
+  {
+    "id": "ncle-out-077",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Medications",
+    "difficulty": 2,
+    "stem": "Which systemic drug class is known to decrease aqueous tear production and can cause dry eye symptoms in lens wearers?",
+    "choices": [
+      "Beta blockers",
+      "Proton pump inhibitors",
+      "Statins",
+      "Thyroid hormone replacement"
+    ],
+    "answer": 0,
+    "explanation": "Systemic beta blockers, prescribed for angina, hypertension, and after myocardial infarction, can decrease aqueous tear production, shorten tear break-up time, and cause irritation. Diuretics can also reduce lacrimation.",
+    "source": {
+      "title": "Contact Lens Spectrum: Medication Effects on the Anterior Segment and Contact Lens Wear, Sep 2003",
+      "url": "https://clspectrum.com/issues/2003/september/medication-effects-on-the-anterior-segment-and-contact-lens-wear/"
+    }
+  },
+  {
+    "id": "ncle-out-078",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Keratoconus",
+    "difficulty": 2,
+    "stem": "Which keratoconus sign is a protrusion of the lower lid when the patient looks down?",
+    "choices": [
+      "Fleischer ring",
+      "Vogt striae",
+      "Rizzuti sign",
+      "Munson sign"
+    ],
+    "answer": 3,
+    "explanation": "Munson sign is protrusion of the lower lid in downgaze. Rizzuti sign is a conical light reflex on the nasal cornea when a penlight is shone from the temporal side.",
+    "source": {
+      "title": "EyeWiki: Keratoconus",
+      "url": "https://eyewiki.org/Keratoconus"
+    }
+  },
+  {
+    "id": "ncle-out-079",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Keratoconus",
+    "difficulty": 2,
+    "stem": "What is a Fleischer ring in keratoconus?",
+    "choices": [
+      "A ring of new blood vessels at the limbus",
+      "An epithelial iron ring around the cone base",
+      "A central circle of calcium in Bowman's layer",
+      "A white stromal scar left after acute hydrops"
+    ],
+    "answer": 1,
+    "explanation": "The Fleischer ring is a brown iron deposit within the epithelium surrounding the base of the cone. It is best visualized with the cobalt blue filter.",
+    "source": {
+      "title": "EyeWiki: Keratoconus",
+      "url": "https://eyewiki.org/Keratoconus"
+    }
+  },
+  {
+    "id": "ncle-out-080",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Keratoconus",
+    "difficulty": 2,
+    "stem": "Which description fits Vogt striae?",
+    "choices": [
+      "Vertical stromal lines that vanish with pressure",
+      "Horizontal Descemet's folds that never change",
+      "Iron lines in the inferior corneal epithelium",
+      "Radial scars in Bowman's layer after rubbing"
+    ],
+    "answer": 0,
+    "explanation": "Vogt striae are fine, roughly vertical parallel striations in the stroma. They generally disappear with firm pressure on the eye and reappear when the pressure is released.",
+    "source": {
+      "title": "EyeWiki: Keratoconus",
+      "url": "https://eyewiki.org/Keratoconus"
+    }
+  },
+  {
+    "id": "ncle-out-081",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Keratoconus",
+    "difficulty": 1,
+    "stem": "Where does corneal thinning and steepening usually occur in keratoconus?",
+    "choices": [
+      "Centrally or inferiorly (paracentral)",
+      "Superiorly at the limbus",
+      "Evenly across the whole cornea",
+      "Only at the 3 and 9 o'clock positions"
+    ],
+    "answer": 0,
+    "explanation": "Keratoconus causes central or paracentral thinning and steepening, typically inferior, and the point of maximum thinning matches the point of maximum steepening. This produces irregular astigmatism and scissoring on retinoscopy.",
+    "source": {
+      "title": "EyeWiki: Keratoconus",
+      "url": "https://eyewiki.org/Keratoconus"
+    }
+  },
+  {
+    "id": "ncle-out-082",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Keratoconus",
+    "difficulty": 2,
+    "stem": "Which history detail is most strongly associated with keratoconus?",
+    "choices": [
+      "Long-term daily disposable wear",
+      "Frequent eye rubbing with atopy",
+      "High hyperopia since childhood",
+      "Previous uncomplicated cataract surgery"
+    ],
+    "answer": 1,
+    "explanation": "Keratoconus is associated with atopy and eye rubbing, as well as Down syndrome and connective tissue disorders. Onset is usually in early adolescence with progression into the 20s and 30s.",
+    "source": {
+      "title": "EyeWiki: Keratoconus",
+      "url": "https://eyewiki.org/Keratoconus"
+    }
+  },
+  {
+    "id": "ncle-out-083",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Keratoconus",
+    "difficulty": 2,
+    "stem": "What is acute hydrops in keratoconus?",
+    "choices": [
+      "A sudden steepening of the cone caused by eye rubbing",
+      "Bleeding into the anterior chamber after a lens injury",
+      "A bacterial infection developing under a rigid lens",
+      "A Descemet's break that lets aqueous into the stroma"
+    ],
+    "answer": 3,
+    "explanation": "In acute hydrops a break in Descemet's membrane allows aqueous into the stroma, causing severe corneal swelling, reduced vision, light sensitivity, tearing, and pain.",
+    "source": {
+      "title": "EyeWiki: Keratoconus",
+      "url": "https://eyewiki.org/Keratoconus"
+    }
+  },
+  {
+    "id": "ncle-out-084",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Keratoconus",
+    "difficulty": 1,
+    "stem": "Which correction gives most keratoconus patients their best vision?",
+    "choices": [
+      "Spectacles with a high cylinder correction",
+      "Standard spherical soft contact lenses",
+      "Rigid gas permeable or specialty rigid lenses",
+      "Plano bandage soft lenses worn daily"
+    ],
+    "answer": 2,
+    "explanation": "Spectacles or soft torics work in mild cases, but rigid gas permeable lenses are needed in the majority to neutralize irregular astigmatism. Corneal cross-linking is the main treatment to slow progression.",
+    "source": {
+      "title": "EyeWiki: Keratoconus",
+      "url": "https://eyewiki.org/Keratoconus"
+    }
+  },
+  {
+    "id": "ncle-out-085",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Lids and conjunctiva",
+    "difficulty": 2,
+    "stem": "How is blepharitis classified by location?",
+    "choices": [
+      "Anterior: cornea; posterior: retina and optic nerve",
+      "Anterior: lid skin and lashes; posterior: meibomian glands",
+      "Anterior: bacterial causes; posterior: viral causes",
+      "Anterior: the lower lid; posterior: the upper lid"
+    ],
+    "answer": 1,
+    "explanation": "Anterior blepharitis affects the lid skin, lash bases, and follicles (staphylococcal and seborrheic forms). Posterior blepharitis affects the meibomian glands and their orifices, and the two often overlap.",
+    "source": {
+      "title": "EyeWiki: Blepharitis",
+      "url": "https://eyewiki.org/Blepharitis"
+    }
+  },
+  {
+    "id": "ncle-out-086",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Lids and conjunctiva",
+    "difficulty": 2,
+    "stem": "What is the usual first step in managing blepharitis or meibomian gland dysfunction?",
+    "choices": [
+      "An immediate course of oral antibiotics",
+      "Permanent discontinuation of lens wear",
+      "Punctal cautery to retain more tears",
+      "Warm compresses, lid massage, and lid scrubs"
+    ],
+    "answer": 3,
+    "explanation": "Lid hygiene with warm compresses, massage, and scrubs is the initial treatment and must continue because blepharitis is chronic. Oral tetracyclines or macrolides are used when MGD is not controlled or rosacea is present.",
+    "source": {
+      "title": "EyeWiki: Blepharitis",
+      "url": "https://eyewiki.org/Blepharitis"
+    }
+  },
+  {
+    "id": "ncle-out-087",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Lids and conjunctiva",
+    "difficulty": 2,
+    "stem": "Which feature distinguishes a pterygium from a pinguecula?",
+    "choices": [
+      "A pterygium is yellow; a pinguecula is red and vascular",
+      "Only a pterygium grows onto the cornea",
+      "A pterygium occurs only temporally; a pinguecula nasally",
+      "Contact lenses cause pterygia; UV light causes pingueculae"
+    ],
+    "answer": 1,
+    "explanation": "A pterygium is a wing-shaped fibrovascular growth from the limbal conjunctiva onto the cornea, most often nasally and strongly linked to UV exposure. A pinguecula is a raised yellow-white interpalpebral lesion that stays on the conjunctiva.",
+    "source": {
+      "title": "EyeWiki: Pterygium",
+      "url": "https://eyewiki.org/Pterygium"
+    }
+  },
+  {
+    "id": "ncle-out-088",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Lids and conjunctiva",
+    "difficulty": 2,
+    "stem": "When is surgical excision of a pinguecula indicated?",
+    "choices": [
+      "As soon as it is diagnosed, to prevent spread to the cornea",
+      "When it is chronically inflamed or interferes with lens wear",
+      "Only when a biopsy confirms that it has become malignant",
+      "Before every contact lens fitting, to improve lens centration"
+    ],
+    "answer": 1,
+    "explanation": "Most pingueculae are managed with lubrication. Excision is reserved for lesions that are cosmetically unacceptable, chronically inflamed, or that interfere with successful contact lens wear.",
+    "source": {
+      "title": "EyeWiki: Pinguecula",
+      "url": "https://eyewiki.org/Pinguecula"
+    }
+  },
+  {
+    "id": "ncle-out-089",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Internal anatomy",
+    "difficulty": 2,
+    "stem": "Which muscle constricts the pupil, and what supplies it?",
+    "choices": [
+      "Dilator pupillae; sympathetic fibers via the neck",
+      "Ciliary muscle; the trochlear nerve (CN IV)",
+      "Sphincter pupillae; parasympathetic fibers via CN III",
+      "Orbicularis oculi; the facial nerve (CN VII)"
+    ],
+    "answer": 2,
+    "explanation": "The circular sphincter pupillae constricts the pupil under parasympathetic control from the Edinger-Westphal nucleus via the oculomotor nerve. The radial dilator pupillae is supplied by sympathetic nerves.",
+    "source": {
+      "title": "Wikipedia: Pupil",
+      "url": "https://en.wikipedia.org/wiki/Pupil"
+    }
+  },
+  {
+    "id": "ncle-out-090",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Internal anatomy",
+    "difficulty": 2,
+    "stem": "What is the path of aqueous humor after it is produced?",
+    "choices": [
+      "Anterior chamber, vitreous cavity, then the retinal veins",
+      "Lacrimal gland, corneal surface, then the anterior chamber",
+      "Choroid, posterior chamber, then into the crystalline lens",
+      "Posterior chamber, pupil, anterior chamber, trabecular meshwork"
+    ],
+    "answer": 3,
+    "explanation": "The ciliary body epithelium secretes aqueous into the posterior chamber, the narrow space between iris and lens. It flows through the pupil into the anterior chamber and drains through the trabecular meshwork.",
+    "source": {
+      "title": "Wikipedia: Posterior chamber of eyeball",
+      "url": "https://en.wikipedia.org/wiki/Posterior_chamber_of_eyeball"
+    }
+  },
+  {
+    "id": "ncle-out-091",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Internal anatomy",
+    "difficulty": 2,
+    "stem": "What is the average depth of the anterior chamber, and when is it shallower?",
+    "choices": [
+      "About 10 mm; shallower in myopic eyes",
+      "About 0.5 mm; deeper with age",
+      "About 3.0 mm; shallower with age and in hyperopic eyes",
+      "About 3.0 mm; shallower only after cataract surgery"
+    ],
+    "answer": 2,
+    "explanation": "Anterior chamber depth ranges from about 1.5 to 4.0 mm, averaging 3.0 mm. It tends to be shallower in older and hyperopic eyes, and depth below 2.5 mm raises the risk of angle-closure glaucoma.",
+    "source": {
+      "title": "Wikipedia: Anterior chamber of eyeball",
+      "url": "https://en.wikipedia.org/wiki/Anterior_chamber_of_eyeball"
+    }
+  },
+  {
+    "id": "ncle-out-092",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Internal anatomy",
+    "difficulty": 2,
+    "stem": "What holds the crystalline lens in place?",
+    "choices": [
+      "The iris sphincter muscle at the pupil margin",
+      "The vitreous base alone, without other support",
+      "The scleral spur at the angle of the chamber",
+      "Zonules attached to the ciliary body"
+    ],
+    "answer": 3,
+    "explanation": "The lens is held at its equator by the zonules of Zinn, which attach it to the ciliary body. The young human lens supplies roughly 18 D, about one-third of the eye's total power of about 60 D.",
+    "source": {
+      "title": "Wikipedia: Lens (vertebrate anatomy)",
+      "url": "https://en.wikipedia.org/wiki/Lens_(vertebrate_anatomy)"
+    }
+  },
+  {
+    "id": "ncle-out-093",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Internal anatomy",
+    "difficulty": 1,
+    "stem": "Which retinal photoreceptors provide color vision and high acuity?",
+    "choices": [
+      "Cones",
+      "Rods",
+      "Ganglion cells",
+      "Bipolar cells"
+    ],
+    "answer": 0,
+    "explanation": "Rods work mainly in dim light and give monochromatic vision. Cones work in good light and give color and high-acuity vision. The optic disc has no photoreceptors, which creates the blind spot.",
+    "source": {
+      "title": "Wikipedia: Retina",
+      "url": "https://en.wikipedia.org/wiki/Retina"
+    }
+  },
+  {
+    "id": "ncle-out-094",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Internal anatomy",
+    "difficulty": 2,
+    "stem": "What is the choroid?",
+    "choices": [
+      "The clear gel filling the back of the eye",
+      "The pigmented front surface layer of the iris",
+      "The vascular layer between retina and sclera",
+      "The membrane lining the back of the cornea"
+    ],
+    "answer": 2,
+    "explanation": "The choroid is part of the uvea, along with the iris and ciliary body. It lies between the retina and sclera and supplies oxygen and nutrients to the outer retinal layers.",
+    "source": {
+      "title": "Wikipedia: Choroid",
+      "url": "https://en.wikipedia.org/wiki/Choroid"
+    }
+  },
+  {
+    "id": "ncle-out-095",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Anterior segment OCT",
+    "difficulty": 2,
+    "stem": "Compared with gonioscopy, what is a main advantage of anterior segment OCT for imaging the angle?",
+    "choices": [
+      "It is non-contact",
+      "It shows the ciliary body behind the iris",
+      "It needs no patient cooperation at all",
+      "It uses ultrasound waves"
+    ],
+    "answer": 0,
+    "explanation": "AS-OCT is non-contact, which makes it useful as an adjunct or substitute for gonioscopy. Ultrasound biomicroscopy, not OCT, is better at showing structures behind the iris such as the ciliary body.",
+    "source": {
+      "title": "EyeWiki: Anterior Segment Optical Coherence Tomography",
+      "url": "https://eyewiki.org/Anterior_Segment_Optical_Coherence_Tomography"
+    }
+  },
+  {
+    "id": "ncle-out-096",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Anterior segment OCT",
+    "difficulty": 3,
+    "stem": "Why do newer anterior segment OCT devices use a 1310 nm wavelength rather than the 830 nm used for retinal OCT?",
+    "choices": [
+      "It penetrates scattering tissue such as the sclera better",
+      "Shorter wavelengths are completely blocked by the cornea",
+      "Light at 1310 nm stains the tear film for better contrast",
+      "Light at 830 nm is unsafe for the crystalline lens"
+    ],
+    "answer": 0,
+    "explanation": "The original 830 nm wavelength was suboptimal for imaging the angle because of limited penetration through scattering tissue. Fourier-domain AS-OCT at 1310 nm allows rapid three-dimensional scanning of the anterior segment.",
+    "source": {
+      "title": "EyeWiki: Anterior Segment Optical Coherence Tomography",
+      "url": "https://eyewiki.org/Anterior_Segment_Optical_Coherence_Tomography"
+    }
+  },
+  {
+    "id": "ncle-out-097",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Anterior segment OCT",
+    "difficulty": 2,
+    "stem": "What practical advantage does AS-OCT offer at a scleral lens follow-up visit?",
+    "choices": [
+      "The lens must be removed before scanning",
+      "It reads the lens power directly on the eye",
+      "It replaces the need for visual acuity testing",
+      "Clearance is measured without fluorescein"
+    ],
+    "answer": 3,
+    "explanation": "Scleral patients often return after hours of wear with no fluorescein behind the lens. AS-OCT shows central and limbal clearance without fluorescein, so it can compare clearance at insertion and at the end of the day after settling.",
+    "source": {
+      "title": "Contact Lens Spectrum: Is This the New Norm? (AS-OCT for scleral lenses), Oct 2014",
+      "url": "https://clspectrum.com/issues/2014/october/is-this-the-new-norm/"
+    }
+  },
+  {
+    "id": "ncle-out-098",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Anterior segment OCT",
+    "difficulty": 3,
+    "stem": "On AS-OCT, what limbal clearance is generally targeted under a scleral lens?",
+    "choices": [
+      "Less than 50 µm",
+      "About 400–500 µm",
+      "Zero, with light touch at the limbus",
+      "About 100–200 µm"
+    ],
+    "answer": 3,
+    "explanation": "One clinical framework targets 100–200 µm of limbal clearance, accepts 50–100 or 200–300 µm, and avoids less than 50 µm or more than 300 µm, to protect limbal stem cells from pressure.",
+    "source": {
+      "title": "Contact Lens Spectrum: Next-Gen Tech (OCT, epithelial mapping, tear testing), Sep 2024",
+      "url": "https://digital.clspectrum.com/articles/next-gen-tech"
+    }
+  },
+  {
+    "id": "ncle-out-099",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Anterior segment OCT",
+    "difficulty": 3,
+    "stem": "At the slit lamp, how is scleral lens central clearance commonly estimated?",
+    "choices": [
+      "Read the vault directly from the radiuscope dial after removal",
+      "Count how many blinks it takes for the lens to settle",
+      "Compare the fluorescein gap with corneal thickness in an optic section",
+      "Measure the lens back vertex power on a lensometer"
+    ],
+    "answer": 2,
+    "explanation": "With fluorescein in the saline, an optic section shows the tear layer between lens and cornea, which is compared with corneal thickness. Scleral vault is typically 25% to 100% of corneal thickness (about 150–600 µm), and AS-OCT can confirm it.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: AS-OCT and the Specialty Contact Lens",
+      "url": "https://reviewofcontactlenses.com/article/as-oct-and-the-specialty-contact-lens"
+    }
+  },
+  {
+    "id": "ncle-out-100",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Schirmer test",
+    "difficulty": 2,
+    "stem": "What does adding a topical anesthetic to the Schirmer test change?",
+    "choices": [
+      "It measures reflex tearing only",
+      "It measures tear break-up time instead",
+      "It limits the result to basal secretion",
+      "It makes the strip wet faster and farther"
+    ],
+    "answer": 2,
+    "explanation": "Anesthetic blocks reflex tearing from the strip, so only basal secretion is measured. Without anesthetic (Schirmer I), both basal and reflex tearing contribute.",
+    "source": {
+      "title": "Wikipedia: Schirmer's test",
+      "url": "https://en.wikipedia.org/wiki/Schirmer%27s_test"
+    }
+  },
+  {
+    "id": "ncle-out-101",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Schirmer test",
+    "difficulty": 1,
+    "stem": "In a 5-minute Schirmer test, which result is generally considered a tear deficiency?",
+    "choices": [
+      "About 15 mm of wetting",
+      "Less than 5 mm of wetting",
+      "About 10 mm of wetting",
+      "About 25 mm of wetting"
+    ],
+    "answer": 1,
+    "explanation": "Normal is 10 mm or more of wetting after 5 minutes, and less than 5 mm indicates tear deficiency. Young people typically wet about 15 mm, and people with Sjögren's disease often wet less than 5 mm.",
+    "source": {
+      "title": "Wikipedia: Schirmer's test",
+      "url": "https://en.wikipedia.org/wiki/Schirmer%27s_test"
+    }
+  },
+  {
+    "id": "ncle-out-102",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Schirmer test",
+    "difficulty": 1,
+    "stem": "Where is the Schirmer strip placed?",
+    "choices": [
+      "Over the lower lid margin, in the lower conjunctival sac",
+      "Directly on the central cornea for five minutes",
+      "Under the upper lid at the 12 o'clock position",
+      "In the inner canthus, resting over the lower punctum"
+    ],
+    "answer": 0,
+    "explanation": "The bent end of the strip rests between the palpebral conjunctiva of the lower lid and the bulbar conjunctiva. Tears move along the paper by capillary action, and the eyes are usually kept gently closed for 5 minutes.",
+    "source": {
+      "title": "Wikipedia: Schirmer's test",
+      "url": "https://en.wikipedia.org/wiki/Schirmer%27s_test"
+    }
+  },
+  {
+    "id": "ncle-out-103",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Tear break-up time",
+    "difficulty": 2,
+    "stem": "What does fluorescein tear break-up time (TBUT) measure?",
+    "choices": [
+      "Volume of tears produced in five minutes",
+      "Time for the dye to drain into the nose",
+      "Time from a blink to the first dry spot",
+      "Number of complete blinks per minute"
+    ],
+    "answer": 2,
+    "explanation": "TBUT is the interval between the last blink and the first randomly distributed dry spot, seen as a dark area in the fluorescein-stained tear film under cobalt blue light. It assesses tear film stability.",
+    "source": {
+      "title": "Wikipedia: Tear break-up time",
+      "url": "https://en.wikipedia.org/wiki/Tear_break-up_time"
+    }
+  },
+  {
+    "id": "ncle-out-104",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Tear break-up time",
+    "difficulty": 2,
+    "stem": "Why should a fluorescein strip for TBUT be wetted with preservative-free saline?",
+    "choices": [
+      "Preservatives stain the cornea a permanent green",
+      "Preservatives such as BAK falsely shorten TBUT",
+      "Preserved saline will not dissolve the dye at all",
+      "Preservative-free saline lengthens any TBUT to normal"
+    ],
+    "answer": 1,
+    "explanation": "Benzalkonium chloride can increase the speed of tear break-up, so preservative-free saline is used to moisten the strip. Touching the cornea with the strip also causes reflex tearing that affects the result.",
+    "source": {
+      "title": "Wikipedia: Tear break-up time",
+      "url": "https://en.wikipedia.org/wiki/Tear_break-up_time"
+    }
+  },
+  {
+    "id": "ncle-out-105",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Tear break-up time",
+    "difficulty": 2,
+    "stem": "Which TBUT value is usually considered suspicious for tear film instability?",
+    "choices": [
+      "About 15 seconds",
+      "Less than 10 seconds",
+      "About 20 seconds",
+      "About 30 seconds"
+    ],
+    "answer": 1,
+    "explanation": "TBUT of about 10–35 seconds is generally considered normal, and less than 10 seconds is suspicious. Dry spots that appear repeatedly in the same place suggest a local surface abnormality rather than general instability.",
+    "source": {
+      "title": "Wikipedia: Tear break-up time",
+      "url": "https://en.wikipedia.org/wiki/Tear_break-up_time"
+    }
+  },
+  {
+    "id": "ncle-out-106",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Tear break-up time",
+    "difficulty": 3,
+    "stem": "A patient's TBUT is 8 seconds and the interval between blinks is 12 seconds. What is the ocular protection index (OPI), and what does it suggest?",
+    "choices": [
+      "About 0.67; below 1.0, so the cornea dries between blinks",
+      "About 1.5; above 1.0, so the tear film is protective",
+      "About 4; the blink rate is too fast to measure OPI",
+      "About 20; the tear film is normal and stable"
+    ],
+    "answer": 0,
+    "explanation": "OPI = TBUT ÷ inter-blink interval = 8 ÷ 12 ≈ 0.67. When the tear film breaks up before the next blink (OPI below 1.0), dryness and discomfort are likely, even if TBUT itself looks borderline.",
+    "source": {
+      "title": "Wikipedia: Tear break-up time",
+      "url": "https://en.wikipedia.org/wiki/Tear_break-up_time"
+    }
+  },
+  {
+    "id": "ncle-out-107",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Slit lamp with lenses on",
+    "difficulty": 2,
+    "stem": "When evaluating a new soft lens at the slit lamp, how long after insertion should fit be judged before rejecting a lens for poor movement?",
+    "choices": [
+      "Immediately, within the first minute",
+      "After 8 hours of wear only",
+      "After the patient has slept in it",
+      "At least 10 minutes"
+    ],
+    "answer": 3,
+    "explanation": "A study of hydrogel and silicone hydrogel lenses concluded that a lens showing poor movement on blink or push-up at least 10 minutes after insertion should be rejected, because these early findings predicted fit after 8 hours.",
+    "source": {
+      "title": "Aston University: Optimum settling time for soft contact lens fit assessment (Contact Lens & Anterior Eye, 2015, author manuscript)",
+      "url": "https://publications.aston.ac.uk/id/eprint/27357/1/Initial_fit_soft_contact_lens_prescribing.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-108",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "SLK",
+    "difficulty": 3,
+    "stem": "Contact lens-induced superior limbic keratoconjunctivitis (CL-SLK) has historically been most strongly linked to which solution preservative?",
+    "choices": [
+      "Polyquaternium-1",
+      "Hydrogen peroxide",
+      "Sodium chloride",
+      "Thimerosal"
+    ],
+    "answer": 3,
+    "explanation": "There is a strong historical correlation between CL-SLK and thimerosal-containing solutions, although cases also occur with other systems and with lens fit problems.",
+    "source": {
+      "title": "Contact Lens Spectrum: Contact Lens-induced Superior Limbic Keratoconjunctivitis, Feb 1996",
+      "url": "https://clspectrum.com/issues/1996/february/contact-lens-induced-superior-limbic/"
+    }
+  },
+  {
+    "id": "ncle-out-109",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "SLK",
+    "difficulty": 2,
+    "stem": "Which findings suggest contact lens-induced SLK?",
+    "choices": [
+      "Inferior arcuate staining under a tight, thin soft lens",
+      "A central corneal ulcer with mucopurulent discharge",
+      "Superior bulbar injection, limbal infiltrates, and staining",
+      "Isolated 3 and 9 o'clock staining with a rigid lens"
+    ],
+    "answer": 2,
+    "explanation": "In CL-SLK the superior limbal vessels dilate and may release infiltrates, the perilimbal area may look irregular with epithelial staining, and the superior third of the cornea may show edema and neovascularization.",
+    "source": {
+      "title": "Contact Lens Spectrum: Contact Lens-induced Superior Limbic Keratoconjunctivitis, Feb 1996",
+      "url": "https://clspectrum.com/issues/1996/february/contact-lens-induced-superior-limbic/"
+    }
+  },
+  {
+    "id": "ncle-out-110",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "SLK",
+    "difficulty": 2,
+    "stem": "What is the first step in managing contact lens-related SLK?",
+    "choices": [
+      "Discontinue lens wear for a period of time",
+      "Bandage the eye with a thicker lens",
+      "Switch to overnight wear",
+      "Add a preserved rewetting drop"
+    ],
+    "answer": 0,
+    "explanation": "Stopping lens wear improves contact lens-related SLK. In the reported case, switching to a preservative-free peroxide system, preservative-free lubricants, and fresh lenses resolved the condition over three weeks.",
+    "source": {
+      "title": "Columbia Digital Reference of Ophthalmology: Superior Limbic Keratoconjunctivitis",
+      "url": "https://www.vagelos.columbia.edu/departments-centers/ophthalmology/education/digital-reference-ophthalmology/cornea-and-external-diseases/non-infectious/superior-limbic-keratoconjunctivitis"
+    }
+  },
+  {
+    "id": "ncle-out-111",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "SLK",
+    "difficulty": 3,
+    "stem": "How does management of idiopathic SLK of Theodore differ from contact lens-related SLK?",
+    "choices": [
+      "Idiopathic: refit a rigid lens; lens-related: wear longer",
+      "Both are managed by increasing daily wearing time",
+      "Lens-related SLK requires conjunctival surgery first",
+      "Idiopathic: bandage soft lens; lens-related: stop lens wear"
+    ],
+    "answer": 3,
+    "explanation": "Idiopathic SLK of Theodore typically affects middle-aged women and may benefit from a bandage soft lens. In contact lens-related SLK, stopping lens wear for a time improves the condition.",
+    "source": {
+      "title": "Columbia Digital Reference of Ophthalmology: Superior Limbic Keratoconjunctivitis",
+      "url": "https://www.vagelos.columbia.edu/departments-centers/ophthalmology/education/digital-reference-ophthalmology/cornea-and-external-diseases/non-infectious/superior-limbic-keratoconjunctivitis"
+    }
+  },
+  {
+    "id": "ncle-out-112",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "VLK",
+    "difficulty": 2,
+    "stem": "What is the hallmark appearance of vascularized limbal keratitis (VLK)?",
+    "choices": [
+      "A superior arcuate stain hidden under the upper lid",
+      "A central white infiltrate with mucopurulent discharge",
+      "An elevated, opaque limbal mass at 3 and 9 o'clock",
+      "A brown iron ring encircling the base of a cone"
+    ],
+    "answer": 2,
+    "explanation": "VLK is an ill-defined, elevated, opaque limbal lesion along the horizontal axis, with staining and, in advanced stages, superficial and deep vascularization. Patients report lens awareness, reduced wearing time, and sometimes a visible white spot.",
+    "source": {
+      "title": "Contact Lens Spectrum: Vascularized Limbal Keratitis, Aug 1996",
+      "url": "https://clspectrum.com/issues/1996/august/vascularized-limbal-keratitis/"
+    }
+  },
+  {
+    "id": "ncle-out-113",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "VLK",
+    "difficulty": 2,
+    "stem": "Which rigid lens characteristics are associated with VLK?",
+    "choices": [
+      "Large, steep lenses with low edge lift",
+      "Small, flat lenses with high edge lift",
+      "Lenses that ride high and move freely",
+      "Thin daily disposable soft lenses"
+    ],
+    "answer": 0,
+    "explanation": "VLK is linked to large diameters with minimal peripheral clearance, steep fits, low edge lift, and central lenses with poor movement, which impair tear flow and lead to desiccation and chafing.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: Uncovering VLK",
+      "url": "https://www.reviewofcontactlenses.com/article/uncovering-vlk"
+    }
+  },
+  {
+    "id": "ncle-out-114",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "VLK",
+    "difficulty": 2,
+    "stem": "Which lens changes are recommended to manage VLK?",
+    "choices": [
+      "Flatter, wider peripheral curves and a smaller diameter",
+      "Steeper peripheral curves and a larger overall diameter",
+      "A thicker edge with lower axial edge lift",
+      "Overnight wear so the limbus rests under the lens"
+    ],
+    "answer": 0,
+    "explanation": "Design changes should reduce peripheral chafing: flatter, wider peripheral curves and smaller diameters, with base curve flattening. Advanced stages need a break from lens wear and possibly steroid or antibiotic-steroid therapy.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: Uncovering VLK",
+      "url": "https://www.reviewofcontactlenses.com/article/uncovering-vlk"
+    }
+  },
+  {
+    "id": "ncle-out-115",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "VLK",
+    "difficulty": 3,
+    "stem": "How can a dellen be told apart from VLK?",
+    "choices": [
+      "A dellen always shows deep stromal vessels; VLK never does",
+      "A dellen pools dye without staining and is depressed",
+      "A dellen occurs only superiorly; VLK only inferiorly",
+      "A dellen worsens off lenses; VLK improves only with wear"
+    ],
+    "answer": 1,
+    "explanation": "Dellen are areas of reversible peripheral thinning from desiccation. They pool fluorescein but do not stain, and topography shows a depression rather than VLK's staining elevation.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: Managing Corneal GP Complications",
+      "url": "https://www.reviewofcontactlenses.com/article/rccl1117-managing-corneal-gp-complications"
+    }
+  },
+  {
+    "id": "ncle-out-116",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "VLK",
+    "difficulty": 3,
+    "stem": "Which feature helps separate VLK from phlyctenulosis?",
+    "choices": [
+      "VLK is always infectious, while phlyctenules never are",
+      "Phlyctenules occur only in rigid gas permeable wearers",
+      "VLK regresses within days; phlyctenules last up to two weeks",
+      "VLK migrates across the cornea, while phlyctenules stay put"
+    ],
+    "answer": 2,
+    "explanation": "Both can present as a white nodule with hyperemia. VLK regresses quickly with treatment, whereas phlyctenulosis can last up to two weeks, may migrate across the cornea, and has an infectious etiology.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: Uncovering VLK",
+      "url": "https://www.reviewofcontactlenses.com/article/uncovering-vlk"
+    }
+  },
+  {
+    "id": "ncle-out-117",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Dimple veiling",
+    "difficulty": 2,
+    "stem": "What is dimple veiling under a corneal GP lens?",
+    "choices": [
+      "Bubble indentations that pool fluorescein",
+      "Punctate staining from preservative toxicity",
+      "Epithelial microcysts caused by hypoxia",
+      "Lens deposits seen only in retroillumination"
+    ],
+    "answer": 0,
+    "explanation": "Small air bubbles trapped under a GP lens indent the epithelium, and fluorescein pools in the indentations. The spots are brighter and more circular than punctate epithelial erosions and usually resolve within minutes to hours after removal.",
+    "source": {
+      "title": "Contact Lens Spectrum: Clinical Report: Dimple Veiling in Corneal GP Lens Wearers, Oct 2025",
+      "url": "https://clspectrum.com/issues/2025/october/online-photo-diagnosis/?d=report"
+    }
+  },
+  {
+    "id": "ncle-out-118",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Dimple veiling",
+    "difficulty": 2,
+    "stem": "Extensive dimple veiling with large bubbles under a corneal GP lens most often indicates which fit problem, and what is the fix?",
+    "choices": [
+      "A flat fit; steepen the base curve",
+      "A steep fit; refit the lens or add fenestrations",
+      "A loose soft lens; increase diameter",
+      "Solution toxicity; change the care system"
+    ],
+    "answer": 1,
+    "explanation": "Excessive dimple veiling can reduce vision and often signals a steep fitting relationship, with larger isolated bubbles a particular marker. Improving the fit or adding fenestrations reduces it.",
+    "source": {
+      "title": "Contact Lens Spectrum: Clinical Report: Dimple Veiling in Corneal GP Lens Wearers, Oct 2025",
+      "url": "https://clspectrum.com/issues/2025/october/online-photo-diagnosis/?d=report"
+    }
+  },
+  {
+    "id": "ncle-out-119",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Mucin balls",
+    "difficulty": 2,
+    "stem": "Which description fits mucin balls in silicone hydrogel wearers?",
+    "choices": [
+      "Tiny intraepithelial dots seen only in retroillumination",
+      "Infiltrates surrounded by a ring of stromal haze",
+      "Calcium deposits fixed to the front lens surface",
+      "Round 40–120 µm bodies that leave pooling dimples"
+    ],
+    "answer": 3,
+    "explanation": "Mucin balls are relatively large spherical bodies, easily seen in direct white light. They stay motionless under the lens and indent the epithelium, and the indentations pool fluorescein without an epithelial breach, resolving within 30 minutes to several hours.",
+    "source": {
+      "title": "Contact Lens Spectrum: Mucin Balls and High Dk Soft Lenses, Jul 2000",
+      "url": "https://clspectrum.com/issues/2000/july/mucin-balls-and-high-dk-soft-lenses/"
+    }
+  },
+  {
+    "id": "ncle-out-120",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Mucin balls",
+    "difficulty": 2,
+    "stem": "Which lens property is associated with greater numbers of mucin balls?",
+    "choices": [
+      "Lower water content in a hydrogel",
+      "Higher modulus (stiffer) material",
+      "A thinner center thickness",
+      "A lighter handling tint"
+    ],
+    "answer": 1,
+    "explanation": "More mucin balls are seen with higher-modulus lens materials, and the stiffer high-Dk silicone hydrogels may increase mechanical interaction with the ocular surface. Patient characteristics also play a role.",
+    "source": {
+      "title": "Contact Lens Spectrum: Mucin Balls and High Dk Soft Lenses, Jul 2000",
+      "url": "https://clspectrum.com/issues/2000/july/mucin-balls-and-high-dk-soft-lenses/"
+    }
+  },
+  {
+    "id": "ncle-out-121",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Mucin balls",
+    "difficulty": 2,
+    "stem": "How are fluorescein-filled dimples left by mucin balls distinguished from true epithelial staining?",
+    "choices": [
+      "They pool dye without a breach and fade after removal",
+      "They stain brighter as time passes after removal",
+      "They always come with pain and mucopurulent discharge",
+      "They are seen only with rigid lenses, never soft ones"
+    ],
+    "answer": 0,
+    "explanation": "Mucin ball depressions pool fluorescein and do not indicate an epithelial breach; they should not be confused with macropunctate staining. Vacuoles, by contrast, show no fluorescein response.",
+    "source": {
+      "title": "Contact Lens Spectrum: Mucin Balls and High Dk Soft Lenses, Jul 2000",
+      "url": "https://clspectrum.com/issues/2000/july/mucin-balls-and-high-dk-soft-lenses/"
+    }
+  },
+  {
+    "id": "ncle-out-122",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Corneal warpage",
+    "difficulty": 2,
+    "stem": "Which lens fits are known causes of rigid lens-induced corneal warpage?",
+    "choices": [
+      "Daily disposable soft lenses with good movement",
+      "Well-centered lenses with ideal axial edge lift",
+      "Steep base curves; spherical GPs on toric corneas",
+      "Scleral lenses with adequate limbal clearance"
+    ],
+    "answer": 2,
+    "explanation": "Warpage is lens-induced irregular astigmatism with loss of radial symmetry. Causes include excessively steep base curves, spherical GPs on corneas with more than 2.5 D of toricity, and progressing ectasia. Patients are often unaware because the tear lens masks the irregularity.",
+    "source": {
+      "title": "Contact Lens Spectrum: GP Insights (corneal warpage), Aug 2018",
+      "url": "https://clspectrum.com/issues/2018/august/gp-insights/"
+    }
+  },
+  {
+    "id": "ncle-out-123",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Corneal warpage",
+    "difficulty": 3,
+    "stem": "A long-term GP wearer has corneal warpage and needs a stable refit. What rule of thumb is often used for how long lenses should be discontinued?",
+    "choices": [
+      "24 hours off lenses, regardless of how long they were worn",
+      "One week off for every year of wear, then refit immediately",
+      "About one month off per decade of wear, until readings stabilize",
+      "No break is needed if the patient switches to new GP lenses"
+    ],
+    "answer": 2,
+    "explanation": "A common rule of thumb is one month off for every decade of wear, with refraction and topography repeated every two to four weeks until repeatable. Soft lenses or refitting one eye at a time can bridge patients who cannot function without lenses.",
+    "source": {
+      "title": "Contact Lens Spectrum: GP Insights (corneal warpage), Aug 2018",
+      "url": "https://clspectrum.com/issues/2018/august/gp-insights/"
+    }
+  },
+  {
+    "id": "ncle-out-124",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Corneal warpage",
+    "difficulty": 3,
+    "stem": "A high-riding, flat GP lens has caused superior flattening and inferior steepening on topography. What is the main concern?",
+    "choices": [
+      "It can mimic keratoconus; limit wear and repeat imaging",
+      "It confirms keratoconus and calls for cross-linking now",
+      "It shows the current lens fit is ideal and should stay",
+      "It is caused by toxicity from the care solution"
+    ],
+    "answer": 0,
+    "explanation": "Corneal molding under a high-riding lens can look like keratoconus on topography. Limiting lens wear for a few weeks and repeating imaging checks whether the pattern resolves.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: Managing Corneal GP Complications",
+      "url": "https://www.reviewofcontactlenses.com/article/rccl1117-managing-corneal-gp-complications"
+    }
+  },
+  {
+    "id": "ncle-out-125",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Documentation",
+    "difficulty": 1,
+    "stem": "In the Efron grading scales for contact lens complications, what do grades 0 and 4 mean?",
+    "choices": [
+      "0 is severe and 4 is normal",
+      "0 is normal and 4 is severe",
+      "0 is mild and 4 is moderate",
+      "0 means not examined and 4 means referred"
+    ],
+    "answer": 1,
+    "explanation": "The Efron scales illustrate complications in five levels from grade 0 (normal) to grade 4 (severe) so findings can be recorded consistently and compared at later visits.",
+    "source": {
+      "title": "Optometry Museum & Archive (ACO): Efron Grading Scales for Contact Lens Complications",
+      "url": "https://museum.aco.org.au/archive/1116-efron-grading-scales-for-contact-lens-complications"
+    }
+  },
+  {
+    "id": "ncle-out-126",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Changing parameters",
+    "difficulty": 2,
+    "stem": "A silicone hydrogel wearer develops a superior epithelial arcuate lesion (SEAL). Which lens property should be considered when refitting?",
+    "choices": [
+      "Handling tint color and density",
+      "Lens power and add power",
+      "Packaging solution brand and pH",
+      "Material modulus (stiffness)"
+    ],
+    "answer": 3,
+    "explanation": "Higher modulus improves handling but is linked to mechanical complications including papillary conjunctivitis, SEALs, limbal epithelial hypertrophy, mucin balls, and edge fluting.",
+    "source": {
+      "title": "Contact Lens Spectrum: Modulus and Its Effect on Contact Lens Fit, Feb 2007",
+      "url": "https://clspectrum.com/issues/2007/february/modulus-and-its-effect-on-contact-lens-fit/"
+    }
+  },
+  {
+    "id": "ncle-out-127",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Changing parameters",
+    "difficulty": 3,
+    "stem": "A high-modulus silicone hydrogel lens shows edge fluting on a patient with steep corneas. Which change is most likely to give full draping?",
+    "choices": [
+      "A flatter base curve in the same material",
+      "Higher minus power",
+      "A thicker edge",
+      "A steeper base curve or a lower-modulus material"
+    ],
+    "answer": 3,
+    "explanation": "In a reported case, fluting occurred with high-modulus lenses and with the flatter base curve of one brand, while the steeper base curve and lower-modulus hydrogels draped fully. Design choices matter more as modulus rises.",
+    "source": {
+      "title": "Contact Lens Spectrum: Modulus and Its Effect on Contact Lens Fit, Feb 2007",
+      "url": "https://clspectrum.com/issues/2007/february/modulus-and-its-effect-on-contact-lens-fit/"
+    }
+  },
+  {
+    "id": "ncle-out-128",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Changing parameters",
+    "difficulty": 3,
+    "stem": "A GP lens shows 3 and 9 o'clock staining with excessive edge clearance on fluorescein evaluation. Which peripheral change is indicated?",
+    "choices": [
+      "Flatter peripheral curve radius",
+      "Steeper or narrower peripheral curve",
+      "Wider peripheral curve width",
+      "Thicker, more rounded lens edge"
+    ],
+    "answer": 1,
+    "explanation": "Excessive edge lift or a thick edge leaves a lid gap that prevents tears from wetting the adjacent cornea. Steepening or narrowing the peripheral curve and thinning the edge reduce the gap; adherence calls for the opposite.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: Managing Corneal GP Complications",
+      "url": "https://www.reviewofcontactlenses.com/article/rccl1117-managing-corneal-gp-complications"
+    }
+  },
+  {
+    "id": "ncle-out-129",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Who may prescribe",
+    "difficulty": 1,
+    "stem": "Under the FTC Contact Lens Rule, who is a 'prescriber'?",
+    "choices": [
+      "Any licensed optician in any state, regardless of local state law",
+      "Any seller that has verified the prescription by direct communication",
+      "An ophthalmologist, optometrist, or other person allowed by state law",
+      "Only an ophthalmologist; optometrists need a physician co-signature"
+    ],
+    "answer": 2,
+    "explanation": "The Rule defines a prescriber as an ophthalmologist, optometrist, or other person permitted under state law to issue contact lens prescriptions in compliance with FDA requirements. This can include a dispensing optician only where state law allows the optician to prescribe and fit.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-130",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Verifying the prescriber",
+    "difficulty": 2,
+    "stem": "How may a seller fill a contact lens order under the Rule?",
+    "choices": [
+      "With any prescription the patient describes verbally",
+      "With the patient's current spectacle prescription",
+      "With a prescription for any brand the seller chooses",
+      "With a prescription presented to it or verified directly"
+    ],
+    "answer": 3,
+    "explanation": "A seller may sell lenses only per a prescription presented directly or by fax, or verified through direct communication, which the Rule defines as completed communication by telephone, fax, or email.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-131",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Verifying the prescriber",
+    "difficulty": 2,
+    "stem": "A seller's complete verification request reaches a prescriber at 3:00 p.m. on a Monday (no holiday, no Saturday hours). When is it verified if the prescriber does not respond?",
+    "choices": [
+      "11:00 p.m. Monday",
+      "3:00 p.m. Tuesday",
+      "9:00 a.m. Tuesday",
+      "5:00 p.m. Wednesday"
+    ],
+    "answer": 1,
+    "explanation": "Business hours run 9 a.m. to 5 p.m. weekdays in the prescriber's time zone. Monday 3–5 p.m. gives 2 hours; the remaining 6 run from 9 a.m. to 3 p.m. Tuesday, completing 8 business hours.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-132",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Verifying the prescriber",
+    "difficulty": 3,
+    "stem": "A verification request arrives at 7:00 p.m. on a Friday, and the seller has not opted to count Saturday hours. When do the 8 business hours end if no holiday intervenes?",
+    "choices": [
+      "7:00 p.m. Saturday",
+      "9:00 a.m. Monday",
+      "5:00 p.m. Monday",
+      "3:00 a.m. Saturday"
+    ],
+    "answer": 2,
+    "explanation": "Requests received outside business hours start counting at 9 a.m. on the next weekday. From 9 a.m. Monday, 8 business hours end at 5 p.m. Monday.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-133",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Verifying the prescriber",
+    "difficulty": 2,
+    "stem": "During the verification period, the prescriber tells the seller the prescription has expired. What must happen?",
+    "choices": [
+      "The seller may not fill it; the prescriber gives the reason",
+      "The seller may fill it once as a courtesy to the patient",
+      "The seller may fill it if the patient signs a waiver",
+      "The seller must substitute a different brand instead"
+    ],
+    "answer": 0,
+    "explanation": "If the prescriber reports before the deadline that a prescription is inaccurate, expired, or otherwise invalid, the seller shall not fill it and the prescriber must specify the basis. An inaccurate prescription is corrected by the prescriber and then deemed verified.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-134",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Record retention",
+    "difficulty": 2,
+    "stem": "How long must sellers keep records of their verification communications under the Rule?",
+    "choices": [
+      "At least three years",
+      "At least six months",
+      "At least one year",
+      "At least ten years"
+    ],
+    "answer": 0,
+    "explanation": "Seller verification records must be kept for not less than three years and be available for FTC inspection. Prescribers also keep confirmation-of-release records and documentation for short expiration dates for at least three years.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-135",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Verifying the prescriber",
+    "difficulty": 3,
+    "stem": "If a seller uses automated telephone messages to verify prescriptions, what must it do?",
+    "choices": [
+      "Call only on weekends",
+      "Leave the message only with the patient",
+      "Send a fax afterward instead of a record",
+      "Record the entire call and keep the recording"
+    ],
+    "answer": 3,
+    "explanation": "The Rule requires sellers using automated verification calls to record the entire call, and the recording is part of the required verification records.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-136",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Prescription release",
+    "difficulty": 2,
+    "stem": "A patient's designated agent asks the prescriber for a copy of the contact lens prescription. How quickly must it be provided?",
+    "choices": [
+      "Within 8 business hours, with no record required",
+      "Within 40 business hours, recording who asked and when",
+      "Within 30 calendar days, after the patient signs a form",
+      "Only after the agent pays a separate copying fee"
+    ],
+    "answer": 1,
+    "explanation": "On request, the prescriber must give any person designated to act for the patient a copy within forty business hours and note in the record the requester's name and the date and time it was provided.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-137",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Private label",
+    "difficulty": 2,
+    "stem": "When may a seller substitute a different brand name for the lens on a prescription?",
+    "choices": [
+      "Whenever the substitute lens has the same power and curve",
+      "Only for identical private label lenses from the same maker",
+      "Whenever the seller's own brand costs the patient less",
+      "Whenever the prescriber fails to answer within 8 hours"
+    ],
+    "answer": 1,
+    "explanation": "Sellers may not alter a prescription. The only substitution allowed is for private label lenses: identical lenses that the same company manufactures and sells under different labels.",
+    "source": {
+      "title": "eCFR: 16 CFR Part 315 — Contact Lens Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-315"
+    }
+  },
+  {
+    "id": "ncle-out-138",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Recall procedures",
+    "difficulty": 2,
+    "stem": "Which FDA recall class means there is a reasonable probability that a product will cause serious adverse health consequences or death?",
+    "choices": [
+      "Class II",
+      "Class III",
+      "Market withdrawal",
+      "Class I"
+    ],
+    "answer": 3,
+    "explanation": "Class I is the most serious. Class II covers temporary or medically reversible effects or a remote chance of serious harm. Class III is not likely to cause adverse health consequences, and a market withdrawal involves a minor violation.",
+    "source": {
+      "title": "FDA: Recalls Background and Definitions",
+      "url": "https://www.fda.gov/safety/industry-guidance-recalls/recalls-background-and-definitions"
+    }
+  },
+  {
+    "id": "ncle-out-139",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Recall procedures",
+    "difficulty": 2,
+    "stem": "A practice receives a manufacturer's recall letter for a lot of daily disposable lenses with incorrect power. What should it do?",
+    "choices": [
+      "Keep dispensing until the FDA classifies the recall",
+      "Contact only those patients who report a problem",
+      "Pull the lot, return the form, and notify affected patients",
+      "Relabel the lenses with the correct power and dispense"
+    ],
+    "answer": 2,
+    "explanation": "Recall letters identify product by lot number. A 2026 FDA-listed recall asked customers to stop distributing the lot, dispose of it, return the response form within five business days, and have eye care practitioners contact patients who received it.",
+    "source": {
+      "title": "FDA Medical Device Recall database: Class 2 recall, Pearle Vision 1 day (somofilcon A)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222436"
+    }
+  },
+  {
+    "id": "ncle-out-140",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Inventory and ordering",
+    "difficulty": 1,
+    "stem": "How should a practice rotate lens and solution inventory?",
+    "choices": [
+      "Newest shipment in front, since it always has the latest dates",
+      "Check expiration dates once a year during the annual audit",
+      "Soonest-expiring stock in front; check dates on every shipment",
+      "Rely on the lab's inventory records for all expiration dates"
+    ],
+    "answer": 2,
+    "explanation": "Practices should regularly check expiration dates on lenses, solutions, drugs, and samples and rotate stock so the soonest-expiring items are used first. The lab's inventory system may not be accurate.",
+    "source": {
+      "title": "Contact Lens Spectrum: Staffing Solutions, Apr 2003",
+      "url": "https://clspectrum.com/issues/2003/april/staffing-solutions/"
+    }
+  },
+  {
+    "id": "ncle-out-141",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Inventory and ordering",
+    "difficulty": 2,
+    "stem": "Which routine helps a specialty lens practice avoid running out of supplies or dispensing expired kits?",
+    "choices": [
+      "A quarterly or twice-yearly inventory, checking kits and trial sets",
+      "Ordering supplies only once a patient is waiting for them",
+      "A full inventory every five years when equipment is replaced",
+      "Discarding and replacing every trial lens set each month"
+    ],
+    "answer": 0,
+    "explanation": "A comprehensive inventory done quarterly or at least twice a year prevents shortages and expired supplies. Starter kits need expiration checks, and trial lens sets should be disinfected, verified, and organized.",
+    "source": {
+      "title": "Contact Lens Spectrum: GP Insights (stocking and maintaining fitting supplies), Jun 2022",
+      "url": "https://clspectrum.com/issues/2022/june/gp-insights"
+    }
+  },
+  {
+    "id": "ncle-out-142",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "HIPAA",
+    "difficulty": 1,
+    "stem": "Under the HIPAA Privacy Rule, in which forms is individually identifiable health information protected?",
+    "choices": [
+      "Electronic only",
+      "Paper only",
+      "Only information sent to insurers",
+      "Electronic, paper, and oral"
+    ],
+    "answer": 3,
+    "explanation": "The Privacy Rule protects individually identifiable health information held or transmitted by a covered entity or its business associate in any form or media, whether electronic, paper, or oral.",
+    "source": {
+      "title": "HHS: Summary of the HIPAA Privacy Rule",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html"
+    }
+  },
+  {
+    "id": "ncle-out-143",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "HIPAA",
+    "difficulty": 2,
+    "stem": "Under HIPAA, may an eye care practice use a patient's health information for that patient's treatment without a written authorization?",
+    "choices": [
+      "No; every use requires a signed patient authorization",
+      "Yes; treatment, payment, and operations uses are permitted",
+      "Only if the patient is over 65 and enrolled in Medicare",
+      "Only if the information is kept on paper, not electronically"
+    ],
+    "answer": 1,
+    "explanation": "A covered entity may use and disclose protected health information for its own treatment, payment, and health care operations, and may disclose it for another provider's treatment activities.",
+    "source": {
+      "title": "HHS: Summary of the HIPAA Privacy Rule",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html"
+    }
+  },
+  {
+    "id": "ncle-out-144",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "OSHA",
+    "difficulty": 2,
+    "stem": "Under OSHA's Bloodborne Pathogens Standard, what must an employer with occupational exposure put in place?",
+    "choices": [
+      "A written exposure control plan",
+      "A sign at each sink reminding staff to wash hands",
+      "Annual HIV and hepatitis testing of every patient",
+      "A written ban on handling tears or lenses by hand"
+    ],
+    "answer": 0,
+    "explanation": "The standard (29 CFR 1910.1030) requires an exposure control plan describing engineering and work practice controls, personal protective equipment, training, medical surveillance, and hepatitis B vaccinations.",
+    "source": {
+      "title": "OSHA: Bloodborne Pathogens — Overview",
+      "url": "https://www.osha.gov/bloodborne-pathogens"
+    }
+  },
+  {
+    "id": "ncle-out-145",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Modulus",
+    "difficulty": 2,
+    "stem": "What does a higher modulus of elasticity mean clinically for a soft lens?",
+    "choices": [
+      "Higher oxygen transmissibility at the same thickness",
+      "Fewer deposits and less papillary conjunctivitis",
+      "Better draping and less edge fluting on steep corneas",
+      "Easier handling, but more mechanical complications"
+    ],
+    "answer": 3,
+    "explanation": "Modulus describes resistance to deformation. Stiffer lenses handle better and are easier to check for inversion, but they are linked to CLPC, SEALs, limbal epithelial hypertrophy, mucin balls, and edge standoff.",
+    "source": {
+      "title": "Contact Lens Spectrum: Modulus and Its Effect on Contact Lens Fit, Feb 2007",
+      "url": "https://clspectrum.com/issues/2007/february/modulus-and-its-effect-on-contact-lens-fit/"
+    }
+  },
+  {
+    "id": "ncle-out-146",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Surface treatments",
+    "difficulty": 2,
+    "stem": "Why do many silicone hydrogel lenses need surface modification or wetting agents?",
+    "choices": [
+      "Silicone makes the surface hydrophobic",
+      "Silicone blocks oxygen at the surface",
+      "Silicone makes the lens too soft to handle",
+      "Silicone reacts chemically with saline"
+    ],
+    "answer": 0,
+    "explanation": "Silicone hydrogels are slightly stiffer and their surface can be hydrophobic, which affects comfort. Manufacturers address this with surface treatments or wetting agents.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-147",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Surface treatments",
+    "difficulty": 2,
+    "stem": "How did first- and second-generation silicone hydrogels improve surface wettability?",
+    "choices": [
+      "1st: plasma surface treatment; 2nd: internal wetting agents",
+      "1st: internal wetting agents; 2nd: plasma surface treatment",
+      "Both generations used thimerosal-based surface coatings",
+      "Both generations relied only on higher water content"
+    ],
+    "answer": 0,
+    "explanation": "First-generation silicone hydrogels used plasma coating to change the hydrophobic surface, second-generation lenses incorporated internal rewetting agents, and third-generation materials are inherently wettable without added treatments.",
+    "source": {
+      "title": "Wikipedia: Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+    }
+  },
+  {
+    "id": "ncle-out-148",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Hybrid lenses",
+    "difficulty": 1,
+    "stem": "What is the basic construction of a modern hybrid contact lens?",
+    "choices": [
+      "A soft center with a rigid outer ring",
+      "A rigid center with a soft skirt",
+      "A soft lens worn under a rigid lens",
+      "A scleral lens with a soft optic zone"
+    ],
+    "answer": 1,
+    "explanation": "Hybrids combine a rigid center for optics with a soft skirt for comfort. The skirt keeps the rigid center centered and limits movement, giving stable vision.",
+    "source": {
+      "title": "Optometric Management: Combining Vision and Comfort With Hybrid Lenses, Mar 2014",
+      "url": "https://optometricmanagement.com/issues/2014/march/specialty-contact-lenses-combining-vision-and-comfort-with-hybrid-lenses/"
+    }
+  },
+  {
+    "id": "ncle-out-149",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Hybrid lenses",
+    "difficulty": 2,
+    "stem": "Which patient is a good candidate for a hybrid lens designed for regular astigmatism?",
+    "choices": [
+      "A patient who needs 30-night continuous wear",
+      "An astigmat who cannot tolerate GP comfort",
+      "A severe dry eye patient needing a fluid reservoir",
+      "A child who needs overnight myopia control"
+    ],
+    "answer": 1,
+    "explanation": "Hybrids suit patients with astigmatism or asymmetric corneas who need rigid optics but cannot wear GP lenses comfortably. Designs for regular astigmatism are not indicated for keratoconic or post-surgical corneas.",
+    "source": {
+      "title": "Optometric Management: Combining Vision and Comfort With Hybrid Lenses, Mar 2014",
+      "url": "https://optometricmanagement.com/issues/2014/march/specialty-contact-lenses-combining-vision-and-comfort-with-hybrid-lenses/"
+    }
+  },
+  {
+    "id": "ncle-out-150",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Hybrid lenses",
+    "difficulty": 3,
+    "stem": "How is a reverse-geometry hybrid such as UltraHealth fit for keratoconus?",
+    "choices": [
+      "By choosing a base curve 0.1 mm flatter than flat K",
+      "By vault over the cornea, not by matching K readings",
+      "By selecting the skirt curve alone, ignoring the center",
+      "By three-point touch with bearing on the cone apex"
+    ],
+    "answer": 1,
+    "explanation": "Like a scleral lens, this design is fit by vault or elevation. The fitting guide expects the lens to settle 30–60 µm with wear, so vault is chosen to leave clearance over the apex after settling.",
+    "source": {
+      "title": "SynergEyes UltraHealth Fitting Guide (Rev E)",
+      "url": "https://iacle.s3.amazonaws.com/uploads/2014/08/70077_Rev_E_Fitting-Guide_UltraHealth.pdf"
+    }
+  },
+  {
+    "id": "ncle-out-151",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Orthokeratology",
+    "difficulty": 1,
+    "stem": "What does overnight orthokeratology do?",
+    "choices": [
+      "Permanently flattens the cornea after a few months of wear",
+      "Temporarily reshapes the cornea, mainly to reduce myopia",
+      "Uses soft lenses at night to reshape the crystalline lens",
+      "Permanently steepens the cornea to correct presbyopia"
+    ],
+    "answer": 1,
+    "explanation": "Ortho-K lenses are worn while sleeping and removed on waking. The effect is temporary; if lens wear stops, the cornea returns to its original curvature and myopia.",
+    "source": {
+      "title": "FDA: Types of Contact Lenses",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses"
+    }
+  },
+  {
+    "id": "ncle-out-152",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Orthokeratology",
+    "difficulty": 2,
+    "stem": "What does the FDA require of eye care professionals before fitting overnight ortho-K lenses?",
+    "choices": [
+      "A separate state optician license",
+      "Patient enrollment in a clinical trial",
+      "No special training or requirements",
+      "Training and certification"
+    ],
+    "answer": 3,
+    "explanation": "The FDA requires eye care professionals to be trained and certified before using overnight ortho-K lenses in practice, and patients may ask which lenses their practitioner is certified to fit.",
+    "source": {
+      "title": "FDA: Types of Contact Lenses",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses"
+    }
+  },
+  {
+    "id": "ncle-out-153",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Orthokeratology",
+    "difficulty": 2,
+    "stem": "What safety lapse is most often behind serious ortho-K complications such as Acanthamoeba infection?",
+    "choices": [
+      "Wearing the lenses only overnight as prescribed",
+      "Using a lens material with too high a Dk value",
+      "Poor hygiene, such as rinsing lenses in tap water",
+      "Removing the lenses promptly upon waking up"
+    ],
+    "answer": 2,
+    "explanation": "Complications typically come from failing to follow hygiene recommendations. Reported Acanthamoeba infections during ortho-K were possibly related to rinsing lenses in tap water.",
+    "source": {
+      "title": "Wikipedia: Orthokeratology",
+      "url": "https://en.wikipedia.org/wiki/Orthokeratology"
+    }
+  },
+  {
+    "id": "ncle-out-154",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Scleral lenses",
+    "difficulty": 1,
+    "stem": "What distinguishes a scleral lens from a corneal rigid lens?",
+    "choices": [
+      "It rests on the central cornea with apical touch",
+      "It is a soft lens bonded to a rigid outer edge",
+      "It lands on the sclera and vaults the cornea",
+      "It is designed to be worn only during sleep"
+    ],
+    "answer": 2,
+    "explanation": "A scleral lens is large and rests on the sclera, creating a tear-filled vault over the cornea. The fluid layer masks corneal irregularity and protects the ocular surface.",
+    "source": {
+      "title": "Wikipedia: Scleral lens",
+      "url": "https://en.wikipedia.org/wiki/Scleral_lens"
+    }
+  },
+  {
+    "id": "ncle-out-155",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Scleral lenses",
+    "difficulty": 2,
+    "stem": "Which condition is a common indication for scleral lenses?",
+    "choices": [
+      "Low myopia with a healthy cornea",
+      "A patient wanting overnight wear",
+      "Mild presbyopia only",
+      "Severe dry eye or ocular surface disease"
+    ],
+    "answer": 3,
+    "explanation": "Indications include severe dry eye, keratoconus and other ectasias, Stevens-Johnson syndrome, Sjögren's disease, neurotrophic keratitis, and complications after LASIK or corneal transplant.",
+    "source": {
+      "title": "Wikipedia: Scleral lens",
+      "url": "https://en.wikipedia.org/wiki/Scleral_lens"
+    }
+  },
+  {
+    "id": "ncle-out-156",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Scleral lenses",
+    "difficulty": 3,
+    "stem": "What are the three main principles of scleral lens fitting?",
+    "choices": [
+      "Touch the corneal apex, move 1–2 mm, and ride slightly high",
+      "Match flat K, use a thin edge, and attach under the lid",
+      "Clear the cornea and limbus, land evenly, keep tear exchange",
+      "Rest on the limbus, avoid the sclera, and fit loosely"
+    ],
+    "answer": 2,
+    "explanation": "Scleral fitting aims to clear the cornea and limbus, land on the sclera with an even haptic, and keep adequate tear exchange. Vault depends more on total sagittal height than on base curve.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: AS-OCT and the Specialty Contact Lens",
+      "url": "https://reviewofcontactlenses.com/article/as-oct-and-the-specialty-contact-lens"
+    }
+  },
+  {
+    "id": "ncle-out-157",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Peripheral curves and edges",
+    "difficulty": 2,
+    "stem": "For an interpalpebral RGP fit, what axial edge lift and edge thickness are generally recommended?",
+    "choices": [
+      "AEL about 80–110 µm; edge 0.09–0.12 mm",
+      "AEL about 300–400 µm; edge 0.20 mm",
+      "AEL of zero; a knife-sharp edge",
+      "AEL about 10–20 µm; edge 0.05 mm"
+    ],
+    "answer": 0,
+    "explanation": "AEL of 80–110 µm usually gives adequate tear exchange without excess lid interaction. Edges thinner than this tend to be sharp and chip, while lid-attachment designs use flatter peripheries and thicker edges.",
+    "source": {
+      "title": "Contact Lens Spectrum: Do Peripheral Curves Matter?, May 1997",
+      "url": "https://clspectrum.com/issues/1997/may/do-peripheral-curves-matter/"
+    }
+  },
+  {
+    "id": "ncle-out-158",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Peripheral curves and edges",
+    "difficulty": 3,
+    "stem": "Using the rule of thumb for a tricurve RGP (secondary curve = base curve + 1.0 to 1.5 mm), which secondary curve fits a 7.80 mm base curve?",
+    "choices": [
+      "9.00 mm",
+      "7.90 mm",
+      "8.20 mm",
+      "10.50 mm"
+    ],
+    "answer": 0,
+    "explanation": "7.80 + 1.0 = 8.80 mm and 7.80 + 1.5 = 9.30 mm, so 9.00 mm falls in range. The tertiary curve would then be the secondary radius plus 1.5 to 2.0 mm.",
+    "source": {
+      "title": "Contact Lens Spectrum: Do Peripheral Curves Matter?, May 1997",
+      "url": "https://clspectrum.com/issues/1997/may/do-peripheral-curves-matter/"
+    }
+  },
+  {
+    "id": "ncle-out-159",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Peripheral curves and edges",
+    "difficulty": 2,
+    "stem": "What can happen if an RGP peripheral curve system is too steep?",
+    "choices": [
+      "Excess lens movement and a wide lid gap at the edge",
+      "Inferior decentration from an overly flat periphery",
+      "Lens binding, poor tear exchange, and chafing",
+      "Improved oxygen supply and fresher limbal tears"
+    ],
+    "answer": 2,
+    "explanation": "A periphery that is too steep traps the lens with poor tear exchange and chafes the peripheral cornea. Too flat a periphery creates lid gap or inferior decentration, both associated with 3 and 9 o'clock staining.",
+    "source": {
+      "title": "Contact Lens Spectrum: Do Peripheral Curves Matter?, May 1997",
+      "url": "https://clspectrum.com/issues/1997/may/do-peripheral-curves-matter/"
+    }
+  }
+]

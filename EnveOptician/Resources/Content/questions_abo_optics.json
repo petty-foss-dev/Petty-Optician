@@ -1,0 +1,2024 @@
+[
+  {
+    "id": "abo-opt-001",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Light & refraction",
+    "difficulty": 1,
+    "stem": "The index of refraction of a lens material is defined as:",
+    "choices": [
+      "The speed of light in the material divided by the speed of light in a vacuum",
+      "The angle of incidence divided by the angle of refraction",
+      "The focal length of a lens made from the material, in meters",
+      "The speed of light in a vacuum divided by the speed of light in the material"
+    ],
+    "answer": 3,
+    "explanation": "Index of refraction n = c / v, where c is the speed of light in a vacuum (≈300,000 km/s) and v is its speed in the material. Because light always travels slower in a material than in a vacuum, n is always greater than 1."
+  },
+  {
+    "id": "abo-opt-002",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Index of refraction",
+    "difficulty": 2,
+    "stem": "Light travels at approximately 300,000 km/s in a vacuum. What is its approximate speed in a lens material with an index of 1.60?",
+    "choices": [
+      "480,000 km/s",
+      "300,000 km/s",
+      "187,500 km/s",
+      "120,000 km/s"
+    ],
+    "answer": 2,
+    "explanation": "v = c / n = 300,000 ÷ 1.60 = 187,500 km/s. Multiplying instead of dividing (480,000 km/s) is the common error; light can never travel faster in a material than in a vacuum."
+  },
+  {
+    "id": "abo-opt-003",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Light & refraction",
+    "difficulty": 1,
+    "stem": "When a ray of light passes obliquely from air into a material of higher index, such as crown glass, it:",
+    "choices": [
+      "Speeds up and bends toward the normal",
+      "Slows down and bends away from the normal",
+      "Continues in a straight line without bending",
+      "Slows down and bends toward the normal"
+    ],
+    "answer": 3,
+    "explanation": "Entering a denser (higher-index) medium, light slows and bends toward the normal. Leaving a denser medium for a less dense one, it speeds up and bends away from the normal."
+  },
+  {
+    "id": "abo-opt-004",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Light & refraction",
+    "difficulty": 3,
+    "stem": "A ray in air strikes a flat surface of a 1.50-index material at an angle of incidence of 30°. Using Snell's law, what is the approximate angle of refraction?",
+    "choices": [
+      "20.0°",
+      "19.5°",
+      "45.0°",
+      "30.0°"
+    ],
+    "answer": 1,
+    "explanation": "Snell's law: n₁ sin i = n₂ sin r. 1.00 × sin 30° = 1.50 × sin r → sin r = 0.500 ÷ 1.50 = 0.333 → r ≈ 19.5°. Dividing the angle itself by the index (30 ÷ 1.5 = 20°) is a common shortcut error; the sine must be used."
+  },
+  {
+    "id": "abo-opt-005",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Light & refraction",
+    "difficulty": 3,
+    "stem": "What is the approximate critical angle for light traveling from a 1.50-index material into air?",
+    "choices": [
+      "33.7°",
+      "41.8°",
+      "48.6°",
+      "90.0°"
+    ],
+    "answer": 1,
+    "explanation": "Critical angle: sin c = n₂ / n₁ = 1.00 ÷ 1.50 = 0.667 → c ≈ 41.8°. At angles of incidence greater than this, light is totally internally reflected. 48.6° is the critical angle for water (n = 1.333); 33.7° comes from mistakenly using the tangent."
+  },
+  {
+    "id": "abo-opt-006",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Light & refraction",
+    "difficulty": 1,
+    "stem": "The visible spectrum of light extends from approximately:",
+    "choices": [
+      "100 nm to 380 nm",
+      "380 nm to 760 nm",
+      "760 nm to 1400 nm",
+      "280 nm to 315 nm"
+    ],
+    "answer": 1,
+    "explanation": "Visible light spans roughly 380–760 nm (violet to red). Below 380 nm is ultraviolet (UV-B 280–315 nm, UV-A 315–380/400 nm); above 760 nm is infrared."
+  },
+  {
+    "id": "abo-opt-007",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Light & refraction",
+    "difficulty": 2,
+    "stem": "When white light passes through a lens, which wavelengths are refracted (bent) the most?",
+    "choices": [
+      "Blue/violet (short) wavelengths",
+      "Red (long) wavelengths",
+      "Yellow (middle) wavelengths",
+      "All wavelengths are bent equally"
+    ],
+    "answer": 0,
+    "explanation": "A material's index is slightly higher for shorter wavelengths, so blue/violet light is bent more than red. This wavelength-dependent refraction is dispersion, and it causes chromatic aberration."
+  },
+  {
+    "id": "abo-opt-008",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prism base direction",
+    "difficulty": 1,
+    "stem": "Light passing through an ophthalmic prism is deviated toward the prism's:",
+    "choices": [
+      "Apex",
+      "Base",
+      "Edge opposite the base",
+      "Optical center"
+    ],
+    "answer": 1,
+    "explanation": "A prism bends light toward its base. The image the wearer sees, however, is displaced toward the apex.",
+    "diagram": "prism"
+  },
+  {
+    "id": "abo-opt-009",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vergence & diopters",
+    "difficulty": 1,
+    "stem": "A diopter is defined as:",
+    "choices": [
+      "The focal length in centimeters",
+      "The reciprocal of the focal length in millimeters",
+      "The reciprocal of the focal length in meters",
+      "The displacement of an image 1 cm at 1 m"
+    ],
+    "answer": 2,
+    "explanation": "F (diopters) = 1 / f (meters). A lens with a 1-meter focal length has a power of 1.00 D. (Displacement of 1 cm at 1 m defines the prism diopter, not the lens diopter.)"
+  },
+  {
+    "id": "abo-opt-010",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens power",
+    "difficulty": 1,
+    "stem": "A converging lens brings parallel light to a focus 25 cm behind the lens. What is its power?",
+    "choices": [
+      "+0.25 D",
+      "+25.00 D",
+      "−4.00 D",
+      "+4.00 D"
+    ],
+    "answer": 3,
+    "explanation": "F = 1 / f = 1 / 0.25 m = +4.00 D. It is plus because it converges light to a real focus. Focal length must be in meters before taking the reciprocal."
+  },
+  {
+    "id": "abo-opt-011",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens power",
+    "difficulty": 1,
+    "stem": "What is the focal length of a −5.00 D lens?",
+    "choices": [
+      "20 cm (virtual, in front of the lens)",
+      "5 cm (real, behind the lens)",
+      "50 cm (virtual, in front of the lens)",
+      "20 cm (real, behind the lens)"
+    ],
+    "answer": 0,
+    "explanation": "f = 1 / F = 1 / 5.00 = 0.20 m = 20 cm. A minus lens diverges light, so the focal point is virtual — on the same side as the incoming light."
+  },
+  {
+    "id": "abo-opt-012",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens power",
+    "difficulty": 2,
+    "stem": "What is the focal length of a +2.50 D lens?",
+    "choices": [
+      "25 cm",
+      "4 cm",
+      "40 cm",
+      "2.5 cm"
+    ],
+    "answer": 2,
+    "explanation": "f = 1 / F = 1 / 2.50 = 0.40 m = 40 cm."
+  },
+  {
+    "id": "abo-opt-013",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vergence & diopters",
+    "difficulty": 2,
+    "stem": "An object is located 50 cm in front of a lens. What is the vergence of the light from that object as it reaches the lens?",
+    "choices": [
+      "+2.00 D",
+      "−0.50 D",
+      "0.00 D",
+      "−2.00 D"
+    ],
+    "answer": 3,
+    "explanation": "Vergence = 1 / distance in meters. Light diverging from a real object has negative (minus) vergence: U = −1 / 0.50 m = −2.00 D."
+  },
+  {
+    "id": "abo-opt-014",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vergence & diopters",
+    "difficulty": 3,
+    "stem": "An object is placed 50 cm in front of a +5.00 D lens. Where is the image formed?",
+    "choices": [
+      "33.3 cm behind the lens (real image)",
+      "20 cm behind the lens (real image)",
+      "50 cm behind the lens (real image)",
+      "14.3 cm in front of the lens (virtual image)"
+    ],
+    "answer": 0,
+    "explanation": "Use V = U + F. Object vergence U = −1 / 0.50 = −2.00 D. V = −2.00 + 5.00 = +3.00 D. Image distance = 1 / 3.00 = 0.333 m = 33.3 cm. Positive vergence means converging light, so the image is real and behind the lens."
+  },
+  {
+    "id": "abo-opt-015",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vergence & diopters",
+    "difficulty": 2,
+    "stem": "An object is 25 cm in front of a +4.00 D lens. The light leaving the lens is:",
+    "choices": [
+      "Parallel (zero vergence)",
+      "Converging with +8.00 D of vergence",
+      "Diverging with −4.00 D of vergence",
+      "Converging with +4.00 D of vergence"
+    ],
+    "answer": 0,
+    "explanation": "U = −1 / 0.25 = −4.00 D. V = U + F = −4.00 + 4.00 = 0.00 D. The object is at the primary focal point, so the light emerges parallel and the image is at infinity."
+  },
+  {
+    "id": "abo-opt-016",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vergence & diopters",
+    "difficulty": 1,
+    "stem": "For optical purposes, light from an object 6 m (20 ft) or farther away is treated as having a vergence of:",
+    "choices": [
+      "−6.00 D",
+      "+0.17 D",
+      "−1.00 D",
+      "Zero (parallel light)"
+    ],
+    "answer": 3,
+    "explanation": "Light from 6 m has a vergence of only −1/6 ≈ −0.17 D, small enough to be treated as parallel (0.00 D) for refraction and lens work. That is why distance acuity is tested at 20 ft."
+  },
+  {
+    "id": "abo-opt-017",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens power",
+    "difficulty": 2,
+    "stem": "A lens surface has a radius of curvature of +10 cm and is made of 1.50-index material. What is the surface power?",
+    "choices": [
+      "+15.00 D",
+      "+10.00 D",
+      "+0.05 D",
+      "+5.00 D"
+    ],
+    "answer": 3,
+    "explanation": "Surface power F = (n′ − n) / r = (1.50 − 1.00) / 0.10 m = 0.50 / 0.10 = +5.00 D. The radius must be in meters."
+  },
+  {
+    "id": "abo-opt-018",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens power",
+    "difficulty": 2,
+    "stem": "What radius of curvature is needed to produce a +6.00 D surface on a 1.50-index lens?",
+    "choices": [
+      "16.67 cm",
+      "8.33 cm",
+      "12.00 cm",
+      "6.00 cm"
+    ],
+    "answer": 1,
+    "explanation": "r = (n − 1) / F = 0.50 / 6.00 = 0.0833 m = 8.33 cm. 16.67 cm is 1/F without the (n − 1) factor."
+  },
+  {
+    "id": "abo-opt-019",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens forms",
+    "difficulty": 1,
+    "stem": "A thin lens has a front surface power of +6.00 D and a back surface power of −8.00 D. What is its approximate (nominal) power?",
+    "choices": [
+      "+14.00 D",
+      "+2.00 D",
+      "−14.00 D",
+      "−2.00 D"
+    ],
+    "answer": 3,
+    "explanation": "Nominal power = F₁ + F₂ = +6.00 + (−8.00) = −2.00 D. With a convex front and concave back, this lens has meniscus form.",
+    "diagram": "lens-forms"
+  },
+  {
+    "id": "abo-opt-020",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens forms",
+    "difficulty": 1,
+    "stem": "A lens with a convex front surface and a concave back surface is called a:",
+    "choices": [
+      "Meniscus lens",
+      "Biconvex lens",
+      "Plano-concave lens",
+      "Biconcave lens"
+    ],
+    "answer": 0,
+    "explanation": "Meniscus lenses have a convex front and concave back. Nearly all modern spectacle lenses use meniscus form because it reduces off-axis aberrations and fits the face better.",
+    "diagram": "lens-forms"
+  },
+  {
+    "id": "abo-opt-021",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens forms",
+    "difficulty": 1,
+    "stem": "Which statement about lens thickness is correct?",
+    "choices": [
+      "A plus lens is thickest at the edge; a minus lens is thickest at the center",
+      "Both plus and minus lenses are thickest at the center",
+      "Lens thickness does not depend on whether the lens is plus or minus",
+      "A plus lens is thickest at the center; a minus lens is thickest at the edge"
+    ],
+    "answer": 3,
+    "explanation": "A plus lens is like two prisms base-to-base, so it is thick in the center. A minus lens is like two prisms apex-to-apex, so it is thick at the edge.",
+    "diagram": "lens-forms"
+  },
+  {
+    "id": "abo-opt-022",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens forms",
+    "difficulty": 2,
+    "stem": "During hand neutralization, a target viewed through the lens moves in the same direction the lens is moved. The lens is:",
+    "choices": [
+      "Minus",
+      "Plus",
+      "Plano",
+      "A pure prism with no power"
+    ],
+    "answer": 0,
+    "explanation": "Minus lenses produce 'with' motion; plus lenses produce 'against' motion. Neutralizing a minus lens means adding plus trial lenses until the motion stops.",
+    "diagram": "lens-forms"
+  },
+  {
+    "id": "abo-opt-023",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens forms",
+    "difficulty": 2,
+    "stem": "While a lens is rotated in front of a cross target, the arms of the cross appear to tilt toward and away from each other ('scissors motion'). This indicates:",
+    "choices": [
+      "The lens is a pure sphere",
+      "The lens contains cylinder",
+      "The lens contains only horizontal prism",
+      "The lens is plano"
+    ],
+    "answer": 1,
+    "explanation": "Scissors motion on rotation means the power differs between meridians, i.e., cylinder is present. A sphere shows no scissors motion when rotated.",
+    "diagram": "lens-forms"
+  },
+  {
+    "id": "abo-opt-024",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens forms",
+    "difficulty": 1,
+    "stem": "The image formed by a minus lens of a real object is always:",
+    "choices": [
+      "Real, inverted, and larger than the object",
+      "Real, upright, and smaller than the object",
+      "Virtual, upright, and smaller than the object",
+      "Virtual, inverted, and larger than the object"
+    ],
+    "answer": 2,
+    "explanation": "Minus lenses diverge light, so for a real object they always form a virtual, erect, minified image on the object side of the lens.",
+    "diagram": "lens-forms"
+  },
+  {
+    "id": "abo-opt-025",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Sphere, cylinder & axis",
+    "difficulty": 1,
+    "stem": "In a sphero-cylinder lens, the maximum power of the cylinder component is located:",
+    "choices": [
+      "Along the cylinder axis",
+      "90° away from the cylinder axis",
+      "45° away from the cylinder axis",
+      "180° away from the cylinder axis"
+    ],
+    "answer": 1,
+    "explanation": "A cylinder has no power along its axis and full power in the meridian 90° away. For −1.00 × 180, the −1.00 D is in the 90° (vertical) meridian."
+  },
+  {
+    "id": "abo-opt-026",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Sphere, cylinder & axis",
+    "difficulty": 1,
+    "stem": "Which of the following is the correct range for writing a cylinder axis?",
+    "choices": [
+      "0 to 360",
+      "1 to 180",
+      "0 to 90",
+      "1 to 270"
+    ],
+    "answer": 1,
+    "explanation": "Cylinder axes are written from 1 to 180 using the standard (TABO) notation. A horizontal axis is written as 180, not 0 or 000, and 180 and 360 are the same meridian."
+  },
+  {
+    "id": "abo-opt-027",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Plus/minus cylinder transposition",
+    "difficulty": 2,
+    "stem": "Transpose −2.00 −1.00 × 180 to plus-cylinder form.",
+    "choices": [
+      "−1.00 +1.00 × 090",
+      "−3.00 +1.00 × 180",
+      "−3.00 +1.00 × 090",
+      "+3.00 −1.00 × 090"
+    ],
+    "answer": 2,
+    "explanation": "Transposition: (1) add the sphere and cylinder algebraically for the new sphere: −2.00 + (−1.00) = −3.00; (2) change the cylinder sign: +1.00; (3) change the axis by 90°: 180 → 090. Result: −3.00 +1.00 × 090."
+  },
+  {
+    "id": "abo-opt-028",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Plus/minus cylinder transposition",
+    "difficulty": 2,
+    "stem": "Transpose +1.50 −2.00 × 045 to plus-cylinder form.",
+    "choices": [
+      "−0.50 +2.00 × 135",
+      "+3.50 +2.00 × 135",
+      "−0.50 +2.00 × 045",
+      "+0.50 +2.00 × 135"
+    ],
+    "answer": 0,
+    "explanation": "New sphere = +1.50 + (−2.00) = −0.50. Cylinder sign changes to +2.00. Axis 045 + 90 = 135. Result: −0.50 +2.00 × 135."
+  },
+  {
+    "id": "abo-opt-029",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Plus/minus cylinder transposition",
+    "difficulty": 2,
+    "stem": "Transpose +2.00 +1.50 × 030 to minus-cylinder form.",
+    "choices": [
+      "+0.50 −1.50 × 120",
+      "+3.50 −1.50 × 030",
+      "+3.50 −1.50 × 120",
+      "+2.00 −1.50 × 120"
+    ],
+    "answer": 2,
+    "explanation": "New sphere = +2.00 + (+1.50) = +3.50. Cylinder becomes −1.50. Axis 030 + 90 = 120. Result: +3.50 −1.50 × 120."
+  },
+  {
+    "id": "abo-opt-030",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Plus/minus cylinder transposition",
+    "difficulty": 2,
+    "stem": "Transpose −0.75 +0.75 × 090 to minus-cylinder form.",
+    "choices": [
+      "−1.50 −0.75 × 180",
+      "Plano −0.75 × 180",
+      "Plano −0.75 × 090",
+      "+0.75 −0.75 × 180"
+    ],
+    "answer": 1,
+    "explanation": "New sphere = −0.75 + 0.75 = 0.00 (plano). Cylinder becomes −0.75. Axis 090 → 180. Result: plano −0.75 × 180."
+  },
+  {
+    "id": "abo-opt-031",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Plus/minus cylinder transposition",
+    "difficulty": 2,
+    "stem": "Which prescription is optically identical to +0.50 −1.25 × 170?",
+    "choices": [
+      "−0.75 +1.25 × 080",
+      "+1.75 +1.25 × 080",
+      "−0.75 +1.25 × 170",
+      "−0.75 −1.25 × 080"
+    ],
+    "answer": 0,
+    "explanation": "Transpose: sphere +0.50 + (−1.25) = −0.75; cylinder +1.25; axis 170 − 90 = 080. When adding 90 would exceed 180, subtract 90 instead."
+  },
+  {
+    "id": "abo-opt-032",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Sphere, cylinder & axis",
+    "difficulty": 3,
+    "stem": "Two plano-cylinders are combined: plano +2.00 × 090 and plano +1.00 × 180. What is the resulting prescription in minus-cylinder form?",
+    "choices": [
+      "+3.00 −1.00 × 180",
+      "+2.00 −1.00 × 090",
+      "+1.00 −1.00 × 090",
+      "+2.00 −1.00 × 180"
+    ],
+    "answer": 3,
+    "explanation": "Put each cylinder on an optical cross. Plano +2.00 × 090 puts +2.00 in the 180 meridian. Plano +1.00 × 180 puts +1.00 in the 90 meridian. Combined cross: +2.00 @ 180, +1.00 @ 090. Minus-cylinder form: sphere = the more plus power (+2.00), axis = the meridian where that power lies (180), cylinder = +1.00 − (+2.00) = −1.00. Answer: +2.00 −1.00 × 180 (= +1.00 +1.00 × 090 in plus cylinder)."
+  },
+  {
+    "id": "abo-opt-033",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Sphere, cylinder & axis",
+    "difficulty": 2,
+    "stem": "Which prescription is an example of mixed astigmatism?",
+    "choices": [
+      "+3.00 −1.00 × 180",
+      "−1.00 −2.00 × 180",
+      "Plano −1.50 × 180",
+      "+1.00 −2.00 × 090"
+    ],
+    "answer": 3,
+    "explanation": "In mixed astigmatism one principal meridian is hyperopic and the other myopic. +1.00 −2.00 × 090 has +1.00 in the 90 meridian and −1.00 in the 180 meridian. +3.00 −1.00 × 180 is compound hyperopic (+3.00/+2.00), −1.00 −2.00 × 180 is compound myopic, and plano −1.50 × 180 is simple myopic astigmatism."
+  },
+  {
+    "id": "abo-opt-034",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Sphere, cylinder & axis",
+    "difficulty": 2,
+    "stem": "Plano −1.50 × 180 corrects which type of astigmatism?",
+    "choices": [
+      "Simple hyperopic astigmatism",
+      "Simple myopic astigmatism",
+      "Compound myopic astigmatism",
+      "Mixed astigmatism"
+    ],
+    "answer": 1,
+    "explanation": "One meridian is emmetropic (plano in the 180) and the other is myopic (−1.50 in the 90). One meridian emmetropic plus one myopic = simple myopic astigmatism."
+  },
+  {
+    "id": "abo-opt-035",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 2,
+    "stem": "With-the-rule astigmatism is most commonly corrected by a minus cylinder with its axis near:",
+    "choices": [
+      "090",
+      "180",
+      "045",
+      "135"
+    ],
+    "answer": 1,
+    "explanation": "In with-the-rule astigmatism the vertical meridian of the cornea is steepest (most plus), so extra minus power is needed in the vertical meridian. A minus cylinder places its power 90° from its axis, so the axis is near 180 (or plus cylinder near 090).",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-opt-036",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Spherical equivalent",
+    "difficulty": 2,
+    "stem": "What is the spherical equivalent of +2.00 −1.00 × 090?",
+    "choices": [
+      "+1.00 D",
+      "+2.50 D",
+      "+3.00 D",
+      "+1.50 D"
+    ],
+    "answer": 3,
+    "explanation": "Spherical equivalent = sphere + (cylinder ÷ 2) = +2.00 + (−0.50) = +1.50 D."
+  },
+  {
+    "id": "abo-opt-037",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Spherical equivalent",
+    "difficulty": 2,
+    "stem": "What is the spherical equivalent of −3.25 −1.50 × 180?",
+    "choices": [
+      "−4.75 D",
+      "−2.50 D",
+      "−3.25 D",
+      "−4.00 D"
+    ],
+    "answer": 3,
+    "explanation": "SE = −3.25 + (−1.50 ÷ 2) = −3.25 − 0.75 = −4.00 D. Adding the full cylinder (−4.75) is the common error."
+  },
+  {
+    "id": "abo-opt-038",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Spherical equivalent",
+    "difficulty": 2,
+    "stem": "What is the spherical equivalent of +1.00 −2.00 × 045?",
+    "choices": [
+      "−1.00 D",
+      "Plano (0.00 D)",
+      "+1.00 D",
+      "+2.00 D"
+    ],
+    "answer": 1,
+    "explanation": "SE = +1.00 + (−2.00 ÷ 2) = +1.00 − 1.00 = 0.00 D. Mixed astigmatism with equal and opposite meridians (+1.00 and −1.00) has a plano spherical equivalent."
+  },
+  {
+    "id": "abo-opt-039",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Optical cross",
+    "difficulty": 2,
+    "stem": "For the lens −2.00 −1.00 × 180, what is the power in the 90° meridian?",
+    "choices": [
+      "−2.00 D",
+      "−1.00 D",
+      "−3.00 D",
+      "−2.50 D"
+    ],
+    "answer": 2,
+    "explanation": "The sphere power lies along the axis meridian: −2.00 D in the 180. The meridian 90° from the axis gets sphere + cylinder: −2.00 + (−1.00) = −3.00 D in the 90.",
+    "diagram": "optical-cross"
+  },
+  {
+    "id": "abo-opt-040",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Optical cross",
+    "difficulty": 3,
+    "stem": "An optical cross shows +1.00 D in the 90° meridian and −2.00 D in the 180° meridian. What is the prescription in minus-cylinder form?",
+    "choices": [
+      "−2.00 +3.00 × 090",
+      "+1.00 −3.00 × 180",
+      "+1.00 −3.00 × 090",
+      "+1.00 −1.00 × 090"
+    ],
+    "answer": 2,
+    "explanation": "In minus-cylinder form, the sphere is the most plus meridian (+1.00), and the axis is that meridian (090). Cylinder = other meridian − sphere = −2.00 − (+1.00) = −3.00. Check: along 090 → +1.00; along 180 → +1.00 − 3.00 = −2.00. (The plus-cylinder form would be −2.00 +3.00 × 180.)",
+    "diagram": "optical-cross"
+  },
+  {
+    "id": "abo-opt-041",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Optical cross",
+    "difficulty": 2,
+    "stem": "An optical cross reads −1.50 D at 180° and −3.00 D at 90°. Written in minus cylinder, the prescription is:",
+    "choices": [
+      "−3.00 +1.50 × 180",
+      "−1.50 −1.50 × 090",
+      "−1.50 −1.50 × 180",
+      "−3.00 −1.50 × 180"
+    ],
+    "answer": 2,
+    "explanation": "The least minus meridian is −1.50 at 180, so sphere −1.50 and axis 180. Cylinder = −3.00 − (−1.50) = −1.50. Result: −1.50 −1.50 × 180. (Its plus-cylinder twin, −3.00 +1.50 × 090, is also correct optically but is not minus-cylinder form.)",
+    "diagram": "optical-cross"
+  },
+  {
+    "id": "abo-opt-042",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Optical cross",
+    "difficulty": 2,
+    "stem": "What power lies in the 120° meridian of the lens +3.00 −2.00 × 030?",
+    "choices": [
+      "+3.00 D",
+      "−2.00 D",
+      "+5.00 D",
+      "+1.00 D"
+    ],
+    "answer": 3,
+    "explanation": "The 120 meridian is 90° from the 030 axis, so it receives sphere + full cylinder: +3.00 + (−2.00) = +1.00 D. The 030 meridian has +3.00 D.",
+    "diagram": "optical-cross"
+  },
+  {
+    "id": "abo-opt-043",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Power in an oblique meridian",
+    "difficulty": 3,
+    "stem": "Using the sin² approximation, what is the power of −1.00 −2.00 × 180 in the 30° meridian?",
+    "choices": [
+      "−2.00 D",
+      "−2.50 D",
+      "−1.50 D",
+      "−1.00 D"
+    ],
+    "answer": 2,
+    "explanation": "Power in meridian = S + C sin²θ, where θ is the angle between the meridian and the cylinder axis. θ = 30° − 0° (axis 180) = 30°. sin² 30° = 0.25. Power = −1.00 + (−2.00 × 0.25) = −1.00 − 0.50 = −1.50 D."
+  },
+  {
+    "id": "abo-opt-044",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Power in an oblique meridian",
+    "difficulty": 3,
+    "stem": "Using the sin² approximation, what is the power of +2.00 −3.00 × 090 in the 45° meridian?",
+    "choices": [
+      "+0.50 D",
+      "−1.00 D",
+      "+2.00 D",
+      "−0.50 D"
+    ],
+    "answer": 0,
+    "explanation": "θ = 90° − 45° = 45°; sin² 45° = 0.50. Power = +2.00 + (−3.00 × 0.50) = +2.00 − 1.50 = +0.50 D. (In the 180 meridian, 90° from the axis, the power would be −1.00 D.)"
+  },
+  {
+    "id": "abo-opt-045",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Power in an oblique meridian",
+    "difficulty": 3,
+    "stem": "Using the sin² approximation, what is the power of plano −4.00 × 180 in the 60° meridian?",
+    "choices": [
+      "−1.00 D",
+      "−3.00 D",
+      "−2.00 D",
+      "−4.00 D"
+    ],
+    "answer": 1,
+    "explanation": "θ = 60° from the axis; sin² 60° = 0.75. Power = 0 + (−4.00 × 0.75) = −3.00 D. Using cos² instead of sin² gives the −1.00 D distractor."
+  },
+  {
+    "id": "abo-opt-046",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prism",
+    "difficulty": 1,
+    "stem": "One prism diopter (1Δ) is the amount of prism that displaces an image:",
+    "choices": [
+      "1 mm at a distance of 1 m",
+      "1 cm at a distance of 1 m",
+      "1° at any distance",
+      "1 cm at a distance of 10 cm"
+    ],
+    "answer": 1,
+    "explanation": "A prism diopter deviates light 1 cm at 1 meter (equivalently 1 m at 100 m).",
+    "diagram": "prism"
+  },
+  {
+    "id": "abo-opt-047",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prism base direction",
+    "difficulty": 1,
+    "stem": "When a patient looks through a prism, the image of an object appears displaced toward the prism's:",
+    "choices": [
+      "Base",
+      "Thickest edge",
+      "Geometric center",
+      "Apex"
+    ],
+    "answer": 3,
+    "explanation": "Light bends toward the base, so the eye sees the image shifted toward the apex. A base-up prism makes objects appear lower; base-in makes them appear shifted outward (temporally).",
+    "diagram": "prism"
+  },
+  {
+    "id": "abo-opt-048",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 2,
+    "stem": "A patient looks through a point 4 mm from the optical center of a −5.00 D sphere. How much prism is induced?",
+    "choices": [
+      "2.00Δ",
+      "20.00Δ",
+      "0.80Δ",
+      "1.25Δ"
+    ],
+    "answer": 0,
+    "explanation": "Prentice's rule: Δ = c × F, with c in centimeters. 4 mm = 0.4 cm. Δ = 0.4 × 5.00 = 2.00Δ. Using millimeters directly gives the 20Δ error.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-049",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 2,
+    "stem": "How much prism is induced 3 mm from the optical center of a +6.00 D sphere?",
+    "choices": [
+      "18.00Δ",
+      "1.80Δ",
+      "2.00Δ",
+      "0.50Δ"
+    ],
+    "answer": 1,
+    "explanation": "Δ = c × F = 0.3 cm × 6.00 = 1.80Δ.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-050",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prism base direction",
+    "difficulty": 2,
+    "stem": "A patient looks through a point 5 mm below the optical center of a +3.00 D sphere. What prism is induced?",
+    "choices": [
+      "1.50Δ base up",
+      "1.50Δ base down",
+      "15.00Δ base up",
+      "0.60Δ base down"
+    ],
+    "answer": 0,
+    "explanation": "Δ = 0.5 cm × 3.00 = 1.50Δ. A plus lens acts like two prisms base-to-base, so the base points toward the optical center. Below the OC, the base points up: 1.50Δ base up.",
+    "diagram": "prism"
+  },
+  {
+    "id": "abo-opt-051",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prism base direction",
+    "difficulty": 2,
+    "stem": "A patient looks through a point 3 mm above the optical center of a −4.00 D sphere. What prism is induced?",
+    "choices": [
+      "1.20Δ base down",
+      "1.20Δ base up",
+      "12.00Δ base up",
+      "0.75Δ base down"
+    ],
+    "answer": 1,
+    "explanation": "Δ = 0.3 cm × 4.00 = 1.20Δ. A minus lens acts like two prisms apex-to-apex, so the base points away from the optical center. Above the OC, away from center is up: 1.20Δ base up.",
+    "diagram": "prism"
+  },
+  {
+    "id": "abo-opt-052",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 3,
+    "stem": "A patient with a 64 mm PD is wearing +4.00 D spheres OU whose optical centers are 68 mm apart. What is the total horizontal prism induced?",
+    "choices": [
+      "1.60Δ base in",
+      "1.60Δ base out",
+      "0.80Δ base out",
+      "16.00Δ base out"
+    ],
+    "answer": 1,
+    "explanation": "Each OC is (68 − 64) ÷ 2 = 2 mm outward from the pupil. Per eye: Δ = 0.2 cm × 4.00 = 0.80Δ. For a plus lens the base points toward the OC; the OCs are temporal to the pupils, so the prism is base out. Total = 0.80 + 0.80 = 1.60Δ base out.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-053",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 3,
+    "stem": "A patient with a 66 mm PD wears −5.00 D spheres OU whose optical centers are 62 mm apart. What is the total horizontal prism induced?",
+    "choices": [
+      "2.00Δ base in",
+      "1.00Δ base in",
+      "2.00Δ base out",
+      "4.00Δ base out"
+    ],
+    "answer": 2,
+    "explanation": "Each OC is (66 − 62) ÷ 2 = 2 mm nasal to the pupil, so the pupil looks 2 mm temporal of each OC. Per eye: 0.2 × 5.00 = 1.00Δ. A minus lens's base points away from the OC — here temporally — so each eye has 1.00Δ base out. Total = 2.00Δ base out.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-054",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Decentration for prism",
+    "difficulty": 2,
+    "stem": "How far must a +3.00 D sphere be decentered to produce 1.50Δ?",
+    "choices": [
+      "0.5 mm",
+      "2 mm",
+      "5 mm",
+      "4.5 mm"
+    ],
+    "answer": 2,
+    "explanation": "Rearranging Prentice's rule: c = Δ ÷ F = 1.50 ÷ 3.00 = 0.5 cm = 5 mm.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-055",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Decentration for prism",
+    "difficulty": 3,
+    "stem": "A right lens of +4.00 D sphere must supply 2.00Δ base in. How should the optical center be decentered?",
+    "choices": [
+      "5 mm out (temporally)",
+      "5 mm in (nasally)",
+      "8 mm in (nasally)",
+      "2 mm out (temporally)"
+    ],
+    "answer": 1,
+    "explanation": "c = Δ ÷ F = 2.00 ÷ 4.00 = 0.5 cm = 5 mm. In a plus lens the base points toward the OC, so for base-in prism the OC must lie nasal to the pupil: decenter 5 mm in.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-056",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Decentration for prism",
+    "difficulty": 2,
+    "stem": "To create base-in prism by decentration in a minus lens, the optical center must be moved:",
+    "choices": [
+      "Outward (temporally)",
+      "Inward (nasally)",
+      "Upward",
+      "Downward"
+    ],
+    "answer": 0,
+    "explanation": "In a minus lens the base points away from the OC. Moving the OC temporally puts the pupil nasal of the OC, where the base direction is nasal — base in. (Plus lenses are the opposite: decenter in for base in.)",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-057",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Decentration for prism",
+    "difficulty": 3,
+    "stem": "A lens of −2.00 D sphere must provide 1.00Δ base down at the pupil. How should the optical center be placed?",
+    "choices": [
+      "5 mm below the pupil",
+      "2 mm above the pupil",
+      "5 mm above the pupil",
+      "2 mm below the pupil"
+    ],
+    "answer": 2,
+    "explanation": "c = 1.00 ÷ 2.00 = 0.5 cm = 5 mm. In a minus lens the base points away from the OC. For base down at the pupil, the pupil must be below the OC, so the OC is placed 5 mm above the pupil.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-058",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 3,
+    "stem": "A right lens of +1.00 −2.00 × 090 has its optical center 4 mm nasal to the pupil. What horizontal prism does the patient experience?",
+    "choices": [
+      "0.40Δ base in",
+      "0.80Δ base out",
+      "0.40Δ base out",
+      "1.20Δ base in"
+    ],
+    "answer": 2,
+    "explanation": "Horizontal prism depends on the power in the 180° meridian. Axis 090 means the 180 meridian gets sphere + cylinder: +1.00 − 2.00 = −1.00 D. Δ = 0.4 × 1.00 = 0.40Δ. That meridian is minus, so the base points away from the OC. The pupil is temporal of the OC, so the base is temporal: 0.40Δ base out.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-opt-059",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Compounding & resolving prism",
+    "difficulty": 2,
+    "stem": "3Δ base up and 4Δ base out are prescribed for the same eye. What is the magnitude of the single resultant prism?",
+    "choices": [
+      "5Δ",
+      "7Δ",
+      "1Δ",
+      "12Δ"
+    ],
+    "answer": 0,
+    "explanation": "Vertical and horizontal prisms combine as the hypotenuse of a right triangle: √(3² + 4²) = √25 = 5Δ. Simply adding them (7Δ) is incorrect."
+  },
+  {
+    "id": "abo-opt-060",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Compounding & resolving prism",
+    "difficulty": 3,
+    "stem": "For the RIGHT eye, 3Δ base up and 4Δ base out combine into a single oblique prism. Using standard 360° (TABO) notation, what is the resultant?",
+    "choices": [
+      "5Δ base 37°",
+      "7Δ base 143°",
+      "5Δ base 143°",
+      "5Δ base 53°"
+    ],
+    "answer": 2,
+    "explanation": "Magnitude: √(3² + 4²) = 5Δ. Angle above the horizontal: tan⁻¹(3/4) ≈ 37°. On the standard protractor (viewed facing the patient), base out for the right eye points toward 180° and base up toward 90°, so the base lies 37° up from 180°: 180 − 37 = 143°. Base 37° would be up-and-in for the right eye."
+  },
+  {
+    "id": "abo-opt-061",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Compounding & resolving prism",
+    "difficulty": 3,
+    "stem": "Resolve 4Δ base 30° in the RIGHT eye (standard 360° notation) into vertical and horizontal components.",
+    "choices": [
+      "2.00Δ base up and 3.46Δ base out",
+      "3.46Δ base up and 2.00Δ base in",
+      "2.00Δ base up and 3.46Δ base in",
+      "2.00Δ base down and 3.46Δ base in"
+    ],
+    "answer": 2,
+    "explanation": "Vertical = 4 × sin 30° = 4 × 0.50 = 2.00Δ; horizontal = 4 × cos 30° = 4 × 0.866 = 3.46Δ. For the right eye, 0° points nasally (base in) and 90° is base up, so base 30° is up-and-in: 2.00Δ BU and 3.46Δ BI."
+  },
+  {
+    "id": "abo-opt-062",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Compounding & resolving prism",
+    "difficulty": 1,
+    "stem": "A prescription calls for 4Δ base out total. It is commonly split as:",
+    "choices": [
+      "2Δ base out OD and 2Δ base out OS",
+      "2Δ base out OD and 2Δ base in OS",
+      "4Δ base out OD and 4Δ base out OS",
+      "4Δ base out OD only, never split"
+    ],
+    "answer": 0,
+    "explanation": "Horizontal prism is split equally between the eyes with the same base direction in each (both BO or both BI) so the effect on the eyes is equivalent and the lenses are balanced."
+  },
+  {
+    "id": "abo-opt-063",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Compounding & resolving prism",
+    "difficulty": 2,
+    "stem": "Which split is optically equivalent to 2Δ base up OD?",
+    "choices": [
+      "1Δ base up OD and 1Δ base up OS",
+      "1Δ base up OD and 1Δ base down OS",
+      "1Δ base down OD and 1Δ base up OS",
+      "2Δ base up OD and 2Δ base down OS"
+    ],
+    "answer": 1,
+    "explanation": "Vertical prism is split with opposite base directions in the two eyes. Base up in one eye is equivalent to base down in the other, so 2Δ BU OD = 1Δ BU OD + 1Δ BD OS."
+  },
+  {
+    "id": "abo-opt-064",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertical imbalance at reading level",
+    "difficulty": 3,
+    "stem": "A patient wears OD +1.00 D sphere and OS +3.50 D sphere and reads 10 mm below the optical centers. What is the vertical imbalance at the reading level?",
+    "choices": [
+      "2.50Δ",
+      "4.50Δ",
+      "1.00Δ",
+      "25.00Δ"
+    ],
+    "answer": 0,
+    "explanation": "OD: 1.0 cm × 1.00 = 1.00Δ base up (plus lens, below the OC → base up). OS: 1.0 × 3.50 = 3.50Δ base up. Same base direction, so subtract: 3.50 − 1.00 = 2.50Δ (net base up OS)."
+  },
+  {
+    "id": "abo-opt-065",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertical imbalance at reading level",
+    "difficulty": 3,
+    "stem": "OD −1.00 −2.00 × 180; OS −1.00 D sphere. The patient reads 10 mm below the optical centers. What is the vertical imbalance?",
+    "choices": [
+      "0.00Δ",
+      "1.00Δ (net base down OD)",
+      "2.00Δ (net base down OD)",
+      "4.00Δ (net base down OD)"
+    ],
+    "answer": 2,
+    "explanation": "Vertical prism uses the power in the 90° meridian. OD axis 180 → 90 meridian = −1.00 + (−2.00) = −3.00 D → 1.0 × 3.00 = 3.00Δ base down (minus lens, below OC). OS = −1.00 D → 1.00Δ base down. Imbalance = 3.00 − 1.00 = 2.00Δ, net base down OD. Ignoring the cylinder gives the 0.00Δ error."
+  },
+  {
+    "id": "abo-opt-066",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertical imbalance at reading level",
+    "difficulty": 3,
+    "stem": "OD −3.00 −1.00 × 090; OS −3.00 −1.00 × 180. The patient reads 8 mm below the optical centers. What is the vertical imbalance?",
+    "choices": [
+      "0.80Δ",
+      "0.00Δ",
+      "3.20Δ",
+      "2.40Δ"
+    ],
+    "answer": 0,
+    "explanation": "OD axis 090: the 90 meridian contains only the sphere, −3.00 D → 0.8 × 3.00 = 2.40Δ BD. OS axis 180: the 90 meridian = −3.00 + (−1.00) = −4.00 D → 0.8 × 4.00 = 3.20Δ BD. Imbalance = 3.20 − 2.40 = 0.80Δ (net BD OS)."
+  },
+  {
+    "id": "abo-opt-067",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Unwanted prism",
+    "difficulty": 2,
+    "stem": "Why is unwanted vertical prism generally less tolerated than the same amount of horizontal prism?",
+    "choices": [
+      "Vertical prism always causes chromatic aberration",
+      "Horizontal prism cannot be detected by the eyes",
+      "Vertical prism changes the spherical power of the lens",
+      "Vertical fusional reserves are much smaller than horizontal fusional reserves"
+    ],
+    "answer": 3,
+    "explanation": "The eyes can converge and diverge over a fairly wide range, but vertical fusional ability is only about 1–2Δ. A small vertical imbalance can cause diplopia, eyestrain, or headaches, which is why ANSI tolerances for vertical prism are tighter."
+  },
+  {
+    "id": "abo-opt-068",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex Distance",
+    "difficulty": 1,
+    "stem": "Vertex distance is measured from:",
+    "choices": [
+      "The front surface of the lens to the cornea",
+      "The back surface of the lens to the center of rotation of the eye",
+      "The back surface of the spectacle lens to the front of the cornea",
+      "The corneal apex to the retina"
+    ],
+    "answer": 2,
+    "explanation": "Vertex distance is the distance from the back vertex of the lens to the corneal apex, typically 10–15 mm in spectacles.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-opt-069",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex Distance",
+    "difficulty": 1,
+    "stem": "Vertex distance compensation generally becomes clinically significant for prescriptions stronger than about:",
+    "choices": [
+      "±0.50 D",
+      "±1.50 D",
+      "±4.00 D",
+      "±12.00 D"
+    ],
+    "answer": 2,
+    "explanation": "Below about ±4.00 D, a few millimeters of change in vertex distance alters effective power by less than about 0.12 D. Above ±4.00 D — and especially in contact lens conversions — compensation should be calculated.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-opt-070",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex distance compensation",
+    "difficulty": 3,
+    "stem": "A patient's spectacle Rx is −8.00 D at a 13 mm vertex distance. What is the compensated power at the cornea (contact lens plane)?",
+    "choices": [
+      "−7.25 D",
+      "−8.94 D",
+      "−8.00 D",
+      "−6.96 D"
+    ],
+    "answer": 0,
+    "explanation": "Fc = F ÷ (1 − dF), with d = 0.013 m (moving toward the eye). Fc = −8.00 ÷ (1 − 0.013 × −8.00) = −8.00 ÷ 1.104 = −7.246 ≈ −7.25 D. Minus lenses need less minus power when moved closer to the eye.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-opt-071",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex distance compensation",
+    "difficulty": 3,
+    "stem": "A patient's spectacle Rx is +12.00 D at a 10 mm vertex distance. What is the compensated power at the cornea?",
+    "choices": [
+      "+10.71 D",
+      "+12.00 D",
+      "+13.20 D",
+      "+13.64 D"
+    ],
+    "answer": 3,
+    "explanation": "Fc = F ÷ (1 − dF) = +12.00 ÷ (1 − 0.010 × 12.00) = 12.00 ÷ 0.88 = +13.64 D. Plus lenses need more plus power when moved closer to the eye. Using (1 + dF) gives the +10.71 D error.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-opt-072",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex distance compensation",
+    "difficulty": 3,
+    "stem": "A −6.00 D Rx was refracted at 14 mm. The new frame will sit at 10 mm. What power should be ordered?",
+    "choices": [
+      "−6.15 D",
+      "−5.86 D",
+      "−6.00 D",
+      "−5.50 D"
+    ],
+    "answer": 1,
+    "explanation": "The lens moves 4 mm closer to the eye: d = 0.004 m. Fc = −6.00 ÷ (1 − 0.004 × −6.00) = −6.00 ÷ 1.024 = −5.86 D. Moving a minus lens closer increases its effect, so less minus is needed.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-opt-073",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex distance compensation",
+    "difficulty": 3,
+    "stem": "A +10.00 D Rx was refracted at 12 mm. The new frame will sit at 8 mm. What power should be ordered?",
+    "choices": [
+      "+9.62 D",
+      "+10.42 D",
+      "+10.00 D",
+      "+11.36 D"
+    ],
+    "answer": 1,
+    "explanation": "The lens moves 4 mm closer: d = 0.004 m. Fc = +10.00 ÷ (1 − 0.004 × 10.00) = 10.00 ÷ 0.96 = +10.42 D. Moving a plus lens closer decreases its effective power, so more plus is needed.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-opt-074",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Effective power",
+    "difficulty": 2,
+    "stem": "Moving a plus lens farther away from the eye:",
+    "choices": [
+      "Decreases its effective power",
+      "Has no effect on effective power",
+      "Increases its effective power",
+      "Changes it into a minus lens"
+    ],
+    "answer": 2,
+    "explanation": "Moving any lens away from the eye makes it act more plus: a plus lens becomes stronger in effect, and a minus lens becomes weaker in effect. This is why presbyopes slide their glasses down their nose to read."
+  },
+  {
+    "id": "abo-opt-075",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex distance compensation",
+    "difficulty": 3,
+    "stem": "A +8.00 D lens was refracted at 10 mm but the new frame sits at 15 mm. To keep the same effective power, what power is needed?",
+    "choices": [
+      "+8.33 D",
+      "+7.69 D",
+      "+8.00 D",
+      "+7.20 D"
+    ],
+    "answer": 1,
+    "explanation": "The lens moves 5 mm away from the eye, so d = −0.005 m. Fc = 8.00 ÷ (1 − (−0.005)(8.00)) = 8.00 ÷ 1.04 = +7.69 D. A plus lens moved away gains effective power, so less plus is ordered.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-opt-076",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Effective power",
+    "difficulty": 2,
+    "stem": "A −10.00 D lens is moved farther from the eye. Its effective power at the eye becomes:",
+    "choices": [
+      "Less minus",
+      "More minus",
+      "Unchanged",
+      "Exactly twice as minus"
+    ],
+    "answer": 0,
+    "explanation": "Moving a lens away from the eye shifts its effect in the plus direction. A minus lens therefore has less minus effect, which is why high myopes sometimes pull glasses closer to see better."
+  },
+  {
+    "id": "abo-opt-077",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Nominal vs true power",
+    "difficulty": 1,
+    "stem": "A standard lensometer (focimeter) measures which power of a lens?",
+    "choices": [
+      "Front vertex power",
+      "Back vertex power",
+      "Nominal power",
+      "Equivalent power"
+    ],
+    "answer": 1,
+    "explanation": "With the back (ocular) surface against the lens stop, the lensometer reads back vertex power, which is the power ordered on a prescription."
+  },
+  {
+    "id": "abo-opt-078",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Nominal vs true power",
+    "difficulty": 3,
+    "stem": "A lens has F₁ = +10.00 D, F₂ = −2.00 D, center thickness 6.0 mm, and index 1.50. What is its back vertex power?",
+    "choices": [
+      "+8.00 D",
+      "+8.42 D",
+      "+7.60 D",
+      "+10.42 D"
+    ],
+    "answer": 1,
+    "explanation": "Fv = F₁ ÷ (1 − (t/n)F₁) + F₂. Reduced thickness t/n = 0.006 ÷ 1.50 = 0.004 m. F₁ effective = 10.00 ÷ (1 − 0.004 × 10.00) = 10.00 ÷ 0.96 = 10.42 D. Fv = 10.42 − 2.00 = +8.42 D. The nominal (thin-lens) power is +8.00 D; in thick plus lenses true back vertex power exceeds nominal power."
+  },
+  {
+    "id": "abo-opt-079",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Nominal vs true power",
+    "difficulty": 2,
+    "stem": "When measuring the add of a front-surface (conventional) bifocal on a lensometer, the most accurate method is to:",
+    "choices": [
+      "Measure back vertex power with the back surface facing the lens stop",
+      "Measure only the distance portion and assume the add",
+      "Measure the add with a lens clock",
+      "Measure front vertex power with the front surface facing the lens stop"
+    ],
+    "answer": 3,
+    "explanation": "Because the segment is on the front surface, the add is defined as the difference in front vertex power between the near and distance portions. Turn the lens around (front surface against the stop) and measure both portions. This matters most in higher plus lenses."
+  },
+  {
+    "id": "abo-opt-080",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensometry",
+    "difficulty": 2,
+    "stem": "Reading in minus cylinder, the sphere lines focus at +2.00 with the axis wheel at 030, and the cylinder lines focus at +0.50. What is the prescription?",
+    "choices": [
+      "+0.50 +1.50 × 030",
+      "+2.00 −1.50 × 120",
+      "+2.00 −1.50 × 030",
+      "+2.50 −1.50 × 030"
+    ],
+    "answer": 2,
+    "explanation": "In minus cylinder, the first (most plus) reading is the sphere: +2.00. The cylinder is the difference to the second reading: +0.50 − 2.00 = −1.50. The axis is read from the axis wheel: 030. Rx: +2.00 −1.50 × 030."
+  },
+  {
+    "id": "abo-opt-081",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens thickness & sagitta",
+    "difficulty": 1,
+    "stem": "In the sagitta formula s = r − √(r² − y²), the value y represents:",
+    "choices": [
+      "The full lens diameter",
+      "The radius of curvature",
+      "Half the lens diameter (the semi-chord)",
+      "The center thickness"
+    ],
+    "answer": 2,
+    "explanation": "y is the semi-diameter — half the chord across the lens. For a 60 mm lens, y = 30 mm."
+  },
+  {
+    "id": "abo-opt-082",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens thickness & sagitta",
+    "difficulty": 3,
+    "stem": "A surface has a radius of curvature of 100 mm. What is its exact sagitta across a 60 mm diameter?",
+    "choices": [
+      "4.61 mm",
+      "4.50 mm",
+      "18.00 mm",
+      "9.21 mm"
+    ],
+    "answer": 0,
+    "explanation": "s = r − √(r² − y²) with r = 100 mm, y = 30 mm. √(10,000 − 900) = √9,100 = 95.39 mm. s = 100 − 95.39 = 4.61 mm. The approximate formula y²/2r = 900/200 = 4.50 mm slightly underestimates it."
+  },
+  {
+    "id": "abo-opt-083",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens thickness & sagitta",
+    "difficulty": 3,
+    "stem": "Estimate the edge thickness of a −6.00 D plano-concave lens, index 1.50, 50 mm round, with a 2.0 mm center thickness.",
+    "choices": [
+      "5.75 mm",
+      "3.75 mm",
+      "8.00 mm",
+      "4.00 mm"
+    ],
+    "answer": 0,
+    "explanation": "Approximate sag: s = y²F ÷ 2000(n − 1) = (25² × 6.00) ÷ (2000 × 0.50) = 3750 ÷ 1000 = 3.75 mm. For a minus lens, edge thickness = center thickness + sag = 2.0 + 3.75 = 5.75 mm."
+  },
+  {
+    "id": "abo-opt-084",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens thickness & sagitta",
+    "difficulty": 3,
+    "stem": "Estimate the center thickness of a +4.00 D plano-convex lens, index 1.50, 60 mm round, with a 1.0 mm edge.",
+    "choices": [
+      "3.6 mm",
+      "2.6 mm",
+      "7.2 mm",
+      "4.6 mm"
+    ],
+    "answer": 3,
+    "explanation": "s = y²F ÷ 2000(n − 1) = (30² × 4.00) ÷ (2000 × 0.50) = 3600 ÷ 1000 = 3.6 mm. For a plus lens, center thickness = edge thickness + sag = 1.0 + 3.6 = 4.6 mm."
+  },
+  {
+    "id": "abo-opt-085",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens thickness & sagitta",
+    "difficulty": 2,
+    "stem": "If the diameter of a lens of the same power and material is doubled, its sagitta becomes approximately:",
+    "choices": [
+      "Four times as great",
+      "Twice as great",
+      "Half as great",
+      "Unchanged"
+    ],
+    "answer": 0,
+    "explanation": "Sag is proportional to y² (s ≈ y²F / 2000(n − 1)). Doubling y multiplies the sag by 2² = 4. This is why small lens sizes dramatically reduce thickness in strong prescriptions."
+  },
+  {
+    "id": "abo-opt-086",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Lens thickness & sagitta",
+    "difficulty": 2,
+    "stem": "For the same power and diameter, a higher-index material produces a thinner lens primarily because:",
+    "choices": [
+      "Higher-index materials have a higher Abbe value",
+      "Higher-index materials have a lower specific gravity",
+      "The lensometer reads them with less power",
+      "Flatter curves are needed to achieve the same power"
+    ],
+    "answer": 3,
+    "explanation": "Surface power F = (n − 1)/r. With a larger (n − 1), a longer radius (flatter curve) produces the same power, giving a smaller sagitta and thinner lens. Higher-index materials usually have lower Abbe values and often higher specific gravity."
+  },
+  {
+    "id": "abo-opt-087",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Base curves & Vogel's rule",
+    "difficulty": 2,
+    "stem": "Using Vogel's rule, what base curve is recommended for +3.00 −1.00 × 180?",
+    "choices": [
+      "+9.00 D",
+      "+8.50 D",
+      "+7.25 D",
+      "+5.00 D"
+    ],
+    "answer": 1,
+    "explanation": "Vogel's rule for plus lenses: base curve = spherical equivalent + 6.00. SE = +3.00 + (−0.50) = +2.50. Base curve = +2.50 + 6.00 = +8.50 D."
+  },
+  {
+    "id": "abo-opt-088",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Base curves & Vogel's rule",
+    "difficulty": 2,
+    "stem": "Using Vogel's rule, what base curve is recommended for −4.00 −1.00 × 180?",
+    "choices": [
+      "+1.50 D",
+      "+4.00 D",
+      "+10.50 D",
+      "+3.75 D"
+    ],
+    "answer": 3,
+    "explanation": "Vogel's rule for minus lenses: base curve = (SE ÷ 2) + 6.00. SE = −4.00 + (−0.50) = −4.50. −4.50 ÷ 2 = −2.25; −2.25 + 6.00 = +3.75 D. Using the plus-lens formula (SE + 6) gives the +1.50 D error."
+  },
+  {
+    "id": "abo-opt-089",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Base curves & Vogel's rule",
+    "difficulty": 1,
+    "stem": "On a minus-cylinder form spectacle lens, the base curve is:",
+    "choices": [
+      "The front spherical surface",
+      "The weaker curve of the back toric surface",
+      "The stronger curve of the back toric surface",
+      "The average of the front and back curves"
+    ],
+    "answer": 0,
+    "explanation": "Minus-cylinder lenses have a spherical front and the cylinder ground on the back (toric) surface. The front sphere is the base curve. On a toric surface in general, the base curve is the flattest (weakest) curve."
+  },
+  {
+    "id": "abo-opt-090",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Tscherning's ellipse",
+    "difficulty": 2,
+    "stem": "Tscherning's ellipse plots, for each lens power, the base curves that:",
+    "choices": [
+      "Eliminate chromatic aberration",
+      "Produce the thinnest possible lens",
+      "Produce zero spectacle magnification",
+      "Eliminate oblique (marginal) astigmatism"
+    ],
+    "answer": 3,
+    "explanation": "Tscherning's ellipse shows the front curves that eliminate oblique astigmatism for a given power and viewing condition. It has two branches: the flatter Ostwalt branch, used for practical spectacle lenses, and the steeper Wollaston branch."
+  },
+  {
+    "id": "abo-opt-091",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Base curves & Vogel's rule",
+    "difficulty": 2,
+    "stem": "The main optical purpose of choosing the correct base curve (corrected-curve design) is to:",
+    "choices": [
+      "Increase the lens's Abbe value",
+      "Eliminate the need for vertex distance compensation",
+      "Minimize oblique astigmatism and power error when looking through the periphery",
+      "Reduce reflections from the lens surfaces"
+    ],
+    "answer": 2,
+    "explanation": "Best-form or corrected-curve lenses use base curves that keep peripheral (off-axis) vision close to the intended power by controlling oblique astigmatism and curvature of field."
+  },
+  {
+    "id": "abo-opt-092",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 1,
+    "stem": "A standard lens clock (lens measure) is calibrated for a material with an index of:",
+    "choices": [
+      "1.498",
+      "1.586",
+      "1.00",
+      "1.53"
+    ],
+    "answer": 3,
+    "explanation": "The lens clock measures surface sagitta but displays diopters calculated for n = 1.53 (originally for crown glass ≈ 1.523). Readings on other materials must be converted."
+  },
+  {
+    "id": "abo-opt-093",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 3,
+    "stem": "A lens clock reads +6.00 D on the front of a polycarbonate lens (n = 1.586). What is the true surface power?",
+    "choices": [
+      "+6.00 D",
+      "+5.42 D",
+      "+6.63 D",
+      "+5.64 D"
+    ],
+    "answer": 2,
+    "explanation": "True power = clock reading × (n − 1) ÷ (1.53 − 1) = 6.00 × 0.586 ÷ 0.53 = 6.00 × 1.106 = +6.63 D. (+5.64 D would be the answer for CR-39, n = 1.498.)"
+  },
+  {
+    "id": "abo-opt-094",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 3,
+    "stem": "A lens clock reads +6.00 D on the front of a CR-39 lens (n = 1.498). What is the true surface power?",
+    "choices": [
+      "+6.39 D",
+      "+6.00 D",
+      "+5.64 D",
+      "+6.63 D"
+    ],
+    "answer": 2,
+    "explanation": "True power = 6.00 × (1.498 − 1) ÷ 0.53 = 6.00 × 0.498 ÷ 0.53 = +5.64 D. Because CR-39 has a lower index than 1.53, the clock overstates its surface power. Inverting the ratio gives the +6.39 D error."
+  },
+  {
+    "id": "abo-opt-095",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 2,
+    "stem": "When a lens clock is rotated on the back surface of a lens, the reading changes from −4.00 to −6.00 D. This indicates:",
+    "choices": [
+      "The back surface is toric, with about 2.00 D of cylinder",
+      "The back surface is spherical with −10.00 D of power",
+      "The lens contains 2Δ of prism",
+      "The lens has an aspheric front surface"
+    ],
+    "answer": 0,
+    "explanation": "A spherical surface reads the same in every meridian. Different readings in perpendicular meridians mean a toric surface; the difference (−6.00 − (−4.00) = −2.00 D on the 1.53 scale) is the cylinder."
+  },
+  {
+    "id": "abo-opt-096",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Spectacle magnification",
+    "difficulty": 2,
+    "stem": "Spectacle magnification is the product of which two factors?",
+    "choices": [
+      "The Abbe value and the index",
+      "The power factor and the shape factor",
+      "The base curve and the add power",
+      "The vertex distance and the PD"
+    ],
+    "answer": 1,
+    "explanation": "SM = power factor × shape factor. Power factor = 1 / (1 − hFv), where h is the distance from lens to the eye's entrance pupil; shape factor = 1 / (1 − (t/n)F₁), depending on front curve and center thickness."
+  },
+  {
+    "id": "abo-opt-097",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Spectacle magnification",
+    "difficulty": 2,
+    "stem": "Which change increases the magnification of a plus lens?",
+    "choices": [
+      "Reducing the center thickness",
+      "Using a steeper front (base) curve",
+      "Moving the lens closer to the eye",
+      "Using a flatter front curve"
+    ],
+    "answer": 1,
+    "explanation": "The shape factor 1 / (1 − (t/n)F₁) increases with a steeper front curve and with greater center thickness. The power factor increases as the plus lens is moved farther from the eye. Flatter, thinner, closer-fitting lenses reduce magnification."
+  },
+  {
+    "id": "abo-opt-098",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Spectacle magnification",
+    "difficulty": 3,
+    "stem": "Considering only the power factor, approximately how much magnification does a +10.00 D lens produce when worn 12 mm from the eye's entrance pupil?",
+    "choices": [
+      "About 13.6%",
+      "About 10.0%",
+      "About 1.2%",
+      "About 88.0%"
+    ],
+    "answer": 0,
+    "explanation": "Power factor = 1 ÷ (1 − hF) = 1 ÷ (1 − 0.012 × 10.00) = 1 ÷ 0.88 = 1.136, i.e., about 13.6% magnification. High-plus lenses (e.g., aphakic) magnify noticeably."
+  },
+  {
+    "id": "abo-opt-099",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Spectacle magnification",
+    "difficulty": 2,
+    "stem": "A myope switching from glasses to contact lenses will usually notice that objects look:",
+    "choices": [
+      "Slightly larger",
+      "Slightly smaller",
+      "Exactly the same size",
+      "Doubled"
+    ],
+    "answer": 0,
+    "explanation": "Minus spectacle lenses minify. When the correction moves to the cornea (vertex distance ≈ 0), the minification is largely eliminated, so images appear larger. Hyperopes notice the opposite."
+  },
+  {
+    "id": "abo-opt-100",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Reflection (Fresnel) loss",
+    "difficulty": 2,
+    "stem": "Approximately what percentage of light is reflected from each surface of an uncoated lens with an index of 1.50?",
+    "choices": [
+      "8%",
+      "1%",
+      "25%",
+      "4%"
+    ],
+    "answer": 3,
+    "explanation": "Fresnel reflection R = ((n − 1) / (n + 1))² = (0.50 / 2.50)² = 0.20² = 0.04 = 4% per surface. Both surfaces together reflect about 8%."
+  },
+  {
+    "id": "abo-opt-101",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Reflection (Fresnel) loss",
+    "difficulty": 3,
+    "stem": "Approximately what percentage of light is reflected from each surface of an uncoated 1.74-index lens?",
+    "choices": [
+      "4.0%",
+      "14.6%",
+      "7.3%",
+      "2.7%"
+    ],
+    "answer": 2,
+    "explanation": "R = ((1.74 − 1) / (1.74 + 1))² = (0.74 / 2.74)² = 0.270² ≈ 0.073 = 7.3% per surface (≈14% total). Higher-index lenses reflect more light, which is why AR coating is strongly recommended for them."
+  },
+  {
+    "id": "abo-opt-102",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Abbe value & chromatic aberration",
+    "difficulty": 1,
+    "stem": "A high Abbe value indicates a lens material with:",
+    "choices": [
+      "High dispersion and more chromatic aberration",
+      "High impact resistance",
+      "Low dispersion and less chromatic aberration",
+      "Low specific gravity"
+    ],
+    "answer": 2,
+    "explanation": "Abbe value V = (n_d − 1) / (n_F − n_C). The higher the number, the less the material spreads light into colors. Crown glass (≈59) and CR-39 (≈58) are high; polycarbonate (≈30) is low."
+  },
+  {
+    "id": "abo-opt-103",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Abbe value & chromatic aberration",
+    "difficulty": 3,
+    "stem": "A −6.00 D polycarbonate lens (Abbe 30) is viewed through a point 10 mm from its optical center. What is the transverse chromatic aberration at that point?",
+    "choices": [
+      "0.20Δ",
+      "6.00Δ",
+      "0.60Δ",
+      "0.02Δ"
+    ],
+    "answer": 0,
+    "explanation": "First find the prism with Prentice's rule: Δ = 1.0 cm × 6.00 = 6.00Δ. Transverse chromatic aberration = prism ÷ Abbe value = 6.00 ÷ 30 = 0.20Δ. The same lens in CR-39 (Abbe 58) would have about 0.10Δ."
+  },
+  {
+    "id": "abo-opt-104",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Abbe value & chromatic aberration",
+    "difficulty": 1,
+    "stem": "A patient in new high-minus, low-Abbe lenses reports color fringes around objects when looking toward the edges of the lenses. This is caused by:",
+    "choices": [
+      "Chromatic aberration",
+      "Spherical aberration",
+      "Pincushion distortion",
+      "Fresnel reflection"
+    ],
+    "answer": 0,
+    "explanation": "Lateral (transverse) chromatic aberration grows with prism, so it appears away from the OC in strong lenses made of low-Abbe materials. Remedies include a higher-Abbe material, accurate centration, and smaller frames."
+  },
+  {
+    "id": "abo-opt-105",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Aberrations",
+    "difficulty": 2,
+    "stem": "A strong plus lens produces which type of distortion?",
+    "choices": [
+      "Barrel distortion",
+      "Coma",
+      "Chromatic distortion",
+      "Pincushion distortion"
+    ],
+    "answer": 3,
+    "explanation": "Plus lenses magnify more toward the periphery, so square objects bow inward at the sides (pincushion). Minus lenses minify more at the periphery, producing barrel distortion."
+  },
+  {
+    "id": "abo-opt-106",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Aberrations",
+    "difficulty": 2,
+    "stem": "Which aberration is the primary concern of ophthalmic lens designers and is controlled mainly by base curve selection?",
+    "choices": [
+      "Spherical aberration",
+      "Oblique (marginal) astigmatism",
+      "Coma",
+      "Longitudinal chromatic aberration"
+    ],
+    "answer": 1,
+    "explanation": "When the eye rotates to look through the lens periphery, oblique astigmatism creates unwanted cylinder. Correct base curve choice (best form) minimizes it, along with power error (curvature of field)."
+  },
+  {
+    "id": "abo-opt-107",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Aberrations",
+    "difficulty": 2,
+    "stem": "Spherical aberration and coma are of minor importance in spectacle lenses because:",
+    "choices": [
+      "Spectacle lenses are always aspheric",
+      "They are corrected automatically by AR coating",
+      "The eye's pupil is small, limiting the bundle of rays through the lens",
+      "They occur only in minus lenses"
+    ],
+    "answer": 2,
+    "explanation": "Spherical aberration and coma depend on a wide aperture. The pupil limits the beam passing through any part of a spectacle lens to a few millimeters, so these aberrations are small compared with oblique astigmatism and curvature of field."
+  },
+  {
+    "id": "abo-opt-108",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Aberrations",
+    "difficulty": 2,
+    "stem": "Curvature of field (power error) in a spectacle lens means that:",
+    "choices": [
+      "The off-axis image focuses on a curved surface rather than matching the eye's far-point sphere, causing a peripheral power error",
+      "The lens surfaces have different radii",
+      "The lens splits white light into colors",
+      "Straight lines appear curved"
+    ],
+    "answer": 0,
+    "explanation": "Even with oblique astigmatism eliminated, the image shell may not coincide with the far-point sphere, producing a mean power error in the periphery. Straight lines appearing curved is distortion; color splitting is chromatic aberration."
+  },
+  {
+    "id": "abo-opt-109",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 1,
+    "stem": "In uncorrected myopia, parallel light from a distant object focuses:",
+    "choices": [
+      "In front of the retina; corrected with minus lenses",
+      "Behind the retina; corrected with minus lenses",
+      "In front of the retina; corrected with plus lenses",
+      "On the retina; no correction is needed"
+    ],
+    "answer": 0,
+    "explanation": "The myopic eye has too much converging power for its length, so the image falls in front of the retina. Minus lenses diverge light to move the focus back onto the retina.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-opt-110",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 1,
+    "stem": "Hyperopia is corrected with plus lenses because the uncorrected eye:",
+    "choices": [
+      "Focuses distant light in front of the retina",
+      "Has two separate focal lines",
+      "Has lost all accommodation",
+      "Focuses distant light behind the retina"
+    ],
+    "answer": 3,
+    "explanation": "The hyperopic eye has too little converging power for its length. Plus lenses add convergence to bring the focus forward onto the retina.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-opt-111",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 2,
+    "stem": "What is the far point of an uncorrected −2.50 D myope?",
+    "choices": [
+      "25 cm in front of the eye",
+      "2.5 m in front of the eye",
+      "40 cm in front of the eye",
+      "40 cm behind the eye"
+    ],
+    "answer": 2,
+    "explanation": "Far point = 1 / refractive error = 1 / 2.50 = 0.40 m. For a myope, it is a real point in front of the eye. The correcting lens's focal point must coincide with this far point.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-opt-112",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 2,
+    "stem": "An uncorrected −3.00 D myope who does not accommodate will see clearly at approximately:",
+    "choices": [
+      "3 m",
+      "50 cm",
+      "Infinity",
+      "33 cm"
+    ],
+    "answer": 3,
+    "explanation": "The far point is 1 / 3.00 = 0.33 m. Objects at 33 cm are seen clearly without accommodation, which is why low myopes often read comfortably without glasses.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-opt-113",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 2,
+    "stem": "+3.00 −1.00 × 180 represents which type of astigmatism?",
+    "choices": [
+      "Compound hyperopic astigmatism",
+      "Mixed astigmatism",
+      "Simple hyperopic astigmatism",
+      "Compound myopic astigmatism"
+    ],
+    "answer": 0,
+    "explanation": "The principal meridians are +3.00 D (180) and +2.00 D (90). Both are hyperopic but unequal, so it is compound hyperopic astigmatism.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-opt-114",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 1,
+    "stem": "A significant difference in refractive error between the two eyes is called:",
+    "choices": [
+      "Aniseikonia",
+      "Presbyopia",
+      "Emmetropia",
+      "Anisometropia"
+    ],
+    "answer": 3,
+    "explanation": "Anisometropia is unequal refractive error between the eyes. It can cause aniseikonia (unequal image sizes) and vertical imbalance at near in bifocals.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-opt-115",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation & add power",
+    "difficulty": 1,
+    "stem": "Presbyopia is best described as:",
+    "choices": [
+      "An age-related loss of accommodative ability",
+      "A refractive error caused by an irregular cornea",
+      "An increase in eye length with age",
+      "A sudden loss of distance vision"
+    ],
+    "answer": 0,
+    "explanation": "With age the crystalline lens loses flexibility, reducing the amplitude of accommodation. When the remaining amplitude cannot comfortably support near work, a plus add is needed."
+  },
+  {
+    "id": "abo-opt-116",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation & add power",
+    "difficulty": 2,
+    "stem": "An emmetropic patient with no accommodation wishes to read at 33 cm. What add power is needed?",
+    "choices": [
+      "+0.33 D",
+      "+3.00 D",
+      "+2.00 D",
+      "+33.00 D"
+    ],
+    "answer": 1,
+    "explanation": "Light from 33 cm has a vergence of 1 / 0.33 = 3.00 D. With no accommodation, the full +3.00 D must be supplied by the add."
+  },
+  {
+    "id": "abo-opt-117",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation & add power",
+    "difficulty": 3,
+    "stem": "A patient has 2.00 D of accommodation and wants to read at 40 cm, keeping half of the amplitude in reserve. What add is needed?",
+    "choices": [
+      "+2.50 D",
+      "+0.50 D",
+      "+1.00 D",
+      "+1.50 D"
+    ],
+    "answer": 3,
+    "explanation": "Demand at 40 cm = 1 / 0.40 = 2.50 D. Usable accommodation = half of 2.00 = 1.00 D. Add = 2.50 − 1.00 = +1.50 D."
+  },
+  {
+    "id": "abo-opt-118",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation & add power",
+    "difficulty": 2,
+    "stem": "An emmetrope with 4.00 D of accommodation has a near point of approximately:",
+    "choices": [
+      "40 cm",
+      "4 cm",
+      "2.5 m",
+      "25 cm"
+    ],
+    "answer": 3,
+    "explanation": "Near point (emmetrope) = 1 / amplitude = 1 / 4.00 = 0.25 m = 25 cm."
+  },
+  {
+    "id": "abo-opt-119",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Accommodation & add power",
+    "difficulty": 2,
+    "stem": "The distance Rx is −2.00 −0.50 × 180 with a +2.00 add. What is the near (reading-only) prescription?",
+    "choices": [
+      "−4.00 −0.50 × 180",
+      "+2.00 −0.50 × 180",
+      "Plano −0.50 × 090",
+      "Plano −0.50 × 180"
+    ],
+    "answer": 3,
+    "explanation": "Add the add power to the sphere only; cylinder and axis do not change: −2.00 + 2.00 = plano. Near Rx = plano −0.50 × 180."
+  },
+  {
+    "id": "abo-opt-120",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Near PD",
+    "difficulty": 2,
+    "stem": "A patient's distance PD is 64 mm. For a reading distance of about 40 cm, the near PD is typically closest to:",
+    "choices": [
+      "64 mm",
+      "67 mm",
+      "61 mm",
+      "54 mm"
+    ],
+    "answer": 2,
+    "explanation": "The eyes converge at near, so the near PD is typically about 3–4 mm less than the distance PD for a 40 cm working distance (geometrically about 64 × 400 / 427 ≈ 60 mm). 61 mm is the closest choice; the near PD is never larger than the distance PD."
+  },
+  {
+    "id": "abo-opt-121",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Image jump",
+    "difficulty": 3,
+    "stem": "A round 22 mm bifocal segment has a +2.00 D add. How much image jump occurs at the top of the segment?",
+    "choices": [
+      "4.40Δ",
+      "2.20Δ",
+      "1.10Δ",
+      "0.00Δ"
+    ],
+    "answer": 1,
+    "explanation": "Image jump = distance from the seg top to the seg optical center (cm) × add. A round seg's OC is at its center, 11 mm (1.1 cm) below the top. Δ = 1.1 × 2.00 = 2.20Δ. Using the full diameter gives 4.40Δ."
+  },
+  {
+    "id": "abo-opt-122",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Image jump",
+    "difficulty": 2,
+    "stem": "Image jump in a bifocal depends on:",
+    "choices": [
+      "The distance power and the add power",
+      "The distance power and the seg height",
+      "The lens material and the base curve",
+      "The add power and the distance from the seg top to the seg optical center"
+    ],
+    "answer": 3,
+    "explanation": "Image jump is the prism introduced abruptly at the seg line by the segment itself, so it depends only on the add and the seg OC position. The distance power does not affect it (it affects total prism at near, i.e., differential displacement)."
+  },
+  {
+    "id": "abo-opt-123",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Image jump",
+    "difficulty": 2,
+    "stem": "As a wearer of round-seg bifocals lowers the eyes across the top of the segment, objects appear to:",
+    "choices": [
+      "Jump downward",
+      "Split into two colors",
+      "Jump upward",
+      "Become magnified horizontally only"
+    ],
+    "answer": 2,
+    "explanation": "At the top of a plus round segment the seg acts like a base-down prism (its base points toward the seg OC below). Images shift toward the apex — upward — creating the jump."
+  },
+  {
+    "id": "abo-opt-124",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Image jump",
+    "difficulty": 2,
+    "stem": "Which bifocal design produces no image jump?",
+    "choices": [
+      "Round 22 mm segment",
+      "Executive (full-width) segment",
+      "Round 38 mm (Ultex-style) segment",
+      "Blended round segment"
+    ],
+    "answer": 1,
+    "explanation": "The Executive segment has its optical center on the seg line, so there is no abrupt prism at the line. Flat-tops minimize image jump because their OC is close to the line; round segs maximize it because the OC is at the seg center."
+  }
+]

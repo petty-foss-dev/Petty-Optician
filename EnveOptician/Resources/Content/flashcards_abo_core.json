@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "fc-abo-ana-001",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Five classic corneal layers (front to back)",
+    "back": "Epithelium, Bowman's layer, stroma, Descemet's membrane, endothelium."
+  },
+  {
+    "id": "fc-abo-ana-002",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Thickest corneal layer",
+    "back": "Stroma, about 90% of corneal thickness."
+  },
+  {
+    "id": "fc-abo-ana-003",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Corneal layer that pumps fluid and doesn't regenerate",
+    "back": "Endothelium."
+  },
+  {
+    "id": "fc-abo-ana-004",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Share of the eye's refractive power from the cornea",
+    "back": "About two-thirds (about +43 D of about +60 D)."
+  },
+  {
+    "id": "fc-abo-ana-005",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Limbus",
+    "back": "The junction of the cornea and sclera; holds the corneal stem cells and sits over the drainage angle."
+  },
+  {
+    "id": "fc-abo-ana-006",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Lamina cribrosa",
+    "back": "Sieve-like area of the posterior sclera where optic nerve fibers leave the eye."
+  },
+  {
+    "id": "fc-abo-ana-007",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Bulbar vs palpebral conjunctiva",
+    "back": "Bulbar covers the sclera; palpebral lines the inner eyelids."
+  },
+  {
+    "id": "fc-abo-ana-008",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Parts of the uvea",
+    "back": "Iris, ciliary body, choroid."
+  },
+  {
+    "id": "fc-abo-ana-009",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Sphincter pupillae",
+    "back": "Constricts the pupil (miosis); parasympathetic, via CN III."
+  },
+  {
+    "id": "fc-abo-ana-010",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Dilator pupillae",
+    "back": "Dilates the pupil (mydriasis); sympathetic."
+  },
+  {
+    "id": "fc-abo-ana-011",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "What happens during accommodation",
+    "back": "Ciliary muscle contracts → zonules relax → lens rounds up (more plus)."
+  },
+  {
+    "id": "fc-abo-ana-012",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Where aqueous is made",
+    "back": "Ciliary processes of the ciliary body, into the posterior chamber."
+  },
+  {
+    "id": "fc-abo-ana-013",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Aqueous outflow path",
+    "back": "Posterior chamber → pupil → anterior chamber → trabecular meshwork → Schlemm's canal → episcleral veins."
+  },
+  {
+    "id": "fc-abo-ana-014",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Typical normal IOP",
+    "back": "About 10–21 mmHg."
+  },
+  {
+    "id": "fc-abo-ana-015",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Presbyopia",
+    "back": "Age-related loss of lens flexibility and accommodation; corrected with an add."
+  },
+  {
+    "id": "fc-abo-ana-016",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Fovea",
+    "back": "Rod-free center of the macula, packed with cones; sharpest vision."
+  },
+  {
+    "id": "fc-abo-ana-017",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Optic disc",
+    "back": "Where the optic nerve exits; no photoreceptors, so it causes the blind spot."
+  },
+  {
+    "id": "fc-abo-ana-018",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Rods vs cones",
+    "back": "Rods: dim light, periphery. Cones: color and fine detail, concentrated at the fovea."
+  },
+  {
+    "id": "fc-abo-ana-019",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Retinal detachment warning signs",
+    "back": "Flashes, a sudden shower of floaters, a curtain or shadow over vision. Refer the same day."
+  },
+  {
+    "id": "fc-abo-ana-020",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Optic chiasm",
+    "back": "Where nasal retinal fibers cross; a pituitary tumor there causes bitemporal hemianopia."
+  },
+  {
+    "id": "fc-abo-ana-021",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Visual pathway",
+    "back": "Optic nerve → chiasm → optic tract → LGN → optic radiations → occipital cortex."
+  },
+  {
+    "id": "fc-abo-ana-022",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Extraocular muscle innervation",
+    "back": "LR6 SO4, rest 3: lateral rectus = CN VI, superior oblique = CN IV, all others = CN III."
+  },
+  {
+    "id": "fc-abo-ana-023",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Muscle that lifts the upper lid",
+    "back": "Levator palpebrae superioris (CN III)."
+  },
+  {
+    "id": "fc-abo-ana-024",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Muscle that closes the lids",
+    "back": "Orbicularis oculi (CN VII, facial nerve)."
+  },
+  {
+    "id": "fc-abo-ana-025",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Tear film layers and sources",
+    "back": "Lipid (meibomian glands), aqueous (lacrimal and accessory glands), mucin (goblet cells)."
+  },
+  {
+    "id": "fc-abo-ana-026",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Tear drainage path",
+    "back": "Puncta → canaliculi → lacrimal sac → nasolacrimal duct → nose."
+  },
+  {
+    "id": "fc-abo-ana-027",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Myopia",
+    "back": "Image focuses in front of the retina; corrected with minus lenses; far point = 1 ÷ D."
+  },
+  {
+    "id": "fc-abo-ana-028",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Hyperopia",
+    "back": "Image focuses behind the retina; corrected with plus lenses."
+  },
+  {
+    "id": "fc-abo-ana-029",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Mixed astigmatism",
+    "back": "One principal meridian myopic and the other hyperopic (for example +1.00 −2.00 × 090)."
+  },
+  {
+    "id": "fc-abo-ana-030",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Amblyopia",
+    "back": "Reduced best-corrected vision from abnormal visual development in childhood."
+  },
+  {
+    "id": "fc-abo-ana-031",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Phoria vs tropia",
+    "back": "Phoria: latent, held by fusion. Tropia: manifest, visible with both eyes open."
+  },
+  {
+    "id": "fc-abo-ana-032",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Eso / exo / hyper",
+    "back": "Eso = in, exo = out, hyper = up (hypo = down)."
+  },
+  {
+    "id": "fc-abo-ana-033",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Prism to relieve eso / exo",
+    "back": "Esodeviation: base out. Exodeviation: base in."
+  },
+  {
+    "id": "fc-abo-ana-034",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Nuclear cataract clue",
+    "back": "Myopic shift; the patient may read without glasses again ('second sight')."
+  },
+  {
+    "id": "fc-abo-ana-035",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "PSC cataract association",
+    "back": "Steroid use and diabetes; causes glare and near-vision trouble."
+  },
+  {
+    "id": "fc-abo-ana-036",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Acute angle-closure glaucoma",
+    "back": "Painful red eye, halos, blur, nausea, mid-dilated pupil. Emergency."
+  },
+  {
+    "id": "fc-abo-ana-037",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Primary open-angle glaucoma",
+    "back": "Painless, gradual peripheral field loss; often no symptoms until advanced."
+  },
+  {
+    "id": "fc-abo-ana-038",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Wet vs dry AMD",
+    "back": "Dry: drusen and atrophy, slow, more common. Wet: neovascularization, rapid, treated with anti-VEGF."
+  },
+  {
+    "id": "fc-abo-ana-039",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Keratoconus",
+    "back": "Progressive corneal thinning and steepening into a cone; irregular astigmatism; RGP or scleral lenses."
+  },
+  {
+    "id": "fc-abo-ana-040",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Pterygium vs pinguecula",
+    "back": "Pterygium grows onto the cornea; a pinguecula stays on the conjunctiva. Both are linked to UV."
+  },
+  {
+    "id": "fc-abo-ana-041",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Allergic vs bacterial vs viral conjunctivitis",
+    "back": "Allergic: itching. Bacterial: thick purulent discharge. Viral: watery and highly contagious."
+  },
+  {
+    "id": "fc-abo-ana-042",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Chalazion vs hordeolum",
+    "back": "Chalazion: painless blocked meibomian gland. Hordeolum (stye): acute, painful infection."
+  },
+  {
+    "id": "fc-abo-ana-043",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Cycloplegic drop effects",
+    "back": "Dilated pupil and paralyzed accommodation: light sensitivity and near blur."
+  },
+  {
+    "id": "fc-abo-ana-044",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Ophthalmologist vs optometrist vs optician",
+    "back": "MD/DO surgeon; OD who examines and prescribes; optician who fits and dispenses."
+  },
+  {
+    "id": "fc-abo-frm-001",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Boxing 'A'",
+    "back": "Horizontal width of the box around the lens shape (eye size)."
+  },
+  {
+    "id": "fc-abo-frm-002",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Boxing 'B'",
+    "back": "Vertical height of the box around the lens shape."
+  },
+  {
+    "id": "fc-abo-frm-003",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Effective diameter (ED)",
+    "back": "Twice the longest radius from the geometric center to the lens edge."
+  },
+  {
+    "id": "fc-abo-frm-004",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "DBL",
+    "back": "Distance between lenses: the shortest distance between the nasal boxing lines."
+  },
+  {
+    "id": "fc-abo-frm-005",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Frame PD (GCD)",
+    "back": "A + DBL."
+  },
+  {
+    "id": "fc-abo-frm-006",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Frame difference",
+    "back": "A − B."
+  },
+  {
+    "id": "fc-abo-frm-007",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Reading the frame marking 52□18 140",
+    "back": "Eye size 52, bridge 18, temple length 140 mm."
+  },
+  {
+    "id": "fc-abo-frm-008",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Geometric (boxing) center",
+    "back": "Where the horizontal and vertical midlines of the box cross."
+  },
+  {
+    "id": "fc-abo-frm-009",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Datum line",
+    "back": "Older system: horizontal line midway between the top and bottom tangents of the lens."
+  },
+  {
+    "id": "fc-abo-frm-010",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Minimum blank size",
+    "back": "MBS = ED + (frame PD − patient PD) + 2 mm, or ED + 2 × (per-lens decentration) + 2 mm."
+  },
+  {
+    "id": "fc-abo-frm-011",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Why +2 mm in MBS",
+    "back": "Allowance for edging and chips or irregularities at the blank's edge."
+  },
+  {
+    "id": "fc-abo-frm-012",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Cellulose acetate (zyl)",
+    "back": "Most common plastic frame; adjusts with heat; huge range of colors."
+  },
+  {
+    "id": "fc-abo-frm-013",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Optyl",
+    "back": "Epoxy resin with memory: returns to its molded shape when reheated; doesn't stretch."
+  },
+  {
+    "id": "fc-abo-frm-014",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Monel",
+    "back": "Nickel-copper alloy; adjustable and solderable; possible nickel allergy."
+  },
+  {
+    "id": "fc-abo-frm-015",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Titanium",
+    "back": "Light, strong, hypoallergenic, corrosion resistant; needs special welding, not standard solder."
+  },
+  {
+    "id": "fc-abo-frm-016",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Beta-titanium",
+    "back": "Titanium alloy that is more flexible and springy; used for thin temples."
+  },
+  {
+    "id": "fc-abo-frm-017",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Memory metal (NiTi)",
+    "back": "Superelastic; springs back; memory parts resist adjustment."
+  },
+  {
+    "id": "fc-abo-frm-018",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "TR-90 / Grilamid",
+    "back": "Nylon-family thermoplastic: light, flexible, high memory, limited heat adjustment."
+  },
+  {
+    "id": "fc-abo-frm-019",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Aluminum frames",
+    "back": "Lightest common frame metal; can't be solder-repaired."
+  },
+  {
+    "id": "fc-abo-frm-020",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Stainless steel",
+    "back": "Iron-chromium alloy; strong, thin, corrosion resistant."
+  },
+  {
+    "id": "fc-abo-frm-021",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Salt pan / hot-air warmer",
+    "back": "Heats plastic frames for adjustment and lens insertion."
+  },
+  {
+    "id": "fc-abo-frm-022",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Heat and AR coatings",
+    "back": "Too much heat can craze AR-coated lenses; aim heat at the frame."
+  },
+  {
+    "id": "fc-abo-frm-023",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Face shape rule",
+    "back": "Contrast the face: round → angular; square → round/oval; long → deep frame with decorative temples."
+  },
+  {
+    "id": "fc-abo-frm-024",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "High-minus frame choice",
+    "back": "Small eye size, frame PD close to patient PD to limit edge thickness."
+  },
+  {
+    "id": "fc-abo-frm-025",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "High-plus frame choice",
+    "back": "Small eye size, minimal decentration to limit center thickness and weight."
+  },
+  {
+    "id": "fc-abo-frm-026",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "PAL frame check",
+    "back": "Enough B depth for the design's minimum fitting height."
+  },
+  {
+    "id": "fc-abo-frm-027",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Library temple",
+    "back": "Straight, no bend; easy on and off; holds by side pressure."
+  },
+  {
+    "id": "fc-abo-frm-028",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Skull temple",
+    "back": "Most common; bends down behind the ear following the skull."
+  },
+  {
+    "id": "fc-abo-frm-029",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Riding bow / cable temple",
+    "back": "Wraps around the ear; secure for kids and sports."
+  },
+  {
+    "id": "fc-abo-frm-030",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Saddle vs keyhole bridge",
+    "back": "Saddle spreads weight over the crest and sides; keyhole rests on the sides of the nose only."
+  },
+  {
+    "id": "fc-abo-frm-031",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Four-point touch",
+    "back": "A straight edge across the back of the front touches the nasal and temporal edges of both eyewires."
+  },
+  {
+    "id": "fc-abo-frm-032",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "X-ing",
+    "back": "Lens planes twisted relative to each other when viewed from the side; corrected at the bridge."
+  },
+  {
+    "id": "fc-abo-frm-033",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Standard alignment temple spread",
+    "back": "About 90–95° from the front."
+  },
+  {
+    "id": "fc-abo-frm-034",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Pantoscopic tilt",
+    "back": "Lower rims tilted toward the cheeks."
+  },
+  {
+    "id": "fc-abo-frm-035",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "OC drop for tilt",
+    "back": "Lower the OC 1 mm for every 2° of pantoscopic tilt."
+  },
+  {
+    "id": "fc-abo-frm-036",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Face form",
+    "back": "Temporal edges closer to the face than the nasal edges (wrap)."
+  },
+  {
+    "id": "fc-abo-frm-037",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Vertex distance",
+    "back": "Back surface of the lens to the front of the cornea."
+  },
+  {
+    "id": "fc-abo-frm-038",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "One side of the frame sits high",
+    "back": "Bend that side's temple up (or the other temple down)."
+  },
+  {
+    "id": "fc-abo-frm-039",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "One lens too far from the face",
+    "back": "Bend that side's temple in (or open the other temple)."
+  },
+  {
+    "id": "fc-abo-frm-040",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Raise a frame with adjustable pads",
+    "back": "Move the pads closer together (or move them down on the frame)."
+  },
+  {
+    "id": "fc-abo-frm-041",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Drill-mount lens choice",
+    "back": "Trivex or polycarbonate; they resist cracking at the holes."
+  },
+  {
+    "id": "fc-abo-frm-042",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Nylon-cord mounting",
+    "back": "Grooved lens edge with a nylon monofilament in the groove."
+  },
+  {
+    "id": "fc-abo-frm-043",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Safety frame requirement",
+    "back": "Frame and lenses must both meet and be marked for Z87.1; dress frames don't qualify."
+  },
+  {
+    "id": "fc-abo-dsp-001",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "OD / OS / OU",
+    "back": "Right eye / left eye / both eyes."
+  },
+  {
+    "id": "fc-abo-dsp-002",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Axis range",
+    "back": "1–180; write 180, never 000."
+  },
+  {
+    "id": "fc-abo-dsp-003",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Transposition steps",
+    "back": "Add cyl to sphere, change cyl sign, change axis by 90°."
+  },
+  {
+    "id": "fc-abo-dsp-004",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Spherical equivalent",
+    "back": "Sphere + cylinder ÷ 2."
+  },
+  {
+    "id": "fc-abo-dsp-005",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Power in the meridian 90° from the axis",
+    "back": "Sphere + full cylinder."
+  },
+  {
+    "id": "fc-abo-dsp-006",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Near-only Rx from distance + add",
+    "back": "Add the add to the sphere; cylinder and axis stay the same."
+  },
+  {
+    "id": "fc-abo-dsp-007",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Splitting horizontal prism",
+    "back": "Same base direction in both eyes (BO + BO, or BI + BI)."
+  },
+  {
+    "id": "fc-abo-dsp-008",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Splitting vertical prism",
+    "back": "Opposite directions: BU in one eye = BD in the other."
+  },
+  {
+    "id": "fc-abo-dsp-009",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Resultant prism",
+    "back": "√(horizontal² + vertical²)."
+  },
+  {
+    "id": "fc-abo-dsp-010",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Prentice's rule",
+    "back": "Δ = c (cm) × F (D)."
+  },
+  {
+    "id": "fc-abo-dsp-011",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Base direction from decentration",
+    "back": "Plus lens: base toward the OC. Minus lens: base away from the OC."
+  },
+  {
+    "id": "fc-abo-dsp-012",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Distance PD",
+    "back": "Pupil center to pupil center with the eyes fixing at distance."
+  },
+  {
+    "id": "fc-abo-dsp-013",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "PD ruler working distance",
+    "back": "About 40 cm (16 in), dispenser at the patient's eye level."
+  },
+  {
+    "id": "fc-abo-dsp-014",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Pupillometer",
+    "back": "Measures monocular PDs from the corneal light reflexes."
+  },
+  {
+    "id": "fc-abo-dsp-015",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Near PD formula",
+    "back": "Near PD = distance PD × WD ÷ (WD + 27 mm)."
+  },
+  {
+    "id": "fc-abo-dsp-016",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Near PD rule of thumb",
+    "back": "About 3–4 mm less than distance PD at about 40 cm."
+  },
+  {
+    "id": "fc-abo-dsp-017",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Flat-top bifocal height",
+    "back": "Seg top at the lower lid margin."
+  },
+  {
+    "id": "fc-abo-dsp-018",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Trifocal height",
+    "back": "Seg top at the lower edge of the pupil."
+  },
+  {
+    "id": "fc-abo-dsp-019",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "PAL fitting cross",
+    "back": "At the pupil center in distance gaze, using monocular PD and fitting height."
+  },
+  {
+    "id": "fc-abo-dsp-020",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Where seg and fitting heights are measured from",
+    "back": "The lowest point of the lens shape (lower boxing line)."
+  },
+  {
+    "id": "fc-abo-dsp-021",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "When to measure heights",
+    "back": "After the frame is adjusted to the patient."
+  },
+  {
+    "id": "fc-abo-dsp-022",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Horizontal decentration per lens",
+    "back": "(Frame PD − patient PD) ÷ 2, or (frame PD ÷ 2) − monocular PD."
+  },
+  {
+    "id": "fc-abo-dsp-023",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Vertical decentration",
+    "back": "OC height − (B ÷ 2)."
+  },
+  {
+    "id": "fc-abo-dsp-024",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Total seg inset from the geometric center",
+    "back": "(Frame PD − near PD) ÷ 2 per lens."
+  },
+  {
+    "id": "fc-abo-dsp-025",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lensmeter eyepiece focus",
+    "back": "Turn fully counterclockwise (plus), then slowly in until the reticle is just sharp."
+  },
+  {
+    "id": "fc-abo-dsp-026",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Minus-cylinder lensmeter technique",
+    "back": "Start at high plus; first meridian to focus = sphere, axis wheel = axis; second − first = cyl."
+  },
+  {
+    "id": "fc-abo-dsp-027",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Measuring the add on a front-surface multifocal",
+    "back": "Front surface against the lens stop; add = near reading − distance reading."
+  },
+  {
+    "id": "fc-abo-dsp-028",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Prism in the lensmeter",
+    "back": "The target shifts toward the base; count the rings."
+  },
+  {
+    "id": "fc-abo-dsp-029",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "PAL distance verification",
+    "back": "At the distance reference circle above the fitting cross."
+  },
+  {
+    "id": "fc-abo-dsp-030",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "PAL prism verification",
+    "back": "At the PRP, midway between the hidden engravings."
+  },
+  {
+    "id": "fc-abo-dsp-031",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Equal BD prism in both PALs",
+    "back": "Prism thinning (yoked), not an error."
+  },
+  {
+    "id": "fc-abo-dsp-032",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens clock",
+    "back": "Measures surface curvature; calibrated for n ≈ 1.53, so it underreads higher-index lenses."
+  },
+  {
+    "id": "fc-abo-dsp-033",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens clock correction",
+    "back": "True power = reading × (n − 1) ÷ 0.53."
+  },
+  {
+    "id": "fc-abo-dsp-034",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Edge types",
+    "back": "V-bevel = full rim; groove = nylon cord; flat + holes = drill mount."
+  },
+  {
+    "id": "fc-abo-dsp-035",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Safety (pin) bevel",
+    "back": "Small bevel that removes sharp edges and reduces chipping."
+  },
+  {
+    "id": "fc-abo-dsp-036",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "PAL fit too low",
+    "back": "Patient tilts the head back (chin up) to read."
+  },
+  {
+    "id": "fc-abo-dsp-037",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "PAL fit too high",
+    "back": "Distance blur straight ahead; patient drops the chin."
+  },
+  {
+    "id": "fc-abo-dsp-038",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Bifocal seg too high",
+    "back": "Seg line gets in the way of distance vision when walking."
+  },
+  {
+    "id": "fc-abo-dsp-039",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "First step for any complaint",
+    "back": "Verify the lenses against the Rx and recheck the fit."
+  },
+  {
+    "id": "fc-abo-dsp-040",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Base curve complaint",
+    "back": "Large base curve change → distortion; remake closer to the old base curve."
+  },
+  {
+    "id": "fc-abo-dsp-041",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Vertex compensation formula",
+    "back": "Fc = F ÷ (1 − dF), d in meters toward the eye."
+  },
+  {
+    "id": "fc-abo-dsp-042",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Moving a plus lens away from the eye",
+    "back": "Increases its effective plus power."
+  },
+  {
+    "id": "fc-abo-std-001",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Z80.1 / Z87.1 / Z80.3",
+    "back": "Rx dress lenses / occupational safety eyewear / nonprescription sunglasses."
+  },
+  {
+    "id": "fc-abo-std-002",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Current Z80.1 edition",
+    "back": "ANSI Z80.1-2020."
+  },
+  {
+    "id": "fc-abo-std-003",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Sphere tolerance, ±6.50 D or less (SV and multifocal)",
+    "back": "±0.13 D."
+  },
+  {
+    "id": "fc-abo-std-004",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Sphere tolerance above ±6.50 D",
+    "back": "±2% (for example ±0.16 D at 8.00 D)."
+  },
+  {
+    "id": "fc-abo-std-005",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Cylinder tolerance, 0.00–2.00 D",
+    "back": "±0.13 D."
+  },
+  {
+    "id": "fc-abo-std-006",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Cylinder tolerance, over 2.00–4.50 D",
+    "back": "±0.15 D."
+  },
+  {
+    "id": "fc-abo-std-007",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Cylinder tolerance above 4.50 D",
+    "back": "±4%."
+  },
+  {
+    "id": "fc-abo-std-008",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "PAL sphere tolerance, ±8.00 D or less",
+    "back": "±0.16 D (±2% above ±8.00 D)."
+  },
+  {
+    "id": "fc-abo-std-009",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Axis tolerances by cylinder",
+    "back": "≤0.25: ±14°; ≤0.50: ±7°; ≤0.75: ±5°; ≤1.50: ±3°; >1.50: ±2°."
+  },
+  {
+    "id": "fc-abo-std-010",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Add tolerance",
+    "back": "≤ +4.00: ±0.12 D; > +4.00: ±0.18 D."
+  },
+  {
+    "id": "fc-abo-std-011",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Single-lens PRP tolerance",
+    "back": "≤0.33Δ, or PRP within 1.0 mm of its specified position."
+  },
+  {
+    "id": "fc-abo-std-012",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Vertical imbalance (SV/MF, ≤ ±3.375 D)",
+    "back": "≤0.33Δ."
+  },
+  {
+    "id": "fc-abo-std-013",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Vertical imbalance above ±3.375 D",
+    "back": "PRP heights differ by no more than 1.0 mm."
+  },
+  {
+    "id": "fc-abo-std-014",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Horizontal imbalance (SV/MF, ≤ ±2.75 D)",
+    "back": "≤0.67Δ."
+  },
+  {
+    "id": "fc-abo-std-015",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Horizontal tolerance above ±2.75 D (SV/MF)",
+    "back": "PD within ±2.5 mm of the specified distance PD."
+  },
+  {
+    "id": "fc-abo-std-016",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "PAL horizontal tolerance above ±3.75 D",
+    "back": "Each fitting cross within 1.0 mm of the specified monocular PD."
+  },
+  {
+    "id": "fc-abo-std-017",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Base curve tolerance",
+    "back": "±0.75 D (when specified)."
+  },
+  {
+    "id": "fc-abo-std-018",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Center thickness tolerance",
+    "back": "±0.3 mm, measured at the PRP on the convex surface."
+  },
+  {
+    "id": "fc-abo-std-019",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Seg height / PAL fitting cross height",
+    "back": "±1.0 mm each; the pair may differ by no more than 1.0 mm."
+  },
+  {
+    "id": "fc-abo-std-020",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Seg size tolerance",
+    "back": "±0.5 mm."
+  },
+  {
+    "id": "fc-abo-std-021",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Seg tilt tolerance",
+    "back": "±2° from the 180."
+  },
+  {
+    "id": "fc-abo-std-022",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Seg horizontal location",
+    "back": "Seg centers within ±2.5 mm of the specified near PD."
+  },
+  {
+    "id": "fc-abo-std-023",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Polarization axis tolerance",
+    "back": "90° ± 3° from the orientation marking."
+  },
+  {
+    "id": "fc-abo-std-024",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "FDA drop-ball test",
+    "back": "5/8-inch steel ball, about 0.56 oz, dropped 50 inches (21 CFR 801.410)."
+  },
+  {
+    "id": "fc-abo-std-025",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "FDA testing: glass vs plastic",
+    "back": "Glass: each lens. Plastic: manufacturer batch sampling allowed."
+  },
+  {
+    "id": "fc-abo-std-026",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "FDA test record retention",
+    "back": "3 years."
+  },
+  {
+    "id": "fc-abo-std-027",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "FDA exemption",
+    "back": "Prescriber decides impact-resistant lenses won't meet visual needs and notifies the patient in writing."
+  },
+  {
+    "id": "fc-abo-std-028",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Does 801.410 cover sunglasses?",
+    "back": "Yes — eyeglasses and sunglasses, including nonprescription."
+  },
+  {
+    "id": "fc-abo-std-029",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Z87.1 basic impact",
+    "back": "1-inch steel ball dropped 50 inches."
+  },
+  {
+    "id": "fc-abo-std-030",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Z87.1 high velocity (spectacles)",
+    "back": "1/4-inch steel ball at 150 ft/s."
+  },
+  {
+    "id": "fc-abo-std-031",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Z87 vs Z87+",
+    "back": "Z87 = basic impact; Z87+ = high impact."
+  },
+  {
+    "id": "fc-abo-std-032",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "FTC Eyeglass Rule release",
+    "back": "Immediately after the refraction, automatically, at no extra cost."
+  },
+  {
+    "id": "fc-abo-std-033",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "FTC prohibited conditions",
+    "back": "No requiring eyewear purchase, extra fees, or liability waivers to release the Rx."
+  },
+  {
+    "id": "fc-abo-std-034",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "FTC 2024 amendment",
+    "back": "Patient confirmation of Rx receipt; prescriber keeps it 3 years."
+  },
+  {
+    "id": "fc-abo-std-035",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "HIPAA PHI",
+    "back": "Individually identifiable health information, including Rx and payment details."
+  },
+  {
+    "id": "fc-abo-std-036",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "HIPAA minimum necessary",
+    "back": "Use or disclose only the least PHI needed for the task."
+  },
+  {
+    "id": "fc-abo-std-037",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "HIPAA access timeline",
+    "back": "Respond within 30 days; one 30-day extension allowed."
+  },
+  {
+    "id": "fc-abo-std-038",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "California regulator for opticians",
+    "back": "California State Board of Optometry (formerly the Medical Board)."
+  },
+  {
+    "id": "fc-abo-std-039",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "California SLD exam",
+    "back": "ABO."
+  },
+  {
+    "id": "fc-abo-std-040",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "California CLD exam",
+    "back": "NCLE."
+  },
+  {
+    "id": "fc-abo-std-041",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "California RDO",
+    "back": "Registered Dispensing Ophthalmic Business, where SLDs and CLDs work."
+  },
+  {
+    "id": "fc-abo-std-042",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "California address change deadline",
+    "back": "30 days (B&P § 136)."
+  },
+  {
+    "id": "fc-abo-std-043",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "California CE for SLD/CLD renewal",
+    "back": "None required by the state; ABO/NCLE certification has its own CE."
+  },
+  {
+    "id": "fc-abo-std-044",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "California B&P § 655",
+    "back": "Bars optometrist or physician co-ownership or profit-sharing with an RDO (limited lease exceptions)."
+  }
+]

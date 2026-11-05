@@ -1,0 +1,415 @@
+[
+  {
+    "id": "fc-ncle-out-001",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "FDA definition of 'disposable'",
+    "back": "Used once and discarded. Lenses replaced every 2–4 weeks are frequent/planned replacement and need cleaning and disinfection."
+  },
+  {
+    "id": "fc-ncle-out-002",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Adaptation time: RGP vs soft",
+    "back": "RGP: a few weeks. Soft: several days (FDA)."
+  },
+  {
+    "id": "fc-ncle-out-003",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Extended wear rest rule",
+    "back": "After each scheduled removal, leave the eyes lens-free for at least one night (FDA)."
+  },
+  {
+    "id": "fc-ncle-out-004",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Missed a day of RGP wear?",
+    "back": "Reduce wearing time the next day; never exceed the prescribed schedule."
+  },
+  {
+    "id": "fc-ncle-out-005",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Normal vs abnormal RGP adaptation symptoms",
+    "back": "Normal: mild awareness, tearing, extra blinking, mild light sensitivity. Abnormal: red or painful eye, so remove lenses and call."
+  },
+  {
+    "id": "fc-ncle-out-006",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Daily wear vs extended wear vs continuous wear",
+    "back": "Daily wear: out before sleep. Extended wear: overnight, typically up to 6 nights. Continuous wear: silicone hydrogel up to 30 nights."
+  },
+  {
+    "id": "fc-ncle-out-007",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Best candidates for daily disposables",
+    "back": "Allergy sufferers, part-time wearers, children, travelers: no care system needed and fewer deposits."
+  },
+  {
+    "id": "fc-ncle-out-008",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "CDC 2014 survey: risky behaviors",
+    "back": "About 99% of wearers reported at least one hygiene risk behavior; about 1 in 6 U.S. adults wear lenses."
+  },
+  {
+    "id": "fc-ncle-out-009",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Lenses stored 30+ days",
+    "back": "Re-disinfect before wearing (AAO)."
+  },
+  {
+    "id": "fc-ncle-out-010",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Hard-lens products on soft lenses?",
+    "back": "Never (CDC)."
+  },
+  {
+    "id": "fc-ncle-out-011",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Boston-type conditioning solution uses",
+    "back": "Wetting, disinfecting, and soaking RGP lenses after cleaning; not for soft lenses."
+  },
+  {
+    "id": "fc-ncle-out-012",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Soak lenses in an RGP daily cleaner?",
+    "back": "Never; rub, then rinse it off. Soak in the conditioning solution."
+  },
+  {
+    "id": "fc-ncle-out-013",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Boston conditioning solution discard date",
+    "back": "90 days after opening; write the open date on the label."
+  },
+  {
+    "id": "fc-ncle-out-014",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Initial nonwetting of a new GP lens",
+    "back": "Usually residual pitch from manufacturing; polish or use a practitioner-only lab cleaner, then rinse well."
+  },
+  {
+    "id": "fc-ncle-out-015",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Cleaning vs disinfection",
+    "back": "Cleaning removes deposits and debris; disinfection kills harmful germs."
+  },
+  {
+    "id": "fc-ncle-out-016",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Most-used soft lens care system",
+    "back": "Multipurpose solution: cleans, rinses, disinfects, stores."
+  },
+  {
+    "id": "fc-ncle-out-017",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "'No-rub' solution?",
+    "back": "Rub and rinse anyway (AAO). FDA asked in 2010 to drop 'no rub' from labels."
+  },
+  {
+    "id": "fc-ncle-out-018",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Saline",
+    "back": "Rinses only; it does not disinfect."
+  },
+  {
+    "id": "fc-ncle-out-019",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "One-step vs two-step peroxide",
+    "back": "One-step: neutralizer built into the case. Two-step: add a neutralizing tablet after disinfecting, then rinse with saline."
+  },
+  {
+    "id": "fc-ncle-out-020",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Peroxide bottle cue",
+    "back": "Red tip and cap on most bottles."
+  },
+  {
+    "id": "fc-ncle-out-021",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Peroxide case rule",
+    "back": "Use only the case supplied with each new bottle; it contains the neutralizer."
+  },
+  {
+    "id": "fc-ncle-out-022",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Peroxide wait time",
+    "back": "4–6 hours, as directed (CDC). Never rinse lenses with unneutralized peroxide."
+  },
+  {
+    "id": "fc-ncle-out-023",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Peroxide vs Acanthamoeba",
+    "back": "Cysts need 2–3 hours of non-neutralized 3% peroxide; a catalytic disc neutralizes too soon."
+  },
+  {
+    "id": "fc-ncle-out-024",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Heat disinfection basics",
+    "back": "About 80 °C for 10–30 min with non-preserved saline; rub first; not for silicone hydrogel or FDA Group II/IV."
+  },
+  {
+    "id": "fc-ncle-out-025",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "UV, vibration, or ultrasonic cleaners",
+    "back": "Cannot replace rub and rinse; UV-only disinfection still needed safety data (AAO review)."
+  },
+  {
+    "id": "fc-ncle-out-026",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Enzymatic cleaner frequency",
+    "back": "About weekly, when the daily cleaner is not enough."
+  },
+  {
+    "id": "fc-ncle-out-027",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Water on lenses?",
+    "back": "Remove ASAP; discard or clean and disinfect overnight (CDC)."
+  },
+  {
+    "id": "fc-ncle-out-028",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Water and soft lenses",
+    "back": "Lenses can swell, change shape, and stick to the eye, risking corneal scratches; Acanthamoeba lives in tap, lake, and well water."
+  },
+  {
+    "id": "fc-ncle-out-029",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Lens case care",
+    "back": "Rub and rinse with solution (no water), dry with a tissue, store upside down with caps off, replace at least every 3 months."
+  },
+  {
+    "id": "fc-ncle-out-030",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Topping off",
+    "back": "Adding fresh solution to used solution; it reduces disinfection. Empty and refill every time."
+  },
+  {
+    "id": "fc-ncle-out-031",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Symptoms with lenses in?",
+    "back": "Remove lenses, keep them in the case, and bring them to the eye care professional (FDA)."
+  },
+  {
+    "id": "fc-ncle-out-032",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Blink method of RGP removal",
+    "back": "Stretch lids toward the ear at the lateral canthus and blink; lid tension breaks the lens's adherence."
+  },
+  {
+    "id": "fc-ncle-out-033",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Scleral lens insertion",
+    "back": "Fill bowl to the brim with preservative-free saline, face parallel to the floor, look down; blur means a bubble, so remove and refill."
+  },
+  {
+    "id": "fc-ncle-out-034",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Scleral lens removal",
+    "back": "Plunger on the lower edge, tilt to break the seal, lift away; never force."
+  },
+  {
+    "id": "fc-ncle-out-035",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Makeup sequence",
+    "back": "Lenses in, then makeup; lenses out, then remove makeup. Use non-greasy products."
+  },
+  {
+    "id": "fc-ncle-out-036",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "front": "Hands before handling lenses",
+    "back": "Plain soap (no moisturizers, oils, or perfume), dried with lint-free towel; no creams or nicotine."
+  },
+  {
+    "id": "fc-ncle-out-037",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Most common presenting sign of thyroid eye disease",
+    "back": "Upper lid retraction (Dalrymple sign), up to 90%; also lid lag in downgaze (von Graefe) and proptosis."
+  },
+  {
+    "id": "fc-ncle-out-038",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Isotretinoin and lens wear",
+    "back": "Meibomian gland suppression causes evaporative dry eye and lens intolerance, which can persist after stopping."
+  },
+  {
+    "id": "fc-ncle-out-039",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Rifampin vs tetracycline lens discoloration",
+    "back": "Rifampin: orange (sometimes pink/red). Tetracycline: grayish-brown."
+  },
+  {
+    "id": "fc-ncle-out-040",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Keratoconus signs",
+    "back": "Munson sign, Fleischer ring (iron, cobalt blue), Vogt striae (vanish with pressure), Rizzuti sign, scissors reflex, inferior thinning."
+  },
+  {
+    "id": "fc-ncle-out-041",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "front": "Pterygium vs pinguecula",
+    "back": "Pterygium: fibrovascular wing onto the cornea. Pinguecula: yellow-white conjunctival lesion that spares the cornea."
+  },
+  {
+    "id": "fc-ncle-out-042",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Schirmer results (5 minutes)",
+    "back": "Normal ≥10 mm; deficiency <5 mm. Anesthetic limits the test to basal secretion."
+  },
+  {
+    "id": "fc-ncle-out-043",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "TBUT normal and abnormal",
+    "back": "About 10–35 s normal; <10 s suspicious. Wet the strip with preservative-free saline."
+  },
+  {
+    "id": "fc-ncle-out-044",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "Ocular protection index",
+    "back": "OPI = TBUT ÷ inter-blink interval; below 1.0 means the tear film breaks before the next blink."
+  },
+  {
+    "id": "fc-ncle-out-045",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "front": "AS-OCT advantages for sclerals",
+    "back": "Non-contact, no fluorescein needed, measures central and limbal clearance; target limbal clearance about 100–200 µm."
+  },
+  {
+    "id": "fc-ncle-out-046",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "CL-SLK",
+    "back": "Superior limbal injection, infiltrates, staining, pannus; historically thimerosal; stop lens wear and use preservative-free care."
+  },
+  {
+    "id": "fc-ncle-out-047",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "VLK",
+    "back": "Elevated limbal mass at 3 and 9 o'clock in rigid wearers; flatten and widen peripheral curves, reduce diameter."
+  },
+  {
+    "id": "fc-ncle-out-048",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Dimple veil vs mucin ball dimples",
+    "back": "Dimple veil: air bubbles under a steep GP. Mucin ball dimples: silicone hydrogel debris. Both pool fluorescein without true staining."
+  },
+  {
+    "id": "fc-ncle-out-049",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Corneal warpage washout rule",
+    "back": "About 1 month off per decade of GP wear; repeat refraction and topography every 2–4 weeks until stable."
+  },
+  {
+    "id": "fc-ncle-out-050",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "front": "Efron grading scale",
+    "back": "Grade 0 normal to grade 4 severe, 16 complications."
+  },
+  {
+    "id": "fc-ncle-out-051",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "FTC 'prescriber'",
+    "back": "Ophthalmologist, optometrist, or other person (such as an optician) allowed by state law to prescribe."
+  },
+  {
+    "id": "fc-ncle-out-052",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Counting 8 business hours",
+    "back": "9 a.m.–5 p.m. weekdays, prescriber's time zone; after-hours requests start at 9 a.m. the next weekday."
+  },
+  {
+    "id": "fc-ncle-out-053",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "Contact Lens Rule record retention",
+    "back": "At least 3 years for seller verification records and prescriber release confirmations."
+  },
+  {
+    "id": "fc-ncle-out-054",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "FDA recall classes",
+    "back": "I: serious harm or death likely. II: temporary/reversible harm. III: harm unlikely."
+  },
+  {
+    "id": "fc-ncle-out-055",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "front": "HIPAA PHI forms",
+    "back": "Electronic, paper, and oral; use for treatment, payment, and operations is allowed without authorization."
+  },
+  {
+    "id": "fc-ncle-out-056",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Modulus trade-off",
+    "back": "Higher modulus: better handling, but more SEALs, CLPC, mucin balls, and edge fluting."
+  },
+  {
+    "id": "fc-ncle-out-057",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Silicone hydrogel surface generations",
+    "back": "1st: plasma coating. 2nd: internal wetting agents. 3rd: inherently wettable."
+  },
+  {
+    "id": "fc-ncle-out-058",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Hybrid lens",
+    "back": "Rigid center with a soft skirt; keratoconus designs are fit by vault and settle 30–60 µm."
+  },
+  {
+    "id": "fc-ncle-out-059",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "front": "Interpalpebral RGP edge targets",
+    "back": "Axial edge lift about 80–110 µm; edge thickness 0.09–0.12 mm."
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "id": "abo",
+    "shortName": "ABO-BCE",
+    "name": "ABO Basic Certification Exam",
+    "officialName": "National Opticianry Competency Examination (NOCE)",
+    "administrator": "American Board of Opticianry & National Contact Lens Examiners",
+    "totalQuestions": 125,
+    "scoredQuestions": 100,
+    "timeMinutes": 120,
+    "fee": "$275",
+    "delivery": "Secure computer-based exam delivered by Prometric at 300+ test centers or via ProProctor remote proctoring (own computer with camera, microphone, internet). Offered in quarterly testing windows; English and Spanish versions.",
+    "scoring": "Criterion-referenced pass/fail; the minimum passing score is set by subject-matter experts using the Modified Angoff Method. Preliminary result shown immediately, emailed report within hours; failing reports include diagnostic feedback per content area. No penalty for guessing; unanswered items are scored incorrect.",
+    "eligibility": "High school diploma, GED, or equivalent (exceptions for dual-enrollment high school students). No experience required. State licensing rules supersede ABO-NCLE's where they differ. Candidates with an active basic certification may not retake the basic exam.",
+    "retakePolicy": "Retake allowed after a 14-day wait. After three unsuccessful attempts, a 90-day wait applies before the next attempt. Each attempt requires a new registration and fee; fees are non-refundable.",
+    "registrationURL": "https://www.abo-ncle.org/ABONCLE/ABONCLE/ABO_NCLE/Basic-Exams.aspx",
+    "contentOutlineURL": "https://drive.google.com/file/d/12CIrGlca2sOn-kVKVTdXLHmXmF93HE2K/view",
+    "officialOutline": [
+      {
+        "name": "Ophthalmic Optics",
+        "weight": 25,
+        "subtopics": [
+          "Terminology",
+          "Prescriptions: format, transposition, common irregularities",
+          "Lens characteristics, powers, types and materials",
+          "Base curve and thickness effects",
+          "Prismatic effects",
+          "Measurement systems (metric, boxing)",
+          "Lens options for occupations and lifestyle",
+          "Usable accommodation and range of vision",
+          "Neutralization",
+          "Formulas: Prentice's rule, vertical imbalance, vertex compensation, decentration, oblique meridian power, magnification, anisometropia/antimetropia, aniseikonia"
+        ]
+      },
+      {
+        "name": "Ocular Anatomy, Physiology, Pathology, and Refraction",
+        "weight": 10,
+        "subtopics": [
+          "Adnexa, anterior and posterior segment structures",
+          "Visual pathway",
+          "Pathology: glaucoma, macular degeneration, scotoma, cataract, diabetes, amblyopia, aphakia/pseudophakia, nystagmus, strabismus",
+          "Refractive errors and visual acuity",
+          "Prism imbalance: phorias, tropias, diplopia, convergence/divergence"
+        ]
+      },
+      {
+        "name": "Ophthalmic Products",
+        "weight": 20,
+        "subtopics": [
+          "Frames: availability, materials, uses, limitations, parameters",
+          "Lenses: base curves, segment styles, materials, tints, coatings, polarization, edge treatments",
+          "Traditional vs digitally designed lenses",
+          "Low vision aids",
+          "Preassembled (over-the-counter) eyewear"
+        ]
+      },
+      {
+        "name": "Instrumentation",
+        "weight": 15,
+        "subtopics": [
+          "Lensmeter / focimeter",
+          "Lens clock, calipers, millimeter ruler, circumference gauge",
+          "Corneal reflex pupilometer, distometer",
+          "Adjusting hand tools (pliers)",
+          "Digital measurement systems"
+        ]
+      },
+      {
+        "name": "Dispensing Procedures",
+        "weight": 20,
+        "subtopics": [
+          "Patient history and lifestyle needs",
+          "Fitting and adjusting frames (vertex distance, pantoscopic tilt, face form)",
+          "Positioning multifocals, optical centers, major reference points",
+          "Frame measurements and alignment",
+          "Differences between new and previous eyewear",
+          "Lens parameters: blank size, effective diameter, decentration",
+          "Effects of lens power, design and material changes"
+        ]
+      },
+      {
+        "name": "Laws, Regulations, and Standards",
+        "weight": 10,
+        "subtopics": [
+          "Product performance and duty to warn (UV, HEV, ASTM)",
+          "National guidelines: OSHA, ANSI, FDA, EPA, HIPAA",
+          "Universal precautions",
+          "CPT coding, EMR and insurance requirements"
+        ]
+      }
+    ],
+    "domains": [
+      {
+        "id": "abo.optics",
+        "name": "Ophthalmic Optics",
+        "weight": 25
+      },
+      {
+        "id": "abo.anatomy",
+        "name": "Ocular Anatomy, Physiology, Pathology & Refraction",
+        "weight": 10
+      },
+      {
+        "id": "abo.products",
+        "name": "Ophthalmic Products",
+        "weight": 20
+      },
+      {
+        "id": "abo.instruments",
+        "name": "Instrumentation",
+        "weight": 15
+      },
+      {
+        "id": "abo.dispensing",
+        "name": "Dispensing Procedures",
+        "weight": 20
+      },
+      {
+        "id": "abo.laws",
+        "name": "Laws, Regulations & Standards",
+        "weight": 10
+      }
+    ],
+    "notes": [
+      "Sources: ABO-NCLE Basic Exam Handbook (October 2026, linked from the official Basic Exams page) and the Basic Exams page, both read 2026-11-04.",
+      "125 multiple-choice questions; the test specifications total 100 scored questions, so about 25 are unscored pretest items. Four answer choices per question.",
+      "2-hour time limit; on-screen scientific calculator; items can be flagged and revisited before the section ends. Timer keeps running during breaks.",
+      "Fee $275 per the October 2026 handbook and the Basic Exams page (the February 2025 handbook listed $225). Combined Basic + Practical exam (NOCOP), where state-approved: $300, 3 hours. Rescheduling/window transfer: $75.",
+      "The ABO Practical exam (ABOP) must be taken at a Prometric center; the Basic exam may be taken remotely. Confirm your state board accepts remote proctoring for licensing before scheduling.",
+      "2024 pass rate for the ABO Basic exam: 64.0% (ABO-NCLE).",
+      "Remaining 2026 window: October 1 - December 21 (registration closes November 15, no late registration). 2027 windows: Jan 2 - Mar 31, Apr 1 - Jun 30, Jul 1 - Sep 30, Oct 1 - Dec 21.",
+      "Register and pay on abo-ncle.org; the scheduling link arrives by email 24-48 hours later, then book with Prometric.",
+      "Certification (ABOC) is renewed every 3 years: 12 approved CECs, at least 6 ABO-approved ophthalmic. ABO-NCLE's Basic Certification Renewal page lists a $125 fee while its Renewals and Reinstatements page lists $175; confirm with ABO-NCLE. The handbook mentions a 90-day grace period, but the Renewals and Reinstatements page says there is no grace period and lapsed certifications must be reinstated, so renew before your expiration date.",
+      "Advanced (ABO-AC, also written ABOC-AC): requires an active ABO Basic certification plus one completed 3-year recertification period; 3-hour exam, center or remote. The April-June 2026 event page listed a $225 fee. 2024 pass rate: 52.0%."
+    ]
+  },
+  {
+    "id": "ncle",
+    "shortName": "NCLE-BCE",
+    "name": "NCLE Basic Certification Exam",
+    "officialName": "Contact Lens Registry Examination (CLRE)",
+    "administrator": "American Board of Opticianry & National Contact Lens Examiners",
+    "totalQuestions": 125,
+    "scoredQuestions": 100,
+    "timeMinutes": 120,
+    "fee": "$275",
+    "delivery": "Secure computer-based exam delivered by Prometric at 300+ test centers or via ProProctor remote proctoring (own computer with camera, microphone, internet). Offered in quarterly testing windows; English and Spanish versions.",
+    "scoring": "Criterion-referenced pass/fail; the minimum passing score is set by subject-matter experts using the Modified Angoff Method. Preliminary result shown immediately, emailed report within hours; failing reports include diagnostic feedback per content area. No penalty for guessing; unanswered items are scored incorrect.",
+    "eligibility": "High school diploma, GED, or equivalent (exceptions for dual-enrollment high school students). No experience required. State licensing rules supersede ABO-NCLE's where they differ. Candidates with an active basic certification may not retake the basic exam.",
+    "retakePolicy": "Retake allowed after a 14-day wait. After three unsuccessful attempts, a 90-day wait applies before the next attempt. Each attempt requires a new registration and fee; fees are non-refundable.",
+    "registrationURL": "https://www.abo-ncle.org/ABONCLE/ABONCLE/ABO_NCLE/Basic-Exams.aspx",
+    "contentOutlineURL": "https://drive.google.com/file/d/12CIrGlca2sOn-kVKVTdXLHmXmF93HE2K/view",
+    "officialOutline": [
+      {
+        "name": "Ocular Anatomy, Physiology, and Pathology",
+        "weight": 12,
+        "subtopics": [
+          "Tear film, conjunctiva, lids, fornix, lashes, canthi",
+          "Corneal anatomy and physiology (layers, metabolism, edema, vascularization)",
+          "Iris, pupil, sclera, anterior and posterior chambers, crystalline lens, retina, choroid",
+          "Systemic drugs and diseases affecting wear (thyroid, Sjogren's, diabetes, arthritis)",
+          "CL-related conditions: keratoconus, neovascularization, infiltrates and ulcers, microbial keratitis, GPC, blepharitis, pterygium, pinguecula"
+        ]
+      },
+      {
+        "name": "Refractive Errors",
+        "weight": 5,
+        "subtopics": [
+          "Myopia, hyperopia, astigmatism, presbyopia",
+          "Anisometropia, aniseikonia, amblyopia, aphakia, pseudophakia",
+          "Optics: refraction, prismatic effects, residual astigmatism, lacrimal lens, accommodation",
+          "Transposition, spherical equivalent, sagittal depth, vertex distance"
+        ]
+      },
+      {
+        "name": "Instrumentation for Measurement and Observation",
+        "weight": 12,
+        "subtopics": [
+          "Keratometer and corneal topography",
+          "Anterior segment OCT",
+          "Schirmer tests and tear break-up time",
+          "Slit lamp operation and evaluation with/without lenses",
+          "In-office modification and verification: radiuscope, lensometer, thickness and diameter gauges",
+          "ANSI Z80 tolerances"
+        ]
+      },
+      {
+        "name": "Prefitting",
+        "weight": 15,
+        "subtopics": [
+          "Lifestyle, medical and motivational factors",
+          "Special designs: torics, multifocals, aspheric, hybrid, scleral, orthokeratology",
+          "Material properties: Dk, Dk/t, wetting angle, water content, silicone hydrogel, modulus, surface treatments",
+          "Determining base curve, peripheral curves, diameter, thickness, power, edge design"
+        ]
+      },
+      {
+        "name": "Diagnostic Fitting",
+        "weight": 11,
+        "subtopics": [
+          "Lens selection and application",
+          "Fluorescein pattern evaluation",
+          "Movement, centration, stability and axis rotation",
+          "Patient subjective response and visual acuity"
+        ]
+      },
+      {
+        "name": "Dispensing",
+        "weight": 20,
+        "subtopics": [
+          "Wearing schedules, replacement intervals, adaptation, compliance",
+          "Solution compatibility and uses",
+          "Cleaning and disinfection: chemical, hydrogen peroxide, thermal/UV, protein removers, surfactants",
+          "Insertion and removal techniques for rigid and soft lenses",
+          "Hygiene and personal care products"
+        ]
+      },
+      {
+        "name": "Follow-Up",
+        "weight": 20,
+        "subtopics": [
+          "Subjective findings: dryness, awareness, fluctuating vision, pain, photophobia",
+          "Objective findings: steep/flat fits, staining, edema, SEAL, CLARE, CLPU, SLK, VLK, dimple veiling, mucin balls, warpage",
+          "Overrefraction and gross evaluation of movement",
+          "Follow-up protocols and changing lens parameters",
+          "Documentation"
+        ]
+      },
+      {
+        "name": "Regulatory and Administrative",
+        "weight": 5,
+        "subtopics": [
+          "Record retention and charting",
+          "Inventory and ordering",
+          "Who may prescribe contact lenses; verifying the original prescriber",
+          "Recall procedures",
+          "Federal rules: FDA, FTC, FCLCA, CDC, OSHA, ANSI, HIPAA"
+        ]
+      }
+    ],
+    "domains": [
+      {
+        "id": "ncle.anatomy",
+        "name": "Ocular Anatomy, Physiology & Pathology",
+        "weight": 12
+      },
+      {
+        "id": "ncle.refraction",
+        "name": "Refractive Errors",
+        "weight": 5
+      },
+      {
+        "id": "ncle.instruments",
+        "name": "Instrumentation for Measurement & Observation",
+        "weight": 12
+      },
+      {
+        "id": "ncle.prefitting",
+        "name": "Prefitting",
+        "weight": 15
+      },
+      {
+        "id": "ncle.fitting",
+        "name": "Diagnostic Fitting",
+        "weight": 11
+      },
+      {
+        "id": "ncle.dispensing",
+        "name": "Dispensing",
+        "weight": 20
+      },
+      {
+        "id": "ncle.followup",
+        "name": "Follow-Up",
+        "weight": 20
+      },
+      {
+        "id": "ncle.regulatory",
+        "name": "Regulatory & Administrative",
+        "weight": 5
+      }
+    ],
+    "notes": [
+      "Sources: ABO-NCLE Basic Exam Handbook (October 2026, linked from the official Basic Exams page) and the Basic Exams page, both read 2026-11-04.",
+      "125 multiple-choice questions; the test specifications total 100 scored questions, so about 25 are unscored pretest items.",
+      "2-hour time limit; same Prometric/ProProctor delivery, scoring and retake rules as the ABO Basic exam.",
+      "Fee $275 per the October 2026 handbook and the Basic Exams page. Combined Basic + Practical exam (CLROP), where state-approved: $300, 3 hours. The NCLE Practical (NCLEP) must be taken at a Prometric center.",
+      "2024 pass rate for the NCLE Basic exam: 59.0% (ABO-NCLE).",
+      "Certification (NCLEC) is renewed every 3 years: 18 approved CECs, at least 9 NCLE-approved ophthalmic. Dual ABO+NCLE holders: 9 ABO CECs (5 ophthalmic) and 12 NCLE CECs (6 ophthalmic). ABO-NCLE pages list the renewal fee as both $125 and $175; confirm with ABO-NCLE.",
+      "Advanced (NCLE-AC): requires an active NCLE Basic certification plus one completed 3-year recertification period. 2024 pass rate: 42.0%. Fee and length for the NCLE Advanced were not confirmed on a page read today."
+    ]
+  }
+]

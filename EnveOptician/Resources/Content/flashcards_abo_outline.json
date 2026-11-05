@@ -1,0 +1,506 @@
+[
+  {
+    "id": "fc-abo-out-001",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lensmeter measures which power?",
+    "back": "Back vertex power, with the back surface against the lens stop (temples away)."
+  },
+  {
+    "id": "fc-abo-out-002",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lensmeter eyepiece focusing",
+    "back": "With no lens in place, turn fully plus to fog, then back slowly just until the reticle clears. Mires should focus at 0.00."
+  },
+  {
+    "id": "fc-abo-out-003",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Why stop when the reticle first clears?",
+    "back": "Going further makes you accommodate, which skews the readings."
+  },
+  {
+    "id": "fc-abo-out-004",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Mires won't focus at plano after eyepiece focusing",
+    "back": "Repeat the procedure. If still off, recalibrate the instrument."
+  },
+  {
+    "id": "fc-abo-out-005",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Plus-cylinder technique: sphere lines focus at…",
+    "back": "The least plus (most minus) reading. Cylinder lines focus later in the plus direction."
+  },
+  {
+    "id": "fc-abo-out-006",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Cylinder lines focus first while turning toward plus",
+    "back": "Rotate the axis wheel 90° and start again."
+  },
+  {
+    "id": "fc-abo-out-007",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Spherical lens on a crossed-line target",
+    "back": "Thin and thick lines focus at the same drum reading."
+  },
+  {
+    "id": "fc-abo-out-008",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Cylinder power from two lensmeter readings",
+    "back": "Second reading − first reading, counted along the number line."
+  },
+  {
+    "id": "fc-abo-out-009",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Add power on a lensmeter",
+    "back": "Near sphere reading − distance sphere reading, recorded as plus."
+  },
+  {
+    "id": "fc-abo-out-010",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Reading the add of a spherocylinder",
+    "back": "Keep the distance axis setting and refocus only the sphere lines through the segment."
+  },
+  {
+    "id": "fc-abo-out-011",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "When to turn glasses around for the add",
+    "back": "High adds (over about +2.50 D): read front vertex. Back vertex overstates strong front-surface adds."
+  },
+  {
+    "id": "fc-abo-out-012",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "One reticle ring =",
+    "back": "1 prism diopter."
+  },
+  {
+    "id": "fc-abo-out-013",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Target displaced toward the temple",
+    "back": "Base out (either eye)."
+  },
+  {
+    "id": "fc-abo-out-014",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Target displaced toward the nose",
+    "back": "Base in (either eye)."
+  },
+  {
+    "id": "fc-abo-out-015",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Loose prism needed to center the target",
+    "back": "The lens contains the same amount with the opposite base (6Δ BI needed → 6Δ BO in lens)."
+  },
+  {
+    "id": "fc-abo-out-016",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Prism beyond the reticle rings (about 5Δ+)",
+    "back": "Use the prism compensating device or auxiliary loose prisms."
+  },
+  {
+    "id": "fc-abo-out-017",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Detecting prism by decentration",
+    "back": "Mark pupil centers on the worn glasses, then read at those marks."
+  },
+  {
+    "id": "fc-abo-out-018",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Plus lens base direction",
+    "back": "Toward the optical center (base-to-base)."
+  },
+  {
+    "id": "fc-abo-out-019",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Minus lens base direction",
+    "back": "Away from the optical center (apex-to-apex)."
+  },
+  {
+    "id": "fc-abo-out-020",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Prentice's rule",
+    "back": "P (Δ) = D × d (cm)"
+  },
+  {
+    "id": "fc-abo-out-021",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "PAL: where is prism verified?",
+    "back": "At the prism reference point, midway between the engraved circles, a few mm below the fitting cross."
+  },
+  {
+    "id": "fc-abo-out-022",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "PAL engraving spacing",
+    "back": "34 mm apart (international standard)."
+  },
+  {
+    "id": "fc-abo-out-023",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "PAL add engraving location",
+    "back": "Under the temporal engraving. The nasal side identifies design and index."
+  },
+  {
+    "id": "fc-abo-out-024",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Where to read a PAL add",
+    "back": "Low in the near area, avoiding distorted periphery."
+  },
+  {
+    "id": "fc-abo-out-025",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Free-form lens reads off the Rx",
+    "back": "Expected: position-of-wear compensation. Check against the lab's compensated values."
+  },
+  {
+    "id": "fc-abo-out-026",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Automated lensmeter cautions",
+    "back": "May misread large prism (over 5Δ). Recheck suspicious readings manually."
+  },
+  {
+    "id": "fc-abo-out-027",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Standard lens clock calibration index",
+    "back": "n = 1.53 (glass-specific gauges: 1.523)."
+  },
+  {
+    "id": "fc-abo-out-028",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens clock correction formula",
+    "back": "True power = reading × (n_lens − 1) ÷ (n_clock − 1)"
+  },
+  {
+    "id": "fc-abo-out-029",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens clock actually measures…",
+    "back": "Sagittal depth between the fixed outer pins and the movable center pin."
+  },
+  {
+    "id": "fc-abo-out-030",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens clock limitation",
+    "back": "Unreliable on aspheric and progressive surfaces. Clock on plate glass to verify zero."
+  },
+  {
+    "id": "fc-abo-out-031",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens calipers",
+    "back": "Read thickness in tenths of a mm. Distinguish about 2 mm dress vs about 3 mm safety."
+  },
+  {
+    "id": "fc-abo-out-032",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Circumference gauge",
+    "back": "Measures lens perimeter (C-size) to size lenses when the frame isn't sent."
+  },
+  {
+    "id": "fc-abo-out-033",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Distometer reading",
+    "back": "Closed lid to back lens surface, plus about 1 mm for lid thickness."
+  },
+  {
+    "id": "fc-abo-out-034",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Corneal reflex vs pupil center",
+    "back": "Reflex is about 1 mm nasal per eye. Binocular reflex PD is about 2 mm narrower."
+  },
+  {
+    "id": "fc-abo-out-035",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Right monocular PD with a ruler",
+    "back": "Examiner closes left eye; patient looks into examiner's open right eye; ruler on bridge in spectacle plane."
+  },
+  {
+    "id": "fc-abo-out-036",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Angling pliers",
+    "back": "Pantoscopic/retroscopic tilt and temple heights."
+  },
+  {
+    "id": "fc-abo-out-037",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Snipe-nose / round-flat pliers",
+    "back": "Pad arms and tight spots. Round jaw goes inside the bend."
+  },
+  {
+    "id": "fc-abo-out-038",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Lens axis pliers",
+    "back": "Rubber jaws rotate a lens in its eyewire to fix axis or segment tilt."
+  },
+  {
+    "id": "fc-abo-out-039",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Strapping pliers",
+    "back": "Re-parallel rimless straps to snug a loose lens."
+  },
+  {
+    "id": "fc-abo-out-040",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "front": "Digital centration systems capture…",
+    "back": "PD, heights, vertex, pantoscopic tilt, and wrap in the adjusted frame, for free-form designs."
+  },
+  {
+    "id": "fc-abo-out-041",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Hand magnifier",
+    "back": "Print at the focal point; use with the distance Rx. Bigger diameter means weaker power."
+  },
+  {
+    "id": "fc-abo-out-042",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Stand magnifier",
+    "back": "Print inside the focal length; diverging light. Needs accommodation or an add."
+  },
+  {
+    "id": "fc-abo-out-043",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Galilean telescope",
+    "back": "Plus objective, minus eyepiece. 2×–4×, light, erect image, larger exit pupil."
+  },
+  {
+    "id": "fc-abo-out-044",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Keplerian telescope",
+    "back": "Two plus lenses plus an erecting prism. Higher power, longer, heavier."
+  },
+  {
+    "id": "fc-abo-out-045",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Prismatic half-eyes rule",
+    "back": "Add + 2Δ base in, each eye (+6.00 add → 8Δ BI each)."
+  },
+  {
+    "id": "fc-abo-out-046",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Microscopic spectacle magnification",
+    "back": "Dioptric power ÷ 4 (24 D = 6×)."
+  },
+  {
+    "id": "fc-abo-out-047",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "OTC readers",
+    "back": "+0.75 to +3.50, equal spheres. No astigmatism or anisometropia correction. Must still meet 21 CFR 801.410."
+  },
+  {
+    "id": "fc-abo-out-048",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Free-form vs conventional surfacing",
+    "back": "Point-by-point cut to an x/y/z file (about 0.01 D) vs lap-fined spherical/toric curves (about 0.1 D)."
+  },
+  {
+    "id": "fc-abo-out-049",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Roll and polish",
+    "back": "Roll fines down sharp or thick edges. Polish clears exposed rimless edges but can cause internal reflections."
+  },
+  {
+    "id": "fc-abo-out-050",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Universal precautions",
+    "back": "Treat all human blood and certain body fluids as if infectious (OSHA 1910.1030)."
+  },
+  {
+    "id": "fc-abo-out-051",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Hepatitis B vaccine (OSHA)",
+    "back": "Offer within 10 working days of initial assignment, after training."
+  },
+  {
+    "id": "fc-abo-out-052",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Spaulding: noncritical items",
+    "back": "Touch intact skin only (frames, tools). Low-level disinfection with an EPA-registered product per label."
+  },
+  {
+    "id": "fc-abo-out-053",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Spaulding: semicritical items",
+    "back": "Touch mucous membranes or nonintact skin. At least high-level disinfection."
+  },
+  {
+    "id": "fc-abo-out-054",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "OSHA HazCom",
+    "back": "Labels, 16-section SDS, and worker training for hazardous chemicals."
+  },
+  {
+    "id": "fc-abo-out-055",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Duty to warn",
+    "back": "Inform patients of material impact resistance (informed choice) and document it."
+  },
+  {
+    "id": "fc-abo-out-056",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Sports eye guards",
+    "back": "ASTM F803 (ball sports); F3164 for racket sports; polycarbonate lenses."
+  },
+  {
+    "id": "fc-abo-out-057",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "CPT spectacle fitting codes",
+    "back": "92340 monofocal · 92341 bifocal · 92342 multifocal · 92352/92353 aphakia · 92354/92355 low vision aids · 92370/92371 repair/refit"
+  },
+  {
+    "id": "fc-abo-out-058",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Common V-codes",
+    "back": "V2020 frame · V2100 SV sphere ±4.00 · V2781 progressive · V2784 polycarbonate · V2750 AR · V2744 photochromic"
+  },
+  {
+    "id": "fc-abo-out-059",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "front": "Medicare and eyewear",
+    "back": "One pair with standard frames after each cataract surgery with IOL. ABN + GA modifier for noncovered upgrades."
+  },
+  {
+    "id": "fc-abo-out-060",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Jerk vs pendular nystagmus",
+    "back": "Jerk: slow drift plus fast correction (named for the fast phase). Pendular: equal-speed swings."
+  },
+  {
+    "id": "fc-abo-out-061",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Nystagmus null point",
+    "back": "Gaze direction of least nystagmus. An off-center null point causes a head turn."
+  },
+  {
+    "id": "fc-abo-out-062",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Phoria vs tropia",
+    "back": "Phoria: latent, held by fusion, shows when one eye is covered. Tropia: manifest misalignment."
+  },
+  {
+    "id": "fc-abo-out-063",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Prism for tropias",
+    "back": "Esotropia → base out; exotropia → base in."
+  },
+  {
+    "id": "fc-abo-out-064",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Monocular diplopia",
+    "back": "Persists with the other eye covered; the problem is within that eye."
+  },
+  {
+    "id": "fc-abo-out-065",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Aphakia",
+    "back": "No crystalline lens: high hyperopia and no accommodation."
+  },
+  {
+    "id": "fc-abo-out-066",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "front": "Anisometropia threshold",
+    "back": "About 1 D difference; often tolerated to about 3 D. Childhood risk: amblyopia."
+  },
+  {
+    "id": "fc-abo-out-067",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Aniseikonia rule of thumb",
+    "back": "About 1% image-size difference per diopter of spectacle-corrected anisometropia."
+  },
+  {
+    "id": "fc-abo-out-068",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Knapp's rule",
+    "back": "With spectacles, axial anisometropia gives less aniseikonia than refractive. With contact lenses, the reverse."
+  },
+  {
+    "id": "fc-abo-out-069",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Hand neutralization motion",
+    "back": "With motion = minus; against motion = plus. Unknown power = −(neutralizing lens)."
+  },
+  {
+    "id": "fc-abo-out-070",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Range of clear vision through an add",
+    "back": "Far point = 1/add; near point = 1/(add + amplitude)."
+  },
+  {
+    "id": "fc-abo-out-071",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Half-amplitude reserve rule",
+    "back": "Tentative add = working-distance demand − ½ amplitude."
+  },
+  {
+    "id": "fc-abo-out-072",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "front": "Hofstetter average amplitude",
+    "back": "18.5 − 0.30 × age (D)."
+  }
+]

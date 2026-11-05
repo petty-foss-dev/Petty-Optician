@@ -1,0 +1,395 @@
+[
+  {
+    "id": "guide-ncle-anatomy",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "title": "Ocular Anatomy, Physiology & Pathology",
+    "summary": "Corneal layers and dimensions, transparency, metabolism and oxygen, the tear film, lids and blinking, limbus and conjunctiva.",
+    "sections": [
+      {
+        "heading": "The five corneal layers",
+        "body": "From front to back:\n\n- **Epithelium**: about 5–7 cell layers (about 50 µm), nonkeratinized, renews about every 7 days, heals quickly without scarring\n- **Bowman's layer**: acellular, about 8–12 µm, does not regenerate; injury at this depth leaves a scar\n- **Stroma**: about 90% of thickness; regularly spaced collagen lamellae with keratocytes\n- **Descemet's membrane**: basement membrane of the endothelium; thickens with age and can be re-secreted\n- **Endothelium**: a single layer of hexagonal cells that pump fluid out of the stroma\n\nAdult endothelial cells do not divide. When cells are lost, neighbors enlarge and spread to cover the gap, which shows up as **polymegethism** (size variation) and **pleomorphism** (shape variation)."
+      },
+      {
+        "heading": "Normal corneal dimensions",
+        "body": "- Central thickness about 0.52–0.56 mm (≈540 µm); peripheral about 0.65–0.70 mm\n- HVID about 11.5–12.0 mm (vertical slightly less)\n- Central radius about 7.8 mm ≈ 43.25 D (337.5 ÷ 7.8)\n- Shape is **prolate**: steepest centrally, flattening toward the periphery\n- Water content about 78%\n- Endothelial density about 2,500–3,000 cells/mm² in young adults\n\nThe true corneal refractive index is 1.376. Keratometers use 1.3375 to approximate total corneal power."
+      },
+      {
+        "heading": "Transparency and hydration",
+        "body": "The cornea stays clear because its stromal collagen fibrils are uniformly spaced, it has no blood vessels, and it is kept relatively dehydrated (**deturgescence**).\n\nDeturgescence depends on the epithelial barrier and the endothelial pump. Anything that overwhelms the pump, such as hypoxia, inflammation, or endothelial damage, lets the stroma swell and scatter light."
+      },
+      {
+        "heading": "Corneal metabolism and oxygen",
+        "body": "Glucose comes mainly from the aqueous humor. Oxygen comes mainly from the atmosphere, dissolved in the tears.\n\n- Open eye: about 155 mmHg O₂ (21%) at the corneal surface\n- Closed eye: about 55 mmHg from the palpebral conjunctival vessels\n\nWith too little oxygen, the epithelium relies more on anaerobic glycolysis. **Lactate** builds up and draws water into the stroma, causing edema. Even without lenses, the cornea swells about 3–4% overnight and clears soon after waking."
+      },
+      {
+        "heading": "The tear film",
+        "body": "The tear film has three functional layers:\n\n- **Lipid** (outer), from the meibomian glands; slows evaporation\n- **Aqueous** (middle), from the main lacrimal gland plus the accessory glands of Krause and Wolfring; carries oxygen, electrolytes, lysozyme, lactoferrin, and antibodies\n- **Mucin** (inner), mainly from conjunctival goblet cells; makes the epithelium wettable\n\nNormal pH is about 7.4. **Lysozyme** is antibacterial and positively charged, so it is drawn to ionic lens materials.\n\nDrainage runs puncta → canaliculi → lacrimal sac → nasolacrimal duct → inferior meatus."
+      },
+      {
+        "heading": "Lids and blinking",
+        "body": "- **Orbicularis oculi** (CN VII) closes the lids\n- **Levator palpebrae superioris** (CN III) raises the upper lid; Müller's muscle (sympathetic) adds about 1–2 mm\n- Meibomian glands lie in the tarsal plates; glands of Zeis (sebaceous) and Moll (sweat) are at the lashes\n- Normal blink rate is about 12–20 per minute and drops during concentrated near work\n- The upper lid normally covers about 1–2 mm of the superior cornea, and the lower lid sits near the inferior limbus\n- Palpebral aperture is about 9–11 mm\n\nLid position and tone drive RGP fitting philosophy and translating bifocal success."
+      },
+      {
+        "heading": "Limbus, conjunctiva, and corneal nerves",
+        "body": "The **limbus** is the 1–2 mm transition zone between cornea and sclera. It holds the corneal epithelial **stem cells** (palisades of Vogt) and the vascular arcades that are the source of neovascularization.\n\nThe **conjunctiva** has bulbar, palpebral (tarsal), and forniceal parts and contains goblet cells. The upper lid is everted to examine the tarsal conjunctiva for papillae (CLPC/GPC).\n\nCorneal sensation comes through the ophthalmic division of the **trigeminal nerve (CN V)**. Long-term lens wear can reduce corneal sensitivity, and a desensitized cornea hides warning symptoms."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Keratometric conversion",
+        "expression": "r (mm) = 337.5 ÷ K (D)",
+        "notes": "Uses keratometric index 1.3375. Example: 7.8 mm ≈ 43.27 D."
+      },
+      {
+        "name": "Oxygen transmissibility",
+        "expression": "Dk/t = Dk ÷ t",
+        "notes": "With Dk in ×10⁻¹¹ units and t in cm, the result is in ×10⁻⁹ units. Shortcut: Dk ÷ (t mm × 10)."
+      }
+    ]
+  },
+  {
+    "id": "guide-ncle-refraction",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "title": "Refractive Errors",
+    "summary": "Vertex compensation, keratometry and the tear lens, corneal and residual astigmatism, spherical equivalent, accommodation, image size, and monovision.",
+    "sections": [
+      {
+        "heading": "Vertex distance compensation",
+        "body": "A spectacle lens sits about 10–14 mm in front of the cornea. A contact lens sits on the cornea, so its effective power changes.\n\nUse **Fc = F ÷ (1 − dF)**, with d in meters and the sign of F kept. Round to the nearest 0.25 D.\n\n- Compensate when a principal meridian exceeds about **±4.00 D**\n- Minus prescriptions need **less minus** at the cornea\n- Plus prescriptions need **more plus** at the cornea",
+        "diagram": "vertex-distance"
+      },
+      {
+        "heading": "Worked vertex examples (12 mm)",
+        "body": "- −5.00 ÷ 1.06 = −4.72 → **−4.75**\n- +5.00 ÷ 0.94 = +5.32 → **+5.25**\n- −8.00 ÷ 1.096 = −7.30 → **−7.25**\n- −10.00 ÷ 1.12 = −8.93 → **−9.00**\n- +10.00 ÷ 0.88 = +11.36 → **+11.25**\n- +15.00 ÷ 0.82 = +18.29 → **+18.25**\n\nFor a spherocylinder, vertex each principal meridian separately. Example: −6.00 −2.00 × 180 has meridians −6.00 → −5.50 and −8.00 → −7.25, giving **−5.50 −1.75 × 180**."
+      },
+      {
+        "heading": "Keratometry and the tear lens",
+        "body": "Convert with **r = 337.5 ÷ K**. For example, 45.00 D = 7.50 mm, 42.00 D = 8.04 mm, and 8.00 mm = 42.19 D.\n\nUnder a rigid lens, the tears fill the space between the base curve and the cornea and form a **tear lens**.\n\n- Base curve steeper than K: plus tear lens → **add minus** (SAM)\n- Base curve flatter than K: minus tear lens → **add plus** (FAP)\n- Rule of thumb: 0.05 mm ≈ 0.25 D near normal curvatures\n\nExample: refraction −2.50, flat K 42.50, base curve 43.00 D. The +0.50 tear lens means the lens power is −3.00 D.",
+        "diagram": "tear-lens"
+      },
+      {
+        "heading": "Corneal and residual astigmatism",
+        "body": "Corneal astigmatism = steep K − flat K. In minus-cylinder notation the axis is the flat meridian. If the vertical meridian is steeper, it is **with-the-rule**.\n\nA spherical RGP's tear lens neutralizes most corneal astigmatism. **Residual astigmatism** = refractive cylinder − corneal cylinder.\n\n- Rx −2.00 −1.50 × 180 with Ks 43.00 @180 / 44.50 @090 gives residual ≈ 0, a good spherical RGP candidate\n- Rx −3.00 −0.50 × 180 with Ks 42.00 @180 / 44.00 @090 gives residual = +1.50 × 180 = **−1.50 × 090** (lenticular)\n\nSoft lenses drape over the cornea, so the residual astigmatism is about the full refractive cylinder."
+      },
+      {
+        "heading": "Spherical equivalent",
+        "body": "Spherical equivalent = sphere + ½ cylinder. A spherical soft lens is often acceptable when the cylinder is low, typically up to about 0.75 D.\n\nApply vertex compensation after finding the spherical equivalent. For example, −4.25 −1.50 × 170 has SE −5.00, which becomes **−4.75** at 12 mm."
+      },
+      {
+        "heading": "Accommodation, convergence, and image size",
+        "body": "- **Myopes** in contact lenses accommodate and converge **more** at near than in minus spectacles, which give base-in prism at near. Early presbyopic myopes may notice near difficulty.\n- **Hyperopes** in contact lenses accommodate and converge **less**.\n- Myopes see slightly **larger** images in contact lenses because spectacle minification is removed.\n- Aphakes get **much less magnification** and no ring scotoma compared with aphakic spectacles.\n- In anisometropia, contact lenses remove the prismatic imbalance from looking away from the optical centers (Prentice's rule)."
+      },
+      {
+        "heading": "Monovision and over-refraction",
+        "body": "In monovision, the dominant eye is usually corrected for distance and the other eye for near (distance power + add). Stereopsis and binocular contrast are reduced.\n\nOver-refraction: final power = lens power + over-refraction. If the over-refraction exceeds about ±4.00 D, vertex it first. For example, a +10.00 trial lens with +4.00 over-refraction at 12 mm: +4.00 → +4.20 → +4.25, giving **+14.25**."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Effective power at the cornea",
+        "expression": "Fc = F ÷ (1 − dF)",
+        "notes": "d in meters. Round to the nearest 0.25 D. Apply when power exceeds about ±4.00 D."
+      },
+      {
+        "name": "Keratometric conversion",
+        "expression": "r (mm) = 337.5 ÷ K (D)",
+        "notes": "Constant from (1.3375 − 1) × 1000."
+      },
+      {
+        "name": "Tear lens rule",
+        "expression": "0.05 mm ≈ 0.25 D",
+        "notes": "SAM: steeper add minus. FAP: flatter add plus."
+      },
+      {
+        "name": "RGP power",
+        "expression": "CL power = refraction at corneal plane − tear lens power",
+        "notes": "Tear lens power = base curve (D) − flat K (D)."
+      },
+      {
+        "name": "Residual astigmatism",
+        "expression": "RA = refractive cyl − corneal cyl",
+        "notes": "Same cylinder sign and axis notation for both."
+      },
+      {
+        "name": "Spherical equivalent",
+        "expression": "SE = sphere + cyl ÷ 2",
+        "notes": "For spherical soft lens selection with low cylinder."
+      },
+      {
+        "name": "Toric compensation",
+        "expression": "LARS / CAAS",
+        "notes": "Left or clockwise: add. Right or anticlockwise: subtract. One clock hour = 30°."
+      },
+      {
+        "name": "Prentice's rule",
+        "expression": "Δ = c × F",
+        "notes": "c = decentration in cm. Explains the prismatic imbalance in anisometropic spectacles."
+      }
+    ]
+  },
+  {
+    "id": "guide-ncle-instruments",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "title": "Instrumentation for Measurement & Observation",
+    "summary": "Keratometer, slit lamp illumination and filters, corneal topography, radiuscope, lensometer and inspection tools, pachymetry, and ANSI Z80.20 verification.",
+    "sections": [
+      {
+        "heading": "Keratometer basics",
+        "body": "The keratometer treats the anterior cornea as a convex mirror and measures curvature at points about 3 mm apart in the center. It uses a **doubling** system so small eye movements don't affect the reading.\n\nThe **Bausch & Lomb** keratometer is a one-position instrument. Align the plus signs for the horizontal drum and the minus signs for the vertical drum. Javal-Schiøtz instruments are two-position and must be rotated 90°.\n\nBefore use, turn the eyepiece fully counterclockwise, then clockwise until the reticle is just sharp."
+      },
+      {
+        "heading": "Keratometer range, calibration, and limits",
+        "body": "- Standard B&L range is about **36.00–52.00 D**\n- A **+1.25 D** auxiliary lens extends the upper limit to about **61 D**\n- A **−1.00 D** lens extends the lower limit to about **30 D**\n- Use the conversion table with auxiliary lenses\n- Check calibration with **steel balls** of known radius\n- Distorted mires mean irregular astigmatism, warpage, or a disrupted tear film\n- Keratometry gives no information about the periphery"
+      },
+      {
+        "heading": "Slit lamp illumination techniques",
+        "body": "- **Diffuse**: low-magnification overview and soft lens fit\n- **Direct focal**: a **parallelepiped** (about 1–2 mm beam) shows a 3-D block of cornea, and an **optic section** (very narrow) shows depth\n- **Conical beam**: anterior chamber cells and flare\n- **Indirect**: view the tissue next to the lit area\n- **Retroillumination**: microcysts, vacuoles, ghost vessels, deposits\n- **Sclerotic scatter**: beam at the limbus; total internal reflection shows central corneal clouding\n- **Specular reflection**: angle of incidence equals angle of reflection at about 25–40×; shows the endothelial mosaic and tear lipid layer\n- **Van Herick**: peripheral chamber depth compared with corneal thickness at 60°"
+      },
+      {
+        "heading": "Slit lamp filters",
+        "body": "- **Cobalt blue** excites sodium fluorescein, which emits yellow-green\n- **Wratten #12 yellow** barrier filter over the observation path boosts the contrast of staining and fluorescein patterns\n- **Red-free (green)** filter makes vessels appear dark and high-contrast\n- The **Burton lamp** uses UV light with a magnifier and does not work under UV-blocking RGPs"
+      },
+      {
+        "heading": "Corneal topography and tomography",
+        "body": "**Placido** systems analyze reflected rings to map the anterior surface. **Scheimpflug** systems image cross-sections, which adds posterior elevation and pachymetry.\n\n- **Axial (sagittal)** maps are smoothed and referenced to the instrument axis\n- **Tangential** maps show local curvature and are better for locating a cone or an ortho-k zone\n- **Elevation** maps show height relative to a best-fit reference surface\n- Warm colors mean steep and cool colors mean flat\n- A vertical bow-tie is with-the-rule astigmatism\n- Keratoconus shows localized steepening, usually inferior"
+      },
+      {
+        "heading": "Radiuscope",
+        "body": "The radiuscope measures rigid lens base curves using **Drysdale's principle**. The microscope travel between focusing on the lens surface and focusing on the aerial image at the center of curvature equals the radius.\n\nMount the lens concave side up on a drop of fluid. The fluid steadies the lens and suppresses the front-surface reflection."
+      },
+      {
+        "heading": "Lensometer and inspection tools",
+        "body": "- **Lensometer**: place the back surface against the stop to read **back vertex power**; blot soft lenses before measuring\n- **Thickness gauge**: center and edge thickness\n- **Measuring magnifier** (about 7× with reticle): OAD, OZD, peripheral curve widths, edges, surface defects, markings\n- **V-groove gauge**: RGP diameter; let the lens slide to a stop and never force it"
+      },
+      {
+        "heading": "Pachymetry and specular microscopy",
+        "body": "**Pachymetry** measures corneal thickness. Ultrasound pachymetry is a contact method that needs topical anesthetic. Optical methods (OCT, Scheimpflug, slit lamp attachments) are non-contact. Normal central thickness is about 540 µm.\n\n**Specular microscopy** images the endothelium to measure cell density, polymegethism, and pleomorphism."
+      },
+      {
+        "heading": "ANSI Z80.20 and lens verification",
+        "body": "**ANSI Z80.20** is the U.S. standard for contact lens terminology, tolerances, measurement methods, and physicochemical properties.\n\nBefore dispensing, verify that received lenses match the order and the standard tolerances. Check power, base curve, diameter, thickness, and edge and surface quality with a lensometer, radiuscope, gauges, and a magnifier. Use the current edition of the standard for exact tolerance values."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Radiuscope (Drysdale)",
+        "expression": "Radius = microscope travel from surface image to center-of-curvature image",
+        "notes": "Read on the dial gauge in mm."
+      },
+      {
+        "name": "Keratometric conversion",
+        "expression": "r (mm) = 337.5 ÷ K (D)",
+        "notes": "For converting keratometer readings to radius."
+      }
+    ]
+  },
+  {
+    "id": "guide-ncle-prefitting",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "title": "Prefitting",
+    "summary": "Patient history and candidacy, pre-fit measurements, lens materials and Dk/t, FDA groups, lens parameters, and toric, multifocal and specialty designs.",
+    "sections": [
+      {
+        "heading": "Dk and Dk/t",
+        "body": "**Dk** is the oxygen permeability of a material. It belongs to the material and does not depend on thickness. **Dk/t** is the transmissibility of a particular lens, and it falls as the lens gets thicker.\n\n- Doubling thickness halves Dk/t\n- Dk/t (×10⁻⁹) ≈ Dk ÷ (t in mm × 10)\n- Holden–Mertz criteria: about **24** ×10⁻⁹ to avoid daily-wear edema and about **87** ×10⁻⁹ to limit overnight swelling to about 4%\n- Later models proposed higher targets (about 35 for daily wear and 125 for overnight)"
+      },
+      {
+        "heading": "Hydrogels vs silicone hydrogels",
+        "body": "**Conventional hydrogels** (HEMA and derivatives) carry oxygen through water, so Dk rises with water content. A 38% HEMA lens has a Dk of about 8–9.\n\n**Silicone hydrogels** carry oxygen mainly through silicone. More silicone gives higher Dk and usually lower water. Compared with hydrogels they:\n\n- Have much higher Dk/t and reduce hypoxic signs\n- Are stiffer (higher modulus), which links them to SEAL and local CLPC\n- Are more hydrophobic and attract lipid, so they need surface treatment or internal wetting agents\n\nHistory: Wichterle and Lim developed HEMA around 1960, and the first FDA-approved soft lens came in 1971."
+      },
+      {
+        "heading": "FDA soft lens groups",
+        "body": "The water cutoff is **50%**. Ionic materials usually contain methacrylic acid.\n\n- **Group I**: low water, nonionic\n- **Group II**: high water, nonionic\n- **Group III**: low water, ionic\n- **Group IV**: high water, ionic; attracts the most lysozyme\n\nSilicone hydrogels have been given their own grouping in newer schemes."
+      },
+      {
+        "heading": "Rigid materials",
+        "body": "- **PMMA**: excellent optics and durability, Dk ≈ 0, refractive index about 1.49; causes edema and warpage\n- **Silicone acrylate**: silicone raises Dk but reduces wettability and increases deposits\n- **Fluorosilicone acrylate (FSA)**: today's standard RGP; fluorine improves wettability and deposit resistance and raises specific gravity\n\n**Wetting angle**: a lower angle means a more wettable surface. **Modulus**: higher means stiffer."
+      },
+      {
+        "heading": "Lens parameters",
+        "body": "- **Base curve (BOZR)**: radius of the back central optic zone\n- **Overall diameter (OAD)** and **optic zone diameter (OZD)**; the OZD should exceed the dim-light pupil to avoid flare\n- **Center thickness (CT)**: affects Dk/t, flexure, and weight\n- **Peripheral curves**: progressively flatter than the base curve\n- **Edge lift**: distance from the edge to an extension of the base curve\n- **Lenticular carriers**: plus (CN-bevel) carriers thin high-minus edges; minus (myoflange) carriers let the lid grip high-plus lenses"
+      },
+      {
+        "heading": "Toric and multifocal designs",
+        "body": "Toric stabilization methods:\n\n- **Prism ballast**: about 1.0–1.5 Δ base-down\n- **Dynamic (double slab-off)**: thin top and bottom zones held by the lids; no prism\n- **Truncation**: flat lower edge rests on the lower lid\n- Rigid torics: **back-toric or bitoric** for high corneal toricity, and **front-toric** with prism for residual astigmatism\n\nMultifocal types:\n\n- **Simultaneous**: concentric, aspheric (often center-near in soft lenses), or diffractive; depends on pupil size\n- **Translating (alternating)**: segmented rigid designs pushed up by the lower lid in downgaze"
+      },
+      {
+        "heading": "Specialty lenses",
+        "body": "- **Orthokeratology**: overnight reverse-geometry RGP that temporarily flattens the central cornea to reduce myopia\n- **Scleral**: vaults the cornea and limbus and lands on the sclera; filled with non-preserved saline; used for keratoconus, irregular corneas, and severe ocular surface disease\n- **Hybrid**: RGP center with a soft skirt\n- **Decorative or tinted**: still medical devices that require a prescription"
+      },
+      {
+        "heading": "History and candidacy",
+        "body": "Ask about:\n\n- Ocular history: infections, surgery, dry eye, allergies\n- Systemic health: diabetes, thyroid disease, pregnancy, autoimmune disease, atopy\n- Medications: antihistamines, decongestants, antidepressants, diuretics, and isotretinoin reduce tears\n- Occupation, hobbies (swimming, dust), motivation, hygiene, and previous lens experience\n\nDo not fit an eye with active infection or inflammation. Relative concerns include severe dry eye, reduced corneal sensitivity, poor hygiene or compliance, and uncontrolled systemic disease."
+      },
+      {
+        "heading": "Pre-fit measurements",
+        "body": "- **Keratometry or topography**: base curve selection and a baseline for later warpage\n- **HVID**: lens diameter\n- **Pupil size** in dim and normal light: optic zone and multifocal choice\n- **Palpebral aperture and lid position and tone**: RGP philosophy and translating bifocals\n- **Tear break-up time**: normal is more than about 10 s\n- **Schirmer I** (5 min, no anesthetic): about 10 mm or more is normal; about 5 mm or less suggests aqueous deficiency\n- **Slit lamp baseline**: lids, conjunctiva, cornea, staining"
+      }
+    ],
+    "formulas": [
+      {
+        "name": "FDA group logic",
+        "expression": "Water ≥ 50% = high; ionic = negatively charged (methacrylic acid)",
+        "notes": "I: low/nonionic. II: high/nonionic. III: low/ionic. IV: high/ionic."
+      }
+    ]
+  },
+  {
+    "id": "guide-ncle-fitting",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "title": "Diagnostic Fitting",
+    "summary": "Selecting and evaluating soft and rigid lenses, tight versus loose fits, fluorescein patterns, toric rotation compensation, and multifocal fitting.",
+    "sections": [
+      {
+        "heading": "Toric rotation compensation",
+        "body": "Soft torics often settle rotated. Measure the rotation with the slit lamp beam, a reticle, or clock hours (each hour = **30°**). Then apply **LARS** (Left Add, Right Subtract) or **CAAS** (Clockwise Add, Anticlockwise Subtract), both from the examiner's view.\n\n- Axis 180, rotated 10° left: order **010**\n- Axis 090, rotated 15° right: order **075**\n- Axis 005, rotated 10° right: −5 + 180 = **175**\n\nCompensate only when rotation is stable. If orientation varies from blink to blink, change the design or fit."
+      },
+      {
+        "heading": "Selecting and evaluating soft lenses",
+        "body": "Diameter is usually about HVID + 2 mm. Steeper corneas generally need steeper base curves. Check the fit after the lens settles:\n\n- Full corneal coverage in all gaze positions\n- Good centration\n- Blink movement of about **0.25–0.5 mm**\n- **Push-up test**: moderate resistance and a prompt recenter"
+      },
+      {
+        "heading": "Tight vs loose soft lenses",
+        "body": "**Tight** lenses show little movement, a conjunctival indentation ring, and redness after hours of wear. They are often comfortable at first. Vision clears just after a blink, then blurs. To loosen, use a flatter base curve or smaller diameter.\n\n**Loose** lenses move too much, decenter, lag, and may flute at the edge. Patients feel the lens. Vision blurs just after a blink, then clears. To tighten, use a steeper base curve or larger diameter."
+      },
+      {
+        "heading": "RGP fitting philosophies",
+        "body": "- **On-K**: base curve equal to flat K; fit somewhat steeper as corneal toricity increases\n- **Lid attachment**: larger lens (about 9.2–9.8 mm) in alignment or slightly flat, held under the upper lid; comfortable and helps 3 and 9 o'clock staining\n- **Interpalpebral**: smaller, steeper lens centered between the lids\n\nExpect about **1–2 mm** of movement on the blink. If the optic zone is smaller than the dim-light pupil, patients see flare at night. Keratoconus is traditionally fitted with three-point touch, and scleral lenses are used for advanced cones."
+      },
+      {
+        "heading": "Fluorescein patterns",
+        "body": "Use cobalt blue light with a Wratten #12 yellow filter.\n\n- **Alignment**: thin, even central fluorescein with a moderate edge band\n- **Apical clearance (steep)**: central pooling, mid-peripheral touch ring, possible bubbles\n- **Apical touch (flat)**: dark central bearing, heavy peripheral pooling, decentration\n- **With-the-rule cornea**: horizontal touch band with pooling superiorly and inferiorly\n- **Insufficient edge lift**: narrow or dark edge, seal-off, adherence\n- **Excessive edge lift**: wide bright band, awareness, decentration\n\nDo not instill sodium fluorescein with a hydrogel lens on the eye. Remove the lens first or use high-molecular-weight fluorescein.",
+        "diagram": "fluorescein-patterns"
+      },
+      {
+        "heading": "Toric and multifocal fitting basics",
+        "body": "**Toric**: let the lens settle (commonly about 10–20 minutes), confirm stable orientation through blinks and gaze, then apply LARS or CAAS. If rotation is unstable, change the design.\n\n**Multifocal and monovision**: determine ocular dominance and follow the manufacturer's guide. Evaluate binocularly in normal lighting after settling, refine with hand-held ±0.25 D lenses, and allow an adaptation period."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Soft lens diameter estimate",
+        "expression": "OAD ≈ HVID + 2 mm",
+        "notes": "Typical result 13.8–14.5 mm."
+      },
+      {
+        "name": "Tightening and loosening",
+        "expression": "Tighter = steeper base curve or larger OAD; looser = flatter base curve or smaller OAD",
+        "notes": "Both change sagittal depth."
+      }
+    ]
+  },
+  {
+    "id": "guide-ncle-dispensing",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "title": "Dispensing",
+    "summary": "Wear and replacement schedules, care systems and solutions, and teaching insertion, removal and hygiene.",
+    "sections": [
+      {
+        "heading": "Replacement and wear modalities",
+        "body": "- **Daily disposable**: single use; no care system needed\n- **Frequent or planned replacement**: for example 2-week or monthly; cleaned and disinfected between wears\n- **Conventional**: replaced at long intervals; needs enzymatic cleaning\n- **Daily wear**: removed before sleep\n- **Extended wear**: overnight; in 1989 the FDA recommended limiting hydrogel extended wear to 7 days (6 nights)\n- **Continuous wear**: silicone hydrogels approved in 2001 for up to 30 nights"
+      },
+      {
+        "heading": "Care systems",
+        "body": "- **Multipurpose solutions (MPS)**: clean, rinse, disinfect, and store; disinfectants include polyquaternium-1 and PHMB; rubbing and rinsing improves results\n- **3% hydrogen peroxide**: preservative-free; must be **neutralized** with a platinum disc or catalase before insertion, and unneutralized peroxide stings immediately\n- **Enzymatic cleaners** (papain, pancreatin, subtilisin) remove protein\n- **Saline** rinses only and does not disinfect; homemade saline and tap water carry Acanthamoeba risk\n- **EDTA** is a chelator that boosts preservatives\n- **BAK** is not used for soft lenses because hydrogels absorb and concentrate it\n- **Thimerosal** caused frequent hypersensitivity\n- Replace the case at least every 3 months; never top off solution\n- Check inversion with the taco test or inversion marks"
+      },
+      {
+        "heading": "Insertion, removal, and patient education",
+        "body": "- Wash with mild, non-oily, unscented soap and dry with a lint-free towel\n- Always start with the same eye\n- Inspect the lens for damage and inversion before insertion\n- Soft lens removal: look up, slide the lens down, and pinch it off\n- RGP removal: lateral canthus pull and blink, or a two-finger technique\n- Suction removers go on the lens only, never on the bare cornea\n- Daily-wear lenses come out before any sleep\n- Never use tap water, follow the replacement schedule, and replace the case\n\nPerform the over-refraction after the lens has settled and tearing has stopped."
+      }
+    ],
+    "formulas": []
+  },
+  {
+    "id": "guide-ncle-followup",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "title": "Follow-Up",
+    "summary": "Follow-up schedules, symptoms and their causes, hypoxic, inflammatory and mechanical complications, microbial keratitis, solution reactions, deposits, and red-eye triage.",
+    "sections": [
+      {
+        "heading": "Follow-up schedule",
+        "body": "For new soft daily wear, a typical schedule is:\n\n- About 1–2 weeks\n- About 1 month\n- About 3 months\n- Then every 6–12 months\n\nFor extended wear, see the patient the morning after the first overnight wear.\n\nEvaluate after several hours of wear. At each visit, check vision, comfort, wearing time, compliance, fit, deposits, and the slit lamp findings."
+      },
+      {
+        "heading": "Symptoms and likely causes",
+        "body": "- Burning on insertion: solution toxicity or residual peroxide\n- Itching, mucus, lens riding high: CLPC (GPC)\n- Halos or hazy vision late in the day: corneal edema\n- Blur with spectacles after lens removal: edema or warpage\n- Red, painful eye on waking: CLARE or infection\n- Pain with light sensitivity, reduced vision, or discharge: **suspect microbial keratitis**"
+      },
+      {
+        "heading": "Hypoxic complications",
+        "body": "- **Edema**: striae at about 5% swelling, folds at about 8% or more; central corneal clouding shows with sclerotic scatter\n- **Microcysts**: chronic hypoxia; reversed illumination; numbers rise briefly after stopping wear, then resolve\n- **Limbal hyperemia** and **neovascularization**: vessels empty to ghost vessels when hypoxia is relieved\n- **Endothelial blebs** are acute and transient; **polymegethism** is chronic and largely permanent\n- **Overwear syndrome** (PMMA): severe pain hours after removal\n\nThe fix is more oxygen: higher Dk/t, better tear exchange, and less wearing time."
+      },
+      {
+        "heading": "Inflammatory and mechanical complications",
+        "body": "- **CLARE**: extended wear, wakes with a red, painful eye and peripheral infiltrates; gram-negative endotoxins\n- **CLPU**: small, round, peripheral infiltrate with an epithelial defect; linked to Staph aureus; leaves a round scar\n- **CLPC/GPC**: upper tarsal papillae; managed with reduced wear, daily disposables, and peroxide\n- **SEAL**: superior arcuate split from a stiff lens or poor fit\n- **3 and 9 o'clock staining**: RGP-related peripheral drying\n- **Dellen**: localized drying and thinning beside an elevation\n- **Dimple veil**: bubbles under a steep RGP\n- **Corneal warpage**: low-Dk rigid lenses; irregular topography\n- **Inferior 'smile' staining**: dehydration of thin, high-water lenses"
+      },
+      {
+        "heading": "Microbial keratitis",
+        "body": "**Pseudomonas aeruginosa** is the most common bacterial cause in lens wearers, and **overnight wear** is the biggest risk factor.\n\n- Signs: larger central or paracentral infiltrate, epithelial defect, pain, discharge, anterior chamber reaction\n- Remove the lens and refer the **same day**\n- Bring the lens and case for culture\n- **Never patch** a lens-related abrasion\n\n**Acanthamoeba**: linked to tap water, pools, and hot tubs. Pain is out of proportion to the signs. Look for radial keratoneuritis and, later, a ring infiltrate. It is often misdiagnosed as herpes simplex."
+      },
+      {
+        "heading": "Solution reactions",
+        "body": "**Toxic** reactions appear soon after exposure, for example from unneutralized peroxide. **Hypersensitivity** develops after repeated exposure, as with thimerosal.\n\n**Solution-induced corneal staining** is diffuse or annular punctate staining that peaks about 1–2 hours after insertion. It comes from an incompatible preservative and lens combination.\n\nNotable recalls:\n\n- **2006**: ReNu with MoistureLoc (Fusarium)\n- **2007**: Complete MoisturePlus (Acanthamoeba)"
+      },
+      {
+        "heading": "Deposits",
+        "body": "- **Protein**: whitish film, heaviest on Group IV, can trigger CLPC\n- **Lipid**: greasy smear, common on silicone hydrogels\n- **Jelly bumps**: raised calcium-lipid-protein lumps; replace the lens\n- **Rust spots**: iron\n- **Fungal growth** in the lens matrix: discard\n\nMore frequent replacement and correct cleaning prevent most deposits."
+      },
+      {
+        "heading": "Red-eye triage and compliance",
+        "body": "Lens wearers with a red eye should **remove the lens first**. Pain, light sensitivity, reduced vision, discharge, or a white spot on the cornea need urgent evaluation.\n\nFor a chemical splash, irrigate immediately and then get emergency care.\n\nCommon compliance failures:\n\n- Sleeping in daily-wear lenses\n- Topping off solution\n- Old cases\n- Water exposure\n- Overextended replacement\n\nGive written instructions and reinforce them at each visit."
+      }
+    ],
+    "formulas": []
+  },
+  {
+    "id": "guide-ncle-regulatory",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "title": "Regulatory & Administrative",
+    "summary": "The FCLCA and FTC Contact Lens Rule, verification and expiration, prescription elements, FDA regulation, California registration, infection control, and privacy.",
+    "sections": [
+      {
+        "heading": "FCLCA and the FTC Contact Lens Rule",
+        "body": "The **Fairness to Contact Lens Consumers Act** (2003) is carried out by the FTC's Contact Lens Rule (16 CFR Part 315). It gives patients the right to their prescription and sets how sellers verify it.\n\n- The prescriber must release the prescription **automatically** at completion of the fitting\n- The prescriber may not require a lens purchase, charge an extra release fee, or require a waiver\n- Exam fees may be required before release only if the practice also requires immediate payment when an exam shows no need for lenses"
+      },
+      {
+        "heading": "Verification and expiration",
+        "body": "- **Passive verification**: if the prescriber doesn't respond within **8 business hours**, the seller may fill the order\n- If the prescription is inaccurate, expired, or invalid, the prescriber must notify the seller within that window and give the reason\n- Business hours are generally 9 a.m.–5 p.m. on weekdays in the prescriber's time zone, excluding federal holidays\n- Minimum expiration is **1 year** (or longer if state law requires), unless a documented medical reason justifies a shorter period\n- Expired prescriptions cannot be filled\n- Sellers may not alter a prescription; they may substitute only the same lens from the same manufacturer under a different label"
+      },
+      {
+        "heading": "2020 amendments",
+        "body": "- Prescribers must get the patient's **confirmation of prescription receipt**: a signed separate statement, a signature on a retained copy of the prescription or exam receipt, or proof of digital delivery the patient consented to\n- Keep these records for **at least 3 years**\n- Respond to a patient's request for an extra copy within **40 business hours**\n- Prescribers with no financial interest in lens sales are exempt from the confirmation requirement but must still release the prescription"
+      },
+      {
+        "heading": "Required prescription elements",
+        "body": "- Patient's name\n- Date of exam\n- Issue date and expiration date\n- Prescriber's name, postal address, phone, and fax\n- Power\n- Material and/or manufacturer\n- Base curve or appropriate designation\n- Diameter when appropriate\n- For private label: manufacturer, private-label trade name, and equivalent brand if applicable\n\nA spectacle prescription can never be used to dispense contact lenses."
+      },
+      {
+        "heading": "FDA regulation",
+        "body": "Contact lenses and care products are **medical devices**.\n\n- **Daily-wear** lenses are **Class II**\n- **Extended-wear** lenses are **Class III**\n- Since a **2005** law, plano **decorative** lenses are medical devices that need a prescription and fitting; selling them without one, for example in costume shops, is illegal\n\nThe FDA covers device safety and approval. The FTC covers prescription release and seller conduct."
+      },
+      {
+        "heading": "California registration",
+        "body": "California registers rather than licenses opticians. Registration is administered by the **California State Board of Optometry** (the program was formerly under the Medical Board of California).\n\n- **Registered Contact Lens Dispenser (CLD)**: must pass the **NCLE** exam\n- **Registered Spectacle Lens Dispenser (SLD)**: must pass the **ABO** exam\n- Dispensing businesses also register\n\nDispensers fit and dispense only under a valid prescription from a physician or optometrist. They do not examine, diagnose, or prescribe, and they refer patients with signs of disease. Check the Board for current fees and renewal rules."
+      },
+      {
+        "heading": "Infection control and privacy",
+        "body": "- Practice hand hygiene before and after every patient; California requires accessible hand-washing facilities where contact lenses are fitted\n- Soft diagnostic lenses are single-use\n- Rigid diagnostic lenses are cleaned and disinfected with an appropriate method between patients\n- Disinfect surfaces and instruments that touch patients\n- Keep patient prescriptions and exam findings confidential as protected health information"
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Key federal numbers",
+        "expression": "8 business hours · 1-year minimum · 40 business hours · 3-year records",
+        "notes": "Verification window, expiration, copy requests (2020), confirmation records (2020)."
+      }
+    ]
+  }
+]

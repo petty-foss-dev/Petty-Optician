@@ -1,0 +1,328 @@
+[
+  {
+    "id": "eye-anatomy",
+    "title": "Cross-Section of the Eye",
+    "caption": "Light passes through the cornea, aqueous humor, pupil, crystalline lens and vitreous to focus on the retina. The cornea supplies about two-thirds of the eye's focusing power and the lens most of the rest. The fovea, at the center of the macula, gives the sharpest vision; the optic nerve carries the signal to the brain.",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.anatomy"
+    ],
+    "sources": [
+      {
+        "title": "Parts of the Eye - American Academy of Ophthalmology",
+        "url": "https://www.aao.org/eye-health/anatomy/parts-of-eye"
+      },
+      {
+        "title": "Cornea - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cornea"
+      },
+      {
+        "title": "How the Eyes Work - National Eye Institute",
+        "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+      }
+    ]
+  },
+  {
+    "id": "refractive-errors",
+    "title": "Myopia vs Hyperopia",
+    "caption": "Myopia: the eye is too strong or too long, so distant light focuses in front of the retina; minus (diverging) lenses correct it. Hyperopia: the eye is too weak or too short, so focus falls behind the retina; plus (converging) lenses correct it.",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.anatomy",
+      "ncle.refraction"
+    ],
+    "sources": [
+      {
+        "title": "Refractive Errors - National Eye Institute",
+        "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/refractive-errors"
+      },
+      {
+        "title": "Near-sightedness - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Near-sightedness"
+      },
+      {
+        "title": "Far-sightedness - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Far-sightedness"
+      }
+    ]
+  },
+  {
+    "id": "lens-forms",
+    "title": "Lens Forms",
+    "caption": "Plus lenses are thickest at the center, minus lenses at the edge. Nearly all modern spectacle lenses are meniscus (convex front, concave back) because that form reduces off-axis aberrations, mainly oblique astigmatism, when the eye looks away from the optical center.",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "sources": [
+      {
+        "title": "Lens - Wikipedia (types of simple lenses)",
+        "url": "https://en.wikipedia.org/wiki/Lens"
+      },
+      {
+        "title": "The Ultimate ABO Study Guide - OpticianWorks (PDF)",
+        "url": "http://opticianworks.com/wp-content/uploads/2017/08/ABOGuide8.4.2017.pdf"
+      }
+    ]
+  },
+  {
+    "id": "optical-cross",
+    "title": "The Optical Cross",
+    "caption": "The axis meridian carries only the sphere power; sphere plus the full cylinder lies 90° away. For −2.00 −1.00 × 180, the 180 meridian is −2.00 D and the 90 meridian is −3.00 D.",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "ncle.refraction"
+    ],
+    "sources": [
+      {
+        "title": "Optical Cross and Transposition: Complete Guide for ABO Exam - Opterio",
+        "url": "https://www.opterio.com/learn/optical-cross-transposition-abo"
+      },
+      {
+        "title": "Prentice's Rule and Finding the Power of a Lens in Any Meridian - National Academy of Opticianry (PDF)",
+        "url": "https://www.nao.org/wp-content/uploads/2020/12/Prentices-Rule.pdf"
+      },
+      {
+        "title": "Transposing Prescriptions - Laramy-K Optical",
+        "url": "https://www.laramyk.com/resources/education/dispensing/transposing-prescriptions/"
+      }
+    ]
+  },
+  {
+    "id": "prism",
+    "title": "How a Prism Bends Light",
+    "caption": "A prism bends light toward its base, so the eye sees the image displaced toward the apex. One prism diopter (1Δ) displaces the image 1 cm at a distance of 1 m.",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "sources": [
+      {
+        "title": "Prism correction - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prism_correction"
+      },
+      {
+        "title": "Prentice's Rule and Finding the Power of a Lens in Any Meridian - National Academy of Opticianry (PDF)",
+        "url": "https://www.nao.org/wp-content/uploads/2020/12/Prentices-Rule.pdf"
+      }
+    ]
+  },
+  {
+    "id": "prentice",
+    "title": "Prentice's Rule & Base Direction",
+    "caption": "Prentice's rule: prism (Δ) = decentration in cm × lens power in diopters. A plus lens acts like prisms base-to-base, so looking away from its optical center gives base toward the OC; a minus lens acts like prisms apex-to-apex, giving base away from the OC.",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "sources": [
+      {
+        "title": "Prism correction - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prism_correction"
+      },
+      {
+        "title": "Prentice's Rule and Finding the Power of a Lens in Any Meridian - National Academy of Opticianry (PDF)",
+        "url": "https://www.nao.org/wp-content/uploads/2020/12/Prentices-Rule.pdf"
+      },
+      {
+        "title": "The Ultimate ABO Study Guide - OpticianWorks (PDF)",
+        "url": "http://opticianworks.com/wp-content/uploads/2017/08/ABOGuide8.4.2017.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vertex-distance",
+    "title": "Vertex Distance",
+    "caption": "Vertex distance runs from the back surface of the lens to the front of the cornea, typically 12–14 mm. Compensate when any meridian exceeds ±4.00 D: Fc = F ÷ (1 − dF), d in meters, positive when the lens moves toward the eye. Moving a plus lens away increases its effective power; moving a minus lens away reduces it.",
+    "exams": [
+      "abo",
+      "ncle"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.dispensing",
+      "ncle.refraction"
+    ],
+    "sources": [
+      {
+        "title": "Vertex distance - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vertex_distance"
+      },
+      {
+        "title": "Vertex Distance, Effective Power, and Compensated Power - Tilt - Wrap - National Academy of Opticianry (PDF)",
+        "url": "https://www.nao.org/wp-content/uploads/2020/05/Vertex-Distance-Effective-Power-and-Compensated-Power-Tilt-Wrap.pdf"
+      },
+      {
+        "title": "Vertex Distance - OpticianWorks",
+        "url": "https://opticianworks.com/lesson/vertex-distance/"
+      }
+    ]
+  },
+  {
+    "id": "boxing-system",
+    "title": "The Boxing System",
+    "caption": "In the boxing system, A is the box width, B the box height, DBL the shortest distance between the lenses (between the boxes), and ED twice the longest radius from the geometric center to the lens edge. Frame PD (distance between centers) = A + DBL.",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics",
+      "abo.dispensing"
+    ],
+    "sources": [
+      {
+        "title": "Boxing System of Eyeglass Frame Measurement - Laramy-K Optical",
+        "url": "https://www.laramyk.com/resources/education/dispensing/boxing-system/"
+      },
+      {
+        "title": "It's as Easy as A, B, DBL - 20/20 Magazine",
+        "url": "https://www.2020mag.com/article/as-easy-as-a-b-dbl"
+      }
+    ]
+  },
+  {
+    "id": "frame-adjustments",
+    "title": "Pantoscopic Tilt & Face Form",
+    "caption": "Pantoscopic tilt angles the lower rims in toward the cheeks; the rule of thumb is to place the optical center 1 mm below the pupil for every 2° of tilt. Face form (wrap) bows the front so the bridge sits slightly forward and the temporal edges sit closer to the face.",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.dispensing"
+    ],
+    "sources": [
+      {
+        "title": "The Ultimate ABO Study Guide - OpticianWorks (PDF)",
+        "url": "http://opticianworks.com/wp-content/uploads/2017/08/ABOGuide8.4.2017.pdf"
+      },
+      {
+        "title": "The Well-Adjusted Frame - 20/20 Magazine",
+        "url": "https://www.2020mag.com/article/the-well-adjusted-frame"
+      },
+      {
+        "title": "Vertex Distance, Effective Power, and Compensated Power - Tilt - Wrap - National Academy of Opticianry (PDF)",
+        "url": "https://www.nao.org/wp-content/uploads/2020/05/Vertex-Distance-Effective-Power-and-Compensated-Power-Tilt-Wrap.pdf"
+      }
+    ]
+  },
+  {
+    "id": "multifocals",
+    "title": "Bifocal & Trifocal Segments",
+    "caption": "Flat-top (D-seg) bifocals are most common and have little image jump; round segs have a less noticeable line but the most image jump; the Executive spans the full width with no jump; trifocals add an intermediate band. Seg height runs from the lowest point of the lens (bottom of the box) to the top of the segment.",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products",
+      "abo.dispensing"
+    ],
+    "sources": [
+      {
+        "title": "Bifocal Lens Types for ABO - Opterio",
+        "url": "https://www.opterio.com/learn/bifocal-lens-types-abo"
+      },
+      {
+        "title": "Bifocal vs. Trifocal Lenses - All About Vision",
+        "url": "https://www.allaboutvision.com/eyewear/eyeglasses/lenses/bifocal-or-trifocal-for-vision-over-40/"
+      },
+      {
+        "title": "The Ultimate ABO Study Guide - OpticianWorks (PDF)",
+        "url": "http://opticianworks.com/wp-content/uploads/2017/08/ABOGuide8.4.2017.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pal-layout",
+    "title": "Progressive Lens Markings",
+    "caption": "Fit the cross at the pupil center. Verify distance power in the distance circle, prism at the prism reference point midway between the two permanent engravings (34 mm apart), and add power in the near circle, which is inset nasally. The corridor widens into the reading zone; the lower side areas are blur zones.",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.products",
+      "abo.instruments"
+    ],
+    "sources": [
+      {
+        "title": "Optics of Progressive Lenses (Darryl Meister) - OptiCampus",
+        "url": "https://opticampus.opti.vision/popcourse.php?url=progressive_lenses/"
+      },
+      {
+        "title": "Lens Marking Guidelines - The Vision Council (PDF)",
+        "url": "https://thevisioncouncil.org/sites/default/files/TVC%20Lens%20Marking%20Guidelines%20%202-0%20-%20Final.pdf"
+      },
+      {
+        "title": "The Ultimate ABO Study Guide - OpticianWorks (PDF)",
+        "url": "http://opticianworks.com/wp-content/uploads/2017/08/ABOGuide8.4.2017.pdf"
+      }
+    ]
+  },
+  {
+    "id": "tear-lens",
+    "title": "The Tear Lens (SAM-FAP)",
+    "caption": "A rigid lens fitted steeper than K traps a plus tear lens, so add minus (SAM); fitted flatter than K, the tear lens is minus, so add plus (FAP). On normal corneas, 0.05 mm of base-curve radius ≈ 0.25 D.",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.refraction",
+      "ncle.fitting"
+    ],
+    "sources": [
+      {
+        "title": "Rules of Thumb - Contact Lens Spectrum (Oct 2024)",
+        "url": "https://www.clspectrum.com/issues/2024/october/rules-of-thumb/"
+      },
+      {
+        "title": "Contact Lens Clinical Pearls Pocket Guide - GP Lens Institute (PDF)",
+        "url": "https://www.gpli.info/pdf/pearl-fitting-guide.pdf"
+      },
+      {
+        "title": "RGP Lens Calculator (tear lens, SAM-FAP) - ODReference",
+        "url": "https://www.odreference.com/contacts/conversions/rgp"
+      }
+    ]
+  },
+  {
+    "id": "fluorescein-patterns",
+    "title": "RGP Fluorescein Patterns",
+    "caption": "Under cobalt blue with fluorescein (a yellow Wratten filter helps), green means tear layer and dark means touch. Alignment shows thin, even green with a bright edge band; a steep fit pools centrally with a dark mid-peripheral ring and little edge lift; a flat fit shows central touch with pooling toward a wide edge band.",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.fitting"
+    ],
+    "sources": [
+      {
+        "title": "Contact Lens Primer: fluorescein pattern interpretation - Contact Lens Spectrum (Sep 2001)",
+        "url": "https://www.clspectrum.com/issues/2001/september/contact-lens-primer/"
+      },
+      {
+        "title": "Contact Lens Clinical Pearls Pocket Guide - GP Lens Institute (PDF)",
+        "url": "https://www.gpli.info/pdf/pearl-fitting-guide.pdf"
+      },
+      {
+        "title": "RGP Contact Lens Fitting: Complete Guide for NCLE Exam - Opterio",
+        "url": "https://www.opterio.com/learn/rgp-lens-fitting-ncle"
+      }
+    ]
+  }
+]

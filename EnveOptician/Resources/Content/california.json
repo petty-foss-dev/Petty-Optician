@@ -1,0 +1,223 @@
+{
+  "summary": "California regulates opticians through the California State Board of Optometry's Optician Program (it used to be part of the Medical Board of California). Individuals register as a Spectacle Lens Dispenser (SLD, requires passing the ABO exam) and/or a Contact Lens Dispenser (CLD, requires passing the NCLE exam), and must work inside a business registered as a Registered Dispensing Ophthalmic Business (RDO). There is no separate California law exam, and SLD/CLD renewals every two years do not require continuing education.",
+  "credentials": [
+    {
+      "id": "sld",
+      "name": "Spectacle Lens Dispenser (SLD)",
+      "agency": "California State Board of Optometry (Optician Program)",
+      "requiredExam": "abo",
+      "requirements": [
+        "Pass the American Board of Opticianry registry examination (ABO Basic / NOCE).",
+        "Apply online through BreEZe and submit proof of ABO exam results or certification.",
+        "Complete a Live Scan fingerprint background check (request the form from the Board after applying).",
+        "Give the registration number of the RDO business where you work, or note that its application is pending.",
+        "Display your certificate conspicuously where you fit and adjust."
+      ],
+      "fee": "$500 at application ($200 application fee + $300 registration fee)",
+      "renewal": "Every 2 years (expires 24 months after issuance or renewal); $300 renewal fee, $50 delinquency fee. No California CE requirement. Can be renewed up to 3 years after expiration, then it is cancelled and you must apply again. No inactive or retired status.",
+      "url": "https://www.optometry.ca.gov/optician/faq.shtml",
+      "codeSections": [
+        "B&P §2550",
+        "B&P §2553.5",
+        "B&P §2559.1",
+        "B&P §2559.2",
+        "B&P §2559.3",
+        "B&P §2559.4",
+        "B&P §2566.1",
+        "B&P §2566.2"
+      ]
+    },
+    {
+      "id": "cld",
+      "name": "Contact Lens Dispenser (CLD)",
+      "agency": "California State Board of Optometry (Optician Program)",
+      "requiredExam": "ncle",
+      "requirements": [
+        "Pass the National Contact Lens Examiners contact lens registry examination (NCLE Basic / CLRE).",
+        "Apply online through BreEZe with proof of NCLE exam results or certification.",
+        "Complete Live Scan fingerprinting (usually not needed again if you already did it for an SLD application).",
+        "Keep handwashing facilities on site (separate from the restroom) and use them before every fitting.",
+        "Within 60 days of receiving the prescription, direct the patient back to the prescriber for an evaluation."
+      ],
+      "fee": "$500 at application ($200 application fee + $300 registration fee)",
+      "renewal": "Every 2 years; $300 renewal fee, $50 delinquency fee. No California CE requirement. The Board may require a re-exam if you have not fit contact lenses within the last five years.",
+      "url": "https://www.optometry.ca.gov/optician/faq.shtml",
+      "codeSections": [
+        "B&P §2560",
+        "B&P §2561",
+        "B&P §2562",
+        "B&P §2564",
+        "B&P §2564.5",
+        "B&P §2564.6",
+        "B&P §2566",
+        "B&P §2566.2"
+      ]
+    },
+    {
+      "id": "rdo",
+      "name": "Registered Dispensing Ophthalmic Business (RDO)",
+      "agency": "California State Board of Optometry (Optician Program)",
+      "requiredExam": null,
+      "requirements": [
+        "Business registration, not an individual license. Required before opening a business that dispenses prescription ophthalmic devices.",
+        "A separate registration is required for each business location.",
+        "May be a sole proprietor, partnership, or corporation. LLCs are not allowed.",
+        "Submit entity documents (business license, partnership agreement, or articles of incorporation and list of officers) and a fully signed lease for the location.",
+        "Spectacle and contact lens fitting must be done or supervised by registered SLDs/CLDs.",
+        "Physicians and surgeons whose prescriptions the business fills may not hold a proprietary interest in it (B&P §2553.6). B&P §655 limits optometrist relationships to permitted leases."
+      ],
+      "fee": "$500 at application ($200 application fee + $300 registration fee)",
+      "renewal": "Every 2 years; $300 renewal fee, $50 delinquency fee. A change of ownership requires returning the certificate and applying again within 10 days.",
+      "url": "https://www.optometry.ca.gov/optician/faq.shtml",
+      "codeSections": [
+        "B&P §2553",
+        "B&P §2553.6",
+        "B&P §2556",
+        "B&P §2564.90",
+        "B&P §2564.91",
+        "B&P §2564.93",
+        "B&P §2564.94",
+        "B&P §2565",
+        "B&P §655"
+      ]
+    },
+    {
+      "id": "nold",
+      "name": "Nonresident Ophthalmic Lens Dispenser (NOLD)",
+      "agency": "California State Board of Optometry (Optician Program)",
+      "requiredExam": null,
+      "requirements": [
+        "Required for businesses outside California that ship ophthalmic lenses to California patients.",
+        "Must be in good standing in its home state, keep shipment records for 3 years, and provide toll-free patient and prescriber lines."
+      ],
+      "fee": "$350 per the Board FAQ ($150 application + $200 registration). As amended by SB 776, B&P §2564.79 sets a $500 minimum, so confirm the current fee with the Board.",
+      "renewal": "Every 2 years. The FAQ lists a $200 renewal fee, but B&P §2564.79 now sets a $300 minimum.",
+      "url": "https://www.optometry.ca.gov/optician/faq.shtml",
+      "codeSections": [
+        "B&P §2564.70",
+        "B&P §2564.71",
+        "B&P §2564.75",
+        "B&P §2564.76",
+        "B&P §2564.78",
+        "B&P §2564.79"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose your registration",
+      "detail": "SLD to fit and adjust eyeglasses, CLD for contact lenses, or both. Business owners also need an RDO registration for each location. Assistants working under an optometrist or ophthalmologist do not need a registration.",
+      "url": "https://www.optometry.ca.gov/optician/abo_ncle.html"
+    },
+    {
+      "title": "Pass the ABO and/or NCLE Basic exam",
+      "detail": "Register and pay ($275) on abo-ncle.org, then schedule with Prometric at a test center or by remote proctor. SLD requires the ABO exam; CLD requires the NCLE exam.",
+      "url": "https://www.abo-ncle.org/ABONCLE/ABONCLE/ABO_NCLE/Basic-Exams.aspx"
+    },
+    {
+      "title": "Apply on BreEZe",
+      "detail": "Create a BreEZe account and submit the SLD/CLD application with the $500 fee. The Board recommends a desktop computer. Your address of record is public, so the Board suggests using your employer's address.",
+      "url": "https://www.optometry.ca.gov/optometrist/breeze.html"
+    },
+    {
+      "title": "Complete Live Scan fingerprinting",
+      "detail": "After you submit the application, contact the Board to request the Live Scan form. Processing takes longer if background check or exam documents are missing.",
+      "url": "https://www.optometry.ca.gov/optician/faq.shtml"
+    },
+    {
+      "title": "Wait for approval and certificates",
+      "detail": "The Board lists 1-3 week processing times. Check status in BreEZe. Certificates arrive by mail within about two weeks of approval.",
+      "url": "https://www.optometry.ca.gov/optician/index.shtml"
+    },
+    {
+      "title": "Display and renew",
+      "detail": "Display your certificate where you fit and adjust. Renew every 2 years ($300) and update your address within 30 days of moving. Keep your ABO/NCLE certification current separately if you want to keep the credential.",
+      "url": "https://www.optometry.ca.gov/optician/faq.shtml"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is ABO/NCLE certification the same as a California license?",
+      "a": "No. ABO-NCLE issues national certifications. California requires a separate Board registration (SLD and/or CLD) to fit and adjust lenses without direct supervision. Passing the ABO or NCLE exam is a prerequisite for that registration."
+    },
+    {
+      "q": "Can I work before I'm registered?",
+      "a": "Yes, but only as an unregistered individual fitting under the direct supervision of a registered SLD or CLD who is physically present on the registered premises (B&P §2559.1, §2560). Since January 1, 2026 (SB 776), physical presence is explicitly required for SLD supervision, with exceptions for unexpected absences and legally required meal or rest breaks. A CLD may supervise no more than three unregistered individuals."
+    },
+    {
+      "q": "Is there a California law or jurisprudence exam?",
+      "a": "No. B&P §2559.2 and §2561 require only the ABO or NCLE registry examination, although the Board may set its own exam if it ever finds the national exam inadequate. The Board strongly recommends learning the laws and regulations: B&P Chapter 5.5 and 16 CCR §§1399.200-1399.285."
+    },
+    {
+      "q": "Does California require continuing education for SLD/CLD renewal?",
+      "a": "No. The Board's FAQ says SLD/CLD renewal does not require CE. If you keep your ABO/NCLE certification, you still have to meet ABO-NCLE's CE rules. California is not on ABO-NCLE's list of states whose licenses can substitute for CECs."
+    },
+    {
+      "q": "Do I need to pass the ABO/NCLE Practical exam?",
+      "a": "California law requires only the ABO and NCLE registry (basic) exams. No Board page read today mentions a Practical exam requirement."
+    },
+    {
+      "q": "Can I take the exam remotely for California registration?",
+      "a": "ABO-NCLE offers remote ProProctor testing for the Basic exams but tells candidates to confirm their state board accepts it. We found no California Board statement on remote testing today, so confirm with the Board at (916) 575-7170."
+    },
+    {
+      "q": "Where can an SLD work?",
+      "a": "At any registered RDO location or anywhere ophthalmology or optometry is practiced. An SLD may also work at health facilities and large employer sites (25+ employees), but only if at least 40% of their weekly hours are spent at a registered place of business (B&P §2553.5). CLDs may not fit contact lenses at those off-site locations."
+    },
+    {
+      "q": "What changed recently?",
+      "a": "SB 776 (Stats. 2025, Ch. 788), effective January 1, 2026: extended the Board to 2030, set minimum and maximum fees (changes only by regulation), cut the Dispensing Optician Committee to 3 members, allowed probationary registrations, required physical presence for supervision, redefined 'dispensing ophthalmic business', and required applicants to report email addresses. We found no California optician apprenticeship program or 'AB 458' opticianry change on official sources today."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CA State Board of Optometry - Frequently Asked Questions: Opticians (fees, CE, applications)",
+      "url": "https://www.optometry.ca.gov/optician/faq.shtml"
+    },
+    {
+      "title": "CA State Board of Optometry - Optician Program",
+      "url": "https://www.optometry.ca.gov/optician/index.shtml"
+    },
+    {
+      "title": "CA State Board of Optometry - ABO-NCLE vs Board registration",
+      "url": "https://www.optometry.ca.gov/optician/abo_ncle.html"
+    },
+    {
+      "title": "CA State Board of Optometry - Optician Program student brochure",
+      "url": "https://www.optometry.ca.gov/optician/optician_program_student_brochure.pdf"
+    },
+    {
+      "title": "CA State Board of Optometry - Laws and Regulations",
+      "url": "https://www.optometry.ca.gov/lawsregs/index.html"
+    },
+    {
+      "title": "CA State Board of Optometry - The Spectacle, Winter 2026 (SB 776 summary)",
+      "url": "https://www.optometry.ca.gov/formspubs/spectacle_wi_2026.pdf"
+    },
+    {
+      "title": "CA State Board of Optometry - BreEZe Online Services",
+      "url": "https://www.optometry.ca.gov/optometrist/breeze.html"
+    },
+    {
+      "title": "California Business & Professions Code, Chapter 5.5 Registered Dispensing Opticians (§§2550-2568)",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=2.&title=&part=&chapter=5.5.&article="
+    },
+    {
+      "title": "ABO-NCLE - Basic Exams",
+      "url": "https://www.abo-ncle.org/ABONCLE/ABONCLE/ABO_NCLE/Basic-Exams.aspx"
+    },
+    {
+      "title": "ABO-NCLE - Basic Exam Candidate Handbook (October 2026)",
+      "url": "https://drive.google.com/file/d/12CIrGlca2sOn-kVKVTdXLHmXmF93HE2K/view"
+    },
+    {
+      "title": "ABO-NCLE - Basic Certification Renewal",
+      "url": "https://www.abo-ncle.org/ABONCLE/ABONCLE/Renewals/Basic_Certification_Renewal.aspx"
+    },
+    {
+      "title": "DCA License Search",
+      "url": "https://search.dca.ca.gov/"
+    }
+  ],
+  "lastVerified": "2026-11-04"
+}

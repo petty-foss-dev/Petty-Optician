@@ -1,0 +1,534 @@
+[
+  {
+    "id": "fc-abo-len-001",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "CR-39",
+    "back": "n = 1.498; Abbe ≈ 58; SG ≈ 1.32. Thermosetting, cast-molded resin (allyl diglycol carbonate)."
+  },
+  {
+    "id": "fc-abo-len-002",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Polycarbonate",
+    "back": "n = 1.586; Abbe ≈ 30; SG ≈ 1.20. Thermoplastic, injection molded, highest impact resistance, inherent UV blocking, needs a scratch coat."
+  },
+  {
+    "id": "fc-abo-len-003",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Trivex",
+    "back": "n = 1.53; Abbe ≈ 43–45; SG ≈ 1.11 (lightest). Urethane-based, high impact resistance, excellent for drill mounts."
+  },
+  {
+    "id": "fc-abo-len-004",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Crown glass",
+    "back": "n = 1.523; Abbe ≈ 58–59; SG ≈ 2.54. Excellent scratch resistance and optics; heavy; must be tempered."
+  },
+  {
+    "id": "fc-abo-len-005",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "1.60 high-index plastic",
+    "back": "Index 1.60; Abbe roughly 36–42 depending on the monomer. Good compromise of thinness and optics."
+  },
+  {
+    "id": "fc-abo-len-006",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "1.67 high-index plastic",
+    "back": "Index 1.67; Abbe ≈ 32. Thinner than 1.60, more reflections (≈6.3% per surface uncoated)."
+  },
+  {
+    "id": "fc-abo-len-007",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "1.74 high-index plastic",
+    "back": "Index 1.74; Abbe ≈ 33. Thinnest common plastic; reflects ≈7.3% per surface uncoated — AR strongly recommended."
+  },
+  {
+    "id": "fc-abo-len-008",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Index ranking (low → high)",
+    "back": "CR-39 1.498 < crown 1.523 < Trivex 1.53 < poly 1.586 < 1.60 < 1.67 < 1.74."
+  },
+  {
+    "id": "fc-abo-len-009",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Abbe ranking (high → low)",
+    "back": "Crown ≈ 59 ≈ CR-39 58 > Trivex ≈ 45 > 1.60 ≈ 36–42 > 1.67/1.74 ≈ 32–33 > polycarbonate ≈ 30."
+  },
+  {
+    "id": "fc-abo-len-010",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Specific gravity ranking (light → heavy)",
+    "back": "Trivex 1.11 < poly 1.20 < CR-39 1.32 < high-index plastics ≈ 1.3–1.5 < crown glass 2.54."
+  },
+  {
+    "id": "fc-abo-len-011",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Specific gravity",
+    "back": "Density of a material relative to water. Lens weight depends on SG and lens volume."
+  },
+  {
+    "id": "fc-abo-len-012",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Thermoset vs thermoplastic",
+    "back": "Thermoset (CR-39) cures permanently with heat and is cast. Thermoplastic (polycarbonate) softens with heat and is injection molded."
+  },
+  {
+    "id": "fc-abo-len-013",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Best impact-resistant materials",
+    "back": "Polycarbonate and Trivex. Standard for children, sports, safety, and monocular patients."
+  },
+  {
+    "id": "fc-abo-len-014",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "FDA drop-ball test",
+    "back": "5/8-inch steel ball (≈0.56 oz) dropped 50 inches onto the lens front surface (21 CFR 801.410)."
+  },
+  {
+    "id": "fc-abo-len-015",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "FDA testing: glass vs plastic",
+    "back": "Every glass lens is individually tested after tempering; plastic lenses may be batch tested by the manufacturer."
+  },
+  {
+    "id": "fc-abo-len-016",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "ANSI Z87.1 high-velocity test",
+    "back": "1/4-inch steel ball at 150 ft/s for high-impact safety eyewear."
+  },
+  {
+    "id": "fc-abo-len-017",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Z87.1 lens marking",
+    "back": "Manufacturer's mark; high-impact lenses also carry a '+'."
+  },
+  {
+    "id": "fc-abo-len-018",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Heat tempering",
+    "back": "Glass heated near softening, then cooled rapidly with air jets. Shows a strain pattern (e.g., Maltese cross) under polarized light."
+  },
+  {
+    "id": "fc-abo-len-019",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Chemical tempering",
+    "back": "Ion exchange in molten potassium nitrate: potassium ions replace sodium at the surface. Generally stronger than heat tempering; little visible strain pattern."
+  },
+  {
+    "id": "fc-abo-len-020",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Aspheric lens",
+    "back": "Surface curvature changes from center to edge. Allows flatter, thinner lenses with less magnification and fewer peripheral errors."
+  },
+  {
+    "id": "fc-abo-len-021",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Atoric lens",
+    "back": "Different aspheric corrections in each principal meridian. Best for prescriptions with significant cylinder."
+  },
+  {
+    "id": "fc-abo-len-022",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Pantoscopic tilt rule",
+    "back": "Lower the optical center 1 mm for every 2° of pantoscopic tilt."
+  },
+  {
+    "id": "fc-abo-len-023",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Flat-top (D-seg) sizes",
+    "back": "FT-22, FT-25, FT-28 (most common), FT-35, FT-45 — the number is the seg width in mm."
+  },
+  {
+    "id": "fc-abo-len-024",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Executive bifocal",
+    "back": "One-piece, full-width segment with its optical center on the seg line: no image jump, wide near field, heavy ledge."
+  },
+  {
+    "id": "fc-abo-len-025",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Round segment",
+    "back": "OC at the seg center (11 mm below top for a 22 mm seg); maximum image jump. Ultex A = 38 mm one-piece round seg."
+  },
+  {
+    "id": "fc-abo-len-026",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Kryptok",
+    "back": "Fused glass round bifocal: a higher-index glass button fused into a crown carrier."
+  },
+  {
+    "id": "fc-abo-len-027",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Bifocal seg height placement",
+    "back": "Top of the seg at the lower eyelid margin."
+  },
+  {
+    "id": "fc-abo-len-028",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Trifocal seg height placement",
+    "back": "Top of the seg at the lower edge of the pupil."
+  },
+  {
+    "id": "fc-abo-len-029",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Trifocal designation (e.g., 7×28)",
+    "back": "Intermediate depth (7 mm) × segment width (28 mm). Intermediate is usually 50% of the add."
+  },
+  {
+    "id": "fc-abo-len-030",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Blended bifocal",
+    "back": "Seg edge polished into a blur zone so no line is visible; no intermediate corridor."
+  },
+  {
+    "id": "fc-abo-len-031",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Seg inset",
+    "back": "(Distance PD − near PD) ÷ 2 per lens. Example: 64/60 → 2 mm per lens."
+  },
+  {
+    "id": "fc-abo-len-032",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Seg height measurement",
+    "back": "From the lowest point of the lens opening (lower bevel) to the seg line."
+  },
+  {
+    "id": "fc-abo-len-033",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Seg drop / raise",
+    "back": "Seg drop = (B ÷ 2) − seg height when the seg top is below the datum line; above the datum it is a seg raise."
+  },
+  {
+    "id": "fc-abo-len-034",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Segs fitted too high / too low",
+    "back": "Too high: seg interferes with distance vision. Too low: patient must drop eyes or tip head back to read."
+  },
+  {
+    "id": "fc-abo-len-035",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Double-D occupational lens",
+    "back": "Flat-top seg at the bottom plus an inverted seg at the top for overhead near work (mechanics, electricians, librarians)."
+  },
+  {
+    "id": "fc-abo-len-036",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Dissimilar segments",
+    "back": "Different seg styles in each eye (different OC depths) to offset vertical imbalance at near."
+  },
+  {
+    "id": "fc-abo-len-037",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "PAL fitting cross",
+    "back": "Placed at the pupil center with monocular PDs and the patient in natural head posture."
+  },
+  {
+    "id": "fc-abo-len-038",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "PAL prism reference point (PRP)",
+    "back": "Midway between the hidden engravings, usually a few mm below the fitting cross. Verify prism here."
+  },
+  {
+    "id": "fc-abo-len-039",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "PAL hidden engravings",
+    "back": "Two permanent marks 34 mm apart (17 mm each side of the PRP). Add power usually below the temporal mark; logo below the nasal mark."
+  },
+  {
+    "id": "fc-abo-len-040",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "PAL distance and near verification",
+    "back": "Distance power at the distance reference circle; add at the near circle or from the engraving."
+  },
+  {
+    "id": "fc-abo-len-041",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Hard vs soft PAL designs",
+    "back": "Hard: wide clear zones, short corridor, steep astigmatism gradients. Soft: gentler gradients, narrower clear zones, easier adaptation."
+  },
+  {
+    "id": "fc-abo-len-042",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Short-corridor PAL",
+    "back": "Reaches full add in less vertical height; chosen for frames with small B dimensions."
+  },
+  {
+    "id": "fc-abo-len-043",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Prism thinning (yoked prism)",
+    "back": "Equal base-down prism in both PAL lenses to reduce thickness. No imbalance; verify at the PRP."
+  },
+  {
+    "id": "fc-abo-len-044",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "PAL unwanted astigmatism",
+    "back": "Peripheral cylinder on either side of the corridor caused by the changing surface curvature; increases with add power."
+  },
+  {
+    "id": "fc-abo-len-045",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "PAL fitted too low",
+    "back": "Near zone too low: patient must drop eyes or lift the chin to read. Too high: distance blur in straight-ahead gaze."
+  },
+  {
+    "id": "fc-abo-len-046",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Re-marking an unmarked PAL",
+    "back": "Find the engravings under bright light, dot them, align on the manufacturer's centration chart, then redraw the fitting cross, PRP, and circles."
+  },
+  {
+    "id": "fc-abo-len-047",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Free-form (digital) surfacing",
+    "back": "Computer-controlled point-by-point surfacing; enables personalized and back-surface progressive designs."
+  },
+  {
+    "id": "fc-abo-len-048",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Office / degressive lens",
+    "back": "Wide intermediate and near zones; power decreases toward the top. Not for driving."
+  },
+  {
+    "id": "fc-abo-len-049",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "AR coating principle",
+    "back": "Quarter-wave thin films cause destructive interference of reflected light; multilayers cover the visible spectrum."
+  },
+  {
+    "id": "fc-abo-len-050",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Ideal single-layer AR index",
+    "back": "√(n_lens). For n = 1.50 → ≈1.22. MgF₂ (≈1.38) is commonly used."
+  },
+  {
+    "id": "fc-abo-len-051",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "AR transmission",
+    "back": "Uncoated CR-39 transmits ≈92%; a good AR coating raises it to about 99%."
+  },
+  {
+    "id": "fc-abo-len-052",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Back-surface AR on sunglasses",
+    "back": "Reduces reflections from light behind the wearer bouncing off the back of a dark lens into the eye."
+  },
+  {
+    "id": "fc-abo-len-053",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Hydrophobic / oleophobic coat",
+    "back": "Top layer that repels water and oils; keeps lenses cleaner and easier to clean."
+  },
+  {
+    "id": "fc-abo-len-054",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Mirror coating",
+    "back": "Highly reflective front-surface film; reduces transmitted light and hides the eyes. Cosmetic; does not by itself ensure UV protection."
+  },
+  {
+    "id": "fc-abo-len-055",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "UV ranges",
+    "back": "UV-C 100–280 nm; UV-B 280–315 nm; UV-A 315–380 nm (to 400 nm by some definitions)."
+  },
+  {
+    "id": "fc-abo-len-056",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "UV400",
+    "back": "Blocks essentially all radiation below 400 nm (all UV-B and UV-A)."
+  },
+  {
+    "id": "fc-abo-len-057",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Photochromics and temperature",
+    "back": "Darker and slower to fade in the cold; lighter and faster to fade in the heat."
+  },
+  {
+    "id": "fc-abo-len-058",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Photochromics in a car",
+    "back": "Windshields block most UV, so standard photochromics darken very little behind the windshield."
+  },
+  {
+    "id": "fc-abo-len-059",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Polarized lenses",
+    "back": "Vertical transmission axis blocks horizontally polarized glare from water, roads, and hoods. May black out some LCD displays."
+  },
+  {
+    "id": "fc-abo-len-060",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Gray tint",
+    "back": "Neutral: preserves natural color perception."
+  },
+  {
+    "id": "fc-abo-len-061",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Brown / amber tint",
+    "back": "Enhances contrast; shifts colors warmer."
+  },
+  {
+    "id": "fc-abo-len-062",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Yellow tint",
+    "back": "Absorbs blue; improves perceived contrast in haze, fog, or low light. Not a bright-sun tint."
+  },
+  {
+    "id": "fc-abo-len-063",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Gradient tint",
+    "back": "Darkest at the top, lighter toward the bottom. Double gradient: dark top and bottom, lighter middle."
+  },
+  {
+    "id": "fc-abo-len-064",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Glass tinted in mass",
+    "back": "Tint density follows thickness: thick minus edges look darker. Plastics are surface-dyed and tint uniformly."
+  },
+  {
+    "id": "fc-abo-len-065",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Blue-light filter",
+    "back": "Reduces high-energy visible light ≈400–455 nm via absorbers (slight yellow cast) or reflective coatings (bluish reflection)."
+  },
+  {
+    "id": "fc-abo-len-066",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Slab-off (bicentric grinding)",
+    "back": "Creates base-up prism in the lower portion of the lens. Placed on the most minus (least plus) lens in the vertical meridian."
+  },
+  {
+    "id": "fc-abo-len-067",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Reverse slab",
+    "back": "Base-down prism in the lower portion, usually molded plastic. Placed on the most plus (least minus) lens."
+  },
+  {
+    "id": "fc-abo-len-068",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Slab-off amount",
+    "back": "Equal to the vertical imbalance at the reading level. Consider when it reaches about 1.5Δ or more."
+  },
+  {
+    "id": "fc-abo-len-069",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Slab line",
+    "back": "Faint horizontal line across the full lens at the level of the seg top."
+  },
+  {
+    "id": "fc-abo-len-070",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Fresnel press-on prism",
+    "back": "Thin flexible vinyl with tiny prism ridges, applied to the back surface. Light and high-powered, but reduces acuity and contrast; temporary or diagnostic use."
+  },
+  {
+    "id": "fc-abo-len-071",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "High-plus lenticular",
+    "back": "Small central full-power aperture on a thin carrier. Reduces thickness and weight; limits the field."
+  },
+  {
+    "id": "fc-abo-len-072",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Jack-in-the-box phenomenon",
+    "back": "Ring scotoma from strong edge prism in high-plus lenses; objects pop in and out of view."
+  },
+  {
+    "id": "fc-abo-len-073",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Myodisc",
+    "back": "High-minus lenticular: small central optical bowl with a flattened carrier margin to reduce edge thickness."
+  },
+  {
+    "id": "fc-abo-len-074",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "High-minus dispensing tips",
+    "back": "Small, round frame; frame PD close to patient PD; high-index material; AR coat; polished or rolled edges."
+  },
+  {
+    "id": "fc-abo-len-075",
+    "exam": "abo",
+    "domain": "abo.products",
+    "front": "Frame PD wider than patient PD in minus lenses",
+    "back": "Lenses are decentered nasally, making the temporal edges thicker."
+  },
+  {
+    "id": "fc-abo-len-076",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "front": "Minimum blank size",
+    "back": "MBS = ED + (2 × decentration per lens) + 2 mm. Decentration per lens = (frame PD − patient PD) ÷ 2."
+  }
+]

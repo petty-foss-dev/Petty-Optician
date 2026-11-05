@@ -1,0 +1,4025 @@
+[
+  {
+    "id": "abo-ana-001",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cornea",
+    "difficulty": 1,
+    "stem": "Which corneal layer makes up roughly 90% of the cornea's thickness?",
+    "choices": [
+      "Epithelium",
+      "Stroma",
+      "Bowman's layer",
+      "Descemet's membrane"
+    ],
+    "answer": 1,
+    "explanation": "The stroma is a thick layer of regularly arranged collagen fibrils and accounts for about 90% of corneal thickness. Its precise fibril spacing is what keeps it transparent.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-002",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cornea",
+    "difficulty": 1,
+    "stem": "Which corneal layer actively pumps fluid out of the stroma and has very limited ability to regenerate?",
+    "choices": [
+      "Epithelium",
+      "Bowman's layer",
+      "Endothelium",
+      "Stroma"
+    ],
+    "answer": 2,
+    "explanation": "The endothelium is a single cell layer on the posterior cornea. Its pump function keeps the stroma relatively dehydrated and clear. Lost endothelial cells are not meaningfully replaced; neighboring cells spread to cover the gap, so endothelial damage can lead to corneal swelling (edema).",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-003",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cornea",
+    "difficulty": 1,
+    "stem": "Which corneal layer is outermost and regenerates quickly after a minor abrasion?",
+    "choices": [
+      "Epithelium",
+      "Endothelium",
+      "Descemet's membrane",
+      "Stroma"
+    ],
+    "answer": 0,
+    "explanation": "The epithelium is the outermost layer. It turns over rapidly, so small abrasions usually heal within a day or two.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-004",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cornea",
+    "difficulty": 2,
+    "stem": "What is the correct order of the five classic corneal layers from front to back?",
+    "choices": [
+      "Epithelium, stroma, Bowman's layer, endothelium, Descemet's membrane",
+      "Epithelium, Bowman's layer, stroma, Descemet's membrane, endothelium",
+      "Bowman's layer, epithelium, stroma, endothelium, Descemet's membrane",
+      "Epithelium, Descemet's membrane, stroma, Bowman's layer, endothelium"
+    ],
+    "answer": 1,
+    "explanation": "Anterior to posterior: epithelium, Bowman's layer, stroma, Descemet's membrane, endothelium. Bowman's layer sits just under the epithelium; Descemet's membrane is the basement membrane of the endothelium. (Some texts add a thin pre-Descemet's layer, Dua's layer.)",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-005",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cornea",
+    "difficulty": 1,
+    "stem": "Approximately how much of the eye's total refractive power does the cornea provide?",
+    "choices": [
+      "About two-thirds",
+      "About one-tenth",
+      "About one-third",
+      "Nearly all of it"
+    ],
+    "answer": 0,
+    "explanation": "The cornea contributes roughly +43 D of the eye's roughly +60 D, about two-thirds. The crystalline lens supplies most of the rest and, unlike the cornea, can change power to accommodate.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-006",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cornea",
+    "difficulty": 2,
+    "stem": "The cornea is avascular. Where does it get most of its oxygen when the eyes are open?",
+    "choices": [
+      "From its own capillary network",
+      "From the choroid",
+      "From the retinal arteries",
+      "From the atmosphere, dissolved through the tear film"
+    ],
+    "answer": 3,
+    "explanation": "With no blood vessels of its own, the cornea takes most of its oxygen from the air through the tear film, with nutrients also supplied by the aqueous humor. This is why low-oxygen contact lens wear can stress the cornea.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-007",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Sclera & Limbus",
+    "difficulty": 1,
+    "stem": "The junction where the cornea meets the sclera is called the:",
+    "choices": [
+      "Ora serrata",
+      "Lamina cribrosa",
+      "Limbus",
+      "Pars plana"
+    ],
+    "answer": 2,
+    "explanation": "The limbus is the corneoscleral junction. It holds the corneal epithelial stem cells and lies just over the drainage angle. The ora serrata is the front edge of the retina, and the lamina cribrosa is where the optic nerve leaves the eye.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-008",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Sclera & Limbus",
+    "difficulty": 2,
+    "stem": "The sieve-like area of the sclera through which optic nerve fibers leave the eye is the:",
+    "choices": [
+      "Lamina cribrosa",
+      "Limbus",
+      "Trabecular meshwork",
+      "Ciliary body"
+    ],
+    "answer": 0,
+    "explanation": "The lamina cribrosa is a perforated, mesh-like part of the posterior sclera. Nerve fiber bundles pass through it to form the optic nerve, and in glaucoma it can bow backward (cupping).",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-009",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Conjunctiva",
+    "difficulty": 1,
+    "stem": "The thin membrane that covers the white of the eye, up to the limbus, is the:",
+    "choices": [
+      "Palpebral conjunctiva",
+      "Tarsal plate",
+      "Bulbar conjunctiva",
+      "Descemet's membrane"
+    ],
+    "answer": 2,
+    "explanation": "Bulbar conjunctiva covers the sclera. Palpebral conjunctiva lines the inside of the eyelids, and the two meet at the fornices. The conjunctiva does not cover the cornea."
+  },
+  {
+    "id": "abo-ana-010",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Uvea",
+    "difficulty": 1,
+    "stem": "Which structures make up the uvea (uveal tract)?",
+    "choices": [
+      "Cornea, sclera, and conjunctiva",
+      "Retina, choroid, and sclera",
+      "Iris, crystalline lens, and vitreous",
+      "Iris, ciliary body, and choroid"
+    ],
+    "answer": 3,
+    "explanation": "The uvea is the eye's middle, vascular, pigmented layer: iris and ciliary body in front, choroid behind. Inflammation of it is called uveitis.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-011",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Iris & Pupil",
+    "difficulty": 2,
+    "stem": "Constriction of the pupil (miosis) is produced by the:",
+    "choices": [
+      "Dilator pupillae, under sympathetic control",
+      "Sphincter pupillae, under parasympathetic control via cranial nerve III",
+      "Ciliary muscle, under sympathetic control",
+      "Orbicularis oculi, via cranial nerve VII"
+    ],
+    "answer": 1,
+    "explanation": "The circular sphincter pupillae constricts the pupil and gets parasympathetic fibers through the oculomotor nerve (CN III). The radial dilator pupillae is sympathetic and dilates the pupil (mydriasis).",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-012",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Accommodation",
+    "difficulty": 2,
+    "stem": "When the ciliary muscle contracts during accommodation, what happens?",
+    "choices": [
+      "The zonules relax and the crystalline lens becomes more convex, adding plus power",
+      "The zonules tighten and the lens flattens, reducing power",
+      "The iris dilator contracts and the pupil widens",
+      "The lens moves backward toward the retina and loses power"
+    ],
+    "answer": 0,
+    "explanation": "Ciliary muscle contraction lets the zonules go slack. The elastic lens capsule then rounds the lens up, increasing its plus power so near objects focus. With age the lens stiffens and this change shrinks, which is presbyopia."
+  },
+  {
+    "id": "abo-ana-013",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Aqueous & IOP",
+    "difficulty": 1,
+    "stem": "Aqueous humor is produced by the:",
+    "choices": [
+      "Lacrimal gland",
+      "Trabecular meshwork",
+      "Choroid",
+      "Ciliary processes of the ciliary body"
+    ],
+    "answer": 3,
+    "explanation": "Epithelium on the ciliary processes secretes aqueous into the posterior chamber. The trabecular meshwork drains aqueous; the lacrimal gland makes tears."
+  },
+  {
+    "id": "abo-ana-014",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Aqueous & IOP",
+    "difficulty": 2,
+    "stem": "Which sequence describes the main path of aqueous humor flow?",
+    "choices": [
+      "Anterior chamber → pupil → posterior chamber → Schlemm's canal → trabecular meshwork",
+      "Posterior chamber → pupil → anterior chamber → trabecular meshwork → Schlemm's canal",
+      "Vitreous → posterior chamber → pupil → lacrimal sac",
+      "Ciliary body → choroid → optic nerve → Schlemm's canal"
+    ],
+    "answer": 1,
+    "explanation": "Aqueous forms in the posterior chamber (behind the iris), flows through the pupil into the anterior chamber, drains through the trabecular meshwork in the angle into Schlemm's canal, and then reaches the episcleral veins. A smaller amount leaves by the uveoscleral route."
+  },
+  {
+    "id": "abo-ana-015",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Aqueous & IOP",
+    "difficulty": 1,
+    "stem": "Which range is generally considered normal intraocular pressure?",
+    "choices": [
+      "About 2–6 mmHg",
+      "About 30–40 mmHg",
+      "About 10–21 mmHg",
+      "About 60–80 mmHg"
+    ],
+    "answer": 2,
+    "explanation": "Population-normal IOP is usually given as about 10–21 mmHg. Glaucoma can still develop within this range (normal-tension glaucoma), so pressure alone does not diagnose it."
+  },
+  {
+    "id": "abo-ana-016",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Crystalline Lens",
+    "difficulty": 1,
+    "stem": "The fibers that suspend the crystalline lens from the ciliary body are the:",
+    "choices": [
+      "Trabecular fibers",
+      "Lamina cribrosa",
+      "Bowman's fibers",
+      "Zonules"
+    ],
+    "answer": 3,
+    "explanation": "The zonules (suspensory ligaments) run from the ciliary body to the lens equator. Their tension controls the lens shape during accommodation.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-017",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Presbyopia",
+    "difficulty": 1,
+    "stem": "Presbyopia is primarily caused by:",
+    "choices": [
+      "Lengthening of the eyeball with age",
+      "Irregular steepening of the cornea",
+      "Age-related loss of crystalline lens flexibility, reducing accommodation",
+      "Weakening of the extraocular muscles"
+    ],
+    "answer": 2,
+    "explanation": "As the lens hardens with age it can no longer round up enough for near focus. Symptoms usually appear in the early-to-mid 40s and are corrected with an add (reading power)."
+  },
+  {
+    "id": "abo-ana-018",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Retina",
+    "difficulty": 1,
+    "stem": "The fovea contains:",
+    "choices": [
+      "Densely packed cones and no rods",
+      "Only rods",
+      "An equal mix of rods and cones",
+      "No photoreceptors at all"
+    ],
+    "answer": 0,
+    "explanation": "The foveal center is rod-free and packed with cones, which gives the sharpest acuity. The optic disc is the area with no photoreceptors.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-019",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Retina",
+    "difficulty": 1,
+    "stem": "Why does the optic disc produce a physiological blind spot?",
+    "choices": [
+      "It is covered by the macular pigment",
+      "It has no photoreceptors",
+      "It contains only rods",
+      "It is shielded by the ciliary body"
+    ],
+    "answer": 1,
+    "explanation": "The optic disc is where nerve fibers and blood vessels exit. It has no rods or cones, so it maps to a blind spot in the visual field, temporal to fixation.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-020",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Retina",
+    "difficulty": 1,
+    "stem": "Rod photoreceptors are mainly responsible for:",
+    "choices": [
+      "Dim-light and peripheral vision",
+      "Color vision in bright light",
+      "Fine central detail for reading",
+      "Focusing the image on the retina"
+    ],
+    "answer": 0,
+    "explanation": "Rods are very light-sensitive, give scotopic (night) vision, and dominate the peripheral retina. Cones handle color and fine detail in good light and are concentrated at the fovea.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-021",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Retina",
+    "difficulty": 2,
+    "stem": "In a retinal detachment, the neurosensory retina separates from the:",
+    "choices": [
+      "Vitreous base",
+      "Retinal pigment epithelium",
+      "Sclera",
+      "Lens capsule"
+    ],
+    "answer": 1,
+    "explanation": "A detachment is a separation of the neurosensory retina from the underlying retinal pigment epithelium (RPE). The separated retina loses its support and blood supply, which is why it is treated urgently.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-022",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Vitreous",
+    "difficulty": 2,
+    "stem": "A patient picking up glasses mentions a sudden shower of new floaters and flashes of light in one eye since yesterday. The best response is to:",
+    "choices": [
+      "Suggest they wait a few weeks to see whether it settles",
+      "Recheck the frame fit, since floaters are often caused by lens reflections",
+      "Advise same-day evaluation by their eye doctor or an emergency eye provider",
+      "Recommend anti-reflective coating on the new lenses"
+    ],
+    "answer": 2,
+    "explanation": "Sudden new floaters with flashes can mean a posterior vitreous detachment with a retinal tear or detachment. That can't be told apart without a dilated exam, so it calls for urgent, same-day referral. An optician never diagnoses; the job is to recognize the red flag and refer.",
+    "diagram": "eye-anatomy"
+  },
+  {
+    "id": "abo-ana-023",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Visual Pathway",
+    "difficulty": 2,
+    "stem": "At the optic chiasm, nerve fibers from which part of each retina cross to the opposite side?",
+    "choices": [
+      "The temporal retina",
+      "Both nasal and temporal retina",
+      "Only the macula",
+      "The nasal retina"
+    ],
+    "answer": 3,
+    "explanation": "Nasal retinal fibers, which carry the temporal visual field, cross at the chiasm. Temporal fibers stay on the same side. So each optic tract carries the opposite half of the visual field."
+  },
+  {
+    "id": "abo-ana-024",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Visual Pathway",
+    "difficulty": 3,
+    "stem": "A pituitary tumor pressing on the center of the optic chiasm typically causes which visual field defect?",
+    "choices": [
+      "Right homonymous hemianopia",
+      "Bitemporal hemianopia",
+      "A central scotoma in one eye only",
+      "Binasal hemianopia"
+    ],
+    "answer": 1,
+    "explanation": "The crossing nasal fibers run through the middle of the chiasm and carry each eye's temporal field. Pressing on them takes out the temporal half of both fields, a bitemporal hemianopia."
+  },
+  {
+    "id": "abo-ana-025",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Visual Pathway",
+    "difficulty": 1,
+    "stem": "The primary visual cortex is located in the:",
+    "choices": [
+      "Frontal lobe",
+      "Temporal lobe",
+      "Cerebellum",
+      "Occipital lobe"
+    ],
+    "answer": 3,
+    "explanation": "Signals travel optic nerve → chiasm → optic tract → lateral geniculate nucleus → optic radiations → primary visual cortex in the occipital lobe, at the back of the brain."
+  },
+  {
+    "id": "abo-ana-026",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Extraocular Muscles",
+    "difficulty": 1,
+    "stem": "The lateral rectus muscle is innervated by which cranial nerve?",
+    "choices": [
+      "Abducens (CN VI)",
+      "Oculomotor (CN III)",
+      "Trochlear (CN IV)",
+      "Facial (CN VII)"
+    ],
+    "answer": 0,
+    "explanation": "The memory aid is LR6 SO4, rest 3: lateral rectus is CN VI, superior oblique is CN IV, and the medial, superior, and inferior recti and the inferior oblique are CN III."
+  },
+  {
+    "id": "abo-ana-027",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Extraocular Muscles",
+    "difficulty": 1,
+    "stem": "The superior oblique muscle is innervated by the:",
+    "choices": [
+      "Abducens nerve (CN VI)",
+      "Oculomotor nerve (CN III)",
+      "Trochlear nerve (CN IV)",
+      "Trigeminal nerve (CN V)"
+    ],
+    "answer": 2,
+    "explanation": "The superior oblique runs through a pulley called the trochlea, which gives the trochlear nerve (CN IV) its name."
+  },
+  {
+    "id": "abo-ana-028",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Extraocular Muscles",
+    "difficulty": 2,
+    "stem": "The primary action of the medial rectus is:",
+    "choices": [
+      "Abduction (turning the eye outward)",
+      "Elevation",
+      "Adduction (turning the eye toward the nose)",
+      "Intorsion"
+    ],
+    "answer": 2,
+    "explanation": "The medial rectus pulls the eye nasally (adduction). Its partner, the lateral rectus, abducts. Both are horizontal recti with essentially no secondary actions."
+  },
+  {
+    "id": "abo-ana-029",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Extraocular Muscles",
+    "difficulty": 1,
+    "stem": "How many extraocular muscles move each eyeball?",
+    "choices": [
+      "Four",
+      "Six",
+      "Five",
+      "Eight"
+    ],
+    "answer": 1,
+    "explanation": "Each globe is moved by four recti (superior, inferior, medial, lateral) and two obliques (superior, inferior). The levator palpebrae superioris lifts the eyelid and does not move the globe."
+  },
+  {
+    "id": "abo-ana-030",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Eyelids",
+    "difficulty": 1,
+    "stem": "Which muscle raises the upper eyelid?",
+    "choices": [
+      "Levator palpebrae superioris",
+      "Orbicularis oculi",
+      "Superior rectus",
+      "Inferior oblique"
+    ],
+    "answer": 0,
+    "explanation": "The levator palpebrae superioris (CN III) lifts the upper lid, helped by the smaller sympathetic Müller's muscle. Weakness or detachment of the levator causes ptosis."
+  },
+  {
+    "id": "abo-ana-031",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Eyelids",
+    "difficulty": 1,
+    "stem": "Closing the eyelids is done by the orbicularis oculi, which is innervated by the:",
+    "choices": [
+      "Oculomotor nerve (CN III)",
+      "Trigeminal nerve (CN V)",
+      "Abducens nerve (CN VI)",
+      "Facial nerve (CN VII)"
+    ],
+    "answer": 3,
+    "explanation": "The orbicularis oculi closes the lids and is supplied by the facial nerve (CN VII). In a facial nerve palsy (such as Bell's palsy) the lid can't close fully, putting the cornea at risk of drying."
+  },
+  {
+    "id": "abo-ana-032",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Eyelids",
+    "difficulty": 2,
+    "stem": "A firm, painless lump in the eyelid caused by a blocked meibomian gland is most likely a:",
+    "choices": [
+      "Hordeolum (stye)",
+      "Pinguecula",
+      "Chalazion",
+      "Pterygium"
+    ],
+    "answer": 2,
+    "explanation": "A chalazion is a chronic, usually painless, granulomatous swelling from a blocked meibomian gland. A hordeolum is an acute, painful, often bacterial infection of a lid gland."
+  },
+  {
+    "id": "abo-ana-033",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Eyelids",
+    "difficulty": 1,
+    "stem": "Drooping of the upper eyelid is called:",
+    "choices": [
+      "Ectropion",
+      "Ptosis",
+      "Entropion",
+      "Trichiasis"
+    ],
+    "answer": 1,
+    "explanation": "Ptosis is a drooping upper lid. Ectropion is an outward-turned lid margin, entropion an inward-turned one, and trichiasis is lashes misdirected toward the eye."
+  },
+  {
+    "id": "abo-ana-034",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Tear Film",
+    "difficulty": 1,
+    "stem": "The outer lipid (oil) layer of the tear film, which slows evaporation, is produced mainly by the:",
+    "choices": [
+      "Meibomian glands",
+      "Goblet cells",
+      "Main lacrimal gland",
+      "Glands of Moll"
+    ],
+    "answer": 0,
+    "explanation": "The meibomian glands in the tarsal plates secrete the lipid layer. When they don't work well (meibomian gland dysfunction), the result is evaporative dry eye."
+  },
+  {
+    "id": "abo-ana-035",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Tear Film",
+    "difficulty": 1,
+    "stem": "The innermost mucin layer of the tear film, which helps tears wet the eye's surface, comes mainly from:",
+    "choices": [
+      "Meibomian glands",
+      "Glands of Zeis",
+      "The lacrimal sac",
+      "Conjunctival goblet cells"
+    ],
+    "answer": 3,
+    "explanation": "Goblet cells in the conjunctiva secrete mucin, which lets the watery tear layer spread over the otherwise water-repellent corneal epithelium."
+  },
+  {
+    "id": "abo-ana-036",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Tear Film",
+    "difficulty": 2,
+    "stem": "The middle aqueous (watery) layer of the tear film is produced mainly by the:",
+    "choices": [
+      "Meibomian glands",
+      "Goblet cells",
+      "Ciliary body",
+      "Main lacrimal gland and the accessory lacrimal glands"
+    ],
+    "answer": 3,
+    "explanation": "The aqueous layer comes from the main lacrimal gland (upper temporal orbit) and the accessory glands of Krause and Wolfring. Too little of it causes aqueous-deficient dry eye, as in Sjögren's syndrome."
+  },
+  {
+    "id": "abo-ana-037",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Tear Drainage",
+    "difficulty": 2,
+    "stem": "Which sequence describes tear drainage?",
+    "choices": [
+      "Lacrimal gland → puncta → nasolacrimal duct → canaliculi → throat",
+      "Canaliculi → puncta → nasolacrimal duct → lacrimal sac → nasal cavity",
+      "Puncta → canaliculi → lacrimal sac → nasolacrimal duct → nasal cavity",
+      "Puncta → lacrimal gland → lacrimal sac → sinuses"
+    ],
+    "answer": 2,
+    "explanation": "Tears enter the puncta at the inner lid margins, pass through the canaliculi into the lacrimal sac, and drain down the nasolacrimal duct into the nose (inferior meatus). That is why watery eyes often come with a runny nose."
+  },
+  {
+    "id": "abo-ana-038",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 1,
+    "stem": "In uncorrected myopia, light from a distant object comes to focus:",
+    "choices": [
+      "Behind the retina",
+      "In front of the retina",
+      "Exactly on the retina",
+      "On the crystalline lens"
+    ],
+    "answer": 1,
+    "explanation": "A myopic eye has too much power for its length, usually because the eye is long, so distant images focus in front of the retina. Minus (diverging) lenses move the focus back onto the retina.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-ana-039",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 2,
+    "stem": "What is the far point of an uncorrected −2.50 D myope who is not accommodating?",
+    "choices": [
+      "2.5 m",
+      "4 m",
+      "25 cm",
+      "40 cm"
+    ],
+    "answer": 3,
+    "explanation": "Far point in meters = 1 ÷ refractive error = 1 ÷ 2.50 = 0.40 m = 40 cm. Objects beyond 40 cm are blurred without correction.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-ana-040",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 3,
+    "stem": "A −3.00 D myope who is fully presbyopic (no accommodation left) takes off their glasses to read. At about what distance will print be clear without glasses?",
+    "choices": [
+      "About 33 cm",
+      "About 25 cm",
+      "About 50 cm",
+      "About 3 m"
+    ],
+    "answer": 0,
+    "explanation": "Without accommodation, an uncorrected myope sees clearly only at the far point: 1 ÷ 3.00 = 0.33 m, about 33 cm. That is why moderate myopes can often read comfortably with their glasses off.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-ana-041",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 1,
+    "stem": "Hyperopia is corrected with:",
+    "choices": [
+      "Plus (converging) lenses",
+      "Minus (diverging) lenses",
+      "Plano prism only",
+      "Pinhole lenses only"
+    ],
+    "answer": 0,
+    "explanation": "A hyperopic eye has too little power for its length, so light focuses behind the retina. Plus lenses add the missing converging power.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-ana-042",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 2,
+    "stem": "The Rx −1.00 −1.50 × 180 describes which type of astigmatism?",
+    "choices": [
+      "Simple myopic astigmatism",
+      "Mixed astigmatism",
+      "Compound hyperopic astigmatism",
+      "Compound myopic astigmatism"
+    ],
+    "answer": 3,
+    "explanation": "The principal meridians are −1.00 D (along 180) and −1.00 + (−1.50) = −2.50 D (along 90). Both meridians are myopic, so it is compound myopic astigmatism. Simple myopic would have one meridian at plano.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-ana-043",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 3,
+    "stem": "The Rx +1.00 −2.00 × 090 describes which type of astigmatism?",
+    "choices": [
+      "Compound hyperopic astigmatism",
+      "Simple hyperopic astigmatism",
+      "Mixed astigmatism",
+      "Compound myopic astigmatism"
+    ],
+    "answer": 2,
+    "explanation": "Meridian powers: +1.00 D along 090 and +1.00 + (−2.00) = −1.00 D along 180. One meridian is hyperopic and the other myopic, which is mixed astigmatism.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-ana-044",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Refractive Errors",
+    "difficulty": 2,
+    "stem": "A noticeable difference in the perceived size or shape of the images seen by the two eyes is called:",
+    "choices": [
+      "Anisocoria",
+      "Aniseikonia",
+      "Amblyopia",
+      "Anisometropia"
+    ],
+    "answer": 1,
+    "explanation": "Aniseikonia is unequal image size between the eyes, often caused by anisometropia (unequal refractive errors) corrected with spectacles. Anisocoria is unequal pupil size.",
+    "diagram": "refractive-errors"
+  },
+  {
+    "id": "abo-ana-045",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Amblyopia",
+    "difficulty": 1,
+    "stem": "Amblyopia is best described as:",
+    "choices": [
+      "Any eye that needs a strong prescription",
+      "Reduced best-corrected vision in an eye from abnormal visual development in childhood, without a structural cause that explains it",
+      "Loss of vision caused by cataract in adults",
+      "A constant outward eye turn"
+    ],
+    "answer": 1,
+    "explanation": "Amblyopia (lazy eye) develops when one eye gets a poor image in early childhood, from strabismus, unequal refractive error, or something blocking vision. Even with the best lenses, that eye doesn't see normally. Treatment works best when started young."
+  },
+  {
+    "id": "abo-ana-046",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Strabismus",
+    "difficulty": 1,
+    "stem": "A phoria is:",
+    "choices": [
+      "A constant, visible eye turn",
+      "A paralysis of an extraocular muscle",
+      "Reduced vision in one eye from childhood",
+      "A latent eye deviation that fusion holds in check and that shows when fusion is broken (for example, during a cover test)"
+    ],
+    "answer": 3,
+    "explanation": "A phoria shows only when binocular fusion is interrupted. A tropia is a manifest deviation, visible even with both eyes open."
+  },
+  {
+    "id": "abo-ana-047",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Strabismus",
+    "difficulty": 2,
+    "stem": "A constant outward turn of one eye that is visible with both eyes open is a(n):",
+    "choices": [
+      "Exophoria",
+      "Esotropia",
+      "Exotropia",
+      "Hypertropia"
+    ],
+    "answer": 2,
+    "explanation": "Exo means outward and -tropia means manifest (constant or visible). Eso is inward, hyper is upward, and -phoria means latent."
+  },
+  {
+    "id": "abo-ana-048",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Strabismus",
+    "difficulty": 2,
+    "stem": "Prism to relieve an esodeviation (eye turning in) is placed:",
+    "choices": [
+      "Base out",
+      "Base in",
+      "Base up",
+      "Base down"
+    ],
+    "answer": 0,
+    "explanation": "Prism shifts the image toward its apex. With the apex pointing in the direction the eye has turned, the image lands where the deviated eye is looking. An inward-turning eye therefore needs base-out prism; an exodeviation needs base-in."
+  },
+  {
+    "id": "abo-ana-049",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cataract",
+    "difficulty": 1,
+    "stem": "A cataract is:",
+    "choices": [
+      "A clouding (opacity) of the crystalline lens",
+      "Scarring of the cornea",
+      "Swelling of the optic nerve",
+      "A tear in the retina"
+    ],
+    "answer": 0,
+    "explanation": "Cataract is opacity of the crystalline lens. It causes gradual blur, glare, halos, and faded colors, and is treated by removing the lens and implanting an intraocular lens (IOL)."
+  },
+  {
+    "id": "abo-ana-050",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cataract",
+    "difficulty": 2,
+    "stem": "An older patient's reading vision without glasses suddenly seems better and their distance prescription has become more minus. This is a classic sign of:",
+    "choices": [
+      "Posterior vitreous detachment",
+      "Presbyopia getting worse",
+      "Dry eye",
+      "Nuclear sclerotic cataract"
+    ],
+    "answer": 3,
+    "explanation": "Hardening of the lens nucleus raises its refractive index and makes the eye more myopic. Some patients find they can read without glasses again ('second sight'). It is a sign of a developing cataract, not improving eyes."
+  },
+  {
+    "id": "abo-ana-051",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Cataract",
+    "difficulty": 2,
+    "stem": "Long-term corticosteroid use is most closely linked to which type of cataract?",
+    "choices": [
+      "Nuclear sclerotic cataract",
+      "Posterior subcapsular cataract",
+      "Congenital polar cataract",
+      "Cortical spoke cataract from UV only"
+    ],
+    "answer": 1,
+    "explanation": "Posterior subcapsular (PSC) cataracts are linked to steroid use and diabetes. They often cause marked glare and trouble with near vision because they sit near the eye's optical center. Steroids can also raise IOP."
+  },
+  {
+    "id": "abo-ana-052",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Glaucoma",
+    "difficulty": 2,
+    "stem": "A patient suddenly develops a painful red eye, blurred vision, rainbow halos around lights, headache, and nausea. This suggests:",
+    "choices": [
+      "Primary open-angle glaucoma, which can wait for a routine visit",
+      "Allergic conjunctivitis",
+      "Acute angle-closure glaucoma, which needs emergency care",
+      "Normal adaptation to new lenses"
+    ],
+    "answer": 2,
+    "explanation": "Sudden pain, redness, halos, blurred vision, and nausea are the classic signs of acute angle closure. IOP rises quickly and can damage the optic nerve within hours, so the patient needs emergency care right away."
+  },
+  {
+    "id": "abo-ana-053",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Glaucoma",
+    "difficulty": 1,
+    "stem": "Primary open-angle glaucoma typically causes:",
+    "choices": [
+      "Painless, gradual loss of peripheral vision",
+      "Sudden painful vision loss",
+      "Immediate loss of central reading vision",
+      "Itching and discharge"
+    ],
+    "answer": 0,
+    "explanation": "POAG is usually symptom-free until it is advanced. It slowly damages the optic nerve and narrows the peripheral field, which is why routine eye exams matter."
+  },
+  {
+    "id": "abo-ana-054",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Glaucoma",
+    "difficulty": 2,
+    "stem": "A patient using latanoprost (a prostaglandin analog) for glaucoma may notice which side effect?",
+    "choices": [
+      "Permanent pupil dilation",
+      "Rapid cataract formation within weeks",
+      "Darkening of the iris and longer, thicker eyelashes",
+      "Yellow tinting of vision"
+    ],
+    "answer": 2,
+    "explanation": "Prostaglandin analogs lower IOP by increasing uveoscleral outflow. Known side effects are increased iris pigmentation, eyelash growth, and darkening of the eyelid skin."
+  },
+  {
+    "id": "abo-ana-055",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Macular Degeneration",
+    "difficulty": 2,
+    "stem": "Wet (neovascular) age-related macular degeneration is characterized by:",
+    "choices": [
+      "Clouding of the crystalline lens",
+      "High intraocular pressure damaging the optic nerve",
+      "Thinning and steepening of the cornea",
+      "Abnormal new blood vessels growing under the retina, often treated with anti-VEGF injections"
+    ],
+    "answer": 3,
+    "explanation": "In wet AMD, choroidal neovascularization leaks fluid or blood under the macula, causing fast central vision loss and distortion. Anti-VEGF injections are standard treatment. Dry AMD (drusen, atrophy) is more common and progresses more slowly."
+  },
+  {
+    "id": "abo-ana-056",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Macular Degeneration",
+    "difficulty": 2,
+    "stem": "An Amsler grid is used mainly to detect:",
+    "choices": [
+      "Peripheral field loss from glaucoma",
+      "Central visual distortion or missing areas from macular disease",
+      "Color vision deficiency",
+      "Eye misalignment"
+    ],
+    "answer": 1,
+    "explanation": "Patients look at a central dot and report wavy, bent, or missing lines (metamorphopsia or scotoma). It is a simple home-monitoring tool for macular conditions such as AMD."
+  },
+  {
+    "id": "abo-ana-057",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Diabetic Eye Disease",
+    "difficulty": 2,
+    "stem": "A patient with poorly controlled diabetes says their new glasses were clear one week and blurry the next. The most likely explanation is:",
+    "choices": [
+      "Changes in blood sugar are temporarily altering the eye's refraction",
+      "The lenses were made with the wrong base curve",
+      "The frame has lost its pantoscopic tilt",
+      "Normal adaptation to anti-reflective coating"
+    ],
+    "answer": 0,
+    "explanation": "High or swinging blood glucose changes how much water the crystalline lens holds, which shifts the refraction. Refer the patient back to the prescriber, and remake only after blood sugar is stable. Diabetic retinopathy can also affect vision and needs regular dilated exams."
+  },
+  {
+    "id": "abo-ana-058",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Retinal Detachment",
+    "difficulty": 1,
+    "stem": "Which group of symptoms is classic for a retinal detachment?",
+    "choices": [
+      "Itching, redness, and stringy discharge",
+      "Gradual glare and fading colors",
+      "Burning and a gritty feeling that worsens through the day",
+      "Flashes of light, new floaters, and a curtain or shadow over part of the vision"
+    ],
+    "answer": 3,
+    "explanation": "Photopsia (flashes), a sudden rise in floaters, and a curtain-like field loss are the warning signs of retinal detachment. It is an emergency; refer the patient the same day."
+  },
+  {
+    "id": "abo-ana-059",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Keratoconus",
+    "difficulty": 2,
+    "stem": "Keratoconus is a condition in which the cornea:",
+    "choices": [
+      "Becomes cloudy because of endothelial cell loss with age",
+      "Progressively thins and bulges into a cone, producing irregular astigmatism",
+      "Grows a wedge of tissue from the conjunctiva",
+      "Flattens evenly, making the eye more hyperopic"
+    ],
+    "answer": 1,
+    "explanation": "Keratoconus usually starts in the teens or twenties. Glasses correct it poorly as it advances, so rigid gas permeable or scleral contact lenses often give the best vision. Corneal cross-linking can slow it down."
+  },
+  {
+    "id": "abo-ana-060",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Conjunctivitis",
+    "difficulty": 2,
+    "stem": "Bilateral itchy eyes with watery or stringy discharge that flare up seasonally most likely indicate:",
+    "choices": [
+      "Bacterial conjunctivitis",
+      "Acute angle-closure glaucoma",
+      "Allergic conjunctivitis",
+      "Retinal detachment"
+    ],
+    "answer": 2,
+    "explanation": "Itching is the hallmark of allergy. Bacterial conjunctivitis usually brings thick yellow-green discharge. Viral conjunctivitis usually brings watery discharge, often starts in one eye, and is highly contagious."
+  },
+  {
+    "id": "abo-ana-061",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Conjunctivitis",
+    "difficulty": 2,
+    "stem": "Which type of conjunctivitis is highly contagious, usually has watery discharge, and is often caused by adenovirus?",
+    "choices": [
+      "Allergic conjunctivitis",
+      "Viral conjunctivitis",
+      "Giant papillary conjunctivitis",
+      "Chemical conjunctivitis"
+    ],
+    "answer": 1,
+    "explanation": "Adenoviral conjunctivitis spreads easily by hand contact. Disinfect hands, tools, and frames after handling an affected patient's eyewear."
+  },
+  {
+    "id": "abo-ana-062",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Conjunctival Growths",
+    "difficulty": 2,
+    "stem": "A wedge-shaped growth of fibrovascular tissue that extends from the conjunctiva onto the cornea, usually on the nasal side, is a:",
+    "choices": [
+      "Pterygium",
+      "Pinguecula",
+      "Chalazion",
+      "Arcus senilis"
+    ],
+    "answer": 0,
+    "explanation": "A pterygium grows onto the cornea and can cause irritation and astigmatism. A pinguecula is a yellowish, raised conjunctival bump that does not cross onto the cornea. Both are linked to UV and wind exposure, so UV-blocking eyewear helps."
+  },
+  {
+    "id": "abo-ana-063",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Dry Eye",
+    "difficulty": 2,
+    "stem": "A patient with dry eye complains that their eyes water a lot. The best explanation is:",
+    "choices": [
+      "Watery eyes rule out dry eye",
+      "The tear drainage system is overproducing tears",
+      "Their lenses have too much pantoscopic tilt",
+      "Irritation of the dry surface triggers reflex tearing"
+    ],
+    "answer": 3,
+    "explanation": "When the ocular surface dries out, reflex tears flood the eye. They are watery and lack a good lipid and mucin balance, so they don't stabilize the tear film. Watering is a common, paradoxical dry eye symptom."
+  },
+  {
+    "id": "abo-ana-064",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Ocular Medications",
+    "difficulty": 2,
+    "stem": "After dilation with a cycloplegic drop such as cyclopentolate, which effects should a patient expect?",
+    "choices": [
+      "Constricted pupils and sharper near vision",
+      "Higher color saturation",
+      "Light sensitivity and blurred near vision from paralyzed accommodation",
+      "Immediate permanent change in their prescription"
+    ],
+    "answer": 2,
+    "explanation": "Cycloplegics block the iris sphincter and the ciliary muscle, so the pupil dilates and accommodation is paralyzed. Patients are light-sensitive and blurry up close until it wears off. Disposable sunglasses help."
+  },
+  {
+    "id": "abo-ana-065",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Ocular Medications",
+    "difficulty": 2,
+    "stem": "Phenylephrine eye drops dilate the pupil by:",
+    "choices": [
+      "Paralyzing the ciliary muscle",
+      "Blocking aqueous production",
+      "Constricting the sphincter pupillae",
+      "Stimulating the iris dilator muscle, with little effect on accommodation"
+    ],
+    "answer": 3,
+    "explanation": "Phenylephrine is a sympathomimetic (alpha-agonist) that contracts the dilator pupillae. It causes mydriasis without much cycloplegia and is often combined with tropicamide for dilated exams."
+  },
+  {
+    "id": "abo-ana-066",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Ocular Medications",
+    "difficulty": 3,
+    "stem": "Long-term use of hydroxychloroquine (Plaquenil) calls for periodic eye exams mainly because it can cause:",
+    "choices": [
+      "Acute angle-closure glaucoma",
+      "Retinal toxicity (a bull's-eye maculopathy)",
+      "Corneal ulcers",
+      "Rapid myopic shift"
+    ],
+    "answer": 1,
+    "explanation": "Hydroxychloroquine can damage the retina, especially the macula, after long-term use. Screening tries to catch toxicity early because the damage is largely irreversible."
+  },
+  {
+    "id": "abo-ana-067",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Red Flags",
+    "difficulty": 2,
+    "stem": "A customer gets a chemical splashed in their eye in the shop. What should be done first?",
+    "choices": [
+      "Immediately flush the eye with plenty of clean water or saline, then get emergency care",
+      "Patch the eye and schedule a routine exam",
+      "Apply a topical antibiotic ointment from stock",
+      "Wait to see whether redness develops before acting"
+    ],
+    "answer": 0,
+    "explanation": "Chemical injury, especially from alkali, is a true emergency. Start irrigating immediately and keep it going while emergency care is arranged. Delay increases tissue damage."
+  },
+  {
+    "id": "abo-ana-068",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Eye Care Roles",
+    "difficulty": 1,
+    "stem": "Which eye care professional is a medical doctor licensed to perform eye surgery?",
+    "choices": [
+      "Optometrist",
+      "Optician",
+      "Ophthalmologist",
+      "Ocularist"
+    ],
+    "answer": 2,
+    "explanation": "An ophthalmologist (MD or DO) is a physician and surgeon. An optometrist (OD) examines eyes, prescribes lenses, and diagnoses and treats many conditions within state scope. An optician fits and dispenses eyewear. An ocularist makes artificial eyes."
+  },
+  {
+    "id": "abo-ana-069",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Eye Care Roles",
+    "difficulty": 1,
+    "stem": "An optician's role is to:",
+    "choices": [
+      "Diagnose eye diseases and prescribe medication",
+      "Perform refractions and write lens prescriptions",
+      "Fit, adjust, and dispense eyewear according to a prescription",
+      "Perform laser vision correction"
+    ],
+    "answer": 2,
+    "explanation": "Opticians interpret prescriptions, help select and fit frames, take measurements, verify, and dispense. They do not diagnose, prescribe, or treat. Recognizing red flags and referring is part of the job."
+  },
+  {
+    "id": "abo-ana-070",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Pupils",
+    "difficulty": 1,
+    "stem": "Mydriasis means:",
+    "choices": [
+      "Constriction of the pupil",
+      "Dilation of the pupil",
+      "Unequal pupil sizes",
+      "Paralysis of accommodation"
+    ],
+    "answer": 1,
+    "explanation": "Mydriasis is pupil dilation and miosis is constriction. Cycloplegia is paralysis of accommodation, and anisocoria is unequal pupils."
+  },
+  {
+    "id": "abo-frm-001",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Parts",
+    "difficulty": 1,
+    "stem": "The outer part of the frame front, where the temple is hinged, is the:",
+    "choices": [
+      "Bridge",
+      "Eyewire",
+      "Pad arm",
+      "Endpiece"
+    ],
+    "answer": 3,
+    "explanation": "The endpiece is the lateral extension of the front that carries the hinge. The eyewire (rim) holds the lens, the bridge joins the two eyewires, and pad arms hold the nose pads on metal frames."
+  },
+  {
+    "id": "abo-frm-002",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Parts",
+    "difficulty": 1,
+    "stem": "On a metal frame, the small adjustable arms that hold the nose pads are called:",
+    "choices": [
+      "Pad arms (guard arms)",
+      "Endpieces",
+      "Shanks",
+      "Temple tips"
+    ],
+    "answer": 0,
+    "explanation": "Pad arms (guard arms) attach the nose pads to the frame. Bending them changes pad position, spacing, and angle, which makes adjustable-pad frames the most adjustable bridge type."
+  },
+  {
+    "id": "abo-frm-003",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Parts",
+    "difficulty": 1,
+    "stem": "The part of the frame that holds the lens is the:",
+    "choices": [
+      "Eyewire (rim)",
+      "Endpiece",
+      "Bridge",
+      "Temple"
+    ],
+    "answer": 0,
+    "explanation": "The eyewire (rim) surrounds and holds the lens, usually seating it on a bevel or in a groove."
+  },
+  {
+    "id": "abo-frm-004",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Parts",
+    "difficulty": 1,
+    "stem": "The section of a skull temple that sits behind and curves down around the ear is the:",
+    "choices": [
+      "Shank",
+      "Endpiece",
+      "Butt end",
+      "Earpiece (temple tip)"
+    ],
+    "answer": 3,
+    "explanation": "A temple runs from the butt end at the hinge, along the shank, to the bend, then the earpiece or temple tip that follows the head behind the ear."
+  },
+  {
+    "id": "abo-frm-005",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Boxing System",
+    "difficulty": 1,
+    "stem": "In the boxing system, the 'A' measurement is the:",
+    "choices": [
+      "Vertical height of the box enclosing the lens shape",
+      "Distance between the two lenses",
+      "Horizontal width of the box enclosing the lens shape",
+      "Longest diagonal of the lens"
+    ],
+    "answer": 2,
+    "explanation": "A = horizontal box width (eye size), B = vertical box depth, ED = effective diameter, DBL = distance between lenses.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-006",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Boxing System",
+    "difficulty": 1,
+    "stem": "In the boxing system, 'B' is the:",
+    "choices": [
+      "Horizontal width of the lens box",
+      "Bridge size",
+      "Twice the shortest radius from the geometric center",
+      "Vertical height of the box enclosing the lens shape"
+    ],
+    "answer": 3,
+    "explanation": "B is the vertical box dimension. It matters for multifocal and progressive fitting, which need enough lens depth below the pupil for the reading area.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-007",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Boxing System",
+    "difficulty": 1,
+    "stem": "The effective diameter (ED) of a lens shape is:",
+    "choices": [
+      "Twice the longest radius measured from the geometric center to the lens edge",
+      "The horizontal width of the boxed lens",
+      "The diagonal from one corner of the box to the opposite corner",
+      "The sum of A and B divided by two"
+    ],
+    "answer": 0,
+    "explanation": "ED = 2 × the longest radius from the boxing center to the edge. It tells you the smallest round uncut lens that would cover the shape if the lens were not decentered.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-008",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Boxing System",
+    "difficulty": 1,
+    "stem": "In the boxing system, DBL is the:",
+    "choices": [
+      "Distance between the patient's pupils",
+      "Shortest distance between the nasal edges of the two lenses (between the boxes)",
+      "Distance between the centers of the two lenses",
+      "Length of the bridge from front to back"
+    ],
+    "answer": 1,
+    "explanation": "Distance Between Lenses is measured between the inner (nasal) boxing lines. It is the 'bridge size' printed on most frames.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-009",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Boxing System",
+    "difficulty": 2,
+    "stem": "A frame is marked 54□17. What is its frame PD (distance between geometric centers)?",
+    "choices": [
+      "37 mm",
+      "54 mm",
+      "64 mm",
+      "71 mm"
+    ],
+    "answer": 3,
+    "explanation": "Frame PD = A + DBL = 54 + 17 = 71 mm. This is the distance between the geometric centers of the two lens boxes.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-010",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Boxing System",
+    "difficulty": 1,
+    "stem": "On a frame marked 50□20 145, what does 145 represent?",
+    "choices": [
+      "Frame PD in millimeters",
+      "Effective diameter",
+      "Frame width across the front in millimeters",
+      "Temple length in millimeters"
+    ],
+    "answer": 3,
+    "explanation": "Standard markings give eye size (A), bridge (DBL), and temple length, all in millimeters. Here A = 50, DBL = 20, temple = 145 mm.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-011",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Boxing System",
+    "difficulty": 2,
+    "stem": "The geometric center (boxing center) of a lens shape is:",
+    "choices": [
+      "The point where the horizontal and vertical midlines of the boxed shape cross",
+      "The patient's pupil position marked on the lens",
+      "The thickest point of a plus lens",
+      "The midpoint of the bridge"
+    ],
+    "answer": 0,
+    "explanation": "The boxing center sits halfway across A and halfway down B. Decentration is measured from this point to where the optical center needs to go.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-012",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Boxing System",
+    "difficulty": 2,
+    "stem": "A lens shape has A = 54 mm and B = 40 mm. What is the frame difference?",
+    "choices": [
+      "14 mm",
+      "20 mm",
+      "27 mm",
+      "94 mm"
+    ],
+    "answer": 0,
+    "explanation": "Frame difference = A − B = 54 − 40 = 14 mm. A large frame difference means a wide, shallow shape.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-013",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Datum System",
+    "difficulty": 2,
+    "stem": "In the older datum system, the datum line is:",
+    "choices": [
+      "A vertical line through the bridge center",
+      "The line connecting the two pupil centers",
+      "A horizontal line halfway between horizontal tangents to the top and bottom of the lens",
+      "A line tangent to the bottom of both lenses"
+    ],
+    "answer": 2,
+    "explanation": "The datum system measured the lens along a horizontal datum line midway between the top and bottom tangents. The boxing system, which uses a rectangle drawn around the shape, replaced it and is the standard today.",
+    "diagram": "boxing-system"
+  },
+  {
+    "id": "abo-frm-014",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Minimum Blank Size",
+    "difficulty": 2,
+    "stem": "Frame: A = 52, DBL = 18, ED = 57. Patient distance PD = 64. Using MBS = ED + (frame PD − patient PD) + 2 mm, what is the minimum blank size?",
+    "choices": [
+      "59 mm",
+      "63 mm",
+      "65 mm",
+      "71 mm"
+    ],
+    "answer": 2,
+    "explanation": "Frame PD = 52 + 18 = 70. Total decentration = 70 − 64 = 6 mm (3 mm per lens). MBS = 57 + 6 + 2 = 65 mm. Check: ED + 2 × (per-lens decentration) + 2 = 57 + 6 + 2 = 65."
+  },
+  {
+    "id": "abo-frm-015",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Minimum Blank Size",
+    "difficulty": 3,
+    "stem": "Frame: A = 54, DBL = 16, ED = 58. Monocular PDs: OD 31 mm, OS 33 mm. What is the minimum blank size for the right lens?",
+    "choices": [
+      "72 mm",
+      "68 mm",
+      "66 mm",
+      "64 mm"
+    ],
+    "answer": 1,
+    "explanation": "Frame PD = 54 + 16 = 70, so each half is 35 mm. OD decentration = 35 − 31 = 4 mm in. MBS(OD) = ED + 2 × decentration + 2 = 58 + 8 + 2 = 68 mm. (OS: 35 − 33 = 2 mm, so MBS = 58 + 4 + 2 = 64 mm.)"
+  },
+  {
+    "id": "abo-frm-016",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Minimum Blank Size",
+    "difficulty": 2,
+    "stem": "In the minimum blank size formula, the extra 2 mm is added to:",
+    "choices": [
+      "Account for pantoscopic tilt",
+      "Compensate for vertex distance",
+      "Allow for the bevel height on rimless mounts only",
+      "Allow for edging and minor imperfections or chips at the blank's edge"
+    ],
+    "answer": 3,
+    "explanation": "The 2 mm is a safety allowance so the finished shape doesn't run off the edge of the blank because of edge irregularities or chipping during processing."
+  },
+  {
+    "id": "abo-frm-017",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Minimum Blank Size",
+    "difficulty": 3,
+    "stem": "Frame: A = 50, DBL = 20, ED = 55. Patient PD = 70 mm. What is the minimum blank size?",
+    "choices": [
+      "55 mm",
+      "57 mm",
+      "59 mm",
+      "67 mm"
+    ],
+    "answer": 1,
+    "explanation": "Frame PD = 50 + 20 = 70, the same as the patient PD, so decentration = 0. MBS = 55 + 0 + 2 = 57 mm."
+  },
+  {
+    "id": "abo-frm-018",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Minimum Blank Size",
+    "difficulty": 3,
+    "stem": "Frame: A = 56, DBL = 16, ED = 60. Patient PD = 60 mm. The lab stocks uncut blanks of 65, 70, 75, and 80 mm. What is the smallest blank that will work?",
+    "choices": [
+      "65 mm",
+      "70 mm",
+      "75 mm",
+      "80 mm"
+    ],
+    "answer": 2,
+    "explanation": "Frame PD = 56 + 16 = 72. Total decentration = 72 − 60 = 12 mm (6 mm per lens). MBS = 60 + 12 + 2 = 74 mm. The smallest stocked blank at least 74 mm is 75 mm."
+  },
+  {
+    "id": "abo-frm-019",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Minimum Blank Size",
+    "difficulty": 3,
+    "stem": "Frame: A = 54, DBL = 18, ED = 58. Monocular PDs: OD 32 mm, OS 30 mm. What is the minimum blank size for the left lens?",
+    "choices": [
+      "64 mm",
+      "68 mm",
+      "72 mm",
+      "76 mm"
+    ],
+    "answer": 2,
+    "explanation": "Frame PD = 54 + 18 = 72, so each half is 36 mm. OS decentration = 36 − 30 = 6 mm in. MBS(OS) = 58 + 2 × 6 + 2 = 72 mm. (OD: 36 − 32 = 4 mm, so MBS = 58 + 8 + 2 = 68 mm.)"
+  },
+  {
+    "id": "abo-frm-020",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 1,
+    "stem": "Which material is the most widely used plastic for frames?",
+    "choices": [
+      "Cellulose acetate (zyl)",
+      "Optyl epoxy",
+      "Cellulose nitrate",
+      "Polycarbonate"
+    ],
+    "answer": 0,
+    "explanation": "Cellulose acetate, often called zyl, is the standard plastic frame material. It comes in many colors and laminates, softens with heat for adjustment, and accepts lenses after warming. Cellulose nitrate is obsolete because it is flammable."
+  },
+  {
+    "id": "abo-frm-021",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 2,
+    "stem": "Which frame material has 'memory', returning to its original molded shape when reheated if not held in its new position?",
+    "choices": [
+      "Cellulose acetate",
+      "Optyl (epoxy resin)",
+      "Monel",
+      "Stainless steel"
+    ],
+    "answer": 1,
+    "explanation": "Optyl is a thermosetting epoxy. Heat makes it pliable for adjustment, and if it is reheated without being held, it springs back to its molded shape. It also doesn't stretch or shrink like acetate, so lenses must be edged to the exact size."
+  },
+  {
+    "id": "abo-frm-022",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 2,
+    "stem": "Monel, a common frame metal, is primarily an alloy of:",
+    "choices": [
+      "Iron and chromium",
+      "Titanium and vanadium",
+      "Nickel and copper",
+      "Aluminum and magnesium"
+    ],
+    "answer": 2,
+    "explanation": "Monel is mostly nickel with copper. It is strong, corrosion resistant, solders easily, and adjusts well. Its nickel content can cause skin reactions in nickel-sensitive patients."
+  },
+  {
+    "id": "abo-frm-023",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 2,
+    "stem": "Which frame material is lightweight, strong, corrosion resistant, and hypoallergenic, but can't be repaired by conventional soldering?",
+    "choices": [
+      "Titanium",
+      "Monel",
+      "Nickel silver",
+      "Cellulose acetate"
+    ],
+    "answer": 0,
+    "explanation": "Titanium is prized for low weight, strength, and biocompatibility. It can't be joined with standard silver solder; repairs need specialized welding (such as laser welding). Adjust it cold and carefully."
+  },
+  {
+    "id": "abo-frm-024",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 2,
+    "stem": "Compared with pure titanium, beta-titanium is typically:",
+    "choices": [
+      "Much heavier and more brittle",
+      "More flexible and springy, so it is used for thin temples and flexible parts",
+      "Easy to soften with a salt pan",
+      "Mostly nickel and likely to cause allergies"
+    ],
+    "answer": 1,
+    "explanation": "Beta-titanium is a titanium alloy with greater flexibility and spring, so it works well for thin, resilient temples and bridges while staying light."
+  },
+  {
+    "id": "abo-frm-025",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 2,
+    "stem": "A nickel-titanium 'memory metal' frame is best described as:",
+    "choices": [
+      "Easily reshaped with heat from a salt pan",
+      "The heaviest metal used in frames",
+      "Superelastic: it springs back after bending, which makes many of its parts hard to adjust",
+      "A plastic that is molded and then plated"
+    ],
+    "answer": 2,
+    "explanation": "Memory metal (Nitinol-type alloys) bends a long way and returns to shape. That resists damage but means bridges and temples made of it resist permanent adjustment; adjustments are made at non-memory parts such as endpieces, pads, or temple tips."
+  },
+  {
+    "id": "abo-frm-026",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 2,
+    "stem": "Frames made from nylon-based thermoplastics such as TR-90 (Grilamid) are typically:",
+    "choices": [
+      "Heavy and rigid, and easily shrunk with heat",
+      "Made of metal and fully solderable",
+      "Brittle and recommended only for rimless mounts",
+      "Lightweight and flexible, with high memory and limited response to heat adjustment"
+    ],
+    "answer": 3,
+    "explanation": "Polyamide (nylon) frames such as TR-90 are light, flexible, and durable, which makes them popular for sport and children's frames. They tend to return to their molded shape, so heat adjustment is limited."
+  },
+  {
+    "id": "abo-frm-027",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 2,
+    "stem": "Which of these frame metals is the lightest?",
+    "choices": [
+      "Monel",
+      "Stainless steel",
+      "Nickel silver",
+      "Aluminum"
+    ],
+    "answer": 3,
+    "explanation": "Aluminum is the least dense of these frame metals. It resists corrosion and is often anodized for color. It can't be soldered, and repeated bending can crack it."
+  },
+  {
+    "id": "abo-frm-028",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Frame Materials",
+    "difficulty": 1,
+    "stem": "Stainless steel frames are an alloy primarily of:",
+    "choices": [
+      "Iron and chromium",
+      "Nickel and copper",
+      "Titanium and aluminum",
+      "Copper and zinc"
+    ],
+    "answer": 0,
+    "explanation": "Stainless steel is iron alloyed with chromium, which gives it corrosion resistance. It is strong enough to make thin, light frames."
+  },
+  {
+    "id": "abo-frm-029",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Adjusting",
+    "difficulty": 1,
+    "stem": "A salt pan or hot-air frame warmer is used to:",
+    "choices": [
+      "Clean lenses before dispensing",
+      "Harden glass lenses for impact resistance",
+      "Heat plastic frames so they can be adjusted or have lenses inserted",
+      "Cure lens coatings"
+    ],
+    "answer": 2,
+    "explanation": "Plastic frames such as acetate soften when evenly warmed. A salt or glass-bead pan or a forced-hot-air warmer supplies that heat. Heat only the area being adjusted."
+  },
+  {
+    "id": "abo-frm-030",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Adjusting",
+    "difficulty": 2,
+    "stem": "Why should you avoid overheating a frame that already has anti-reflective coated lenses in it?",
+    "choices": [
+      "Heat makes the lens power more minus",
+      "Excess heat can craze or crack the coating",
+      "Heat removes the lens's UV protection permanently",
+      "Heat changes the lens's index of refraction"
+    ],
+    "answer": 1,
+    "explanation": "AR and other coatings expand differently from the lens material underneath, so too much heat can craze them (fine cracking). Direct the heat at the frame and keep it away from the lenses."
+  },
+  {
+    "id": "abo-frm-031",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Selection",
+    "difficulty": 1,
+    "stem": "For a round face, which frame shape is generally recommended?",
+    "choices": [
+      "Angular or rectangular frames that add definition",
+      "Round frames that echo the face",
+      "Very small round frames",
+      "Frames deeper than they are wide"
+    ],
+    "answer": 0,
+    "explanation": "A frame shape that contrasts with the face shape balances it. Angular or rectangular frames lengthen and define a round face."
+  },
+  {
+    "id": "abo-frm-032",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Selection",
+    "difficulty": 1,
+    "stem": "For a square face with a strong jawline, which frame shape usually works best?",
+    "choices": [
+      "Sharp rectangular frames",
+      "Rounded or oval frames that soften the angles",
+      "Square frames as wide as the jaw",
+      "Frames with a heavy, straight bottom rim"
+    ],
+    "answer": 1,
+    "explanation": "Rounded or oval shapes contrast with the angular features of a square face and soften its look."
+  },
+  {
+    "id": "abo-frm-033",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Selection",
+    "difficulty": 2,
+    "stem": "For a long (oblong) face, which frame features usually give the best balance?",
+    "choices": [
+      "A shallow, narrow frame placed high on the face",
+      "Rimless, very shallow lenses",
+      "A deeper frame with low or decorative temples to add width",
+      "Frames with a very high bridge"
+    ],
+    "answer": 2,
+    "explanation": "Deeper lens shapes and temples that add horizontal interest make a long face look shorter and wider."
+  },
+  {
+    "id": "abo-frm-034",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Selection",
+    "difficulty": 2,
+    "stem": "For a high-minus prescription, which frame choice helps minimize edge thickness?",
+    "choices": [
+      "A large, wide frame with a frame PD much larger than the patient's PD",
+      "A rimless mount with a large lens shape",
+      "Any frame, because edge thickness depends only on lens index",
+      "A smaller eye size with a frame PD close to the patient's PD"
+    ],
+    "answer": 3,
+    "explanation": "Minus lenses get thicker toward the edge. A small eye size keeps the edge closer to the optical center, and matching frame PD to patient PD reduces decentration, which would otherwise push the thick edge out temporally."
+  },
+  {
+    "id": "abo-frm-035",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Selection",
+    "difficulty": 2,
+    "stem": "For a high-plus prescription, a smaller frame with minimal decentration is preferred mainly because it:",
+    "choices": [
+      "Increases the lens's effective power",
+      "Reduces center thickness and weight",
+      "Eliminates the need for pantoscopic tilt",
+      "Makes the lens more impact resistant"
+    ],
+    "answer": 1,
+    "explanation": "With plus lenses, the blank size needed sets the center thickness. A small eye size with little decentration allows a smaller, thinner, lighter blank."
+  },
+  {
+    "id": "abo-frm-036",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Selection",
+    "difficulty": 2,
+    "stem": "When fitting a progressive addition lens, an important frame-selection check is that the frame:",
+    "choices": [
+      "Has the widest possible A measurement",
+      "Has no pantoscopic tilt",
+      "Has a DBL larger than the patient's PD",
+      "Has enough vertical depth (B) below the pupil to meet the lens design's minimum fitting height"
+    ],
+    "answer": 3,
+    "explanation": "PALs need room below the fitting cross for the corridor and the near zone. Too shallow a frame cuts off the reading area. Check the minimum fitting height the lens maker specifies."
+  },
+  {
+    "id": "abo-frm-037",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Temple Styles",
+    "difficulty": 1,
+    "stem": "A straight temple with no bend that holds by pressure against the side of the head is a:",
+    "choices": [
+      "Library temple",
+      "Skull temple",
+      "Riding bow (cable) temple",
+      "Convertible temple"
+    ],
+    "answer": 0,
+    "explanation": "Library temples are straight, so glasses slide on and off easily. That suits people who take them on and off often, but they hold less securely."
+  },
+  {
+    "id": "abo-frm-038",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Temple Styles",
+    "difficulty": 1,
+    "stem": "Which temple style curls around the ear and is often chosen for children and active wearers?",
+    "choices": [
+      "Library temple",
+      "Skull temple",
+      "Riding bow (cable) temple",
+      "Paddle temple"
+    ],
+    "answer": 2,
+    "explanation": "Cable (riding bow) temples wrap around the back of the ear for a very secure hold."
+  },
+  {
+    "id": "abo-frm-039",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Temple Styles",
+    "difficulty": 1,
+    "stem": "The most common temple style, which bends down behind the ear and follows the contour of the skull, is the:",
+    "choices": [
+      "Library temple",
+      "Cable temple",
+      "Skull temple",
+      "Comfort cable"
+    ],
+    "answer": 2,
+    "explanation": "Skull temples bend down behind the ear and should follow the skull's shape, resting evenly without pressure points."
+  },
+  {
+    "id": "abo-frm-040",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Bridge Types",
+    "difficulty": 2,
+    "stem": "A bridge that rests on the sides of the nose, with an arch that does not touch the crest of the nose, is a:",
+    "choices": [
+      "Saddle bridge",
+      "Adjustable pad bridge",
+      "Double bridge",
+      "Keyhole bridge"
+    ],
+    "answer": 3,
+    "explanation": "The keyhole bridge is named for its keyhole-shaped opening. Its weight sits on the sides of the nose rather than across the top. A saddle bridge spreads weight evenly over the crest and sides."
+  },
+  {
+    "id": "abo-frm-041",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Bridge Types",
+    "difficulty": 2,
+    "stem": "Which bridge type spreads frame weight evenly over the crest and sides of the nose in one continuous curve?",
+    "choices": [
+      "Keyhole bridge",
+      "Saddle bridge",
+      "Adjustable pad bridge",
+      "Rimless compression bridge"
+    ],
+    "answer": 1,
+    "explanation": "A saddle bridge is a smooth arch that follows the nose like a saddle. It spreads weight over a large area but can't be adjusted the way pads can."
+  },
+  {
+    "id": "abo-frm-042",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Standard Alignment",
+    "difficulty": 2,
+    "stem": "Standard alignment (truing) of a frame means:",
+    "choices": [
+      "Adjusting the frame to its correct geometric configuration before fitting it to the patient's face",
+      "Fitting the frame to the patient's ears first",
+      "Measuring the patient's PD with the frame on",
+      "Adding face form to match the patient's head"
+    ],
+    "answer": 0,
+    "explanation": "A new frame or a just-repaired frame should be put in standard alignment (horizontal alignment, four-point touch, no X-ing, correct temple spread, parallel temples, and so on). Fitting adjustments to the individual face come after."
+  },
+  {
+    "id": "abo-frm-043",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Standard Alignment",
+    "difficulty": 2,
+    "stem": "In standard alignment, a straight edge laid horizontally across the back of the frame front should touch:",
+    "choices": [
+      "Four points: the nasal and temporal edges of both eyewires",
+      "Only the bridge",
+      "Only the two temporal edges",
+      "Only the two nasal edges"
+    ],
+    "answer": 0,
+    "explanation": "Four-point touch confirms the front is flat (no face form or reverse face form) and the eyewires are in one plane. Face form, if wanted, is added later for the individual fit."
+  },
+  {
+    "id": "abo-frm-044",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Standard Alignment",
+    "difficulty": 2,
+    "stem": "Viewed from the side, a frame in which the two lens planes are twisted relative to each other (not parallel) is said to show:",
+    "choices": [
+      "Positive face form",
+      "Retroscopic tilt",
+      "X-ing (skewed front)",
+      "Excess temple spread"
+    ],
+    "answer": 2,
+    "explanation": "X-ing means the eyewires are rotated out of a common plane, so from the side the lens planes cross. It is corrected at the bridge so the eyewires lie parallel again."
+  },
+  {
+    "id": "abo-frm-045",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Standard Alignment",
+    "difficulty": 2,
+    "stem": "When checking horizontal alignment of a frame front, what should you verify?",
+    "choices": [
+      "Both temples open to exactly 180°",
+      "The horizontal midlines of both lenses lie on the same straight line",
+      "The bridge sits higher than the endpieces",
+      "The lenses touch the straight edge only at the bridge"
+    ],
+    "answer": 1,
+    "explanation": "In horizontal alignment, the two eyewires are level with each other along a common horizontal line; neither is raised or lowered by a bent bridge."
+  },
+  {
+    "id": "abo-frm-046",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Standard Alignment",
+    "difficulty": 2,
+    "stem": "In standard alignment, the open temple angle (temple spread) is normally:",
+    "choices": [
+      "Exactly 45°",
+      "About 75°",
+      "About 120°",
+      "Slightly more than 90° from the frame front (about 90–95°)"
+    ],
+    "answer": 3,
+    "explanation": "Temples should open to roughly a right angle, or slightly more, from the front. The fitter then adjusts the spread to match the width of the patient's head."
+  },
+  {
+    "id": "abo-frm-047",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Pantoscopic Tilt",
+    "difficulty": 1,
+    "stem": "Pantoscopic tilt means the frame front is tilted so that:",
+    "choices": [
+      "The top of the lenses is closer to the face than the bottom",
+      "The temporal edges are closer to the face than the nasal edges",
+      "One lens is higher than the other",
+      "The bottom of the lenses is closer to the cheeks than the top"
+    ],
+    "answer": 3,
+    "explanation": "Pantoscopic tilt is the lower rims tilting in toward the face. Retroscopic tilt is the reverse and is usually undesirable. Wrap toward the temples is face form.",
+    "diagram": "frame-adjustments"
+  },
+  {
+    "id": "abo-frm-048",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Pantoscopic Tilt",
+    "difficulty": 2,
+    "stem": "A frame is fitted with 10° of pantoscopic tilt. Using the rule of 1 mm per 2° of tilt, where should the optical center be placed relative to the pupil center?",
+    "choices": [
+      "2 mm below the pupil center",
+      "5 mm above the pupil center",
+      "5 mm below the pupil center",
+      "10 mm below the pupil center"
+    ],
+    "answer": 2,
+    "explanation": "Lower the OC 1 mm for each 2° of pantoscopic tilt: 10° ÷ 2 = 5 mm below the pupil (primary gaze). This keeps the optical axis passing through the eye's center of rotation.",
+    "diagram": "frame-adjustments"
+  },
+  {
+    "id": "abo-frm-049",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Pantoscopic Tilt",
+    "difficulty": 3,
+    "stem": "With the patient's head in primary position, the pupil center measures 26 mm above the lowest point of the lens shape. The frame has 8° of pantoscopic tilt. What OC height should be ordered?",
+    "choices": [
+      "18 mm",
+      "22 mm",
+      "24 mm",
+      "30 mm"
+    ],
+    "answer": 1,
+    "explanation": "Lower the OC 1 mm per 2° of tilt: 8° ÷ 2 = 4 mm. OC height = 26 − 4 = 22 mm.",
+    "diagram": "frame-adjustments"
+  },
+  {
+    "id": "abo-frm-050",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Face Form",
+    "difficulty": 1,
+    "stem": "Face form (wrap) on a frame means:",
+    "choices": [
+      "The bottom rims are tilted toward the cheeks",
+      "The bridge is set farther back than the endpieces",
+      "The temporal edges of the frame front are closer to the face than the nasal edges",
+      "The temples are bent down behind the ears"
+    ],
+    "answer": 2,
+    "explanation": "Face form curves the front to follow the face, bringing the temporal sides in. Too much wrap changes the effective power and can induce prism unless the lenses are compensated.",
+    "diagram": "frame-adjustments"
+  },
+  {
+    "id": "abo-frm-051",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Vertex Distance",
+    "difficulty": 1,
+    "stem": "Vertex distance is the distance from:",
+    "choices": [
+      "The back surface of the lens to the front of the cornea",
+      "The front surface of the lens to the retina",
+      "The bridge to the temple hinge",
+      "The optical center to the frame's bottom edge"
+    ],
+    "answer": 0,
+    "explanation": "Vertex distance is measured from the back vertex of the lens to the corneal apex. It matters most for powers above about ±4.00 D, where small changes alter the effective power.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-frm-052",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Adjusting",
+    "difficulty": 2,
+    "stem": "A patient's glasses sit higher on the right side of the face. Which adjustment corrects this?",
+    "choices": [
+      "Bend the right temple down",
+      "Bend the right temple up (or the left temple down)",
+      "Increase the right temple spread",
+      "Shorten the left temple only"
+    ],
+    "answer": 1,
+    "explanation": "Bending a temple upward at the hinge lowers that side of the front, because the temple tip stays on the ear. If the right side sits high, bend the right temple up, or bend the left temple down."
+  },
+  {
+    "id": "abo-frm-053",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Adjusting",
+    "difficulty": 2,
+    "stem": "Viewed from above, the right lens sits farther from the face than the left. Which adjustment helps?",
+    "choices": [
+      "Increase the right temple spread",
+      "Decrease the right temple spread (bend it in) or increase the left temple spread",
+      "Bend the right temple up",
+      "Add pantoscopic tilt to the right lens only"
+    ],
+    "answer": 1,
+    "explanation": "Bending the right temple in pulls the right side of the front toward the face. Opening the left temple pushes the left side out, which has the same balancing effect."
+  },
+  {
+    "id": "abo-frm-054",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Adjusting",
+    "difficulty": 2,
+    "stem": "On a frame with adjustable pads, which adjustment raises the frame on the nose?",
+    "choices": [
+      "Spread the pads farther apart",
+      "Increase the temple spread",
+      "Bend both temples up",
+      "Move the pads closer together"
+    ],
+    "answer": 3,
+    "explanation": "Pads set closer together rest higher on the nose, which raises the frame. Spreading them lets the frame sit lower."
+  },
+  {
+    "id": "abo-frm-055",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Frame Adjusting",
+    "difficulty": 2,
+    "stem": "A patient reports pressure on both sides of the head above the ears. The most likely correction is to:",
+    "choices": [
+      "Decrease the temple spread",
+      "Add pantoscopic tilt",
+      "Increase the temple spread",
+      "Move the pads farther apart"
+    ],
+    "answer": 2,
+    "explanation": "Pressure along the sides of the head means the temples are too tight. Open the temple spread, and check that the temple shanks don't press inward behind the hinge."
+  },
+  {
+    "id": "abo-frm-056",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Rimless & Semi-Rimless",
+    "difficulty": 2,
+    "stem": "Which lens materials are generally preferred for drilled rimless mounts because they resist cracking around the holes?",
+    "choices": [
+      "Polycarbonate and Trivex",
+      "Crown glass and CR-39",
+      "Crown glass and high-index glass",
+      "CR-39 and crown glass with heat treatment"
+    ],
+    "answer": 0,
+    "explanation": "Drill holes concentrate stress. Polycarbonate and Trivex are tough and resist cracking or chipping at the holes; Trivex is often considered the best choice for drill mounts. Glass is a poor choice for drilled rimless."
+  },
+  {
+    "id": "abo-frm-057",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Rimless & Semi-Rimless",
+    "difficulty": 2,
+    "stem": "On a nylon-cord (semi-rimless) mounting, the lens is held by:",
+    "choices": [
+      "A nylon monofilament seated in a groove cut into the lens edge",
+      "Screws through drilled holes",
+      "A metal eyewire with a V-bevel",
+      "Adhesive bonded to the frame top"
+    ],
+    "answer": 0,
+    "explanation": "The lens edge is grooved. The top sits in the frame's upper rim, and a nylon cord running in the groove holds the bottom. The lens must have enough edge thickness to take a groove."
+  },
+  {
+    "id": "abo-frm-058",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Safety Frames",
+    "difficulty": 2,
+    "stem": "A patient wants Z87.1 safety lenses fitted into a regular dress frame. Why doesn't this produce compliant safety eyewear?",
+    "choices": [
+      "Safety lenses work in any frame once edged",
+      "Safety eyewear requires both lenses and frame to meet and be marked for ANSI Z87.1",
+      "Z87.1 applies only to lenses, not frames",
+      "Only the temples need a Z87 marking"
+    ],
+    "answer": 1,
+    "explanation": "Z87.1 compliance applies to the whole device. The frame must be a Z87.1-marked safety frame (front and temples) built to hold the safety lenses during impact testing. Safety lenses in a dress frame are not safety eyewear."
+  },
+  {
+    "id": "abo-dsp-001",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Reading an Rx",
+    "difficulty": 1,
+    "stem": "On a prescription, OS means:",
+    "choices": [
+      "Left eye",
+      "Right eye",
+      "Both eyes",
+      "Over-the-counter sunglasses"
+    ],
+    "answer": 0,
+    "explanation": "OD (oculus dexter) is the right eye, OS (oculus sinister) the left eye, and OU (oculus uterque) both eyes."
+  },
+  {
+    "id": "abo-dsp-002",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Reading an Rx",
+    "difficulty": 1,
+    "stem": "On a prescription, OU means:",
+    "choices": [
+      "Right eye only",
+      "Left eye only",
+      "Optical center",
+      "Both eyes"
+    ],
+    "answer": 3,
+    "explanation": "OU stands for oculus uterque, meaning both eyes. It often appears with a single near add or a PD."
+  },
+  {
+    "id": "abo-dsp-003",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Reading an Rx",
+    "difficulty": 1,
+    "stem": "Cylinder axis is written in the range:",
+    "choices": [
+      "0 to 360",
+      "0 to 90",
+      "1 to 100",
+      "1 to 180, with 180 used instead of 0"
+    ],
+    "answer": 3,
+    "explanation": "Axis runs from 1° to 180°. A horizontal axis is written 180, not 000, and is usually given as three digits (for example 090) to avoid misreading."
+  },
+  {
+    "id": "abo-dsp-004",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Transposition",
+    "difficulty": 2,
+    "stem": "Transpose −2.00 +1.00 × 090 to minus cylinder form.",
+    "choices": [
+      "−3.00 −1.00 × 180",
+      "−1.00 −1.00 × 090",
+      "−1.00 −1.00 × 180",
+      "+1.00 −2.00 × 180"
+    ],
+    "answer": 2,
+    "explanation": "Transposition: new sphere = sphere + cylinder = −2.00 + 1.00 = −1.00. Change the cylinder sign (+1.00 → −1.00). Change the axis by 90° (090 → 180). Result: −1.00 −1.00 × 180."
+  },
+  {
+    "id": "abo-dsp-005",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Transposition",
+    "difficulty": 2,
+    "stem": "Transpose +1.50 −0.75 × 045 to plus cylinder form.",
+    "choices": [
+      "+0.75 +0.75 × 045",
+      "+0.75 +0.75 × 135",
+      "+1.50 +0.75 × 135",
+      "+2.25 +0.75 × 135"
+    ],
+    "answer": 1,
+    "explanation": "New sphere = +1.50 + (−0.75) = +0.75. Cylinder sign flips to +0.75. Axis 045 + 90 = 135. Result: +0.75 +0.75 × 135."
+  },
+  {
+    "id": "abo-dsp-006",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Reading an Rx",
+    "difficulty": 2,
+    "stem": "What is the spherical equivalent of −3.00 −1.00 × 180?",
+    "choices": [
+      "−4.00 D",
+      "−3.50 D",
+      "−3.00 D",
+      "−2.50 D"
+    ],
+    "answer": 1,
+    "explanation": "Spherical equivalent = sphere + (cylinder ÷ 2) = −3.00 + (−0.50) = −3.50 D."
+  },
+  {
+    "id": "abo-dsp-007",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Reading an Rx",
+    "difficulty": 2,
+    "stem": "For the Rx −2.00 −1.00 × 180, what is the power in the 90° meridian?",
+    "choices": [
+      "−1.00 D",
+      "−1.50 D",
+      "−2.00 D",
+      "−3.00 D"
+    ],
+    "answer": 3,
+    "explanation": "With axis 180, the 180° meridian carries the sphere only (−2.00). The full cylinder acts 90° away, so the 90° meridian = −2.00 + (−1.00) = −3.00 D."
+  },
+  {
+    "id": "abo-dsp-008",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Reading an Rx",
+    "difficulty": 3,
+    "stem": "Distance Rx: −1.00 −0.50 × 090, add +2.25. What is the near-only (reading) single-vision Rx for this eye?",
+    "choices": [
+      "+2.25 −0.50 × 090",
+      "+1.25 −2.75 × 090",
+      "+1.25 −0.50 × 090",
+      "−3.25 −0.50 × 090"
+    ],
+    "answer": 2,
+    "explanation": "Add the add power to the sphere only: −1.00 + 2.25 = +1.25. Cylinder and axis stay the same: +1.25 −0.50 × 090."
+  },
+  {
+    "id": "abo-dsp-009",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prism",
+    "difficulty": 2,
+    "stem": "An Rx calls for 4Δ base out OD. Split equally between the eyes, this becomes:",
+    "choices": [
+      "2Δ base out OD and 2Δ base in OS",
+      "2Δ base in OD and 2Δ base in OS",
+      "2Δ base out OD and 2Δ base out OS",
+      "4Δ base out OD and 4Δ base out OS"
+    ],
+    "answer": 2,
+    "explanation": "Horizontal prism is split with the same base direction in both eyes. Base out on one eye has the same effect as base out on the other. 4Δ BO OD = 2Δ BO OD + 2Δ BO OS.",
+    "diagram": "prism"
+  },
+  {
+    "id": "abo-dsp-010",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prism",
+    "difficulty": 2,
+    "stem": "An Rx calls for 2Δ base up OD. An equivalent split is:",
+    "choices": [
+      "2Δ base up OD and 2Δ base down OS",
+      "1Δ base up OD and 1Δ base up OS",
+      "1Δ base down OD and 1Δ base up OS",
+      "1Δ base up OD and 1Δ base down OS"
+    ],
+    "answer": 3,
+    "explanation": "Vertical prism is split in opposite directions: base up in one eye equals base down in the other. 2Δ BU OD = 1Δ BU OD + 1Δ BD OS.",
+    "diagram": "prism"
+  },
+  {
+    "id": "abo-dsp-011",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prism",
+    "difficulty": 3,
+    "stem": "A right lens needs 3Δ base in and 4Δ base up. What single resultant prism power replaces them?",
+    "choices": [
+      "1Δ",
+      "3.5Δ",
+      "5Δ",
+      "7Δ"
+    ],
+    "answer": 2,
+    "explanation": "Horizontal and vertical prism combine as the sides of a right triangle: √(3² + 4²) = √25 = 5Δ. The base points up and in, at arctan(4/3) ≈ 53° from the horizontal.",
+    "diagram": "prism"
+  },
+  {
+    "id": "abo-dsp-012",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 2,
+    "stem": "Using Prentice's rule, how much prism is induced when a −5.00 D lens is decentered 4 mm from the pupil?",
+    "choices": [
+      "20Δ",
+      "2.0Δ",
+      "1.25Δ",
+      "0.8Δ"
+    ],
+    "answer": 1,
+    "explanation": "Prentice's rule: Δ = c × F, with c in centimeters. 4 mm = 0.4 cm, so Δ = 0.4 × 5.00 = 2.0Δ.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-dsp-013",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 3,
+    "stem": "A right lens of +4.00 D sphere has its optical center 3 mm temporal to the pupil. What prism is induced at the pupil?",
+    "choices": [
+      "0.75Δ base in",
+      "1.2Δ base in",
+      "1.2Δ base out",
+      "12Δ base out"
+    ],
+    "answer": 2,
+    "explanation": "Magnitude: Δ = 0.3 cm × 4.00 = 1.2Δ. A plus lens's base points toward its optical center. The OC is temporal, so the base is temporal (base out).",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-dsp-014",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 3,
+    "stem": "Both lenses are −6.00 D sphere. The patient's PD is 62 mm, but the lenses were made with optical centers 66 mm apart. What total horizontal prism results?",
+    "choices": [
+      "4.8Δ base out",
+      "2.4Δ base out",
+      "2.4Δ base in",
+      "1.2Δ base in"
+    ],
+    "answer": 2,
+    "explanation": "Each OC is (66 − 62) ÷ 2 = 2 mm temporal to its pupil. Per lens: 0.2 cm × 6.00 = 1.2Δ. A minus lens's base points away from its OC, so with the OC temporal the base is nasal (base in). Total = 1.2 + 1.2 = 2.4Δ base in.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-dsp-015",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice's rule",
+    "difficulty": 3,
+    "stem": "OD −3.00 D sphere and OS −1.00 D sphere. A patient reads 8 mm below the optical centers of single-vision lenses. What vertical prismatic imbalance is created at the reading point?",
+    "choices": [
+      "0.8Δ",
+      "1.6Δ",
+      "2.4Δ",
+      "3.2Δ"
+    ],
+    "answer": 1,
+    "explanation": "OD: 0.8 cm × 3.00 = 2.4Δ base down. OS: 0.8 cm × 1.00 = 0.8Δ base down. Below the OC of a minus lens the base is down in both eyes, so imbalance = 2.4 − 0.8 = 1.6Δ.",
+    "diagram": "prentice"
+  },
+  {
+    "id": "abo-dsp-016",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Pupillary Distance",
+    "difficulty": 1,
+    "stem": "Distance PD is the distance between:",
+    "choices": [
+      "The inner corners of the eyelids",
+      "The geometric centers of the frame",
+      "The centers of the pupils while reading at 40 cm",
+      "The centers of the pupils when the eyes look at a distant object"
+    ],
+    "answer": 3,
+    "explanation": "Distance PD is measured with the eyes fixing at distance (lines of sight parallel). Near PD is smaller because the eyes converge."
+  },
+  {
+    "id": "abo-dsp-017",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Pupillary Distance",
+    "difficulty": 2,
+    "stem": "When measuring PD with a millimeter ruler, the dispenser usually positions their eyes about how far from the patient?",
+    "choices": [
+      "About 40 cm (16 inches)",
+      "About 10 cm (4 inches)",
+      "About 1 m (39 inches)",
+      "About 6 m (20 feet)"
+    ],
+    "answer": 0,
+    "explanation": "The standard PD-ruler technique puts the dispenser about 40 cm from the patient, level with the patient's eyes, alternately closing one eye so the patient fixes on the dispenser's open eye."
+  },
+  {
+    "id": "abo-dsp-018",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Pupillary Distance",
+    "difficulty": 2,
+    "stem": "Why are monocular PDs preferred over a single binocular PD for progressive lenses?",
+    "choices": [
+      "Faces are often asymmetric, and each fitting cross must sit over its own pupil",
+      "Monocular PDs are always larger than the binocular PD",
+      "Progressives don't use the distance PD",
+      "Monocular PDs remove the need to measure fitting height"
+    ],
+    "answer": 0,
+    "explanation": "Measuring from the center of the bridge to each pupil lets the lab center each PAL corridor exactly over its eye. A split binocular PD would misplace one corridor if the face is asymmetric."
+  },
+  {
+    "id": "abo-dsp-019",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Pupillary Distance",
+    "difficulty": 2,
+    "stem": "A pupillometer measures PD by locating the:",
+    "choices": [
+      "Inner edge of each iris",
+      "Edges of the eyelids",
+      "Geometric centers of the frame",
+      "Corneal light reflexes"
+    ],
+    "answer": 3,
+    "explanation": "A pupillometer shines a light the patient fixes on and lets the dispenser line up hairlines on each corneal reflex. It can measure monocular distance and near PDs."
+  },
+  {
+    "id": "abo-dsp-020",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Near PD",
+    "difficulty": 2,
+    "stem": "Distance PD is 64 mm and the reading distance is 400 mm. Using near PD = distance PD × working distance ÷ (working distance + 27 mm), what is the near PD?",
+    "choices": [
+      "64 mm",
+      "62 mm",
+      "60 mm",
+      "56 mm"
+    ],
+    "answer": 2,
+    "explanation": "Near PD = 64 × 400 ÷ (400 + 27) = 25,600 ÷ 427 ≈ 59.95, about 60 mm. The 27 mm approximates the distance from the spectacle plane to the eye's center of rotation."
+  },
+  {
+    "id": "abo-dsp-021",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Near PD",
+    "difficulty": 3,
+    "stem": "Distance PD is 66 mm and the patient reads at 330 mm. Using the same formula (working distance + 27 mm), what is the near PD?",
+    "choices": [
+      "58 mm",
+      "61 mm",
+      "63 mm",
+      "66 mm"
+    ],
+    "answer": 1,
+    "explanation": "Near PD = 66 × 330 ÷ (330 + 27) = 21,780 ÷ 357 ≈ 61.0 mm."
+  },
+  {
+    "id": "abo-dsp-022",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Near PD",
+    "difficulty": 1,
+    "stem": "As a rule of thumb, near PD for a typical reading distance of about 40 cm is:",
+    "choices": [
+      "About 3–4 mm more than the distance PD",
+      "The same as the distance PD",
+      "About 10 mm less than the distance PD",
+      "About 3–4 mm less than the distance PD"
+    ],
+    "answer": 3,
+    "explanation": "The eyes converge to read, so near PD is smaller. At about 40 cm it is typically 3–4 mm less than distance PD; the formula gives a more exact value."
+  },
+  {
+    "id": "abo-dsp-023",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Seg Height",
+    "difficulty": 1,
+    "stem": "For a lined flat-top bifocal, the top of the segment is usually set at the:",
+    "choices": [
+      "Center of the pupil",
+      "Upper eyelid margin",
+      "Lower eyelid margin",
+      "Lowest point of the frame"
+    ],
+    "answer": 2,
+    "explanation": "The usual flat-top bifocal height is at the lower lid margin, so the segment line stays out of the way in distance gaze but is easy to reach when looking down.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-dsp-024",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Seg Height",
+    "difficulty": 1,
+    "stem": "For a trifocal, the top of the intermediate segment is usually set at the:",
+    "choices": [
+      "Lower edge of the pupil",
+      "Lower eyelid margin",
+      "Upper edge of the pupil",
+      "Bottom of the frame"
+    ],
+    "answer": 0,
+    "explanation": "Trifocals are set higher than bifocals, at the lower pupil margin, so the intermediate segment is reachable with a small downward glance.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-dsp-025",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "PAL Fitting",
+    "difficulty": 1,
+    "stem": "For most progressive addition lenses, the fitting cross is placed at the:",
+    "choices": [
+      "Lower eyelid margin",
+      "Lower edge of the pupil",
+      "Geometric center of the frame",
+      "Center of the pupil in distance gaze"
+    ],
+    "answer": 3,
+    "explanation": "The fitting cross is aligned with the pupil center while the patient looks straight ahead at distance, using monocular PDs and the measured fitting height. Always follow the lens maker's guidelines.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-dsp-026",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "PAL Fitting",
+    "difficulty": 2,
+    "stem": "Why should segment and PAL fitting heights be measured only after the frame has been adjusted to the patient?",
+    "choices": [
+      "The lab needs an adjusted frame to edge lenses",
+      "Adjustments to pads, tilt, and temples change where the lens sits relative to the pupil",
+      "An adjusted frame makes the PD larger",
+      "Height measurements are only valid without pantoscopic tilt"
+    ],
+    "answer": 1,
+    "explanation": "Fitting heights describe the lens position relative to the eye. If the frame is later raised, lowered, or tilted, the measurement no longer matches, and the result is a misplaced segment or corridor.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-dsp-027",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Seg Height",
+    "difficulty": 2,
+    "stem": "Segment height is measured vertically from the:",
+    "choices": [
+      "Lowest point of the lens shape (the lower boxing line) to the top of the segment",
+      "Center of the bridge to the top of the segment",
+      "Top of the frame to the pupil",
+      "Geometric center to the top of the segment"
+    ],
+    "answer": 0,
+    "explanation": "Seg height and fitting height are measured from the lowest point of the lens opening (inside the bottom eyewire, at the bevel) up to the seg top or pupil center.",
+    "diagram": "multifocals"
+  },
+  {
+    "id": "abo-dsp-028",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Decentration",
+    "difficulty": 2,
+    "stem": "A frame has A = 50 mm and DBL = 20 mm. The patient's distance PD is 62 mm. How much horizontal decentration does each lens need?",
+    "choices": [
+      "4 mm out",
+      "4 mm in",
+      "6 mm in",
+      "8 mm in"
+    ],
+    "answer": 1,
+    "explanation": "Frame PD = 50 + 20 = 70. Decentration per lens = (70 − 62) ÷ 2 = 4 mm, toward the nose (in), because the patient's eyes are closer together than the lens centers."
+  },
+  {
+    "id": "abo-dsp-029",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Decentration",
+    "difficulty": 2,
+    "stem": "The frame PD is 68 mm. The patient's right monocular PD is 31.5 mm. How far must the right OC be decentered?",
+    "choices": [
+      "36.5 mm",
+      "3.5 mm in",
+      "2.5 mm out",
+      "2.5 mm in"
+    ],
+    "answer": 3,
+    "explanation": "Half the frame PD = 68 ÷ 2 = 34 mm from the bridge center to the right geometric center. Decentration = 34 − 31.5 = 2.5 mm nasally (in)."
+  },
+  {
+    "id": "abo-dsp-030",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Decentration",
+    "difficulty": 2,
+    "stem": "A frame has B = 38 mm and the desired OC height is 22 mm. How should the OC be decentered vertically?",
+    "choices": [
+      "3 mm below the geometric center",
+      "16 mm above the geometric center",
+      "3 mm above the geometric center",
+      "No vertical decentration is needed"
+    ],
+    "answer": 2,
+    "explanation": "The geometric center sits at B ÷ 2 = 19 mm above the lowest point. OC height 22 mm is 22 − 19 = 3 mm above the geometric center."
+  },
+  {
+    "id": "abo-dsp-031",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Decentration",
+    "difficulty": 3,
+    "stem": "Frame: A = 52, DBL = 18. Distance PD 64, near PD 60. For a flat-top bifocal, how far is each segment inset from the lens's geometric center?",
+    "choices": [
+      "2 mm",
+      "3 mm",
+      "5 mm",
+      "8 mm"
+    ],
+    "answer": 2,
+    "explanation": "Frame PD = 70. Distance decentration per lens = (70 − 64) ÷ 2 = 3 mm in. Extra seg inset beyond the distance OC = (64 − 60) ÷ 2 = 2 mm. Total seg inset from the geometric center = 3 + 2 = 5 mm per lens (equivalently (70 − 60) ÷ 2 = 5)."
+  },
+  {
+    "id": "abo-dsp-032",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 1,
+    "stem": "What is the first step before reading a lens in a manual lensmeter?",
+    "choices": [
+      "Focus the eyepiece for your own eye",
+      "Mark the optical center",
+      "Set the axis wheel to 090",
+      "Measure the add power"
+    ],
+    "answer": 0,
+    "explanation": "Turn the eyepiece fully counterclockwise (toward plus), then slowly clockwise until the reticle just comes into sharp focus. Starting from the plus side keeps your accommodation relaxed. An unfocused eyepiece gives wrong power readings."
+  },
+  {
+    "id": "abo-dsp-033",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "Using a manual lensmeter and recording in minus cylinder form, the sphere power is the:",
+    "choices": [
+      "Most minus meridian",
+      "Average of the two meridians",
+      "Most plus (least minus) meridian, found first when turning the power wheel down from high plus",
+      "Power read through the bifocal segment"
+    ],
+    "answer": 2,
+    "explanation": "Start with the power wheel in the plus range and turn toward minus. The first meridian to focus is the most plus one, which is the sphere in minus-cylinder form. Its axis-wheel reading is the cylinder axis. The second meridian minus the first gives the cylinder."
+  },
+  {
+    "id": "abo-dsp-034",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 3,
+    "stem": "In minus cylinder technique, the sphere lines focus at +1.00 with the axis wheel at 030. The cylinder lines then focus at −0.50. How is the lens recorded?",
+    "choices": [
+      "−0.50 +1.50 × 030",
+      "+1.00 −0.50 × 030",
+      "+1.00 −1.50 × 120",
+      "+1.00 −1.50 × 030"
+    ],
+    "answer": 3,
+    "explanation": "Sphere = first (most plus) reading = +1.00, with axis 030 from the axis wheel. Cylinder = second reading − first = −0.50 − (+1.00) = −1.50. Rx: +1.00 −1.50 × 030 (plus form: −0.50 +1.50 × 120)."
+  },
+  {
+    "id": "abo-dsp-035",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "For a front-surface multifocal, the add power is most accurately verified by:",
+    "choices": [
+      "Reading the segment from the back surface only",
+      "Turning the glasses around so the front surface faces the lens stop, then measuring the distance and segment powers and taking the difference",
+      "Adding the distance sphere and cylinder",
+      "Measuring the segment power and subtracting the cylinder"
+    ],
+    "answer": 1,
+    "explanation": "When the add is on the front surface, front vertex power gives the true add. With the front surface against the lens stop, read the distance portion and the segment; the add is the difference."
+  },
+  {
+    "id": "abo-dsp-036",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "In a lensmeter, when a lens contains prism at the point being measured, the target image is displaced toward the:",
+    "choices": [
+      "Apex of the prism",
+      "Geometric center of the frame",
+      "Bridge of the frame regardless of base direction",
+      "Base of the prism"
+    ],
+    "answer": 3,
+    "explanation": "The illuminated target moves in the direction of the prism base. The number of prism-diopter rings it moves shows the amount."
+  },
+  {
+    "id": "abo-dsp-037",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "How is the optical center of a single-vision lens marked on a lensmeter?",
+    "choices": [
+      "Mark the lens's geometric center with a ruler",
+      "Center the lens by eye against the lens stop",
+      "Center the target in the reticle, then use the marking device; the middle dot marks the OC",
+      "Mark the thickest point of the lens with a pen"
+    ],
+    "answer": 2,
+    "explanation": "When the target is centered with no prism displacement, the lens's OC is on the instrument axis. The marking device's center dot marks the OC, and the outer dots mark the 180 line."
+  },
+  {
+    "id": "abo-dsp-038",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "When verifying a mounted pair, why should both eyewires rest evenly on the lensmeter's frame table?",
+    "choices": [
+      "To focus the eyepiece",
+      "To measure the add power",
+      "To protect the lens coating from the lens stop",
+      "So the 180 line stays level, giving correct axis readings and vertical prism comparison"
+    ],
+    "answer": 3,
+    "explanation": "If the frame isn't level on the table, axis readings and vertical OC or prism comparisons between the lenses will be wrong."
+  },
+  {
+    "id": "abo-dsp-039",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lensmeter",
+    "difficulty": 2,
+    "stem": "When verifying a job on an automated lensmeter, the operator must make sure that:",
+    "choices": [
+      "The eyepiece is focused for the operator's eye",
+      "The cylinder display (plus or minus) and lens type settings match how the Rx is written",
+      "The power wheel starts at high plus",
+      "The lens is placed with its front surface away from the nose piece for all lens types"
+    ],
+    "answer": 1,
+    "explanation": "Automated instruments do the focusing, but they still need correct settings, such as plus or minus cylinder, single vision or progressive, and step size. Otherwise a correct lens can look wrong, or the reverse."
+  },
+  {
+    "id": "abo-dsp-040",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 2,
+    "stem": "On a progressive lens, the distance prescription should be verified at the:",
+    "choices": [
+      "Distance reference circle above the fitting cross",
+      "Fitting cross",
+      "Prism reference point",
+      "Near reference circle"
+    ],
+    "answer": 0,
+    "explanation": "Power changes starting around the fitting cross, so distance power is read in the distance verification circle above it, as shown on the maker's layout or remarking chart.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-dsp-041",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 2,
+    "stem": "On a progressive lens, prism (including any prism thinning) is measured at the:",
+    "choices": [
+      "Prism reference point, located midway between the two hidden engravings",
+      "Fitting cross",
+      "Top edge of the lens",
+      "Near verification circle"
+    ],
+    "answer": 0,
+    "explanation": "The prism reference point (PRP) sits on the line joining the two permanent engravings, midway between them. Ordered prism and prism thinning are verified there.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-dsp-042",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 2,
+    "stem": "On many progressive lenses, the add power is engraved:",
+    "choices": [
+      "On the frame temple",
+      "At the fitting cross",
+      "In the center of the near zone",
+      "Below the temporal hidden engraving"
+    ],
+    "answer": 3,
+    "explanation": "Most manufacturers engrave the add below the temporal semi-visible mark and a logo or design code below the nasal mark (designs vary). The add can then be confirmed by lensmeter in the near circle using front-vertex technique.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-dsp-043",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "PAL verification",
+    "difficulty": 3,
+    "stem": "A new pair of progressives measures 1.5Δ base down in each lens at the prism reference points, but no prism was ordered. The most likely explanation is:",
+    "choices": [
+      "A lab error causing vertical imbalance",
+      "Prism thinning (yoked base-down prism used to reduce thickness)",
+      "The lenses were mounted upside down",
+      "The add powers are reversed"
+    ],
+    "answer": 1,
+    "explanation": "Labs often grind equal base-down prism into both PALs to thin them. Because the amount and direction are the same in both eyes, there is no vertical imbalance and it is not an error.",
+    "diagram": "pal-layout"
+  },
+  {
+    "id": "abo-dsp-044",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 1,
+    "stem": "A lens clock (lens measure) is used to measure:",
+    "choices": [
+      "Total lens power",
+      "Center thickness",
+      "Lens surface curvature (for example, the base curve)",
+      "Prism"
+    ],
+    "answer": 2,
+    "explanation": "A lens clock reads the sagitta of a surface with three pins and converts it to dioptric surface power. It doesn't measure the total power through the lens."
+  },
+  {
+    "id": "abo-dsp-045",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Lens clock",
+    "difficulty": 2,
+    "stem": "A lens clock calibrated for an index of about 1.53 is used on a polycarbonate lens (n ≈ 1.586). Compared with the true surface power, the reading will be:",
+    "choices": [
+      "Lower than the true surface power",
+      "Higher than the true surface power",
+      "Exactly equal to the true surface power",
+      "Always zero"
+    ],
+    "answer": 0,
+    "explanation": "Surface power = (n − 1) ÷ r. The clock assumes n − 1 = 0.53. Polycarbonate has n − 1 = 0.586, so the true power = reading × 0.586 ÷ 0.53, more than the clock shows. The clock underreads higher-index materials."
+  },
+  {
+    "id": "abo-dsp-046",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Thickness",
+    "difficulty": 1,
+    "stem": "Center thickness of a finished lens is measured with a:",
+    "choices": [
+      "Lens clock",
+      "Lens caliper or thickness gauge",
+      "Lensmeter",
+      "Pupillometer"
+    ],
+    "answer": 1,
+    "explanation": "A thickness caliper measures center or edge thickness directly. Center thickness is checked against the order, for example against impact-resistance requirements or a requested minimum."
+  },
+  {
+    "id": "abo-dsp-047",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Layout & Blocking",
+    "difficulty": 2,
+    "stem": "Before edging, a lens is blocked (fitted with a holding block) mainly to:",
+    "choices": [
+      "Harden the lens for impact resistance",
+      "Remove the lens's prism",
+      "Hold the lens in the edger at the correct center and axis orientation",
+      "Measure the base curve"
+    ],
+    "answer": 2,
+    "explanation": "Layout marks the OC (or major reference point) and the axis. The block goes on at the layout position so the edger cuts the shape with the right decentration and cylinder axis."
+  },
+  {
+    "id": "abo-dsp-048",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Edging",
+    "difficulty": 2,
+    "stem": "Which edge finish is used for a lens going into a nylon-cord (semi-rimless) mounting?",
+    "choices": [
+      "A V-bevel",
+      "Drilled holes",
+      "A rough, unpolished flat edge",
+      "A grooved edge"
+    ],
+    "answer": 3,
+    "explanation": "Semi-rimless nylon mounts need a groove for the cord. Full-rim frames use a V-bevel, and rimless drill mounts use a flat (rimless) edge with drilled holes or notches."
+  },
+  {
+    "id": "abo-dsp-049",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Edging",
+    "difficulty": 1,
+    "stem": "A safety bevel (pin bevel) on a finished lens edge is used to:",
+    "choices": [
+      "Remove the sharp edge corners, reducing chipping and making the lens safer to handle",
+      "Increase impact resistance enough to replace drop-ball testing",
+      "Change the lens power at the edge",
+      "Attach a nylon cord"
+    ],
+    "answer": 0,
+    "explanation": "A small bevel ground off the sharp front and back edges reduces chipping and sharp edges. It doesn't replace any required impact testing."
+  },
+  {
+    "id": "abo-dsp-050",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Troubleshooting",
+    "difficulty": 2,
+    "stem": "A progressive wearer says they must tilt their head back to read. The most likely fitting error is:",
+    "choices": [
+      "The fitting height is too high",
+      "The near PD is too wide",
+      "The base curve is too flat",
+      "The fitting height is too low"
+    ],
+    "answer": 3,
+    "explanation": "If the corridor sits too low, the near zone is out of reach in a normal downward gaze, so the patient lifts the chin to bring it up. Check the fitting cross against the pupil."
+  },
+  {
+    "id": "abo-dsp-051",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Troubleshooting",
+    "difficulty": 2,
+    "stem": "A progressive wearer says distance vision is blurry looking straight ahead but clears when they lower their chin. The most likely fitting error is:",
+    "choices": [
+      "The fitting height is too low",
+      "The fitting height is too high",
+      "The distance PD is too narrow by 1 mm",
+      "There is too little face form"
+    ],
+    "answer": 1,
+    "explanation": "A fitting cross set above the pupil puts the start of the corridor in front of the eye in straight-ahead gaze. Lowering the chin puts the distance zone back in front of the eye."
+  },
+  {
+    "id": "abo-dsp-052",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Troubleshooting",
+    "difficulty": 2,
+    "stem": "A new wearer whose cylinder axis changed from the old glasses says the floor looks tilted. What should the optician do first?",
+    "choices": [
+      "Tell the patient to stop wearing glasses for a week",
+      "Remake the lenses at the old axis without checking",
+      "Verify the new lenses against the prescription in the lensmeter",
+      "Add pantoscopic tilt to the frame"
+    ],
+    "answer": 2,
+    "explanation": "Always verify first. If the lenses match the Rx and are fitted correctly, an axis change can cause temporary spatial distortion that usually adapts. If symptoms persist, refer the patient back to the prescriber."
+  },
+  {
+    "id": "abo-dsp-053",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Troubleshooting",
+    "difficulty": 3,
+    "stem": "A patient's new single-vision lenses match the Rx and the fit is correct, but they report the world looks 'curved' and different from their old pair. The old lenses had a much steeper base curve. The best course is:",
+    "choices": [
+      "Increase the pantoscopic tilt by 10°",
+      "Change the cylinder axis by 5°",
+      "Remake the lenses with a base curve closer to the old pair",
+      "Tell the patient the base curve has no effect on vision"
+    ],
+    "answer": 2,
+    "explanation": "A large change in base curve changes magnification and peripheral distortion, which some wearers notice. Matching the base curve to the habitual pair is a standard fix after the Rx and fit have been confirmed correct."
+  },
+  {
+    "id": "abo-dsp-054",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Troubleshooting",
+    "difficulty": 2,
+    "stem": "A lined bifocal wearer says the segment line keeps getting in the way when walking and looking ahead. The likely cause is:",
+    "choices": [
+      "The segment is set too low",
+      "The segment is set too high",
+      "The add is too weak",
+      "The distance PD is too wide"
+    ],
+    "answer": 1,
+    "explanation": "A segment set above the lower lid intrudes on distance gaze and becomes noticeable when walking or driving. Check the seg height against the lower lid with the frame properly adjusted."
+  },
+  {
+    "id": "abo-dsp-055",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex Distance",
+    "difficulty": 3,
+    "stem": "A −10.00 D spectacle lens is worn at a 12 mm vertex distance. What power is needed at the corneal plane (for example, for a contact lens)?",
+    "choices": [
+      "About −8.93 D (≈ −9.00 D)",
+      "About −11.36 D",
+      "−10.00 D",
+      "About −8.50 D"
+    ],
+    "answer": 0,
+    "explanation": "Effective power at the new plane: Fc = F ÷ (1 − dF), where d is the distance moved toward the eye in meters. Fc = −10.00 ÷ (1 − 0.012 × (−10.00)) = −10.00 ÷ 1.12 ≈ −8.93 D. Minus lenses need less power closer to the eye.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-dsp-056",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Vertex Distance",
+    "difficulty": 2,
+    "stem": "A hyperopic patient slides their plus-lens glasses down the nose to see better up close. This works because moving a plus lens farther from the eye:",
+    "choices": [
+      "Decreases its effective plus power",
+      "Adds base-in prism only",
+      "Has no effect on effective power",
+      "Increases its effective plus power"
+    ],
+    "answer": 3,
+    "explanation": "Moving a plus lens away from the eye increases its effective converging power at the eye, giving a little extra plus for near.",
+    "diagram": "vertex-distance"
+  },
+  {
+    "id": "abo-dsp-057",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Dispensing",
+    "difficulty": 2,
+    "stem": "Before fitting new glasses to the patient's face at dispensing, the frame should first be:",
+    "choices": [
+      "Checked and put into standard alignment",
+      "Heated and bent into face form",
+      "Cleaned with acetone",
+      "Checked only for the patient's name on the case"
+    ],
+    "answer": 0,
+    "explanation": "Start with a frame in standard alignment, then make the individual fitting adjustments (pads, tilt, temples, ear bends). Check vision with each eye and both together."
+  },
+  {
+    "id": "abo-std-001",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "ANSI Standards",
+    "difficulty": 1,
+    "stem": "Which ANSI standard covers prescription ophthalmic (dress eyewear) lenses?",
+    "choices": [
+      "ANSI Z87.1",
+      "ANSI Z80.3",
+      "ANSI Z136.1",
+      "ANSI Z80.1"
+    ],
+    "answer": 3,
+    "explanation": "Z80.1 sets the requirements and tolerances for prescription dress-eyewear lenses. Z87.1 covers occupational and educational eye and face protection, and Z80.3 covers nonprescription sunglasses and fashion eyewear."
+  },
+  {
+    "id": "abo-std-002",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "ANSI Standards",
+    "difficulty": 1,
+    "stem": "What is the current edition of ANSI Z80.1, Prescription Ophthalmic Lenses?",
+    "choices": [
+      "Z80.1-1999",
+      "Z80.1-2005",
+      "Z80.1-2010",
+      "Z80.1-2020"
+    ],
+    "answer": 3,
+    "explanation": "The current edition is ANSI Z80.1-2020. Its main power, axis, add, and prism tolerances match the 2015 edition."
+  },
+  {
+    "id": "abo-std-003",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "ANSI Standards",
+    "difficulty": 1,
+    "stem": "Occupational and educational safety eyewear is governed by which standard?",
+    "choices": [
+      "ANSI Z87.1",
+      "ANSI Z80.1",
+      "ANSI Z80.3",
+      "21 CFR 801.410 only"
+    ],
+    "answer": 0,
+    "explanation": "ANSI/ISEA Z87.1 covers occupational and educational personal eye and face protection, including safety spectacles with prescription lenses."
+  },
+  {
+    "id": "abo-std-004",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "ANSI Standards",
+    "difficulty": 1,
+    "stem": "Nonprescription sunglasses and fashion eyewear are covered by which ANSI standard?",
+    "choices": [
+      "ANSI Z80.1",
+      "ANSI Z87.1",
+      "ANSI Z80.20",
+      "ANSI Z80.3"
+    ],
+    "answer": 3,
+    "explanation": "Z80.3 covers nonprescription sunglasses and fashion eyewear, including requirements such as UV transmittance and traffic-signal recognition. Sunglasses must also meet the FDA impact-resistance rule."
+  },
+  {
+    "id": "abo-std-005",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, what is the sphere power tolerance for a single-vision −4.50 D sphere lens?",
+    "choices": [
+      "±0.06 D",
+      "±0.13 D",
+      "±0.25 D",
+      "±2%"
+    ],
+    "answer": 1,
+    "explanation": "For sphere meridian powers from −6.50 D to +6.50 D, the tolerance is ±0.13 D. The ±2% tolerance applies only to powers stronger than ±6.50 D."
+  },
+  {
+    "id": "abo-std-006",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 3,
+    "stem": "Under ANSI Z80.1-2020, what is the sphere power tolerance for a +8.00 D single-vision sphere lens?",
+    "choices": [
+      "±0.08 D",
+      "±0.13 D",
+      "±0.16 D",
+      "±0.25 D"
+    ],
+    "answer": 2,
+    "explanation": "+8.00 D is stronger than ±6.50 D, so the tolerance is ±2%: 8.00 × 0.02 = ±0.16 D. Acceptable range: +7.84 to +8.16 D."
+  },
+  {
+    "id": "abo-std-007",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 3,
+    "stem": "Under ANSI Z80.1-2020, what is the sphere power tolerance for a −10.00 D single-vision sphere lens?",
+    "choices": [
+      "±0.10 D",
+      "±0.13 D",
+      "±0.20 D",
+      "±0.40 D"
+    ],
+    "answer": 2,
+    "explanation": "Above ±6.50 D the tolerance is ±2%: 10.00 × 0.02 = ±0.20 D. Acceptable range: −9.80 to −10.20 D."
+  },
+  {
+    "id": "abo-std-008",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 2,
+    "stem": "A single-vision lens is ordered at −2.00 D sphere. Which lensmeter reading is within ANSI Z80.1-2020 tolerance?",
+    "choices": [
+      "−1.75 D",
+      "−2.12 D",
+      "−2.25 D",
+      "−2.37 D"
+    ],
+    "answer": 1,
+    "explanation": "Tolerance at this power is ±0.13 D, so the acceptable range is −1.87 to −2.13 D. Only −2.12 falls inside it; −2.25 and −1.75 are each 0.25 D off."
+  },
+  {
+    "id": "abo-std-009",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 3,
+    "stem": "A single-vision lens is ordered at +7.50 D sphere. Which reading is OUT of ANSI Z80.1-2020 tolerance?",
+    "choices": [
+      "+7.37 D",
+      "+7.62 D",
+      "+7.65 D",
+      "+7.75 D"
+    ],
+    "answer": 3,
+    "explanation": "+7.50 is stronger than ±6.50, so the tolerance is ±2% = 7.50 × 0.02 = ±0.15 D, giving a range of +7.35 to +7.65 D. +7.62, +7.37, and +7.65 pass; +7.75 is 0.25 D off and fails."
+  },
+  {
+    "id": "abo-std-010",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020 (single vision), what is the cylinder power tolerance for a −1.75 D cylinder?",
+    "choices": [
+      "±0.13 D",
+      "±0.15 D",
+      "±0.25 D",
+      "±4%"
+    ],
+    "answer": 0,
+    "explanation": "Cylinders from 0.00 up to and including 2.00 D have a ±0.13 D tolerance. Above 2.00 up to 4.50 D it is ±0.15 D, and above 4.50 D it is ±4%."
+  },
+  {
+    "id": "abo-std-011",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020 (single vision), what is the cylinder power tolerance for a −3.25 D cylinder?",
+    "choices": [
+      "±0.13 D",
+      "±0.15 D",
+      "±0.18 D",
+      "±4%"
+    ],
+    "answer": 1,
+    "explanation": "3.25 D falls in the band above 2.00 D up to 4.50 D, where the cylinder tolerance is ±0.15 D."
+  },
+  {
+    "id": "abo-std-012",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 3,
+    "stem": "Under ANSI Z80.1-2020 (single vision), what is the cylinder tolerance for a −6.00 D cylinder?",
+    "choices": [
+      "±0.12 D",
+      "±0.15 D",
+      "±0.24 D",
+      "±0.30 D"
+    ],
+    "answer": 2,
+    "explanation": "Cylinders stronger than 4.50 D have a ±4% tolerance: 6.00 × 0.04 = ±0.24 D."
+  },
+  {
+    "id": "abo-std-013",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Power Tolerances",
+    "difficulty": 2,
+    "stem": "For a progressive addition lens, what is the ANSI Z80.1-2020 sphere power tolerance for powers from −8.00 D to +8.00 D?",
+    "choices": [
+      "±0.12 D",
+      "±0.13 D",
+      "±0.16 D",
+      "±0.25 D"
+    ],
+    "answer": 2,
+    "explanation": "PALs have their own table: ±0.16 D for sphere meridian powers from −8.00 to +8.00 D, and ±2% for stronger powers. Single-vision and lined multifocal lenses use ±0.13 D up to ±6.50 D."
+  },
+  {
+    "id": "abo-std-014",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Axis Tolerances",
+    "difficulty": 1,
+    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a 0.25 D cylinder?",
+    "choices": [
+      "±2°",
+      "±5°",
+      "±7°",
+      "±14°"
+    ],
+    "answer": 3,
+    "explanation": "Axis tolerances: ≥0.12 to ≤0.25 D: ±14°; >0.25 to ≤0.50 D: ±7°; >0.50 to ≤0.75 D: ±5°; >0.75 to ≤1.50 D: ±3°; >1.50 D: ±2°. Weaker cylinders get a wider tolerance."
+  },
+  {
+    "id": "abo-std-015",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Axis Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a −0.50 D cylinder?",
+    "choices": [
+      "±14°",
+      "±7°",
+      "±5°",
+      "±3°"
+    ],
+    "answer": 1,
+    "explanation": "A cylinder over 0.25 D up to and including 0.50 D has an axis tolerance of ±7°."
+  },
+  {
+    "id": "abo-std-016",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Axis Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a −0.75 D cylinder?",
+    "choices": [
+      "±2°",
+      "±3°",
+      "±5°",
+      "±7°"
+    ],
+    "answer": 2,
+    "explanation": "A cylinder over 0.50 D up to and including 0.75 D has an axis tolerance of ±5°."
+  },
+  {
+    "id": "abo-std-017",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Axis Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a −1.25 D cylinder?",
+    "choices": [
+      "±2°",
+      "±3°",
+      "±5°",
+      "±7°"
+    ],
+    "answer": 1,
+    "explanation": "A cylinder over 0.75 D up to and including 1.50 D has an axis tolerance of ±3°."
+  },
+  {
+    "id": "abo-std-018",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Axis Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, what is the axis tolerance for a −2.50 D cylinder?",
+    "choices": [
+      "±1°",
+      "±2°",
+      "±3°",
+      "±5°"
+    ],
+    "answer": 1,
+    "explanation": "Any cylinder stronger than 1.50 D has the tightest axis tolerance, ±2°."
+  },
+  {
+    "id": "abo-std-019",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Axis Tolerances",
+    "difficulty": 3,
+    "stem": "The Rx is −1.25 −0.75 × 090. Which axis range is acceptable under ANSI Z80.1-2020?",
+    "choices": [
+      "076 to 104",
+      "083 to 097",
+      "085 to 095",
+      "088 to 092"
+    ],
+    "answer": 2,
+    "explanation": "A 0.75 D cylinder has a ±5° axis tolerance, so 090 ± 5° = 085 to 095."
+  },
+  {
+    "id": "abo-std-020",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Axis Tolerances",
+    "difficulty": 3,
+    "stem": "The Rx is −2.00 −1.00 × 180. The finished lens reads −2.00 −1.00 × 004. Is the axis within ANSI Z80.1-2020 tolerance?",
+    "choices": [
+      "No — it is 4° off, and the tolerance for a 1.00 D cylinder is ±3°",
+      "Yes — the tolerance for a 1.00 D cylinder is ±5°",
+      "Yes — axis 004 is 176° from 180, which is close enough",
+      "No — axis tolerance is always ±1°"
+    ],
+    "answer": 0,
+    "explanation": "Axis 004 is 4° from 180 (the axis scale wraps from 180 to 1). A 1.00 D cylinder falls in the over-0.75 to 1.50 D band, with a ±3° tolerance, so 4° off fails. The acceptable range would be 177 to 003."
+  },
+  {
+    "id": "abo-std-021",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Add Tolerances",
+    "difficulty": 1,
+    "stem": "Under ANSI Z80.1-2020, what is the add power tolerance for a +2.50 D add?",
+    "choices": [
+      "±0.06 D",
+      "±0.12 D",
+      "±0.18 D",
+      "±0.25 D"
+    ],
+    "answer": 1,
+    "explanation": "Adds up to and including +4.00 D have a ±0.12 D tolerance; adds above +4.00 D have ±0.18 D."
+  },
+  {
+    "id": "abo-std-022",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Add Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, what is the add power tolerance for a +4.50 D add?",
+    "choices": [
+      "±2%",
+      "±0.25 D",
+      "±0.18 D",
+      "±0.12 D"
+    ],
+    "answer": 2,
+    "explanation": "Adds stronger than +4.00 D have a ±0.18 D tolerance."
+  },
+  {
+    "id": "abo-std-023",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Prism Tolerances",
+    "difficulty": 2,
+    "stem": "For a single lens under ANSI Z80.1-2020, the prism at the prism reference point may not exceed:",
+    "choices": [
+      "0.12Δ, or within 0.5 mm",
+      "0.33Δ, or the PRP must be within 1.0 mm of its specified position",
+      "0.67Δ, or within 2.5 mm",
+      "1.00Δ, or within 3.0 mm"
+    ],
+    "answer": 1,
+    "explanation": "For an individual lens, unwanted prism at the PRP must be no more than 0.33Δ, or the PRP must be no more than 1.0 mm from its specified location in any direction."
+  },
+  {
+    "id": "abo-std-024",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Prism Tolerances",
+    "difficulty": 2,
+    "stem": "For mounted single-vision lenses of ±3.375 D or less in the vertical meridian, the maximum allowed vertical prism imbalance under ANSI Z80.1-2020 is:",
+    "choices": [
+      "1.00Δ",
+      "0.67Δ",
+      "0.33Δ",
+      "0.25Δ"
+    ],
+    "answer": 2,
+    "explanation": "Vertical imbalance tolerance is ≤0.33Δ for vertical meridian powers up to ±3.375 D. Above that, the tolerance is a difference in PRP heights of no more than 1.0 mm."
+  },
+  {
+    "id": "abo-std-025",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Prism Tolerances",
+    "difficulty": 2,
+    "stem": "For mounted single-vision lenses of ±2.75 D or less in the horizontal meridian, the maximum allowed horizontal prism imbalance under ANSI Z80.1-2020 is:",
+    "choices": [
+      "0.33Δ",
+      "0.67Δ",
+      "1.00Δ",
+      "2.00Δ"
+    ],
+    "answer": 1,
+    "explanation": "Horizontal imbalance tolerance is ≤0.67Δ for horizontal meridian powers up to ±2.75 D. Above that, the measured distance PD must be within ±2.5 mm of the specified PD."
+  },
+  {
+    "id": "abo-std-026",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Prism Tolerances",
+    "difficulty": 2,
+    "stem": "For mounted single-vision lenses with vertical meridian powers stronger than ±3.375 D, ANSI Z80.1-2020 limits vertical imbalance by requiring:",
+    "choices": [
+      "The PRP heights to differ by no more than 1.0 mm",
+      "No more than 0.33Δ regardless of power",
+      "The PRP heights to differ by no more than 2.5 mm",
+      "No vertical prism at all"
+    ],
+    "answer": 0,
+    "explanation": "Strong lenses produce a lot of prism from tiny decentrations, so the standard switches to a millimeter limit: a PRP height difference of no more than 1.0 mm."
+  },
+  {
+    "id": "abo-std-027",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Prism Tolerances",
+    "difficulty": 2,
+    "stem": "For mounted single-vision lenses with horizontal meridian powers stronger than ±2.75 D, the ANSI Z80.1-2020 horizontal tolerance is:",
+    "choices": [
+      "Measured PD within ±1.0 mm of the specified distance PD",
+      "No more than 0.33Δ horizontal imbalance",
+      "Measured PD within ±5.0 mm of the specified PD",
+      "Measured PD within ±2.5 mm of the specified distance PD"
+    ],
+    "answer": 3,
+    "explanation": "Above ±2.75 D in the horizontal meridian, the tolerance becomes ±2.5 mm from the specified distance PD instead of a prism value."
+  },
+  {
+    "id": "abo-std-028",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Prism Tolerances",
+    "difficulty": 3,
+    "stem": "For progressive lenses with horizontal meridian powers stronger than ±3.75 D, ANSI Z80.1-2020 requires that:",
+    "choices": [
+      "Each fitting cross be within 1.0 mm of the specified monocular PD",
+      "The binocular PD be within ±2.5 mm",
+      "Horizontal imbalance not exceed 0.33Δ",
+      "The fitting crosses be within 2.0 mm of the frame's geometric centers"
+    ],
+    "answer": 0,
+    "explanation": "PALs have a tighter horizontal rule: up to ±3.75 D the imbalance limit is 0.67Δ; above that, each fitting cross must be within 1.0 mm of the specified monocular PD."
+  },
+  {
+    "id": "abo-std-029",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Prism Tolerances",
+    "difficulty": 3,
+    "stem": "Both single-vision lenses are −2.00 D sphere. The ordered PD is 64 mm, but the optical centers measure 60 mm apart. Is the horizontal prism within ANSI Z80.1-2020 tolerance?",
+    "choices": [
+      "Yes — it creates 0.4Δ total, under 0.67Δ",
+      "Yes — the PD is within ±2.5 mm, which is the tolerance at this power",
+      "No — it creates 8.0Δ base in",
+      "No — it creates 0.8Δ base out, which exceeds 0.67Δ"
+    ],
+    "answer": 3,
+    "explanation": "Each OC is 2 mm nasal to its pupil. Per lens: 0.2 cm × 2.00 = 0.4Δ. A minus lens's base points away from its OC, so the base is temporal (out). Total = 0.8Δ BO. At ±2.75 D or less the tolerance is 0.67Δ, so this fails. The ±2.5 mm rule applies only above ±2.75 D."
+  },
+  {
+    "id": "abo-std-030",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Prism Tolerances",
+    "difficulty": 3,
+    "stem": "OD −1.00 D sphere, OS −3.00 D sphere. The OD optical center is at pupil height; the OS optical center is 1.0 mm above the pupil. Is the vertical imbalance within ANSI Z80.1-2020 tolerance?",
+    "choices": [
+      "Yes — the imbalance is 0.30Δ, within 0.33Δ",
+      "No — the imbalance is 3.0Δ",
+      "No — the imbalance is 0.40Δ",
+      "Yes — vertical prism is not toleranced for single-vision lenses"
+    ],
+    "answer": 0,
+    "explanation": "OD: 0 mm decentration gives 0Δ. OS: 0.1 cm × 3.00 = 0.30Δ. Both lenses are ±3.375 D or less, so the limit is 0.33Δ. 0.30Δ passes."
+  },
+  {
+    "id": "abo-std-031",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Other Tolerances",
+    "difficulty": 1,
+    "stem": "When a base curve is specified, the ANSI Z80.1-2020 base curve tolerance is:",
+    "choices": [
+      "±0.12 D",
+      "±0.25 D",
+      "±0.75 D",
+      "±1.50 D"
+    ],
+    "answer": 2,
+    "explanation": "When a base curve is specified, it must be supplied within ±0.75 D."
+  },
+  {
+    "id": "abo-std-032",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Other Tolerances",
+    "difficulty": 1,
+    "stem": "Under ANSI Z80.1-2020, center thickness (when specified) must be within:",
+    "choices": [
+      "±0.1 mm",
+      "±0.3 mm",
+      "±0.5 mm",
+      "±1.0 mm"
+    ],
+    "answer": 1,
+    "explanation": "Center thickness is measured at the PRP on the convex surface and must be within ±0.3 mm of the nominal value."
+  },
+  {
+    "id": "abo-std-033",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Other Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, the segment height tolerance for each multifocal lens is:",
+    "choices": [
+      "±2.5 mm from the specified near PD",
+      "±2.0 mm, and the pair may differ by up to 2.0 mm",
+      "±1.0 mm, and the two segment heights in the pair may differ by no more than 1.0 mm",
+      "±0.5 mm, with no pair requirement"
+    ],
+    "answer": 2,
+    "explanation": "Each segment height must be within ±1.0 mm of the order, and the difference between the two heights in the mounted pair may not exceed 1.0 mm. Progressive fitting cross heights follow the same rule."
+  },
+  {
+    "id": "abo-std-034",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Other Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, the segment tilt tolerance for each lined multifocal lens is:",
+    "choices": [
+      "±0.5° from the 180 line",
+      "±2° from the 180 line",
+      "±5° from the 180 line",
+      "±7° from the 180 line"
+    ],
+    "answer": 1,
+    "explanation": "Segment tilt must be within ±2° measured from the 180. The PAL horizontal reference markings have the same ±2° tilt tolerance."
+  },
+  {
+    "id": "abo-std-035",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Other Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, segment dimensions (width, depth) may deviate from the nominal value by no more than:",
+    "choices": [
+      "±2.0 mm",
+      "±1.0 mm",
+      "±0.5 mm",
+      "±0.1 mm"
+    ],
+    "answer": 2,
+    "explanation": "Segment width, depth, and intermediate depth must be within ±0.5 mm, and the pair may differ by no more than 0.5 mm unless specified."
+  },
+  {
+    "id": "abo-std-036",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Other Tolerances",
+    "difficulty": 2,
+    "stem": "Under ANSI Z80.1-2020, the distance between the segment geometric centers of a mounted multifocal pair must be within what tolerance of the specified near PD?",
+    "choices": [
+      "±0.5 mm",
+      "±1.0 mm",
+      "±2.5 mm",
+      "±4.0 mm"
+    ],
+    "answer": 2,
+    "explanation": "The seg centers must be within ±2.5 mm of the specified near PD, and the insets should look symmetrical unless monocular insets were specified."
+  },
+  {
+    "id": "abo-std-037",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Z80.1 Other Tolerances",
+    "difficulty": 2,
+    "stem": "If a polarized lens is marked to show its intended horizontal orientation, ANSI Z80.1-2020 requires the plane of transmission to be within what tolerance of 90° from that marking?",
+    "choices": [
+      "±1°",
+      "±3°",
+      "±7°",
+      "±14°"
+    ],
+    "answer": 1,
+    "explanation": "The actual plane of transmittance must be 90° ± 3° from the horizontal orientation marking."
+  },
+  {
+    "id": "abo-std-038",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FDA Impact Resistance",
+    "difficulty": 1,
+    "stem": "The FDA drop-ball test for dress eyewear (21 CFR 801.410) drops a steel ball of what size from what height?",
+    "choices": [
+      "A 1-inch ball (about 2.4 oz) from 50 inches",
+      "A 1/4-inch ball fired at 150 ft/s",
+      "A 5/8-inch ball from 127 inches",
+      "A 5/8-inch ball (about 0.56 oz) from 50 inches"
+    ],
+    "answer": 3,
+    "explanation": "21 CFR 801.410 uses a 5/8-inch steel ball weighing about 0.56 ounce, dropped from 50 inches onto the lens's convex (front) surface. The lens must not fracture."
+  },
+  {
+    "id": "abo-std-039",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FDA Impact Resistance",
+    "difficulty": 2,
+    "stem": "Under 21 CFR 801.410, how are glass and plastic dress-eyewear lenses tested?",
+    "choices": [
+      "Each glass lens is tested individually; plastic lenses may be batch tested by the manufacturer using statistical sampling",
+      "Both are batch tested by statistical sampling only",
+      "Each plastic lens is tested individually; glass is never tested",
+      "Neither needs testing if a safety bevel is applied"
+    ],
+    "answer": 0,
+    "explanation": "Glass lenses, which are usually heat- or chemically tempered, must each be tested in finished form. Plastic lenses may be tested by the manufacturer on statistically significant samples from each lot, in uncut-finished or semifinished form."
+  },
+  {
+    "id": "abo-std-040",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FDA Impact Resistance",
+    "difficulty": 2,
+    "stem": "Under 21 CFR 801.410, how long must records of impact-resistance testing be kept?",
+    "choices": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "7 years"
+    ],
+    "answer": 1,
+    "explanation": "Records of the tests must be kept for 3 years and made available to FDA on request."
+  },
+  {
+    "id": "abo-std-041",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FDA Impact Resistance",
+    "difficulty": 2,
+    "stem": "Under 21 CFR 801.410, when may non-impact-resistant lenses be dispensed for dress eyewear?",
+    "choices": [
+      "Whenever the patient signs a waiver at pickup",
+      "Whenever the optician believes the frame protects the lens",
+      "Never — there are no exceptions",
+      "When the prescribing physician or optometrist determines impact-resistant lenses won't meet the patient's visual needs and gives the patient written notice"
+    ],
+    "answer": 3,
+    "explanation": "The prescriber, not the dispenser or the patient alone, may decide that impact-resistant lenses won't meet the patient's visual needs. In that case the patient must be told in writing."
+  },
+  {
+    "id": "abo-std-042",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FDA Impact Resistance",
+    "difficulty": 2,
+    "stem": "Does the FDA impact-resistance rule (21 CFR 801.410) apply to nonprescription sunglasses?",
+    "choices": [
+      "Yes — it applies to eyeglasses and sunglasses, prescription and nonprescription",
+      "No — it applies only to prescription lenses",
+      "No — it applies only to safety glasses",
+      "Only to sunglasses sold for children"
+    ],
+    "answer": 0,
+    "explanation": "801.410 requires impact-resistant lenses in eyeglasses and sunglasses intended to protect or aid vision, including nonprescription sunglasses."
+  },
+  {
+    "id": "abo-std-043",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "ANSI Z87.1 Safety",
+    "difficulty": 2,
+    "stem": "The ANSI Z87.1 basic impact test for lenses uses a:",
+    "choices": [
+      "1/4-inch steel ball fired at 150 ft/s",
+      "1-inch steel ball dropped from 50 inches",
+      "5/8-inch steel ball dropped from 50 inches",
+      "500 g pointed projectile dropped from 50 inches"
+    ],
+    "answer": 1,
+    "explanation": "Basic impact is a 1-inch (25.4 mm) steel ball dropped from 50 inches (127 cm). The 5/8-inch ball is the FDA dress-eyewear test, and the 1/4-inch high-velocity ball is part of Z87.1 high-impact testing."
+  },
+  {
+    "id": "abo-std-044",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "ANSI Z87.1 Safety",
+    "difficulty": 2,
+    "stem": "For high-impact rating, ANSI Z87.1 tests safety spectacles with a high-velocity projectile consisting of a:",
+    "choices": [
+      "1-inch steel ball dropped from 50 inches",
+      "1/4-inch steel ball at 50 ft/s",
+      "1/4-inch steel ball at 150 ft/s",
+      "5/8-inch steel ball dropped from 50 inches"
+    ],
+    "answer": 2,
+    "explanation": "High-velocity impact for spectacles uses a 1/4-inch (6.35 mm) steel ball at 150 ft/s. Goggles and faceshields are tested at higher speeds. High-impact devices also pass a high-mass test."
+  },
+  {
+    "id": "abo-std-045",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "ANSI Z87.1 Safety",
+    "difficulty": 1,
+    "stem": "On safety eyewear, the marking 'Z87+' indicates that the product:",
+    "choices": [
+      "Meets only the basic impact requirements",
+      "Is approved for dress eyewear only",
+      "Has passed the FDA drop-ball test only",
+      "Meets the ANSI Z87.1 high-impact requirements"
+    ],
+    "answer": 3,
+    "explanation": "'Z87' marks basic-impact protectors. The '+' means the device passed the high-impact (high-velocity and high-mass) requirements."
+  },
+  {
+    "id": "abo-std-046",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FTC Eyeglass Rule",
+    "difficulty": 1,
+    "stem": "Under the FTC Eyeglass Rule, when must a prescriber give the patient a copy of their eyeglass prescription?",
+    "choices": [
+      "Immediately after the refractive exam, whether or not the patient asks, at no extra cost",
+      "Only if the patient asks in writing",
+      "Only after the patient buys eyewear from the prescriber",
+      "Within 30 days, for a records fee"
+    ],
+    "answer": 0,
+    "explanation": "The Eyeglass Rule (16 CFR Part 456) requires prescribers to release the Rx right after the refraction, automatically and free, so patients can buy eyewear wherever they choose."
+  },
+  {
+    "id": "abo-std-047",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FTC Eyeglass Rule",
+    "difficulty": 2,
+    "stem": "Under the FTC Eyeglass Rule, which of these may a prescriber NOT do?",
+    "choices": [
+      "Release the Rx immediately after the exam",
+      "Give a digital copy if the patient agrees",
+      "Explain the prescription to the patient",
+      "Require the patient to buy eyewear from them, or sign a liability waiver, as a condition of releasing the Rx"
+    ],
+    "answer": 3,
+    "explanation": "Prescribers may not make Rx release depend on buying eyewear or paying an extra fee, and may not require a waiver of liability for eyewear made elsewhere."
+  },
+  {
+    "id": "abo-std-048",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FTC Eyeglass Rule",
+    "difficulty": 2,
+    "stem": "Under the 2024 amendments to the FTC Eyeglass Rule, after releasing a prescription the prescriber must generally:",
+    "choices": [
+      "Get the patient's signed confirmation of receipt (or keep proof of digital delivery) and keep it for at least 3 years",
+      "Mail a second copy to the patient's optician",
+      "Have the patient sign a liability waiver",
+      "Send the Rx to the FTC"
+    ],
+    "answer": 0,
+    "explanation": "The amended rule, effective in 2024, requires prescribers to obtain confirmation that the patient received the prescription, such as a signed acknowledgment or proof of digital delivery, and to keep it for at least three years. If the patient declines to sign, the prescriber notes that."
+  },
+  {
+    "id": "abo-std-049",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "FTC Eyeglass Rule",
+    "difficulty": 3,
+    "stem": "Under the FTC Eyeglass Rule, a prescriber may withhold the Rx until the exam fee is paid only if:",
+    "choices": [
+      "The patient refuses to buy eyewear in the office",
+      "The patient plans to buy glasses online",
+      "The patient has vision insurance",
+      "They would have required immediate payment from that patient even if the exam had shown no eyewear was needed"
+    ],
+    "answer": 3,
+    "explanation": "Requiring payment before release is allowed only when it is the prescriber's normal practice regardless of the exam outcome. It can't be used to discourage patients from buying eyewear elsewhere."
+  },
+  {
+    "id": "abo-std-050",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "HIPAA",
+    "difficulty": 1,
+    "stem": "Under HIPAA, a patient's prescription, purchase history, and insurance details held by an optical practice are:",
+    "choices": [
+      "Protected health information (PHI)",
+      "Public records",
+      "Unregulated business data",
+      "Protected only if they include a diagnosis"
+    ],
+    "answer": 0,
+    "explanation": "Individually identifiable health information, including prescriptions and payment information, held by a covered entity is PHI and is protected under the HIPAA Privacy and Security Rules."
+  },
+  {
+    "id": "abo-std-051",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "HIPAA",
+    "difficulty": 2,
+    "stem": "Under HIPAA, the 'minimum necessary' standard means staff should:",
+    "choices": [
+      "Collect as little PHI as possible at intake, even if required",
+      "Share the full record whenever anyone asks",
+      "Delete records after the minimum retention period",
+      "Use or share only the least PHI needed for the task"
+    ],
+    "answer": 3,
+    "explanation": "For most uses and disclosures beyond treatment, covered entities must limit PHI to the minimum needed for the purpose."
+  },
+  {
+    "id": "abo-std-052",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "HIPAA",
+    "difficulty": 2,
+    "stem": "A patient's employer calls to ask what prescription their employee picked up. Without the patient's authorization, the optician should:",
+    "choices": [
+      "Read the prescription over the phone",
+      "Decline to share the information",
+      "Share it if the employer pays for vision insurance",
+      "Email it so there is a written record"
+    ],
+    "answer": 1,
+    "explanation": "Giving PHI to an employer without the patient's authorization is not allowed under HIPAA. Verify identity and authorization before discussing a patient's records."
+  },
+  {
+    "id": "abo-std-053",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "HIPAA",
+    "difficulty": 2,
+    "stem": "Under HIPAA, a covered entity must generally act on a patient's request to access their records within:",
+    "choices": [
+      "1 year",
+      "24 hours",
+      "30 days (with one possible 30-day extension)",
+      "90 days"
+    ],
+    "answer": 2,
+    "explanation": "The Privacy Rule gives patients a right of access. The entity generally must respond within 30 days, with one 30-day extension allowed if the patient is notified."
+  },
+  {
+    "id": "abo-std-054",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 1,
+    "stem": "Which California agency currently regulates registered dispensing opticians, spectacle lens dispensers, and contact lens dispensers?",
+    "choices": [
+      "Medical Board of California",
+      "California Department of Public Health",
+      "California Board of Pharmacy",
+      "California State Board of Optometry"
+    ],
+    "answer": 3,
+    "explanation": "The Registered Dispensing Optician program is run by the California State Board of Optometry. It was formerly under the Medical Board of California, which older study materials may still name."
+  },
+  {
+    "id": "abo-std-055",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 1,
+    "stem": "To register as a Spectacle Lens Dispenser (SLD) in California, an applicant must pass the:",
+    "choices": [
+      "American Board of Opticianry (ABO) exam",
+      "National Contact Lens Examiners (NCLE) exam",
+      "National Board of Examiners in Optometry exam",
+      "California optometry law exam only"
+    ],
+    "answer": 0,
+    "explanation": "California requires SLD applicants to pass the ABO registry exam. The Contact Lens Dispenser (CLD) registration requires the NCLE exam."
+  },
+  {
+    "id": "abo-std-056",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 1,
+    "stem": "To register as a Contact Lens Dispenser (CLD) in California, an applicant must pass the:",
+    "choices": [
+      "National Contact Lens Examiners (NCLE) exam",
+      "American Board of Opticianry (ABO) exam",
+      "Optometry Admission Test",
+      "Medical Board jurisprudence exam"
+    ],
+    "answer": 0,
+    "explanation": "CLD registration requires passing the NCLE exam. Many dispensers hold both the SLD (ABO) and CLD (NCLE) registrations."
+  },
+  {
+    "id": "abo-std-057",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 2,
+    "stem": "In California, a registered SLD or CLD fits and adjusts lenses while employed by a:",
+    "choices": [
+      "Licensed pharmacy",
+      "Contact lens manufacturer only",
+      "Registered Dispensing Ophthalmic Business (RDO)",
+      "Business with no state registration"
+    ],
+    "answer": 2,
+    "explanation": "California registers the business (RDO) separately from the individual dispensers (SLD/CLD). The individuals work at a registered dispensing business."
+  },
+  {
+    "id": "abo-std-058",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 2,
+    "stem": "In California, a person who fits and adjusts eyewear under the supervision of a physician or optometrist, as their assistant, is:",
+    "choices": [
+      "Required to hold both SLD and CLD registrations",
+      "Required to pass the ABO Advanced exam",
+      "Barred from adjusting frames",
+      "Not required to be registered as an SLD or CLD"
+    ],
+    "answer": 3,
+    "explanation": "According to the Board, assistants working for a physician or optometrist don't need to register; their work is supervised under the doctor's license. Registration applies to dispensers working for a registered dispensing business."
+  },
+  {
+    "id": "abo-std-059",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 2,
+    "stem": "A California SLD works at two different registered optical businesses. What does the Board require regarding their registration certificate?",
+    "choices": [
+      "They need a separate registration for each business",
+      "They display their certificate at the business where they are fitting and adjusting",
+      "They need a duplicate certificate for each location",
+      "No certificate needs to be displayed"
+    ],
+    "answer": 1,
+    "explanation": "The Board issues duplicates only when the original is lost, stolen, or destroyed. A dispenser who works for more than one employer brings the certificate to display where they are working."
+  },
+  {
+    "id": "abo-std-060",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 2,
+    "stem": "California law (B&P § 136) requires a registered dispenser to notify the Board of an address change within:",
+    "choices": [
+      "1 year",
+      "10 days",
+      "30 days",
+      "90 days"
+    ],
+    "answer": 2,
+    "explanation": "Licensees and registrants must update their address of record with the Board within 30 days of a change."
+  },
+  {
+    "id": "abo-std-061",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 2,
+    "stem": "Does California require continuing education to renew an SLD or CLD registration?",
+    "choices": [
+      "No — but ABO/NCLE certification itself has CE requirements if the dispenser keeps it current",
+      "Yes — 12 hours every year",
+      "Yes — 30 hours every two years",
+      "Only for dispensers over 65"
+    ],
+    "answer": 0,
+    "explanation": "According to the Board, SLD/CLD renewal doesn't require CE. Dispensers who keep their ABO or NCLE certification current must meet those organizations' CE requirements."
+  },
+  {
+    "id": "abo-std-062",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 3,
+    "stem": "Under California B&P Code § 655, which arrangement between an optometrist and a registered dispensing optician business is generally prohibited?",
+    "choices": [
+      "A lease that meets the statute's specific conditions",
+      "Referring patients who already have a prescription",
+      "The RDO filling the optometrist's prescriptions",
+      "A co-ownership or profit-sharing arrangement"
+    ],
+    "answer": 3,
+    "explanation": "Section 655 bars optometrists and physicians from having a proprietary interest, co-ownership, or profit-sharing arrangement with an RDO. Landlord-tenant leases are allowed only within the statute's specific limits."
+  },
+  {
+    "id": "abo-std-063",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "California Regulation",
+    "difficulty": 1,
+    "stem": "In California, registered dispensing opticians dispense prescription lenses based on:",
+    "choices": [
+      "The optician's own refraction",
+      "An expired prescription, if the patient requests it",
+      "A valid prescription from a physician or optometrist",
+      "The patient's previous glasses alone, without a prescription"
+    ],
+    "answer": 2,
+    "explanation": "California's registered dispensing optician law (Business and Professions Code § 2550 and following) lets registered dispensers fill prescriptions written by physicians and optometrists. Opticians don't refract or prescribe."
+  }
+]
