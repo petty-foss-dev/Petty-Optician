@@ -2,6 +2,10 @@
 
 Study app for the ABO Basic (spectacle) and NCLE Basic (contact lens) certification exams, with California registration guidance (SLD/CLD/RDO via the California State Board of Optometry). SwiftUI · Swift 6 · SwiftData · iOS 17+. Part of the Petty app family: follows the workspace code norms (see `../CLAUDE.md`) but uses the Petty look shared with petty: Tracker and petty: Jobs — cool-gray surfaces, teal accent `#0F7A8A` / `#4FC1C9` dark, optional pure black, standard `TabView`, no animated background or floating pill bar. The palette lives in `Core/Theme/ThemeManager.swift`; the icon is rendered by `docs/icon/render_icon.py`.
 
+## Source control
+
+Public repo `https://github.com/petty-foss-dev/Petty-Optician.git` on `main`, AGPL-3.0-only like the other Petty apps. Before committing, check `pwd`, `git remote get-url origin` and `git branch --show-current`. No Claude co-author trailers.
+
 ## Build
 
 ```bash
