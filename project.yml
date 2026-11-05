@@ -1,4 +1,4 @@
-name: EnveOptician
+name: PettyOptician
 options:
   bundleIdPrefix: com.isaaclamb
   deploymentTarget:
@@ -10,18 +10,18 @@ settings:
     MARKETING_VERSION: "1.0"
     ENABLE_USER_SCRIPT_SANDBOXING: YES
 targets:
-  EnveOptician:
+  PettyOptician:
     type: application
     platform: iOS
     sources:
-      - path: EnveOptician
+      - path: PettyOptician
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.isaaclamb.EnveOptician
+        PRODUCT_BUNDLE_IDENTIFIER: com.isaaclamb.PettyOptician
         DEVELOPMENT_TEAM: 9TT6DBK8W3
         CODE_SIGN_STYLE: Automatic
         GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_CFBundleDisplayName: Enve Optician
+        INFOPLIST_KEY_CFBundleDisplayName: "petty: Optician"
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
@@ -31,17 +31,17 @@ targets:
         TARGETED_DEVICE_FAMILY: "1,2"
     scheme:
       testTargets:
-        - EnveOpticianTests
-  EnveOpticianTests:
+        - PettyOpticianTests
+  PettyOpticianTests:
     type: bundle.unit-test
     platform: iOS
     sources:
-      - path: EnveOpticianTests
+      - path: PettyOpticianTests
     dependencies:
-      - target: EnveOptician
+      - target: PettyOptician
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.isaaclamb.EnveOpticianTests
+        PRODUCT_BUNDLE_IDENTIFIER: com.isaaclamb.PettyOpticianTests
         DEVELOPMENT_TEAM: 9TT6DBK8W3
         CODE_SIGN_STYLE: Automatic
         GENERATE_INFOPLIST_FILE: YES

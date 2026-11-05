@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "case-abo-001",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: PAL swim",
+    "difficulty": 2,
+    "stem": "Patient says: \"The floor seems to swim when I walk in my first progressives.\" Remarking shows the fitting crosses centered on her pupils and the PDs are correct, but the frame sits nearly vertical with almost no face form. What is the best next step?",
+    "choices": [
+      "Remake the lenses on a steeper base curve",
+      "Adjust the frame for more pantoscopic tilt and face form",
+      "Increase the add power by +0.50 D",
+      "Remake the lenses in a design with a longer corridor"
+    ],
+    "answer": 1,
+    "explanation": "Once PD and fitting height are confirmed, IOT's troubleshooting table lists too little pantoscopic tilt and too little facial wrap as causes of a swimming sensation, with frame adjustment as the remedy. A longer corridor, a stronger add or a base-curve change does nothing for a position-of-wear problem; adjust first and remake only if that fails.",
+    "source": {
+      "title": "IOT: Troubleshooting Progressive Lenses",
+      "url": "https://iotlenses.com/en/blog/troubleshooting-progressive-lenses.html"
+    }
+  },
+  {
+    "id": "case-abo-002",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: PAL chin-up reading",
+    "difficulty": 2,
+    "stem": "Patient says: \"I have to tip my head way back to read with my new progressives.\" Add power, monocular PDs and fitting heights all verify, but the new design has a noticeably longer corridor than her previous pair. What is the most likely fix?",
+    "choices": [
+      "Lower both fitting heights 2 mm so the near zone sits lower",
+      "Remake in a design with a shorter corridor",
+      "Reduce the add 0.25 D so she can read from farther away",
+      "Increase the vertex distance so the near zone widens"
+    ],
+    "answer": 1,
+    "explanation": "A corridor that is too long places full add power low in the lens, so the wearer raises her chin to drop her eyes far enough to reach it. IOT lists this as a cause of tilting the head up to read, with a shorter corridor as the remedy. Lowering the heights or reducing tilt would push the near zone even further out of reach.",
+    "source": {
+      "title": "IOT: Troubleshooting Progressive Lenses",
+      "url": "https://iotlenses.com/en/blog/troubleshooting-progressive-lenses.html"
+    }
+  },
+  {
+    "id": "case-abo-003",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: PAL fitting height too high",
+    "difficulty": 2,
+    "stem": "Patient says: \"I have to drop my chin to see the TV clearly in my new progressives.\" When you remark the lenses, the fitting crosses sit about 3 mm above her pupil centers. What is the most likely cause and fix?",
+    "choices": [
+      "Fitting height too low; raise the frame on the face",
+      "Add too weak; increase the add power",
+      "Monocular PDs reversed; swap the lenses",
+      "Fitting height too high; lower the frame or remake lower"
+    ],
+    "answer": 3,
+    "explanation": "With the fitting crosses above the pupils, her straight-ahead gaze falls into the top of the corridor where plus power is already building, so distance blurs and she tucks her chin to look higher in the lens. IOT attributes tilting the head forward for distance to a segment height that is too high and recommends adjusting the frame or remaking.",
+    "source": {
+      "title": "IOT: Troubleshooting Progressive Lenses",
+      "url": "https://iotlenses.com/en/blog/troubleshooting-progressive-lenses.html"
+    }
+  },
+  {
+    "id": "case-abo-004",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: PAL fitting height too low",
+    "difficulty": 2,
+    "stem": "Patient says reading is blurry and the reading area is hard to find in her new progressives. Remarked fitting crosses sit about 2 mm below her pupil centers; the rest of the adjustment is good. What is the best response?",
+    "choices": [
+      "Raise the fitting crosses by adjustment, or remake at the correct height",
+      "Increase the vertex distance to widen the near zone",
+      "Remake with a wider PD so the near zones line up",
+      "Leave the heights and increase the add +0.50 D so the lower lens reads clearly"
+    ],
+    "answer": 0,
+    "explanation": "When the fitting cross sits below the pupil, the entire progression moves down and the near zone ends up near the bottom of the lens. IOT lists a segment height that is too low as a cause of blurry near vision; 20/20's Problem Solving 101 notes the fitting cross can be raised or lowered with nose-pad adjustment, otherwise reorder with correct heights.",
+    "source": {
+      "title": "IOT: Troubleshooting Progressive Lenses",
+      "url": "https://iotlenses.com/en/blog/troubleshooting-progressive-lenses.html"
+    }
+  },
+  {
+    "id": "case-abo-005",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: PAL monocular PD error",
+    "difficulty": 3,
+    "stem": "Patient says she has to turn her head slightly to get her new progressives clear at intermediate and near. Measured monocular PDs were R 30.5 / L 33.5 mm, but the lab made both lenses at 32.0 mm. What is the problem?",
+    "choices": [
+      "Add face form so the corridors swing into line with her eyes",
+      "Accept: the total PD of 64 mm is correct, so the pair is within tolerance",
+      "Each cross is 1.5 mm off, outside the ±1.0 mm PAL tolerance; remake",
+      "The add is too strong and should be reduced before remaking"
+    ],
+    "answer": 2,
+    "explanation": "Progressive corridors are narrow, so they must be placed on each eye's monocular PD. ANSI Z80.1-2025 requires each PAL fitting cross to be within ±1.0 mm of the specified monocular PD; a correct total PD does not compensate for 1.5 mm errors per eye. Looking to the side to focus is the classic symptom of misplaced corridors.",
+    "source": {
+      "title": "The Vision Council: ANSI Z80.1-2025 — What's New",
+      "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo-west/2025/docs/handouts/24O4-ANSI-ASC-Z80.1-2025-Whats-New-Contact%20Lenses.pdf.coredownload.539609178.1-2025-Whats-New-Contact%20Lenses.pdf"
+    }
+  },
+  {
+    "id": "case-abo-006",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: PAL in a shallow frame",
+    "difficulty": 2,
+    "stem": "A patient picked a narrow frame; her measured progressive fitting height was 14 mm. Two weeks later she says the reading area is tiny and she has to look almost to the bottom edge of the lens. What should have been done when ordering?",
+    "choices": [
+      "Order the fitting height 2 mm lower than measured",
+      "Specify a flatter base curve",
+      "Order a lower add power",
+      "Recommend a short-corridor design or a deeper frame"
+    ],
+    "answer": 3,
+    "explanation": "20/20's remake-prevention lesson advises recommending a short fit (or a deeper frame) whenever the measured height is under about 16 mm; otherwise the near and intermediate zones are cut off or squeezed into the bottom of the lens. Lowering the height would make it worse, and add or base curve doesn't create vertical room.",
+    "source": {
+      "title": "20/20 Magazine CE: Tips to Decrease Remakes, Part 2",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/tips-for-reducing-remakes-part"
+    }
+  },
+  {
+    "id": "case-abo-007",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Same PAL design, new Rx",
+    "difficulty": 3,
+    "stem": "Patient says: \"My last progressives were fine, these are awful.\" The office reordered the same design and corridor; only the Rx changed, with the add rising from +1.75 to +2.50. Measurements and adjustment verify. What does progressive troubleshooting guidance point to?",
+    "choices": [
+      "The new Rx changes how the design performs; reconsider progression length",
+      "Raise the fitting height 2 mm and reorder the same design and corridor",
+      "Match the old pair's base curve; the add change doesn't matter",
+      "A lab error, because an identical design must perform identically for any Rx"
+    ],
+    "answer": 0,
+    "explanation": "IOT notes that when the same design is repeat-dispensed after a prescription change, the design's behavior can change dramatically, and the usual culprit is progression length. Treat every PAL wearer like a new fit: re-evaluate design and corridor for the new Rx rather than assuming the old choice still works.",
+    "source": {
+      "title": "IOT: Troubleshooting Progressive Lenses",
+      "url": "https://iotlenses.com/en/blog/troubleshooting-progressive-lenses.html"
+    }
+  },
+  {
+    "id": "case-abo-008",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: PAL wearer reading off to the side",
+    "difficulty": 3,
+    "stem": "A progressive wearer sees well at distance and intermediate, but says she must hold reading material far to the left to see it clearly. The frame is properly adjusted and the fitting crosses align with her pupils. What is the best next step?",
+    "choices": [
+      "Switch to a longer-corridor design so the near zone is wider",
+      "Find her true near points with the mirror-dot technique and order from those",
+      "Lower both fitting heights by 2 mm so the near zone sits closer to her gaze",
+      "Increase the add by +0.50 D so she can read through the edge of the near zone"
+    ],
+    "answer": 1,
+    "explanation": "Optometry Times describes this case: the patient isn't converging down and in through the near circles. Placing a dotted flat mirror at her working distance and marking where her lines of sight cross the lenses gives her true near PD, which the lab can use to position the near zones. The add and heights are not the problem.",
+    "source": {
+      "title": "Optometry Times: Troubleshooting optical complaints",
+      "url": "https://www.optometrytimes.com/view/troubleshooting-optical-complaints"
+    }
+  },
+  {
+    "id": "case-abo-009",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Case: Induced prism from wide OCs",
+    "difficulty": 3,
+    "stem": "A -6.00 D OU single-vision wearer says her new glasses \"pull\" and tire her eyes. Her PD is 62 mm, but the lensmeter shows the optical centers 68 mm apart. What is the induced prism?",
+    "choices": [
+      "About 1.8Δ base-in total, within tolerance",
+      "About 3.6Δ base-in total, outside tolerance; remake",
+      "None, because a decentered minus lens induces no prism",
+      "About 3.6Δ base-out total, outside tolerance; remake"
+    ],
+    "answer": 1,
+    "explanation": "Prentice's rule (prism = power × decentration in cm): each eye looks 3 mm nasal to its OC, so 6.00 × 0.3 = 1.8Δ per lens. A minus lens has its base toward the edge, so a point nasal to the OC is base-in; the two lenses add to 3.6Δ BI. For powers over ±2.75 D, ANSI allows only 2.5 mm of PD error, so 6 mm fails.",
+    "source": {
+      "title": "20/20 Magazine: Understanding the Prismatic Effect",
+      "url": "https://www.2020mag.com/article/understanding-the-prismatic-effect-rxpertise"
+    }
+  },
+  {
+    "id": "case-abo-010",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Readers made at distance PD",
+    "difficulty": 2,
+    "stem": "Patient picks up +2.50 single-vision readers and says they pull her eyes when she reads. Her PD is 64/61 mm, and the lensmeter shows the optical centers 64 mm apart. What is the most likely cause?",
+    "choices": [
+      "The OCs were set to her distance PD instead of her near PD",
+      "The add is too weak for her reading distance",
+      "The frame has too much pantoscopic tilt for reading",
+      "The base curve wasn't matched to her old readers, causing a pull"
+    ],
+    "answer": 0,
+    "explanation": "NAO's SOAP course lists a correctly measured PD that was ordered incorrectly (distance PD instead of near) as a cause of a pulling sensation. Reading glasses should be centered on the near PD; here each OC is 1.5 mm too far out, inducing base-in prism with plus lenses, which the eyes feel as strain.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 2",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-2.pdf"
+    }
+  },
+  {
+    "id": "case-abo-011",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Base curve not matched",
+    "difficulty": 2,
+    "stem": "A patient's Rx changed by only -0.25 D, yet she says her new single-vision glasses feel pulled and \"different.\" Her old lenses were on a 6.00 D base curve; the new spherical CR-39 lenses came back on a 4.00 D base. What is the best fix?",
+    "choices": [
+      "Reduce the pantoscopic tilt",
+      "Add face form to the frame",
+      "Keep them; base curve affects only appearance",
+      "Remake on the same base curve as her previous pair"
+    ],
+    "answer": 3,
+    "explanation": "NAO's guidance: when the Rx change is less than 1 D, match the base curve of the previous eyewear; when the change exceeds 1 D, or the lens is aspheric or digitally designed, let the lab compute the best base curve. A 2 D base-curve jump changes magnification and peripheral optics enough to cause a pulling complaint.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 2",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-2.pdf"
+    }
+  },
+  {
+    "id": "case-abo-012",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Case: OC height with pantoscopic tilt",
+    "difficulty": 3,
+    "stem": "You are ordering single-vision lenses. With the frame adjusted to 10° of pantoscopic tilt, the patient's pupil centers are 24 mm above the lowest point of the lens shape. What OC height should you specify?",
+    "choices": [
+      "29 mm",
+      "22 mm",
+      "24 mm",
+      "19 mm"
+    ],
+    "answer": 3,
+    "explanation": "For every 2° of pantoscopic tilt, the optical center should be dropped 1 mm below the pupil so the optical axis passes through the eye's center of rotation. 10° of tilt means a 5 mm drop: 24 - 5 = 19 mm. Ignoring tilt (24 mm) is a classic cause of a pulling complaint.",
+    "source": {
+      "title": "20/20 Magazine: The Well-Adjusted Frame",
+      "url": "https://www.2020mag.com/article/the-well-adjusted-frame"
+    }
+  },
+  {
+    "id": "case-abo-013",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Wrap sunglasses Rx",
+    "difficulty": 2,
+    "stem": "A -2.00 D OU patient's prescription sunglasses in a steeply wrapped 8-base frame were made with standard, uncompensated lenses. He says they strain his eyes and the world looks \"off.\" What is the best solution?",
+    "choices": [
+      "Add base-out prism to each lens",
+      "Increase the pantoscopic tilt",
+      "Reorder as a wrap-compensated Rx with prism compensation",
+      "Reorder on a 4-base curve to match his dress glasses"
+    ],
+    "answer": 2,
+    "explanation": "Rotating a lens around a vertical axis (wrap) induces base-out prism and changes effective power. NAO recommends a wrap-compensated Rx and/or base-in prism to offset it. More base-out would make the problem worse, and a flat 4-base lens doesn't fit an 8-base frame.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 2",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-2.pdf"
+    }
+  },
+  {
+    "id": "case-abo-014",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Case: Vertex change, high minus",
+    "difficulty": 3,
+    "stem": "A patient refracted at -8.00 D with a 14 mm vertex distance chose a frame with no nose pads that sits at 10 mm. She says the new glasses seem too strong. What power should have been ordered for that frame position?",
+    "choices": [
+      "-7.25 D",
+      "-8.00 D",
+      "-7.75 D",
+      "-8.25 D"
+    ],
+    "answer": 2,
+    "explanation": "Moving a minus lens closer to the eye makes it effectively stronger. Using the approximation from 20/20's Problem Solving 101 (power² ÷ 1000 × mm of change): 64 ÷ 1000 × 4 ≈ 0.25 D, so the lens fit 4 mm closer should be ordered at -7.75 D. Adding minus would compound the overcorrection.",
+    "source": {
+      "title": "20/20 Magazine CE: Problem Solving 101",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/problem-solving-101-how-to-3B5AF"
+    }
+  },
+  {
+    "id": "case-abo-015",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Case: Vertex change, high plus",
+    "difficulty": 2,
+    "stem": "A +9.00 D wearer says his glasses suddenly seem too strong at distance. You notice the frame has slid down his nose so the lenses sit well farther from his eyes than at the fitting. What explains it?",
+    "choices": [
+      "A plus lens moved away from the eye loses effective power, so it's under-correcting",
+      "A plus lens moved away from the eye gains effective plus power",
+      "Vertex distance matters only for minus lenses, so look for a lab error",
+      "The slipping frame is inducing base-out prism at distance"
+    ],
+    "answer": 1,
+    "explanation": "Plus lenses gain effective power as they move away from the eye and lose power as they move closer (the reverse of minus lenses). At +9.00 D, a few millimeters of extra vertex produces a noticeable overcorrection. Readjust the frame to the fitted vertex distance before considering any remake.",
+    "source": {
+      "title": "20/20 Magazine CE: Problem Solving 101",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/problem-solving-101-how-to-3B5AF"
+    }
+  },
+  {
+    "id": "case-abo-016",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: First-time hyperope",
+    "difficulty": 2,
+    "stem": "A 30-year-old receiving her first distance glasses (+1.50 OU) says, \"Everything looks too strong; I see better without them.\" The lenses verify and fit well. What is the best response?",
+    "choices": [
+      "Explain she's been accommodating, and allow 1-2 weeks to adapt",
+      "Add base-in prism to both lenses for comfort",
+      "Remake in a higher-index material to reduce magnification",
+      "Remake at +0.75 OU right away, since she prefers no correction"
+    ],
+    "answer": 0,
+    "explanation": "NAO notes that first-time hyperopes are used to accommodating to overcome their hyperopia, so a full correction can feel too strong at first. The recommended approach is education, reassurance and one to two weeks of adaptation before any change is considered; the optician shouldn't alter the prescription.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 1",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-1.pdf"
+    }
+  },
+  {
+    "id": "case-abo-017",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Blur at the sides after a frame change",
+    "difficulty": 2,
+    "stem": "A patient moved from a frame with generous face form to a flat-fronted frame. She now sees blur, and the edge of the frame, when she looks to the sides. What is the best adjustment?",
+    "choices": [
+      "Remake with a flatter base curve to reduce edge blur",
+      "Reduce the pantoscopic tilt",
+      "Increase vertex distance so the frame edge falls outside her view",
+      "Add face form to move the lens periphery out of her line of sight"
+    ],
+    "answer": 3,
+    "explanation": "Going from a wrapped to a flat frame moves the optically inferior periphery (marginal astigmatism) and the frame edge into the line of sight. 20/20's Problem Solving 101 recommends adding a bit of face form to move the lens edge back out of view; more vertex would actually widen the problem.",
+    "source": {
+      "title": "20/20 Magazine CE: Problem Solving 101",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/problem-solving-101-how-to-3B5AF"
+    }
+  },
+  {
+    "id": "case-abo-018",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Wavy floor in single vision",
+    "difficulty": 2,
+    "stem": "A -3.00 D wearer says vision through her new glasses is clear straight ahead, but the floor looks wavy when she walks. The lenses verify. Which adjustment combination is recommended first?",
+    "choices": [
+      "Increase vertex distance only",
+      "Decrease vertex, and increase pantoscopic tilt and face form",
+      "Increase vertex distance, reduce tilt and flatten face form",
+      "Remove all tilt so the lenses hang vertical"
+    ],
+    "answer": 1,
+    "explanation": "Optometry Times describes three adjustments that move peripheral aberrations out of the field of view: shorter vertex, more pantoscopic tilt and more face form. It notes the exceptions: prescriptions over ±7.00 D and unbalanced prescriptions (1.50 D or more difference), where tilt and wrap can create new problems.",
+    "source": {
+      "title": "Optometry Times: Troubleshooting optical complaints",
+      "url": "https://www.optometrytimes.com/view/troubleshooting-optical-complaints"
+    }
+  },
+  {
+    "id": "case-abo-019",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Rainbows in polycarbonate",
+    "difficulty": 2,
+    "stem": "Patient in new polycarbonate lenses (-5.00 OU) says she sees color fringes, \"rainbows,\" around bright objects when she looks off to the side. What is the most likely cause?",
+    "choices": [
+      "Too much pantoscopic tilt in the frame",
+      "Chromatic aberration from the material's low Abbe value",
+      "Over-tightened eyewire screws stressing the lens",
+      "A missing UV-blocking treatment"
+    ],
+    "answer": 1,
+    "explanation": "Polycarbonate and many high-index plastics have low Abbe values, so white light disperses into colors, especially off-axis in stronger powers. 20/20's Problem Solving 101 advises fitting the lens as close to the eye as possible and adding face form; a higher-Abbe material is the other fix. An exposed polished edge can also cause internal rainbows.",
+    "source": {
+      "title": "20/20 Magazine CE: Problem Solving 101",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/problem-solving-101-how-to-3B5AF"
+    }
+  },
+  {
+    "id": "case-abo-020",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Case: Walking uphill sensation",
+    "difficulty": 2,
+    "stem": "Patient says that through her new glasses she feels shorter, as if walking uphill, with her surroundings looming tall. Which unwanted prism does this symptom point to?",
+    "choices": [
+      "Base-in prism",
+      "Base-up prism",
+      "Base-out prism",
+      "Base-down prism"
+    ],
+    "answer": 3,
+    "explanation": "Light bends toward the base and the image shifts toward the apex. Base-down prism displaces images upward, producing the \"inside a bowl, walking uphill\" feeling; base-up gives a walking-downhill sensation. 20/20's Problem Solving 101 recommends marking the lens and checking for prism where the patient actually looks.",
+    "source": {
+      "title": "20/20 Magazine CE: Problem Solving 101",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/problem-solving-101-how-to-3B5AF"
+    }
+  },
+  {
+    "id": "case-abo-021",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: One PAL lens remade",
+    "difficulty": 3,
+    "stem": "One lens of a progressive pair was remade after a scratch. The patient now reports eyestrain and slight vertical doubling. What should you check first?",
+    "choices": [
+      "The base curve of the remade lens against the original lens",
+      "Prism at both PRPs, to confirm the thinning prism is equal",
+      "The add power of the original lens, in case it was also wrong",
+      "The pantoscopic tilt of the frame after the lens swap"
+    ],
+    "answer": 1,
+    "explanation": "Progressives are usually made with yoked base-down prism thinning, which is harmless only when it is equal in both eyes. 20/20's Problem Solving 101 warns that a single remade lens can carry a different amount; check both PRPs, apply the rules for canceling and compounding prism, and remake if they are uneven.",
+    "source": {
+      "title": "20/20 Magazine CE: Problem Solving 101",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/problem-solving-101-how-to-3B5AF"
+    }
+  },
+  {
+    "id": "case-abo-022",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Adapted to old centration error",
+    "difficulty": 3,
+    "stem": "A patient wore his old glasses for years with optical centers well off his PD. His new, correctly centered lenses feel wrong to him. What approach does the guidance suggest?",
+    "choices": [
+      "Duplicate the old centration error exactly, since he's adapted",
+      "Add base-in prism to both lenses to mimic the old pair's feel",
+      "Split the difference now, then go fully correct on the next pair",
+      "Order a lower-index material so the induced prism feels weaker"
+    ],
+    "answer": 2,
+    "explanation": "A patient can adapt to prism induced by long-standing centration errors. 20/20's Problem Solving 101 recommends a compromise: split the difference between correct centration and what he's used to, then bring him to zero induced prism on the next pair. Permanently copying a known error isn't good practice.",
+    "source": {
+      "title": "20/20 Magazine CE: Problem Solving 101",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/problem-solving-101-how-to-3B5AF"
+    }
+  },
+  {
+    "id": "case-abo-023",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Anisometrope reading through a bifocal",
+    "difficulty": 3,
+    "stem": "A flat-top bifocal wearer (OD -1.00 DS, OS -4.00 DS) says words double vertically when she reads. The lenses verify. What is the standard solution?",
+    "choices": [
+      "Reverse slab (molded base-down) on the left lens",
+      "Raise both segment heights 2 mm",
+      "Slab-off on the left lens",
+      "Slab-off (bicentric grind) on the right lens"
+    ],
+    "answer": 2,
+    "explanation": "Looking down through the segments of unequal lenses induces vertical imbalance; NAO flags differences over 1.5 D in the vertical meridian. Slab-off (bicentric grinding) adds base-up prism to the most minus or least plus lens, here the OS. Reverse slab is molded base-down prism on the most plus or least minus lens, which would be the OD.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 2",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-2.pdf"
+    }
+  },
+  {
+    "id": "case-abo-024",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Case: Vertical imbalance at near",
+    "difficulty": 3,
+    "stem": "A patient with OD +3.00 DS and OS +1.00 DS reads through single-vision lenses at a point 10 mm below the optical centers. What vertical imbalance is induced?",
+    "choices": [
+      "None, because both lenses are plus and the effects match",
+      "2.0Δ, right eye base-up relative to the left",
+      "4.0Δ, right eye base-up, since the prisms add together",
+      "2.0Δ, with the right eye base-down relative to the left"
+    ],
+    "answer": 1,
+    "explanation": "Prentice's rule: OD 3.00 × 1.0 = 3Δ and OS 1.00 × 1.0 = 1Δ. Below the OC of a plus lens the base is up, so both are base-up; prisms in the same direction cancel, leaving 2Δ net base-up OD. That exceeds the roughly 1.5Δ that 20/20 cites as the practical limit for comfortable fusion.",
+    "source": {
+      "title": "20/20 Magazine: Understanding the Prismatic Effect",
+      "url": "https://www.2020mag.com/article/understanding-the-prismatic-effect-rxpertise"
+    }
+  },
+  {
+    "id": "case-abo-025",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Case: Monocular double vision",
+    "difficulty": 2,
+    "stem": "Patient says her new glasses give her double vision, and it persists with one eye covered. The lenses and fit check out. What is the best action?",
+    "choices": [
+      "Order slab-off on the weaker lens to balance the images",
+      "Refer to the doctor; this points to an ocular cause like cataract",
+      "Add vertical prism to the affected eye to fuse the two images",
+      "Remake with AR coating to remove the second image from reflections"
+    ],
+    "answer": 1,
+    "explanation": "Double vision that remains with one eye closed is monocular and can't be caused by binocular prism imbalance. NAO's course links monocular diplopia to ocular conditions such as cataract and directs the optician to the doctor's notes or a referral. Prism and slab-off address binocular problems only.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 2",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-2.pdf"
+    }
+  },
+  {
+    "id": "case-abo-026",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Executive bifocal ghosting",
+    "difficulty": 2,
+    "stem": "An executive-bifocal wearer reports a faint ghost image when looking near the segment line. The prescription and segment heights verify. What can help?",
+    "choices": [
+      "Polarized lenses to block light reflected off the ledge",
+      "A stronger add, since ghosting means the near power is weak",
+      "More vertex distance so the ledge sits farther from the eye",
+      "Anti-reflective coating to reduce scatter from the ledge"
+    ],
+    "answer": 3,
+    "explanation": "NAO notes that looking through the ledge of a bifocal or trifocal, especially an executive, can produce a doubling complaint, and AR coating can sometimes help because the symptom is aggravated by light scatter off the ledge. If adjustment doesn't resolve it, refer back to the doctor.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 2",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-2.pdf"
+    }
+  },
+  {
+    "id": "case-abo-027",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Distance not as sharp as expected",
+    "difficulty": 2,
+    "stem": "Patient says distance vision in her new glasses isn't as sharp as she expected. Adjustment is correct and the lenses verify to the Rx. What is the next appropriate check?",
+    "choices": [
+      "Over-refract the distance zone with ±0.25 D flippers",
+      "Order AR coating, since reflections reduce sharpness",
+      "Remake in a higher-index material for sharper optics",
+      "Add 2° of pantoscopic tilt and recheck in a week"
+    ],
+    "answer": 0,
+    "explanation": "NAO's SOAP method: recheck adjustment, re-verify, then use a trial-lens over-refraction, starting with +0.25 and -0.25 over the distance zone (or +0.25 OU over the reading area with a flipper). The result tells you whether a prescription question should go back to the doctor.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 1",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-1.pdf"
+    }
+  },
+  {
+    "id": "case-abo-028",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Case: Reduced best-corrected acuity",
+    "difficulty": 2,
+    "stem": "A patient sees only 20/40 through glasses that verify and fit well, and a ±0.25 over-refraction doesn't help. What should the optician do?",
+    "choices": [
+      "Change to a progressive design for a larger clear zone",
+      "Refer the patient back to the prescribing doctor",
+      "Recommend a polarized lens to boost contrast",
+      "Remake with 0.50 D more sphere to push acuity higher"
+    ],
+    "answer": 1,
+    "explanation": "When best-corrected acuity is below expectation and the eyewear checks out, NAO points to possible ocular causes, such as macular degeneration, cataract, corneal irregularity, dry eye, amblyopia or diabetes, and directs a referral to the doctor. The optician shouldn't keep changing lenses to chase a medical cause.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 1",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-1.pdf"
+    }
+  },
+  {
+    "id": "case-abo-029",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Case: Fluctuating vision with diabetes",
+    "difficulty": 2,
+    "stem": "A patient whose blood sugar was recently uncontrolled says that over three months she now reads better without glasses, but distance is blurrier. She wants new glasses today. What is the best counsel?",
+    "choices": [
+      "Explain it may keep shifting until her sugar stabilizes; involve the doctor",
+      "Recommend polarized lenses, since the blur comes from glare",
+      "Order today's prescription now; refractive changes from blood sugar are permanent",
+      "Increase her add so near and distance balance out again"
+    ],
+    "answer": 0,
+    "explanation": "Eyes On Eyecare describes this case: unstable glucose causes refractive shifts that continue as sugars stabilize. The recommendation is to encourage blood sugar control and wait before finalizing, using an interim option or a lab redo policy if she needs glasses now.",
+    "source": {
+      "title": "Eyes On Eyecare: Top 5 Tips for Troubleshooting New Glasses Complaints",
+      "url": "https://eyesoneyecare.com/resources/top-5-tips-troubleshooting-new-glasses-complaints/"
+    }
+  },
+  {
+    "id": "case-abo-030",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Large cylinder axis change",
+    "difficulty": 3,
+    "stem": "Sphere and cylinder powers match the patient's old pair, but the cylinder axis changed by 20°. She says straight lines look tilted and she feels \"off.\" The lenses verify to the Rx. What is the best next step?",
+    "choices": [
+      "Add base-down prism",
+      "Remake at the old axis without contacting the prescriber",
+      "Consult the prescriber about an axis closer to the old one",
+      "Add face form to the frame"
+    ],
+    "answer": 2,
+    "explanation": "A large axis change can tilt and distort lines and cause an \"off\" feeling even when it is optically correct. Eyes On Eyecare suggests the prescriber check both eyes open and, if needed, shift the axis toward the old one by no more than 5-10° at a time. Changing the Rx is the prescriber's call, not the optician's.",
+    "source": {
+      "title": "Eyes On Eyecare: Top 5 Tips for Troubleshooting New Glasses Complaints",
+      "url": "https://eyesoneyecare.com/resources/top-5-tips-troubleshooting-new-glasses-complaints/"
+    }
+  },
+  {
+    "id": "case-abo-031",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Reading glasses too strong",
+    "difficulty": 2,
+    "stem": "Patient says she has to hold everything closer than she likes to see clearly with her new reading glasses. The lenses verify to the Rx. What is the most likely cause?",
+    "choices": [
+      "The add is too weak, so she moves closer to magnify",
+      "The frame has too little pantoscopic tilt for reading",
+      "The optical centers are set too wide for near",
+      "The add is too strong for her working distance"
+    ],
+    "answer": 3,
+    "explanation": "A stronger add brings the focal point closer, forcing a short working distance. Eyes On Eyecare warns against setting add power by age alone without considering the patient's tasks and working distance. A reduced add needs the prescriber's approval.",
+    "source": {
+      "title": "Eyes On Eyecare: Top 5 Tips for Troubleshooting New Glasses Complaints",
+      "url": "https://eyesoneyecare.com/resources/top-5-tips-troubleshooting-new-glasses-complaints/"
+    }
+  },
+  {
+    "id": "case-abo-032",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "topic": "Case: Over-minused young myope",
+    "difficulty": 2,
+    "stem": "A 25-year-old myope gets headaches and eyestrain doing near work in new glasses, though distance is extra crisp. What likely cause should you raise with the prescriber?",
+    "choices": [
+      "Over-minus correction forcing extra accommodation",
+      "Under-correction of her myopia, causing squinting",
+      "A base curve that's too flat for her prescription",
+      "Too much face form inducing prism at near"
+    ],
+    "answer": 0,
+    "explanation": "Eyes On Eyecare's first tip is not to over-minus myopes: extra minus makes distance look crisp but forces the eyes to accommodate more, producing near-work strain and headaches. The prescriber may cut back the minus or use an anti-fatigue design.",
+    "source": {
+      "title": "Eyes On Eyecare: Top 5 Tips for Troubleshooting New Glasses Complaints",
+      "url": "https://eyesoneyecare.com/resources/top-5-tips-troubleshooting-new-glasses-complaints/"
+    }
+  },
+  {
+    "id": "case-abo-033",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Frame not level",
+    "difficulty": 2,
+    "stem": "Viewed from the front, the patient's right lens sits lower than the left. Her ears are level. What is the correct adjustment?",
+    "choices": [
+      "Angle the right temple down or the left temple up",
+      "Angle the right temple up or the left temple down",
+      "Shorten the left temple bend so that side sits lower",
+      "Bend the right temple inward at the end piece"
+    ],
+    "answer": 0,
+    "explanation": "Changing tilt on one side is how a crooked front is leveled. Per 20/20's well-adjusted-frame guidance, if the right side is tilted down, increase the pantoscopic tilt on the right (temple angled down, which raises that lens) or reduce it on the left. Then confirm overall tilt is still 5-15°.",
+    "source": {
+      "title": "20/20 Magazine: The Well-Adjusted Frame",
+      "url": "https://www.2020mag.com/article/the-well-adjusted-frame"
+    }
+  },
+  {
+    "id": "case-abo-034",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: One lens closer to the face",
+    "difficulty": 3,
+    "stem": "Viewed from above, the right lens is closer to the patient's face than the left. Which adjustment corrects this?",
+    "choices": [
+      "Bend the right temple outward at the end piece to open that side",
+      "Bend the right temple in at the end piece, or the left out",
+      "Increase the pantoscopic tilt on the right side",
+      "Shorten the left temple so the left lens moves in"
+    ],
+    "answer": 1,
+    "explanation": "Per 20/20's guidance, reduce the horizontal angle between the front and the temple on the side that is too close (bringing that temple toward the head), which pushes that lens away from the face. Alternatively, open the angle on the opposite side. Splaying the right temple further would move the right lens even closer.",
+    "source": {
+      "title": "20/20 Magazine: The Well-Adjusted Frame",
+      "url": "https://www.2020mag.com/article/the-well-adjusted-frame"
+    }
+  },
+  {
+    "id": "case-abo-035",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Sore tops of the ears",
+    "difficulty": 2,
+    "stem": "Patient says the tops of her ears are sore. You see that the temple bend begins before the top of the ear. What is the best fix?",
+    "choices": [
+      "Bend the temples inward at the hinges",
+      "Narrow the nose pads",
+      "Move the bend to just past the top of the ear, at about 45°",
+      "Increase the bend angle well beyond 45° for more grip"
+    ],
+    "answer": 2,
+    "explanation": "The temple should curve just above the ear, follow the back of the ear at roughly 45° and avoid excessive pressure on the top or back of the ear. A bend that starts too early rides up on the top of the ear and rubs. Bending more sharply would only increase pressure.",
+    "source": {
+      "title": "20/20 Magazine: The Well-Adjusted Frame",
+      "url": "https://www.2020mag.com/article/the-well-adjusted-frame"
+    }
+  },
+  {
+    "id": "case-abo-036",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Glasses slide down the nose",
+    "difficulty": 2,
+    "stem": "Glasses keep sliding down the patient's nose. The temple bend begins well behind the top of the ear, and the tips don't touch the head behind the ear. What is the best fix?",
+    "choices": [
+      "Move the bend to the top of the ear and contour the tip",
+      "Lengthen the temples so the tips reach farther behind the ear",
+      "Increase the pantoscopic tilt so the frame sits higher",
+      "Spread the nose pads apart so the frame sits more securely"
+    ],
+    "answer": 0,
+    "explanation": "If the bend begins after the top of the ear, the frame can travel forward before the temple catches. 20/20 advises reshaping so the bend conforms at the top of the ear and the tip angles in just enough to touch the head. Spreading the pads or lengthening the temples would make the frame slide more.",
+    "source": {
+      "title": "20/20 Magazine: The Well-Adjusted Frame",
+      "url": "https://www.2020mag.com/article/the-well-adjusted-frame"
+    }
+  },
+  {
+    "id": "case-abo-037",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Frame resting on the cheeks",
+    "difficulty": 2,
+    "stem": "A patient with a very flat, low nasal bridge says her metal frame rests on her cheeks. What is the best adjustment?",
+    "choices": [
+      "Shrink the pad-arm loop to minimize vertex distance",
+      "Bend the temple tips down behind the ears",
+      "Splay the pads nearly parallel and enlarge the pad-arm loop",
+      "Increase the pantoscopic tilt"
+    ],
+    "answer": 2,
+    "explanation": "For very flat bridges, 20/20's well-adjusted-frame article recommends changing the splay angle so the pads sit almost parallel to the face and making the pad-arm loop larger than standard to keep the frame off the lower cheeks. More tilt would push the lower rims into the cheeks.",
+    "source": {
+      "title": "20/20 Magazine: The Well-Adjusted Frame",
+      "url": "https://www.2020mag.com/article/the-well-adjusted-frame"
+    }
+  },
+  {
+    "id": "case-abo-038",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Retroscopic frame tilt",
+    "difficulty": 2,
+    "stem": "A patient's new frame tilts so the bottoms of the lenses are farther from her face than the tops. She complains of distortion when she reads. What is the target adjustment?",
+    "choices": [
+      "Increase the vertex distance instead of the tilt",
+      "Flatten the face form to 0° to reduce distortion",
+      "Increase the retroscopic tilt to about 10°",
+      "Create pantoscopic tilt of about 5-15°"
+    ],
+    "answer": 3,
+    "explanation": "Retroscopic tilt tips the lower lens away from the eye as it rotates down to read, increasing oblique aberrations. NAO's course calls for 5-15° of pantoscopic tilt so the lens stays closer to equidistant from the eye in downgaze, improving field of view and comfort.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 1",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-1.pdf"
+    }
+  },
+  {
+    "id": "case-abo-039",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Lens material for a child",
+    "difficulty": 2,
+    "stem": "A parent asks for CR-39 lenses in her 6-year-old's glasses because they are cheaper. What should you recommend?",
+    "choices": [
+      "Polycarbonate or Trivex for impact resistance",
+      "1.74 high index, for the thinnest possible lenses",
+      "CR-39 with a scratch coat, since that addresses kids' main risk",
+      "Glass, for the best optics and scratch resistance"
+    ],
+    "answer": 0,
+    "explanation": "20/20's pediatric dispensing lesson recommends polycarbonate or Trivex for children because they are thin, light, impact resistant and block UV. Active children need impact protection, which scratch coats, glass and standard high-index materials don't provide to the same degree.",
+    "source": {
+      "title": "20/20 Magazine CE: Keys to an Ideal Optical Experience for Kids",
+      "url": "https://www.2020mag.com/ce/keys-to-an-ideal-optical"
+    }
+  },
+  {
+    "id": "case-abo-040",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Child's temples bowing out",
+    "difficulty": 2,
+    "stem": "A child's temples bow outward from the hinges back to the ears. What does this indicate?",
+    "choices": [
+      "The frame is too wide for the child's head",
+      "The temples are too long for the child's ears",
+      "The frame front is too narrow",
+      "The bridge is too large and sits too low"
+    ],
+    "answer": 2,
+    "explanation": "Per 20/20's pediatric guidance, temples should run straight from hinge to ear; bowing indicates a frame that is too narrow for the child's head. Temples extending below the ear suggest a frame that is too big. Choose a frame that fits now rather than one to grow into.",
+    "source": {
+      "title": "20/20 Magazine CE: Keys to an Ideal Optical Experience for Kids",
+      "url": "https://www.2020mag.com/ce/keys-to-an-ideal-optical"
+    }
+  },
+  {
+    "id": "case-abo-041",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Infant's glasses won't stay on",
+    "difficulty": 2,
+    "stem": "A 14-month-old's glasses won't stay on. Which frame feature does pediatric guidance suggest?",
+    "choices": [
+      "A metal frame with adjustable pads for a secure fit",
+      "A bendable nylon frame with an elastic head strap",
+      "A rimless mounting so the glasses weigh almost nothing",
+      "Spring hinges alone, to keep the temples snug"
+    ],
+    "answer": 1,
+    "explanation": "20/20's pediatric lesson describes bendable nylon frames for infants and very young children that include an elastic band around the head to keep the frame in place and add safety. Spring hinges reduce breakage but don't hold a frame on a toddler.",
+    "source": {
+      "title": "20/20 Magazine CE: Keys to an Ideal Optical Experience for Kids",
+      "url": "https://www.2020mag.com/ce/keys-to-an-ideal-optical"
+    }
+  },
+  {
+    "id": "case-abo-042",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Case: Prescription safety marking",
+    "difficulty": 2,
+    "stem": "An employer requires high-impact prescription safety eyewear. Which marking should the frame carry under ANSI/ISEA Z87.1-2025?",
+    "choices": [
+      "Z87-2 D3",
+      "Z87-2+",
+      "Z87",
+      "Z87 U6"
+    ],
+    "answer": 1,
+    "explanation": "In Z87.1, \"Z87-2\" identifies prescription eyewear and \"+\" identifies high-impact certification, so a high-impact Rx frame is marked Z87-2+. Plain Z87 is basic impact, D3 is splash/droplet, and U with a scale number marks UV filtration.",
+    "source": {
+      "title": "ANSI Blog: ANSI/ISEA Z87.1-2025 Safety Glasses",
+      "url": "https://blog.ansi.org/ansi/ansi-isea-z87-1-2025-safety-glasses-eye-protection/"
+    }
+  },
+  {
+    "id": "case-abo-043",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Case: Dress glasses as safety glasses",
+    "difficulty": 2,
+    "stem": "A machinist asks if his everyday polycarbonate dress glasses count as workplace safety eyewear. What is the best answer?",
+    "choices": [
+      "Yes, as long as the lenses are at least 2 mm thick at center",
+      "Yes, if the frame has spring hinges and side shields added",
+      "No; occupational eyewear must meet and be marked to ANSI Z87.1",
+      "Yes; all polycarbonate glasses qualify as workplace safety eyewear"
+    ],
+    "answer": 2,
+    "explanation": "Every dress lens must pass the FDA impact requirement (21 CFR 801.410), but that is not the same as occupational protection. ANSI Z87.1 safety eyewear carries Z87 markings (Z87-2 for Rx, + for high impact) on qualifying components. Lens material alone doesn't make a dress frame a safety device.",
+    "source": {
+      "title": "ANSI Blog: ANSI/ISEA Z87.1-2025 Safety Glasses",
+      "url": "https://blog.ansi.org/ansi/ansi-isea-z87-1-2025-safety-glasses-eye-protection/"
+    }
+  },
+  {
+    "id": "case-abo-044",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Case: Impact testing glass lenses",
+    "difficulty": 2,
+    "stem": "You are dispensing prescription glass lenses. Which FDA impact-testing requirement applies?",
+    "choices": [
+      "Glass prescription lenses are exempt from testing",
+      "Only lenses stronger than 3.00 D are tested",
+      "Only a statistical sample from each batch is tested",
+      "Each finished glass lens must be individually drop-ball tested"
+    ],
+    "answer": 3,
+    "explanation": "21 CFR 801.410 requires that each finished impact-resistant glass lens for prescription use be individually tested (a 5/8-inch steel ball dropped from 50 inches). Batch sampling applies to manufacturers of other lenses, such as plastic.",
+    "source": {
+      "title": "eCFR: 21 CFR 801.410 Impact-resistant lenses",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-801/subpart-H/section-801.410"
+    }
+  },
+  {
+    "id": "case-abo-045",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "topic": "Case: Non-impact-resistant lens request",
+    "difficulty": 3,
+    "stem": "A doctor wants a patient to have a lens that isn't impact resistant. What does FDA regulation require?",
+    "choices": [
+      "The doctor directs other lenses in writing and notifies the patient in writing",
+      "Nothing, because the doctor can simply request it by phone",
+      "The optician notes the exception in the patient's chart",
+      "The patient signs a waiver at the dispensing table, kept on file for 3 years"
+    ],
+    "answer": 0,
+    "explanation": "21 CFR 801.410 allows an exception only when the physician or optometrist finds that impact-resistant lenses will not fulfill the patient's visual requirements, directs in writing the use of other lenses and gives written notice to the patient. A dispensing-table waiver doesn't meet the rule.",
+    "source": {
+      "title": "eCFR: 21 CFR 801.410 Impact-resistant lenses",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-801/subpart-H/section-801.410"
+    }
+  },
+  {
+    "id": "case-abo-046",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Photochromics in the car",
+    "difficulty": 2,
+    "stem": "Patient says: \"My photochromic lenses barely darken when I drive.\" What explains this, and what can you offer?",
+    "choices": [
+      "Windshields block most UV; offer a car-activating lens or Rx sunglasses",
+      "Heat inside the car keeps them clear; keep the cabin cool and they'll darken",
+      "Photochromics need a few weeks of sun exposure to fully break in",
+      "The lenses are defective and need to be remade under warranty"
+    ],
+    "answer": 0,
+    "explanation": "Most photochromic lenses react primarily to UV, and car windshields block most UV, so they don't darken enough in the car. Transitions notes that XTRActive responds to both UV and visible light and can darken behind the windshield; Drivewear is designed for driving. Dedicated Rx sunglasses are the other option.",
+    "source": {
+      "title": "Transitions: How Do Photochromics Work?",
+      "url": "https://www.transitions.com/en-us/why-transitions/the-technology/photochromic-tech/"
+    }
+  },
+  {
+    "id": "case-abo-047",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Photochromics in cold weather",
+    "difficulty": 2,
+    "stem": "A skier says her photochromic lenses take a long time to clear after she comes indoors on cold days. What is the best explanation?",
+    "choices": [
+      "The lenses have lost their photochromic dye and need replacing",
+      "Snow reflects infrared light that keeps the lenses dark indoors",
+      "The AR coating is trapping UV inside the lens material",
+      "Cold slows the molecules, so fading back to clear takes longer"
+    ],
+    "answer": 3,
+    "explanation": "Transitions explains that the molecules move slowly when cold, so lenses take longer to go from dark to clear, while warm lenses fade back faster. This is normal behavior, not a defect.",
+    "source": {
+      "title": "Transitions: How Do Photochromics Work?",
+      "url": "https://www.transitions.com/en-us/why-transitions/the-technology/photochromic-tech/"
+    }
+  },
+  {
+    "id": "case-abo-048",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Polarized lenses and screens",
+    "difficulty": 2,
+    "stem": "A driver with new polarized sunglasses says his dashboard display and phone screen look dark or hard to read at certain angles. What is the best explanation?",
+    "choices": [
+      "Polarizers can dim LCD screens at some angles; this is expected",
+      "The lenses need AR on the front to stop screen reflections",
+      "The polarizing film is delaminating and the lenses should be remade",
+      "A photochromic layer is activating from the screen's light"
+    ],
+    "answer": 0,
+    "explanation": "LCD screens emit polarized light, so a polarizing filter can dim or black them out depending on the angle. Consumer guidance notes polarized lenses can make dashboards, phones, ATMs and some watches harder to read and icy patches harder to see. Discuss this before dispensing to pilots and heavy screen users.",
+    "source": {
+      "title": "PrimeVision: Polarized vs Photochromic Lenses",
+      "url": "https://primevision.ca/blogs/eye-care/polarized-vs-photochromic"
+    }
+  },
+  {
+    "id": "case-abo-049",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: Pattern near polarized lens edges",
+    "difficulty": 2,
+    "stem": "In some lighting a patient notices an irregular pattern near the edges of her polarized lenses. What should you check?",
+    "choices": [
+      "Too much pantoscopic tilt bending light unevenly through the film near the edges",
+      "Lens stress; check with a polariscope for tight screws or oversized lenses",
+      "Incorrect add power showing through the polarized film",
+      "Excess UV transmission causing the film to fade unevenly"
+    ],
+    "answer": 1,
+    "explanation": "Polarized lenses can reveal their own stress pattern. 20/20 recommends checking with a colmascope or polariscope (a polarized laptop screen can substitute) and making sure screws aren't over-tightened and lenses weren't edged too large or bent.",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-050",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: White rim on polarized lenses",
+    "difficulty": 2,
+    "stem": "Patient notices a light, whitish rim around the edge of her polarized lenses, especially at the top. What is the best fix on the remake?",
+    "choices": [
+      "Order a mirror coating",
+      "Use a back-surface bevel so more lens shows in front",
+      "Order a thicker polarizing film",
+      "Bevel closer to the front, and tint or color the lens edge"
+    ],
+    "answer": 3,
+    "explanation": "The color of a polarized lens comes from the film; the plastic in front of and behind it is clear, so an exposed edge looks white. 20/20 recommends moving the bevel toward the front so less edge protrudes and tinting the edge on tintable materials (color pens for polycarbonate).",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-051",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Reflections hide the eyes",
+    "difficulty": 2,
+    "stem": "A TV reporter in new 1.67 high-index lenses says viewers can't see her eyes because of reflections. What is the best recommendation?",
+    "choices": [
+      "A polished edge bevel so the lens looks clearer and thinner",
+      "A polarized lens to block the studio lights' reflections",
+      "A light gray tint so reflections are less noticeable on camera",
+      "AR treatment, since reflectance rises with refractive index"
+    ],
+    "answer": 3,
+    "explanation": "Darryl Meister explains in 20/20 that reflectance of a lens surface increases with refractive index, and that reflections obscure the wearer's eyes and facial expressions. High-index lenses especially need AR. A tint or a polished edge would add to the cosmetic problem.",
+    "source": {
+      "title": "20/20 Magazine: The Evolution of Anti-Reflective Coatings, Part 1",
+      "url": "https://www.2020mag.com/article/adapted-from-the-evolution-of-anti-reflective-coatings-part-1"
+    }
+  },
+  {
+    "id": "case-abo-052",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Ghost images while night driving",
+    "difficulty": 2,
+    "stem": "A patient says that at night he sees ghost images and halos around headlights through his uncoated lenses. Which lens option targets this?",
+    "choices": [
+      "A quality anti-reflective coating",
+      "Polarized lenses to cut headlight glare",
+      "Photochromic lenses that adjust to headlights",
+      "A yellow night-driving tint to sharpen contrast"
+    ],
+    "answer": 0,
+    "explanation": "20/20's multiple-pairs lesson notes that night-driving lenses should have quality AR coatings that reduce surface and internal reflections, which cause ghost images and halos. Tints reduce light reaching the eye at night, and photochromic or polarized lenses don't address reflections at night.",
+    "source": {
+      "title": "20/20 Magazine CE: Multiple Pairs - Every Job Needs the Right Tool",
+      "url": "https://www.2020mag.com/ce/multiple-pairs-every-job-needs"
+    }
+  },
+  {
+    "id": "case-abo-053",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Thick high-minus edges",
+    "difficulty": 2,
+    "stem": "A patient with -6.00 D high-index lenses complains the temporal edges are still very thick. Her PD is 58 mm, and the frame's distance between centers is 72 mm. What is the main cause?",
+    "choices": [
+      "Large decentration: the frame center distance far exceeds her PD",
+      "A base curve that's too steep, adding edge thickness all around",
+      "Too much pantoscopic tilt, which thickens the temporal edge",
+      "The lab used a lower index than ordered, so every edge came out thicker"
+    ],
+    "answer": 0,
+    "explanation": "When the PD is much smaller than the frame's DBC, each lens is decentered inward and the temporal edge of a minus lens gets thicker. 20/20 advises matching DBC and PD more closely and watching corner shapes. High index helps, but it can't overcome 7 mm of decentration per lens.",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-054",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Chipping in a grooved rimless",
+    "difficulty": 2,
+    "stem": "Low-power CR-39 lenses (+0.25 -0.25 × 180) in a grooved rimless frame are chipping at the groove. What is the best solution?",
+    "choices": [
+      "Thicker edges (about 2.2-2.5 mm) or polycarbonate/Trivex",
+      "Glass lenses, which are harder than plastic and resist chipping at the groove",
+      "Thinner edges to reduce weight and stress at the groove",
+      "Move the groove toward the back edge to reduce stress"
+    ],
+    "answer": 0,
+    "explanation": "Stock finished lenses can be too thin at the edge for the groove plus enough wall to resist chipping. 20/20 cites about 2.4 mm as the right edge thickness, recommends telling the lab the frame is grooved rimless, and suggests polycarbonate or Trivex for their anti-chip properties when thinner edges are wanted.",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-055",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Magnified eyes in high plus",
+    "difficulty": 2,
+    "stem": "A +6.00 D patient dislikes how her eyes look magnified and how her lenses bulge out of the frame. What is the best lens recommendation?",
+    "choices": [
+      "Spherical CR-39 on a steeper base curve",
+      "Aspheric high-index lenses",
+      "A larger frame with more decentration",
+      "Polarized lenses"
+    ],
+    "answer": 1,
+    "explanation": "Flatter aspheric fronts reduce magnification and bulge, and high index reduces center thickness. 20/20 recommends a lens that is both aspheric and high-index so the eyewire keeps its shape and the eyes look more natural. A steeper spherical lens and a larger, decentered frame both add thickness.",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-056",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Minimum blank size",
+    "difficulty": 3,
+    "stem": "Using the formula MBS = effective diameter + 2 × decentration, find the minimum blank for a frame with an ED of 58 mm and 3 mm of decentration per lens.",
+    "choices": [
+      "61 mm",
+      "64 mm",
+      "70 mm",
+      "58 mm"
+    ],
+    "answer": 1,
+    "explanation": "Per 20/20's tip, MBS = ED + 2 × decentration = 58 + 2(3) = 64 mm. Many labs also add a couple of millimeters for edging allowance, but the formula answer is 64 mm, so a 75 mm stock blank has plenty of room.",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-057",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: Inconsistent lensmeter readings",
+    "difficulty": 2,
+    "stem": "Two opticians read the same lens on the same manual lensmeter and get different powers. What should each do first?",
+    "choices": [
+      "Read only the sphere and ignore cylinder",
+      "Average their two readings",
+      "Turn the power drum rapidly back and forth to find focus",
+      "Focus the eyepiece for their own eye with the drum at zero"
+    ],
+    "answer": 3,
+    "explanation": "20/20 recommends each optician set the drum to plano and focus the eyepiece until the target is crisp for their own eye. It also warns against turning the drum back and forth, because the reader's own accommodation then skews the reading.",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-058",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: Can't find the OC horizontally",
+    "difficulty": 3,
+    "stem": "Verifying a +1.00 -1.00 × 090 lens, you can't locate the optical center horizontally to check the PD. Why, and how should you judge acceptance?",
+    "choices": [
+      "The cylinder axis was ground wrong, so remake before checking",
+      "Use the sphere power with Prentice's rule to compute horizontal prism",
+      "The 180° meridian is plano, so check vertical imbalance instead",
+      "The lens is defective because every lens has a horizontal OC"
+    ],
+    "answer": 2,
+    "explanation": "With axis 090, the 90° meridian carries the sphere (+1.00) and the 180° meridian carries sphere plus cylinder (0.00). With no horizontal power, decentration creates no horizontal prism. 20/20 suggests using other reference points, confirming vertical imbalance is within tolerance and applying the 0.66Δ horizontal limit.",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-059",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: Vertical imbalance on verification",
+    "difficulty": 2,
+    "stem": "A pair of -2.00 D OU single-vision lenses shows 0.50Δ of vertical imbalance at the PRPs. Under ANSI Z80.1-2025, what do you do?",
+    "choices": [
+      "Accept: the vertical tolerance is 1.0Δ",
+      "Accept: it is within 0.67Δ",
+      "Accept: vertical prism isn't toleranced for single vision",
+      "Reject: it exceeds the 0.33Δ vertical tolerance"
+    ],
+    "answer": 3,
+    "explanation": "For powers up to ±3.375 D, ANSI Z80.1-2025 allows no more than 0.33Δ of vertical imbalance; above that, the PRP heights may differ by no more than 1.0 mm. The 0.67Δ figure is the horizontal tolerance. Vertical is held tighter because the eyes fuse vertical differences poorly.",
+    "source": {
+      "title": "The Vision Council: ANSI Z80.1-2025 — What's New",
+      "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo-west/2025/docs/handouts/24O4-ANSI-ASC-Z80.1-2025-Whats-New-Contact%20Lenses.pdf.coredownload.539609178.1-2025-Whats-New-Contact%20Lenses.pdf"
+    }
+  },
+  {
+    "id": "case-abo-060",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: Horizontal PD on a stronger Rx",
+    "difficulty": 3,
+    "stem": "Rx is -5.00 D OU with an ordered PD of 64 mm. The optical centers measure 62 mm apart. Under ANSI Z80.1-2025, what do you do?",
+    "choices": [
+      "Reject: the PD must be within 1.0 mm at this power",
+      "Accept: horizontal prism is not toleranced in single vision",
+      "Accept: it is within ±2.5 mm of the specified PD",
+      "Reject: the induced 1.0Δ exceeds the 0.67Δ limit"
+    ],
+    "answer": 2,
+    "explanation": "For single-vision and multifocal lenses stronger than ±2.75 D, ANSI switches from a 0.67Δ limit to a distance rule: the OCs must be within ±2.5 mm of the specified distance PD. A 2 mm error passes, even though it produces 1.0Δ. The 1.0 mm figure applies to each monocular PAL fitting cross.",
+    "source": {
+      "title": "The Vision Council: ANSI Z80.1-2025 — What's New",
+      "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo-west/2025/docs/handouts/24O4-ANSI-ASC-Z80.1-2025-Whats-New-Contact%20Lenses.pdf.coredownload.539609178.1-2025-Whats-New-Contact%20Lenses.pdf"
+    }
+  },
+  {
+    "id": "case-abo-061",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: PAL fitting cross heights",
+    "difficulty": 3,
+    "stem": "Progressives were ordered at 21 mm fitting height OU. On inspection, the right fitting cross is at 20 mm and the left at 22 mm. Under ANSI Z80.1-2025, what do you do?",
+    "choices": [
+      "Accept: each lens is individually within ±1.0 mm of the order",
+      "Accept: PAL fitting heights are toleranced at ±2.5 mm",
+      "Reject: the heights differ by 2 mm, over the 1.0 mm limit",
+      "Reject: each lens must match the ordered height exactly"
+    ],
+    "answer": 2,
+    "explanation": "ANSI requires each fitting cross to be within ±1.0 mm of the ordered height and the difference between the two mounted lenses to be no more than 1.0 mm. Each lens passes individually, but the 2 mm difference fails, and an unequal pair is what causes asymmetric zones.",
+    "source": {
+      "title": "The Vision Council: ANSI Z80.1-2025 — What's New",
+      "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo-west/2025/docs/handouts/24O4-ANSI-ASC-Z80.1-2025-Whats-New-Contact%20Lenses.pdf.coredownload.539609178.1-2025-Whats-New-Contact%20Lenses.pdf"
+    }
+  },
+  {
+    "id": "case-abo-062",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: Cylinder axis tolerance",
+    "difficulty": 3,
+    "stem": "A lens ordered as -1.00 cylinder at axis 180 reads at axis 177. Under ANSI Z80.1-2025, what do you do?",
+    "choices": [
+      "Reject: the tolerance for this cylinder is ±2°",
+      "Reject: the tolerance for all cylinder powers is ±1°",
+      "Accept: the tolerance for this cylinder is ±3°",
+      "Accept: the tolerance for any cylinder under 2.00 D is ±7°"
+    ],
+    "answer": 2,
+    "explanation": "ANSI tolerances tighten as cylinder increases: ±7° for >0.25 to 0.50 D, ±5° for >0.50 to 0.75 D, ±3° for >0.75 to 1.50 D, and ±2° above 1.50 D. A -1.00 cylinder is allowed ±3°, so 177 passes.",
+    "source": {
+      "title": "The Vision Council: ANSI Z80.1-2025 — What's New",
+      "url": "https://www.visionexpo.com/content/dam/sitebuilder/rna/vision-expo-west/2025/docs/handouts/24O4-ANSI-ASC-Z80.1-2025-Whats-New-Contact%20Lenses.pdf.coredownload.539609178.1-2025-Whats-New-Contact%20Lenses.pdf"
+    }
+  },
+  {
+    "id": "case-abo-063",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Neck strain at the computer",
+    "difficulty": 2,
+    "stem": "A presbyope in general-purpose progressives works at a desktop monitor most of the day and complains of neck strain from tipping her head back. What is the best recommendation?",
+    "choices": [
+      "A stronger add in her general PALs so the screen is clearer",
+      "Raise the PAL fitting height 4 mm to bring the intermediate up",
+      "An office/computer lens as a dedicated task pair",
+      "Single-vision distance lenses with the monitor moved closer"
+    ],
+    "answer": 2,
+    "explanation": "20/20's multiple-pairs lesson recommends office and computer lenses for patients who spend many hours at a screen: they give a wide intermediate and near field positioned so the wearer keeps a natural posture, reducing neck and head strain. Raising a general PAL disrupts distance vision.",
+    "source": {
+      "title": "20/20 Magazine CE: Multiple Pairs - Every Job Needs the Right Tool",
+      "url": "https://www.2020mag.com/ce/multiple-pairs-every-job-needs"
+    }
+  },
+  {
+    "id": "case-abo-064",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: First trifocal height",
+    "difficulty": 2,
+    "stem": "A patient is upgrading from bifocals to trifocals. As a starting point, where is the trifocal segment top usually placed?",
+    "choices": [
+      "At the lower edge of the pupil",
+      "At the center of the pupil",
+      "At the lower lid margin, like a bifocal",
+      "About 2 mm below the lower lid margin"
+    ],
+    "answer": 0,
+    "explanation": "20/20's segment-height guidance: fit bifocals to the top of the lower lid and trifocals to the lower edge of the pupil, measuring from the lowest edge of the lens. Then refine for the previous pair, the patient's height and how the glasses will be used.",
+    "source": {
+      "title": "20/20 Magazine: Segment Height",
+      "url": "https://www.2020mag.com/article/seg-height"
+    }
+  },
+  {
+    "id": "case-abo-065",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Bifocals for golf",
+    "difficulty": 2,
+    "stem": "A golfer wants a second pair of flat-top bifocals for the course because the segment gets in the way when he putts. How should the segment height compare with his everyday pair?",
+    "choices": [
+      "Fit it much lower",
+      "Fit it higher",
+      "Keep the same height and add pantoscopic tilt",
+      "Keep the same height with a wider segment"
+    ],
+    "answer": 0,
+    "explanation": "20/20 notes that a second pair for golf should be fit much lower so the segment isn't in the way when putting. By contrast, tall patients who use eyewear standing may need 1-2 mm lower, and reading-only pairs can be fit higher.",
+    "source": {
+      "title": "20/20 Magazine: Segment Height",
+      "url": "https://www.2020mag.com/article/seg-height"
+    }
+  },
+  {
+    "id": "case-abo-066",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Motorcycle eyewear",
+    "difficulty": 2,
+    "stem": "A motorcyclist wants one wrapped, polarized progressive pair for everything. What does dispensing guidance suggest considering?",
+    "choices": [
+      "Photochromic progressives, which darken best behind a visor",
+      "Flat-top bifocals in an 8-base wrap",
+      "A distance-only riding pair plus progressives in a dress pair",
+      "Standard progressives in a flat frame"
+    ],
+    "answer": 2,
+    "explanation": "20/20 suggests determining the lens use first: a motorcyclist may get better results with distance vision in a dedicated riding pair and a progressive in a dress pair, presenting the riding eyewear as safety equipment. Photochromics don't darken well behind UV-blocking shields.",
+    "source": {
+      "title": "20/20 Magazine: Twenty Essential Troubleshooting Tips for Opticians",
+      "url": "https://www.2020mag.com/article/twenty-essential-troubleshooting-tips-for-opticians"
+    }
+  },
+  {
+    "id": "case-abo-067",
+    "exam": "abo",
+    "domain": "abo.products",
+    "topic": "Case: Material change, same Rx",
+    "difficulty": 2,
+    "stem": "A patient's Rx is unchanged, but she switched from CR-39 to 1.67 high index for thinness. Now she reports dizziness and discomfort. Measurements match the old pair. What is the most likely contributor?",
+    "choices": [
+      "A missing UV block in the high-index material",
+      "An incorrect PD, since thinner lenses need a different PD",
+      "The material change and the base-curve change with it",
+      "An incorrect add power ordered on the new pair"
+    ],
+    "answer": 2,
+    "explanation": "20/20's remake-prevention lesson warns that sudden material switches, such as CR-39 to polycarbonate or 1.67, can cause dizziness, headaches and discomfort linked to the accompanying base-curve change. Match materials carefully or prepare the patient for adaptation.",
+    "source": {
+      "title": "20/20 Magazine CE: Tips to Decrease Remakes, Part 2",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/tips-for-reducing-remakes-part"
+    }
+  },
+  {
+    "id": "case-abo-068",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Fitting crosses high in an acetate frame",
+    "difficulty": 3,
+    "stem": "In an acetate frame without adjustable pads, the remarked progressive fitting crosses sit about 1 mm above the pupil centers. Which adjustment lowers them relative to the pupils?",
+    "choices": [
+      "Increase the face form",
+      "Increase the pantoscopic tilt",
+      "Narrow the temple spread",
+      "Decrease the pantoscopic tilt"
+    ],
+    "answer": 1,
+    "explanation": "20/20's Problem Solving 101 notes that in an acetate frame, increasing pantoscopic tilt lowers a fitting cross that is too high (and makes the reading area easier to reach), while decreasing tilt raises it. Larger errors still need a remake with correct heights.",
+    "source": {
+      "title": "20/20 Magazine CE: Problem Solving 101",
+      "url": "https://www.2020mag.com/nysso/ce/lesson/problem-solving-101-how-to-3B5AF"
+    }
+  },
+  {
+    "id": "case-abo-069",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Case: Heights measured before adjusting",
+    "difficulty": 2,
+    "stem": "A new optician measured progressive fitting heights on a frame straight off the display, then adjusted it at dispensing. The patient now says the heights feel wrong. What should have been done?",
+    "choices": [
+      "Measure the heights with the patient looking down",
+      "Measure only a binocular PD",
+      "Add 2 mm to every measured height",
+      "Adjust the frame to the patient before measuring heights"
+    ],
+    "answer": 3,
+    "explanation": "20/20's segment-height guidance makes frame adjustment the first step: about 5° of face form and 7-10° of pantoscopic tilt, with a short vertex distance, before measuring heights. Adjusting afterward moves the frame on the face and shifts the fitting crosses away from the pupils.",
+    "source": {
+      "title": "20/20 Magazine: Segment Height",
+      "url": "https://www.2020mag.com/article/seg-height"
+    }
+  },
+  {
+    "id": "case-abo-070",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "topic": "Case: Warped lens",
+    "difficulty": 3,
+    "stem": "A patient reports distortion in a new single-vision lens. In the lensmeter you find unexpected cylinder, and the lens measures one base curve horizontally and another vertically. What is the most likely cause?",
+    "choices": [
+      "The PD was measured incorrectly, inducing cylinder",
+      "The cylinder axis was set wrong when the lens was surfaced",
+      "The AR coating is crazing and distorting the surface",
+      "The lens was edged too large and is warped in the eyewire"
+    ],
+    "answer": 3,
+    "explanation": "NAO describes warping from incorrect sizing during finishing: a lens forced into an eyewire that is too small measures different curves in different meridians, creating unwanted cylinder and distortion. The fix is to remake it at the correct size.",
+    "source": {
+      "title": "NAO CE: Use SOAP to Solve Eyewear Problems, Part 2",
+      "url": "https://www.nao.org/wp-content/uploads/2020/03/Use-SOAP-to-Solve-Eyewear-Problems-Part-2.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-001",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Tight soft lens",
+    "difficulty": 2,
+    "stem": "At follow-up, a soft lens barely moves on blink or upgaze, there is a ring of conjunctival indentation at the lens edge, and the patient says vision is a bit hazy but clears for a moment right after each blink. Comfort was good at first. What is the interpretation and change?",
+    "choices": [
+      "Tight fit: flatten the base curve or reduce the diameter",
+      "Ideal fit: no change needed",
+      "Loose fit: steepen the base curve or enlarge the diameter",
+      "Inverted lens: remove and reinsert it"
+    ],
+    "answer": 0,
+    "explanation": "Contamac's soft lens chapter lists the steep/tight picture: movement under 0.25 mm, conjunctival indentation or injection, initially good comfort and vision that improves briefly after the blink. A tight lens is loosened with a smaller diameter or flatter base curve (or a less rigid material). Tight lenses limit tear exchange.",
+    "source": {
+      "title": "Contamac In-Contact, Chapter 10: Fitting Soft Contact Lenses",
+      "url": "https://contamac.com/wp-content/uploads/2024/12/In-Contact_Chapter-10.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-002",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Loose soft lens",
+    "difficulty": 2,
+    "stem": "A soft lens decenters, moves more than 1 mm on blink, shows edge fluting, and the patient says vision is sharp just after a blink and then blurs. Comfort is poor. What is the best change?",
+    "choices": [
+      "Flatten the base curve or decrease the diameter",
+      "Steepen the base curve or increase the diameter",
+      "Switch to a higher-water, more flexible material",
+      "Leave it; movement over 1 mm is ideal"
+    ],
+    "answer": 1,
+    "explanation": "Per Contamac, a flat/loose lens shows excess movement (over 1 mm), poor centration, possible edge stand-off or fluting, poor comfort and vision that sharpens just after the blink and then blurs. To tighten it, choose a larger diameter, a steeper base curve, or a more rigid/lower-water material.",
+    "source": {
+      "title": "Contamac In-Contact, Chapter 10: Fitting Soft Contact Lenses",
+      "url": "https://contamac.com/wp-content/uploads/2024/12/In-Contact_Chapter-10.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-003",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Case: Over-keratometry mires",
+    "difficulty": 3,
+    "stem": "During keratometry over a soft lens, the mires are clear immediately after a blink, then become distorted and blurry. What does this suggest?",
+    "choices": [
+      "A loose (flat) lens",
+      "An inverted lens",
+      "A tight (steep) lens",
+      "Normal tear-film breakup only"
+    ],
+    "answer": 2,
+    "explanation": "Contamac describes this for a steep fit: irregular mires that briefly clear after the blink, when the blink momentarily pushes the vaulted lens against the cornea, then distort again. A loose lens shows the opposite visual pattern, blurring after the blink as it slides.",
+    "source": {
+      "title": "Contamac In-Contact, Chapter 10: Fitting Soft Contact Lenses",
+      "url": "https://contamac.com/wp-content/uploads/2024/12/In-Contact_Chapter-10.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-004",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Judging fit too early",
+    "difficulty": 2,
+    "stem": "Two minutes after inserting a new silicone hydrogel trial lens, it looks slightly loose. What is appropriate?",
+    "choices": [
+      "Let it settle about 20 minutes before judging the fit",
+      "Steepen the base curve right away to tighten it",
+      "Judge it now; silicone hydrogels don't change after insertion",
+      "Increase the diameter right away to improve centration"
+    ],
+    "answer": 0,
+    "explanation": "Soft lens movement decreases over the first 20-25 minutes. Contamac notes that a 5-minute assessment can predict fit for traditional hydrogels, but silicone hydrogels may need closer to 20 minutes to settle before the fit can be reliably assessed. Changing parameters too early risks refitting a lens that would have settled.",
+    "source": {
+      "title": "Contamac In-Contact, Chapter 10: Fitting Soft Contact Lenses",
+      "url": "https://contamac.com/wp-content/uploads/2024/12/In-Contact_Chapter-10.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-005",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Diameter versus base curve",
+    "difficulty": 3,
+    "stem": "A soft lens is slightly tight. According to soft lens fitting guidance, which parameter change usually has the larger effect?",
+    "choices": [
+      "Reducing the diameter, which influences fit more than base curve",
+      "Flattening the base curve, which guidance says should always be changed first",
+      "Increasing the center thickness to stiffen the lens",
+      "Changing the power, since higher minus lenses fit tighter"
+    ],
+    "answer": 0,
+    "explanation": "Contamac notes that corneal diameter plays a more significant role in soft lens fit than base curve, so diameter should be changed first for a meaningful effect; roughly, a 0.50 mm diameter change equals a 0.20 mm base curve change. Power and thickness have only minor effects on fit.",
+    "source": {
+      "title": "Contamac In-Contact, Chapter 10: Fitting Soft Contact Lenses",
+      "url": "https://contamac.com/wp-content/uploads/2024/12/In-Contact_Chapter-10.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-006",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Toric rotation to the left",
+    "difficulty": 3,
+    "stem": "A right-eye soft toric for -1.25 × 180 settles with its marker rotated 10° to your left as you face the patient, and vision is blurry. Using LARS, what axis should you order?",
+    "choices": [
+      "020",
+      "010",
+      "180",
+      "170"
+    ],
+    "answer": 1,
+    "explanation": "LARS means Left Add, Right Subtract, judged from the examiner's view. A 10° rotation to the left is added to the prescribed axis: 180 + 10 = 190, written as 010. Ordering the compensated axis lets the lens's stable resting position put the cylinder where the eye needs it.",
+    "source": {
+      "title": "Contact Lens Spectrum: Troubleshooting Toric Soft Lenses",
+      "url": "https://www.clspectrum.com/issues/2000/september/troubleshooting-toric-soft-lenses/"
+    }
+  },
+  {
+    "id": "case-ncle-007",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Toric rotation to the right",
+    "difficulty": 3,
+    "stem": "A soft toric with a prescription axis of 090 settles with its marker rotated 15° to your right. Using LARS, which axis should you order?",
+    "choices": [
+      "090",
+      "060",
+      "105",
+      "075"
+    ],
+    "answer": 3,
+    "explanation": "With LARS (Left Add, Right Subtract), rotation to the examiner's right is subtracted: 90 - 15 = 75. Contact Lens Spectrum recommends reordering with a revised allowance for the observed rotation once the lens shows a stable, repeatable position.",
+    "source": {
+      "title": "Contact Lens Spectrum: Troubleshooting Toric Soft Lenses",
+      "url": "https://www.clspectrum.com/issues/2000/september/troubleshooting-toric-soft-lenses/"
+    }
+  },
+  {
+    "id": "case-ncle-008",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Estimating toric rotation",
+    "difficulty": 2,
+    "stem": "A toric lens's 6 o'clock marker rests at the 7 o'clock position. Using the clock-face method, about how much rotation is this?",
+    "choices": [
+      "60°",
+      "15°",
+      "45°",
+      "30°"
+    ],
+    "answer": 3,
+    "explanation": "A clock face has 12 hours spanning 360°, so each hour equals 30°. GPLI's pocket guide describes estimating toric rotation with the slit-lamp degree scale or this clock approach, then applying LARS to find the final axis.",
+    "source": {
+      "title": "GPLI: Contact Lens Clinical Pearls Pocket Guide",
+      "url": "https://www.gpli.info/pdf/pearl-fitting-guide.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-009",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Unstable toric orientation",
+    "difficulty": 2,
+    "stem": "A soft toric lens moves excessively, its markings sit in a different position from blink to blink, and vision fluctuates. What is the most likely cause?",
+    "choices": [
+      "Cylinder power too low",
+      "Base curve too steep (tight fit)",
+      "Lens too thin to stabilize",
+      "Base curve too flat (loose fit)"
+    ],
+    "answer": 3,
+    "explanation": "Contact Lens Spectrum notes that a back optic zone radius that is too flat gives excessive movement and an unstable, inconsistent orientation, so the cylinder axis keeps shifting. A steep lens can also blur vision, but by vaulting the corneal apex, not by spinning. Correct the fit before changing the axis.",
+    "source": {
+      "title": "Contact Lens Spectrum: Troubleshooting Toric Soft Lenses",
+      "url": "https://www.clspectrum.com/issues/2000/september/troubleshooting-toric-soft-lenses/"
+    }
+  },
+  {
+    "id": "case-ncle-010",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "topic": "Case: Toric over-refraction",
+    "difficulty": 3,
+    "stem": "A soft toric wearer has blurred vision. A spherocylindrical over-refraction restores the expected acuity, and its spherical equivalent is zero. What does this indicate?",
+    "choices": [
+      "Lens rotation, not a sphere or cylinder power error",
+      "Ocular pathology, so the patient needs medical referral",
+      "A sphere power error, so the lens needs a new sphere",
+      "A cylinder power error, so the lens needs more cylinder"
+    ],
+    "answer": 0,
+    "explanation": "Contact Lens Spectrum explains that a rotated toric lens produces a crossed-cylinder over-refraction whose spherical equivalent is zero, because the lens and ocular spherical equivalents still cancel regardless of axis. A nonzero spherical equivalent points to a power error. Improved acuity rules out pathology as the main cause.",
+    "source": {
+      "title": "Contact Lens Spectrum: Troubleshooting Toric Soft Lenses",
+      "url": "https://www.clspectrum.com/issues/2000/september/troubleshooting-toric-soft-lenses/"
+    }
+  },
+  {
+    "id": "case-ncle-011",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Multifocal distance enhancement",
+    "difficulty": 2,
+    "stem": "A CooperVision multifocal wearer says near is fine but distance could be sharper. Per the manufacturer's fitting guide, what is the first adjustment?",
+    "choices": [
+      "Switch both eyes to the N design for a smoother transition",
+      "Add +0.25 D to the non-dominant eye to balance the pair",
+      "Trial ±0.25 D on the dominant eye, then confirm near holds",
+      "Lower the add power in both eyes until distance is clear"
+    ],
+    "answer": 2,
+    "explanation": "CooperVision's guide says: do not change the add power. To enhance distance, offer ±0.25 D to the dominant eye with handheld lenses or a flipper; if distance improves, check that near is maintained, then adjust that eye's sphere. Near is fine-tuned on the non-dominant eye.",
+    "source": {
+      "title": "CooperVision: Multifocal Contact Lens Fitting Guides",
+      "url": "https://coopervision.co.uk/sites/coopervision.co.uk/files/multifocal-fitting-guide-all-coopervision-brands-230308.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-012",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Multifocal near enhancement",
+    "difficulty": 2,
+    "stem": "A CooperVision multifocal wearer has good distance vision but wants better near. Per the manufacturer's fitting guide, what is the approach?",
+    "choices": [
+      "Increase the add one step in both eyes, since the near zone is underpowered",
+      "Refit as monovision right away, since multifocals failed",
+      "Trial ±0.25 D on the non-dominant eye, then confirm distance holds",
+      "Add -0.25 D to the dominant eye so it accommodates more"
+    ],
+    "answer": 2,
+    "explanation": "CooperVision's optimization step for near: offer ±0.25 D to the non-dominant eye; if near improves, check that distance holds and adjust that eye's sphere. The guide explicitly says not to change the add power, which also alters the distance optics.",
+    "source": {
+      "title": "CooperVision: Multifocal Contact Lens Fitting Guides",
+      "url": "https://coopervision.co.uk/sites/coopervision.co.uk/files/multifocal-fitting-guide-all-coopervision-brands-230308.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-013",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Multifocal judged too soon",
+    "difficulty": 2,
+    "stem": "A new multifocal wearer reads the chart one minute after insertion and declares the lenses a failure. What is the best response?",
+    "choices": [
+      "Switch her to monovision immediately to avoid a long adaptation",
+      "Increase the add power immediately, since near is usually the issue",
+      "Refit single-vision lenses with readers, since she isn't a candidate",
+      "Have her wear them outside the room 10-15 minutes, then reassess"
+    ],
+    "answer": 3,
+    "explanation": "CooperVision's guide has wearers experience their vision outside the testing room for 10-15 minutes before assessment, and Contact Lens Spectrum advises that multifocal fits shouldn't be declared a success or failure on the initial fitting day. Real-world targets (phones, labels) are more meaningful than a chart in the first minute.",
+    "source": {
+      "title": "CooperVision: Multifocal Contact Lens Fitting Guides",
+      "url": "https://coopervision.co.uk/sites/coopervision.co.uk/files/multifocal-fitting-guide-all-coopervision-brands-230308.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-014",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Case: Finding the dominant eye",
+    "difficulty": 2,
+    "stem": "Before fitting CooperVision multifocals, how does the manufacturer's guide have you determine ocular dominance?",
+    "choices": [
+      "A hole-in-card test, with dominance confirmed by acuity",
+      "Whichever eye has the better acuity on the chart",
+      "Whichever eye has the higher prescription, since it needs priority",
+      "+1.00 D blur method: the eye more bothered by blur is dominant"
+    ],
+    "answer": 3,
+    "explanation": "Step 1 of CooperVision's multifocal guide is to determine dominance with the +1.00 D blur method: hold a +1.00 lens over each eye in turn while the patient views a distance target; the eye that is more bothered by the blur is dominant and gets the distance-biased lens.",
+    "source": {
+      "title": "CooperVision: Multifocal Contact Lens Fitting Guides",
+      "url": "https://coopervision.co.uk/sites/coopervision.co.uk/files/multifocal-fitting-guide-all-coopervision-brands-230308.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-015",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "topic": "Case: Small pupils with a center-distance multifocal",
+    "difficulty": 3,
+    "stem": "An older presbyope with small pupils struggles at near in a center-distance concentric multifocal. Why, and what design may help?",
+    "choices": [
+      "The lens is too tight; flatten the base curve",
+      "The near zone falls outside her small pupil; try center-near",
+      "Her pupils are too large; try a center-distance design",
+      "Her add is too low; raise it two steps"
+    ],
+    "answer": 1,
+    "explanation": "Contact Lens Spectrum explains that older presbyopes typically have smaller pupils, so with a center-distance concentric design the near zone sits outside the pupil during near work. Center-near aspheric designs put the add over the visual axis as the pupil constricts.",
+    "source": {
+      "title": "Contact Lens Spectrum: Fine-Tune Your Multifocal Lens Fitting",
+      "url": "https://www.clspectrum.com/issues/2018/june/fine-tune-your-multifocal-lens-fitting/"
+    }
+  },
+  {
+    "id": "case-ncle-016",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "topic": "Case: Refining multifocal power",
+    "difficulty": 2,
+    "stem": "When refining soft multifocal powers, which principle is recommended?",
+    "choices": [
+      "Always use the full age-based add",
+      "Most plus acceptable at distance, least add needed at near",
+      "Use equal distance and add powers in both eyes",
+      "Use the most minus at distance and the highest add"
+    ],
+    "answer": 1,
+    "explanation": "Contact Lens Spectrum advises pushing the highest plus acceptable at distance and the least plus at near, to avoid excessive accommodation and adaptation problems from too high an add. Refraction accuracy and sphere adjustments come before add changes.",
+    "source": {
+      "title": "Contact Lens Spectrum: Fine-Tune Your Multifocal Lens Fitting",
+      "url": "https://www.clspectrum.com/issues/2018/june/fine-tune-your-multifocal-lens-fitting/"
+    }
+  },
+  {
+    "id": "case-ncle-017",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Monovision and depth perception",
+    "difficulty": 2,
+    "stem": "A monovision wearer says judging distances is harder, especially when driving at night. What does monovision commonly cause, and what is a safer driving option?",
+    "choices": [
+      "Reduced stereopsis; full distance correction for driving",
+      "Increased stereopsis; no change is needed",
+      "Corneal hypoxia; switch to silicone hydrogel",
+      "Lens decentration; refit with larger lenses"
+    ],
+    "answer": 0,
+    "explanation": "Review of Optometry notes that monovision often reduces near stereopsis, affecting depth perception, and higher adds can blur all distances or cause double vision. Distance correction in both eyes (with readers for near) is described as the safer option for driving.",
+    "source": {
+      "title": "Review of Optometry: Monovision vs. Multifocal",
+      "url": "https://www.reviewofoptometry.com/article/monovision-vs-multifocal-which-would-you-choose"
+    }
+  },
+  {
+    "id": "case-ncle-018",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Translating GP bifocal",
+    "difficulty": 3,
+    "stem": "A translating GP bifocal slips under the lower lid on downgaze instead of being pushed up, so near vision is poor. What adjustment is suggested?",
+    "choices": [
+      "Reduce the add power so near is easier to reach",
+      "Decrease the diameter by 1 mm to reduce lid contact",
+      "Flatten the base curve or the peripheral curves",
+      "Steepen the base curve so the lens rides higher"
+    ],
+    "answer": 2,
+    "explanation": "A translating lens must rest on the lower lid and be pushed up as the eye looks down. Contact Lens Spectrum says that if the lens is too tight and moves below the lower lid instead of being moved up by it, flatten the base curve or peripheral curves. The lower lid also needs to be near the lower limbus.",
+    "source": {
+      "title": "Contact Lens Spectrum: Fine-Tune Your Multifocal Lens Fitting",
+      "url": "https://www.clspectrum.com/issues/2018/june/fine-tune-your-multifocal-lens-fitting/"
+    }
+  },
+  {
+    "id": "case-ncle-019",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: 3 and 9 o'clock staining",
+    "difficulty": 2,
+    "stem": "A GP wearer shows punctate staining at 3 and 9 o'clock and complains of lens awareness and dryness. Which management fits?",
+    "choices": [
+      "Switch to extended wear so the cornea stays covered at night",
+      "Improve centration, decrease edge lift, and encourage blinking and drops",
+      "Leave it, since 3 and 9 staining rarely progresses or matters",
+      "Increase the edge lift substantially so more tears flow under the lens edge"
+    ],
+    "answer": 1,
+    "explanation": "GPLI attributes 3 and 9 staining to desiccation of the exposed cornea, aggravated by dryness and lid margin disease. Management includes improving centration, decreasing edge lift, proper blinking, rewetting drops, lid hygiene and a humidifier. Untreated, it can progress to opacification and neovascularization.",
+    "source": {
+      "title": "GPLI: GP Lens Management Guide, page 9",
+      "url": "https://gpli.info/gp-management-09/"
+    }
+  },
+  {
+    "id": "case-ncle-020",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Low-riding GP lens",
+    "difficulty": 3,
+    "stem": "A GP lens drops quickly from the upper lid and rides low; fluorescein shows only a thin peripheral band. Which design change improves lid attachment?",
+    "choices": [
+      "Steepen the base curve by 1.00 D",
+      "Reduce the overall diameter",
+      "Increase the edge lift",
+      "Decrease the edge lift"
+    ],
+    "answer": 2,
+    "explanation": "Contact Lens Spectrum explains that too little edge lift makes a lens lid-attach poorly and ride low, while excessive edge lift makes it lid-attach too well and ride high. Standard designs carry about 0.10-0.13 mm of edge lift, and a change of about 0.03 mm makes a noticeable difference.",
+    "source": {
+      "title": "Contact Lens Spectrum: GP Insights (edge lift), April 2005",
+      "url": "https://clspectrum.com/issues/2005/april/gp-insights/"
+    }
+  },
+  {
+    "id": "case-ncle-021",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: High-riding GP lens",
+    "difficulty": 3,
+    "stem": "A GP lens rides high, strongly lid-attached, with a wide peripheral fluorescein band. Which change helps?",
+    "choices": [
+      "Decrease the edge lift",
+      "Add a minus lenticular edge",
+      "Increase the edge lift",
+      "Flatten the base curve"
+    ],
+    "answer": 0,
+    "explanation": "Excess edge lift (a wide peripheral pattern) lets the upper lid grab the lens too well, so it rides high. Contact Lens Spectrum recommends adjusting edge lift in about 0.03 mm steps. A minus lenticular or a flatter base curve would increase lid attachment and upward positioning.",
+    "source": {
+      "title": "Contact Lens Spectrum: GP Insights (edge lift), April 2005",
+      "url": "https://clspectrum.com/issues/2005/april/gp-insights/"
+    }
+  },
+  {
+    "id": "case-ncle-022",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: GP fluorescein pattern",
+    "difficulty": 2,
+    "stem": "A GP trial lens shows central fluorescein pooling with a trapped bubble. What is the interpretation?",
+    "choices": [
+      "Alignment fit: no change needed",
+      "Flat fit: steepen the base curve",
+      "Steep fit: flatten the base curve",
+      "Too much edge lift: decrease it"
+    ],
+    "answer": 2,
+    "explanation": "GPLI's pocket guide: flat fits show central touch with edge pooling, and steep fits show central pooling and bubbles. Use the cobalt filter with a yellow Wratten filter for best evaluation, and aim for alignment, often on or slightly flatter than flat K.",
+    "source": {
+      "title": "GPLI: Contact Lens Clinical Pearls Pocket Guide",
+      "url": "https://www.gpli.info/pdf/pearl-fitting-guide.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-023",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: GP optic zone diameter",
+    "difficulty": 3,
+    "stem": "You want to flatten a GP fit without changing the base curve radius. Which change accomplishes this?",
+    "choices": [
+      "Decrease the optical zone diameter",
+      "Increase the center thickness",
+      "Increase the optical zone diameter",
+      "Switch to a higher-Dk material"
+    ],
+    "answer": 0,
+    "explanation": "Per GPLI, increasing the optical zone diameter increases sagittal depth and steepens the fit, while decreasing it reduces sagittal depth and flattens the fit. Thickness and Dk changes affect flexure and oxygen, not the fitting relationship.",
+    "source": {
+      "title": "GPLI: Contact Lens Clinical Pearls Pocket Guide",
+      "url": "https://www.gpli.info/pdf/pearl-fitting-guide.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-024",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: GP lens flexure",
+    "difficulty": 3,
+    "stem": "A GP wearer with high corneal astigmatism has vision that varies with the blink. Over-keratometry shows toricity, yet the lens measures spherical on the radiuscope. What is the likely cause and management?",
+    "choices": [
+      "A tight fit: enlarge the optic zone",
+      "Residual lenticular astigmatism: add front cylinder",
+      "A warped lens: replace it with the same parameters",
+      "Flexure: add center thickness or flatten the base curve"
+    ],
+    "answer": 3,
+    "explanation": "GPLI lists flexure as causing vision that varies with the blink, diagnosed by toricity on over-keratometry with a spherical radiuscope reading. Causes include high astigmatism, steep base curves, thin designs and large optic zones; management includes a flatter base curve, more center thickness, a smaller OZD or a lower-Dk material.",
+    "source": {
+      "title": "GPLI: GP Lens Management Guide, page 9",
+      "url": "https://gpli.info/gp-management-09/"
+    }
+  },
+  {
+    "id": "case-ncle-025",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: GP lens adherence",
+    "difficulty": 3,
+    "stem": "An extended-wear GP patient wakes with an immobile lens, an indentation ring and mild awareness. What is the management?",
+    "choices": [
+      "Extend overnight wear gradually to build corneal tolerance",
+      "Decrease the edge lift so the lens seals better and stops moving overnight",
+      "Steepen the base curve so the lens centers better overnight",
+      "Flatten the peripheral curve, go to daily wear, use drops on waking"
+    ],
+    "answer": 3,
+    "explanation": "GPLI lists dryness, decentration, back-surface deposits, peripheral seal-off and extended wear with low edge lift as causes of adherence. Management: improve centration, clean the back surface, flatten the peripheral curve, reduce to daily wear and use rewetting drops upon awakening and at night. Steepening or lowering edge lift would worsen seal-off.",
+    "source": {
+      "title": "GPLI: GP Lens Management Guide, page 10",
+      "url": "https://gpli.info/gp-management-10/"
+    }
+  },
+  {
+    "id": "case-ncle-026",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Poor GP wettability",
+    "difficulty": 2,
+    "stem": "A GP wearer's vision has gradually hazed, and the lens surface beads up. She uses a lotion-containing hand soap before handling her lenses. What is the best advice?",
+    "choices": [
+      "Sleep in the lenses so they stay hydrated and wet better",
+      "Rinse the lenses with tap water each morning to wash off the surface film",
+      "Store the lenses dry overnight so the film evaporates",
+      "Re-educate on cleaning; avoid lanolin soaps before handling"
+    ],
+    "answer": 3,
+    "explanation": "GPLI lists poor cleaning compliance, lanolin-containing soap or lotion, poorly wettable materials and inadequate tears as causes of poor acquired wettability. Management includes re-education, avoiding lanolin products before handling, weekly enzymatic cleaning or a material change. Tap water is never acceptable for lenses.",
+    "source": {
+      "title": "GPLI: GP Lens Management Guide, page 10",
+      "url": "https://gpli.info/gp-management-10/"
+    }
+  },
+  {
+    "id": "case-ncle-027",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: GP glare from low riding",
+    "difficulty": 3,
+    "stem": "A GP wearer reports glare and vision that varies with the blink; the lens rides low, so she often looks through the lens periphery. Which approach addresses this?",
+    "choices": [
+      "Reduce the overall diameter by 1 mm so it rides higher",
+      "Use a higher specific-gravity material so the lens settles more stably on the lid",
+      "Improve centration, e.g., flatter BCR, thinner center, lenticular edge",
+      "Accept it; glare means the optic zone is centered over the pupil"
+    ],
+    "answer": 2,
+    "explanation": "GPLI lists varying vision and awareness from looking through the non-optical periphery as signs of decentration. For inferior decentration, it recommends lenticular designs by power (plus lenticular for powers stronger than -5.00, minus lenticular for low minus and plus), a flatter BCR, minimized CT and a lower specific-gravity material.",
+    "source": {
+      "title": "GPLI: GP Lens Management Guide, page 9",
+      "url": "https://gpli.info/gp-management-09/"
+    }
+  },
+  {
+    "id": "case-ncle-028",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Case: Lateral GP decentration",
+    "difficulty": 2,
+    "stem": "A GP lens consistently decenters temporally. Per GPLI's management guide, which changes help?",
+    "choices": [
+      "A thicker center",
+      "A higher specific-gravity material",
+      "A larger overall diameter and a steeper base curve",
+      "A smaller overall diameter and a flatter base curve"
+    ],
+    "answer": 2,
+    "explanation": "GPLI's management for lateral decentration is a larger overall diameter, a steeper BCR or an aspheric design. These increase the lens's hold on the cornea; a smaller, flatter lens would decenter more.",
+    "source": {
+      "title": "GPLI: GP Lens Management Guide, page 9",
+      "url": "https://gpli.info/gp-management-09/"
+    }
+  },
+  {
+    "id": "case-ncle-029",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Red eye on waking",
+    "difficulty": 2,
+    "stem": "A patient who sleeps in his soft lenses wakes with one very red eye and mild irritation; there is little or no corneal staining. What is the most likely condition and action?",
+    "choices": [
+      "Normal morning redness that clears within an hour",
+      "Allergic conjunctivitis: continue wear with antihistamine drops",
+      "An inverted lens: remove, flip and reinsert it",
+      "CLARE: remove lenses, stop wear and refer promptly"
+    ],
+    "answer": 3,
+    "explanation": "Contact Lens Spectrum describes CLARE as a unilateral acute red eye on waking in someone sleeping in lenses, with minimal staining: an inflammatory response to gram-negative bacteria. Temporarily ceasing wear should bring significant resolution in a day or two; any contact lens red eye needs the doctor's evaluation to rule out infection.",
+    "source": {
+      "title": "Contact Lens Spectrum: Practical Red Eye Problem-Solving",
+      "url": "https://clspectrum.com/issues/2015/august/practical-red-eye-problem-solving/"
+    }
+  },
+  {
+    "id": "case-ncle-030",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Peripheral infiltrate after overnight wear",
+    "difficulty": 3,
+    "stem": "After overnight wear, a patient has a small, round, peripheral corneal infiltrate with overlying epithelial loss and only mild discomfort. What is the best action?",
+    "choices": [
+      "Continue wear with rewetting drops and recheck next month",
+      "Suspect CLPU: stop wear and refer for close follow-up",
+      "Switch to a new solution brand and keep wearing as usual",
+      "Refit with a tighter lens to reduce peripheral movement"
+    ],
+    "answer": 1,
+    "explanation": "Contact Lens Spectrum describes CLPU as small, round, peripheral infiltrates with overlying epithelial loss, often unilateral and after overnight wear, linked to gram-positive bacteria. Management is temporary discontinuation, close monitoring for 24-48 hours, and often a precautionary antibiotic from the doctor.",
+    "source": {
+      "title": "Contact Lens Spectrum: Practical Red Eye Problem-Solving",
+      "url": "https://clspectrum.com/issues/2015/august/practical-red-eye-problem-solving/"
+    }
+  },
+  {
+    "id": "case-ncle-031",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Painful red eye with a central spot",
+    "difficulty": 2,
+    "stem": "A soft lens wearer calls with increasing eye pain, light sensitivity, discharge and blurred vision; she can see a white spot near the center of her cornea. What is the best action?",
+    "choices": [
+      "Patch the eye overnight and reassess in the morning",
+      "Switch to a fresh pair of lenses and see if it settles",
+      "Remove the lenses and get same-day care from the eye doctor",
+      "Use rewetting drops for a day and recheck next week if no better"
+    ],
+    "answer": 2,
+    "explanation": "These are the features of microbial keratitis: a central lesion often 2 mm or larger, a hot painful eye, photophobia and discharge. Contact Lens Spectrum calls it an ocular emergency requiring aggressive therapy. Lens wear stops immediately; patching a contact lens-related eye is dangerous.",
+    "source": {
+      "title": "Contact Lens Spectrum: Practical Red Eye Problem-Solving",
+      "url": "https://clspectrum.com/issues/2015/august/practical-red-eye-problem-solving/"
+    }
+  },
+  {
+    "id": "case-ncle-032",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Tap-water rinsing and severe pain",
+    "difficulty": 3,
+    "stem": "A wearer who rinses his lenses and case with tap water now has severe eye pain. Which infection is of particular concern, and what should he do?",
+    "choices": [
+      "GPC, managed by switching to daily disposables",
+      "Acanthamoeba keratitis: stop wear and refer urgently",
+      "CLARE, which resolves without treatment",
+      "Solution toxicity, managed by switching to peroxide"
+    ],
+    "answer": 1,
+    "explanation": "CDC notes that Acanthamoeba is commonly found in tap, lake and well water and can cause a very painful keratitis that may need a year or more of treatment and can lead to transplant or blindness. Water exposure is the key risk factor, and a severely painful eye in this setting needs urgent medical care.",
+    "source": {
+      "title": "CDC: Keeping Water Away from Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+    }
+  },
+  {
+    "id": "case-ncle-033",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Teaching warning signs",
+    "difficulty": 2,
+    "stem": "When teaching a new wearer, which symptoms should you say mean remove the lenses and contact the eye doctor right away?",
+    "choices": [
+      "Mild lens awareness in the first week, even without redness or pain",
+      "Only a complete loss of vision in one eye",
+      "Only redness lasting more than a week, since mild redness is normal at first",
+      "Unusual redness, pain, blurred vision, light sensitivity or discharge"
+    ],
+    "answer": 3,
+    "explanation": "FDA lists discomfort, excess tearing or discharge, unusual light sensitivity, itching, burning or gritty feelings, unusual redness, blurred vision, swelling and pain as symptoms of irritation or infection. Patients should remove lenses and call promptly rather than waiting for severe vision loss.",
+    "source": {
+      "title": "FDA: Contact Lens Risks",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks"
+    }
+  },
+  {
+    "id": "case-ncle-034",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Itching, mucus and riding lenses",
+    "difficulty": 2,
+    "stem": "A soft lens wearer reports itching after lens removal, mucus at the inner corner, and lenses that ride up and move too much. Lid eversion shows large papillae on the upper tarsal plate. What is the most likely condition and management?",
+    "choices": [
+      "CLARE: antibiotic drops while continuing wear",
+      "Tight lens: flatten the base curve",
+      "GPC: stop wear, refer, and consider daily disposables",
+      "Dry eye: add rewetting drops only"
+    ],
+    "answer": 2,
+    "explanation": "Contact Lens Spectrum lists itching after removal, mucus, increased lens movement and large papillae on the palpebral conjunctiva as hallmarks of contact lens papillary conjunctivitis. Management includes discontinuing wear, shorter replacement schedules or daily disposables, addressing deposits, and medications from the doctor.",
+    "source": {
+      "title": "Contact Lens Spectrum: Treatment Plan (CLPC/GPC), January 2005",
+      "url": "https://clspectrum.com/issues/2005/january/treatment-plan/"
+    }
+  },
+  {
+    "id": "case-ncle-035",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Case: Examining for GPC",
+    "difficulty": 2,
+    "stem": "To check a contact lens wearer for suspected GPC, which examination technique is used?",
+    "choices": [
+      "Evert the upper lid; use fluorescein to highlight papillae",
+      "A push-up test to see whether the lens moves too freely",
+      "Over-keratometry to see whether the lens surface is distorting",
+      "Retinoscopy through the lens to check for lid-induced blur"
+    ],
+    "answer": 0,
+    "explanation": "GPC affects the palpebral (tarsal) conjunctiva, which is seen only by everting the upper lid at the slit lamp. Contact Lens Spectrum notes sodium fluorescein readily highlights the large to giant \"white-capped\" papillae. The other tests assess lens fit, not the lids.",
+    "source": {
+      "title": "Contact Lens Spectrum: Treatment Plan (CLPC/GPC), January 2005",
+      "url": "https://clspectrum.com/issues/2005/january/treatment-plan/"
+    }
+  },
+  {
+    "id": "case-ncle-036",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Burning right after insertion",
+    "difficulty": 2,
+    "stem": "A soft lens wearer using a multipurpose solution reports burning shortly after inserting lenses straight from the case, and both eyes are mildly red. What is the most likely cause and approach?",
+    "choices": [
+      "Inverted lenses; teach the taco test and reinsert both",
+      "Solution sensitivity; stop wear until seen, then a peroxide system may help",
+      "CLPU; continue wear and monitor for 24-48 hours",
+      "Tight lens syndrome from lens dehydration in the case; flatten the base curve"
+    ],
+    "answer": 1,
+    "explanation": "Contact Lens Spectrum links burning shortly after application, and some red eyes with infiltrates, to sensitivity to the multipurpose solution; switching to a preservative-free hydrogen peroxide system resolved the case it describes. A red, uncomfortable eye still warrants removing the lenses and having the doctor evaluate it.",
+    "source": {
+      "title": "Contact Lens Spectrum: Practical Red Eye Problem-Solving",
+      "url": "https://clspectrum.com/issues/2015/august/practical-red-eye-problem-solving/"
+    }
+  },
+  {
+    "id": "case-ncle-037",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Rinsing with peroxide",
+    "difficulty": 2,
+    "stem": "A patient rinsed his lenses with his roommate's red-capped hydrogen peroxide solution right before insertion, and his eyes burned badly. What happened?",
+    "choices": [
+      "Unneutralized peroxide reached the eye",
+      "An allergy to the lens material triggered by the solution",
+      "The lenses were inserted inside out",
+      "A normal reaction to peroxide that fades with use"
+    ],
+    "answer": 0,
+    "explanation": "FDA warns never to rinse lenses with non-neutralized hydrogen peroxide or put it directly in the eye; it can cause stinging, burning, irritation or eye damage. The red tip and cap flag peroxide products. Lenses must soak in the supplied case for the labeled time so neutralization is complete.",
+    "source": {
+      "title": "FDA: Hydrogen Peroxide Solution",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/hydrogen-peroxide-solution"
+    }
+  },
+  {
+    "id": "case-ncle-038",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Old peroxide case",
+    "difficulty": 2,
+    "stem": "A peroxide-system user opened a new bottle but kept using her old lens case, and now her lenses sting on insertion. Why?",
+    "choices": [
+      "The new bottle was contaminated with tap water at the factory",
+      "Peroxide doesn't need neutralizing, so the stinging must be an allergy to it",
+      "Her lenses are inside out after soaking in the new solution",
+      "The old case may no longer neutralize; use each bottle's new case"
+    ],
+    "answer": 3,
+    "explanation": "FDA's safety tips: always use the new case that comes with every bottle; an old case will not neutralize the peroxide and may cause stinging, burning, irritation or eye damage when lenses go back on the eye.",
+    "source": {
+      "title": "FDA: Hydrogen Peroxide Solution",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/hydrogen-peroxide-solution"
+    }
+  },
+  {
+    "id": "case-ncle-039",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Topping off solution",
+    "difficulty": 2,
+    "stem": "A patient says she saves money by adding fresh solution on top of what's already in her lens case. What is the best response?",
+    "choices": [
+      "Topping off is fine if it's within a week",
+      "Never top off; discard old solution and use fresh every time",
+      "Topping off is fine with peroxide systems only",
+      "Stretch the solution with a little tap water instead"
+    ],
+    "answer": 1,
+    "explanation": "FDA says do not top off the solution in the case; discard all leftover solution after each use and never reuse it. CDC similarly says avoid mixing fresh and old solution. Reused solution loses disinfecting power and lets contamination build up.",
+    "source": {
+      "title": "FDA: Contact Lens Risks",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks"
+    }
+  },
+  {
+    "id": "case-ncle-040",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Rinsing lenses with tap water",
+    "difficulty": 2,
+    "stem": "A patient rinses her lenses with tap water because \"it's treated and safe to drink.\" What should you teach?",
+    "choices": [
+      "Distilled water is an acceptable, sterile substitute for solution",
+      "Tap water isn't sterile and can carry Acanthamoeba; use solution",
+      "Tap water is fine if it's run through a household filter first",
+      "Tap water is fine for GP lenses, which don't absorb it"
+    ],
+    "answer": 1,
+    "explanation": "CDC explains that Acanthamoeba is commonly found in tap water and can cause a severe, hard-to-treat keratitis, so lenses and cases should never be rinsed or stored in water. FDA adds that distilled water and homemade saline are also non-sterile and must not be used.",
+    "source": {
+      "title": "CDC: Keeping Water Away from Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+    }
+  },
+  {
+    "id": "case-ncle-041",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Showered with lenses in",
+    "difficulty": 2,
+    "stem": "A wearer accidentally showered with her reusable lenses in. Per CDC guidance, what should she do with them?",
+    "choices": [
+      "Keep wearing them, but remove them before bedtime tonight",
+      "Rinse them with tap water and reinsert them right away",
+      "Discard them, or clean and disinfect overnight before reuse",
+      "Rewet them with saline drops and keep wearing them, since showers are short"
+    ],
+    "answer": 2,
+    "explanation": "CDC's water guidance says contact lenses and water are a bad combination, even when showering, and that lenses that touch water should be thrown away or cleaned and disinfected overnight before being worn again.",
+    "source": {
+      "title": "CDC: Keeping Water Away from Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+    }
+  },
+  {
+    "id": "case-ncle-042",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Swimmer who wears lenses",
+    "difficulty": 2,
+    "stem": "A competitive swimmer wants to see clearly in the pool. What is the best advice?",
+    "choices": [
+      "Wear daily disposables in the pool; chlorine makes it safe",
+      "Swimming in lenses is safe if the eyes stay closed underwater",
+      "Rinse the lenses with tap water after each swim",
+      "Remove lenses for swimming and consider prescription goggles"
+    ],
+    "answer": 3,
+    "explanation": "CDC advises removing lenses before swimming or showering and suggests prescription goggles for people active in water sports who need to see. Chlorine does not reliably remove the risk of water-borne organisms such as Acanthamoeba.",
+    "source": {
+      "title": "CDC: Keeping Water Away from Contact Lenses",
+      "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+    }
+  },
+  {
+    "id": "case-ncle-043",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Lens case care",
+    "difficulty": 2,
+    "stem": "Per CDC guidance, how should a lens case be cared for and how often replaced?",
+    "choices": [
+      "Store it wet with caps on, and replace it every month",
+      "Clean it weekly with solution; it never needs replacing",
+      "Rinse it with hot tap water, store it wet with caps on, and replace it yearly",
+      "Rub-rinse with solution, air-dry upside down, replace every 3 months"
+    ],
+    "answer": 3,
+    "explanation": "CDC's prevention steps: clean the case with solution by rubbing and rinsing, store it upside down with the caps off after each use, and replace it at least once every three months. Water should never be used on the case.",
+    "source": {
+      "title": "CDC: Preventing Eye Infections When Wearing Contacts",
+      "url": "https://www.cdc.gov/contact-lenses/prevention/index.html"
+    }
+  },
+  {
+    "id": "case-ncle-044",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Napping in lenses",
+    "difficulty": 2,
+    "stem": "A patient admits he naps and sometimes sleeps overnight in his daily-wear silicone hydrogel lenses \"since they're breathable.\" What should you tell him?",
+    "choices": [
+      "Silicone hydrogel lenses make overnight wear risk-free",
+      "The extra risk applies only to GP lenses",
+      "Only naps longer than an hour carry risk",
+      "Sleeping in lenses raises infection risk 6-8×, whatever the material"
+    ],
+    "answer": 3,
+    "explanation": "CDC's MMWR report notes that sleeping in lenses, whether inadvertent, occasional or prescribed, increases the risk of contact lens-related eye infection six- to eightfold and is a risk factor regardless of lens material or frequency. About one third of wearers report sleeping or napping in lenses.",
+    "source": {
+      "title": "CDC MMWR: Corneal Infections Associated with Sleeping in Contact Lenses",
+      "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6732a2.htm"
+    }
+  },
+  {
+    "id": "case-ncle-045",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Taco test",
+    "difficulty": 2,
+    "stem": "A new wearer asks how to tell whether a soft lens is inside out. In the taco test, which result means the lens is inverted?",
+    "choices": [
+      "The edges flare outward",
+      "The edges roll in and stick together",
+      "The lens folds completely flat",
+      "The edges curve inward and nearly meet"
+    ],
+    "answer": 0,
+    "explanation": "ACUVUE's guidance: gently pinch the lens as if folding a taco; edges that curve smoothly inward mean it's correct, while edges that flare outward mean it's likely inside out. A saucer-like shape with a flared rim on the fingertip is the same sign.",
+    "source": {
+      "title": "ACUVUE: How to tell if your contact lenses are inside out",
+      "url": "https://www.acuvue.com/en-gb/contact-lens/positioning/"
+    }
+  },
+  {
+    "id": "case-ncle-046",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Scratchy, moving new lens",
+    "difficulty": 2,
+    "stem": "A patient says a fresh lens feels scratchy, moves around and blurs. Under bright light, the \"123\" laser marking near the edge reads backward. What is the most likely cause?",
+    "choices": [
+      "The lens is inside out",
+      "The lens is torn",
+      "She is sensitive to the solution",
+      "The lens is too tight"
+    ],
+    "answer": 0,
+    "explanation": "Some manufacturers laser-mark \"123\" near the edge; if it reads 1-2-3 the lens is correct, and if the numbers are reversed it's inside out. ACUVUE lists discomfort, excess movement and blurred or distorted vision as symptoms of an inverted lens.",
+    "source": {
+      "title": "ACUVUE: How to tell if your contact lenses are inside out",
+      "url": "https://www.acuvue.com/en-gb/contact-lens/positioning/"
+    }
+  },
+  {
+    "id": "case-ncle-047",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Trouble removing soft lenses",
+    "difficulty": 2,
+    "stem": "A new soft lens wearer struggles to remove her lenses and has been using her fingernails. What technique should you teach?",
+    "choices": [
+      "Use a GP suction plunger on the soft lens",
+      "Grip the lens with the fingernails for a firmer hold",
+      "Look up, pull the lower lid down, and pinch with the finger pads",
+      "Blink hard while pulling the outer corner of the lids"
+    ],
+    "answer": 2,
+    "explanation": "ACUVUE's pinch method: look up, hold the lids open, and gently pinch the lens with the pads of the thumb and forefinger, not the nails, which risk injuring the eye. The blink-and-pull technique is for rigid lenses and doesn't apply to soft lenses.",
+    "source": {
+      "title": "ACUVUE: How to remove your contact lenses",
+      "url": "https://www.acuvue.com/en-us/eye-health/take-off-contacts/"
+    }
+  },
+  {
+    "id": "case-ncle-048",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Hazy, bumpy group IV lenses",
+    "difficulty": 2,
+    "stem": "A wearer of high-water ionic (group IV) monthly lenses has been stretching them to three months. Vision is hazy, and the lenses show an opaque film and small raised whitish bumps. What is the most likely cause and best management?",
+    "choices": [
+      "Protein deposits and calculi; replace on schedule or go daily",
+      "Fungal growth; soak the lenses in antibiotic drops",
+      "A tight fit; flatten the base curve",
+      "Lipid deposits typical of silicone hydrogels; switch to tap-water rinsing"
+    ],
+    "answer": 0,
+    "explanation": "Review of Cornea & Contact Lenses notes protein deposits form an opaque film and are especially common in high-water ionic group IV materials, and that lens calculi (\"jelly bumps\") are also more common in those materials. Management includes increasing or reinforcing replacement frequency, rubbing and rinsing, or refitting into daily disposables.",
+    "source": {
+      "title": "Review of Cornea & Contact Lenses: The How and Why of Contact Lens Deposits",
+      "url": "https://www.reviewofcontactlenses.com/article/the-how-and-why-of-contact-lens-deposits"
+    }
+  },
+  {
+    "id": "case-ncle-049",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Comfort fades late in the cycle",
+    "difficulty": 2,
+    "stem": "A monthly-lens wearer says comfort is fine for about three weeks and then drops off. What is the most likely cause and fix?",
+    "choices": [
+      "Overwear hypoxia; extend wearing time",
+      "Late-cycle deposits; replace more often or use daily disposables",
+      "Solution sensitivity; stop rubbing the lenses so less solution is used",
+      "A tight lens that has dehydrated over the month; flatten the base curve"
+    ],
+    "answer": 1,
+    "explanation": "Contact Lens Spectrum ties discomfort near the end of the replacement cycle to surface deposits and suggests reviewing rubbing and replacement compliance, replacing monthly lenses more often (for example, every three weeks), or switching to daily disposables.",
+    "source": {
+      "title": "Contact Lens Spectrum: Stop the Cycle (contact lens dropout), Nov-Dec 2026",
+      "url": "https://www.clspectrum.com/issues/2026/november-december/stop-the-cycle/"
+    }
+  },
+  {
+    "id": "case-ncle-050",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: End-of-day dryness",
+    "difficulty": 2,
+    "stem": "A soft lens wearer is comfortable in the morning but has dryness and discomfort late in the day, worse after long computer sessions. Which management direction does the guidance emphasize?",
+    "choices": [
+      "Begin sleeping in the lenses so the eyes adapt to them",
+      "Increase daily wearing time gradually to build tolerance to dryness",
+      "Tear film and MGD care: lid hygiene, warm compresses, full blinks",
+      "Steepen the base curve to reduce lens movement late in the day"
+    ],
+    "answer": 2,
+    "explanation": "Contact Lens Spectrum associates end-of-day discomfort with tear-film instability and meibomian gland dysfunction. It recommends lid hygiene, warm compresses and massage, reminders to blink fully during device use, and options like daily disposables or a peroxide care system.",
+    "source": {
+      "title": "Contact Lens Spectrum: Stop the Cycle (contact lens dropout), Nov-Dec 2026",
+      "url": "https://www.clspectrum.com/issues/2026/november-december/stop-the-cycle/"
+    }
+  },
+  {
+    "id": "case-ncle-051",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Sudden discomfort with a new lens",
+    "difficulty": 2,
+    "stem": "A long-time wearer suddenly has discomfort right after inserting a new lens from the same box she's always used. What is the first step?",
+    "choices": [
+      "Switch to a larger diameter so the edge sits under the lids",
+      "Remove and inspect the lens for a tear, defect or deposit",
+      "Extend wearing time so the lens can settle onto the eye",
+      "Keep wearing it; a new lens from the box always needs a day"
+    ],
+    "answer": 1,
+    "explanation": "Contact Lens Spectrum advises that discomfort of recent onset immediately after application should prompt inspection of the lens surface for deposits and the edge for tears; consistent symptoms point instead to solution sensitivity, contamination or damage. Never keep wearing a lens that hurts.",
+    "source": {
+      "title": "Contact Lens Spectrum: Stop the Cycle (contact lens dropout), Nov-Dec 2026",
+      "url": "https://www.clspectrum.com/issues/2026/november-december/stop-the-cycle/"
+    }
+  },
+  {
+    "id": "case-ncle-052",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Case: Chronic hypoxia signs",
+    "difficulty": 3,
+    "stem": "A high myope wearing low-Dk hydrogel lenses 16 hours a day shows limbal redness, new vessels growing into the peripheral cornea and microcysts, and her myopia has steadily increased. What is the most likely cause and management?",
+    "choices": [
+      "Chronic hypoxia; refer and refit a higher-Dk lens, less wear",
+      "A loose fit; steepen the base curve",
+      "Normal age-related change; no action",
+      "Seasonal allergy; antihistamines while continuing wear"
+    ],
+    "answer": 0,
+    "explanation": "Contact Lens Spectrum lists limbal hyperemia, corneal neovascularization, microcysts and myopic creep as signs of hypoxia from long hours in low-oxygen-transmitting lenses, especially in thicker, higher-power lenses. Higher-Dk materials (such as silicone hydrogel), shorter wear and doctor follow-up address it.",
+    "source": {
+      "title": "Contact Lens Spectrum: Practical Red Eye Problem-Solving",
+      "url": "https://clspectrum.com/issues/2015/august/practical-red-eye-problem-solving/"
+    }
+  },
+  {
+    "id": "case-ncle-053",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Case: Itchy eyes every spring",
+    "difficulty": 2,
+    "stem": "A soft lens wearer has itching in both eyes, most intense at the inner corners, with white stringy discharge every spring. What is the most likely condition and approach?",
+    "choices": [
+      "Peroxide toxicity; switch to tap-water rinsing",
+      "Ocular allergy; refer for anti-allergy drops, reduce wear",
+      "Microbial keratitis; patch the eye",
+      "CLARE; antibiotics and overnight wear"
+    ],
+    "answer": 1,
+    "explanation": "Contact Lens Spectrum describes ocular allergy as bilateral injection with itching (often most intense nasally) and white stringy discharge, from allergens collecting in the tear film. Management includes lid hygiene and antihistamine/mast-cell stabilizer drops, which the eye doctor prescribes.",
+    "source": {
+      "title": "Contact Lens Spectrum: Practical Red Eye Problem-Solving",
+      "url": "https://clspectrum.com/issues/2015/august/practical-red-eye-problem-solving/"
+    }
+  },
+  {
+    "id": "case-ncle-054",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Case: Releasing a contact lens Rx",
+    "difficulty": 2,
+    "stem": "After a soft lens fitting is completed, the office says it will release the prescription only if the patient buys lenses there or signs a liability waiver. Is this allowed under the FTC Contact Lens Rule?",
+    "choices": [
+      "Yes, a reasonable release fee can be charged in place of a lens purchase",
+      "No; it must be released after the fitting, with no purchase or waiver",
+      "Only if the patient requests the prescription in writing",
+      "Yes, as long as the waiver is in writing and kept on file"
+    ],
+    "answer": 1,
+    "explanation": "The FTC guide says prescribers must provide the prescription immediately at the end of a contact lens fitting, even if the patient doesn't ask, and cannot require patients to buy lenses, pay additional fees or sign a waiver or release in exchange for it.",
+    "source": {
+      "title": "FTC: The Contact Lens Rule - A Guide for Prescribers and Sellers",
+      "url": "https://www.ftc.gov/business-guidance/resources/contact-lens-rule-guide-prescribers-sellers"
+    }
+  },
+  {
+    "id": "case-ncle-055",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Case: Prescriber doesn't answer verification",
+    "difficulty": 2,
+    "stem": "An online seller sends a complete verification request, and the prescriber doesn't respond within 8 business hours. What happens under the FTC rule?",
+    "choices": [
+      "The seller must cancel the order",
+      "It is treated as verified, and the seller may ship",
+      "The seller must wait 40 more business hours",
+      "The seller may substitute a different brand"
+    ],
+    "answer": 1,
+    "explanation": "Under the FTC Contact Lens Rule, the prescriber has 8 business hours to respond to a complete verification request; if there's no response, the prescription is passively verified and the seller may provide the lenses. (40 business hours applies to providing a copy of the Rx to a patient's designated agent.)",
+    "source": {
+      "title": "FTC: The Contact Lens Rule - A Guide for Prescribers and Sellers",
+      "url": "https://www.ftc.gov/business-guidance/resources/contact-lens-rule-guide-prescribers-sellers"
+    }
+  },
+  {
+    "id": "case-ncle-056",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Case: Contact lens Rx expiration",
+    "difficulty": 2,
+    "stem": "A prescriber wants routine contact lens prescriptions to expire after 6 months. What does the FTC rule allow?",
+    "choices": [
+      "At least one year, unless a documented medical reason applies",
+      "A two-year minimum for all soft and GP lenses",
+      "Six months, which is the federal standard",
+      "Any expiration the prescriber chooses, with or without a reason"
+    ],
+    "answer": 0,
+    "explanation": "The FTC rule sets a floor of one year for contact lens prescription expiration unless there is a legitimate medical reason, which must be documented and kept for at least three years. A state law requiring a longer period governs for prescribers in that state.",
+    "source": {
+      "title": "FTC: The Contact Lens Rule - A Guide for Prescribers and Sellers",
+      "url": "https://www.ftc.gov/business-guidance/resources/contact-lens-rule-guide-prescribers-sellers"
+    }
+  },
+  {
+    "id": "case-ncle-057",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "topic": "Case: Brand substitution by a seller",
+    "difficulty": 2,
+    "stem": "A seller wants to substitute a cheaper brand for the lens that was prescribed. What does the FTC rule allow?",
+    "choices": [
+      "Any brand with matching base curve, diameter and power, since the fit is identical",
+      "Any brand made of a similar silicone hydrogel material",
+      "Only an identical private-label lens from the same manufacturer",
+      "Any brand, as long as the patient agrees to the switch"
+    ],
+    "answer": 2,
+    "explanation": "Sellers may not alter a prescription. The FTC guide's only exception is substituting identical lenses made by the same manufacturer and sold under a different name (private label). Matching base curve and diameter is not equivalence, because material and design affect fit and safety.",
+    "source": {
+      "title": "FTC: The Contact Lens Rule - A Guide for Prescribers and Sellers",
+      "url": "https://www.ftc.gov/business-guidance/resources/contact-lens-rule-guide-prescribers-sellers"
+    }
+  },
+  {
+    "id": "case-ncle-058",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "topic": "Case: Vertexing a spectacle Rx",
+    "difficulty": 3,
+    "stem": "A patient's spectacle Rx is -6.00 DS at a 12 mm vertex distance. What soft lens power, rounded to the nearest 0.25 D, corrects at the corneal plane?",
+    "choices": [
+      "-5.00 D",
+      "-6.00 D",
+      "-5.50 D",
+      "-6.50 D"
+    ],
+    "answer": 2,
+    "explanation": "Effective power at the cornea is F / (1 - dF) = -6.00 / (1 + 0.012 × 6.00) = -6.00 / 1.072 ≈ -5.60 D, which rounds to -5.50 D. Minus lenses need less power at the cornea than at the spectacle plane; CooperVision's guide likewise starts from the vertex-corrected spherical equivalent.",
+    "source": {
+      "title": "CooperVision: Multifocal Contact Lens Fitting Guides",
+      "url": "https://coopervision.co.uk/sites/coopervision.co.uk/files/multifocal-fitting-guide-all-coopervision-brands-230308.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-059",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "topic": "Case: Spherical multifocal starting power",
+    "difficulty": 2,
+    "stem": "A patient's refraction is -2.00 -0.50 × 180, and you're choosing a spherical soft multifocal trial lens. Per GPLI's pocket guide, what starting distance power should you use?",
+    "choices": [
+      "-2.50 D, the sphere plus full cylinder",
+      "-1.75 D, the sphere minus half the cylinder",
+      "-2.00 D, the sphere power alone",
+      "-2.25 D, the spherical equivalent"
+    ],
+    "answer": 3,
+    "explanation": "GPLI recommends that the initial soft multifocal power equal the spherical equivalent of the manifest refraction at the corneal plane: sphere + half the cylinder = -2.00 + (-0.25) = -2.25 D. At this power, the vertex effect is negligible. Final powers should favor least minus, most plus.",
+    "source": {
+      "title": "GPLI: Contact Lens Clinical Pearls Pocket Guide",
+      "url": "https://www.gpli.info/pdf/pearl-fitting-guide.pdf"
+    }
+  },
+  {
+    "id": "case-ncle-060",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Case: Homemade saline",
+    "difficulty": 2,
+    "stem": "A patient on a tight budget asks whether homemade saline or distilled water can be used to rinse and store his lenses. What is the best answer?",
+    "choices": [
+      "No; use only fresh, sterile commercial solution",
+      "Yes, because distilled water is sterile",
+      "Yes, but for rinsing only",
+      "Yes, if the saline is boiled first"
+    ],
+    "answer": 0,
+    "explanation": "FDA says never to use non-sterile water (distilled water, tap water or any homemade saline) with contact lenses and to avoid exposing lenses to any water. Non-sterile liquids can introduce organisms, including Acanthamoeba, that cause serious keratitis.",
+    "source": {
+      "title": "FDA: Contact Lens Risks",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks"
+    }
+  }
+]

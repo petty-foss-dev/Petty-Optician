@@ -1,12 +1,12 @@
-# Enve Optician (iOS)
+# petty: Optician (iOS)
 
-Study app for the ABO Basic (spectacle) and NCLE Basic (contact lens) certification exams, with California registration guidance (SLD/CLD/RDO via the California State Board of Optometry). SwiftUI · Swift 6 · SwiftData · iOS 17+. Follows the workspace shared norms and Enve design language (see `../CLAUDE.md`).
+Study app for the ABO Basic (spectacle) and NCLE Basic (contact lens) certification exams, with California registration guidance (SLD/CLD/RDO via the California State Board of Optometry). SwiftUI · Swift 6 · SwiftData · iOS 17+. Part of the Petty app family: follows the workspace code norms (see `../CLAUDE.md`) but uses the Petty look shared with petty: Tracker and petty: Jobs — cool-gray surfaces, teal accent `#0F7A8A` / `#4FC1C9` dark, optional pure black, standard `TabView`, no animated background or floating pill bar. The palette lives in `Core/Theme/ThemeManager.swift`; the icon is rendered by `docs/icon/render_icon.py`.
 
 ## Build
 
 ```bash
 xcodegen generate   # after adding files or editing project.yml
-xcodebuild -project EnveOptician.xcodeproj -scheme EnveOptician \
+xcodebuild -project PettyOptician.xcodeproj -scheme PettyOptician \
   -destination "platform=iOS Simulator,id=FA996208-6558-4E89-88F1-B184DF04CD44" \
   -derivedDataPath /Volumes/games/EnveBuildTmp/DerivedData-optician build
 xcodebuild ... test   # ContentTests validates every bundled JSON file
@@ -14,13 +14,13 @@ xcodebuild ... test   # ContentTests validates every bundled JSON file
 
 ## Layout
 
-- `EnveOptician/Models` — content types (`Content.swift`), `ContentLibrary` (bundle loader), SwiftData progress models, `QuizBuilder`, `CardScheduler` (SM-2), `OpticsMath`, `StudySettings`.
+- `PettyOptician/Models` — content types (`Content.swift`), `ContentLibrary` (bundle loader), SwiftData progress models, `QuizBuilder`, `CardScheduler` (SM-2), `OpticsMath`, `StudySettings`.
 - `Home`, `Study`, `Practice`, `Flashcards`, `Library`, `Tools`, `Settings` — one folder per tab/feature.
-- `Core` — theme, `DynamicBackground`, `Panel`/`Chip`/`RichText` components. The resolved `ColorSet` is injected as `\.palette` from `RootView`.
+- `Core` — Petty theme + `pettyScreen()` background, `Panel`/`Chip`/`RichText` components. The resolved `ColorSet` is injected as `\.palette` from `RootView`.
 
 ## Content packs
 
-All study content is JSON in `EnveOptician/Resources/Content/`, discovered by filename prefix — drop in a new file and it loads, no code changes:
+All study content is JSON in `PettyOptician/Resources/Content/`, discovered by filename prefix — drop in a new file and it loads, no code changes:
 
 | Prefix | Shape |
 |---|---|
@@ -35,6 +35,8 @@ All study content is JSON in `EnveOptician/Resources/Content/`, discovered by fi
 
 `exam` is `abo` or `ncle`. `domain` is an **official ABO-NCLE content-outline section** id from `exams.json`: ABO `abo.optics`, `abo.anatomy`, `abo.products`, `abo.instruments`, `abo.dispensing`, `abo.laws`; NCLE `ncle.anatomy`, `ncle.refraction`, `ncle.instruments`, `ncle.prefitting`, `ncle.fitting`, `ncle.dispensing`, `ncle.followup`, `ncle.regulatory`. Mock exams allocate questions by those weights; `topic` drives the per-section topic browser and search. Diagrams are drawn in code (`Diagrams/DiagramArt.swift`) keyed by id; `diagram` fields reference those ids. Guide bodies: paragraphs split by blank lines, `- ` bullets, inline `**bold**` only. IDs must be globally unique — `ContentTests` enforces this plus 4 choices, valid answer index, known sections/diagrams, and that every official section has a guide and questions. Run the tests after adding content.
 
-Math drills (`Models/DrillGenerator.swift`) generate questions on the fly from `OpticsMath`; their ids start with `drill-` and are excluded from per-question stats. ANSI Z80.1 content cites the 2025 edition (values unchanged from 2020 except the new prescribed-prism tolerance).
+Built-in trainers live in `Tools/` and are listed in `Tools/Trainers.swift` (Practice tab + Simulator Lab): ABO lensometer, frame adjusting, PD & seg height, prism & base, ANSI job check; NCLE keratometer, GP fluorescein, soft lens fit, toric rotation (LARS). Right/left always means the patient's; drawings use the optician's front view. Each trainer's generation and scoring logic is unit-tested and its rules cite sources in-app. The timed Mock Exam runs in exam-day mode: hidden topic hints, 25 unscored pretest items, review-before-submit, on-screen calculator.
+
+Math drills (`Models/DrillGenerator.swift`) generate questions on the fly from `OpticsMath`; their ids start with `drill-` and are excluded from per-question stats. ANSI Z80.1 content cites the 2025 edition. It differs from 2020 in two places: the new prescribed-prism tolerance (±0.33Δ up to 6Δ, ±0.5Δ above) and the progressive horizontal-prism threshold (±3.375 D → ±3.75 D).
 
 Facts in `exams.json` / `california.json` were verified 2026-11-04 from abo-ncle.org and optometry.ca.gov; re-verify fees before release.
