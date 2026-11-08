@@ -31,7 +31,7 @@
     "id": "fc-ncle-ana-005",
     "exam": "ncle",
     "domain": "ncle.anatomy",
-    "front": "Endothelium: key facts",
+    "front": "Corneal endothelium: key facts",
     "back": "Single layer of hexagonal cells. It pumps fluid out of the stroma (deturgescence) and does not divide in adults. Lost cells are replaced by neighbors enlarging, which causes polymegethism."
   },
   {
@@ -45,7 +45,7 @@
     "id": "fc-ncle-ana-007",
     "exam": "ncle",
     "domain": "ncle.anatomy",
-    "front": "Epithelial turnover time",
+    "front": "Corneal epithelial turnover time",
     "back": "About 7 days."
   },
   {
@@ -164,7 +164,7 @@
     "id": "fc-ncle-ana-024",
     "exam": "ncle",
     "domain": "ncle.anatomy",
-    "front": "Average HVID",
+    "front": "Average adult HVID (horizontal visible iris diameter)",
     "back": "About 11.5–12.0 mm."
   },
   {
@@ -192,35 +192,35 @@
     "id": "fc-ncle-opt-002",
     "exam": "ncle",
     "domain": "ncle.refraction",
-    "front": "When to compensate vertex distance",
+    "front": "When to compensate vertex distance for a contact lens Rx",
     "back": "When either principal meridian exceeds about ±4.00 D."
   },
   {
     "id": "fc-ncle-opt-003",
     "exam": "ncle",
     "domain": "ncle.refraction",
-    "front": "Vertex effect on minus vs plus",
+    "front": "Vertex compensation for contact lenses: minus vs plus Rx",
     "back": "Minus Rx → less minus in the contact lens. Plus Rx → more plus in the contact lens."
   },
   {
     "id": "fc-ncle-opt-004",
     "exam": "ncle",
     "domain": "ncle.refraction",
-    "front": "−5.00 D at 12 mm → CL power",
+    "front": "Spectacle Rx −5.00 D at 12 mm vertex: contact lens power?",
     "back": "−5.00 ÷ 1.06 = −4.72 → −4.75 D."
   },
   {
     "id": "fc-ncle-opt-005",
     "exam": "ncle",
     "domain": "ncle.refraction",
-    "front": "+10.00 D at 12 mm → CL power",
+    "front": "Spectacle Rx +10.00 D at 12 mm vertex: contact lens power?",
     "back": "+10.00 ÷ 0.88 = +11.36 → +11.25 D."
   },
   {
     "id": "fc-ncle-opt-006",
     "exam": "ncle",
     "domain": "ncle.refraction",
-    "front": "−10.00 D at 12 mm → CL power",
+    "front": "Spectacle Rx −10.00 D at 12 mm vertex: contact lens power?",
     "back": "−10.00 ÷ 1.12 = −8.93 → −9.00 D."
   },
   {
@@ -234,7 +234,7 @@
     "id": "fc-ncle-opt-008",
     "exam": "ncle",
     "domain": "ncle.refraction",
-    "front": "SAM-FAP",
+    "front": "SAM-FAP (RGP fitting rule)",
     "back": "Steeper Add Minus, Flatter Add Plus. It compensates the tear lens when an RGP base curve differs from K."
   },
   {
@@ -262,7 +262,7 @@
     "id": "fc-ncle-opt-012",
     "exam": "ncle",
     "domain": "ncle.refraction",
-    "front": "45.00 D in mm",
+    "front": "K reading of 45.00 D: radius in mm?",
     "back": "7.50 mm."
   },
   {
@@ -297,14 +297,14 @@
     "id": "fc-ncle-opt-017",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "LARS",
+    "front": "LARS (soft toric lenses)",
     "back": "Left Add, Right Subtract: soft toric axis compensation for rotation, as seen by the examiner."
   },
   {
     "id": "fc-ncle-opt-018",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "CAAS",
+    "front": "CAAS (soft toric lenses)",
     "back": "Clockwise Add, Anticlockwise Subtract (examiner's view). It is the same rule as LARS."
   },
   {
@@ -353,35 +353,35 @@
     "id": "fc-ncle-opt-025",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "Over-refraction rule",
+    "front": "Contact lens over-refraction: final power rule",
     "back": "Final power = trial lens power + over-refraction. Vertex the over-refraction first if it exceeds about ±4.00 D."
   },
   {
     "id": "fc-ncle-mat-001",
     "exam": "ncle",
     "domain": "ncle.prefitting",
-    "front": "FDA Group I",
+    "front": "FDA Group I soft lens material",
     "back": "Low water (<50%), nonionic."
   },
   {
     "id": "fc-ncle-mat-002",
     "exam": "ncle",
     "domain": "ncle.prefitting",
-    "front": "FDA Group II",
+    "front": "FDA Group II soft lens material",
     "back": "High water (≥50%), nonionic."
   },
   {
     "id": "fc-ncle-mat-003",
     "exam": "ncle",
     "domain": "ncle.prefitting",
-    "front": "FDA Group III",
+    "front": "FDA Group III soft lens material",
     "back": "Low water (<50%), ionic."
   },
   {
     "id": "fc-ncle-mat-004",
     "exam": "ncle",
     "domain": "ncle.prefitting",
-    "front": "FDA Group IV",
+    "front": "FDA Group IV soft lens material",
     "back": "High water (≥50%), ionic. Most protein (lysozyme) deposition."
   },
   {
@@ -451,7 +451,7 @@
     "id": "fc-ncle-mat-014",
     "exam": "ncle",
     "domain": "ncle.prefitting",
-    "front": "Plus vs minus lenticular",
+    "front": "RGP plus vs minus lenticular carriers",
     "back": "Plus (CN-bevel) carrier thins high-minus edges. Minus (myoflange) carrier lets the lid grip high-plus lenses."
   },
   {
@@ -521,14 +521,14 @@
     "id": "fc-ncle-mat-024",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "EDTA",
+    "front": "EDTA (in contact lens solutions)",
     "back": "Chelating agent that enhances preservatives. Not a stand-alone disinfectant."
   },
   {
     "id": "fc-ncle-mat-025",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Saline",
+    "front": "Saline for contact lenses: what it can and can't do",
     "back": "Rinses only and does not disinfect. Never homemade, and never tap water."
   },
   {
@@ -549,7 +549,7 @@
     "id": "fc-ncle-fit-001",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "Absolute 'do not fit' finding",
+    "front": "Contact lenses: absolute 'do not fit' finding",
     "back": "Active corneal infection or acute anterior segment inflammation."
   },
   {
@@ -563,7 +563,7 @@
     "id": "fc-ncle-fit-003",
     "exam": "ncle",
     "domain": "ncle.prefitting",
-    "front": "Normal TBUT",
+    "front": "Normal TBUT (tear break-up time)",
     "back": "More than about 10 seconds."
   },
   {
@@ -591,7 +591,7 @@
     "id": "fc-ncle-fit-007",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "Push-up test",
+    "front": "Soft lens push-up test",
     "back": "Push the lens up with the lower lid. Moderate resistance and a prompt recenter mean a good fit."
   },
   {
@@ -654,35 +654,35 @@
     "id": "fc-ncle-fit-016",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "Alignment fluorescein pattern",
+    "front": "RGP alignment fluorescein pattern",
     "back": "Thin, even central fluorescein with a moderate bright edge band."
   },
   {
     "id": "fc-ncle-fit-017",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "Apical clearance (steep) pattern",
+    "front": "RGP fluorescein: apical clearance (steep) pattern",
     "back": "Central pooling, mid-peripheral dark touch ring, possible bubbles."
   },
   {
     "id": "fc-ncle-fit-018",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "Apical touch (flat) pattern",
+    "front": "RGP fluorescein: apical touch (flat) pattern",
     "back": "Dark central bearing, peripheral pooling, wide edge band, decentration."
   },
   {
     "id": "fc-ncle-fit-019",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "WTR cornea under a spherical RGP",
+    "front": "Fluorescein pattern: spherical RGP on a WTR cornea",
     "back": "Horizontal band of touch with pooling at the top and bottom."
   },
   {
     "id": "fc-ncle-fit-020",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "Insufficient vs excessive edge lift",
+    "front": "RGP fluorescein: insufficient vs excessive edge lift",
     "back": "Insufficient: dark, narrow edge band, seal-off, adherence. Excessive: wide bright band, awareness, decentration."
   },
   {
@@ -717,7 +717,7 @@
     "id": "fc-ncle-fit-025",
     "exam": "ncle",
     "domain": "ncle.fitting",
-    "front": "Multifocal evaluation",
+    "front": "Multifocal contact lens evaluation",
     "back": "Binocular, in normal lighting, after settling, refined with hand-held ±0.25 D lenses."
   },
   {
@@ -752,21 +752,21 @@
     "id": "fc-ncle-ins-003",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "B&L mires",
+    "front": "B&L keratometer mires",
     "back": "Plus signs = horizontal drum. Minus signs = vertical drum."
   },
   {
     "id": "fc-ncle-ins-004",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "B&L standard range",
+    "front": "B&L keratometer standard range",
     "back": "About 36.00–52.00 D."
   },
   {
     "id": "fc-ncle-ins-005",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Extending the B&L range",
+    "front": "Extending the B&L keratometer range",
     "back": "+1.25 D lens: up to about 61 D. −1.00 D lens: down to about 30 D. Use a conversion table."
   },
   {
@@ -794,42 +794,42 @@
     "id": "fc-ncle-ins-009",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Diffuse illumination",
+    "front": "Slit lamp: diffuse illumination",
     "back": "Low-magnification overview. Soft lens coverage and movement."
   },
   {
     "id": "fc-ncle-ins-010",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Optic section",
+    "front": "Slit lamp: optic section",
     "back": "Very narrow beam showing a corneal cross-section to localize depth."
   },
   {
     "id": "fc-ncle-ins-011",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Parallelepiped",
+    "front": "Slit lamp: parallelepiped",
     "back": "About 1–2 mm direct beam giving a 3-D view of corneal tissue."
   },
   {
     "id": "fc-ncle-ins-012",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Sclerotic scatter",
+    "front": "Slit lamp: sclerotic scatter",
     "back": "Beam at the limbus. Total internal reflection shows central corneal clouding or edema."
   },
   {
     "id": "fc-ncle-ins-013",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Specular reflection",
+    "front": "Slit lamp: specular reflection",
     "back": "Angle of incidence = angle of reflection at high magnification. Shows the endothelial mosaic and tear lipid layer."
   },
   {
     "id": "fc-ncle-ins-014",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Retroillumination",
+    "front": "Slit lamp: retroillumination",
     "back": "Backlights the cornea. Shows microcysts, vacuoles, ghost vessels, and deposits."
   },
   {
@@ -843,14 +843,14 @@
     "id": "fc-ncle-ins-016",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Red-free filter",
+    "front": "Slit lamp: red-free filter",
     "back": "Green light makes vessels appear dark and high-contrast."
   },
   {
     "id": "fc-ncle-ins-017",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Conical beam",
+    "front": "Slit lamp: conical beam",
     "back": "Small spot beam through the anterior chamber in the dark to detect cells and flare."
   },
   {
@@ -871,7 +871,7 @@
     "id": "fc-ncle-ins-020",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Axial vs tangential maps",
+    "front": "Corneal topography: axial vs tangential maps",
     "back": "Axial: smoothed, curvature referenced to the instrument axis. Tangential: local curvature, better for cone location and ortho-k zones."
   },
   {
@@ -885,7 +885,7 @@
     "id": "fc-ncle-ins-022",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "Vertical bow-tie",
+    "front": "Topography: vertical bow-tie pattern",
     "back": "With-the-rule astigmatism."
   },
   {
@@ -948,7 +948,7 @@
     "id": "fc-ncle-fol-003",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "Striae and folds",
+    "front": "Corneal striae and folds: swelling thresholds",
     "back": "Striae appear at about 5% corneal swelling, folds at about 8% or more."
   },
   {
@@ -969,21 +969,21 @@
     "id": "fc-ncle-fol-006",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "Neovascularization cause and fix",
+    "front": "Contact lens corneal neovascularization: cause and fix",
     "back": "Chronic hypoxia. Increase Dk/t and reduce wear. Vessels become ghost vessels."
   },
   {
     "id": "fc-ncle-fol-007",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "CLARE",
+    "front": "CLARE (contact lens complication)",
     "back": "Extended wear. Wakes with a red, painful, photophobic eye and peripheral infiltrates, no major epithelial defect. Gram-negative endotoxins."
   },
   {
     "id": "fc-ncle-fol-008",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "CLPU",
+    "front": "CLPU (contact lens complication)",
     "back": "Small, round, peripheral infiltrate with an overlying epithelial defect. Linked to Staph aureus. Sterile, leaves a round scar."
   },
   {
@@ -1004,7 +1004,7 @@
     "id": "fc-ncle-fol-011",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "SEAL",
+    "front": "SEAL (contact lens complication)",
     "back": "Superior arcuate epithelial split from mechanical pressure (stiff lens or poor fit). Usually without symptoms."
   },
   {
@@ -1039,7 +1039,7 @@
     "id": "fc-ncle-fol-016",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "Biggest MK risk factor",
+    "front": "Biggest microbial keratitis (MK) risk factor in contact lens wear",
     "back": "Overnight wear."
   },
   {
@@ -1088,14 +1088,14 @@
     "id": "fc-ncle-fol-023",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "Protein deposits",
+    "front": "Soft lens protein deposits",
     "back": "Whitish film. Heaviest on Group IV."
   },
   {
     "id": "fc-ncle-fol-024",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "Lipid deposits",
+    "front": "Contact lens lipid deposits",
     "back": "Greasy smear. Common on silicone hydrogels."
   },
   {
@@ -1123,77 +1123,77 @@
     "id": "fc-ncle-fol-028",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "Product recalls to know",
+    "front": "Contact lens solution recalls to know",
     "back": "2006: ReNu MoistureLoc (Fusarium). 2007: Complete MoisturePlus (Acanthamoeba)."
   },
   {
     "id": "fc-ncle-std-001",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "FCLCA",
+    "front": "FCLCA (U.S. contact lens law)",
     "back": "Fairness to Contact Lens Consumers Act, 2003. Implemented by the FTC Contact Lens Rule (16 CFR Part 315)."
   },
   {
     "id": "fc-ncle-std-002",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Automatic Rx release",
+    "front": "Contact Lens Rule: automatic Rx release",
     "back": "The prescriber must give the contact lens Rx at completion of the fitting, even if not asked."
   },
   {
     "id": "fc-ncle-std-003",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Passive verification window",
+    "front": "Contact Lens Rule: passive verification window",
     "back": "8 business hours. If the prescriber doesn't respond, the seller may fill the order."
   },
   {
     "id": "fc-ncle-std-004",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Minimum Rx expiration",
+    "front": "Minimum contact lens Rx expiration",
     "back": "1 year (or longer if state law requires), unless a documented medical reason justifies shorter."
   },
   {
     "id": "fc-ncle-std-005",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Prescriber prohibitions",
+    "front": "Contact Lens Rule: prescriber prohibitions",
     "back": "No requiring a lens purchase, no extra release fee, no waiver as a condition of release."
   },
   {
     "id": "fc-ncle-std-006",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Exam fee before release",
+    "front": "Contact Lens Rule: exam fee before Rx release",
     "back": "Allowed only if the practice also requires immediate payment when the exam shows no need for lenses."
   },
   {
     "id": "fc-ncle-std-007",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "2020 confirmation rule",
+    "front": "Contact Lens Rule 2020: confirmation of Rx release",
     "back": "Get the patient's confirmation of Rx receipt (signed statement, signed copy, or proof of digital delivery). Keep records 3 years."
   },
   {
     "id": "fc-ncle-std-008",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "2020: patient copy requests",
+    "front": "Contact Lens Rule 2020: patient requests for an Rx copy",
     "back": "Respond within 40 business hours."
   },
   {
     "id": "fc-ncle-std-009",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Who is exempt from confirmation",
+    "front": "Who is exempt from the Contact Lens Rule's confirmation requirement",
     "back": "Prescribers with no direct or indirect financial interest in lens sales."
   },
   {
     "id": "fc-ncle-std-010",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Required Rx elements",
+    "front": "Required contact lens Rx elements (FTC)",
     "back": "Patient name, exam date, issue and expiration dates, prescriber name, address, phone, and fax, power, material and/or manufacturer, base curve (or designation), diameter when appropriate. Private label: manufacturer, private-label trade name, equivalent brand if applicable."
   },
   {
@@ -1207,7 +1207,7 @@
     "id": "fc-ncle-std-012",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Seller substitution",
+    "front": "Contact lens seller substitution: what's allowed",
     "back": "Only the same lens from the same manufacturer under a different label."
   },
   {
@@ -1235,7 +1235,7 @@
     "id": "fc-ncle-std-016",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "FDA vs FTC",
+    "front": "FDA vs FTC roles for contact lenses",
     "back": "FDA: device safety and approval. FTC: Rx release, verification, seller conduct."
   },
   {
@@ -1270,14 +1270,14 @@
     "id": "fc-ncle-std-021",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Soft diagnostic lenses",
+    "front": "Soft diagnostic lenses: handling between patients",
     "back": "Single use. Discard after each patient."
   },
   {
     "id": "fc-ncle-std-022",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Rigid diagnostic lenses",
+    "front": "Rigid diagnostic lenses: handling between patients",
     "back": "Clean and disinfect with an appropriate method between patients."
   },
   {

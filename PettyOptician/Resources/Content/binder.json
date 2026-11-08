@@ -1,0 +1,255 @@
+[
+  {
+    "id": "binder-abo-focus",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "title": "Where did the focus go?",
+    "subtitle": "Four refractive errors at a glance.",
+    "notes": "With accommodation relaxed, **myopia** brings distant light to a focus in front of the retina. A minus lens moves that focus back. In **hyperopia**, the focus would fall behind the retina. A plus lens brings it forward.\n\n**Astigmatism** means the eye has different focusing power in different meridians. **Presbyopia** is the age-related loss of the ability to change focus for near work.",
+    "cue": "Myopia and hyperopia tell you where the distance focus falls. Presbyopia tells you how much near focusing ability is left.",
+    "prompt": "Distant light focuses in front of the retina when the eye is relaxed. Which refractive error is this, and which sign corrects it?",
+    "answer": "**Myopia**. A minus spectacle lens diverges incoming light and shifts the focus back toward the retina.",
+    "binderReference": "Anatomy Review scan · PDF pages 16–17",
+    "sources": [
+      {
+        "title": "National Eye Institute · Types of Refractive Errors",
+        "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors/types-refractive-errors"
+      }
+    ]
+  },
+  {
+    "id": "binder-abo-transpose",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "title": "Same lens, different outfit",
+    "subtitle": "Switch cylinder forms without changing the power.",
+    "notes": "To transpose a sphero-cylinder prescription, **add the sphere and cylinder** to get the new sphere, **reverse the cylinder sign**, then **turn the axis 90°**. Keep the result in the 1–180° range.\n\nA lens written as +2.00 −1.00 × 180 becomes +1.00 +1.00 × 090. Either form gives +2.00 D at 180° and +1.00 D at 90°.",
+    "cue": "Add, flip, turn. Check your work by comparing power in the same two meridians.",
+    "prompt": "Transpose −3.00 −1.50 × 020 into plus cylinder.",
+    "answer": "**−4.50 +1.50 × 110.** Add −1.50 to −3.00, change the cylinder to +1.50, then turn 020° to 110°.",
+    "binderReference": "CLRE outline scan · PDF page 15"
+  },
+  {
+    "id": "binder-abo-prism",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "title": "The millimeter trap",
+    "subtitle": "Use Prentice’s rule without losing a decimal.",
+    "notes": "Multiply decentration in **centimeters** by lens power in the meridian of decentration. The result gives the induced prism in prism diopters. For magnitude, use the absolute value of the power.\n\nA plus lens has its prism base toward the optical center. A minus lens has its base away from the optical center. Work out magnitude and direction separately.",
+    "cue": "**Millimeters ÷ 10 = centimeters.** Convert before you multiply.",
+    "prompt": "A wearer looks through a +5.00 D spherical spectacle lens 4 mm from its optical center. What prism magnitude is induced, and where does the base point?",
+    "answer": "**2 prism diopters, base toward the optical center.** The calculation is 0.4 cm × 5.00 D.",
+    "binderReference": "CLRE outline scan · PDF page 15"
+  },
+  {
+    "id": "binder-abo-lensmeter",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "title": "Bring the mires into focus",
+    "subtitle": "What the lensmeter tells you about a finished lens.",
+    "notes": "A **lensmeter** verifies the power of a lens. With a manual lensmeter, focus the eyepiece for your eye before measuring. A sphero-cylinder lens has two principal powers, so its two sets of mires reach focus at different drum readings.\n\nThe difference between the two readings gives the cylinder magnitude. Follow the instrument’s focusing order for the cylinder convention you’re recording.",
+    "cue": "Two focus readings tell you the cylinder magnitude. The axis wheel tells you the orientation.",
+    "prompt": "The two principal lensmeter readings are +1.00 D and +3.00 D. How much cylinder is present?",
+    "answer": "**2.00 D of cylinder.** The two principal meridians differ by 2.00 D.",
+    "binderReference": "CLRE outline scan · PDF page 16",
+    "sources": [
+      {
+        "title": "University of Iowa Ophthalmology · Manual Lensometry",
+        "url": "https://webeye.ophth.uiowa.edu/eyeforum/video/Refraction/pdfs/PlusCylManualLensometry.pdf"
+      }
+    ]
+  },
+  {
+    "id": "binder-abo-lens-designs",
+    "exam": "abo",
+    "domain": "abo.products",
+    "title": "Find the near zone",
+    "subtitle": "Recognize bifocals and progressives.",
+    "notes": "A **lined bifocal** has a separate near segment with a visible boundary. A **progressive addition lens** changes power gradually from distance through intermediate to near along its corridor.\n\nProgressive placement depends on the fitting reference marks and the frame as worn. A wearer’s complaint about finding the near area is a reason to check fitting height, centration, and frame position.",
+    "cue": "Bifocal has a boundary. Progressive has a path.",
+    "prompt": "Which design provides a gradual change in power from distance to near?",
+    "answer": "A **progressive addition lens**. Its corridor connects the distance and near zones through intermediate powers."
+  },
+  {
+    "id": "binder-abo-blank-size",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "title": "Will it cut out?",
+    "subtitle": "Use frame measurements and decentration together.",
+    "notes": "**Frame PD = A + DBL.** A is the boxed lens width and DBL is the distance between lenses. In a symmetric case, divide the difference between frame PD and wearer PD by two to find horizontal decentration per lens.\n\nThe classroom estimate for minimum blank size is **effective diameter + twice the decentration magnitude**. Effective diameter measures across the frame shape from the geometric center to the farthest edge and back again. Use the lab’s allowance when one is specified.",
+    "cue": "Find how far **one** lens moves, then double that distance for the blank estimate.",
+    "prompt": "A frame has a 54 mm effective diameter and 68 mm frame PD. The wearer’s symmetric distance PD is 62 mm. Estimate the blank size before any lab allowance.",
+    "answer": "**60 mm.** The decentration is (68 − 62) ÷ 2 = 3 mm per lens. The estimate is 54 + 2 × 3."
+  },
+  {
+    "id": "binder-abo-eyeglass-rx",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "title": "Know when the Rx is released",
+    "subtitle": "Separate the eye exam from the sale.",
+    "notes": "Under the US FTC **Eyeglass Rule**, a prescriber provides the eyeglass prescription after a refractive eye exam even if the patient does not request it. The prescriber cannot tie prescription release to buying eyewear.\n\nContact lens prescription release has a different trigger. The **Contact Lens Rule** ties release to completion of the fitting.",
+    "cue": "Glasses follow the exam. Contacts follow the fitting.",
+    "prompt": "A patient wants to buy their glasses elsewhere. Does the patient have to ask before the prescriber provides the eyeglass prescription?",
+    "answer": "**No.** Under the FTC Eyeglass Rule the prescriber provides it automatically after the refractive exam.",
+    "sources": [
+      {
+        "title": "FTC · Eyeglass and Contact Lens Rules",
+        "url": "https://www.ftc.gov/business-guidance/blog/2025/06/focus-eyeglass-contact-lens-rules-ftcs-message-prescribers"
+      }
+    ]
+  },
+  {
+    "id": "binder-ncle-anterior-eye",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "title": "Tour the front of the eye",
+    "subtitle": "Map the cornea, limbus, iris, and pupil.",
+    "notes": "The **cornea** is the clear front surface that bends incoming light. The **limbus** is where the cornea meets the sclera. The **iris** changes the size of the **pupil**, the opening through which light passes.\n\nThe **anterior chamber** lies between the cornea and iris. The small **posterior chamber** is behind the iris and in front of the crystalline lens.",
+    "cue": "The iris moves. The pupil is the opening.",
+    "prompt": "At what landmark does the clear cornea meet the white sclera?",
+    "answer": "The **limbus**. It marks the transition between the two tissues.",
+    "binderReference": "Anatomy Review scan · PDF pages 1–3",
+    "sources": [
+      {
+        "title": "National Eye Institute · How the Eyes Work",
+        "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+      }
+    ]
+  },
+  {
+    "id": "binder-ncle-tear-film",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "title": "Follow a blink",
+    "subtitle": "Connect the lids, tears, and the lens surface.",
+    "notes": "A blink spreads tears across the cornea. The tear film helps keep the optical surface smooth and protects the surface from drying.\n\nThe **meibomian glands** supply the surface lipids that slow evaporation. The **lacrimal glands** supply much of the watery portion. Mucins help the tear film spread across the ocular surface.",
+    "cue": "Oil slows evaporation. Water hydrates. Mucins help tears spread.",
+    "prompt": "Which eyelid glands contribute lipids that help slow tear evaporation?",
+    "answer": "The **meibomian glands** at the lid margins.",
+    "binderReference": "Anatomy Review scan · PDF pages 4–5"
+  },
+  {
+    "id": "binder-ncle-vertex",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "title": "Move the lens, redo the math",
+    "subtitle": "Why high spectacle powers change at the cornea.",
+    "notes": "**Vertex distance** is the separation between the back of a spectacle lens and the cornea. Moving a strong lens from the spectacle plane to the corneal plane changes its effective power.\n\nIn the classroom calculation, the corneal-plane power is **F ÷ (1 − dF)**, where d is the spectacle vertex distance in meters. For −8.00 D at 12 mm, that is −8.00 ÷ (1 + 0.096) ≈ −7.30 D before rounding.",
+    "cue": "From spectacles to contacts, high minus becomes less minus and high plus becomes more plus.",
+    "prompt": "When a −8.00 D spectacle power is converted to the corneal plane, does the equivalent power move toward −7.00 D or −9.00 D?",
+    "answer": "**Toward −7.00 D.** Moving a minus lens closer to the eye requires less minus for the same effect.",
+    "binderReference": "Anatomy Review scan · PDF pages 18–20 and 60"
+  },
+  {
+    "id": "binder-ncle-instruments",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "title": "Pick the right instrument",
+    "subtitle": "Measure curvature, map shape, or inspect the surface.",
+    "notes": "A **keratometer** estimates curvature in the main meridians of a small central corneal region. **Corneal topography** maps shape across a broader area, which helps reveal patterns missed by a pair of central readings.\n\nA **slit lamp** lets you inspect the eye and the lens at magnification. A narrow optical section can show depth and layer relationships.",
+    "cue": "K readings give you a pair. Topography gives you a map. The slit lamp gives you a view.",
+    "prompt": "Which instrument maps curvature over a broad area of the cornea?",
+    "answer": "A **corneal topographer**. A conventional keratometer samples a much smaller central region.",
+    "binderReference": "Anatomy Review scan · PDF pages 46–49 and 54–58"
+  },
+  {
+    "id": "binder-ncle-oxygen",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "title": "The oxygen shortcut",
+    "subtitle": "Tell Dk and Dk/t apart.",
+    "notes": "**Dk** describes the oxygen permeability of the lens material. **Dk/t** describes oxygen transmissibility through a lens of a given thickness. If material stays the same, more thickness means less oxygen transmissibility.\n\nEarly hard plastic lenses made from PMMA allowed essentially no oxygen through the material. Modern gas-permeable rigid lenses do. In soft lenses, silicone hydrogels improve oxygen permeability compared with many conventional hydrogels.",
+    "cue": "Dk belongs to the material. The **t** in Dk/t brings thickness into the picture.",
+    "prompt": "Two lenses are made from the same material. Which has higher Dk/t, the thicker lens or the thinner lens?",
+    "answer": "The **thinner lens**. Dk is the same for both, and dividing by a smaller thickness gives a larger Dk/t.",
+    "binderReference": "Anatomy Review scan · PDF pages 10–15 and 81\nHistory and CLRE scan · PDF pages 2–3",
+    "sources": [
+      {
+        "title": "FDA · Types of Contact Lenses",
+        "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses"
+      }
+    ]
+  },
+  {
+    "id": "binder-ncle-gp-patterns",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "title": "Read the glow",
+    "subtitle": "Use fluorescein to reason about corneal GP fit.",
+    "notes": "Under cobalt-blue illumination, **brighter fluorescein** generally marks thicker tears under a corneal GP lens. Darker areas may indicate a thinner tear layer or bearing.\n\nCentral pooling suggests a steeper relationship at the center. Central bearing suggests a flatter one. Check the midperiphery, edge, centration, and movement before interpreting the whole fit.",
+    "cue": "Bright is a thicker tear layer. Read the whole pattern before deciding what it means.",
+    "prompt": "A corneal GP lens shows a bright central pool. Does that central pattern suggest a steeper or flatter relationship?",
+    "answer": "A **steeper central relationship**. More tears collect in the clearance under the central lens.",
+    "binderReference": "Anatomy Review scan · PDF pages 25–29"
+  },
+  {
+    "id": "binder-ncle-soft-fit",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "title": "Watch what happens after the blink",
+    "subtitle": "Read movement alongside coverage and centration.",
+    "notes": "Evaluate a soft lens after it settles. Look at **corneal coverage**, **centration**, and **movement with a blink**. A very mobile lens may be loose. Minimal movement can point to a tight fit, especially if the lens also resists a gentle push-up.\n\nThe push-up assessment adds information about mobility and recovery. Use it with the blink findings, vision, and comfort.",
+    "cue": "Coverage tells you where the lens sits. Blink and push-up tell you how it moves.",
+    "prompt": "A centered soft lens barely moves after a blink and resists a gentle push-up. Which fit tendency does that combination suggest?",
+    "answer": "A **tight fit tendency**. Both observations suggest limited mobility.",
+    "binderReference": "Anatomy Review scan · PDF pages 30–32"
+  },
+  {
+    "id": "binder-ncle-water",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "title": "Keep the case boring",
+    "subtitle": "Build a simple contact lens hygiene routine.",
+    "notes": "Wash and dry your hands before handling lenses. For reusable lenses, use the recommended disinfection system and fresh solution each time. Empty the old solution before filling the case.\n\nKeep lenses away from tap water, showers, pools, and hot tubs. Remove them before showering or swimming. Follow the prescribed replacement schedule.",
+    "cue": "Fresh solution every time. Dry hands before touching the lens.",
+    "prompt": "There is leftover solution in the case. What should a reusable lens wearer do before storing the lenses?",
+    "answer": "**Empty the old solution and use fresh recommended solution.** Topping off the case compromises disinfection.",
+    "binderReference": "Anatomy Review scan · PDF pages 51–53",
+    "sources": [
+      {
+        "title": "CDC · Preventing Eye Infections When Wearing Contacts",
+        "url": "https://www.cdc.gov/contact-lenses/prevention/index.html"
+      },
+      {
+        "title": "CDC · Keeping Water Away from Contact Lenses",
+        "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html"
+      }
+    ]
+  },
+  {
+    "id": "binder-ncle-red-flags",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "title": "Spot the red flags",
+    "subtitle": "Recognize when lens symptoms need prompt attention.",
+    "notes": "A contact lens wearer reporting **eye pain, light sensitivity, sudden blur, or discharge** needs prompt attention. These are possible signs of a serious infection.\n\nFor those symptoms, the CDC advises removing the contact lenses and contacting an eye doctor immediately. The cause needs professional evaluation.",
+    "cue": "A painful red eye with light sensitivity changes the urgency.",
+    "prompt": "A contact lens wearer has a red, painful eye and is sensitive to light. What action should you advise?",
+    "answer": "**Remove the lenses and contact an eye doctor immediately.** The symptoms are consistent with a possible serious infection.",
+    "binderReference": "Anatomy Review scan · PDF pages 6–9 and 23–24",
+    "sources": [
+      {
+        "title": "CDC · Contact Lens Related Eye Infections",
+        "url": "https://www.cdc.gov/contact-lenses/causes/index.html"
+      }
+    ]
+  },
+  {
+    "id": "binder-ncle-contact-rx",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "title": "A contact Rx names the lens",
+    "subtitle": "Connect prescription release to the completed fitting.",
+    "notes": "Under the US FTC **Contact Lens Rule**, the prescriber provides a copy of the contact lens prescription when the fitting is complete. A seller needs a copy of the prescription or must verify it with the prescriber through the rule’s process.\n\nA contact lens prescription includes the lens maker or material and the applicable lens parameters. Check the actual prescription before ordering. Two boxes with the same power can have different designs.",
+    "cue": "The fitting establishes a lens choice as well as a power.",
+    "prompt": "When does the prescriber provide the contact lens prescription under the FTC rule?",
+    "answer": "**At completion of the contact lens fitting.** The patient receives it even if they did not ask.",
+    "binderReference": "CLRE outline scan · PDF page 20",
+    "sources": [
+      {
+        "title": "FTC · Contact Lens Rule",
+        "url": "https://www.ftc.gov/business-guidance/resources/contact-lens-rule-guide-prescribers-sellers"
+      }
+    ]
+  }
+]

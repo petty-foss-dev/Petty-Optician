@@ -14,6 +14,23 @@ final class ContentTests: XCTestCase {
         }
     }
 
+    func testBinderLessonsCoverBothTracksAndLinkToGuides() {
+        let lessons = library.binderLessons
+        XCTAssertEqual(Set(lessons.map(\.id)).count, lessons.count)
+        for exam in ExamID.allCases {
+            let domains = Set(library.domains(for: exam).map(\.id))
+            let track = lessons.filter { $0.exam == exam }
+            XCTAssertFalse(track.isEmpty, exam.rawValue)
+            for lesson in track {
+                XCTAssertTrue(domains.contains(lesson.domain), lesson.id)
+                XCTAssertNotNil(library.guide(for: lesson.domain), lesson.id)
+                XCTAssertFalse(lesson.id.contains(","), lesson.id)
+                XCTAssertTrue([lesson.id, lesson.title, lesson.subtitle, lesson.notes, lesson.cue, lesson.prompt, lesson.answer]
+                    .allSatisfy { !$0.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }, lesson.id)
+            }
+        }
+    }
+
     func testIdentifiersAreUnique() {
         for (name, ids) in [
             ("questions", library.questions.map(\.id)),
@@ -231,6 +248,75 @@ final class DrillAndTrainerTests: XCTestCase {
                 }
             }
         }
+    }
+
+    func testLensometerPrismGeneration() {
+        XCTAssertNil(LensometerTrainerView.randomPrism(enabled: false))
+        var sawHorizontal = false, sawVertical = false, sawBoth = false
+        for _ in 0..<300 {
+            let reading = LensometerTrainerView.randomPrism(enabled: true)!.reading
+            XCTAssertTrue(reading.horizontal > 0 || reading.vertical > 0)
+            for amount in [reading.horizontal, reading.vertical] where amount > 0 {
+                XCTAssertTrue((0.5...3).contains(amount))
+                XCTAssertEqual((amount * 2).rounded(), amount * 2)
+            }
+            XCTAssertTrue([.baseIn, .baseOut].contains(reading.horizontalBase))
+            XCTAssertTrue([.baseUp, .baseDown].contains(reading.verticalBase))
+            sawHorizontal = sawHorizontal || (reading.horizontal > 0 && reading.vertical == 0)
+            sawVertical = sawVertical || (reading.vertical > 0 && reading.horizontal == 0)
+            sawBoth = sawBoth || (reading.horizontal > 0 && reading.vertical > 0)
+        }
+        XCTAssertTrue(sawHorizontal && sawVertical && sawBoth)
+    }
+
+    func testLensometerGradesPowerAndPrismSeparately() {
+        let lens = SpheroCylinder(sphere: -2, cylinder: -1, axis: 180)
+        let actual = PrismReading(horizontal: 2, horizontalBase: .baseIn, vertical: 1, verticalBase: .baseUp)
+        let prism = LensometerPrism(reading: actual, eye: .od)
+
+        XCTAssertTrue(LensometerTrainerView.grade(lens, lens, reading: actual, prism: prism).isCorrect)
+        XCTAssertTrue(LensometerTrainerView.grade(OpticsMath.transpose(lens), lens, reading: actual, prism: prism).isCorrect)
+
+        var wrongVertical = actual
+        wrongVertical.verticalBase = .baseDown
+        XCTAssertEqual(LensometerTrainerView.grade(lens, lens, reading: wrongVertical, prism: prism), .init(power: true, prism: false))
+
+        var missingVertical = actual
+        missingVertical.vertical = 0
+        XCTAssertFalse(LensometerTrainerView.grade(lens, lens, reading: missingVertical, prism: prism).prism)
+
+        let offPower = SpheroCylinder(sphere: 0, cylinder: 0, axis: 90)
+        XCTAssertEqual(LensometerTrainerView.grade(offPower, lens, reading: actual, prism: prism), .init(power: false, prism: true))
+
+        XCTAssertTrue(LensometerTrainerView.grade(lens, lens, reading: PrismReading(), prism: nil).isCorrect)
+    }
+
+    func testPrismReadingIgnoresBaseOfZeroComponent() {
+        let horizontalOnly = PrismReading(horizontal: 1.5, horizontalBase: .baseOut, vertical: 0, verticalBase: .baseDown)
+        XCTAssertTrue(horizontalOnly.matches(PrismReading(horizontal: 1.5, horizontalBase: .baseOut, vertical: 0, verticalBase: .baseUp)))
+        XCTAssertFalse(horizontalOnly.matches(PrismReading(horizontal: 1.5, horizontalBase: .baseIn)))
+        XCTAssertEqual(horizontalOnly.label, "1.50Δ Base Out")
+        XCTAssertEqual(PrismReading(horizontal: 2, vertical: 1, verticalBase: .baseDown).label, "2.00Δ Base In and 1.00Δ Base Down")
+    }
+
+    func testLensometerPrismDisplacementFollowsBaseForEachEye() {
+        for eye in PrismTrainerEye.allCases {
+            let nasal = eye == .od ? 2.0 : -2.0
+            let expected: [(PrismReading, Double, Double)] = [
+                (PrismReading(horizontal: 2, horizontalBase: .baseIn), nasal, 0),
+                (PrismReading(horizontal: 2, horizontalBase: .baseOut), -nasal, 0),
+                (PrismReading(vertical: 2, verticalBase: .baseUp), 0, -2),
+                (PrismReading(vertical: 2, verticalBase: .baseDown), 0, 2),
+                (PrismReading(horizontal: 2, horizontalBase: .baseIn, vertical: 1, verticalBase: .baseDown), nasal, 1),
+            ]
+            for (reading, x, y) in expected {
+                let displacement = LensometerPrism(reading: reading, eye: eye).displacement
+                XCTAssertEqual(displacement.dx, x, "\(eye) \(reading.label)")
+                XCTAssertEqual(displacement.dy, y, "\(eye) \(reading.label)")
+            }
+        }
+        // Moran CORE / Opterio: left lens, base out → target toward the temple, which is the optician's right.
+        XCTAssertGreaterThan(LensometerPrism(reading: PrismReading(horizontal: 3, horizontalBase: .baseOut), eye: .os).displacement.dx, 0)
     }
 
     func testLensometerAcceptsEitherCylinderForm() {

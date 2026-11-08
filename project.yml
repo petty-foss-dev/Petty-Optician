@@ -9,12 +9,20 @@ settings:
     CURRENT_PROJECT_VERSION: "1"
     MARKETING_VERSION: "1.0"
     ENABLE_USER_SCRIPT_SANDBOXING: YES
+packages:
+  FluidAudio:
+    url: https://github.com/FluidInference/FluidAudio.git
+    revision: 5390df9752c8fc583596018360c5fd70d6fa6c75
 targets:
   PettyOptician:
     type: application
     platform: iOS
     sources:
       - path: PettyOptician
+      - path: Shared
+    dependencies:
+      - package: FluidAudio
+      - target: PettyOpticianWidgets
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.isaaclamb.PettyOptician
@@ -29,14 +37,56 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         TARGETED_DEVICE_FAMILY: "1,2"
+    info:
+      path: PettyOptician-Info.plist
+      properties:
+        UIBackgroundModes: [audio, remote-notification]
+        CFBundleURLTypes:
+          - CFBundleURLName: com.isaaclamb.PettyOptician
+            CFBundleURLSchemes: [pettyoptician]
+    entitlements:
+      path: PettyOptician.entitlements
+      properties:
+        com.apple.developer.icloud-container-identifiers: [iCloud.com.isaaclamb.PettyOptician]
+        com.apple.developer.icloud-services: [CloudKit]
+        aps-environment: development
+        com.apple.security.application-groups: [group.com.isaaclamb.PettyOptician]
     scheme:
       testTargets:
         - PettyOpticianTests
+      storeKitConfiguration: PettyOptician.storekit
+  PettyOpticianWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: PettyOpticianWidgets
+      - path: Shared
+    info:
+      path: PettyOpticianWidgets/Info.plist
+      properties:
+        CFBundleDisplayName: "petty: Optician"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: PettyOpticianWidgets/PettyOpticianWidgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.isaaclamb.PettyOptician]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.isaaclamb.PettyOptician.Widgets
+        DEVELOPMENT_TEAM: 9TT6DBK8W3
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "petty: Optician"
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
   PettyOpticianTests:
     type: bundle.unit-test
     platform: iOS
     sources:
       - path: PettyOpticianTests
+      - path: PettyOptician.storekit
+        buildPhase: resources
     dependencies:
       - target: PettyOptician
     settings:

@@ -150,6 +150,8 @@ struct RichText: View {
                                 Circle().fill(palette.accent).frame(width: 5, height: 5)
                                     .alignmentGuide(.firstTextBaseline) { $0[.bottom] + 1 }
                                 Text(Self.markdown(item))
+                                    .multilineTextAlignment(.leading)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
                                     .fixedSize(horizontal: false, vertical: true)
                             }
                         }

@@ -1301,7 +1301,7 @@
     "domain": "abo.instruments",
     "topic": "Lensometry",
     "difficulty": 2,
-    "stem": "Reading in minus cylinder, the sphere lines focus at +2.00 with the axis wheel at 030, and the cylinder lines focus at +0.50. What is the prescription?",
+    "stem": "On a manual lensometer in minus-cylinder technique, the sphere lines focus at +2.00 with the axis wheel at 030, and the cylinder lines focus at +0.50. What is the prescription?",
     "choices": [
       "+0.50 +1.50 × 030",
       "+2.00 −1.50 × 120",

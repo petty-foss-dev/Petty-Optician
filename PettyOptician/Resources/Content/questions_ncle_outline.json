@@ -225,7 +225,7 @@
     "domain": "ncle.dispensing",
     "topic": "Compliance",
     "difficulty": 2,
-    "stem": "In the same CDC survey, about how many U.S. adults were estimated to wear contact lenses?",
+    "stem": "In CDC's 2014 national survey of contact lens wearers, about how many U.S. adults were estimated to wear contact lenses?",
     "choices": [
       "About one in twenty adults (roughly 12 million)",
       "About one in six adults (roughly 41 million)",
@@ -245,7 +245,7 @@
     "domain": "ncle.dispensing",
     "topic": "Compliance",
     "difficulty": 1,
-    "stem": "Lenses have been stored in their case for 30 days without use. According to the American Academy of Ophthalmology, what must happen before they are worn?",
+    "stem": "A patient's contact lenses have been stored in their case for 30 days without use. According to the American Academy of Ophthalmology, what must happen before they are worn?",
     "choices": [
       "They can be worn as long as the case stayed closed",
       "They must be re-disinfected",
@@ -645,7 +645,7 @@
     "domain": "ncle.dispensing",
     "topic": "Care systems",
     "difficulty": 2,
-    "stem": "How long does CDC say a peroxide user should wait before wearing the lenses?",
+    "stem": "After placing contact lenses in a hydrogen peroxide disinfection system, how long does CDC say to wait before wearing them?",
     "choices": [
       "15 minutes, until bubbling slows",
       "1 hour, then rinse with saline",
@@ -805,7 +805,7 @@
     "domain": "ncle.dispensing",
     "topic": "Hygiene guidance",
     "difficulty": 1,
-    "stem": "Water accidentally gets on a patient's lenses. What does CDC recommend?",
+    "stem": "Water accidentally gets on a patient's contact lenses. What does CDC recommend?",
     "choices": [
       "Keep wearing them and add rewetting drops hourly",
       "Rinse them again with more water and reinsert them",
@@ -925,7 +925,7 @@
     "domain": "ncle.dispensing",
     "topic": "Hygiene guidance",
     "difficulty": 2,
-    "stem": "A lens wearer develops eye irritation. Besides removing the lenses, what does the FDA advise doing with them?",
+    "stem": "A contact lens wearer develops eye irritation. Besides removing the lenses, what does the FDA advise doing with them?",
     "choices": [
       "Keep them in the case and bring them to the eye doctor",
       "Throw them away immediately so they cannot be reused",
@@ -1225,7 +1225,7 @@
     "domain": "ncle.dispensing",
     "topic": "Personal care products",
     "difficulty": 1,
-    "stem": "What order do hospital RGP instructions give for makeup?",
+    "stem": "What order do hospital patient instructions for RGP wearers give for lenses and makeup?",
     "choices": [
       "Makeup on first, then insert lenses over the makeup",
       "Makeup removed first, then remove the lenses afterward",
@@ -2165,7 +2165,7 @@
     "domain": "ncle.followup",
     "topic": "SLK",
     "difficulty": 2,
-    "stem": "Which findings suggest contact lens-induced SLK?",
+    "stem": "Which findings suggest contact lens-induced superior limbic keratoconjunctivitis (SLK)?",
     "choices": [
       "Inferior arcuate staining under a tight, thin soft lens",
       "A central corneal ulcer with mucopurulent discharge",
@@ -2185,7 +2185,7 @@
     "domain": "ncle.followup",
     "topic": "SLK",
     "difficulty": 2,
-    "stem": "What is the first step in managing contact lens-related SLK?",
+    "stem": "What is the first step in managing contact lens-related superior limbic keratoconjunctivitis (SLK)?",
     "choices": [
       "Discontinue lens wear for a period of time",
       "Bandage the eye with a thicker lens",
@@ -2193,7 +2193,7 @@
       "Add a preserved rewetting drop"
     ],
     "answer": 0,
-    "explanation": "Stopping lens wear improves contact lens-related SLK. In the reported case, switching to a preservative-free peroxide system, preservative-free lubricants, and fresh lenses resolved the condition over three weeks.",
+    "explanation": "Stopping lens wear improves contact lens-related SLK. In one published case report, switching to a preservative-free peroxide system, preservative-free lubricants, and fresh lenses resolved the condition over three weeks.",
     "source": {
       "title": "Columbia Digital Reference of Ophthalmology: Superior Limbic Keratoconjunctivitis",
       "url": "https://www.vagelos.columbia.edu/departments-centers/ophthalmology/education/digital-reference-ophthalmology/cornea-and-external-diseases/non-infectious/superior-limbic-keratoconjunctivitis"
@@ -2205,7 +2205,7 @@
     "domain": "ncle.followup",
     "topic": "SLK",
     "difficulty": 3,
-    "stem": "How does management of idiopathic SLK of Theodore differ from contact lens-related SLK?",
+    "stem": "How does management of idiopathic superior limbic keratoconjunctivitis (SLK) of Theodore differ from contact lens-related SLK?",
     "choices": [
       "Idiopathic: refit a rigid lens; lens-related: wear longer",
       "Both are managed by increasing daily wearing time",
@@ -2245,7 +2245,7 @@
     "domain": "ncle.followup",
     "topic": "VLK",
     "difficulty": 2,
-    "stem": "Which rigid lens characteristics are associated with VLK?",
+    "stem": "Which rigid lens characteristics are associated with vascularized limbal keratitis (VLK)?",
     "choices": [
       "Large, steep lenses with low edge lift",
       "Small, flat lenses with high edge lift",
@@ -2265,7 +2265,7 @@
     "domain": "ncle.followup",
     "topic": "VLK",
     "difficulty": 2,
-    "stem": "Which lens changes are recommended to manage VLK?",
+    "stem": "Which rigid lens changes are recommended to manage vascularized limbal keratitis (VLK)?",
     "choices": [
       "Flatter, wider peripheral curves and a smaller diameter",
       "Steeper peripheral curves and a larger overall diameter",
@@ -2285,7 +2285,7 @@
     "domain": "ncle.followup",
     "topic": "VLK",
     "difficulty": 3,
-    "stem": "How can a dellen be told apart from VLK?",
+    "stem": "How can a dellen be told apart from vascularized limbal keratitis (VLK)?",
     "choices": [
       "A dellen always shows deep stromal vessels; VLK never does",
       "A dellen pools dye without staining and is depressed",
@@ -2305,7 +2305,7 @@
     "domain": "ncle.followup",
     "topic": "VLK",
     "difficulty": 3,
-    "stem": "Which feature helps separate VLK from phlyctenulosis?",
+    "stem": "Which feature helps separate vascularized limbal keratitis (VLK) from phlyctenulosis?",
     "choices": [
       "VLK is always infectious, while phlyctenules never are",
       "Phlyctenules occur only in rigid gas permeable wearers",
@@ -2313,7 +2313,7 @@
       "VLK migrates across the cornea, while phlyctenules stay put"
     ],
     "answer": 2,
-    "explanation": "Both can present as a white nodule with hyperemia. VLK regresses quickly with treatment, whereas phlyctenulosis can last up to two weeks, may migrate across the cornea, and has an infectious etiology.",
+    "explanation": "Both can present as a white nodule with hyperemia. VLK regresses quickly with treatment, whereas phlyctenulosis can last up to two weeks, may migrate across the cornea, and is a hypersensitivity reaction to microbial antigens such as staphylococcus.",
     "source": {
       "title": "Review of Cornea & Contact Lenses: Uncovering VLK",
       "url": "https://www.reviewofcontactlenses.com/article/uncovering-vlk"
@@ -2449,7 +2449,7 @@
     "choices": [
       "24 hours off lenses, regardless of how long they were worn",
       "One week off for every year of wear, then refit immediately",
-      "About one month off per decade of wear, until readings stabilize",
+      "About one month off per decade of wear, until refraction and topography stabilize",
       "No break is needed if the patient switches to new GP lenses"
     ],
     "answer": 2,
@@ -2585,7 +2585,7 @@
     "domain": "ncle.regulatory",
     "topic": "Verifying the prescriber",
     "difficulty": 2,
-    "stem": "How may a seller fill a contact lens order under the Rule?",
+    "stem": "Under the FTC Contact Lens Rule, how may a seller fill a contact lens order?",
     "choices": [
       "With any prescription the patient describes verbally",
       "With the patient's current spectacle prescription",
@@ -2605,7 +2605,7 @@
     "domain": "ncle.regulatory",
     "topic": "Verifying the prescriber",
     "difficulty": 2,
-    "stem": "A seller's complete verification request reaches a prescriber at 3:00 p.m. on a Monday (no holiday, no Saturday hours). When is it verified if the prescriber does not respond?",
+    "stem": "Under the FTC Contact Lens Rule, a seller's complete verification request reaches a prescriber at 3:00 p.m. on a Monday (no holiday, no Saturday hours). When is it verified if the prescriber does not respond?",
     "choices": [
       "11:00 p.m. Monday",
       "3:00 p.m. Tuesday",
@@ -2625,7 +2625,7 @@
     "domain": "ncle.regulatory",
     "topic": "Verifying the prescriber",
     "difficulty": 3,
-    "stem": "A verification request arrives at 7:00 p.m. on a Friday, and the seller has not opted to count Saturday hours. When do the 8 business hours end if no holiday intervenes?",
+    "stem": "Under the FTC Contact Lens Rule, a verification request arrives at 7:00 p.m. on a Friday, and the seller has not opted to count Saturday hours. When do the 8 business hours end if no holiday intervenes?",
     "choices": [
       "7:00 p.m. Saturday",
       "9:00 a.m. Monday",
@@ -2645,7 +2645,7 @@
     "domain": "ncle.regulatory",
     "topic": "Verifying the prescriber",
     "difficulty": 2,
-    "stem": "During the verification period, the prescriber tells the seller the prescription has expired. What must happen?",
+    "stem": "During the FTC Contact Lens Rule verification period, the prescriber tells the seller the contact lens prescription has expired. What must happen?",
     "choices": [
       "The seller may not fill it; the prescriber gives the reason",
       "The seller may fill it once as a courtesy to the patient",
@@ -2665,7 +2665,7 @@
     "domain": "ncle.regulatory",
     "topic": "Record retention",
     "difficulty": 2,
-    "stem": "How long must sellers keep records of their verification communications under the Rule?",
+    "stem": "How long must sellers keep records of their verification communications under the FTC Contact Lens Rule?",
     "choices": [
       "At least three years",
       "At least six months",
@@ -2685,7 +2685,7 @@
     "domain": "ncle.regulatory",
     "topic": "Verifying the prescriber",
     "difficulty": 3,
-    "stem": "If a seller uses automated telephone messages to verify prescriptions, what must it do?",
+    "stem": "If a seller uses automated telephone messages to verify contact lens prescriptions under the FTC Contact Lens Rule, what must it do?",
     "choices": [
       "Call only on weekends",
       "Leave the message only with the patient",
@@ -2705,7 +2705,7 @@
     "domain": "ncle.regulatory",
     "topic": "Prescription release",
     "difficulty": 2,
-    "stem": "A patient's designated agent asks the prescriber for a copy of the contact lens prescription. How quickly must it be provided?",
+    "stem": "Under the FTC Contact Lens Rule, a patient's designated agent asks the prescriber for a copy of the contact lens prescription. How quickly must it be provided?",
     "choices": [
       "Within 8 business hours, with no record required",
       "Within 40 business hours, recording who asked and when",
@@ -2725,7 +2725,7 @@
     "domain": "ncle.regulatory",
     "topic": "Private label",
     "difficulty": 2,
-    "stem": "When may a seller substitute a different brand name for the lens on a prescription?",
+    "stem": "Under the FTC Contact Lens Rule, when may a seller substitute a different brand name for the lens on a contact lens prescription?",
     "choices": [
       "Whenever the substitute lens has the same power and curve",
       "Only for identical private label lenses from the same maker",

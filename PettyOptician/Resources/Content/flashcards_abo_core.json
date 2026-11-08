@@ -220,7 +220,7 @@
     "id": "fc-abo-ana-032",
     "exam": "abo",
     "domain": "abo.anatomy",
-    "front": "Eso / exo / hyper",
+    "front": "Eso / exo / hyper (eye deviations)",
     "back": "Eso = in, exo = out, hyper = up (hypo = down)."
   },
   {
@@ -241,7 +241,7 @@
     "id": "fc-abo-ana-035",
     "exam": "abo",
     "domain": "abo.anatomy",
-    "front": "PSC cataract association",
+    "front": "Posterior subcapsular (PSC) cataract association",
     "back": "Steroid use and diabetes; causes glare and near-vision trouble."
   },
   {
@@ -332,7 +332,7 @@
     "id": "fc-abo-frm-004",
     "exam": "abo",
     "domain": "abo.optics",
-    "front": "DBL",
+    "front": "DBL (frame measurement)",
     "back": "Distance between lenses: the shortest distance between the nasal boxing lines."
   },
   {
@@ -381,7 +381,7 @@
     "id": "fc-abo-frm-011",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Why +2 mm in MBS",
+    "front": "Minimum blank size: why add the extra 2 mm?",
     "back": "Allowance for edging and chips or irregularities at the blank's edge."
   },
   {
@@ -465,7 +465,7 @@
     "id": "fc-abo-frm-023",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Face shape rule",
+    "front": "Frame selection: face shape rule",
     "back": "Contrast the face: round → angular; square → round/oval; long → deep frame with decorative temples."
   },
   {
@@ -486,7 +486,7 @@
     "id": "fc-abo-frm-026",
     "exam": "abo",
     "domain": "abo.products",
-    "front": "PAL frame check",
+    "front": "PAL frame selection: what to check",
     "back": "Enough B depth for the design's minimum fitting height."
   },
   {
@@ -521,14 +521,14 @@
     "id": "fc-abo-frm-031",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Four-point touch",
-    "back": "A straight edge across the back of the front touches the nasal and temporal edges of both eyewires."
+    "front": "Four-point touch (frame alignment)",
+    "back": "A straight edge across the back of the frame front touches the nasal and temporal edges of both eyewires."
   },
   {
     "id": "fc-abo-frm-032",
     "exam": "abo",
     "domain": "abo.products",
-    "front": "X-ing",
+    "front": "X-ing (frame alignment)",
     "back": "Lens planes twisted relative to each other when viewed from the side; corrected at the bridge."
   },
   {
@@ -549,7 +549,7 @@
     "id": "fc-abo-frm-035",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "OC drop for tilt",
+    "front": "Pantoscopic tilt: how far to drop the OC",
     "back": "Lower the OC 1 mm for every 2° of pantoscopic tilt."
   },
   {
@@ -570,14 +570,14 @@
     "id": "fc-abo-frm-038",
     "exam": "abo",
     "domain": "abo.products",
-    "front": "One side of the frame sits high",
+    "front": "Frame adjusting: one side of the frame sits higher on the face",
     "back": "Bend that side's temple up (or the other temple down)."
   },
   {
     "id": "fc-abo-frm-039",
     "exam": "abo",
     "domain": "abo.products",
-    "front": "One lens too far from the face",
+    "front": "Frame adjusting: one lens sits farther from the face than the other",
     "back": "Bend that side's temple in (or open the other temple)."
   },
   {
@@ -619,7 +619,7 @@
     "id": "fc-abo-dsp-002",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Axis range",
+    "front": "Cylinder axis range",
     "back": "1–180; write 180, never 000."
   },
   {
@@ -640,7 +640,7 @@
     "id": "fc-abo-dsp-005",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Power in the meridian 90° from the axis",
+    "front": "Power in the meridian 90° from the cylinder axis",
     "back": "Sphere + full cylinder."
   },
   {
@@ -682,7 +682,7 @@
     "id": "fc-abo-dsp-011",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Base direction from decentration",
+    "front": "Prism base direction from decentration",
     "back": "Plus lens: base toward the OC. Minus lens: base away from the OC."
   },
   {
@@ -752,7 +752,7 @@
     "id": "fc-abo-dsp-021",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "When to measure heights",
+    "front": "When to measure seg and PAL fitting heights",
     "back": "After the frame is adjusted to the patient."
   },
   {
@@ -822,7 +822,7 @@
     "id": "fc-abo-dsp-031",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Equal BD prism in both PALs",
+    "front": "Progressives: equal base-down prism in both lenses at the PRPs",
     "back": "Prism thinning (yoked), not an error."
   },
   {
@@ -843,7 +843,7 @@
     "id": "fc-abo-dsp-034",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Edge types",
+    "front": "Lens edge types by mounting",
     "back": "V-bevel = full rim; groove = nylon cord; flat + holes = drill mount."
   },
   {
@@ -857,35 +857,35 @@
     "id": "fc-abo-dsp-036",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "PAL fit too low",
+    "front": "PAL fitting height too low: symptom",
     "back": "Patient tilts the head back (chin up) to read."
   },
   {
     "id": "fc-abo-dsp-037",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "PAL fit too high",
+    "front": "PAL fitting height too high: symptom",
     "back": "Distance blur straight ahead; patient drops the chin."
   },
   {
     "id": "fc-abo-dsp-038",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Bifocal seg too high",
+    "front": "Bifocal seg set too high: symptom",
     "back": "Seg line gets in the way of distance vision when walking."
   },
   {
     "id": "fc-abo-dsp-039",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "First step for any complaint",
+    "front": "First step for any complaint about new eyewear",
     "back": "Verify the lenses against the Rx and recheck the fit."
   },
   {
     "id": "fc-abo-dsp-040",
     "exam": "abo",
     "domain": "abo.dispensing",
-    "front": "Base curve complaint",
+    "front": "Complaint after a large base curve change",
     "back": "Large base curve change → distortion; remake closer to the old base curve."
   },
   {
@@ -906,161 +906,161 @@
     "id": "fc-abo-std-001",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Z80.1 / Z87.1 / Z80.3",
+    "front": "ANSI Z80.1 / Z87.1 / Z80.3",
     "back": "Rx dress lenses / occupational safety eyewear / nonprescription sunglasses."
   },
   {
     "id": "fc-abo-std-002",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Current Z80.1 edition",
+    "front": "Current ANSI Z80.1 edition",
     "back": "ANSI Z80.1-2025 (supersedes Z80.1-2020)."
   },
   {
     "id": "fc-abo-std-003",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Sphere tolerance, ±6.50 D or less (SV and multifocal)",
+    "front": "ANSI Z80.1: sphere tolerance, ±6.50 D or less (SV and multifocal)",
     "back": "±0.13 D."
   },
   {
     "id": "fc-abo-std-004",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Sphere tolerance above ±6.50 D",
+    "front": "ANSI Z80.1: sphere tolerance above ±6.50 D",
     "back": "±2% (for example ±0.16 D at 8.00 D)."
   },
   {
     "id": "fc-abo-std-005",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Cylinder tolerance, 0.00–2.00 D",
+    "front": "ANSI Z80.1: cylinder tolerance, 0.00–2.00 D",
     "back": "±0.13 D."
   },
   {
     "id": "fc-abo-std-006",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Cylinder tolerance, over 2.00–4.50 D",
+    "front": "ANSI Z80.1: cylinder tolerance, over 2.00–4.50 D",
     "back": "±0.15 D."
   },
   {
     "id": "fc-abo-std-007",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Cylinder tolerance above 4.50 D",
+    "front": "ANSI Z80.1: cylinder tolerance above 4.50 D",
     "back": "±4%."
   },
   {
     "id": "fc-abo-std-008",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "PAL sphere tolerance, ±8.00 D or less",
+    "front": "ANSI Z80.1: PAL sphere tolerance, ±8.00 D or less",
     "back": "±0.16 D (±2% above ±8.00 D)."
   },
   {
     "id": "fc-abo-std-009",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Axis tolerances by cylinder",
+    "front": "ANSI Z80.1: axis tolerances by cylinder power",
     "back": "≤0.25: ±14°; ≤0.50: ±7°; ≤0.75: ±5°; ≤1.50: ±3°; >1.50: ±2°."
   },
   {
     "id": "fc-abo-std-010",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Add tolerance",
+    "front": "ANSI Z80.1: add power tolerance",
     "back": "≤ +4.00: ±0.12 D; > +4.00: ±0.18 D."
   },
   {
     "id": "fc-abo-std-011",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Single-lens PRP tolerance",
+    "front": "ANSI Z80.1: single-lens prism tolerance at the PRP",
     "back": "≤0.33Δ, or PRP within 1.0 mm of its specified position."
   },
   {
     "id": "fc-abo-std-012",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Vertical imbalance (SV/MF, ≤ ±3.375 D)",
+    "front": "ANSI Z80.1: vertical prism imbalance (SV/MF, ≤ ±3.375 D)",
     "back": "≤0.33Δ."
   },
   {
     "id": "fc-abo-std-013",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Vertical imbalance above ±3.375 D",
+    "front": "ANSI Z80.1: vertical prism imbalance above ±3.375 D",
     "back": "PRP heights differ by no more than 1.0 mm."
   },
   {
     "id": "fc-abo-std-014",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Horizontal imbalance (SV/MF, ≤ ±2.75 D)",
+    "front": "ANSI Z80.1: horizontal prism imbalance (SV/MF, ≤ ±2.75 D)",
     "back": "≤0.67Δ."
   },
   {
     "id": "fc-abo-std-015",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Horizontal tolerance above ±2.75 D (SV/MF)",
+    "front": "ANSI Z80.1: horizontal tolerance above ±2.75 D (SV/MF)",
     "back": "PD within ±2.5 mm of the specified distance PD."
   },
   {
     "id": "fc-abo-std-016",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "PAL horizontal tolerance above ±3.75 D",
+    "front": "ANSI Z80.1: PAL horizontal tolerance above ±3.75 D",
     "back": "Each fitting cross within 1.0 mm of the specified monocular PD."
   },
   {
     "id": "fc-abo-std-017",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Base curve tolerance",
+    "front": "ANSI Z80.1: base curve tolerance",
     "back": "±0.75 D (when specified)."
   },
   {
     "id": "fc-abo-std-018",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Center thickness tolerance",
+    "front": "ANSI Z80.1: center thickness tolerance",
     "back": "±0.3 mm, measured at the PRP on the convex surface."
   },
   {
     "id": "fc-abo-std-019",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Seg height / PAL fitting cross height",
+    "front": "ANSI Z80.1: seg height / PAL fitting cross height tolerance",
     "back": "±1.0 mm each; the pair may differ by no more than 1.0 mm."
   },
   {
     "id": "fc-abo-std-020",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Seg size tolerance",
+    "front": "ANSI Z80.1: seg size tolerance",
     "back": "±0.5 mm."
   },
   {
     "id": "fc-abo-std-021",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Seg tilt tolerance",
+    "front": "ANSI Z80.1: seg tilt tolerance",
     "back": "±2° from the 180."
   },
   {
     "id": "fc-abo-std-022",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Seg horizontal location",
+    "front": "ANSI Z80.1: seg horizontal location tolerance",
     "back": "Seg centers within ±2.5 mm of the specified near PD."
   },
   {
     "id": "fc-abo-std-023",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Polarization axis tolerance",
+    "front": "ANSI Z80.1: polarization axis tolerance",
     "back": "90° ± 3° from the orientation marking."
   },
   {
@@ -1088,14 +1088,14 @@
     "id": "fc-abo-std-027",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "FDA exemption",
+    "front": "FDA impact-resistance exemption (21 CFR 801.410)",
     "back": "Prescriber decides impact-resistant lenses won't meet visual needs and notifies the patient in writing."
   },
   {
     "id": "fc-abo-std-028",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "Does 801.410 cover sunglasses?",
+    "front": "Does the FDA impact rule (21 CFR 801.410) cover sunglasses?",
     "back": "Yes — eyeglasses and sunglasses, including nonprescription."
   },
   {
@@ -1123,21 +1123,21 @@
     "id": "fc-abo-std-032",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "FTC Eyeglass Rule release",
+    "front": "FTC Eyeglass Rule: when the Rx must be released",
     "back": "Immediately after the refraction, automatically, at no extra cost."
   },
   {
     "id": "fc-abo-std-033",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "FTC prohibited conditions",
+    "front": "FTC Eyeglass Rule: prohibited conditions on Rx release",
     "back": "No requiring eyewear purchase, extra fees, or liability waivers to release the Rx."
   },
   {
     "id": "fc-abo-std-034",
     "exam": "abo",
     "domain": "abo.laws",
-    "front": "FTC 2024 amendment",
+    "front": "FTC Eyeglass Rule: 2024 amendment",
     "back": "Patient confirmation of Rx receipt; prescriber keeps it 3 years."
   },
   {

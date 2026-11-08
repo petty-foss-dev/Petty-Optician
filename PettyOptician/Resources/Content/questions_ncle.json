@@ -1208,7 +1208,7 @@
     "domain": "ncle.fitting",
     "topic": "Toric axis compensation",
     "difficulty": 2,
-    "stem": "Rx: −1.00 −1.75 × 090. The soft toric marks are rotated 15° to the examiner's right. What axis should be ordered?",
+    "stem": "Rx: −1.00 −1.75 × 090. A diagnostic soft toric's marks are rotated 15° to the examiner's right. What axis should be ordered?",
     "choices": [
       "105",
       "090",
@@ -1224,7 +1224,7 @@
     "domain": "ncle.fitting",
     "topic": "Toric axis compensation",
     "difficulty": 3,
-    "stem": "Rx: −3.00 −1.50 × 170. The soft toric marks rotate 20° to the examiner's left. What axis should be ordered?",
+    "stem": "Rx: −3.00 −1.50 × 170. A diagnostic soft toric's marks rotate 20° to the examiner's left. What axis should be ordered?",
     "choices": [
       "150",
       "170",
@@ -1240,7 +1240,7 @@
     "domain": "ncle.fitting",
     "topic": "Toric axis compensation",
     "difficulty": 3,
-    "stem": "Rx: −2.50 −1.00 × 005. The soft toric marks rotate 10° to the examiner's right. What axis should be ordered?",
+    "stem": "Rx: −2.50 −1.00 × 005. A diagnostic soft toric's marks rotate 10° to the examiner's right. What axis should be ordered?",
     "choices": [
       "175",
       "015",
@@ -1432,7 +1432,7 @@
     "domain": "ncle.followup",
     "topic": "Over-refraction",
     "difficulty": 2,
-    "stem": "A +2.00 D trial lens is worn and the over-refraction is −0.75 D. What power should be ordered?",
+    "stem": "A +2.00 D diagnostic contact lens is worn and the over-refraction is −0.75 D. What power should be ordered?",
     "choices": [
       "+2.75 D",
       "+1.25 D",
@@ -1448,7 +1448,7 @@
     "domain": "ncle.followup",
     "topic": "Over-refraction",
     "difficulty": 3,
-    "stem": "An aphakic patient wears a +10.00 D trial lens. The over-refraction, measured at 12 mm, is +4.00 D. What lens power should be ordered (nearest 0.25 D)?",
+    "stem": "An aphakic patient wears a +10.00 D diagnostic contact lens. The over-refraction, measured at 12 mm, is +4.00 D. What lens power should be ordered (nearest 0.25 D)?",
     "choices": [
       "+14.00 D",
       "+13.75 D",
@@ -1456,7 +1456,7 @@
       "+16.00 D"
     ],
     "answer": 2,
-    "explanation": "Because it is over 4 D, the over-refraction is first brought to the corneal plane: +4.00 ÷ (1 − 0.012 × 4.00) = +4.00 ÷ 0.952 = +4.20 D, which rounds to +4.25 D. Then +10.00 + 4.25 = +14.25 D."
+    "explanation": "Because it is ±4.00 D or more, the over-refraction is first brought to the corneal plane: +4.00 ÷ (1 − 0.012 × 4.00) = +4.00 ÷ 0.952 = +4.20 D, which rounds to +4.25 D. Then +10.00 + 4.25 = +14.25 D."
   },
   {
     "id": "ncle-mat-001",
@@ -2553,7 +2553,7 @@
     "domain": "ncle.fitting",
     "topic": "Fluorescein patterns",
     "difficulty": 2,
-    "stem": "Central pooling, a dark ring of mid-peripheral touch, and possibly a central bubble indicate which fit?",
+    "stem": "Under an RGP with fluorescein, central pooling, a dark ring of mid-peripheral touch, and possibly a central bubble indicate which fit?",
     "choices": [
       "Apical touch (flat)",
       "Ideal alignment",
@@ -2570,7 +2570,7 @@
     "domain": "ncle.fitting",
     "topic": "Fluorescein patterns",
     "difficulty": 2,
-    "stem": "A dark central area with fluorescein pooling peripherally and a wide edge band indicates which fit?",
+    "stem": "In a fluorescein pattern, a dark central area with peripheral pooling and a wide edge band indicates which fit?",
     "choices": [
       "Apical touch (flat)",
       "Apical clearance (steep)",

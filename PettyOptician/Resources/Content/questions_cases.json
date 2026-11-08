@@ -425,7 +425,7 @@
     "domain": "abo.dispensing",
     "topic": "Case: Adapted to old centration error",
     "difficulty": 3,
-    "stem": "A patient wore his old glasses for years with optical centers well off his PD. His new, correctly centered lenses feel wrong to him. What approach does the guidance suggest?",
+    "stem": "A patient wore his old glasses for years with optical centers well off his PD. His new, correctly centered lenses feel wrong to him. What approach is recommended?",
     "choices": [
       "Duplicate the old centration error exactly, since he's adapted",
       "Add base-in prism to both lenses to mimic the old pair's feel",
@@ -665,7 +665,7 @@
     "domain": "abo.dispensing",
     "topic": "Case: One lens closer to the face",
     "difficulty": 3,
-    "stem": "Viewed from above, the right lens is closer to the patient's face than the left. Which adjustment corrects this?",
+    "stem": "Viewed from above, the patient's right lens is closer to the face than the left lens. Which adjustment corrects this?",
     "choices": [
       "Bend the right temple outward at the end piece to open that side",
       "Bend the right temple in at the end piece, or the left out",
@@ -745,7 +745,7 @@
     "domain": "abo.dispensing",
     "topic": "Case: Retroscopic frame tilt",
     "difficulty": 2,
-    "stem": "A patient's new frame tilts so the bottoms of the lenses are farther from her face than the tops. She complains of distortion when she reads. What is the target adjustment?",
+    "stem": "A patient's new frame tilts so the bottoms of the lenses are farther from her face than the tops. She complains of distortion when she reads. Which frame adjustment should you make?",
     "choices": [
       "Increase the vertex distance instead of the tilt",
       "Flatten the face form to 0° to reduce distortion",
@@ -2385,7 +2385,7 @@
     "domain": "ncle.followup",
     "topic": "Case: End-of-day dryness",
     "difficulty": 2,
-    "stem": "A soft lens wearer is comfortable in the morning but has dryness and discomfort late in the day, worse after long computer sessions. Which management direction does the guidance emphasize?",
+    "stem": "A soft lens wearer is comfortable in the morning but has dryness and discomfort late in the day, worse after long computer sessions. Which management direction is recommended?",
     "choices": [
       "Begin sleeping in the lenses so the eyes adapt to them",
       "Increase daily wearing time gradually to build tolerance to dryness",
@@ -2485,7 +2485,7 @@
     "domain": "ncle.regulatory",
     "topic": "Case: Prescriber doesn't answer verification",
     "difficulty": 2,
-    "stem": "An online seller sends a complete verification request, and the prescriber doesn't respond within 8 business hours. What happens under the FTC rule?",
+    "stem": "An online contact lens seller sends a complete verification request, and the prescriber doesn't respond within 8 business hours. What happens under the FTC Contact Lens Rule?",
     "choices": [
       "The seller must cancel the order",
       "It is treated as verified, and the seller may ship",
@@ -2505,7 +2505,7 @@
     "domain": "ncle.regulatory",
     "topic": "Case: Contact lens Rx expiration",
     "difficulty": 2,
-    "stem": "A prescriber wants routine contact lens prescriptions to expire after 6 months. What does the FTC rule allow?",
+    "stem": "A prescriber wants routine contact lens prescriptions to expire after 6 months. What does the FTC Contact Lens Rule allow?",
     "choices": [
       "At least one year, unless a documented medical reason applies",
       "A two-year minimum for all soft and GP lenses",
@@ -2525,7 +2525,7 @@
     "domain": "ncle.regulatory",
     "topic": "Case: Brand substitution by a seller",
     "difficulty": 2,
-    "stem": "A seller wants to substitute a cheaper brand for the lens that was prescribed. What does the FTC rule allow?",
+    "stem": "A seller wants to substitute a cheaper brand for the contact lens that was prescribed. What does the FTC Contact Lens Rule allow?",
     "choices": [
       "Any brand with matching base curve, diameter and power, since the fit is identical",
       "Any brand made of a similar silicone hydrogel material",

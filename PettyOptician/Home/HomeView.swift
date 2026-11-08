@@ -2,9 +2,11 @@ import SwiftData
 import SwiftUI
 
 struct HomeView: View {
+    let openBinder: () -> Void
     @ObservedObject private var settings = StudySettings.shared
     @Query private var stats: [QuestionStat]
     @Query private var reviews: [CardReview]
+    @Query private var personalCards: [PersonalCard]
     @Query(sort: \QuizRecord.date, order: .reverse) private var records: [QuizRecord]
     @Environment(\.palette) private var palette
     @State private var activeQuiz: QuizSession?
@@ -20,8 +22,11 @@ struct HomeView: View {
         let examStats = stats.filter { ids.contains($0.questionID) && $0.seen > 0 }
         let mastered = examStats.filter(\.lastWasCorrect).count
         let readiness = weightedReadiness(stats: examStats)
-        let cardIDs = Set(library.flashcards(for: exam).map(\.id))
-        let dueCards = reviews.filter { cardIDs.contains($0.cardID) && $0.due <= .now }
+        let allCards = library.flashcards(for: exam) + personalCards.flashcards(for: exam)
+        let reviewed = Set(reviews.map(\.cardID))
+        let cardIDs = Set(allCards.map(\.id))
+        let dueIDs = Set(reviews.filter { cardIDs.contains($0.cardID) && $0.due <= .now }.map(\.cardID))
+            .union(allCards.filter { $0.id.hasPrefix(PersonalCard.idPrefix) && !reviewed.contains($0.id) }.map(\.id))
 
         NavigationStack {
             ScrollView {
@@ -30,11 +35,17 @@ struct HomeView: View {
 
                     hero(readiness: readiness, mastered: mastered, total: questions.count, answered: examStats.count)
 
-                    ExamPlanCard(unseen: questions.count - examStats.count, dueCards: dueCards.count)
+                    ExamPlanCard(unseen: questions.count - examStats.count, dueCards: dueIDs.count)
+
+                    Button(action: openBinder) {
+                        LinkRow(title: "Erin’s Study Binder", subtitle: "Pick up a crash course page or jot a note.", symbol: "book.closed")
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("today.binder")
 
                     HStack(spacing: 12) {
                         StatTile(value: "\(settings.streak)", label: "Day streak", symbol: "flame.fill")
-                        StatTile(value: "\(dueCards.count)", label: "Cards due", symbol: "rectangle.on.rectangle.angled")
+                        StatTile(value: "\(dueIDs.count)", label: "Cards due", symbol: "rectangle.on.rectangle.angled")
                         StatTile(value: "\(records.filter { $0.exam == exam }.count)", label: "Quizzes", symbol: "checklist")
                     }
 
@@ -50,13 +61,29 @@ struct HomeView: View {
                                 )
                             }
                             .disabled(questions.isEmpty)
-                            QuickAction(title: "Review Cards", subtitle: "\(dueCards.count) due now", symbol: "rectangle.stack.fill") {
-                                let due = Set(dueCards.map(\.cardID))
-                                activeDeck = FlashcardDeck(title: "Due Cards", cards: library.flashcards(for: exam).filter { due.contains($0.id) })
+                            QuickAction(title: "Review Cards", subtitle: "\(dueIDs.count) due now", symbol: "rectangle.stack.fill") {
+                                activeDeck = FlashcardDeck(title: "Due Cards", cards: allCards.filter { dueIDs.contains($0.id) })
                             }
-                            .disabled(dueCards.isEmpty)
+                            .disabled(dueIDs.isEmpty)
+                            let history = stats.history
+                            let recheck = QuizBuilder.dueForReview(questions, history: history)
+                            QuickAction(title: "Re-check Missed", subtitle: recheckSubtitle(recheck.count, next: QuizBuilder.nextReview(questions, history: history)), symbol: "arrow.clockwise.circle") {
+                                activeQuiz = QuizSession(
+                                    config: QuizConfig(exam: exam, title: "Re-check Missed", count: min(recheck.count, 30)),
+                                    questions: Array(recheck.prefix(30)),
+                                    flagged: stats.flaggedIDs
+                                )
+                            }
+                            .disabled(recheck.isEmpty)
+                            if let info = library.exam(exam), let weakest = QuizBuilder.weakestSection(info, library: library, history: history) {
+                                QuickAction(title: "Weakest Section", subtitle: weakest.subtitle, symbol: "scope") {
+                                    startWeakest(weakest.domain)
+                                }
+                            }
                         }
                     }
+
+                    DailyQuestionCard(exam: exam)
 
                     domainReadiness
 
@@ -66,6 +93,25 @@ struct HomeView: View {
                             Panel { RecordRow(record: last) }
                         }
                     }
+
+                    NavigationLink { TipJarView() } label: {
+                        Panel(padding: 14) {
+                            HStack(alignment: .top, spacing: 12) {
+                                Image(systemName: "heart.text.square").font(.title3).foregroundStyle(palette.accent)
+                                VStack(alignment: .leading, spacing: 3) {
+                                    Text("Helped you study?").font(.subheadline.weight(.semibold)).foregroundStyle(palette.text)
+                                    Text("This app is free. If it helped you pass or review, you can leave a tip to say thanks.")
+                                        .font(.caption)
+                                        .foregroundStyle(palette.secondaryText)
+                                        .multilineTextAlignment(.leading)
+                                }
+                                Spacer(minLength: 0)
+                                Image(systemName: "chevron.right").font(.caption).foregroundStyle(palette.tertiaryText)
+                            }
+                        }
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("today.tipjar")
                 }
                 .padding()
             }
@@ -80,6 +126,21 @@ struct HomeView: View {
         .quizCover($activeQuiz)
         .fullScreenCover(item: $activeDeck) { FlashcardSessionView(deck: $0) }
         .sheet(isPresented: $showingSettings) { SettingsView() }
+    }
+
+    private func recheckSubtitle(_ due: Int, next: Date?) -> String {
+        if due > 0 { return "\(due) due today" }
+        guard let next else { return "Missed questions come back here" }
+        return "Next \(next.formatted(.relative(presentation: .named)))"
+    }
+
+    private func startWeakest(_ domain: ExamDomain) {
+        let picked = QuizBuilder.weakFirst(exam: exam, domain: domain.id, count: 15, library: library, history: stats.history)
+        activeQuiz = QuizSession(
+            config: QuizConfig(exam: exam, title: domain.name, domains: [domain.id], count: picked.count),
+            questions: picked,
+            flagged: stats.flaggedIDs
+        )
     }
 
     /// Mastery per official section, weighted by its share of the exam.
@@ -97,6 +158,7 @@ struct HomeView: View {
 
     private func hero(readiness: Double, mastered: Int, total: Int, answered: Int) -> some View {
         let info = library.exam(exam)
+        let mocks = MockReadiness(records: records, exam: info)
         return Panel(padding: 20) {
             HStack(spacing: 20) {
                 ZStack {
@@ -121,18 +183,22 @@ struct HomeView: View {
                     Text("\(answered) attempted · weighted by the official outline")
                         .font(.caption)
                         .foregroundStyle(palette.tertiaryText)
+                    Label(mocks.summary, systemImage: mocks.isReady ? "checkmark.seal.fill" : "timer")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(mocks.isReady ? .green : palette.secondaryText)
                 }
             }
         }
     }
 
     private var domainReadiness: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        let mocks = MockReadiness(records: records, exam: library.exam(exam))
+        return VStack(alignment: .leading, spacing: 10) {
             SectionTitle(title: "Exam Sections", trailing: "% of exam")
             Panel {
                 VStack(spacing: 14) {
                     ForEach(library.domains(for: exam)) { domain in
-                        DomainMeter(domain: domain, exam: exam, stats: stats) {
+                        DomainMeter(domain: domain, exam: exam, stats: stats, mockReady: mocks.isReady(domain.id)) {
                             let picked = QuizBuilder.weakFirst(exam: exam, domain: domain.id, count: 10, library: library, history: stats.history)
                             activeQuiz = QuizSession(
                                 config: QuizConfig(exam: exam, title: domain.name, domains: [domain.id], count: picked.count),
@@ -151,6 +217,7 @@ private struct DomainMeter: View {
     let domain: ExamDomain
     let exam: ExamID
     let stats: [QuestionStat]
+    let mockReady: Bool
     let action: () -> Void
     @Environment(\.palette) private var palette
     private let library = ContentLibrary.shared
@@ -165,6 +232,10 @@ private struct DomainMeter: View {
             VStack(alignment: .leading, spacing: 6) {
                 HStack {
                     Text(domain.name).font(.subheadline.weight(.medium)).foregroundStyle(palette.text)
+                    if mockReady {
+                        Image(systemName: "checkmark.seal.fill").font(.caption).foregroundStyle(.green)
+                            .accessibilityLabel("Ready in mock exams")
+                    }
                     Spacer()
                     Text("\(Int(domain.weight))%")
                         .font(.caption.weight(.semibold).monospacedDigit())

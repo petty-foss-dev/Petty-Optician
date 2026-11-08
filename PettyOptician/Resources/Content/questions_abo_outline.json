@@ -45,7 +45,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 2,
-    "stem": "Why should you stop turning the eyepiece the moment the reticle first comes into focus?",
+    "stem": "When focusing a lensmeter eyepiece, why should you stop turning it the moment the reticle first comes into focus?",
     "choices": [
       "It moves the lens stop off the optical axis",
       "It rescales the prism rings",
@@ -65,7 +65,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 2,
-    "stem": "After focusing the eyepiece with no lens in place, the mires come into focus at +0.25 D instead of zero. What is the correct response?",
+    "stem": "After focusing the eyepiece of a manual lensmeter with no lens in place, the mires come into focus at +0.25 D instead of zero. What is the correct response?",
     "choices": [
       "Accept it, because 0.25 D is within tolerance",
       "Refocus the eyepiece; if the mires still don't focus at plano, have the instrument recalibrated",
@@ -105,7 +105,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 1,
-    "stem": "Why should the bottoms of both eyewires rest evenly on the spectacle table while you read a lens?",
+    "stem": "When reading a lens on a lensmeter, why should the bottoms of both eyewires rest evenly on the spectacle table?",
     "choices": [
       "It keeps the lens stop from scratching the coating",
       "It sets the vertex distance for the reading",
@@ -125,7 +125,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 2,
-    "stem": "In plus-cylinder technique on a crossed-line (American cross) target, where along the power drum do the sphere (single) lines come into focus?",
+    "stem": "On a manual lensmeter with a crossed-line (American cross) target, using plus-cylinder technique, where along the power drum do the sphere (single) lines come into focus?",
     "choices": [
       "At the most plus reading of the two",
       "At the least plus (most minus) reading of the two",
@@ -145,7 +145,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 2,
-    "stem": "Working in plus-cylinder technique, you turn the drum from high minus toward plus and the thick cylinder lines come into focus before the thin sphere lines. What should you do?",
+    "stem": "Reading a lens on a manual lensmeter in plus-cylinder technique, you turn the power drum from high minus toward plus and the thick cylinder lines come into focus before the thin sphere lines. What should you do?",
     "choices": [
       "Rotate the axis wheel 90° and start again",
       "Record a minus cylinder at the current axis",
@@ -165,7 +165,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 2,
-    "stem": "In plus-cylinder technique, the sphere lines are sharp and unbroken at −2.00 with the axis wheel at 090. Turning toward plus, the cylinder lines focus at −0.75. What is the lens power?",
+    "stem": "On a manual lensmeter in plus-cylinder technique, the sphere lines are sharp and unbroken at −2.00 with the axis wheel at 090. Turning toward plus, the cylinder lines focus at −0.75. What is the lens power?",
     "choices": [
       "−2.00 −1.25 × 180",
       "−0.75 +1.25 × 090",
@@ -205,7 +205,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 1,
-    "stem": "On the power drum number line, the first (sphere-line) reading is −2.00 and the second (cylinder-line) reading is +1.00. What is the cylinder power?",
+    "stem": "On a manual lensmeter's power drum, the first (sphere-line) reading is −2.00 and the second (cylinder-line) reading is +1.00. What is the cylinder power?",
     "choices": [
       "+1.00 D",
       "+3.00 D",
@@ -245,7 +245,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 1,
-    "stem": "Reading a lined bifocal, the distance sphere lines focus at −4.00. With the segment centered, the sphere lines refocus at −1.75. What is the add?",
+    "stem": "Reading a lined bifocal on a manual lensmeter, the distance sphere lines focus at −4.00. With the segment centered, the sphere lines refocus at −1.75. What is the add?",
     "choices": [
       "+2.25",
       "+5.75",
@@ -265,7 +265,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 2,
-    "stem": "When measuring the add of a spherocylindrical multifocal, which lines do you refocus through the segment?",
+    "stem": "When measuring the add of a spherocylindrical multifocal on a crossed-line lensmeter, which lines do you refocus through the segment?",
     "choices": [
       "Both sets, after turning the axis wheel 90°",
       "Only the sphere (single) lines, leaving the axis wheel where it was for distance",
@@ -325,7 +325,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter prism",
     "difficulty": 1,
-    "stem": "Reading a RIGHT lens, the center of the target lands on the second ring, displaced toward the wearer's temple. What prism is present at that point?",
+    "stem": "Reading the patient's RIGHT lens on a manual lensmeter, the center of the target lands on the second reticle ring, displaced toward the wearer's temple. What prism is present at that point?",
     "choices": [
       "1Δ base out",
       "2Δ base in",
@@ -345,7 +345,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter prism",
     "difficulty": 1,
-    "stem": "Reading a LEFT lens, the target center sits three rings from the reticle center toward the wearer's nose. What is recorded?",
+    "stem": "Reading the patient's LEFT lens on a manual lensmeter, the target center sits three rings from the reticle center toward the wearer's nose. What is recorded?",
     "choices": [
       "3Δ base down",
       "1.5Δ base in",
@@ -365,7 +365,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter prism",
     "difficulty": 1,
-    "stem": "The target center is displaced straight down, halfway between the first and second rings. What prism does the lens have at that point?",
+    "stem": "On a manual lensmeter, the target center is displaced straight down, halfway between the first and second reticle rings. What prism does the lens have at that point?",
     "choices": [
       "1.5Δ base down",
       "3Δ base down",
@@ -385,7 +385,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter prism",
     "difficulty": 2,
-    "stem": "The target is off the reticle field. Holding a 6Δ base-in loose prism over the lens brings it back to center. How much prism is in the lens?",
+    "stem": "On a manual lensmeter, the target is off the reticle field. Holding a 6Δ base-in loose prism over the lens brings it back to center. How much prism is in the lens?",
     "choices": [
       "12Δ base in",
       "6Δ base out",
@@ -485,7 +485,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 1,
-    "stem": "With the lens positioned so the target crosses at the center of the reticle, the marking device dots the lens. What does the center dot locate?",
+    "stem": "On a manual lensmeter, you center the target in the reticle and use the marking device to dot the lens. What does the center dot locate?",
     "choices": [
       "The geometric center of the lens shape",
       "The patient's pupil center",
@@ -1173,7 +1173,7 @@
     "domain": "abo.instruments",
     "topic": "Digital centration",
     "difficulty": 2,
-    "stem": "What did the cited studies find about PD measurement repeatability with different methods?",
+    "stem": "What have studies found about the repeatability of PD measurements taken with a ruler versus a digital centration system?",
     "choices": [
       "Ruler measurements varied by almost 3 mm between opticians, while digital systems varied by about 0.1–0.25 mm",
       "Digital systems varied by about 3 mm",

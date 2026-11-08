@@ -14,6 +14,7 @@ struct PracticeView: View {
     @State private var timed = false
     @State private var choosingDrills = false
     @State private var trainer: Trainer?
+    @State private var query = ""
     private let library = ContentLibrary.shared
 
     private var exam: ExamID { settings.exam }
@@ -25,15 +26,23 @@ struct PracticeView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     ExamSwitcher()
-                    quickStart
-                    trainers
-                    WeakTopicsPanel(exam: exam, history: history) { start($0, $1) }
-                    customBuilder
-                    recentHistory
+                    if query.trimmingCharacters(in: .whitespaces).isEmpty {
+                        quickStart
+                        MockReadinessPanel(readiness: MockReadiness(records: records, exam: examInfo), exam: exam)
+                        trainers
+                        WeakTopicsPanel(exam: exam, history: history) { start($0, $1) }
+                        customBuilder
+                        recentHistory
+                    } else {
+                        SearchResultsView(query: query, exam: exam, kind: .questions)
+                    }
                 }
                 .padding()
             }
+            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search questions: transposition, Dk/t, ANSI…")
             .tabScreen("Practice")
+            .navigationDestination(for: GuideHit.self) { GuideView(domain: $0.domain, focus: $0.index) }
+            .navigationDestination(for: TopicHit.self) { TopicView(topic: $0) }
         }
         .quizCover($activeQuiz)
         .onChange(of: settings.exam) { domains = [] }
@@ -51,6 +60,11 @@ struct PracticeView: View {
                     start("Quick 10", QuizBuilder.weakFirst(exam: exam, count: 10, library: library, history: history))
                 }
                 QuickAction(title: "Mock Exam", subtitle: mockSubtitle, symbol: "timer") { startMock() }
+                let recheck = QuizBuilder.dueForReview(examQuestions, history: history)
+                QuickAction(title: "Re-check Missed", subtitle: recheck.isEmpty ? "None due today" : "\(recheck.count) due today", symbol: "arrow.clockwise.circle") {
+                    start("Re-check Missed", Array(recheck.prefix(30)))
+                }
+                .disabled(recheck.isEmpty)
                 QuickAction(title: "Missed", subtitle: "\(missed.count) to retry", symbol: "arrow.counterclockwise") {
                     start("Missed Questions", Array(missed.shuffled().prefix(50)))
                 }
@@ -59,7 +73,15 @@ struct PracticeView: View {
                     start("Flagged Questions", flagged.shuffled())
                 }
                 .disabled(flagged.isEmpty)
+                if let info = examInfo, let weakest = QuizBuilder.weakestSection(info, library: library, history: history) {
+                    QuickAction(title: "Weakest Section", subtitle: weakest.subtitle, symbol: "scope") {
+                        start(weakest.domain.name, QuizBuilder.weakFirst(exam: exam, domain: weakest.domain.id, count: 15, library: library, history: history))
+                    }
+                }
                 QuickAction(title: "Math Drills", subtitle: "Endless calculations", symbol: "function") { choosingDrills = true }
+                QuickAction(title: "Picture Quiz", subtitle: "\(PictureQuiz.items(for: exam, library: library).count) photos & diagrams", symbol: "photo.on.rectangle") {
+                    start("Picture Quiz", PictureQuiz.questions(exam: exam, count: 15, library: library))
+                }
             }
         }
         .sheet(isPresented: $choosingDrills) {
@@ -79,6 +101,10 @@ struct PracticeView: View {
                     QuickAction(title: item.title, subtitle: item.subtitle, symbol: item.symbol) { trainer = item }
                 }
             }
+            NavigationLink { SimulatorLabView() } label: {
+                LinkRow(title: "Online Simulators", subtitle: "Free web simulators and tools from other sites", symbol: "globe")
+            }
+            .buttonStyle(.plain)
         }
         .sheet(item: $trainer) { trainer in
             NavigationStack {
@@ -101,12 +127,14 @@ struct PracticeView: View {
             Panel {
                 VStack(alignment: .leading, spacing: 16) {
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("Domains").font(.subheadline.weight(.semibold))
+                        Text("Sections").font(.subheadline.weight(.semibold))
                         FlowLayout(spacing: 8) {
-                            Button { domains = [] } label: { Chip(text: "All", selected: domains.isEmpty) }
+                            Button { domains = [] } label: {
+                                Chip(text: "All · \(matching { $0.domains = [] })", selected: domains.isEmpty)
+                            }
                             ForEach(library.domains(for: exam)) { domain in
                                 Button { toggle(domain.id, in: &domains) } label: {
-                                    Chip(text: domain.name, selected: domains.contains(domain.id))
+                                    Chip(text: "\(domain.name) · \(matching { $0.domains = [domain.id] })", selected: domains.contains(domain.id))
                                 }
                             }
                         }
@@ -115,21 +143,32 @@ struct PracticeView: View {
 
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Difficulty").font(.subheadline.weight(.semibold))
-                        HStack(spacing: 8) {
-                            Button { difficulties = [] } label: { Chip(text: "Any", selected: difficulties.isEmpty) }
+                        FlowLayout(spacing: 8) {
+                            Button { difficulties = [] } label: {
+                                Chip(text: "Any · \(matching { $0.difficulties = [] })", selected: difficulties.isEmpty)
+                            }
                             ForEach([(1, "Recall"), (2, "Apply"), (3, "Multi-step")], id: \.0) { level, name in
                                 Button { toggle(level, in: &difficulties) } label: {
-                                    Chip(text: name, selected: difficulties.contains(level))
+                                    Chip(text: "\(name) · \(matching { $0.difficulties = [level] })", selected: difficulties.contains(level))
                                 }
                             }
                         }
                         .buttonStyle(.plain)
                     }
 
-                    Picker("Questions from", selection: $source) {
-                        ForEach(QuizConfig.Source.allCases) { Text($0.label).tag($0) }
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Questions").font(.subheadline.weight(.semibold))
+                        FlowLayout(spacing: 8) {
+                            ForEach(QuizConfig.Source.allCases) { option in
+                                Button { source = option } label: {
+                                    Chip(text: "\(option.label) · \(matching { $0.source = option })", selected: source == option)
+                                }
+                                .accessibilityIdentifier("builder.source.\(option.rawValue)")
+                            }
+                        }
+                        .buttonStyle(.plain)
+                        Text(source.caption).font(.caption).foregroundStyle(palette.secondaryText)
                     }
-                    .pickerStyle(.segmented)
 
                     Stepper(value: $count, in: 5...150, step: 5) {
                         Text("**\(count)** questions · \(available) available")
@@ -185,10 +224,13 @@ struct PracticeView: View {
         )
     }
 
-    private var available: Int {
-        var unlimited = config
-        unlimited.count = .max
-        return QuizBuilder.questions(for: unlimited, library: library, history: history).count
+    private var available: Int { matching { _ in } }
+
+    /// How many questions the builder would draw from if one filter were changed.
+    private func matching(_ change: (inout QuizConfig) -> Void) -> Int {
+        var variant = config
+        change(&variant)
+        return QuizBuilder.pool(for: variant, library: library, history: history).count
     }
 
     private var timedMinutes: Int {
@@ -294,7 +336,7 @@ struct FlowLayout: Layout {
         for row in arrange(subviews, width: bounds.width) {
             var x = bounds.minX
             for index in row.indices {
-                let size = subviews[index].sizeThatFits(.unspecified)
+                let size = Self.size(of: subviews[index], maxWidth: bounds.width)
                 subviews[index].place(at: CGPoint(x: x, y: y), proposal: ProposedViewSize(size))
                 x += size.width + spacing
             }
@@ -308,10 +350,16 @@ struct FlowLayout: Layout {
         var height: CGFloat = 0
     }
 
+    /// Items wider than the container wrap their text instead of running past the edge.
+    private static func size(of subview: LayoutSubview, maxWidth: CGFloat) -> CGSize {
+        let natural = subview.sizeThatFits(.unspecified)
+        return natural.width <= maxWidth ? natural : subview.sizeThatFits(ProposedViewSize(width: maxWidth, height: nil))
+    }
+
     private func arrange(_ subviews: Subviews, width: CGFloat) -> [Row] {
         var rows: [Row] = [Row()]
         for index in subviews.indices {
-            let size = subviews[index].sizeThatFits(.unspecified)
+            let size = Self.size(of: subviews[index], maxWidth: width)
             let needed = rows[rows.count - 1].indices.isEmpty ? size.width : rows[rows.count - 1].width + spacing + size.width
             if needed > width, !rows[rows.count - 1].indices.isEmpty {
                 rows.append(Row())

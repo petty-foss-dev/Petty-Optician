@@ -220,14 +220,14 @@
     "id": "fc-abo-opt-032",
     "exam": "abo",
     "domain": "abo.optics",
-    "front": "OCs too wide in plus lenses",
+    "front": "Plus lenses with optical centers (OCs) set too wide induce what prism?",
     "back": "Base-out prism. (Plus OCs too narrow → base in.)"
   },
   {
     "id": "fc-abo-opt-033",
     "exam": "abo",
     "domain": "abo.optics",
-    "front": "OCs too narrow in minus lenses",
+    "front": "Minus lenses with optical centers (OCs) set too narrow induce what prism?",
     "back": "Base-out prism. (Minus OCs too wide → base in.)"
   },
   {

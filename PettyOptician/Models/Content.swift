@@ -65,6 +65,11 @@ struct Question: Codable, Identifiable, Hashable, Sendable {
     let explanation: String
     let source: SourceLink?
     let diagram: String?
+    /// Photo or diagram id shown with the stem, for picture-identification questions.
+    var picture: String? = nil
+
+    /// Made on the fly (math drills, picture quizzes) rather than bundled, so they're left out of per-question stats.
+    var isGenerated: Bool { id.hasPrefix(DrillGenerator.idPrefix) || id.hasPrefix(PictureQuiz.idPrefix) }
 }
 
 struct Flashcard: Codable, Identifiable, Hashable, Sendable {
@@ -73,6 +78,20 @@ struct Flashcard: Codable, Identifiable, Hashable, Sendable {
     let domain: String
     let front: String
     let back: String
+}
+
+struct BinderLesson: Decodable, Identifiable, Sendable {
+    let id: String
+    let exam: ExamID
+    let domain: String
+    let title: String
+    let subtitle: String
+    let notes: String
+    let cue: String
+    let prompt: String
+    let answer: String
+    let binderReference: String?
+    let sources: [SourceLink]?
 }
 
 struct GuideSection: Codable, Hashable, Sendable {

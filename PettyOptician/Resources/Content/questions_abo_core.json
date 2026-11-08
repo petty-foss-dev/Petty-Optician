@@ -1978,7 +1978,7 @@
     "domain": "abo.dispensing",
     "topic": "Frame Adjusting",
     "difficulty": 2,
-    "stem": "A patient's glasses sit higher on the right side of the face. Which adjustment corrects this?",
+    "stem": "A patient's glasses sit higher on the patient's right side of the face. Which adjustment corrects this?",
     "choices": [
       "Bend the right temple down",
       "Bend the right temple up (or the left temple down)",
@@ -1994,7 +1994,7 @@
     "domain": "abo.dispensing",
     "topic": "Frame Adjusting",
     "difficulty": 2,
-    "stem": "Viewed from above, the right lens sits farther from the face than the left. Which adjustment helps?",
+    "stem": "Viewed from above, the right lens of a patient's glasses sits farther from the face than the left. Which adjustment helps?",
     "choices": [
       "Increase the right temple spread",
       "Decrease the right temple spread (bend it in) or increase the left temple spread",
@@ -2417,7 +2417,7 @@
     "domain": "abo.dispensing",
     "topic": "Near PD",
     "difficulty": 3,
-    "stem": "Distance PD is 66 mm and the patient reads at 330 mm. Using the same formula (working distance + 27 mm), what is the near PD?",
+    "stem": "Distance PD is 66 mm and the patient reads at 330 mm. Using near PD = distance PD × working distance ÷ (working distance + 27 mm), what is the near PD?",
     "choices": [
       "58 mm",
       "61 mm",
@@ -2630,7 +2630,7 @@
     "domain": "abo.instruments",
     "topic": "Lensmeter",
     "difficulty": 3,
-    "stem": "In minus cylinder technique, the sphere lines focus at +1.00 with the axis wheel at 030. The cylinder lines then focus at −0.50. How is the lens recorded?",
+    "stem": "On a manual lensmeter using minus cylinder technique, the sphere lines focus at +1.00 with the axis wheel at 030. The cylinder lines then focus at −0.50. How is the lens recorded?",
     "choices": [
       "−0.50 +1.50 × 030",
       "+1.00 −0.50 × 030",
@@ -3948,7 +3948,7 @@
     "domain": "abo.laws",
     "topic": "California Regulation",
     "difficulty": 2,
-    "stem": "A California SLD works at two different registered optical businesses. What does the Board require regarding their registration certificate?",
+    "stem": "A California SLD works at two different registered optical businesses. What does the state licensing board require regarding their registration certificate?",
     "choices": [
       "They need a separate registration for each business",
       "They display their certificate at the business where they are fitting and adjusting",
@@ -3964,7 +3964,7 @@
     "domain": "abo.laws",
     "topic": "California Regulation",
     "difficulty": 2,
-    "stem": "California law (B&P § 136) requires a registered dispenser to notify the Board of an address change within:",
+    "stem": "California law (B&P § 136) requires a registered dispenser to notify the state licensing board of an address change within:",
     "choices": [
       "1 year",
       "10 days",

@@ -102,22 +102,70 @@ extension ContentLibrary {
 }
 
 struct SearchResultsView: View {
+    enum Kind: String, CaseIterable, Identifiable {
+        case all = "All", notes = "My Notes", lessons = "Lessons", questions = "Questions", glossary = "Glossary", tables = "Tables", cards = "Cards", media = "Media"
+        var id: String { rawValue }
+    }
+
     let query: String
     let exam: ExamID
     var topicQuestions: [Question]?
     @Environment(\.palette) private var palette
+    @Query private var stats: [QuestionStat]
+    @Query(sort: \StudyNote.updated, order: .reverse) private var notes: [StudyNote]
+    @State private var kind: Kind
+    @State private var status = QuizConfig.Source.all
+    @State private var section: String?
     @State private var expandedKinds: Set<String> = []
+    @State private var activeQuiz: QuizSession?
     private let library = ContentLibrary.shared
+
+    init(query: String, exam: ExamID, topicQuestions: [Question]? = nil, kind: Kind = .all) {
+        self.query = query
+        self.exam = exam
+        self.topicQuestions = topicQuestions
+        _kind = State(initialValue: kind)
+    }
 
     var body: some View {
         let results = library.search(query, exam: exam)
-        let questions = topicQuestions ?? results.questions
+        let allQuestions = topicQuestions ?? results.questions
+        let history = stats.history
+        let questions = kind == .questions
+            ? allQuestions.filter { (section == nil || $0.domain == section) && QuizBuilder.matches(status, history[$0.id]) }
+            : allQuestions
+        let terms = query.lowercased().split(separator: " ").map(String.init)
+        let matchingNotes = topicQuestions == nil
+            ? notes.filter { note in note.exam == exam && terms.allSatisfy { note.text.lowercased().contains($0) } }
+            : []
+        let counts: [Kind: Int] = [
+            .notes: matchingNotes.count,
+            .lessons: results.sections.count + results.topics.count,
+            .questions: allQuestions.count,
+            .glossary: results.terms.count,
+            .tables: results.tables.count,
+            .cards: results.flashcards.count,
+            .media: results.diagrams.count + results.images.count + results.resources.count
+        ]
+        let shows = { (k: Kind) in kind == .all || kind == k }
 
         LazyVStack(alignment: .leading, spacing: 12) {
-            if results.isEmpty && questions.isEmpty {
+            if results.isEmpty && allQuestions.isEmpty && matchingNotes.isEmpty {
                 ContentUnavailableView.search(text: query)
+            } else if topicQuestions == nil {
+                FlowLayout(spacing: 8) {
+                    Button { kind = .all } label: { Chip(text: "All", selected: kind == .all) }
+                    ForEach(Kind.allCases.dropFirst().filter { counts[$0, default: 0] > 0 }) { option in
+                        Button { kind = option } label: { Chip(text: "\(option.rawValue) · \(counts[option, default: 0])", selected: kind == option) }
+                            .accessibilityIdentifier("search.kind.\(option.rawValue.lowercased())")
+                    }
+                }
+                .buttonStyle(.plain)
             }
-            if topicQuestions == nil, !results.topics.isEmpty {
+            if shows(.notes) {
+                group("My Notes", "notes", matchingNotes, limit: 3) { NoteRow(note: $0) }
+            }
+            if shows(.lessons), topicQuestions == nil, !results.topics.isEmpty {
                 SectionTitle(title: "Topics", trailing: "\(results.topics.count)")
                 FlowLayout(spacing: 8) {
                     ForEach(results.topics) { topic in
@@ -128,28 +176,85 @@ struct SearchResultsView: View {
                 }
                 .buttonStyle(.plain)
             }
-            group("Glossary", "terms", results.terms, limit: 3) { term in
-                Panel(padding: 14) { GlossaryRow(term: term) }
+            if shows(.glossary) {
+                group("Glossary", "terms", results.terms, limit: 3) { term in
+                    Panel(padding: 14) { GlossaryRow(term: term) }
+                }
             }
-            group("Reference Tables", "tables", results.tables, limit: 3) { table in
-                NavigationLink { ReferenceTableView(table: table) } label: {
-                    LinkRow(title: table.title, subtitle: table.columns.joined(separator: " · "), symbol: "tablecells")
+            if shows(.tables) {
+                group("Reference Tables", "tables", results.tables, limit: 3) { table in
+                    NavigationLink { ReferenceTableView(table: table) } label: {
+                        LinkRow(title: table.title, subtitle: table.columns.joined(separator: " · "), symbol: "tablecells")
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            if shows(.lessons) {
+                group("Study Guide", "sections", results.sections) { hit in
+                    NavigationLink(value: hit) { SectionHitRow(hit: hit) }.buttonStyle(.plain)
+                }
+            }
+            if shows(.media) {
+                group("Diagrams", "diagrams", results.diagrams, limit: 3) { diagram in
+                    Panel { DiagramCard(diagram: diagram) }
+                }
+                if !results.images.isEmpty {
+                    SectionTitle(title: "Photos", trailing: "\(results.images.count)")
+                    PhotoStrip(images: results.images)
+                }
+            }
+            if shows(.questions), !allQuestions.isEmpty {
+                questionFilters(allQuestions, history: history, matching: questions)
+                group("Questions", "questions", questions) { QuestionPreviewRow(question: $0) }
+            }
+            if shows(.cards) {
+                group("Flashcards", "cards", results.flashcards) { FlashcardPreviewRow(card: $0) }
+            }
+            if shows(.media) {
+                group("Videos & Resources", "resources", results.resources) { ResourceRow(resource: $0) }
+            }
+        }
+        .quizCover($activeQuiz)
+        .onChange(of: query) { section = nil }
+    }
+
+    /// Status and section filters plus a one-tap quiz over whatever is left.
+    @ViewBuilder
+    private func questionFilters(_ all: [Question], history: [String: QuestionHistory], matching: [Question]) -> some View {
+        if kind == .questions {
+            FlowLayout(spacing: 8) {
+                ForEach(QuizConfig.Source.allCases) { option in
+                    let n = all.filter { (section == nil || $0.domain == section) && QuizBuilder.matches(option, history[$0.id]) }.count
+                    Button { status = option } label: { Chip(text: option == .all ? "Any · \(n)" : "\(option.label) · \(n)", selected: status == option) }
+                        .accessibilityIdentifier("search.status.\(option.rawValue)")
+                }
+            }
+            .buttonStyle(.plain)
+            let domains = library.domains(for: exam).filter { domain in all.contains { $0.domain == domain.id } }
+            if domains.count > 1 {
+                FlowLayout(spacing: 8) {
+                    Button { section = nil } label: { Chip(text: "All sections", selected: section == nil) }
+                    ForEach(domains) { domain in
+                        let n = all.filter { $0.domain == domain.id && QuizBuilder.matches(status, history[$0.id]) }.count
+                        Button { section = domain.id } label: { Chip(text: "\(domain.name) · \(n)", selected: section == domain.id) }
+                    }
                 }
                 .buttonStyle(.plain)
             }
-            group("Study Guide", "sections", results.sections) { hit in
-                NavigationLink(value: hit) { SectionHitRow(hit: hit) }.buttonStyle(.plain)
+        }
+        if topicQuestions == nil, !matching.isEmpty {
+            Button {
+                let picked = QuizBuilder.weakFirst(matching, count: min(matching.count, 30), history: history)
+                activeQuiz = QuizSession(
+                    config: QuizConfig(exam: exam, title: "“\(query)”", count: picked.count),
+                    questions: picked,
+                    flagged: stats.flaggedIDs
+                )
+            } label: {
+                Label("Practice \(min(matching.count, 30)) of These", systemImage: "checklist").frame(maxWidth: .infinity, minHeight: 40)
             }
-            group("Diagrams", "diagrams", results.diagrams, limit: 3) { diagram in
-                Panel { DiagramCard(diagram: diagram) }
-            }
-            if !results.images.isEmpty {
-                SectionTitle(title: "Photos", trailing: "\(results.images.count)")
-                PhotoStrip(images: results.images)
-            }
-            group("Questions", "questions", questions) { QuestionPreviewRow(question: $0) }
-            group("Flashcards", "cards", results.flashcards) { FlashcardPreviewRow(card: $0) }
-            group("Videos & Resources", "resources", results.resources) { ResourceRow(resource: $0) }
+            .buttonStyle(.borderedProminent)
+            .accessibilityIdentifier("search.practice")
         }
     }
 
@@ -162,6 +267,7 @@ struct SearchResultsView: View {
         @ViewBuilder row: @escaping (Item) -> Row
     ) -> some View {
         if !items.isEmpty {
+            let limit = kind == .all ? limit : max(limit, 20)
             let showAll = expandedKinds.contains(key)
             SectionTitle(title: title, trailing: "\(items.count)")
             ForEach(Array(items.prefix(showAll ? items.count : limit))) { row($0) }
@@ -233,21 +339,6 @@ struct QuestionPreviewRow: View {
                 }
                 .font(.subheadline.weight(.semibold))
             }
-        }
-    }
-}
-
-/// Diagram and source that follow an explanation once the answer is known.
-struct QuestionExtras: View {
-    let question: Question
-    private let library = ContentLibrary.shared
-
-    var body: some View {
-        if let diagram = library.diagram(question.diagram) {
-            DiagramCard(diagram: diagram, showsCaption: false)
-        }
-        if let source = question.source {
-            SourceList(sources: [source])
         }
     }
 }

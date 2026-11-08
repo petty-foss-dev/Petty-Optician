@@ -1342,7 +1342,7 @@
     "domain": "abo.products",
     "topic": "Slab-off",
     "difficulty": 3,
-    "stem": "OD −1.00 D sphere; OS −4.00 D sphere. The patient reads 10 mm below the optical centers. How much slab-off is needed, and on which lens?",
+    "stem": "A patient wears OD −1.00 D sphere and OS −4.00 D sphere and reads 10 mm below the optical centers. How much slab-off is needed, and on which lens?",
     "choices": [
       "3.00Δ on the OS lens",
       "3.00Δ on the OD lens",

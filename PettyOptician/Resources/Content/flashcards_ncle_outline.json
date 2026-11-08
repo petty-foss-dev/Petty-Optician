@@ -17,14 +17,14 @@
     "id": "fc-ncle-out-003",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Extended wear rest rule",
+    "front": "FDA rest rule for extended-wear contact lenses",
     "back": "After each scheduled removal, leave the eyes lens-free for at least one night (FDA)."
   },
   {
     "id": "fc-ncle-out-004",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Missed a day of RGP wear?",
+    "front": "New RGP wearer missed a day of wear: what next?",
     "back": "Reduce wearing time the next day; never exceed the prescribed schedule."
   },
   {
@@ -52,14 +52,14 @@
     "id": "fc-ncle-out-008",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "CDC 2014 survey: risky behaviors",
+    "front": "CDC 2014 survey of contact lens wearers: key findings",
     "back": "About 99% of wearers reported at least one hygiene risk behavior; about 1 in 6 U.S. adults wear lenses."
   },
   {
     "id": "fc-ncle-out-009",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Lenses stored 30+ days",
+    "front": "Contact lenses stored in the case 30+ days",
     "back": "Re-disinfect before wearing (AAO)."
   },
   {
@@ -101,7 +101,7 @@
     "id": "fc-ncle-out-015",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Cleaning vs disinfection",
+    "front": "Contact lens care: cleaning vs disinfection",
     "back": "Cleaning removes deposits and debris; disinfection kills harmful germs."
   },
   {
@@ -115,105 +115,105 @@
     "id": "fc-ncle-out-017",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "'No-rub' solution?",
+    "front": "'No-rub' multipurpose solution: rub the lenses?",
     "back": "Rub and rinse anyway (AAO). FDA asked in 2010 to drop 'no rub' from labels."
   },
   {
     "id": "fc-ncle-out-018",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Saline",
+    "front": "Sterile saline in contact lens care",
     "back": "Rinses only; it does not disinfect."
   },
   {
     "id": "fc-ncle-out-019",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "One-step vs two-step peroxide",
+    "front": "One-step vs two-step hydrogen peroxide lens care systems",
     "back": "One-step: neutralizer built into the case. Two-step: add a neutralizing tablet after disinfecting, then rinse with saline."
   },
   {
     "id": "fc-ncle-out-020",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Peroxide bottle cue",
+    "front": "How to recognize a hydrogen peroxide lens solution bottle",
     "back": "Red tip and cap on most bottles."
   },
   {
     "id": "fc-ncle-out-021",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Peroxide case rule",
+    "front": "Hydrogen peroxide lens care: case rule",
     "back": "Use only the case supplied with each new bottle; it contains the neutralizer."
   },
   {
     "id": "fc-ncle-out-022",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Peroxide wait time",
+    "front": "Hydrogen peroxide lens care: wait time before wear",
     "back": "4–6 hours, as directed (CDC). Never rinse lenses with unneutralized peroxide."
   },
   {
     "id": "fc-ncle-out-023",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Peroxide vs Acanthamoeba",
+    "front": "Hydrogen peroxide disinfection vs Acanthamoeba",
     "back": "Cysts need 2–3 hours of non-neutralized 3% peroxide; a catalytic disc neutralizes too soon."
   },
   {
     "id": "fc-ncle-out-024",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Heat disinfection basics",
+    "front": "Heat disinfection of contact lenses: basics",
     "back": "About 80 °C for 10–30 min with non-preserved saline; rub first; not for silicone hydrogel or FDA Group II/IV."
   },
   {
     "id": "fc-ncle-out-025",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "UV, vibration, or ultrasonic cleaners",
+    "front": "UV, vibration, or ultrasonic contact lens cleaners",
     "back": "Cannot replace rub and rinse; UV-only disinfection still needed safety data (AAO review)."
   },
   {
     "id": "fc-ncle-out-026",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Enzymatic cleaner frequency",
+    "front": "Contact lens enzymatic cleaner frequency",
     "back": "About weekly, when the daily cleaner is not enough."
   },
   {
     "id": "fc-ncle-out-027",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Water on lenses?",
+    "front": "Water gets on contact lenses: what to do?",
     "back": "Remove ASAP; discard or clean and disinfect overnight (CDC)."
   },
   {
     "id": "fc-ncle-out-028",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Water and soft lenses",
+    "front": "How water harms soft contact lens wearers",
     "back": "Lenses can swell, change shape, and stick to the eye, risking corneal scratches; Acanthamoeba lives in tap, lake, and well water."
   },
   {
     "id": "fc-ncle-out-029",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Lens case care",
+    "front": "Contact lens case care",
     "back": "Rub and rinse with solution (no water), dry with a tissue, store upside down with caps off, replace at least every 3 months."
   },
   {
     "id": "fc-ncle-out-030",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Topping off",
+    "front": "Topping off contact lens solution in the case",
     "back": "Adding fresh solution to used solution; it reduces disinfection. Empty and refill every time."
   },
   {
     "id": "fc-ncle-out-031",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Symptoms with lenses in?",
+    "front": "Eye irritation while wearing contact lenses: what to do with the lenses?",
     "back": "Remove lenses, keep them in the case, and bring them to the eye care professional (FDA)."
   },
   {
@@ -241,14 +241,14 @@
     "id": "fc-ncle-out-035",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Makeup sequence",
+    "front": "Contact lenses and makeup: order of steps",
     "back": "Lenses in, then makeup; lenses out, then remove makeup. Use non-greasy products."
   },
   {
     "id": "fc-ncle-out-036",
     "exam": "ncle",
     "domain": "ncle.dispensing",
-    "front": "Hands before handling lenses",
+    "front": "Hand prep before handling contact lenses",
     "back": "Plain soap (no moisturizers, oils, or perfume), dried with lint-free towel; no creams or nicotine."
   },
   {
@@ -297,7 +297,7 @@
     "id": "fc-ncle-out-043",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "TBUT normal and abnormal",
+    "front": "Tear break-up time (TBUT): normal vs abnormal",
     "back": "About 10–35 s normal; <10 s suspicious. Wet the strip with preservative-free saline."
   },
   {
@@ -311,21 +311,21 @@
     "id": "fc-ncle-out-045",
     "exam": "ncle",
     "domain": "ncle.instruments",
-    "front": "AS-OCT advantages for sclerals",
+    "front": "Anterior segment OCT (AS-OCT) advantages for scleral lenses",
     "back": "Non-contact, no fluorescein needed, measures central and limbal clearance; target limbal clearance about 100–200 µm."
   },
   {
     "id": "fc-ncle-out-046",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "CL-SLK",
+    "front": "CL-SLK (contact lens-induced superior limbic keratoconjunctivitis)",
     "back": "Superior limbal injection, infiltrates, staining, pannus; historically thimerosal; stop lens wear and use preservative-free care."
   },
   {
     "id": "fc-ncle-out-047",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "VLK",
+    "front": "VLK (vascularized limbal keratitis)",
     "back": "Elevated limbal mass at 3 and 9 o'clock in rigid wearers; flatten and widen peripheral curves, reduce diameter."
   },
   {
@@ -346,21 +346,21 @@
     "id": "fc-ncle-out-050",
     "exam": "ncle",
     "domain": "ncle.followup",
-    "front": "Efron grading scale",
+    "front": "Efron grading scale (contact lens complications)",
     "back": "Grade 0 normal to grade 4 severe, 16 complications."
   },
   {
     "id": "fc-ncle-out-051",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "FTC 'prescriber'",
+    "front": "FTC Contact Lens Rule: who is a 'prescriber'?",
     "back": "Ophthalmologist, optometrist, or other person (such as an optician) allowed by state law to prescribe."
   },
   {
     "id": "fc-ncle-out-052",
     "exam": "ncle",
     "domain": "ncle.regulatory",
-    "front": "Counting 8 business hours",
+    "front": "FTC Contact Lens Rule: counting the 8 business hours for verification",
     "back": "9 a.m.–5 p.m. weekdays, prescriber's time zone; after-hours requests start at 9 a.m. the next weekday."
   },
   {
@@ -388,7 +388,7 @@
     "id": "fc-ncle-out-056",
     "exam": "ncle",
     "domain": "ncle.prefitting",
-    "front": "Modulus trade-off",
+    "front": "Soft contact lens modulus trade-off",
     "back": "Higher modulus: better handling, but more SEALs, CLPC, mucin balls, and edge fluting."
   },
   {

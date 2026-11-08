@@ -10,7 +10,7 @@ extension View {
 extension [QuestionStat] {
     var history: [String: QuestionHistory] {
         Dictionary(
-            map { ($0.questionID, QuestionHistory(seen: $0.seen, correct: $0.correct, lastWasCorrect: $0.lastWasCorrect, flagged: $0.flagged, lastAnswered: $0.lastAnswered)) },
+            map { ($0.questionID, QuestionHistory(seen: $0.seen, correct: $0.correct, lastWasCorrect: $0.lastWasCorrect, flagged: $0.flagged, lastAnswered: $0.lastAnswered, reviewDue: $0.reviewDue)) },
             uniquingKeysWith: { first, _ in first }
         )
     }
@@ -283,6 +283,10 @@ struct QuestionCard: View {
                 }
             }
 
+            if let picture = question.picture {
+                QuestionPicture(id: picture)
+            }
+
             Text(question.stem)
                 .font(.title3.weight(.semibold))
                 .foregroundStyle(palette.text)
@@ -403,5 +407,28 @@ struct DifficultyDots: View {
             }
         }
         .accessibilityLabel("Difficulty \(level) of 3")
+    }
+}
+
+/// The photo or diagram a picture question asks about, with no title or caption that would give it away.
+struct QuestionPicture: View {
+    let id: String
+    @Environment(\.palette) private var palette
+    private let library = ContentLibrary.shared
+
+    var body: some View {
+        Group {
+            if let image = library.images.first(where: { $0.id == id }) {
+                Color.clear
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 240)
+                    .overlay { BundledImage(image: image, maxPixel: 1200, contentMode: .fit) }
+            } else {
+                DiagramCanvas(id: id).padding(8)
+            }
+        }
+        .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(palette.cardBackground))
+        .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .accessibilityLabel("Picture for this question")
     }
 }

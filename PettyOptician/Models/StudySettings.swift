@@ -11,6 +11,8 @@ final class StudySettings: ObservableObject {
     private static let examDatesKey = "pettyoptician.examDates"
     private static let reminderKey = "pettyoptician.reminderEnabled"
     private static let reminderMinutesKey = "pettyoptician.reminderMinutes"
+    private static let dailyQuestionKey = "pettyoptician.dailyQuestion"
+    private static let supertonicVoiceKey = "pettyoptician.supertonicVoice"
 
     @Published var exam: ExamID {
         didSet { UserDefaults.standard.set(exam.rawValue, forKey: Self.examKey) }
@@ -39,6 +41,16 @@ final class StudySettings: ObservableObject {
         }
     }
 
+    /// Per exam: "day|questionID|choice", choice empty until answered, so the pick stays put for the whole day.
+    @Published private var dailyQuestions: [String: String] {
+        didSet { UserDefaults.standard.set(dailyQuestions, forKey: Self.dailyQuestionKey) }
+    }
+
+    /// nil means Apple's built-in voice.
+    @Published var supertonicVoice: SupertonicVoice? {
+        didSet { UserDefaults.standard.set(supertonicVoice?.rawValue, forKey: Self.supertonicVoiceKey) }
+    }
+
     @Published private(set) var studyDays: Set<String> {
         didSet { UserDefaults.standard.set(Array(studyDays), forKey: Self.studyDaysKey) }
     }
@@ -52,6 +64,18 @@ final class StudySettings: ObservableObject {
         examDateStamps = defaults.dictionary(forKey: Self.examDatesKey) as? [String: Double] ?? [:]
         reminderEnabled = defaults.bool(forKey: Self.reminderKey)
         reminderMinutes = defaults.object(forKey: Self.reminderMinutesKey) as? Int ?? 19 * 60
+        dailyQuestions = defaults.dictionary(forKey: Self.dailyQuestionKey) as? [String: String] ?? [:]
+        supertonicVoice = defaults.string(forKey: Self.supertonicVoiceKey).flatMap(SupertonicVoice.init(rawValue:))
+    }
+
+    func dailyQuestion(for exam: ExamID, on date: Date = .now) -> (id: String, choice: Int?)? {
+        let parts = (dailyQuestions[exam.rawValue] ?? "").split(separator: "|", omittingEmptySubsequences: false).map(String.init)
+        guard parts.count == 3, parts[0] == Self.dayKey(date) else { return nil }
+        return (parts[1], Int(parts[2]))
+    }
+
+    func setDailyQuestion(_ id: String, choice: Int?, for exam: ExamID, on date: Date = .now) {
+        dailyQuestions[exam.rawValue] = [Self.dayKey(date), id, choice.map(String.init) ?? ""].joined(separator: "|")
     }
 
     func examDate(for exam: ExamID) -> Date? {
@@ -95,7 +119,7 @@ final class StudySettings: ObservableObject {
         return count
     }
 
-    private static func dayKey(_ date: Date) -> String {
+    static func dayKey(_ date: Date) -> String {
         let c = Calendar.current.dateComponents([.year, .month, .day], from: date)
         return String(format: "%04d-%02d-%02d", c.year ?? 0, c.month ?? 0, c.day ?? 0)
     }

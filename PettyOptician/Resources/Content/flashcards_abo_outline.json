@@ -17,35 +17,35 @@
     "id": "fc-abo-out-003",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Why stop when the reticle first clears?",
+    "front": "Lensmeter eyepiece focusing: why stop the moment the reticle first clears?",
     "back": "Going further makes you accommodate, which skews the readings."
   },
   {
     "id": "fc-abo-out-004",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Mires won't focus at plano after eyepiece focusing",
+    "front": "Lensmeter: what if the mires won't focus at plano after you focus the eyepiece?",
     "back": "Repeat the procedure. If still off, recalibrate the instrument."
   },
   {
     "id": "fc-abo-out-005",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Plus-cylinder technique: sphere lines focus at…",
+    "front": "Lensmeter, plus-cylinder technique: where do the sphere lines focus?",
     "back": "The least plus (most minus) reading. Cylinder lines focus later in the plus direction."
   },
   {
     "id": "fc-abo-out-006",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Cylinder lines focus first while turning toward plus",
+    "front": "Lensmeter, plus-cylinder technique: what if the cylinder lines focus first while turning toward plus?",
     "back": "Rotate the axis wheel 90° and start again."
   },
   {
     "id": "fc-abo-out-007",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Spherical lens on a crossed-line target",
+    "front": "Crossed-line lensmeter target: how do you recognize a spherical lens?",
     "back": "Thin and thick lines focus at the same drum reading."
   },
   {
@@ -66,49 +66,49 @@
     "id": "fc-abo-out-010",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Reading the add of a spherocylinder",
+    "front": "Lensmeter: how do you read the add of a spherocylindrical multifocal?",
     "back": "Keep the distance axis setting and refocus only the sphere lines through the segment."
   },
   {
     "id": "fc-abo-out-011",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "When to turn glasses around for the add",
+    "front": "Lensmeter: when do you turn the glasses around to read the add?",
     "back": "High adds (over about +2.50 D): read front vertex. Back vertex overstates strong front-surface adds."
   },
   {
     "id": "fc-abo-out-012",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "One reticle ring =",
+    "front": "Lensmeter: one reticle ring equals how much prism?",
     "back": "1 prism diopter."
   },
   {
     "id": "fc-abo-out-013",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Target displaced toward the temple",
+    "front": "Lensmeter: target displaced toward the wearer's temple means which prism base?",
     "back": "Base out (either eye)."
   },
   {
     "id": "fc-abo-out-014",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Target displaced toward the nose",
+    "front": "Lensmeter: target displaced toward the wearer's nose means which prism base?",
     "back": "Base in (either eye)."
   },
   {
     "id": "fc-abo-out-015",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Loose prism needed to center the target",
+    "front": "Lensmeter: what does it mean when you need a loose prism to center the target?",
     "back": "The lens contains the same amount with the opposite base (6Δ BI needed → 6Δ BO in lens)."
   },
   {
     "id": "fc-abo-out-016",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Prism beyond the reticle rings (about 5Δ+)",
+    "front": "Lensmeter: how do you measure prism beyond the reticle rings (about 5Δ+)?",
     "back": "Use the prism compensating device or auxiliary loose prisms."
   },
   {
@@ -171,7 +171,7 @@
     "id": "fc-abo-out-025",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Free-form lens reads off the Rx",
+    "front": "Why does a free-form lens read slightly off the ordered Rx on a lensmeter?",
     "back": "Expected: position-of-wear compensation. Check against the lab's compensated values."
   },
   {
@@ -234,7 +234,7 @@
     "id": "fc-abo-out-034",
     "exam": "abo",
     "domain": "abo.instruments",
-    "front": "Corneal reflex vs pupil center",
+    "front": "PD measurement: corneal reflex vs pupil center",
     "back": "Reflex is about 1 mm nasal per eye. Binocular reflex PD is about 2 mm narrower."
   },
   {
@@ -339,7 +339,7 @@
     "id": "fc-abo-out-049",
     "exam": "abo",
     "domain": "abo.products",
-    "front": "Roll and polish",
+    "front": "Lens edge finishing: roll and polish",
     "back": "Roll fines down sharp or thick edges. Polish clears exposed rimless edges but can cause internal reflections."
   },
   {

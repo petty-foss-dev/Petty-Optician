@@ -20,6 +20,7 @@ struct QuizResultsView: View {
                 scoreHeader
                 if !record.breakdown.isEmpty { breakdown }
                 if !record.missedIDs.isEmpty { retryButton }
+                lessonsToReview
                 review
             }
             .padding()
@@ -104,6 +105,30 @@ struct QuizResultsView: View {
                 .frame(maxWidth: .infinity, minHeight: 44)
         }
         .buttonStyle(.borderedProminent)
+    }
+
+    /// Lessons behind the missed questions, most-missed first.
+    @ViewBuilder
+    private var lessonsToReview: some View {
+        let missed = Set(record.missedIDs)
+        let lessons = Dictionary(grouping: session.questions.filter { missed.contains($0.id) }.compactMap { LessonLinks.shared.lesson(for: $0) }) { $0 }
+            .map { (lesson: $0.key, misses: $0.value.count) }
+            .sorted { ($1.misses, $0.lesson.domain, $0.lesson.index) < ($0.misses, $1.lesson.domain, $1.lesson.index) }
+            .prefix(5)
+        if !lessons.isEmpty {
+            VStack(alignment: .leading, spacing: 10) {
+                SectionTitle(title: "Lessons to Review")
+                ForEach(Array(lessons), id: \.lesson) { item in
+                    if let domain = library.domains(for: record.exam).first(where: { $0.id == item.lesson.domain }),
+                       let section = library.guide(for: domain.id)?.sections[item.lesson.index] {
+                        NavigationLink { GuideView(domain: domain, focus: item.lesson.index) } label: {
+                            LinkRow(title: section.heading, subtitle: "\(domain.name) · \(item.misses) missed", symbol: "text.book.closed")
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+            }
+        }
     }
 
     private var review: some View {

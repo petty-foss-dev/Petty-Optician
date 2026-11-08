@@ -77,13 +77,8 @@ final class QuizSession: Identifiable {
             return created
         }
 
-        for index in counted where !questions[index].id.hasPrefix(DrillGenerator.idPrefix) {
-            let entry = stat(for: questions[index].id)
-            let correct = isCorrect(index)
-            entry.seen += 1
-            entry.correct += correct ? 1 : 0
-            entry.lastWasCorrect = correct
-            entry.lastAnswered = .now
+        for index in counted where !questions[index].isGenerated {
+            stat(for: questions[index].id).recordAnswer(correct: isCorrect(index))
         }
         for question in questions where flagged.contains(question.id) || stats[question.id] != nil {
             stat(for: question.id).flagged = flagged.contains(question.id)

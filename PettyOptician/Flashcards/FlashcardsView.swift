@@ -10,8 +10,10 @@ struct FlashcardDeck: Identifiable {
 struct FlashcardsView: View {
     @ObservedObject private var settings = StudySettings.shared
     @Query private var reviews: [CardReview]
+    @Query private var personalCards: [PersonalCard]
     @Environment(\.palette) private var palette
     @State private var activeDeck: FlashcardDeck?
+    @State private var listening: FlashcardDeck?
     private let library = ContentLibrary.shared
 
     private var reviewMap: [String: CardReview] {
@@ -19,11 +21,14 @@ struct FlashcardsView: View {
     }
 
     var body: some View {
-        let cards = library.flashcards(for: settings.exam)
+        let mine = personalCards.flashcards(for: settings.exam)
+        let cards = library.flashcards(for: settings.exam) + mine
         let map = reviewMap
-        let due = cards.filter { map[$0.id].map { $0.due <= .now } ?? false }.sorted { map[$0.id]!.due < map[$1.id]!.due }
-        let fresh = cards.filter { map[$0.id] == nil }
-        let introducedToday = reviews.filter { Calendar.current.isDateInToday($0.introduced) }.count
+        // Cards you made skip the new-card limit: they're due as soon as you add them.
+        let due = mine.filter { map[$0.id] == nil }
+            + cards.filter { map[$0.id].map { $0.due <= .now } ?? false }.sorted { map[$0.id]!.due < map[$1.id]!.due }
+        let fresh = cards.filter { map[$0.id] == nil && !$0.id.hasPrefix(PersonalCard.idPrefix) }
+        let introducedToday = reviews.filter { !$0.cardID.hasPrefix(PersonalCard.idPrefix) && Calendar.current.isDateInToday($0.introduced) }.count
         let newToday = Array(fresh.prefix(max(0, settings.dailyNewCards - introducedToday)))
 
         NavigationStack {
@@ -36,7 +41,7 @@ struct FlashcardsView: View {
                             HStack(spacing: 0) {
                                 countColumn(due.count, "Due")
                                 countColumn(newToday.count, "New today")
-                                countColumn(cards.count - fresh.count, "Learned")
+                                countColumn(cards.count - fresh.count - mine.filter { map[$0.id] == nil }.count, "Learned")
                             }
                             Button {
                                 activeDeck = FlashcardDeck(title: "Daily Review", cards: due + newToday)
@@ -48,6 +53,14 @@ struct FlashcardsView: View {
                             .buttonStyle(.borderedProminent)
                             .disabled(due.isEmpty && newToday.isEmpty)
                             .accessibilityIdentifier("cards.study")
+                            Button {
+                                listening = FlashcardDeck(title: "Daily Review", cards: due + newToday)
+                            } label: {
+                                Label("Listen Hands-Free", systemImage: "headphones").frame(maxWidth: .infinity, minHeight: 36)
+                            }
+                            .buttonStyle(.bordered)
+                            .disabled(due.isEmpty && newToday.isEmpty)
+                            .accessibilityIdentifier("cards.listen")
 
                             Stepper(value: $settings.dailyNewCards, in: 5...100, step: 5) {
                                 Text("New cards per day: **\(settings.dailyNewCards)**").font(.subheadline)
@@ -57,8 +70,17 @@ struct FlashcardsView: View {
 
                     VStack(alignment: .leading, spacing: 10) {
                         SectionTitle(title: "Decks", trailing: "\(cards.count) cards")
+                        NavigationLink { MyCardsView() } label: {
+                            LinkRow(
+                                title: "My Cards",
+                                subtitle: mine.isEmpty ? "Tap Add to Cards under any explanation to make your own" : "\(mine.count) made from practice questions",
+                                symbol: "person.crop.rectangle.stack"
+                            )
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityIdentifier("cards.mine")
                         ForEach(library.domains(for: settings.exam)) { domain in
-                            let deck = cards.filter { $0.domain == domain.id }
+                            let deck = library.flashcards(for: settings.exam, domain: domain.id)
                             if !deck.isEmpty {
                                 deckRow(domain: domain, cards: deck, map: map)
                             }
@@ -70,6 +92,7 @@ struct FlashcardsView: View {
             .tabScreen("Flashcards")
         }
         .fullScreenCover(item: $activeDeck) { FlashcardSessionView(deck: $0) }
+        .fullScreenCover(item: $listening) { ListenSessionView(deck: $0) }
     }
 
     private func countColumn(_ value: Int, _ label: String) -> some View {
@@ -94,6 +117,9 @@ struct FlashcardsView: View {
                 Menu {
                     Button("Cram All \(cards.count)", systemImage: "shuffle") {
                         activeDeck = FlashcardDeck(title: domain.name, cards: cards.shuffled())
+                    }
+                    Button("Listen to All \(cards.count)", systemImage: "headphones") {
+                        listening = FlashcardDeck(title: domain.name, cards: cards.shuffled())
                     }
                     let unlearned = cards.filter { map[$0.id] == nil }
                     if !unlearned.isEmpty {
@@ -251,5 +277,55 @@ struct FlashcardSessionView: View {
             queue.removeFirst()
             if grade == .again { queue.insert(card, at: min(3, queue.count)) }
         }
+    }
+}
+
+struct MyCardsView: View {
+    @ObservedObject private var settings = StudySettings.shared
+    @Query(sort: \PersonalCard.created, order: .reverse) private var personalCards: [PersonalCard]
+    @Environment(\.modelContext) private var context
+    @Environment(\.palette) private var palette
+    @State private var activeDeck: FlashcardDeck?
+    private let library = ContentLibrary.shared
+
+    var body: some View {
+        let mine = personalCards.filter { $0.exam == settings.exam }
+        List {
+            if mine.isEmpty {
+                ContentUnavailableView(
+                    "No cards yet",
+                    systemImage: "person.crop.rectangle.stack",
+                    description: Text("After you answer a practice question, tap Add to Cards to turn it into a flashcard.")
+                )
+                .listRowBackground(Color.clear)
+            } else {
+                Section {
+                    Button("Study All \(mine.count)", systemImage: "play.fill") {
+                        activeDeck = FlashcardDeck(title: "My Cards", cards: mine.map(\.flashcard).shuffled())
+                    }
+                    .fontWeight(.semibold)
+                }
+                Section("\(mine.count) cards") {
+                    ForEach(mine) { card in
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(library.domainName(card.domain).uppercased())
+                                .font(.caption2.weight(.bold))
+                                .foregroundStyle(palette.accent)
+                            Text(library.question(id: card.questionID)?.stem ?? card.front).font(.subheadline).lineLimit(3)
+                        }
+                        .padding(.vertical, 2)
+                    }
+                    .onDelete { offsets in
+                        for index in offsets { mine[index].delete(from: context) }
+                        try? context.save()
+                    }
+                }
+            }
+        }
+        .scrollContentBackground(.hidden)
+        .pettyScreen()
+        .navigationTitle("My Cards")
+        .navigationBarTitleDisplayMode(.inline)
+        .fullScreenCover(item: $activeDeck) { FlashcardSessionView(deck: $0) }
     }
 }

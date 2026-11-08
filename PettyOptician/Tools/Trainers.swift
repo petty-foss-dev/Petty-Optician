@@ -1,15 +1,15 @@
 import SwiftUI
 
 enum Trainer: String, CaseIterable, Identifiable {
-    case lensometer, frameAdjustment, pdMeasure, prism, ansiCheck
-    case keratometer, fluorescein, softLensFit, toricRotation
+    case lensometer, frameAdjustment, pdMeasure, prism, ansiCheck, lensChoice
+    case keratometer, fluorescein, softLensFit, toricRotation, lensProblems
 
     var id: String { rawValue }
 
     var exam: ExamID {
         switch self {
-        case .lensometer, .frameAdjustment, .pdMeasure, .prism, .ansiCheck: .abo
-        case .keratometer, .fluorescein, .softLensFit, .toricRotation: .ncle
+        case .lensometer, .frameAdjustment, .pdMeasure, .prism, .ansiCheck, .lensChoice: .abo
+        case .keratometer, .fluorescein, .softLensFit, .toricRotation, .lensProblems: .ncle
         }
     }
 
@@ -20,10 +20,12 @@ enum Trainer: String, CaseIterable, Identifiable {
         case .pdMeasure: "PD & Seg Height"
         case .prism: "Prism & Base"
         case .ansiCheck: "ANSI Job Check"
+        case .lensChoice: "Lens Choice"
         case .keratometer: "Keratometer"
         case .fluorescein: "Fluorescein"
         case .softLensFit: "Soft Lens Fit"
         case .toricRotation: "Toric Rotation"
+        case .lensProblems: "Lens Problems"
         }
     }
 
@@ -34,10 +36,12 @@ enum Trainer: String, CaseIterable, Identifiable {
         case .pdMeasure: "Measure on a patient"
         case .prism: "Prentice's rule, base direction"
         case .ansiCheck: "Pass or fail a finished pair"
+        case .lensChoice: "Pick material, design, coatings"
         case .keratometer: "Align the mires, read K"
         case .fluorescein: "Judge GP fit patterns"
         case .softLensFit: "Tight, loose or good?"
         case .toricRotation: "Read rotation, apply LARS"
+        case .lensProblems: "Name it, grade it, next step"
         }
     }
 
@@ -48,10 +52,12 @@ enum Trainer: String, CaseIterable, Identifiable {
         case .pdMeasure: "ruler"
         case .prism: "triangle"
         case .ansiCheck: "checkmark.shield"
+        case .lensChoice: "square.stack.3d.up"
         case .keratometer: "circle.circle"
         case .fluorescein: "eye.circle"
         case .softLensFit: "circle.dashed"
         case .toricRotation: "arrow.triangle.2.circlepath"
+        case .lensProblems: "cross.case"
         }
     }
 
@@ -65,10 +71,12 @@ enum Trainer: String, CaseIterable, Identifiable {
         case .pdMeasure: PDMeasureTrainerView()
         case .prism: PrismDirectionTrainerView()
         case .ansiCheck: ANSIJobCheckView()
+        case .lensChoice: LensChoiceTrainerView()
         case .keratometer: KeratometerTrainerView()
         case .fluorescein: FluoresceinTrainerView()
         case .softLensFit: SoftLensFitTrainerView()
         case .toricRotation: ToricRotationTrainerView()
+        case .lensProblems: LensComplicationTrainerView()
         }
     }
 }

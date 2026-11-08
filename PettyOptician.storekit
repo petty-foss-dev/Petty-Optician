@@ -1,0 +1,75 @@
+{
+  "identifier": "8ECA88AF-EC63-4485-9C5D-53D64EBA4996",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "0.99",
+      "familyShareable": false,
+      "internalID": "6700000000",
+      "localizations": [
+        {
+          "description": "A one-time tip to say thanks.",
+          "displayName": "A coffee",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.isaaclamb.PettyOptician.tip.coffee",
+      "referenceName": "Tip A coffee",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "2.99",
+      "familyShareable": false,
+      "internalID": "6700000001",
+      "localizations": [
+        {
+          "description": "A one-time tip to say thanks.",
+          "displayName": "A study-break lunch",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.isaaclamb.PettyOptician.tip.lunch",
+      "referenceName": "Tip A study-break lunch",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "4.99",
+      "familyShareable": false,
+      "internalID": "6700000002",
+      "localizations": [
+        {
+          "description": "A one-time tip to say thanks.",
+          "displayName": "A passed-the-exam celebration",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.isaaclamb.PettyOptician.tip.celebration",
+      "referenceName": "Tip A passed-the-exam celebration",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "9.99",
+      "familyShareable": false,
+      "internalID": "6700000003",
+      "localizations": [
+        {
+          "description": "A one-time tip to say thanks.",
+          "displayName": "Extremely generous",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.isaaclamb.PettyOptician.tip.generous",
+      "referenceName": "Tip Extremely generous",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "6700000099",
+    "_developerTeamID": "9TT6DBK8W3"
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

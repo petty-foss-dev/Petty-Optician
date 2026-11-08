@@ -11,9 +11,11 @@ struct ContentLibrary: Sendable {
     let images: [ImageInfo]
     let glossary: [GlossaryTerm]
     let tables: [ReferenceTable]
+    let binderLessons: [BinderLesson]
     let california: CaliforniaGuide
 
     private let domainNames: [String: String]
+    private let questionsByID: [String: Question]
 
     static let shared: ContentLibrary = {
         do {
@@ -33,6 +35,7 @@ struct ContentLibrary: Sendable {
         images: [ImageInfo],
         glossary: [GlossaryTerm],
         tables: [ReferenceTable],
+        binderLessons: [BinderLesson],
         california: CaliforniaGuide
     ) {
         self.exams = exams
@@ -49,11 +52,13 @@ struct ContentLibrary: Sendable {
         self.images = images
         self.glossary = glossary.sorted { $0.term.localizedCaseInsensitiveCompare($1.term) == .orderedAscending }
         self.tables = tables
+        self.binderLessons = binderLessons
         self.california = california
         domainNames = Dictionary(
             exams.flatMap(\.domains).map { ($0.id, $0.name) },
             uniquingKeysWith: { first, _ in first }
         )
+        questionsByID = Dictionary(questions.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
     }
 
     static func load(from bundle: Bundle) throws -> ContentLibrary {
@@ -91,11 +96,14 @@ struct ContentLibrary: Sendable {
             images: decode([ImageInfo].self, file: single("images.json")),
             glossary: all("glossary_", as: GlossaryTerm.self),
             tables: all("tables_", as: ReferenceTable.self),
+            binderLessons: decode([BinderLesson].self, file: single("binder.json")),
             california: decode(CaliforniaGuide.self, file: single("california.json"))
         )
     }
 
     func exam(_ id: ExamID) -> Exam? { exams.first { $0.id == id } }
+
+    func question(id: String) -> Question? { questionsByID[id] }
 
     func domains(for exam: ExamID) -> [ExamDomain] { self.exam(exam)?.domains ?? [] }
 

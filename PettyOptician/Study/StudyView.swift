@@ -8,26 +8,24 @@ struct StudyView: View {
     private let library = ContentLibrary.shared
 
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    ExamSwitcher()
-                    if query.trimmingCharacters(in: .whitespaces).isEmpty {
-                        examHeader
-                        sections
-                        toolkit
-                    } else {
-                        SearchResultsView(query: query, exam: settings.exam)
-                    }
+        ScrollView {
+            VStack(alignment: .leading, spacing: 24) {
+                ExamSwitcher()
+                if query.trimmingCharacters(in: .whitespaces).isEmpty {
+                    examHeader
+                    sections
+                    toolkit
+                } else {
+                    SearchResultsView(query: query, exam: settings.exam)
                 }
-                .padding()
             }
-            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search \(settings.exam.shortLabel): ANSI, glaucoma, tear lens…")
-            .tabScreen("Study")
-            .navigationDestination(for: ExamDomain.self) { GuideView(domain: $0) }
-            .navigationDestination(for: GuideHit.self) { GuideView(domain: $0.domain, focus: $0.index) }
-            .navigationDestination(for: TopicHit.self) { TopicView(topic: $0) }
+            .padding()
         }
+        .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search \(settings.exam.shortLabel): ANSI, glaucoma, tear lens…")
+        .tabScreen("Exam Guides")
+        .navigationDestination(for: ExamDomain.self) { GuideView(domain: $0) }
+        .navigationDestination(for: GuideHit.self) { GuideView(domain: $0.domain, focus: $0.index) }
+        .navigationDestination(for: TopicHit.self) { TopicView(topic: $0) }
     }
 
     private var examHeader: some View {
@@ -58,12 +56,21 @@ struct StudyView: View {
 
     private var toolkit: some View {
         VStack(alignment: .leading, spacing: 10) {
-            SectionTitle(title: "Toolkit")
+            SectionTitle(title: "Reference")
             NavigationLink { GlossaryView() } label: {
                 LinkRow(title: "Glossary", subtitle: "\(library.glossary(for: settings.exam).count) terms and abbreviations, A–Z", symbol: "character.book.closed")
             }
             NavigationLink { ReferenceTablesView() } label: {
                 LinkRow(title: "Reference Tables", subtitle: "\(library.tables(for: settings.exam).count) at-a-glance charts: materials, tolerances, conversions…", symbol: "tablecells")
+            }
+            NavigationLink { NotesView() } label: {
+                LinkRow(title: "My Notes", subtitle: "Your notes on lessons and questions", symbol: "note.text")
+            }
+            NavigationLink { FormulaSheetView() } label: {
+                LinkRow(title: "Formula Sheet", subtitle: "Every formula from the guides in one place", symbol: "sum")
+            }
+            NavigationLink { CalculatorsView() } label: {
+                LinkRow(title: "Optics Calculators", subtitle: "Transposition, Prentice, vertex, MBS, K readings…", symbol: "function")
             }
             NavigationLink { DiagramGalleryView() } label: {
                 LinkRow(title: "Diagrams", subtitle: "\(library.diagrams(for: settings.exam).count) labeled, source-checked illustrations", symbol: "photo.on.rectangle.angled")
@@ -71,15 +78,8 @@ struct StudyView: View {
             NavigationLink { PhotoAtlasView() } label: {
                 LinkRow(title: "Photo Atlas", subtitle: "\(library.images(for: settings.exam).count) real instruments, lenses and eye conditions", symbol: "photo.stack")
             }
-            NavigationLink { SimulatorLabView() } label: {
-                LinkRow(title: "Simulator Lab", subtitle: "Lensometer trainer plus free online simulators and tools", symbol: "scope")
-            }
-            NavigationLink { CalculatorsView() } label: {
-                LinkRow(title: "Optics Calculators", subtitle: "Transposition, Prentice, vertex, MBS, K readings…", symbol: "function")
-            }
-            NavigationLink { FormulaSheetView() } label: {
-                LinkRow(title: "Formula Sheet", subtitle: "Every formula from the guides in one place", symbol: "sum")
-            }
+
+            SectionTitle(title: "Exam & Licensing").padding(.top, 14)
             NavigationLink { ExamInfoView(exam: settings.exam) } label: {
                 LinkRow(title: "About the \(settings.exam.shortLabel) Exam", subtitle: "Format, fees, content outline, registration", symbol: "info.circle")
             }
@@ -238,7 +238,7 @@ struct GuideView: View {
 
                     SectionTitle(title: "Lessons", trailing: "\(guide.sections.count)")
                     ForEach(Array(guide.sections.enumerated()), id: \.offset) { index, section in
-                        sectionPanel(section, index: index).id(index)
+                        sectionPanel(section, index: index, exam: exam).id(index)
                     }
 
                     if let formulas = guide.formulas, !formulas.isEmpty {
@@ -277,8 +277,9 @@ struct GuideView: View {
         .fullScreenCover(item: $activeDeck) { FlashcardSessionView(deck: $0) }
     }
 
-    private func sectionPanel(_ section: GuideSection, index: Int) -> some View {
+    private func sectionPanel(_ section: GuideSection, index: Int, exam: ExamID) -> some View {
         let isOpen = expanded.contains(index)
+        let lessonQuestions = LessonLinks.shared.questions(for: LessonRef(domain: domain.id, index: index))
         return Panel {
             VStack(alignment: .leading, spacing: 12) {
                 Button {
@@ -312,6 +313,27 @@ struct GuideView: View {
                     if let sources = section.sources, !sources.isEmpty {
                         SourceList(sources: sources)
                     }
+                    let noteTarget = NoteTarget.lesson(LessonRef(domain: domain.id, index: index), exam: exam, heading: section.heading)
+                    NotePreview(target: noteTarget)
+                    HStack(spacing: 10) {
+                        if !lessonQuestions.isEmpty {
+                            Button {
+                                let picked = QuizBuilder.weakFirst(lessonQuestions, count: 20, history: stats.history)
+                                activeQuiz = QuizSession(
+                                    config: QuizConfig(exam: exam, title: section.heading, domains: [domain.id], count: picked.count),
+                                    questions: picked,
+                                    flagged: stats.flaggedIDs
+                                )
+                            } label: {
+                                Label("Practice · \(lessonQuestions.count)", systemImage: "checklist")
+                                    .frame(maxWidth: .infinity, minHeight: 36)
+                            }
+                            .buttonStyle(.bordered)
+                            .accessibilityIdentifier("lesson.practice")
+                        }
+                        NoteButton(target: noteTarget)
+                    }
+                    .font(.subheadline.weight(.semibold))
                 }
             }
         }

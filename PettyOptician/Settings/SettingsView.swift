@@ -3,6 +3,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @ObservedObject private var theme = ThemeManager.shared
+    @ObservedObject private var settings = StudySettings.shared
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var context
     @State private var confirmingReset = false
@@ -19,6 +20,10 @@ struct SettingsView: View {
 
                 Section("Study Plan") {
                     NavigationLink("Exam dates & reminders") { StudyPlanSettings() }
+                    NavigationLink { VoiceSettingsView() } label: {
+                        LabeledContent("Listening voice", value: settings.supertonicVoice.map { "Supertonic \($0.rawValue)" } ?? "Apple")
+                    }
+                    .accessibilityIdentifier("settings.voice")
                 }
 
                 Section("Content") {
@@ -35,7 +40,16 @@ struct SettingsView: View {
                 Section {
                     Button("Reset All Progress", role: .destructive) { confirmingReset = true }
                 } footer: {
-                    Text("Clears quiz history, flashcard scheduling, flags, saved resources and your streak.")
+                    Text("Clears quiz history, flashcard scheduling, cards you made, flags, saved resources and your streak.")
+                }
+
+                Section {
+                    NavigationLink { TipJarView() } label: {
+                        Label("Tip Jar", systemImage: "heart.text.square")
+                    }
+                    .accessibilityIdentifier("settings.tipjar")
+                } footer: {
+                    Text("petty: Optician is free. If it helped you, you can say thanks with a tip.")
                 }
 
                 Section {
@@ -63,6 +77,7 @@ struct SettingsView: View {
         try? context.delete(model: CardReview.self)
         try? context.delete(model: QuizRecord.self)
         try? context.delete(model: ResourceMark.self)
+        try? context.delete(model: PersonalCard.self)
         try? context.save()
         StudySettings.shared.resetStreak()
     }
