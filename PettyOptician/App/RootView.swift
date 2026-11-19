@@ -3,20 +3,20 @@ import SwiftUI
 struct RootView: View {
     @Environment(\.colorScheme) private var colorScheme
     @ObservedObject private var theme = ThemeManager.shared
-    @State private var tab = Tab.today
+    @State private var tab = Tab.study
 
-    enum Tab: Hashable { case today, binder, practice, cards, library }
+    enum Tab: Hashable { case today, study, practice, cards, library }
 
     private var colors: ColorSet { theme.colors(for: colorScheme) }
 
     var body: some View {
         TabView(selection: $tab) {
-            HomeView(openBinder: { tab = .binder })
+            HomeView(openStudy: { tab = .study })
                 .tabItem { Label("Today", systemImage: "house") }
                 .tag(Tab.today)
-            StudyBinderView()
-                .tabItem { Label("Binder", systemImage: "book.closed") }
-                .tag(Tab.binder)
+            TextbookView()
+                .tabItem { Label("Study", systemImage: "book") }
+                .tag(Tab.study)
             PracticeView()
                 .tabItem { Label("Practice", systemImage: "checklist") }
                 .tag(Tab.practice)
@@ -27,14 +27,11 @@ struct RootView: View {
                 .tabItem { Label("Library", systemImage: "play.rectangle.on.rectangle") }
                 .tag(Tab.library)
         }
-        // Widgets open pettyoptician://today or ://daily; Today holds the daily question.
         .onOpenURL { url in if url.scheme == "pettyoptician" { tab = .today } }
-        // Pure black resolves into the palette, so rebuild the tabs when the theme changes.
         .id(theme.selectedTheme)
         .environment(\.palette, colors)
         .tint(colors.accent)
         .preferredColorScheme(theme.preferredColorScheme)
-        // Matching questions to lessons takes a moment; do it off the main thread before the first explanation needs it.
         .task(priority: .utility) { await Task.detached { _ = LessonLinks.shared }.value }
     }
 }

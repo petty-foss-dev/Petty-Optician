@@ -2,7 +2,7 @@ import SwiftData
 import SwiftUI
 
 struct HomeView: View {
-    let openBinder: () -> Void
+    let openStudy: () -> Void
     @ObservedObject private var settings = StudySettings.shared
     @Query private var stats: [QuestionStat]
     @Query private var reviews: [CardReview]
@@ -12,6 +12,7 @@ struct HomeView: View {
     @State private var activeQuiz: QuizSession?
     @State private var activeDeck: FlashcardDeck?
     @State private var showingSettings = false
+    @State private var showingBinder = false
     private let library = ContentLibrary.shared
 
     private var exam: ExamID { settings.exam }
@@ -33,11 +34,13 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     ExamSwitcher()
 
+                    TextbookContinueCard(exam: exam, openContents: openStudy)
+
                     hero(readiness: readiness, mastered: mastered, total: questions.count, answered: examStats.count)
 
                     ExamPlanCard(unseen: questions.count - examStats.count, dueCards: dueIDs.count)
 
-                    Button(action: openBinder) {
+                    Button { showingBinder = true } label: {
                         LinkRow(title: "Erin’s Study Binder", subtitle: "Pick up a crash course page or jot a note.", symbol: "book.closed")
                     }
                     .buttonStyle(.plain)
@@ -126,6 +129,7 @@ struct HomeView: View {
         .quizCover($activeQuiz)
         .fullScreenCover(item: $activeDeck) { FlashcardSessionView(deck: $0) }
         .sheet(isPresented: $showingSettings) { SettingsView() }
+        .binderSheet($showingBinder)
     }
 
     private func recheckSubtitle(_ due: Int, next: Date?) -> String {
@@ -143,7 +147,6 @@ struct HomeView: View {
         )
     }
 
-    /// Mastery per official section, weighted by its share of the exam.
     private func weightedReadiness(stats: [QuestionStat]) -> Double {
         let correct = Set(stats.filter(\.lastWasCorrect).map(\.questionID))
         let domains = library.domains(for: exam)

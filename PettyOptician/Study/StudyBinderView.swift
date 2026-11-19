@@ -2,6 +2,8 @@ import SwiftData
 import SwiftUI
 
 struct StudyBinderView: View {
+    var showsCloseButton = false
+    @Environment(\.dismiss) private var dismiss
     @ObservedObject private var settings = StudySettings.shared
     @Environment(\.palette) private var palette
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -42,6 +44,11 @@ struct StudyBinderView: View {
                 }
             }
             .toolbar {
+                if showsCloseButton {
+                    ToolbarItem(placement: .cancellationAction) {
+                        Button("Done") { dismiss() }
+                    }
+                }
                 ToolbarItem(placement: .primaryAction) {
                     Button {
                         editing = .quick(exam: exam)

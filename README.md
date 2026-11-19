@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/built_with-SwiftUI-F05138?logo=swift&logoColor=white" alt="Built with SwiftUI">
 </p>
 
-petty: Optician is a free, open source iPhone and iPad app for people preparing for the **ABO Basic** (spectacle) and **NCLE Basic** (contact lens) certification exams. Everything is organized by the official ABO-NCLE content outline, so you study the same sections the exam tests, weighted the same way. It also includes a guide to becoming a registered dispensing optician in California (SLD, CLD and RDO through the California State Board of Optometry).
+petty: Optician is a free, open source iPhone and iPad app for people preparing for the **ABO Basic** (spectacle) and **NCLE Basic** (contact lens) certification exams. Start with a chapter-by-chapter study guide that teaches the foundations before the applied topics. The lessons cover every official ABO-NCLE exam section, and practice exams use the official section weights. It also includes a guide to becoming a registered dispensing optician in California (SLD, CLD and RDO through the California State Board of Optometry).
 
 Your progress stays on your device. No account, ads, analytics, paid subscriptions, or paid feature tiers.
 
@@ -47,6 +47,7 @@ Real screenshots from the iPhone simulator.
 
 ## What's inside
 
+- **A guided textbook:** 14 chapters and 133 lessons across ABO and NCLE, with beginner-first reading order, chapter introductions, learning objectives, recaps, diagrams, notes, and saved reading progress. Relevant library videos and reading link to and from each chapter.
 - **1,193 practice questions** (684 ABO, 509 NCLE), each with an explanation, tagged by official section and topic. Quizzes can be built by section, difficulty, unseen, missed, or flagged.
 - **Mock exams in the real format:** 125 questions in 120 minutes, weighted by the content outline, with 25 unscored pretest items mixed in, no topic hints, an on-screen scientific calculator, and a review screen before you submit.
 - **Hands-on trainers:**
@@ -77,7 +78,7 @@ xcodebuild -project PettyOptician.xcodeproj -scheme PettyOptician \
   -destination "platform=iOS Simulator,name=iPhone 17" test
 ```
 
-All study content is JSON in `PettyOptician/Resources/Content/`. Drop in a new `questions_*.json`, `flashcards_*.json`, `guides_*.json` or `resources_*.json` file and it loads with no code changes. `ContentTests` checks every file, so run the tests after adding content. The file formats are described in [CLAUDE.md](CLAUDE.md).
+All study content is JSON in `PettyOptician/Resources/Content/`. Drop in a new `questions_*.json`, `flashcards_*.json`, `guides_*.json` or `resources_*.json` file and it loads with no code changes. `ContentTests` checks every file, so run the tests after adding content. When adding guide sections, update their chapter’s lesson order in `textbook.json`; `TextbookTests` checks complete coverage and reading progress. The file formats are described in [CLAUDE.md](CLAUDE.md).
 
 ## Contribute
 

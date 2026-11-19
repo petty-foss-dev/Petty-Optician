@@ -1,0 +1,429 @@
+[
+  {
+    "id": "textbook.abo.anatomy",
+    "exam": "abo",
+    "domain": "abo.anatomy",
+    "title": "Begin with the eye",
+    "introduction": "Start here even if you have never worked in an optical practice. The ABO track is about spectacles: understanding a prescription, choosing suitable lenses and frames, and checking how the finished glasses work for the wearer. Before learning the tools or calculations, you need a picture of the eye those glasses serve.\n\nThink of vision as a journey. Light enters through the clear cornea, passes through the pupil, and travels through the lens toward the retina. The retina turns light into signals that travel to the brain through the optic nerve. A useful first distinction is between structures that focus light and structures that detect or carry information. Glasses help with focus; they do not replace the work of the retina or optic nerve.\n\nIn the first lessons, build that picture one structure at a time. Then connect the structures to focusing errors, eye movements, and common conditions. When you meet a new word, say what the structure does before trying to memorize its name. For example, connect “cornea” with the clear front surface rather than learning it as an isolated label.\n\nRead the lessons in order, use the diagrams, and keep notes in your own words. Questions are available after a lesson when you want to check your understanding. You can finish a reading session without taking a test.",
+    "objectives": [
+      "Trace the path of light and the visual signal.",
+      "Connect the eye’s main structures with their functions.",
+      "Distinguish refractive errors from eye health conditions and recognize the limits of the dispensing role."
+    ],
+    "takeaways": [
+      "Build a structure-and-function picture before memorizing disease names.",
+      "A focusing problem and an eye health problem are different questions.",
+      "Use anatomy vocabulary to explain why a lens or referral may be needed."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sources": [
+      {
+        "title": "National Eye Institute: How the Eyes Work",
+        "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work"
+      }
+    ]
+  },
+  {
+    "id": "textbook.abo.optics",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "title": "Understand light and prescriptions",
+    "introduction": "Now that you can picture the eye, learn how a spectacle lens changes the light reaching it. Start with refraction: light changes direction when it crosses between materials under the conditions explained in the first lesson. Lens power describes the effect of a lens, while the prescription tells you the correction ordered for each eye.\n\nThis chapter deliberately begins with light and diopters before asking you to read a prescription. Learn sphere, cylinder, and axis as different pieces of information, then use the optical cross to organize them. Transposition changes how a prescription is written while preserving the same optical correction; it is not a new prescription.\n\nWork each calculation with units written beside the numbers. A measurement in millimeters cannot simply be placed into a formula that expects centimeters or meters. Before calculating, identify what is given, what is being asked, and which relationship connects them. After calculating, explain what the result means for the wearer.\n\nThe later lessons connect power to position: prism, lens distance from the eye, thickness, and differences between the eyes. These are the foundations for understanding why accurately made glasses can still cause trouble when their placement is wrong.",
+    "objectives": [
+      "Explain refraction, diopters, and plus and minus lens power.",
+      "Read and transpose a sphero-cylinder prescription.",
+      "Apply units correctly when working with prism, vertex distance, and lens dimensions."
+    ],
+    "takeaways": [
+      "Read sphere, cylinder, and axis together; each has a different job.",
+      "Write the units before substituting values into a formula.",
+      "Lens position is part of the optical result, not just frame appearance."
+    ],
+    "lessonOrder": [
+      3,
+      4,
+      1,
+      5,
+      11,
+      12,
+      0,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13
+    ]
+  },
+  {
+    "id": "textbook.abo.products",
+    "exam": "abo",
+    "domain": "abo.products",
+    "title": "Choose lenses and frames",
+    "introduction": "A prescription is the starting point for a pair of glasses, not the complete order. The wearer also needs a lens design, material, frame, and any appropriate surface treatments. Learn these as separate choices so that one attractive feature does not hide an important limitation.\n\nBegin with the frame: name its parts and learn how materials affect handling and adjustment. Next compare lens materials. Keep thickness, weight, optical properties, and impact considerations in separate columns in your notes. A material can be useful for one purpose without being the best answer to every need.\n\nLens design answers another question: where does the wearer need useful vision? The lessons on single vision, segmented multifocals, and progressives build the vocabulary for that conversation. Coatings, tints, and filters come afterward because they modify a product choice; they do not replace a suitable prescription and design.\n\nAs you read, imagine explaining an option to a wearer in plain language. Name the benefit, the tradeoff, and the task it supports. Finish with the special considerations for higher powers, unequal prescriptions, low vision aids, and fabrication.",
+    "objectives": [
+      "Identify frame parts and compare frame and lens materials.",
+      "Explain differences among multifocal designs and surface treatments.",
+      "Relate a product choice to the wearer’s tasks and prescription."
+    ],
+    "takeaways": [
+      "Material, design, and coating are separate decisions.",
+      "Explain both the benefit and limitation of an option.",
+      "Consider the prescription, frame fit, and intended use together."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": "textbook.abo.instruments",
+    "exam": "abo",
+    "domain": "abo.instruments",
+    "title": "Measure and verify eyewear",
+    "introduction": "An optical instrument answers a specific question. A lensmeter helps you verify lens power; a ruler or pupillometer helps with measurements; an adjusting tool changes frame alignment. Start each lesson by identifying the question the instrument is meant to answer.\n\nThe lensmeter sequence builds on the prescription chapter. Learn the setup before interpreting a reading. Then connect sphere, cylinder, axis, add, and prism readings to the corresponding order information. Reading a scale correctly is only useful when you know what you are measuring and where on the lens the measurement belongs.\n\nFor the remaining tools, make a simple record with three headings: what it measures, the unit it reports, and the setup that matters. This makes similar-looking measurements easier to distinguish. A tool’s name is less useful than knowing what evidence it gives you.\n\nUse the diagrams and the manual procedure lessons before moving to the optional trainers. The goal of this chapter is to understand a reliable sequence of work, so that an unexpected reading leads you to check your method as well as the lens.",
+    "objectives": [
+      "Connect each instrument to its measurement and units.",
+      "Describe a manual lensmeter verification sequence.",
+      "Recognize how setup and reference points affect readings."
+    ],
+    "takeaways": [
+      "Identify the measurement before choosing the tool.",
+      "Setup comes before interpretation.",
+      "Compare a reading with the appropriate order value and reference point."
+    ],
+    "lessonOrder": [
+      2,
+      0,
+      3,
+      4,
+      5,
+      6,
+      1
+    ]
+  },
+  {
+    "id": "textbook.abo.dispensing",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "title": "Fit glasses to the wearer",
+    "introduction": "Dispensing brings the earlier chapters together. You know the anatomy, can interpret a prescription, understand product choices, and can check a finished lens. Now connect those parts to a frame on a particular person.\n\nBegin with frame selection and alignment. Measurements are tied to the frame’s position, so learn the fitting sequence before treating a pupillary distance or height as an isolated number. Keep the patient’s right and left distinct throughout your notes and calculations.\n\nWork through pupillary distance, fitting heights, decentration, and blank size in that order. For each measurement, describe what you are locating, where you take the measurement, and how it changes the lens order. The boxing-system and prism lessons from Chapter 2 will now have a practical use.\n\nThe final lesson moves from measurements to troubleshooting. Practice separating observations from guesses: what the wearer reports, what the prescription says, how the frame sits, and what the instruments show. A structured comparison helps you explain a problem instead of changing several things at once and losing track of the cause.",
+    "objectives": [
+      "Describe the sequence from frame selection to final fit.",
+      "Connect PD, fitting height, decentration, and blank size.",
+      "Use a structured approach to dispensing complaints."
+    ],
+    "takeaways": [
+      "A measurement belongs to a wearer, a frame, and a fitting position.",
+      "Keep right and left and monocular and binocular values distinct.",
+      "Troubleshooting starts with observations and verification."
+    ],
+    "lessonOrder": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "textbook.abo.laws",
+    "exam": "abo",
+    "domain": "abo.laws",
+    "title": "Practice safely and professionally",
+    "introduction": "The last ABO chapter places the technical work inside its professional responsibilities. Begin by separating three ideas: a law establishes a legal requirement, a standard describes a technical requirement within its scope, and a workplace procedure describes how a task is performed. They should not be treated as interchangeable.\n\nThe tolerance lessons make use of your instrument and optics knowledge. A tolerance is not a reason to aim away from the ordered value; it is a boundary used when evaluating a finished job. Read the conditions attached to a table entry before choosing a number. Identify the standard and edition as well as the lens or measurement to which it applies.\n\nThen study product safety, prescription release, privacy, infection control, and records. Focus on who has the responsibility, what action is required, and where the authoritative rule is found. California registration is a separate local pathway and should not be generalized to every state.\n\nKeep the linked official sources with your notes. After this chapter, revisit any lessons you cannot yet explain, then use practice questions and mock exams to check how you apply the material across subjects.",
+    "objectives": [
+      "Distinguish laws, technical standards, and office procedures.",
+      "Read tolerance tables with their scope and conditions.",
+      "Locate the official sources for professional and registration requirements."
+    ],
+    "takeaways": [
+      "A standard’s name, edition, and scope matter.",
+      "Use the complete conditions of a tolerance, not a memorized number alone.",
+      "Reading completion records study activity; practice and review check application."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "id": "textbook.ncle.anatomy",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "title": "Meet the eye and its surface",
+    "introduction": "Start the contact lens track here. You do not need to finish the spectacle track first. The NCLE lessons begin with the eye and build toward lens materials, measurements, fitting, care, and follow-up.\n\nFirst establish the whole-eye picture: light passes through the front of the eye and is focused toward the retina, which contributes to the visual signal sent to the brain. Then narrow your attention to the surface where a contact lens is worn. Learn the cornea, tear film, lids, and surrounding tissues as a connected system rather than a list of names.\n\nUse two questions for every structure: what does it do in a healthy eye, and why does it matter to lens wear? The lessons on corneal layers, hydration, oxygen, and blinking provide the vocabulary used throughout the fitting chapters. Do not rush past unfamiliar words; use the diagrams and make a short note in your own language.\n\nThe later lessons introduce conditions and systemic factors that can affect lens wear. They prepare you to understand observations and communicate concerns within your professional role. Reading a description is not the same as diagnosing a condition. Your aim here is a sound foundation for the measurements and decisions that follow.",
+    "objectives": [
+      "Locate the cornea, tear film, lids, and major internal eye structures.",
+      "Explain why the ocular surface matters to contact lens wear.",
+      "Recognize the difference between describing findings and diagnosing disease."
+    ],
+    "takeaways": [
+      "Contact lens study begins with the ocular surface and its normal functions.",
+      "Connect each anatomical name to a function.",
+      "Use the anatomy vocabulary again when studying fitting and follow-up."
+    ],
+    "lessonOrder": [
+      9,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sources": [
+      {
+        "title": "National Eye Institute: How the Eyes Work",
+        "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work"
+      }
+    ]
+  },
+  {
+    "id": "textbook.ncle.refraction",
+    "exam": "ncle",
+    "domain": "ncle.refraction",
+    "title": "Build the optical foundation",
+    "introduction": "Contact lenses and spectacles both change the optical system, but they sit in different places. This chapter explains why a spectacle prescription is useful information without always being the final contact lens power.\n\nStart with vertex distance and follow the worked examples one line at a time. Write the original power, the distance and its units, and the result before rounding. Learn what the calculation is changing so that you can predict the direction of the change instead of treating the formula as a button to press.\n\nNext, distinguish the correction described by the refraction from the shape described by keratometry. The tear lens and astigmatism lessons connect these ideas. Keep corneal and residual astigmatism distinct in your notes, and learn the limitations of reducing a prescription to its spherical equivalent.\n\nThe chapter ends by connecting optics to near vision and over-refraction. Think of an over-refraction as additional optical information collected with a lens in place. Your task is to understand what each measurement contributes before later chapters ask you to interpret a fitting result.",
+    "objectives": [
+      "Explain why lens position can affect the power required.",
+      "Distinguish refraction, keratometry, and tear-lens concepts.",
+      "Describe the purpose of spherical equivalent and over-refraction."
+    ],
+    "takeaways": [
+      "Write distance units explicitly in vertex calculations.",
+      "Corneal shape and total refractive correction describe different things.",
+      "Understand a calculation’s purpose and limitations before applying it."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": "textbook.ncle.prefitting",
+    "exam": "ncle",
+    "domain": "ncle.prefitting",
+    "title": "Understand lens choices and candidacy",
+    "introduction": "Before evaluating a contact lens on an eye, learn what the lens is and what information belongs in a pre-fit assessment. This chapter introduces the language of soft and rigid materials, oxygen performance, dimensions, and optical designs.\n\nKeep material properties separate from lens parameters. A material describes what a lens is made from; parameters describe the particular lens, including its dimensions and power. Design describes how its shape or optics serve the intended correction. These categories interact, but they are not synonyms.\n\nAs you compare hydrogel, silicone hydrogel, and rigid materials, make a small comparison chart rather than memorizing a single “best” material. Include the properties explained in the lessons and note how thickness and surface behavior enter the discussion. Then place toric, multifocal, and specialty designs into that framework.\n\nThe history and pre-fit measurement lessons bring the focus back to the person. Learn what information is needed before a choice can be evaluated. The next chapter explains the instruments that produce some of those measurements; the fitting chapter then uses those observations to assess a lens on the eye.",
+    "objectives": [
+      "Distinguish material, parameters, optical design, and wear modality.",
+      "Explain Dk and Dk/t in the context of a lens.",
+      "Identify the history and measurements used before fitting."
+    ],
+    "takeaways": [
+      "A material name does not describe every property of a finished lens.",
+      "Choose and evaluate lenses in the context of the individual wearer.",
+      "History and baseline measurements give later observations meaning."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "id": "textbook.ncle.instruments",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "title": "Learn the examination tools",
+    "introduction": "The instruments in contact lens practice reveal different aspects of the eye or lens. Your first task is to know what each one measures or shows. Avoid treating all curvature maps, thickness measurements, and slit-lamp observations as equivalent information.\n\nBegin with keratometry, linking its readings to the optical concepts from Chapter 2. Learn the limits of the measurement as well as the reading itself. Then study slit-lamp illumination and filters: the setup is chosen to reveal a particular structure or finding, so connect each technique with its purpose.\n\nThe remaining lessons introduce mapping and measurement tools and instruments used to inspect a contact lens. For each tool, write a sentence beginning “This helps me assess…” and another beginning “This alone does not tell me…”. That exercise makes limitations part of your understanding from the start.\n\nUse the illustrated lessons as a guide to observation and vocabulary. Instrument familiarity is preparation for fitting, not a substitute for supervised practical training. In the next chapter, measurements and observations come together in the evaluation of soft and rigid lenses.",
+    "objectives": [
+      "Match instruments and illumination techniques to their purposes.",
+      "Explain the information and limitations of keratometry.",
+      "Distinguish ocular measurements from contact lens verification."
+    ],
+    "takeaways": [
+      "Choose an instrument for the question you need to answer.",
+      "A measurement’s limitations matter alongside its value.",
+      "Record observations precisely before interpreting them."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "textbook.ncle.fitting",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "title": "Understand a lens on the eye",
+    "introduction": "A lens is evaluated as part of a system: the eye, the tear film, the lens, and the wearer’s experience. This chapter joins the anatomy, materials, optics, and instruments you have already studied.\n\nBegin with soft lenses. Learn the observations used to describe a fit before moving to labels such as tight or loose. Keep comfort, vision, coverage, movement, and other assessment findings distinct; one favorable observation does not answer every fitting question.\n\nThen compare the rigid lens approach. Fluorescein patterns describe the relationship between the lens and the corneal surface, so connect the appearance to the underlying fitting explanation. Read the pattern lessons with the diagrams visible and describe what you see before naming the pattern.\n\nFinish with toric and multifocal designs. The rotation-compensation lesson builds on the prescription and axis concepts from the optics chapter. Work through the stated orientation carefully rather than relying on an unexamined left/right shortcut. The goal is to understand how evidence from the lens on the eye guides an assessment within the fitting process.",
+    "objectives": [
+      "Describe the observations used in soft lens evaluation.",
+      "Connect rigid lens fluorescein patterns with fitting relationships.",
+      "Explain toric rotation compensation and the purpose of multifocal assessment."
+    ],
+    "takeaways": [
+      "Evaluate the lens and eye together, using more than one observation.",
+      "Describe a pattern before interpreting it.",
+      "Be explicit about viewing orientation when reasoning about rotation."
+    ],
+    "lessonOrder": [
+      1,
+      2,
+      3,
+      4,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "textbook.ncle.dispensing",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "title": "Teach safe wear and care",
+    "introduction": "A contact lens is not fully dispensed when the package is handed over. The wearer needs to understand the prescribed wear and replacement schedules, handling, care, and the response to a problem. This chapter teaches you to organize that conversation.\n\nBegin by separating how long a lens is worn from when it is replaced. Those are different instructions. Then distinguish cleaning, rinsing, disinfection, and storage, and learn which steps belong to the prescribed system. Do not assume that a product used for one step can perform every other step.\n\nHealthy habits include washing and drying hands before handling lenses, keeping lenses away from water, and using the recommended solution correctly. Reusable lenses need fresh solution rather than topping off old solution. The detailed lessons explain the care systems and instructions, including the importance of following product directions.\n\nWhen learning patient education, practice explaining a sequence aloud in ordinary language. Ask the learner to demonstrate or explain it back so that understanding is visible. End with the written instructions and follow-up plan, then move into the next chapter to study what happens when wear is uncomfortable or findings change.",
+    "objectives": [
+      "Distinguish wear schedules, replacement schedules, and care steps.",
+      "Explain safe handling and the prescribed care system.",
+      "Organize clear wearer education and check understanding."
+    ],
+    "takeaways": [
+      "Wear and replacement schedules answer different questions.",
+      "Follow the prescribed care system and its product instructions.",
+      "Demonstration and teach-back make education more useful than a list of warnings."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sources": [
+      {
+        "title": "CDC: Preventing Eye Infections When Wearing Contacts",
+        "url": "https://www.cdc.gov/contact-lenses/prevention/index.html"
+      },
+      {
+        "title": "FDA: Contact Lens Care",
+        "url": "https://www.fda.gov/consumers/womens-health-topics/contact-lens-care"
+      }
+    ]
+  },
+  {
+    "id": "textbook.ncle.followup",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "title": "Follow the wearer over time",
+    "introduction": "A fitting result is a point in time. Follow-up considers how the wearer is doing after using the lenses in daily life. This chapter connects symptoms, observations, care habits, and lens performance without reducing every complaint to one assumed cause.\n\nStart with the purpose of follow-up and the history that accompanies it. Then learn the vocabulary for hypoxic, inflammatory, mechanical, infectious, and solution-related problems. Keep a description of the finding separate from the possible explanation. Similar symptoms may appear in different situations, which is why a single symptom should not be treated as a diagnosis.\n\nThe infection and red-eye lessons deserve careful reading. A wearer with unusual irritation should remove the lenses and contact the eye care provider; the detailed lessons explain the warning signs and professional response. Do not use a study guide to justify continuing wear through a concerning problem.\n\nFinish with documentation and parameter changes. Compare the present findings with earlier records and record what has changed. This creates continuity between visits and makes your observations useful to the practitioner responsible for assessment and management.",
+    "objectives": [
+      "Explain the purpose of follow-up and comparison with baseline records.",
+      "Distinguish major categories of contact lens complications.",
+      "Describe appropriate communication and escalation of concerning symptoms."
+    ],
+    "takeaways": [
+      "Symptoms and findings are evidence, not a diagnosis by themselves.",
+      "Concerning symptoms call for removal and contact with the eye care provider.",
+      "Clear records connect follow-up findings with the earlier fitting and care plan."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "sources": [
+      {
+        "title": "FDA: Contact Lens Care",
+        "url": "https://www.fda.gov/consumers/womens-health-topics/contact-lens-care"
+      }
+    ]
+  },
+  {
+    "id": "textbook.ncle.regulatory",
+    "exam": "ncle",
+    "domain": "ncle.regulatory",
+    "title": "Know professional responsibilities",
+    "introduction": "The contact lens pathway ends with the responsibilities surrounding a prescription, a medical device, and a person’s health information. Technical knowledge is useful only when applied within the rules of the role and setting.\n\nStart by distinguishing a prescription from a request to verify one. Learn who is responsible for each action in the prescription-release and verification process. Keep the conditions, timing, and source of a rule together in your notes; an isolated number is easy to apply to the wrong situation.\n\nThe FDA and professional-registration lessons address different layers of responsibility. Device regulation, professional scope, and state registration are not the same thing. The California section describes that state’s pathway and is separate from the national certification examination.\n\nComplete the chapter with records, recalls, infection control, and privacy. Use the official links when a requirement needs confirmation. Once you have read the full track, return to the chapter objectives and explain them in your own words. Practice questions can then reveal gaps in application, and mock exams can help you rehearse working across the subjects under time constraints.",
+    "objectives": [
+      "Distinguish prescription release, verification, and device regulation.",
+      "Separate national certification from state registration and professional scope.",
+      "Locate authoritative sources for records, privacy, and safety requirements."
+    ],
+    "takeaways": [
+      "Learn who must act, under what conditions, and according to which source.",
+      "Certification and state authorization are separate topics.",
+      "Completing the reading is a foundation for review, not a claim of exam readiness."
+    ],
+    "lessonOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]

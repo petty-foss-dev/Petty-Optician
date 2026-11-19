@@ -31,12 +31,15 @@ struct LibraryView: View {
     @State private var domain: String?
     @Environment(\.palette) private var palette
     private let library = ContentLibrary.shared
+    private let textbook = Textbook.shared
 
     var body: some View {
         let favorites = Set(marks.filter(\.favorite).map(\.resourceID))
         let results = library.resources(for: settings.exam, domain: domain).filter { resource in
-            filter.matches(resource, favorites: favorites) && matchesSearch(resource)
+            filter.matches(resource, favorites: favorites) && resource.matches(search: search)
         }
+        let chapters = textbook.chapters(for: settings.exam)
+        let selected = chapters.first { $0.domain == domain }
 
         NavigationStack {
             ScrollView {
@@ -53,13 +56,26 @@ struct LibraryView: View {
                     .buttonStyle(.plain)
 
                     Menu {
-                        Button("All Domains") { domain = nil }
-                        ForEach(library.domains(for: settings.exam)) { item in
-                            Button(item.name) { domain = item.id }
+                        Button("All Chapters") { domain = nil }
+                        ForEach(chapters) { chapter in
+                            Button("\(textbook.number(of: chapter)). \(chapter.title)") { domain = chapter.domain }
                         }
                     } label: {
-                        Label(domain.map(library.domainName) ?? "All Domains", systemImage: "line.3.horizontal.decrease.circle")
+                        Label(selected.map { "Chapter \(textbook.number(of: $0)) · \($0.title)" } ?? "All Chapters",
+                              systemImage: "line.3.horizontal.decrease.circle")
                             .font(.subheadline.weight(.medium))
+                            .multilineTextAlignment(.leading)
+                    }
+                    .accessibilityIdentifier("library.chapterFilter")
+
+                    if let selected {
+                        NavigationLink {
+                            TextbookChapterView(chapter: selected)
+                        } label: {
+                            LinkRow(title: "Read Chapter \(textbook.number(of: selected))", subtitle: selected.title, symbol: "book")
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityIdentifier("library.readChapter")
                     }
 
                     Text("\(results.count) resources")
@@ -69,7 +85,7 @@ struct LibraryView: View {
                     if results.isEmpty {
                         ContentUnavailableView.search(text: search)
                     }
-                    ForEach(results) { ResourceRow(resource: $0) }
+                    ForEach(results) { ResourceRow(resource: $0, chapterExam: settings.exam) }
                 }
                 .padding()
             }
@@ -78,25 +94,31 @@ struct LibraryView: View {
             .onChange(of: settings.exam) { domain = nil }
         }
     }
+}
 
-    private func matchesSearch(_ resource: StudyResource) -> Bool {
-        let query = search.trimmingCharacters(in: .whitespaces)
+extension StudyResource {
+    func matches(search: String) -> Bool {
+        let query = search.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !query.isEmpty else { return true }
-        return [resource.title, resource.author ?? "", resource.description ?? ""]
+        return [title, author ?? "", description ?? ""]
             .contains { $0.localizedCaseInsensitiveContains(query) }
     }
 }
 
 struct ResourceRow: View {
     let resource: StudyResource
+    let chapterExam: ExamID?
+    let showsChapterLinks: Bool
     @Environment(\.modelContext) private var context
     @Environment(\.palette) private var palette
     @Query private var marks: [ResourceMark]
     @State private var playing = false
     @State private var browsing: URL?
 
-    init(resource: StudyResource) {
+    init(resource: StudyResource, chapterExam: ExamID? = nil, showsChapterLinks: Bool = true) {
         self.resource = resource
+        self.chapterExam = chapterExam
+        self.showsChapterLinks = showsChapterLinks
         let id = resource.id
         _marks = Query(filter: #Predicate<ResourceMark> { $0.resourceID == id })
     }
@@ -105,60 +127,65 @@ struct ResourceRow: View {
 
     var body: some View {
         Panel(padding: 12) {
-            HStack(alignment: .top, spacing: 12) {
-                Button {
-                    if resource.embedURL != nil { playing = true } else { browsing = resource.url }
-                    markCompleted()
-                } label: {
-                    HStack(alignment: .top, spacing: 12) {
-                        thumbnail
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(resource.title)
-                                .font(.subheadline.weight(.semibold))
-                                .foregroundStyle(palette.text)
-                                .multilineTextAlignment(.leading)
-                                .lineLimit(3)
-                            HStack(spacing: 6) {
-                                Label(resource.kind.label, systemImage: resource.kind.symbol)
-                                    .labelStyle(.titleAndIcon)
-                                    .fixedSize()
-                                if let minutes = resource.minutes { Text("· \(minutes) min").fixedSize() }
-                                if let author = resource.author { Text("· \(author)").lineLimit(1) }
-                            }
-                            .font(.caption)
-                            .foregroundStyle(palette.secondaryText)
-                            if let description = resource.description {
-                                Text(description)
-                                    .font(.caption)
-                                    .foregroundStyle(palette.tertiaryText)
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(alignment: .top, spacing: 12) {
+                    Button {
+                        if resource.embedURL != nil { playing = true } else { browsing = resource.url }
+                        markCompleted()
+                    } label: {
+                        HStack(alignment: .top, spacing: 12) {
+                            thumbnail
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(resource.title)
+                                    .font(.subheadline.weight(.semibold))
+                                    .foregroundStyle(palette.text)
                                     .multilineTextAlignment(.leading)
-                                    .lineLimit(2)
+                                    .lineLimit(3)
+                                HStack(spacing: 6) {
+                                    Label(resource.kind.label, systemImage: resource.kind.symbol)
+                                        .labelStyle(.titleAndIcon)
+                                        .fixedSize()
+                                    if let minutes = resource.minutes { Text("· \(minutes) min").fixedSize() }
+                                    if let author = resource.author { Text("· \(author)").lineLimit(1) }
+                                }
+                                .font(.caption)
+                                .foregroundStyle(palette.secondaryText)
+                                if let description = resource.description {
+                                    Text(description)
+                                        .font(.caption)
+                                        .foregroundStyle(palette.tertiaryText)
+                                        .multilineTextAlignment(.leading)
+                                        .lineLimit(2)
+                                }
+                                if resource.embedURL != nil {
+                                    Label("Plays in app", systemImage: "play.circle")
+                                        .font(.caption2.weight(.semibold))
+                                        .foregroundStyle(palette.accent)
+                                } else if resource.free == false {
+                                    Text("Paid").font(.caption2.weight(.bold)).foregroundStyle(palette.accent)
+                                }
                             }
-                            if resource.embedURL != nil {
-                                Label("Plays in app", systemImage: "play.circle")
-                                    .font(.caption2.weight(.semibold))
-                                    .foregroundStyle(palette.accent)
-                            } else if resource.free == false {
-                                Text("Paid").font(.caption2.weight(.bold)).foregroundStyle(palette.accent)
-                            }
+                            Spacer(minLength: 0)
                         }
-                        Spacer(minLength: 0)
                     }
-                }
-                .buttonStyle(.plain)
+                    .buttonStyle(.plain)
 
-                VStack(spacing: 14) {
-                    Button(action: toggleFavorite) {
-                        Image(systemName: mark?.favorite == true ? "bookmark.fill" : "bookmark")
+                    VStack(spacing: 14) {
+                        Button(action: toggleFavorite) {
+                            Image(systemName: mark?.favorite == true ? "bookmark.fill" : "bookmark")
+                        }
+                        .accessibilityLabel(mark?.favorite == true ? "Remove from saved" : "Save")
+                        if mark?.completed == true {
+                            Image(systemName: "checkmark.circle.fill").foregroundStyle(.green)
+                                .accessibilityLabel("Opened")
+                        }
                     }
-                    .accessibilityLabel(mark?.favorite == true ? "Remove from saved" : "Save")
-                    if mark?.completed == true {
-                        Image(systemName: "checkmark.circle.fill").foregroundStyle(.green)
-                            .accessibilityLabel("Opened")
-                    }
+                    .foregroundStyle(palette.accent)
+                    .buttonStyle(.plain)
                 }
-                .foregroundStyle(palette.accent)
-                .buttonStyle(.plain)
+                if showsChapterLinks {
+                    ResourceChapterLinks(resource: resource, exam: chapterExam)
+                }
             }
         }
         .sheet(isPresented: $playing) {

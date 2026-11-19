@@ -80,5 +80,6 @@ struct SettingsView: View {
         try? context.delete(model: PersonalCard.self)
         try? context.save()
         StudySettings.shared.resetStreak()
+        ReadingProgress.shared.reset()
     }
 }

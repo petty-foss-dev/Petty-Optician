@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002ADD59D403B610AB358B16 /* Textbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0734E1C49D5046619461927C /* Textbook.swift */; };
 		0293D13010E5D68C7C4FC1E6 /* img-progressive-lens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 649D11F0A9F3B532711F9C7E /* img-progressive-lens.jpg */; };
 		0510D5270D639F9CE1A38BD0 /* KeratometerTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6568AFE7BAB5C0269FA7E94F /* KeratometerTrainer.swift */; };
 		05750038EB9A1115E2842F8A /* SoftLensFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B8C9608C1290428030785B /* SoftLensFitTests.swift */; };
@@ -36,6 +37,7 @@
 		28E1FE6C1DA0298A8E9D744D /* img-scleral-lens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 264B76256F55FBBB13467E32 /* img-scleral-lens.jpg */; };
 		2BB82CCAB13EB1F22D9E3F13 /* flashcards_abo_lenses.json in Resources */ = {isa = PBXBuildFile; fileRef = F5327133B8881CCD0D9255FF /* flashcards_abo_lenses.json */; };
 		2CCD00D55222CAB595FACB68 /* img-corneal-topography.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF4E47B6E332C84DD8DBC7C5 /* img-corneal-topography.jpg */; };
+		2EA3025DBC9470122CE1760F /* textbook.json in Resources */ = {isa = PBXBuildFile; fileRef = AEAB6DD66A5637D8240EB0DC /* textbook.json */; };
 		2EEB84BB5483A9CD970F2D0E /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75294FDAFDF2B1EAD3A698 /* WidgetSnapshot.swift */; };
 		31682FC75892918F917913F0 /* img-cornea-layers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC24874A62E5782C6C2EE892 /* img-cornea-layers.jpg */; };
 		31C1BF3AEF00A10A4787CABE /* questions_ncle_outline.json in Resources */ = {isa = PBXBuildFile; fileRef = B03273D952E1CD20319B11C9 /* questions_ncle_outline.json */; };
@@ -132,10 +134,12 @@
 		C3F0D5C45B4AD945A2D69A6C /* MediaViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0569F9CE8D0625EA560442 /* MediaViews.swift */; };
 		C619C51B65665034F1FF14F3 /* ProgressMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F3F23B31287D3F8B579AE /* ProgressMerge.swift */; };
 		C9B3C624D706235BF7FD97E7 /* LensChoiceTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E555E2A67EC715B3693A432 /* LensChoiceTrainer.swift */; };
+		CB2C38F835205430B0D4EFC9 /* ChapterResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC59E224369BEDF0ED1B93F /* ChapterResourcesView.swift */; };
 		CBB51DE672A4710CEDBEC028 /* CardScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88CE896951628DA2B006009 /* CardScheduler.swift */; };
 		CBD6E91A3059134DD74B396C /* ImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748D1218E5F94A6AC598B3B7 /* ImageViews.swift */; };
 		CD379E3ADF021F6C071F35FF /* tables_core.json in Resources */ = {isa = PBXBuildFile; fileRef = E292041B74721369036850D4 /* tables_core.json */; };
 		CE373795F96376597A72725F /* SupertonicVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2298162884F9A88CB9964 /* SupertonicVoice.swift */; };
+		D1D892EF37CA306D32D85EB2 /* TextbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A5CA98B65E3B7EB64448D /* TextbookTests.swift */; };
 		D336BC130916351B78118999 /* Sketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD56F0D12DB419FA4612897 /* Sketch.swift */; };
 		D56F9A504C9BA470F7ED2883 /* flashcards_abo_core.json in Resources */ = {isa = PBXBuildFile; fileRef = 80510CFE6847684C6171D172 /* flashcards_abo_core.json */; };
 		D656F031DF059B3FEEC63C71 /* img-glaucoma-cupping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 445BE8BD2C929FB469CFFAA1 /* img-glaucoma-cupping.jpg */; };
@@ -157,10 +161,12 @@
 		F3CE52E632E5C61CA370F930 /* img-ortho-k-lens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD2C85D66F9F5263AEAF7832 /* img-ortho-k-lens.jpg */; };
 		F4B58B3BA277DA715F84EF02 /* guides_ncle_outline.json in Resources */ = {isa = PBXBuildFile; fileRef = 96F8D9BF6A695A1BAC7FA096 /* guides_ncle_outline.json */; };
 		F6390016D18735C8D9C0DB12 /* Trainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A8827CCD68479C59E774E /* Trainers.swift */; };
+		F91B9B6041DE50C50BB427D5 /* TextbookReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E05AA7B86E5EE4FAF701E /* TextbookReaderView.swift */; };
 		FC1CA4E41A5DBCFE2DE3632B /* img-conjunctivitis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1FDDB4E62EC99EB3D595DBE /* img-conjunctivitis.jpg */; };
 		FC9BD21DF9DCCB9EB45F9C05 /* img-ar-coating.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE39B0C234E90A66718E7BF1 /* img-ar-coating.jpg */; };
 		FD90E2A0444EA1BC48763ACA /* resources_library.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F4D2248DFF559A1849490A5 /* resources_library.json */; };
 		FDDBD52EAC1C2D01A7C68ADA /* QuizBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD68407E2CEB902FB45038C /* QuizBuilder.swift */; };
+		FF6B5226E6BAC71CDFEA6FD4 /* TextbookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FD652F810C0814872AFF77 /* TextbookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +205,7 @@
 		03B0E32309DC6E4F2D2CD79F /* OpticsMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticsMath.swift; sourceTree = "<group>"; };
 		03F9AE04FF09E66057491EEA /* img-cl-corneal-ulcer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-cl-corneal-ulcer.jpg"; sourceTree = "<group>"; };
 		058B1138513B6456B176DE4F /* DrillPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillPicker.swift; sourceTree = "<group>"; };
+		0734E1C49D5046619461927C /* Textbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textbook.swift; sourceTree = "<group>"; };
 		07821165B43510F6402A1F77 /* questions_abo_outline.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_abo_outline.json; sourceTree = "<group>"; };
 		09EE7F21066F945CE34DE900 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		0BF56AA116B9EE91820E10C8 /* img-pmma-vs-soft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-pmma-vs-soft.jpg"; sourceTree = "<group>"; };
@@ -226,6 +233,7 @@
 		2FE72C7D54B17CEFB2F6BE9D /* questions_abo_core.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_abo_core.json; sourceTree = "<group>"; };
 		301ABAE8944F9240E8319926 /* StudyOrganizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyOrganizationTests.swift; sourceTree = "<group>"; };
 		316D8EF5EF181E657EF93F52 /* DiagramArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramArt.swift; sourceTree = "<group>"; };
+		320E05AA7B86E5EE4FAF701E /* TextbookReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextbookReaderView.swift; sourceTree = "<group>"; };
 		32727B3C0515960043476140 /* img-extraocular-muscles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-extraocular-muscles.jpg"; sourceTree = "<group>"; };
 		3324398CBDD969CC8DDB99B2 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		36E808F430983B579B85B72E /* QuestionExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionExtras.swift; sourceTree = "<group>"; };
@@ -271,9 +279,11 @@
 		6EA541DB43524689F51A7F78 /* img-safety-z87.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-safety-z87.jpg"; sourceTree = "<group>"; };
 		6F1625FAA5B6DCB5A054DD94 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		70EB47461A515C7087742A93 /* PrismDirectionTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismDirectionTrainer.swift; sourceTree = "<group>"; };
+		70FD652F810C0814872AFF77 /* TextbookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextbookView.swift; sourceTree = "<group>"; };
 		746A848693EA6A8729492F87 /* img-fluorescein-staining.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-fluorescein-staining.jpg"; sourceTree = "<group>"; };
 		748D1218E5F94A6AC598B3B7 /* ImageViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViews.swift; sourceTree = "<group>"; };
 		77D84B2DFAD55B1439F39063 /* FluoresceinTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluoresceinTrainer.swift; sourceTree = "<group>"; };
+		786A5CA98B65E3B7EB64448D /* TextbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextbookTests.swift; sourceTree = "<group>"; };
 		7F4D2248DFF559A1849490A5 /* resources_library.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resources_library.json; sourceTree = "<group>"; };
 		80510CFE6847684C6171D172 /* flashcards_abo_core.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flashcards_abo_core.json; sourceTree = "<group>"; };
 		81FEA47E73A6C0D65DD360CE /* resources_tools.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resources_tools.json; sourceTree = "<group>"; };
@@ -307,6 +317,7 @@
 		A958C0C089329EDD28987783 /* LensChoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensChoiceTests.swift; sourceTree = "<group>"; };
 		A97292B8A50B4935AAED7C2C /* img-soft-lens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-soft-lens.jpg"; sourceTree = "<group>"; };
 		AA3DD2C2E957B36186A6E9B0 /* PettyOpticianWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PettyOpticianWidgets.entitlements; sourceTree = "<group>"; };
+		AEAB6DD66A5637D8240EB0DC /* textbook.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = textbook.json; sourceTree = "<group>"; };
 		B03273D952E1CD20319B11C9 /* questions_ncle_outline.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_ncle_outline.json; sourceTree = "<group>"; };
 		B0B8C9608C1290428030785B /* SoftLensFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftLensFitTests.swift; sourceTree = "<group>"; };
 		B2C8D340AB0336D599AEB23E /* img-diabetic-retinopathy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-diabetic-retinopathy.jpg"; sourceTree = "<group>"; };
@@ -350,6 +361,7 @@
 		F77640892BDF092FC1AC6A52 /* WidgetPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPublisher.swift; sourceTree = "<group>"; };
 		F8D8684AA8B3CF90E94CCD7D /* img-cataract.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-cataract.jpg"; sourceTree = "<group>"; };
 		F9B43BB82AE889CB4EE38754 /* StudySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySettings.swift; sourceTree = "<group>"; };
+		FBC59E224369BEDF0ED1B93F /* ChapterResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterResourcesView.swift; sourceTree = "<group>"; };
 		FC7F94A8E8D0078E1ECABCAD /* TipJarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -425,6 +437,7 @@
 				A30843AFEB376DB4EEB7E99D /* PettyOpticianTests.swift */,
 				B0B8C9608C1290428030785B /* SoftLensFitTests.swift */,
 				301ABAE8944F9240E8319926 /* StudyOrganizationTests.swift */,
+				786A5CA98B65E3B7EB64448D /* TextbookTests.swift */,
 				FC7F94A8E8D0078E1ECABCAD /* TipJarTests.swift */,
 				56B302144FBEBB72621D8AB9 /* ToricANSITests.swift */,
 			);
@@ -467,6 +480,8 @@
 				6F1625FAA5B6DCB5A054DD94 /* Search.swift */,
 				10390D2DBF1F988CCB422A42 /* StudyBinderView.swift */,
 				C33F91BBCC1119AE606B969E /* StudyView.swift */,
+				320E05AA7B86E5EE4FAF701E /* TextbookReaderView.swift */,
+				70FD652F810C0814872AFF77 /* TextbookView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -558,6 +573,7 @@
 				4CD68407E2CEB902FB45038C /* QuizBuilder.swift */,
 				9B824F64C40484A62E5FAA06 /* StudyReminder.swift */,
 				F9B43BB82AE889CB4EE38754 /* StudySettings.swift */,
+				0734E1C49D5046619461927C /* Textbook.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -575,6 +591,7 @@
 		D0CDF880E9E41CC0955BCBDB /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				FBC59E224369BEDF0ED1B93F /* ChapterResourcesView.swift */,
 				3324398CBDD969CC8DDB99B2 /* LibraryView.swift */,
 				CB0569F9CE8D0625EA560442 /* MediaViews.swift */,
 			);
@@ -699,6 +716,7 @@
 				292350531CA47001CBF58391 /* resources_more.json */,
 				81FEA47E73A6C0D65DD360CE /* resources_tools.json */,
 				E292041B74721369036850D4 /* tables_core.json */,
+				AEAB6DD66A5637D8240EB0DC /* textbook.json */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -890,6 +908,7 @@
 				9C595CABDDD18F661B806054 /* resources_more.json in Resources */,
 				165615E8680F75B07EEACFC1 /* resources_tools.json in Resources */,
 				CD379E3ADF021F6C071F35FF /* tables_core.json in Resources */,
+				2EA3025DBC9470122CE1760F /* textbook.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -919,6 +938,7 @@
 				7DDC2F2C516BCAD5C3BEC75C /* ANSIJobCheckTrainer.swift in Sources */,
 				1537BC5EFD6E5ED6F27C8F1E /* CalculatorsView.swift in Sources */,
 				CBB51DE672A4710CEDBEC028 /* CardScheduler.swift in Sources */,
+				CB2C38F835205430B0D4EFC9 /* ChapterResourcesView.swift in Sources */,
 				9A395D6D7E9849A4A69B1412 /* Components.swift in Sources */,
 				BEE3D523D47D03A32A01C2CF /* Content.swift in Sources */,
 				7FD09FD57D0E91361FE6FCED /* ContentLibrary.swift in Sources */,
@@ -971,6 +991,9 @@
 				6AED2C5DDCD1DAD1BB57FE73 /* StudySettings.swift in Sources */,
 				79224D0626E6CDDCBEFA6ED5 /* StudyView.swift in Sources */,
 				CE373795F96376597A72725F /* SupertonicVoice.swift in Sources */,
+				002ADD59D403B610AB358B16 /* Textbook.swift in Sources */,
+				F91B9B6041DE50C50BB427D5 /* TextbookReaderView.swift in Sources */,
+				FF6B5226E6BAC71CDFEA6FD4 /* TextbookView.swift in Sources */,
 				3C5FCC1164B51AB56575207E /* ThemeManager.swift in Sources */,
 				66AF398886B2BAC11A364786 /* TipJar.swift in Sources */,
 				95FA5F95364F393BC75B7C8B /* TopicReport.swift in Sources */,
@@ -996,6 +1019,7 @@
 				E240D285DDAD794CD1964031 /* PettyOpticianTests.swift in Sources */,
 				05750038EB9A1115E2842F8A /* SoftLensFitTests.swift in Sources */,
 				0ED0A21579FD1461E85883CB /* StudyOrganizationTests.swift in Sources */,
+				D1D892EF37CA306D32D85EB2 /* TextbookTests.swift in Sources */,
 				6FD6FF3E537563AFC6EBA388 /* TipJarTests.swift in Sources */,
 				9541D5D743DE5988AC1F65F1 /* ToricANSITests.swift in Sources */,
 			);

@@ -8,7 +8,6 @@ extension StudyResource {
         return URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems?.first { $0.name == "list" }?.value
     }
 
-    /// Embed URL for videos and playlists that can play inside the app.
     var embedURL: URL? {
         var components = URLComponents(string: "https://www.youtube-nocookie.com")!
         if let id = youTubeID {
@@ -81,7 +80,6 @@ struct VideoPlayerView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.palette) private var palette
     @State private var browsing: URL?
-    private let library = ContentLibrary.shared
 
     var body: some View {
         NavigationStack {
@@ -103,11 +101,7 @@ struct VideoPlayerView: View {
                     if let description = resource.description {
                         Text(description).font(.body).foregroundStyle(palette.text)
                     }
-                    if let domains = resource.domains, !domains.isEmpty {
-                        FlowLayout(spacing: 6) {
-                            ForEach(domains, id: \.self) { Chip(text: library.domainName($0)) }
-                        }
-                    }
+                    ResourceChapterLinks(resource: resource)
                     Button { browsing = resource.url } label: {
                         Label("Open on YouTube", systemImage: "arrow.up.right.square")
                             .font(.subheadline)
@@ -144,7 +138,6 @@ private struct BrowserTarget: Identifiable {
 }
 
 extension View {
-    /// Presents http(s) links in an in-app Safari sheet; other schemes go to the system.
     func inAppBrowser(_ url: Binding<URL?>) -> some View {
         modifier(InAppBrowserModifier(url: url))
     }

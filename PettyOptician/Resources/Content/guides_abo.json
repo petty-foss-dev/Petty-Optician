@@ -13,7 +13,21 @@
       },
       {
         "heading": "Reading the prescription",
-        "body": "- **OD** right eye, **OS** left eye, **OU** both eyes\n- **Sph**: sphere power; **Cyl**: cylinder power; **Axis**: 1–180 (write 180, not 000)\n- **Add**: extra plus for near, added to the sphere\n- **Prism**: amount in Δ with base direction BU, BD, BI, or BO\n\n**Transposition**: add the cylinder to the sphere, change the cylinder sign, and change the axis by 90°. For example, −2.00 +1.00 × 090 = −1.00 −1.00 × 180.\n\n**Spherical equivalent** = sphere + cyl ÷ 2. The meridian 90° from the axis carries sphere + cylinder."
+        "body": "Read a spectacle prescription one eye at a time. **OD** is the patient’s right eye, **OS** is the left, and **OU** means both eyes. These directions belong to the patient even when you are facing them.\n\nThe **sphere (Sph)** is a lens power in diopters. The **cylinder (Cyl)** gives the additional power used for astigmatism, and the **axis** gives its orientation in degrees. An axis is a direction, not another amount of power. Keep each plus or minus sign with its number.\n\nFor example, consider OD −2.00 −1.00 × 180, Add +2.00. The sphere is −2.00 D, the cylinder is −1.00 D, and the axis is 180°. The near add is additional plus power relative to the distance sphere. It is not the entire near prescription. Adding +2.00 to the −2.00 sphere gives plano (0.00) for the near sphere; the cylinder and axis remain −1.00 × 180.\n\n- **Axis**: 1–180 in this guide; write 180 rather than 000.\n- **Add**: extra plus power for near, added to the sphere.\n- **Prism**: amount in prism diopters (Δ) with a base direction: up, down, in, or out.\n\nYou will learn these calculations in detail in the next lesson. **Transposition** rewrites a prescription in the other cylinder form: add cylinder to sphere, reverse the cylinder sign, and change the axis by 90°. For example, −2.00 +1.00 × 090 = −1.00 −1.00 × 180.\n\nThe **spherical equivalent** is sphere + half the cylinder. Keep this separate from the complete prescription: it does not retain cylinder orientation. The meridian 90° from the axis carries sphere + cylinder.",
+        "sources": [
+          {
+            "title": "American Academy of Ophthalmology: How to Read an Eyeglasses Prescription",
+            "url": "https://www.aao.org/eye-health/glasses-contacts/how-to-read-eyeglasses-prescription"
+          },
+          {
+            "title": "University of Iowa EyeRounds: Optics and Refraction",
+            "url": "https://webeye.ophth.uiowa.edu/eyeforum/tutorials/optics-and-refraction-medical-students/index.htm"
+          },
+          {
+            "title": "National Academy of Opticianry: Converting Bifocal Prescriptions",
+            "url": "https://www.nao.org/wp-content/uploads/2020/03/Types-of-Lenses-Converting-Bifocal-Rxs-to-Task-Specific-Rxs.pdf"
+          }
+        ]
       },
       {
         "heading": "Prism and Prentice's rule",
@@ -26,8 +40,14 @@
       },
       {
         "heading": "Vergence, diopters, and lens power",
-        "body": "Lens power is measured in **diopters**: F = 1 ÷ f, with f in meters. A +4.00 D lens focuses parallel light 25 cm behind it; a −5.00 D lens has a virtual focal point 20 cm in front of it.\n\n**Vergence** describes how light is spreading or converging at a given point, in diopters (1 ÷ distance in meters). Light diverging from an object is minus, converging light is plus, and light from optical infinity (6 m / 20 ft or more) is treated as parallel, zero vergence.\n\nThe vergence equation **V = U + F** finds the image. Example: an object 50 cm in front of a +5.00 D lens has U = −2.00 D, so V = +3.00 D and the image forms 33.3 cm behind the lens.\n\nEach surface has power F = (n − 1) ÷ r. The thin-lens (nominal) power is the sum of the surfaces: F₁ + F₂. Modern spectacle lenses are **meniscus** form — convex front, concave back. Plus lenses are thickest in the center and give 'against' motion in hand neutralization; minus lenses are thickest at the edge and give 'with' motion.",
-        "diagram": "lens-forms"
+        "body": "Imagine a bundle of light rays traveling side by side. A **converging** lens brings the rays together; a **diverging** lens makes them spread apart. In the simple thin-lens model in air, these are positive and negative powers respectively. **Focal length** describes the distance associated with that focusing effect; lens power expresses its reciprocal.\n\nLens power is measured in **diopters**: F = 1 ÷ f, with f in meters. A +4.00 D lens focuses parallel light 25 cm behind it; a −5.00 D lens has a virtual focal point 20 cm in front of it.\n\n**Vergence** describes how light is spreading or converging at a given point, in diopters (1 ÷ distance in meters). Light diverging from an object is minus, converging light is plus, and light from optical infinity (6 m / 20 ft or more) is treated as parallel, zero vergence.\n\nThe vergence equation **V = U + F** finds the image. Example: an object 50 cm in front of a +5.00 D lens has U = −2.00 D, so V = +3.00 D and the image forms 33.3 cm behind the lens.\n\nEach surface has power F = (n − 1) ÷ r. The thin-lens (nominal) power is the sum of the surfaces: F₁ + F₂. Modern spectacle lenses are **meniscus** form — convex front, concave back. Plus lenses are thickest in the center and give 'against' motion in hand neutralization; minus lenses are thickest at the edge and give 'with' motion.\n\n**Work it through:** a converging lens has a focal length of 50 cm. First convert 50 cm to 0.50 m. Then F = 1 ÷ 0.50 = +2.00 D. If the focal length shortens to 25 cm, F = 1 ÷ 0.25 = +4.00 D. A shorter focal length means a stronger lens. Dividing by 50 without converting would give the wrong answer because diopters use meters.\n\nKeep the sign and the size of a power separate. −4.00 D is a stronger diverging power than −2.00 D; it is not “weaker” simply because it is a smaller number on a number line.",
+        "diagram": "lens-forms",
+        "sources": [
+          {
+            "title": "OpenStax Physics: Lenses",
+            "url": "https://openstax.org/books/physics/pages/16-3-lenses"
+          }
+        ]
       },
       {
         "heading": "Sphere, cylinder, transposition, and the optical cross",
@@ -203,8 +223,14 @@
     "sections": [
       {
         "heading": "Outer coat: cornea, sclera, conjunctiva",
-        "body": "The **cornea** is the clear, avascular front window of the eye and supplies about two-thirds of its refractive power (about +43 D of about +60 D). It gets most of its oxygen from the air through the tear film.\n\n- **Epithelium**: outermost; regenerates quickly after abrasions\n- **Bowman's layer**: tough layer under the epithelium\n- **Stroma**: about 90% of thickness; regularly spaced collagen keeps it clear\n- **Descemet's membrane**: basement membrane of the endothelium\n- **Endothelium**: single cell layer that pumps fluid out of the stroma; does not meaningfully regenerate\n\nThe **sclera** is the white, collagen outer coat. Optic nerve fibers leave through the **lamina cribrosa**. The **limbus** is the corneoscleral junction. The **conjunctiva** is a thin membrane: bulbar over the sclera, palpebral inside the lids. Its goblet cells make tear mucin.",
-        "diagram": "eye-anatomy"
+        "body": "Start by separating three things you can see at the front of an eye. The **cornea** is transparent tissue over the front. The **iris** is the colored structure behind it. The **pupil** is an opening in the iris, not a separate piece of tissue. Light passes through the cornea and pupil toward the lens inside the eye.\n\nThe cornea and sclera together form the eye’s outer coat. “Avascular” means without blood vessels; “transparent” means light can pass through. With those terms in mind, read the structures from outside to inside.\n\nThe **cornea** is the clear, avascular front window of the eye and supplies about two-thirds of its refractive power (about +43 D of about +60 D). It gets most of its oxygen from the air through the tear film.\n\n- **Epithelium**: outermost; regenerates quickly after abrasions\n- **Bowman's layer**: tough layer under the epithelium\n- **Stroma**: about 90% of thickness; regularly spaced collagen keeps it clear\n- **Descemet's membrane**: basement membrane of the endothelium\n- **Endothelium**: single cell layer that pumps fluid out of the stroma; does not meaningfully regenerate\n\nThe **sclera** is the white, collagen outer coat. Optic nerve fibers leave through the **lamina cribrosa**. The **limbus** is the corneoscleral junction. The **conjunctiva** is a thin membrane: bulbar over the sclera, palpebral inside the lids. Its goblet cells make tear mucin.",
+        "diagram": "eye-anatomy",
+        "sources": [
+          {
+            "title": "National Eye Institute: How the Eyes Work",
+            "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work"
+          }
+        ]
       },
       {
         "heading": "Uvea, aqueous, and IOP",
