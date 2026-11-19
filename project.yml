@@ -40,6 +40,7 @@ targets:
     info:
       path: PettyOptician-Info.plist
       properties:
+        ITSAppUsesNonExemptEncryption: false
         UIBackgroundModes: [audio, remote-notification]
         CFBundleURLTypes:
           - CFBundleURLName: com.isaaclamb.PettyOptician
