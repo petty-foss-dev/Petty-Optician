@@ -324,5 +324,39 @@
         "url": "https://www.opterio.com/learn/rgp-lens-fitting-ncle"
       }
     ]
+  },
+  {
+    "id": "pupil-optical-center",
+    "title": "Pupil and optical center",
+    "caption": "Front view of a plus lens. The optical center cross is 5 mm above the pupil dot. At the pupil, the base points up toward the cross. The drawing exaggerates the gap for clarity.",
+    "exams": [
+      "abo"
+    ],
+    "domains": [
+      "abo.optics"
+    ],
+    "sources": [
+      {
+        "title": "OptiCampus · Introduction to Ophthalmic Optics",
+        "url": "https://opticampus.opti.vision/files/introduction_to_ophthalmic_optics.pdf"
+      }
+    ]
+  },
+  {
+    "id": "scleral-zones",
+    "title": "Central clearance and peripheral landing",
+    "caption": "Schematic section from the corneal apex to one edge of a scleral lens. Fluid separates the lens from the central cornea. Past the limbus, the lens rests on conjunctiva over the sclera. The diagram is not to scale.",
+    "exams": [
+      "ncle"
+    ],
+    "domains": [
+      "ncle.instruments"
+    ],
+    "sources": [
+      {
+        "title": "GP Lens Institute and Scleral Lens Education Society · Troubleshooting guide",
+        "url": "https://gpli.info/pdf/GPLISLSTSGuide2020.pdf"
+      }
+    ]
   }
 ]

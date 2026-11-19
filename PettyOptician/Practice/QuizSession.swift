@@ -23,7 +23,7 @@ final class QuizSession: Identifiable {
         self.questions = questions
         selections = Array(repeating: nil, count: questions.count)
         self.flagged = flagged
-        pretestIndices = Set(questions.indices.shuffled().prefix(config.pretestCount))
+        pretestIndices = Set(questions.indices.filter { config.pretestIDs.contains(questions[$0].id) })
     }
 
     var isPractice: Bool { !config.isTimed }

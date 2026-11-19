@@ -34,11 +34,11 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     ExamSwitcher()
 
-                    TextbookContinueCard(exam: exam, openContents: openStudy)
+                    TextbookContinueCard(exam: exam, openContents: openStudy) { activeQuiz = $0 }
 
                     hero(readiness: readiness, mastered: mastered, total: questions.count, answered: examStats.count)
 
-                    ExamPlanCard(unseen: questions.count - examStats.count, dueCards: dueIDs.count)
+                    ExamPlanCard(dueCards: dueIDs.count)
 
                     Button { showingBinder = true } label: {
                         LinkRow(title: "Erin’s Study Binder", subtitle: "Pick up a crash course page or jot a note.", symbol: "book.closed")
@@ -53,7 +53,7 @@ struct HomeView: View {
                     }
 
                     VStack(alignment: .leading, spacing: 10) {
-                        SectionTitle(title: "Today's Plan")
+                        SectionTitle(title: "Practice & Review")
                         LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
                             QuickAction(title: "Daily 10", subtitle: "Unseen & missed first", symbol: "bolt.fill") {
                                 let picked = QuizBuilder.weakFirst(exam: exam, count: 10, library: library, history: stats.history)

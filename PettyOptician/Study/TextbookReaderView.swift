@@ -7,7 +7,6 @@ struct TextbookReaderView: View {
     @State private var activeQuiz: QuizSession?
     @State private var markedRead = 0
     @ObservedObject private var progress = ReadingProgress.shared
-    @Query private var stats: [QuestionStat]
     @Environment(\.palette) private var palette
     @Environment(\.dismiss) private var dismiss
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -51,9 +50,36 @@ struct TextbookReaderView: View {
                     }
                     TextbookCallout(title: "Chapter \(lesson.chapterNumber) takeaways", symbol: "checklist", items: chapter.takeaways)
                 }
+                if let id = lesson.section.resourceID, let resource = library.resources.first(where: { $0.id == id }) {
+                    VStack(alignment: .leading, spacing: 8) {
+                        if let reason = lesson.section.resourceReason {
+                            Text(reason)
+                                .font(.subheadline.weight(.medium))
+                                .foregroundStyle(palette.text)
+                        }
+                        ResourceRow(resource: resource, showsChapterLinks: false)
+                    }
+                    .accessibilityIdentifier("reader.selectedResource")
+                }
+                if let id = lesson.section.trainerID, let trainer = Trainer(rawValue: id) {
+                    NavigationLink { trainer.screen } label: {
+                        LinkRow(title: trainer.title, subtitle: trainer.subtitle, symbol: trainer.symbol)
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("reader.trainer")
+                }
+                LessonCheckpoint(lesson: lesson, exam: exam) { activeQuiz = $0 }
+                if let related = lessons.first(where: { $0.id == lesson.section.relatedLessonID }) {
+                    NavigationLink {
+                        TextbookReaderView(exam: exam, lesson: related)
+                    } label: {
+                        LinkRow(title: related.section.heading, subtitle: "Related case lesson · Chapter \(related.chapterNumber)", symbol: "book.pages")
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("reader.relatedLesson")
+                }
                 notes(lesson)
                 completion(lesson, isRead: isRead)
-                practice(lesson)
                 chapterResources(chapter, number: lesson.chapterNumber)
                 pager
             }
@@ -62,7 +88,6 @@ struct TextbookReaderView: View {
             .frame(maxWidth: 680)
             .frame(maxWidth: .infinity)
         }
-        // A fresh scroll view per lesson starts each one at the top.
         .id(currentID)
         .pettyScreen()
         .navigationTitle("Lesson \(index + 1) of \(lessons.count)")
@@ -138,6 +163,7 @@ struct TextbookReaderView: View {
         } else {
             Button {
                 progress.setCompleted(lesson, true)
+                StudySettings.shared.recordStudy()
                 markedRead += 1
                 if let next { currentID = next.id }
             } label: {
@@ -177,38 +203,6 @@ struct TextbookReaderView: View {
             .font(.subheadline)
         }
         .accessibilityIdentifier("reader.finished")
-    }
-
-    @ViewBuilder
-    private func practice(_ lesson: TextbookLesson) -> some View {
-        let questions = LessonLinks.shared.questions(for: lesson.ref)
-        if !questions.isEmpty {
-            Panel {
-                VStack(alignment: .leading, spacing: 10) {
-                    Text("Check your understanding")
-                        .font(.headline)
-                        .foregroundStyle(palette.text)
-                        .accessibilityAddTraits(.isHeader)
-                    Text("Optional. \(questions.count) practice \(questions.count == 1 ? "question matches" : "questions match") this lesson.")
-                        .font(.subheadline)
-                        .foregroundStyle(palette.secondaryText)
-                    Button {
-                        let picked = QuizBuilder.weakFirst(questions, count: 20, history: stats.history)
-                        activeQuiz = QuizSession(
-                            config: QuizConfig(exam: exam, title: lesson.section.heading, domains: [lesson.ref.domain], count: picked.count),
-                            questions: picked,
-                            flagged: stats.flaggedIDs
-                        )
-                    } label: {
-                        Label("Practice this lesson", systemImage: "checklist")
-                            .font(.subheadline.weight(.semibold))
-                            .frame(maxWidth: .infinity, minHeight: 36)
-                    }
-                    .buttonStyle(.bordered)
-                    .accessibilityIdentifier("reader.practice")
-                }
-            }
-        }
     }
 
     @ViewBuilder
@@ -295,6 +289,58 @@ private struct PagerLabelStyle: LabelStyle {
             if !trailingIcon { configuration.icon }
             configuration.title
             if trailingIcon { configuration.icon }
+        }
+    }
+}
+
+struct LessonCheckpoint: View {
+    let lesson: TextbookLesson
+    let exam: ExamID
+    let start: (QuizSession) -> Void
+    @State private var matched: (ref: LessonRef, questions: [Question])?
+    @Query private var stats: [QuestionStat]
+    @Environment(\.palette) private var palette
+
+    var body: some View {
+        let authored = (lesson.section.checkpointIDs ?? []).compactMap(ContentLibrary.shared.question(id:))
+        let related = matched.flatMap { $0.ref == lesson.ref ? $0.questions : nil } ?? []
+        let pool = authored.isEmpty ? related : authored
+        let count = authored.isEmpty ? min(3, pool.count) : authored.count
+        VStack(alignment: .leading, spacing: 6) {
+            if count > 0 {
+                Button {
+                    let picked = authored.isEmpty ? QuizBuilder.weakFirst(pool, count: count, history: stats.history) : authored
+                    start(QuizSession(
+                        config: QuizConfig(exam: exam, title: lesson.section.heading, domains: [lesson.ref.domain], count: count),
+                        questions: picked,
+                        flagged: stats.flaggedIDs
+                    ))
+                } label: {
+                    Label("Check your understanding · \(count) \(count == 1 ? "question" : "questions")", systemImage: "checklist")
+                        .frame(maxWidth: .infinity, minHeight: 36, alignment: .leading)
+                }
+                .buttonStyle(.bordered)
+                .accessibilityIdentifier("reader.practice")
+
+                if !authored.isEmpty {
+                    let history = stats.history
+                    let seen = authored.compactMap { history[$0.id] }.filter { $0.seen > 0 }
+                    if !seen.isEmpty {
+                        Text("\(seen.count(where: \.lastWasCorrect)) correct on latest attempt · \(seen.count) of \(count) attempted")
+                            .font(.caption)
+                            .foregroundStyle(palette.secondaryText)
+                    }
+                }
+            }
+        }
+        .task(id: lesson.ref) {
+            guard authored.isEmpty else { return }
+            let ref = lesson.ref
+            let questions = await Task.detached(priority: .userInitiated) {
+                LessonLinks.shared.questions(for: ref)
+            }.value
+            guard !Task.isCancelled else { return }
+            matched = (ref, questions)
         }
     }
 }

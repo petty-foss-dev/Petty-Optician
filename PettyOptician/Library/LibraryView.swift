@@ -109,16 +109,18 @@ struct ResourceRow: View {
     let resource: StudyResource
     let chapterExam: ExamID?
     let showsChapterLinks: Bool
+    let hidesChapter: String?
     @Environment(\.modelContext) private var context
     @Environment(\.palette) private var palette
     @Query private var marks: [ResourceMark]
     @State private var playing = false
     @State private var browsing: URL?
 
-    init(resource: StudyResource, chapterExam: ExamID? = nil, showsChapterLinks: Bool = true) {
+    init(resource: StudyResource, chapterExam: ExamID? = nil, showsChapterLinks: Bool = true, hidesChapter: String? = nil) {
         self.resource = resource
         self.chapterExam = chapterExam
         self.showsChapterLinks = showsChapterLinks
+        self.hidesChapter = hidesChapter
         let id = resource.id
         _marks = Query(filter: #Predicate<ResourceMark> { $0.resourceID == id })
     }
@@ -184,7 +186,7 @@ struct ResourceRow: View {
                     .buttonStyle(.plain)
                 }
                 if showsChapterLinks {
-                    ResourceChapterLinks(resource: resource, exam: chapterExam)
+                    ResourceChapterLinks(resource: resource, exam: chapterExam, hidesChapter: hidesChapter)
                 }
             }
         }

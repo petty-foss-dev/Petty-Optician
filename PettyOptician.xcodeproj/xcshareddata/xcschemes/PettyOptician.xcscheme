@@ -50,6 +50,17 @@
                ReferencedContainer = "container:PettyOptician.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F4899A5CF936F77788B1D12C"
+               BuildableName = "PettyOpticianUITests.xctest"
+               BlueprintName = "PettyOpticianUITests"
+               ReferencedContainer = "container:PettyOptician.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CommandLineArguments>
       </CommandLineArguments>

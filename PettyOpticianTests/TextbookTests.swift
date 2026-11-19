@@ -50,6 +50,65 @@ final class TextbookTests: XCTestCase {
         }
     }
 
+    func testCuratedActivitiesResolveToTheirLessons() throws {
+        let textbook = Textbook.shared
+        let links = LessonLinks(library: library)
+        var assigned = Set<String>()
+        for exam in ExamID.allCases {
+            let lessons = textbook.lessons(for: exam)
+            for lesson in lessons {
+                let section = lesson.section
+                if let id = section.resourceID {
+                    let resource = try XCTUnwrap(library.resources.first { $0.id == id }, lesson.id)
+                    XCTAssertTrue(resource.exams.contains(exam), id)
+                    XCTAssertFalse((section.resourceReason ?? "").isEmpty, lesson.id)
+                    XCTAssertTrue(textbook.lessons(for: resource, exam: exam).contains(lesson))
+                }
+                if let id = section.trainerID {
+                    XCTAssertEqual(Trainer(rawValue: id)?.exam, exam, lesson.id)
+                }
+                if let id = section.relatedLessonID {
+                    XCTAssertTrue(lessons.contains { $0.id == id && $0.id != lesson.id }, lesson.id)
+                }
+                for id in section.checkpointIDs ?? [] {
+                    XCTAssertTrue(assigned.insert(id).inserted, id)
+                    let question = try XCTUnwrap(library.question(id: id), id)
+                    XCTAssertEqual(question.exam, exam, id)
+                    XCTAssertEqual(links.lesson(for: question), lesson.ref, id)
+                    XCTAssertTrue(links.questions(for: lesson.ref).contains(question), id)
+                }
+            }
+        }
+        XCTAssertFalse(assigned.isEmpty)
+    }
+
+    @MainActor
+    func testDailyReadingPreservesLegacyProgressAndCountsByExamAndDay() throws {
+        let suite = "TextbookTests.\(UUID().uuidString)"
+        let defaults = try XCTUnwrap(UserDefaults(suiteName: suite))
+        defer { defaults.removePersistentDomain(forName: suite) }
+        let yesterday = Date(timeIntervalSince1970: 1_700_000_000)
+        let today = yesterday.addingTimeInterval(86_400)
+        let abo = Textbook.shared.lessons(for: .abo)
+        let ncle = Textbook.shared.lessons(for: .ncle)
+        defaults.set([abo[0].id], forKey: "pettyoptician.textbook.completed")
+        let progress = ReadingProgress(defaults: defaults)
+        XCTAssertTrue(progress.completed.contains(abo[0].id))
+        XCTAssertTrue(progress.readLessons(in: abo, on: today).isEmpty)
+        progress.setCompleted(abo[1], true, on: yesterday)
+        progress.setCompleted(abo[1], true, on: today)
+        progress.setCompleted(ncle[0], true, on: today)
+        progress.setCompleted(abo[2], true, on: today)
+        let restored = ReadingProgress(defaults: defaults)
+        XCTAssertEqual(restored.readLessons(in: abo, on: today), [abo[2]])
+        XCTAssertEqual(restored.readLessons(in: abo, on: yesterday), [abo[1]])
+        XCTAssertEqual(restored.readLessons(in: ncle, on: today), [ncle[0]])
+        restored.setCompleted(abo[2], false)
+        XCTAssertTrue(restored.readLessons(in: abo, on: today).isEmpty)
+        restored.reset()
+        XCTAssertTrue(ReadingProgress(defaults: defaults).readLessons(in: ncle, on: today).isEmpty)
+    }
+
     func testFoundationsPrecedeAppliedLessons() {
         let textbook = Textbook.shared
         for exam in ExamID.allCases {

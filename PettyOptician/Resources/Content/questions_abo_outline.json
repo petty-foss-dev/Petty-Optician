@@ -2273,18 +2273,18 @@
     "domain": "abo.laws",
     "topic": "Insurance",
     "difficulty": 3,
-    "stem": "A Medicare post-cataract patient wants progressive lenses and AR coating that Medicare treats as noncovered upgrades. What should the dispensary do?",
+    "stem": "An Original Medicare beneficiary qualifies for standard eyeglasses after cataract surgery with an intraocular lens. The patient asks for deluxe frames. What should the dispenser explain?",
     "choices": [
-      "Have the patient sign a general waiver saying 'Medicare may not pay'",
-      "Bill the upgrades as standard lenses",
-      "Have the patient sign an Advance Beneficiary Notice (ABN) before dispensing and append modifier GA to the claim",
-      "Refuse to sell the upgrades"
+      "The additional charge for deluxe frames is covered after every cataract surgery",
+      "Choosing deluxe frames removes the benefit for the covered lenses",
+      "Standard frames are covered and the patient may owe the additional deluxe-frame charge",
+      "Changing the billing code to standard frames guarantees payment for the upgrade"
     ],
     "answer": 2,
-    "explanation": "The ABN must be completed and reviewed with the patient beforehand. A general statement is not acceptable, and claims with an ABN on file carry modifier GA.",
+    "explanation": "The Medicare refractive-lens policy covers standard frames under this benefit. A patient who chooses deluxe frames can owe the price difference. Identify the specific item and coverage reason before applying notice or coding rules.",
     "source": {
-      "title": "Learn to Code Optical Dispensing – American Academy of Ophthalmology",
-      "url": "https://www.aao.org/Assets/1774ecf4-fb87-4a64-899f-510481150cd7/637110863901930000/optical-dispensing-coding-module-1119-pdf?inline=1"
+      "title": "CMS · Refractive Lenses policy article A52499",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=52499"
     }
   },
   {

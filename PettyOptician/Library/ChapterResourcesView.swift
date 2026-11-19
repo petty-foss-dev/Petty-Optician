@@ -57,7 +57,7 @@ struct ChapterResourcesView: View {
                         ContentUnavailableView.search(text: search)
                     }
                 }
-                ForEach(results) { ResourceRow(resource: $0, showsChapterLinks: false) }
+                ForEach(results) { ResourceRow(resource: $0, chapterExam: chapter.exam, showsChapterLinks: true, hidesChapter: chapter.id) }
             }
             .padding()
             .frame(maxWidth: 720)
@@ -73,17 +73,29 @@ struct ChapterResourcesView: View {
 struct ResourceChapterLinks: View {
     let resource: StudyResource
     var exam: ExamID?
+    var hidesChapter: String?
     @Environment(\.palette) private var palette
     private let textbook = Textbook.shared
 
     var body: some View {
-        let chapters = textbook.chapters(for: resource, exam: exam)
-        if !chapters.isEmpty {
+        let chapters = textbook.chapters(for: resource, exam: exam).filter { $0.id != hidesChapter }
+        let lessons = textbook.lessons(for: resource, exam: exam)
+        if !chapters.isEmpty || !lessons.isEmpty {
             VStack(alignment: .leading, spacing: 6) {
                 Text("READ IN THE TEXTBOOK")
                     .font(.caption2.weight(.bold))
                     .tracking(0.8)
                     .foregroundStyle(palette.secondaryText)
+                ForEach(lessons) { lesson in
+                    NavigationLink {
+                        TextbookReaderView(exam: textbook.chapter(for: lesson).exam, lesson: lesson)
+                    } label: {
+                        Label(lesson.section.heading, systemImage: "text.book.closed")
+                            .font(.subheadline.weight(.semibold))
+                            .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+                    }
+                    .accessibilityIdentifier("resource.lesson.\(lesson.id)")
+                }
                 ForEach(chapters) { chapter in
                     NavigationLink {
                         TextbookChapterView(chapter: chapter)

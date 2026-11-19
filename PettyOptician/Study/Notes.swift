@@ -218,12 +218,9 @@ struct NoteRow: View {
             }
             .buttonStyle(.plain)
             .sheet(item: $editing) { NoteEditor(target: $0) }
-        } else if let lesson = note.lesson,
-           let domain = library.domains(for: note.exam).first(where: { $0.id == lesson.domain }),
-           let sections = library.guide(for: lesson.domain)?.sections, sections.indices.contains(lesson.index) {
-            let section = sections[lesson.index]
-            NavigationLink { GuideView(domain: domain, focus: lesson.index) } label: {
-                card(label: "\(domain.name) · Lesson", title: section.heading)
+        } else if let ref = note.lesson, let lesson = Textbook.shared.lesson(for: ref) {
+            NavigationLink { TextbookReaderView(exam: Textbook.shared.chapter(for: lesson).exam, lesson: lesson) } label: {
+                card(label: "\(library.domainName(ref.domain)) · Lesson", title: lesson.section.heading)
             }
             .buttonStyle(.plain)
         } else if let question = library.question(id: note.targetID) {

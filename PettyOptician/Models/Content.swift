@@ -99,6 +99,11 @@ struct GuideSection: Codable, Hashable, Sendable {
     let body: String
     let diagram: String?
     let sources: [SourceLink]?
+    let resourceID: String?
+    let resourceReason: String?
+    let trainerID: String?
+    let checkpointIDs: [String]?
+    let relatedLessonID: String?
 }
 
 struct Formula: Codable, Hashable, Sendable {

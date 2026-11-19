@@ -238,7 +238,7 @@
     "sections": [
       {
         "heading": "Infection control, OSHA, and EPA",
-        "body": "**Universal precautions** (OSHA 1910.1030) treat all blood and certain body fluids as infectious. Employers must:\n- Keep an Exposure Control Plan, reviewed at least annually\n- Offer hepatitis B vaccine within 10 working days of initial assignment\n- Provide PPE and training\n\n**CDC standard precautions** apply to all patient care: hand hygiene, PPE when exposure is expected, respiratory etiquette, and cleaning and disinfecting equipment and surfaces.\n\nUnder the **Spaulding** scheme, frames, rulers, pupillometers, and pliers that touch intact skin are **noncritical** and need low-level disinfection. Items that touch mucous membranes are **semicritical** and need high-level disinfection. Use **EPA-registered** disinfectants and follow the label, including contact time; federal law (FIFRA) requires it.\n\n**OSHA Hazard Communication:** labels, 16-section safety data sheets, and training for lab chemicals.",
+        "body": "Under OSHA’s bloodborne pathogens standard, an employer identifies tasks with reasonably anticipated exposure to blood or other potentially infectious materials. For covered employees, the employer maintains an exposure control plan, reviews it at least annually, supplies protective equipment and training, and offers hepatitis B vaccination at no cost. The offer follows training and is due within 10 working days of initial assignment unless an exception applies, such as prior vaccination or medical contraindication.\n\n**Match the equipment to the contact.** A PD ruler touching intact skin is a noncritical item. Clean it, then use a compatible low-level disinfectant according to its label, including how long the surface stays wet. A reusable device touching mucous membranes is semicritical. Follow its validated reprocessing instructions and the applicable disinfection guidance. A surface wipe intended for a frame does not establish that an eye-contact device is ready for the next wearer.\n\n**At the bench.** Follow standard precautions during patient care. Use available safety data sheets, labels and training to identify chemical hazards before using a product.\n\nSource check for occupational exposure and equipment classification · November 19, 2026.",
         "sources": [
           {
             "title": "29 CFR 1910.1030 – Bloodborne pathogens (OSHA)",
@@ -260,37 +260,37 @@
       },
       {
         "heading": "Product performance, liability, and duty to warn",
-        "body": "The **duty to warn** comes from informed choice. Tell patients how lens materials compare for impact resistance, recommend polycarbonate for high-risk wearers (children, industrial workers, police and fire personnel, athletes), and document it in the record. An optician who assembles uncut lenses into frames is treated as the manufacturer.\n\n**Product liability defects:** manufacturing, design, and **defective warning**. Selling eyewear for a stated use invokes the **implied warranty of fitness for a particular purpose**.\n\n**Sports:** eye guards to ASTM F803 (F3164 for racket sports) with polycarbonate lenses. Protective eyewear means the frame as well as the lenses.\n\n**UV claims:** sunglasses may claim ANSI Z80.3 UV performance. HEV is roughly 400–450 nm. AAO finds no evidence that screen blue light damages eyes and doesn't recommend blue-blocking glasses for computer use, so keep claims accurate.",
+        "body": "A wearer asks for safety glasses for a machine-shop job. Start by asking about the task and the employer’s required protection. Ordinary prescription glasses with impact-resistant lenses can leave an eye exposed at the side. For flying particles, OSHA requires side protection. A worker who needs a prescription can use a suitable prescription protector or a compatible protector over their glasses.\n\n**Match the finished protector to the activity.** Check the frame, lenses, coverage and labeling together. For sports, use the specification for that sport. Examples include ASTM F803 for basketball and ASTM F3164 for pickleball. Describe the limits of the protector, explain the recommendation and document that discussion.\n\n**Product liability.** A defect can involve design, manufacture or inadequate warnings. A claim about a particular use should match the tested product and its labeling. When a buyer relies on a dispenser’s skill to choose eyewear for a known activity, an implied warranty of fitness for that purpose may apply. Record the task the wearer described and the product you dispensed.\n\n**Consumer claims.** The FDA regulates impact resistance for spectacle lenses. Confirm performance claims against product labeling. For ordinary computer use, the American Academy of Ophthalmology reports that evidence has not shown retinal injury from typical screen light.\n\nSource check for workplace and sports eye protection · November 19, 2026.",
         "sources": [
           {
-            "title": "Protecting Kids (and others) through 'Duty to Warn' – Eyecare Business",
-            "url": "https://www.eyecarebusiness.com/issues/2000/june/protecting-kids-and-others-through-duty-to-warn/"
+            "title": "OSHA · 29 CFR 1910.133, eye and face protection",
+            "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.133"
+          },
+          {
+            "title": "ASTM F803-25 · eye protectors for selected sports",
+            "url": "https://store.astm.org/standards/f803"
+          },
+          {
+            "title": "ASTM F3164-24 · racket sports eye protectors",
+            "url": "https://store.astm.org/f3164-24.html"
           },
           {
             "title": "Professional Liability for Opticians, Part I – National Academy of Opticianry",
             "url": "https://www.nao.org/wp-content/uploads/2020/03/Professional-Liability-for-Opticians-Part-1.pdf"
           },
           {
-            "title": "Recommended Sports Eye Protectors – Prevent Blindness Texas",
-            "url": "https://texas.preventblindness.org/recommended-sports-eye-protectors/"
+            "title": "FDA · Spectacle lenses and frames",
+            "url": "https://www.fda.gov/medical-devices/guidance-documents-medical-devices-and-radiation-emitting-products/sunglasses-spectacle-frames-spectacle-lens-and-magnifying-spectacles"
           },
           {
-            "title": "Guidance Document for Nonprescription Sunglasses – FDA",
-            "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-document-nonprescription-sunglasses-guidance-industry"
-          },
-          {
-            "title": "High-energy visible light – Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/High-energy_visible_light"
-          },
-          {
-            "title": "Should You Be Worried About Blue Light? – American Academy of Ophthalmology",
-            "url": "https://www.aao.org/eye-health/tips-prevention/should-you-be-worried-about-blue-light"
+            "title": "American Academy of Ophthalmology · Digital Devices and Your Eyes",
+            "url": "https://aao.org/eye-health/tips-prevention/blue-light-digital-eye-strain"
           }
         ]
       },
       {
         "heading": "Coding, insurance, and records",
-        "body": "**CPT fitting codes** (frames and lenses are billed separately with HCPCS V-codes):\n- 92340 monofocal\n- 92341 bifocal\n- 92342 multifocal other than bifocal\n- 92352/92353 aphakic monofocal/multifocal\n- 92354/92355 low vision aids\n- 92370/92371 repair and refitting\n\n**Common V-codes:** V2020 frame, V2100 SV sphere to ±4.00, V2781 progressive, V2784 polycarbonate, V2750 AR, V2744 photochromic.\n\n**Medicare** covers one pair of glasses with standard frames after each cataract surgery with an IOL, from an enrolled supplier. Noncovered upgrades need a signed ABN and modifier GA. **Vision plans** pay exams and eyewear through copays and allowances. **Medical insurance** covers eye disease.\n\nAn **EMR** is a practice's digital chart. An **EHR** is the broader, longitudinal record. Both fall under HIPAA.",
+        "body": "**CPT fitting codes** (frames and lenses are billed separately with HCPCS V-codes):\n- 92340 monofocal\n- 92341 bifocal\n- 92342 multifocal other than bifocal\n- 92352/92353 aphakic monofocal/multifocal\n- 92354/92355 low vision aids\n- 92370/92371 repair and refitting\n\n**Common V-codes:** V2020 frame, V2100 SV sphere to ±4.00, V2781 progressive, V2784 polycarbonate, V2750 AR, V2744 photochromic.\n\n**Medicare** covers one pair of glasses with standard frames after each cataract surgery with an IOL, from an enrolled supplier. Check the coverage reason for each upgrade. Medicare covers standard frames under this benefit. A patient selecting deluxe frames can owe an additional charge. The reason for an expected denial determines which notice and billing rules apply. **Vision plans** pay exams and eyewear through copays and allowances. **Medical insurance** covers eye disease.\n\nAn **EMR** is a practice's digital chart. An **EHR** is the broader, longitudinal record. HIPAA duties depend on whether the organization is a covered entity or business associate. The electronic format of a chart alone does not decide coverage.\n\nSource check for Medicare coverage and HIPAA applicability · November 19, 2026.",
         "sources": [
           {
             "title": "Eyeglass Lenses – Medi-Cal Provider Manual",
@@ -319,6 +319,18 @@
           {
             "title": "Electronic health record – Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Electronic_health_record"
+          },
+          {
+            "title": "CMS · Refractive Lenses policy article A52499",
+            "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=52499"
+          },
+          {
+            "title": "CMS · Beneficiary notices, Claims Processing Manual chapter 30",
+            "url": "https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c30.pdf"
+          },
+          {
+            "title": "HHS · Covered entities and business associates",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html"
           }
         ]
       }

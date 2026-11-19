@@ -246,19 +246,18 @@ struct PracticeView: View {
 
     private func startMock() {
         guard let info = examInfo else { return }
-        let questions = QuizBuilder.mockExam(info, library: library)
-        let pretest = info.totalQuestions.flatMap { total in info.scoredQuestions.map { max(0, total - $0) } } ?? 0
+        let mock = QuizBuilder.mockExam(info, library: library)
         start(
             "\(info.shortName) Mock Exam",
-            questions,
+            mock.questions,
             timeLimit: info.timeMinutes.map { $0 * 60 },
-            pretest: questions.count == info.totalQuestions ? pretest : 0
+            pretestIDs: mock.pretestIDs
         )
     }
 
-    private func start(_ title: String, _ questions: [Question], timeLimit: Int? = nil, pretest: Int = 0) {
+    private func start(_ title: String, _ questions: [Question], timeLimit: Int? = nil, pretestIDs: Set<String> = []) {
         guard !questions.isEmpty else { return }
-        let config = QuizConfig(exam: exam, title: title, count: questions.count, timeLimitSeconds: timeLimit, pretestCount: pretest)
+        let config = QuizConfig(exam: exam, title: title, count: questions.count, timeLimitSeconds: timeLimit, pretestIDs: pretestIDs)
         activeQuiz = QuizSession(config: config, questions: questions, flagged: stats.flaggedIDs)
     }
 

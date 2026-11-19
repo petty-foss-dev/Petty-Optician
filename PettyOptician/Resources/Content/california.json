@@ -111,8 +111,8 @@
     },
     {
       "title": "Pass the ABO and/or NCLE Basic exam",
-      "detail": "Register and pay ($275) on abo-ncle.org, then schedule with Prometric at a test center or by remote proctor. SLD requires the ABO exam; CLD requires the NCLE exam.",
-      "url": "https://www.abo-ncle.org/ABONCLE/ABONCLE/ABO_NCLE/Basic-Exams.aspx"
+      "detail": "SLD applicants take the ABO Basic exam. CLD applicants take the NCLE Basic exam. The national registration fee is $275 for each exam, effective October 1, 2026. Register with ABO-NCLE, then use the confirmation email to schedule with Prometric.",
+      "url": "https://www.abo-ncle.org/ABONCLE/ABONCLE/Exams/ABO-NCLE-Exams/Register-for-an-Exam.aspx"
     },
     {
       "title": "Apply on BreEZe",
@@ -126,7 +126,7 @@
     },
     {
       "title": "Wait for approval and certificates",
-      "detail": "The Board lists 1-3 week processing times. Check status in BreEZe. Certificates arrive by mail within about two weeks of approval.",
+      "detail": "Check the Board’s current processing times and your application status in BreEZe. Open the application details to see whether the Board needs more information. Allow up to two weeks for certificates to arrive after approval.",
       "url": "https://www.optometry.ca.gov/optician/index.shtml"
     },
     {
@@ -203,8 +203,12 @@
       "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=2.&title=&part=&chapter=5.5.&article="
     },
     {
-      "title": "ABO-NCLE - Basic Exams",
-      "url": "https://www.abo-ncle.org/ABONCLE/ABONCLE/ABO_NCLE/Basic-Exams.aspx"
+      "title": "ABO-NCLE - Basic exam fee effective October 1, 2026 (checked November 19, 2026)",
+      "url": "https://www.abo-ncle.org/ABONCLE/iCore/Events/Event_display.aspx?EventKey=AB20260701"
+    },
+    {
+      "title": "ABO-NCLE - Exam registration and testing windows",
+      "url": "https://www.abo-ncle.org/ABONCLE/ABONCLE/Exams/ABO-NCLE-Exams/Register-for-an-Exam.aspx"
     },
     {
       "title": "ABO-NCLE - Basic Exam Candidate Handbook (October 2026)",

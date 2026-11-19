@@ -22,6 +22,8 @@ enum DiagramArt {
         case "optical-cross": opticalCross(s)
         case "prism": prism(s)
         case "prentice": prentice(s)
+        case "pupil-optical-center": pupilAndCenter(s)
+        case "scleral-zones": scleralZones(s)
         case "vertex-distance": vertexDistance(s)
         case "boxing-system": boxingSystem(s)
         case "frame-adjustments": frameAdjustments(s)
@@ -191,6 +193,44 @@ enum DiagramArt {
         s.label("Object", at: CGPoint(x: object.x, y: object.y + s.h(0.05)), scale: 0.85, anchor: .top)
         s.label("Image", at: CGPoint(x: image.x, y: image.y - s.h(0.05)), scale: 0.85, anchor: .bottom)
         s.label("Eye", at: CGPoint(x: eye.x, y: eye.y - s.h(0.09)), scale: 0.85, anchor: .bottom)
+    }
+
+    private static func pupilAndCenter(_ s: Sketch) {
+        let center = s.p(0.42, 0.43)
+        let pupil = s.p(0.42, 0.66)
+        let lens = s.ellipse(s.p(0.42, 0.50), width: s.w(0.58), height: s.h(0.70))
+        s.fill(lens, s.accent.opacity(0.08))
+        s.stroke(lens, s.ink)
+        s.line(s.p(0.40, 0.43), s.p(0.44, 0.43), s.ink)
+        s.line(s.p(0.42, 0.40), s.p(0.42, 0.46), s.ink)
+        s.fill(s.circle(pupil, s.w(0.012)), s.accent)
+        s.callout("Optical center", at: s.p(0.84, 0.27), to: center, anchor: .center)
+        s.callout("Pupil", at: s.p(0.81, 0.76), to: pupil, anchor: .center)
+        s.dimension(s.p(0.32, 0.43), s.p(0.32, 0.66), "5 mm")
+        s.arrow(s.p(0.53, 0.66), s.p(0.53, 0.44), s.accent)
+        s.label("Base up", at: s.p(0.56, 0.55), scale: 0.85, anchor: .leading)
+        s.label("+4.00 D sphere", at: s.p(0.42, 0.93), weight: .semibold)
+    }
+
+    private static func scleralZones(_ s: Sketch) {
+        let lens = Path { path in
+            path.move(to: s.p(0.06, 0.28))
+            path.addQuadCurve(to: s.p(0.64, 0.59), control: s.p(0.30, 0.25))
+            path.addQuadCurve(to: s.p(0.92, 0.71), control: s.p(0.75, 0.67))
+        }
+        let eye = Path { path in
+            path.move(to: s.p(0.06, 0.42))
+            path.addQuadCurve(to: s.p(0.64, 0.65), control: s.p(0.30, 0.40))
+            path.addQuadCurve(to: s.p(0.93, 0.72), control: s.p(0.77, 0.66))
+        }
+        s.stroke(eye, s.ink, s.stroke * 1.8)
+        s.stroke(lens, s.accent, s.stroke * 2.2)
+        s.arrow(s.p(0.12, 0.28), s.p(0.12, 0.42), s.ray)
+        s.callout("Fluid reservoir", at: s.p(0.19, 0.10), to: s.p(0.23, 0.35), anchor: .center)
+        s.callout("Cornea", at: s.p(0.18, 0.69), to: s.p(0.26, 0.45), anchor: .center)
+        s.callout("Lens", at: s.p(0.57, 0.24), to: s.p(0.53, 0.49), anchor: .center)
+        s.callout("Landing zone", at: s.p(0.81, 0.44), to: s.p(0.83, 0.69), anchor: .center)
+        s.callout("Conjunctiva over sclera", at: s.p(0.71, 0.91), to: s.p(0.90, 0.71), anchor: .center)
     }
 
     private static func prentice(_ s: Sketch) {

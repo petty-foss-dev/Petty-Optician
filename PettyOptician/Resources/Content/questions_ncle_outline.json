@@ -605,18 +605,18 @@
     "domain": "ncle.dispensing",
     "topic": "Care systems",
     "difficulty": 3,
-    "stem": "Why are one-step catalytic-disc peroxide systems considered less effective against Acanthamoeba than two-step systems?",
+    "stem": "A wearer wants to delay the neutralization step of a peroxide lens care system for extra disinfection. What should the dispenser teach?",
     "choices": [
-      "Neutralization starts before cysts get 2–3 hours of exposure",
-      "The platinum disc releases a chemical that shields the cysts",
-      "One-step systems use a much weaker 1% peroxide solution",
-      "Two-step systems add an antibiotic that kills the cysts"
+      "Follow the full labeled cycle in the supplied case",
+      "Start neutralization when the wearer feels ready",
+      "Use a multipurpose case for the first half of the soak",
+      "Shorten neutralization if the lenses look clear"
     ],
     "answer": 0,
-    "explanation": "An exposure of 2–3 hours to non-neutralized 3% peroxide kills bacteria, fungi, and Acanthamoeba. A catalytic disc starts neutralizing at once, so the exposure is too short for Acanthamoeba; a two-step system or delayed tablet allows the full exposure.",
+    "explanation": "The case, solution and sequence work as one system. Changing the cycle can leave peroxide on the lens at insertion and injure the eye.",
     "source": {
-      "title": "Wikipedia: Contact lens",
-      "url": "https://en.wikipedia.org/wiki/Contact_lens"
+      "title": "FDA: Contact Lenses: Safe Use of Hydrogen Peroxide Solution",
+      "url": "https://www.fda.gov/consumers/consumer-updates/contact-lenses-safe-use-hydrogen-peroxide-solution"
     }
   },
   {
@@ -665,18 +665,18 @@
     "domain": "ncle.dispensing",
     "topic": "Care systems",
     "difficulty": 2,
-    "stem": "Heat disinfection is not recommended for which lens materials?",
+    "stem": "A wearer wants to heat-disinfect lenses in a case labeled only for chemical disinfection. Which instruction follows the case labeling?",
     "choices": [
-      "Silicone hydrogels and FDA Groups II and IV",
-      "FDA Group I low-water nonionic hydrogels only",
-      "Rigid gas permeable lens materials only",
-      "Daily disposable hydrogel lenses only"
+      "Use the case only with its indicated chemical method",
+      "Use heat after removing the solution from the case",
+      "Use heat only with a low-water lens",
+      "Shorten the cycle when the case contains soft lenses"
     ],
     "answer": 0,
-    "explanation": "Heat disinfection units work at about 80 °C (160–176 °F), but heat is not recommended for silicone hydrogel lenses or FDA Group II and IV (high-water) hydrogels. It can also fade opaque tinted lenses.",
+    "explanation": "Case labeling specifies compatible care methods. Lens material or a shorter cycle cannot make a chemical-only case suitable for heat.",
     "source": {
-      "title": "Contact Lens Spectrum: Contact Lens Care (heat disinfection), Feb 2004",
-      "url": "https://clspectrum.com/issues/2004/february/contact-lens-care/"
+      "title": "FDA · LANDR lens case, labeled for chemical disinfection only",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252175.pdf"
     }
   },
   {
@@ -685,7 +685,7 @@
     "domain": "ncle.dispensing",
     "topic": "Care systems",
     "difficulty": 3,
-    "stem": "Why must a lens be rubbed with a cleaner before it goes into a heat disinfection unit?",
+    "stem": "Why is a reusable contact lens cleaned before a prescribed heat-disinfection cycle?",
     "choices": [
       "Heat cannot kill Acanthamoeba",
       "The cleaner activates the heating element",
@@ -693,7 +693,7 @@
       "Rubbing makes the lens swell to its full size"
     ],
     "answer": 2,
-    "explanation": "Heat is highly effective against almost all microorganisms, including Acanthamoeba, but deposits not cleaned off first are baked onto the lens. That shortens lens life and can lead to complications such as giant papillary conjunctivitis.",
+    "explanation": "Disinfection and cleaning serve different purposes. Cleaning first removes surface deposits that heat can fix onto the lens. Any heat cycle must be specifically labeled for the lens and system.",
     "source": {
       "title": "Contact Lens Spectrum: Contact Lens Care (heat disinfection), Feb 2004",
       "url": "https://clspectrum.com/issues/2004/february/contact-lens-care/"
@@ -705,18 +705,18 @@
     "domain": "ncle.dispensing",
     "topic": "Care systems",
     "difficulty": 2,
-    "stem": "Which solution is recommended for use in a heat disinfection unit?",
+    "stem": "What determines which solution can be used with a prescribed contact lens heat-disinfection system?",
     "choices": [
-      "Multipurpose solution",
-      "Non-preserved saline",
-      "Homemade saline",
-      "Tap water"
+      "Any solution that works in an ordinary flat storage case",
+      "The instructions for the specific lens and disinfection system",
+      "Whether the wearer has used the solution for soft lenses before",
+      "Whether the solution looks clear after heating"
     ],
     "answer": 1,
-    "explanation": "Non-preserved saline is recommended for heat units. Homemade saline, tap water, and multipurpose solutions are contraindicated.",
+    "explanation": "Solution and case compatibility are product-specific. For example, the FDA summary for ReNu MultiPlus describes chemical disinfection of compatible soft lenses and excludes heat disinfection.",
     "source": {
-      "title": "Contact Lens Spectrum: Contact Lens Care (heat disinfection), Feb 2004",
-      "url": "https://clspectrum.com/issues/2004/february/contact-lens-care/"
+      "title": "FDA · ReNu MultiPlus, labeled for chemical disinfection",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf/K974723.pdf"
     }
   },
   {

@@ -45,7 +45,7 @@ struct TextbookView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     ExamSwitcher()
                     TextbookCover(exam: exam, state: state, chapterCount: chapters.count)
-                    contents(chapters)
+                    contents(chapters, exam: exam)
                     reference(exam)
                 }
                 .padding()
@@ -70,9 +70,26 @@ struct TextbookView: View {
         .binderSheet($showingBinder)
     }
 
-    private func contents(_ chapters: [TextbookChapter]) -> some View {
+    private func contents(_ chapters: [TextbookChapter], exam: ExamID) -> some View {
         VStack(alignment: .leading, spacing: 10) {
             SectionTitle(title: "Contents", trailing: "\(chapters.count) chapters")
+            if let outline = library.exam(exam)?.officialOutline, !outline.isEmpty {
+                NavigationLink {
+                    ScrollView {
+                        ExamObjectivesList(exam: exam, outline: outline)
+                            .padding()
+                            .frame(maxWidth: 720)
+                            .frame(maxWidth: .infinity)
+                    }
+                    .pettyScreen()
+                    .navigationTitle("\(exam.shortLabel) exam objectives")
+                    .navigationBarTitleDisplayMode(.inline)
+                } label: {
+                    LinkRow(title: "Exam objectives", subtitle: "Find a lesson, worked example and practice by exam topic", symbol: "list.bullet.clipboard")
+                }
+                .buttonStyle(.plain)
+                .accessibilityIdentifier("textbook.objectives")
+            }
             ForEach(Array(chapters.enumerated()), id: \.element.id) { index, chapter in
                 let lessons = textbook.lessons(in: chapter)
                 NavigationLink(value: TextbookRoute.chapter(chapter.id)) {
@@ -428,15 +445,17 @@ struct TextbookCallout: View {
 struct TextbookContinueCard: View {
     let exam: ExamID
     let openContents: () -> Void
+    let startCheck: (QuizSession) -> Void
     @ObservedObject private var progress = ReadingProgress.shared
     @Environment(\.palette) private var palette
 
     var body: some View {
         let state = ReadingState(exam: exam, progress: progress)
+        let readToday = progress.readLessons(in: state.lessons)
         if let target = state.next ?? state.lessons.first {
             Panel(padding: 18) {
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("\(exam.shortLabel) TEXTBOOK")
+                    Text("TODAY’S \(exam.shortLabel) LESSON")
                         .font(.caption.weight(.bold))
                         .tracking(1.5)
                         .foregroundStyle(palette.accent)
@@ -446,6 +465,11 @@ struct TextbookContinueCard: View {
                             .foregroundStyle(palette.text)
                     } else {
                         NextLessonCaption(lesson: target)
+                    }
+                    if !readToday.isEmpty {
+                        Label("\(readToday.count) \(readToday.count == 1 ? "lesson" : "lessons") read today", systemImage: "checkmark.circle.fill")
+                            .font(.footnote.weight(.semibold))
+                            .foregroundStyle(palette.accent)
                     }
                     ReadingProgressLine(read: state.readCount, total: state.lessons.count)
                     NavigationLink {
@@ -460,6 +484,13 @@ struct TextbookContinueCard: View {
                     .buttonStyle(.borderedProminent)
                     .tint(palette.accent)
                     .accessibilityIdentifier("today.reading")
+                    let checkLesson = readToday.first ?? target
+                    if checkLesson != target {
+                        Text("Review · \(checkLesson.section.heading)")
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(palette.text)
+                    }
+                    LessonCheckpoint(lesson: checkLesson, exam: exam, start: startCheck)
                     Button("Open table of contents", action: openContents)
                         .font(.subheadline.weight(.semibold))
                         .frame(maxWidth: .infinity)

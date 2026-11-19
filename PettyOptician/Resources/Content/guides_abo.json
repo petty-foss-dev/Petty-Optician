@@ -30,9 +30,21 @@
         ]
       },
       {
-        "heading": "Prism and Prentice's rule",
-        "body": "**Prentice's rule**: Δ = c × F, with c the decentration in centimeters and F the power in diopters.\n\n- **Plus lens**: base toward the optical center\n- **Minus lens**: base away from the optical center\n- **Splitting horizontal prism**: same base direction in each eye\n- **Splitting vertical prism**: opposite directions (BU OD = BD OS)\n- **Resultant**: √(H² + V²); for example 3Δ BI + 4Δ BU = 5Δ\n\nExample: −6.00 D lenses with OCs 2 mm temporal to each pupil give 1.2Δ BI per lens, 2.4Δ BI total.",
-        "diagram": "prentice"
+        "heading": "Find the pupil and the optical center",
+        "body": "Put two marks on a sketch of a finished spectacle lens. A cross marks the optical center (OC). A dot marks where the pupil looks through the lens when the wearer looks straight ahead. If the dot and cross coincide, a simple spherical lens produces no prism at that point. Separate them and light passing through the pupil mark bends toward the local prism base.\n\n**Read the drawing.** The pupil mark is directly below the OC, so only a vertical distance separates them. A plus lens is thickest near its center. At the pupil mark its base points up, toward the OC. Imagine substituting a minus lens without moving either mark. Its thicker edge is below the pupil mark, so the base points down. The base describes how the lens bends the ray. An image seen through a prism appears displaced toward its apex.\n\n**Try it on paper.** Cover the captions and move the cross below the dot. Predict the base direction for a plus lens, then for a minus lens. Draw the arrow from the pupil mark before looking up the answer. The next lesson uses the distance between those marks to find the amount of prism.",
+        "diagram": "pupil-optical-center",
+        "resourceID": "res-vid-022",
+        "resourceReason": "Watch how a line of sight away from the optical center produces prism.",
+        "checkpointIDs": [
+          "lesson-base"
+        ],
+        "trainerID": "prism",
+        "sources": [
+          {
+            "title": "OptiCampus · Introduction to Ophthalmic Optics",
+            "url": "https://opticampus.opti.vision/files/introduction_to_ophthalmic_optics.pdf"
+          }
+        ]
       },
       {
         "heading": "Light, refraction, and index",
@@ -55,9 +67,21 @@
         "diagram": "optical-cross"
       },
       {
-        "heading": "Prism and Prentice's rule",
-        "body": "One **prism diopter** displaces an image 1 cm at 1 m. Away from the optical center, every lens behaves like a prism. **Prentice's rule** gives the amount: **Δ = c × F**, with c the decentration in **centimeters** and F the power in the meridian of decentration.\n\nBase direction depends on the lens type:\n- **Plus** lenses: base points toward the optical center\n- **Minus** lenses: base points away from the optical center\n\nExample: looking 5 mm below the OC of a +3.00 D lens gives 0.5 × 3.00 = 1.50Δ base up. Plus OCs set too wide or minus OCs set too narrow both produce base-out prism.\n\nTo create prism by decentration, rearrange to **c = Δ ÷ F**. In a plus lens, move the OC in the direction you want the base; in a minus lens, move it the opposite way. For 2.00Δ BI from a +4.00 D lens, decenter 5 mm in.\n\nWith cylinder, use the power in the meridian of decentration: horizontal prism uses the 180 meridian power, vertical prism uses the 90 meridian power.",
-        "diagram": "prism"
+        "heading": "Calculate prism on a finished order",
+        "body": "A finished +4.00 D spherical lens has its optical center 5 mm above the pupil. An order check asks for two separate findings: the amount of prism at the pupil and its base direction.\n\n**1. Mark the separation.** Measure from the pupil mark to the optical center along the vertical meridian. Five millimeters is half a centimeter. Write 0.5 cm alongside the measurement before multiplying.\n\n**2. Find the amount.** Prentice’s rule gives prism magnitude in prism diopters (Δ) as separation in centimeters multiplied by the magnitude of the lens power in that meridian. Here, 0.5 × 4.00 = 2Δ. A result of 20Δ would require 5 centimeters of separation at this power. That is a quick way to catch a missed unit conversion.\n\n**3. Report the direction.** The pupil looks below the center of a plus lens. Its base points toward the optical center, so report 2Δ base up for this lens. Replacing the plus lens with a −4.00 D sphere keeps the magnitude and reverses the base.\n\n**Work backward.** To produce 2Δ base in on a +4.00 D sphere, divide 2 by 4. The required separation is 0.5 cm, or 5 mm. Position the optical center nasally relative to the pupil. For a cylinder prescription, use power in the meridian of displacement. A horizontal separation uses the 180° meridian and a vertical separation uses the 90° meridian.",
+        "diagram": "pupil-optical-center",
+        "resourceID": "res-vid-025",
+        "resourceReason": "Follow a second order from a millimeter measurement to a prism value.",
+        "checkpointIDs": [
+          "lesson-order"
+        ],
+        "trainerID": "prism",
+        "sources": [
+          {
+            "title": "OptiCampus · Introduction to Ophthalmic Optics",
+            "url": "https://opticampus.opti.vision/files/introduction_to_ophthalmic_optics.pdf"
+          }
+        ]
       },
       {
         "heading": "Combining, resolving, and balancing prism",
@@ -229,7 +253,16 @@
           {
             "title": "National Eye Institute: How the Eyes Work",
             "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work"
+          },
+          {
+            "title": "National Eye Institute · How the Eyes Work",
+            "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
           }
+        ],
+        "resourceID": "res-vid-125",
+        "resourceReason": "Follow the path of light through the clear front of the eye.",
+        "checkpointIDs": [
+          "abo-ana-005"
         ]
       },
       {
@@ -401,7 +434,13 @@
     "sections": [
       {
         "heading": "Lensmeter verification",
-        "body": "- Focus the eyepiece: fully counterclockwise (plus), then turn in until the reticle is just sharp\n- Rest both eyewires on the frame table so the 180 line is level\n- **Minus-cylinder technique**: start at high plus; the first meridian to focus is the sphere, and the axis wheel gives the axis; second reading − first = cylinder\n- **Add (front-surface multifocal)**: front surface toward the lens stop; add = near reading − distance reading\n- **Prism**: the target moves toward the base; count the rings\n- **Mark the OC**: center the target and use the marking device; the middle dot is the OC\n- **Automated lensmeters**: match the cylinder form and lens-type settings to the order\n\n**PALs**: re-mark from the hidden engravings. Check distance power at the distance circle, prism at the PRP (midway between the engravings), and the add in the near circle. The add is usually engraved below the temporal mark. Equal base-down prism in both lenses is prism thinning."
+        "body": "- Focus the eyepiece: fully counterclockwise (plus), then turn in until the reticle is just sharp\n- Rest both eyewires on the frame table so the 180 line is level\n- **Minus-cylinder technique**: start at high plus; the first meridian to focus is the sphere, and the axis wheel gives the axis; second reading − first = cylinder\n- **Add (front-surface multifocal)**: front surface toward the lens stop; add = near reading − distance reading\n- **Prism**: the target moves toward the base; count the rings\n- **Mark the OC**: center the target and use the marking device; the middle dot is the OC\n- **Automated lensmeters**: match the cylinder form and lens-type settings to the order\n\n**PALs**: re-mark from the hidden engravings. Check distance power at the distance circle, prism at the PRP (midway between the engravings), and the add in the near circle. The add is usually engraved below the temporal mark. Equal base-down prism in both lenses is prism thinning.\n\n**Verify a finished order.** Take a pair labeled OD −2.00 sphere and OS −3.00 sphere. Confirm the instrument setup, identify the wearer’s right lens and read it before consulting the left reading. Suppose the right reads −3.00 and the left −2.00. Each individual power exists on the order, yet the pair fails verification because the powers are assigned to opposite eyes. Recheck orientation and record both findings before dispensing. Once powers match, check reference-point placement, prism and any prescribed add separately.",
+        "resourceID": "res-vid-063",
+        "resourceReason": "Follow the verification sequence on a finished single-vision pair.",
+        "checkpointIDs": [
+          "abo-dsp-032"
+        ],
+        "trainerID": "lensometer"
       },
       {
         "heading": "Lens measuring tools, layout, and edging",
@@ -427,7 +466,14 @@
       },
       {
         "heading": "Standard alignment",
-        "body": "Before fitting, true the frame to standard alignment:\n\n- **Horizontal alignment**: both eyewires level on a common line\n- **Four-point touch**: a straight edge across the back of the front touches the nasal and temporal edges of both eyewires\n- **No X-ing**: lens planes not twisted relative to each other\n- **Temple spread**: about 90–95° from the front\n- **Temple parallelism**: both temples at the same angle when viewed from the side\n- **Matching temple bends**: both temples bent the same way at the same point"
+        "body": "Before fitting, true the frame to standard alignment:\n\n- **Horizontal alignment**: both eyewires level on a common line\n- **Four-point touch**: a straight edge across the back of the front touches the nasal and temporal edges of both eyewires\n- **No X-ing**: lens planes not twisted relative to each other\n- **Temple spread**: about 90–95° from the front\n- **Temple parallelism**: both temples at the same angle when viewed from the side\n- **Matching temple bends**: both temples bent the same way at the same point\n\n**Work a fitting complaint.** A wearer says the right lens sits higher. First inspect the frame off the wearer on a level surface. Check the eyewires, the common plane of the front and the temple angles. If the front is twisted, restore standard alignment and recheck on the wearer. If the frame is already true, observe how it sits on the individual bridge and ears before choosing an adjustment. A level frame on the bench and a level pair on the face are two distinct observations. Record the starting fit so you can tell whether the adjustment helped.",
+        "resourceID": "res-vid-086",
+        "resourceReason": "Compare your bench inspection with a complete frame and lens check.",
+        "checkpointIDs": [
+          "abo-frm-042",
+          "abo-frm-043"
+        ],
+        "trainerID": "frameAdjustment"
       },
       {
         "heading": "Tilt, wrap, and vertex",

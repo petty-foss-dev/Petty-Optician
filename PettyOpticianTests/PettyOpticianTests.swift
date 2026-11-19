@@ -135,8 +135,14 @@ final class ContentTests: XCTestCase {
         for exam in library.exams {
             let mock = QuizBuilder.mockExam(exam, library: library)
             let available = library.questions(for: exam.id).count
-            XCTAssertEqual(mock.count, min(exam.totalQuestions ?? 100, available))
-            XCTAssertEqual(Set(mock.map(\.id)).count, mock.count)
+            XCTAssertEqual(mock.questions.count, min(exam.totalQuestions ?? 100, available))
+            XCTAssertEqual(Set(mock.questions.map(\.id)).count, mock.questions.count)
+            XCTAssertEqual(mock.pretestIDs.count, 25)
+            let scored = mock.questions.filter { !mock.pretestIDs.contains($0.id) }
+            XCTAssertEqual(scored.count, 100)
+            for domain in exam.domains {
+                XCTAssertEqual(scored.filter { $0.domain == domain.id }.count, Int(domain.weight))
+            }
         }
     }
 }

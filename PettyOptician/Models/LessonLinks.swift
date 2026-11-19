@@ -5,8 +5,7 @@ struct LessonRef: Hashable, Sendable {
     let index: Int
 }
 
-/// Content has no explicit question→lesson links, so each question is matched to the guide lesson whose text it overlaps most
-/// (IDF-weighted, same section preferred). Weak or ambiguous matches get no link rather than a wrong one.
+// Authored checkpoints take precedence over text-overlap matches.
 struct LessonLinks: Sendable {
     static let shared = LessonLinks(library: .shared)
 
@@ -15,6 +14,13 @@ struct LessonLinks: Sendable {
 
     init(library: ContentLibrary) {
         var lessonByQuestion: [String: LessonRef] = [:]
+        for guide in library.guides {
+            for (index, section) in guide.sections.enumerated() {
+                for id in section.checkpointIDs ?? [] {
+                    lessonByQuestion[id] = LessonRef(domain: guide.domain, index: index)
+                }
+            }
+        }
         for exam in ExamID.allCases {
             let lessons = library.domains(for: exam).flatMap { domain in
                 (library.guide(for: domain.id)?.sections ?? []).enumerated().map { index, section in
@@ -27,7 +33,7 @@ struct LessonLinks: Sendable {
             let n = Double(lessons.count)
             let idf = documentFrequency.mapValues { log((n + 1) / (Double($0) + 0.5)) }
 
-            for question in library.questions(for: exam) {
+            for question in library.questions(for: exam) where lessonByQuestion[question.id] == nil {
                 let query = Self.counts(
                     Self.tokens(question.topic),
                     weight: 3,

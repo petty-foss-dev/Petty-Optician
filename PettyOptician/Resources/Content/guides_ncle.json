@@ -162,7 +162,18 @@
       },
       {
         "heading": "Lensometer and inspection tools",
-        "body": "- **Lensometer**: place the back surface against the stop to read **back vertex power**; blot soft lenses before measuring\n- **Thickness gauge**: center and edge thickness\n- **Measuring magnifier** (about 7× with reticle): OAD, OZD, peripheral curve widths, edges, surface defects, markings\n- **V-groove gauge**: RGP diameter; let the lens slide to a stop and never force it"
+        "body": "- **Lensometer**: place the back surface against the stop to read **back vertex power**; blot soft lenses before measuring\n- **Thickness gauge**: center and edge thickness\n- **Measuring magnifier** (about 7× with reticle): OAD, OZD, peripheral curve widths, edges, surface defects, markings\n- **V-groove gauge**: RGP diameter; let the lens slide to a stop and never force it\n\n**Inspect a rigid lens before dispensing.** A radiuscope reading can agree with the ordered base curve even when two peripheral zones meet abruptly. View a reflected white fluorescent tube across the back surface and move the lens to follow the reflection through the junction. A smooth transition gives a smoothly changing reflection. A sharp discontinuity calls for closer magnified inspection of the blend. Record the affected zone and compare it with the ordered design. Use the radiuscope for curvature and the lensometer for power. Neither measurement describes the finish of this junction.",
+        "resourceID": "res-vid-209",
+        "resourceReason": "Compare instruments used to verify a rigid lens before dispensing.",
+        "checkpointIDs": [
+          "lesson-bevel"
+        ],
+        "sources": [
+          {
+            "title": "Spors and colleagues · Verification and inspection of rigid contact lenses",
+            "url": "https://ocl-online.de/en/verify-and-inspect-rigid-contact-lenses"
+          }
+        ]
       },
       {
         "heading": "Pachymetry and specular microscopy",
@@ -301,7 +312,20 @@
       },
       {
         "heading": "Insertion, removal, and patient education",
-        "body": "- Wash with mild, non-oily, unscented soap and dry with a lint-free towel\n- Always start with the same eye\n- Inspect the lens for damage and inversion before insertion\n- Soft lens removal: look up, slide the lens down, and pinch it off\n- RGP removal: lateral canthus pull and blink, or a two-finger technique\n- Suction removers go on the lens only, never on the bare cornea\n- Daily-wear lenses come out before any sleep\n- Never use tap water, follow the replacement schedule, and replace the case\n\nPerform the over-refraction after the lens has settled and tearing has stopped."
+        "body": "- Wash with mild, non-oily, unscented soap and dry with a lint-free towel\n- Always start with the same eye\n- Inspect the lens for damage and inversion before insertion\n- Soft lens removal: look up, slide the lens down, and pinch it off\n- RGP removal: lateral canthus pull and blink, or a two-finger technique\n- Suction removers go on the lens only, never on the bare cornea\n- Daily-wear lenses come out before any sleep\n- Never use tap water, follow the replacement schedule, and replace the case\n\nPerform the over-refraction after the lens has settled and tearing has stopped.\n\n**Visit one · Teach-back with Sam.** Sam is collecting reusable soft lenses and a prescribed multipurpose solution. Ask Sam to describe tonight’s routine in their own words. “I’ll wash and dry my hands, then add fresh solution to what’s in the case.” The first step is sound. The final step would dilute fresh disinfectant with used solution.\n\nInvite Sam to demonstrate again with an empty case. Listen for clean, dry hands, fresh solution at each use, and the rub, rinse and soak instructions for the prescribed product. Have Sam point out the disinfection time on its label. Ask what they would do if their eye became painful or red. The care plan includes removing the lenses and contacting their eye care professional promptly. Give Sam a chance to repeat the steps without prompting.",
+        "relatedLessonID": "ncle.followup#7",
+        "resourceID": "res-web-028",
+        "resourceReason": "Compare Sam’s demonstration with the lens-care instructions.",
+        "checkpointIDs": [
+          "lesson-teachback"
+        ],
+        "trainerID": "softLensFit",
+        "sources": [
+          {
+            "title": "FDA · Contact Lens Solutions and Products",
+            "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-solutions-and-products"
+          }
+        ]
       }
     ],
     "formulas": []
@@ -343,7 +367,21 @@
       },
       {
         "heading": "Red-eye triage and compliance",
-        "body": "Lens wearers with a red eye should **remove the lens first**. Pain, light sensitivity, reduced vision, discharge, or a white spot on the cornea need urgent evaluation.\n\nFor a chemical splash, irrigate immediately and then get emergency care.\n\nCommon compliance failures:\n\n- Sleeping in daily-wear lenses\n- Topping off solution\n- Old cases\n- Water exposure\n- Overextended replacement\n\nGive written instructions and reinforce them at each visit."
+        "body": "Lens wearers with a red eye should **remove the lens first**. Pain, light sensitivity, reduced vision, discharge, or a white spot on the cornea need urgent evaluation.\n\nFor a chemical splash, irrigate immediately and then get emergency care.\n\nCommon compliance failures:\n\n- Sleeping in daily-wear lenses\n- Topping off solution\n- Old cases\n- Water exposure\n- Overextended replacement\n\nGive written instructions and reinforce them at each visit.\n\n**Visit two · Document Sam’s follow-up.** A week later, Sam calls about the right eye. “Light hurts and my vision has gone blurry since this morning.” Those statements go under subjective history. Record the eye, the onset and Sam’s words. A symptom alone cannot identify the cause.\n\nAt the urgent visit, the clinician documents redness and measures reduced right-eye acuity compared with the previous record. Record those observed or measured findings separately. A useful handoff includes onset, lens wear, which changes were reported, which were observed and who will evaluate the wearer. Avoid labeling the cause as dryness or infection without an assessment.\n\n**Decide what comes next.** Pain, light sensitivity or a sudden vision change with contact lens wear needs prompt professional assessment. Advise removal, keep the lenses out and contact the eye care professional immediately. A routine fit adjustment or a trial of a different care product could delay evaluation.",
+        "relatedLessonID": "ncle.dispensing#2",
+        "resourceID": "res-vid-210",
+        "resourceReason": "Review the complications that can present with similar symptoms.",
+        "checkpointIDs": [
+          "lesson-record",
+          "lesson-refer"
+        ],
+        "trainerID": "lensProblems",
+        "sources": [
+          {
+            "title": "FDA · Contact Lens Care",
+            "url": "https://www.fda.gov/media/86014/download"
+          }
+        ]
       }
     ],
     "formulas": []

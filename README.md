@@ -14,7 +14,7 @@
 
 petty: Optician is a free, open source iPhone and iPad app for people preparing for the **ABO Basic** (spectacle) and **NCLE Basic** (contact lens) certification exams. Start with a chapter-by-chapter study guide that teaches the foundations before the applied topics. The lessons cover every official ABO-NCLE exam section, and practice exams use the official section weights. It also includes a guide to becoming a registered dispensing optician in California (SLD, CLD and RDO through the California State Board of Optometry).
 
-Your progress stays on your device. No account, ads, analytics, paid subscriptions, or paid feature tiers.
+Reading progress stays on your device. Supported study records can sync through your private iCloud account. No account, ads, analytics, paid subscriptions, or paid feature tiers.
 
 **[Build the app](#build-and-run)** · **[Report a bug](https://github.com/petty-foss-dev/Petty-Optician/issues/new)**
 
@@ -47,15 +47,16 @@ Real screenshots from the iPhone simulator.
 
 ## What's inside
 
-- **A guided textbook:** 14 chapters and 133 lessons across ABO and NCLE, with beginner-first reading order, chapter introductions, learning objectives, recaps, diagrams, notes, and saved reading progress. Relevant library videos and reading link to and from each chapter.
-- **1,193 practice questions** (684 ABO, 509 NCLE), each with an explanation, tagged by official section and topic. Quizzes can be built by section, difficulty, unseen, missed, or flagged.
-- **Mock exams in the real format:** 125 questions in 120 minutes, weighted by the content outline, with 25 unscored pretest items mixed in, no topic hints, an on-screen scientific calculator, and a review screen before you submit.
+- **A guided textbook:** 14 chapters and 133 lessons across ABO and NCLE, with beginner-first reading order, chapter introductions, learning objectives, recaps, diagrams, notes, and saved reading progress. Library resources link to their chapters. Selected lessons have worked cases, an exact resource, a trainer, and checkpoints that return to the passage. Today tracks completed reading separately from mock readiness.
+- **1,201 practice questions** (686 ABO, 515 NCLE), each with an explanation, tagged by official section and topic. Quizzes can be built by section, difficulty, unseen, missed, or flagged.
+- **74 exam objectives**, each linking to a lesson, a worked example and separate practice.
+- **Timed mock exams:** 125 questions in 120 minutes, with 100 scored questions allocated by the official domain weights and 25 additional unscored items mixed in, no topic hints, an on-screen scientific calculator, and a review screen before you submit.
 - **Hands-on trainers:**
-  - ABO: lensometer, frame adjusting, PD and seg height measuring, prism and base direction, ANSI Z80.1-2025 job checks
-  - NCLE: keratometer, GP fluorescein patterns, soft lens fit with a push-up test, toric rotation (LARS)
+  - ABO: lensometer, frame adjusting, PD and seg height measuring, prism and base direction, lens choice and ANSI Z80.1-2025 job checks
+  - NCLE: keratometer, GP fluorescein patterns, soft lens fit with a push-up test, toric rotation (LARS) and lens complications
 - **Unlimited math drills** for Prentice's rule, transposition, vertex, blank size, keratometry, tear lens and more, with worked solutions.
 - **640 spaced-repetition flashcards**, a 465-term glossary, 19 reference tables, and a formula sheet.
-- **Study guides** for every official section, with 13 original diagrams and 43 openly licensed photos.
+- **Study guides** for every official section, with 15 original diagrams and 43 openly licensed photos.
 - **681 free outside resources**, including 340 videos and playlists that play inside the app.
 - **Calculators** for spectacle and contact lens formulas, and a weak-topic report that shows what to drill next.
 - **Exam countdown, daily study plan and reminders.**

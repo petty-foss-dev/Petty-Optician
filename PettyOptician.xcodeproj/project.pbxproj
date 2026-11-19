@@ -32,6 +32,7 @@
 		1B120551392D6AFE0AE9E768 /* img-lens-clock-diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B52635A0C203D1C990AAE5 /* img-lens-clock-diagram.png */; };
 		1C5B68DBA58EA0AB6AC72EDE /* PrismDirectionTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EB47461A515C7087742A93 /* PrismDirectionTrainer.swift */; };
 		20B64C33B8C565E0BD9DB125 /* flashcards_ncle.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C13CDEB32732512C7E2E1 /* flashcards_ncle.json */; };
+		21DF31820247CC8E6D70FD32 /* OutlineTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224F1FB2AC916162986F25DB /* OutlineTopicView.swift */; };
 		23F7D30D712CBEE4ACC5F63A /* img-executive-bifocal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A71A73E77E996691196DB8DA /* img-executive-bifocal.jpg */; };
 		28B98D34D9483CFAF9A70449 /* img-soft-lens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A97292B8A50B4935AAED7C2C /* img-soft-lens.jpg */; };
 		28E1FE6C1DA0298A8E9D744D /* img-scleral-lens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 264B76256F55FBBB13467E32 /* img-scleral-lens.jpg */; };
@@ -58,6 +59,7 @@
 		3E7B4DB4FC14DFCF9538BD8B /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69A183FA32270341F0816D0 /* QuizView.swift */; };
 		3F930CFAB16FE3E43C324434 /* img-acanthamoeba-keratitis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DF991CB77329152D1D32B7A /* img-acanthamoeba-keratitis.jpg */; };
 		413E760517912AA2B7FC86F3 /* img-keratoconus-topography.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A1A033EFE20DEF14BFEF57C /* img-keratoconus-topography.jpg */; };
+		415AFABBE689DABB2E7752A6 /* StudyPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193859C063093EE7D31834F /* StudyPathTests.swift */; };
 		427F2B628B631107F5B64656 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1060245643359F895BA0C /* SettingsView.swift */; };
 		520888369056F4BFBA5B1973 /* img-corneal-neovascularization.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B8260CE7B274AD0E75754F /* img-corneal-neovascularization.jpg */; };
 		5667CDC4DEA78C5AD689B04E /* img-keratometer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF9DF59E75795DE700E55E2 /* img-keratometer.jpg */; };
@@ -70,6 +72,7 @@
 		5FF3E45CA3AA4D9DDC1356D3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C259717BFD7DEEA40D8A9829 /* RootView.swift */; };
 		66AF398886B2BAC11A364786 /* TipJar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C2408A417D052146ED5B3 /* TipJar.swift */; };
 		6AED2C5DDCD1DAD1BB57FE73 /* StudySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B43BB82AE889CB4EE38754 /* StudySettings.swift */; };
+		6B0765B02BC22BE0FAB6F3B0 /* outline-study.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E97CA9C1AD188004CC4744F /* outline-study.json */; };
 		6B6E5C2E60F94D98EA6ECC66 /* questions_cases.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EC26B23024658195E8A9100 /* questions_cases.json */; };
 		6C393D04B3C27DE912DCA152 /* exams.json in Resources */ = {isa = PBXBuildFile; fileRef = B41551FEDF5B3008AAD4661A /* exams.json */; };
 		6CF6DD20EE5817E73149B904 /* diagrams.json in Resources */ = {isa = PBXBuildFile; fileRef = C62CE7D245EAECB89C0B62E1 /* diagrams.json */; };
@@ -81,6 +84,7 @@
 		79224D0626E6CDDCBEFA6ED5 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F91BBCC1119AE606B969E /* StudyView.swift */; };
 		7DDC2F2C516BCAD5C3BEC75C /* ANSIJobCheckTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1673274589B21FBE7E149972 /* ANSIJobCheckTrainer.swift */; };
 		7F5B8C25121E950DAA83D978 /* ContentContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8BE0BABF875FD1A2C0B22 /* ContentContextTests.swift */; };
+		7F8FA3308823E6F46F19CB13 /* OutlineStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD4C065E1B47B315D946D80 /* OutlineStudyTests.swift */; };
 		7F90559FC63E4A9A7724A9E9 /* img-eye-cross-section.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FE3C7F1114BA5D5C51864B /* img-eye-cross-section.png */; };
 		7FD09FD57D0E91361FE6FCED /* ContentLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F25CD87524AC7C19A68F66 /* ContentLibrary.swift */; };
 		819959AC1739DF3908D58430 /* binder.json in Resources */ = {isa = PBXBuildFile; fileRef = 69A67CBE0AF7627BE4C0A5FC /* binder.json */; };
@@ -140,6 +144,7 @@
 		CD379E3ADF021F6C071F35FF /* tables_core.json in Resources */ = {isa = PBXBuildFile; fileRef = E292041B74721369036850D4 /* tables_core.json */; };
 		CE373795F96376597A72725F /* SupertonicVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2298162884F9A88CB9964 /* SupertonicVoice.swift */; };
 		D1D892EF37CA306D32D85EB2 /* TextbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A5CA98B65E3B7EB64448D /* TextbookTests.swift */; };
+		D32AB6F87E8A760FB1A5AC3B /* OutlineStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB8F00ADF37BCD96CFD13EC /* OutlineStudy.swift */; };
 		D336BC130916351B78118999 /* Sketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD56F0D12DB419FA4612897 /* Sketch.swift */; };
 		D56F9A504C9BA470F7ED2883 /* flashcards_abo_core.json in Resources */ = {isa = PBXBuildFile; fileRef = 80510CFE6847684C6171D172 /* flashcards_abo_core.json */; };
 		D656F031DF059B3FEEC63C71 /* img-glaucoma-cupping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 445BE8BD2C929FB469CFFAA1 /* img-glaucoma-cupping.jpg */; };
@@ -158,6 +163,7 @@
 		EEA71F10E29FF8BE9EB964DB /* StudyBinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10390D2DBF1F988CCB422A42 /* StudyBinderView.swift */; };
 		EEE06B674E3A6FDF7550425E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9A29F3E79B320AE0B40685D8 /* PrivacyInfo.xcprivacy */; };
 		EF39CE2652B4BFFCEEE35A6D /* img-lensometer-manual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 558792F677E0854075223512 /* img-lensometer-manual.jpg */; };
+		F16E04D55906BE3FA272F5A2 /* questions_lessons.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B400D568BD0EF09F22410C3 /* questions_lessons.json */; };
 		F3CE52E632E5C61CA370F930 /* img-ortho-k-lens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD2C85D66F9F5263AEAF7832 /* img-ortho-k-lens.jpg */; };
 		F4B58B3BA277DA715F84EF02 /* guides_ncle_outline.json in Resources */ = {isa = PBXBuildFile; fileRef = 96F8D9BF6A695A1BAC7FA096 /* guides_ncle_outline.json */; };
 		F6390016D18735C8D9C0DB12 /* Trainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A8827CCD68479C59E774E /* Trainers.swift */; };
@@ -178,6 +184,13 @@
 			remoteInfo = PettyOpticianWidgets;
 		};
 		9ADF9747D4F15339EC93430A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA6BC5F219214ABC863F5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5BDC7EBFBB7A81CA48CBF3B;
+			remoteInfo = PettyOptician;
+		};
+		B766058C28765C8881FB0C7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2FA6BC5F219214ABC863F5F0 /* Project object */;
 			proxyType = 1;
@@ -221,14 +234,17 @@
 		1CED0319025DD3BAC2D5E3A1 /* FeatureWaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureWaveTests.swift; sourceTree = "<group>"; };
 		20AC6592FF79C2D50F89D278 /* SupertonicManifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SupertonicManifest.json; sourceTree = "<group>"; };
 		21DB462977257CBE3A17F64B /* PictureQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureQuiz.swift; sourceTree = "<group>"; };
+		224F1FB2AC916162986F25DB /* OutlineTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineTopicView.swift; sourceTree = "<group>"; };
 		264B76256F55FBBB13467E32 /* img-scleral-lens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-scleral-lens.jpg"; sourceTree = "<group>"; };
 		26B5B5F76C2AAA50C9DEBA69 /* LessonLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonLinks.swift; sourceTree = "<group>"; };
 		27E463DB60A11D8A6597850C /* PettyOpticianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PettyOpticianApp.swift; sourceTree = "<group>"; };
 		282D34D116E227DC2B63F993 /* ExamCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamCalculator.swift; sourceTree = "<group>"; };
 		292350531CA47001CBF58391 /* resources_more.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resources_more.json; sourceTree = "<group>"; };
 		29A33083A47492181561F3B2 /* DiagramViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramViews.swift; sourceTree = "<group>"; };
+		2B400D568BD0EF09F22410C3 /* questions_lessons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_lessons.json; sourceTree = "<group>"; };
 		2E95A9A1F1F747E2CB8F2B3C /* MockReadiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReadiness.swift; sourceTree = "<group>"; };
 		2EA0093C847C1036109A80D9 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		2EAD9D15A45A1014F62C6154 /* PettyOpticianUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PettyOpticianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9A8EA1DFB498886D816CD3 /* PettyOpticianWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PettyOpticianWidgets.swift; sourceTree = "<group>"; };
 		2FE72C7D54B17CEFB2F6BE9D /* questions_abo_core.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_abo_core.json; sourceTree = "<group>"; };
 		301ABAE8944F9240E8319926 /* StudyOrganizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyOrganizationTests.swift; sourceTree = "<group>"; };
@@ -250,6 +266,7 @@
 		4AD56F0D12DB419FA4612897 /* Sketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sketch.swift; sourceTree = "<group>"; };
 		4CD68407E2CEB902FB45038C /* QuizBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBuilder.swift; sourceTree = "<group>"; };
 		4E40922C79BBB92784E8469B /* DrillGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillGenerator.swift; sourceTree = "<group>"; };
+		4E97CA9C1AD188004CC4744F /* outline-study.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "outline-study.json"; sourceTree = "<group>"; };
 		4F32414B7C572008800BD588 /* ExamDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamDayTests.swift; sourceTree = "<group>"; };
 		4F3C7285102EA826B1DA5A39 /* flashcards_ncle_outline.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flashcards_ncle_outline.json; sourceTree = "<group>"; };
 		535CB6350C1300DA486E6F3B /* img-pinguecula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-pinguecula.jpg"; sourceTree = "<group>"; };
@@ -268,6 +285,7 @@
 		5BC7F0B3BD3609740CEB8D3D /* FrameAdjustmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAdjustmentTests.swift; sourceTree = "<group>"; };
 		5C08C928EA183DFB0B9FDB0B /* img-pupillometer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-pupillometer.jpg"; sourceTree = "<group>"; };
 		5DF8BA02D9DE6D5FCF175640 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		6193859C063093EE7D31834F /* StudyPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPathTests.swift; sourceTree = "<group>"; };
 		628BBDC160EF2A68F4761DD3 /* ListenMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenMode.swift; sourceTree = "<group>"; };
 		62A6E9C4F7D6A33CDC200559 /* img-munson-sign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-munson-sign.jpg"; sourceTree = "<group>"; };
 		649D11F0A9F3B532711F9C7E /* img-progressive-lens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-progressive-lens.jpg"; sourceTree = "<group>"; };
@@ -339,6 +357,7 @@
 		D4F25CD87524AC7C19A68F66 /* ContentLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLibrary.swift; sourceTree = "<group>"; };
 		D7DCEFBC6C77FA2DA61A18C5 /* questions_abo_optics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_abo_optics.json; sourceTree = "<group>"; };
 		D86C2408A417D052146ED5B3 /* TipJar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJar.swift; sourceTree = "<group>"; };
+		DAB8F00ADF37BCD96CFD13EC /* OutlineStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineStudy.swift; sourceTree = "<group>"; };
 		DDF203E93E573DF26828A1E5 /* QuizResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsView.swift; sourceTree = "<group>"; };
 		DEF9DF59E75795DE700E55E2 /* img-keratometer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-keratometer.jpg"; sourceTree = "<group>"; };
 		DF4E47B6E332C84DD8DBC7C5 /* img-corneal-topography.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-corneal-topography.jpg"; sourceTree = "<group>"; };
@@ -350,6 +369,7 @@
 		E69A183FA32270341F0816D0 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		E7123F64266340B89D163062 /* LensComplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensComplicationTests.swift; sourceTree = "<group>"; };
 		E88CE896951628DA2B006009 /* CardScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScheduler.swift; sourceTree = "<group>"; };
+		ECD4C065E1B47B315D946D80 /* OutlineStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineStudyTests.swift; sourceTree = "<group>"; };
 		ECE8A67BA4034D34F2465E4B /* LensometerTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensometerTrainer.swift; sourceTree = "<group>"; };
 		EE39B0C234E90A66718E7BF1 /* img-ar-coating.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-ar-coating.jpg"; sourceTree = "<group>"; };
 		EFB4E0BF94C94AFA2ADB481A /* questions_ncle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions_ncle.json; sourceTree = "<group>"; };
@@ -391,6 +411,7 @@
 				8F7039A99986566C10D588E2 /* PettyOptician.storekit */,
 				112B3267C409BAD5922D5FF4 /* PettyOptician */,
 				27532F64BE0A937517CFC558 /* PettyOpticianTests */,
+				8DAAA3735D90CD1417722570 /* PettyOpticianUITests */,
 				3F884DA63582DA7E0F7F053C /* PettyOpticianWidgets */,
 				14CC74BA3292C27E066C049B /* Shared */,
 				6289A300EA88E73F04F50AA1 /* Products */,
@@ -434,6 +455,7 @@
 				A958C0C089329EDD28987783 /* LensChoiceTests.swift */,
 				E7123F64266340B89D163062 /* LensComplicationTests.swift */,
 				95150E5506B8F0677836DD97 /* MeasurementPrismTests.swift */,
+				ECD4C065E1B47B315D946D80 /* OutlineStudyTests.swift */,
 				A30843AFEB376DB4EEB7E99D /* PettyOpticianTests.swift */,
 				B0B8C9608C1290428030785B /* SoftLensFitTests.swift */,
 				301ABAE8944F9240E8319926 /* StudyOrganizationTests.swift */,
@@ -476,6 +498,7 @@
 			children = (
 				E4336299AC238C551BA8C879 /* InfoViews.swift */,
 				09EE7F21066F945CE34DE900 /* Notes.swift */,
+				224F1FB2AC916162986F25DB /* OutlineTopicView.swift */,
 				66DD2DE51093B3A3CC3D822C /* ReferenceViews.swift */,
 				6F1625FAA5B6DCB5A054DD94 /* Search.swift */,
 				10390D2DBF1F988CCB422A42 /* StudyBinderView.swift */,
@@ -491,6 +514,7 @@
 			children = (
 				55B5168CC2713A3DCC6B73FE /* PettyOptician.app */,
 				1C18FD2F46C77AA3AA1FCA05 /* PettyOpticianTests.xctest */,
+				2EAD9D15A45A1014F62C6154 /* PettyOpticianUITests.xctest */,
 				435F3F2EA69C5A7C546FABC5 /* PettyOpticianWidgets.appex */,
 			);
 			name = Products;
@@ -550,6 +574,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8DAAA3735D90CD1417722570 /* PettyOpticianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6193859C063093EE7D31834F /* StudyPathTests.swift */,
+			);
+			path = PettyOpticianUITests;
+			sourceTree = "<group>";
+		};
 		98F596E3DE045BC85FEBEF96 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,6 +599,7 @@
 				4E40922C79BBB92784E8469B /* DrillGenerator.swift */,
 				26B5B5F76C2AAA50C9DEBA69 /* LessonLinks.swift */,
 				03B0E32309DC6E4F2D2CD79F /* OpticsMath.swift */,
+				DAB8F00ADF37BCD96CFD13EC /* OutlineStudy.swift */,
 				21DB462977257CBE3A17F64B /* PictureQuiz.swift */,
 				A0A2A1E8A5DBE8D8D52C9BE9 /* Progress.swift */,
 				8F1F3F23B31287D3F8B579AE /* ProgressMerge.swift */,
@@ -705,11 +738,13 @@
 				96F8D9BF6A695A1BAC7FA096 /* guides_ncle_outline.json */,
 				15141ED7A43D41C19C38066F /* guides_ncle.json */,
 				0CE0CE0B9B67DE3B0AD7311F /* images.json */,
+				4E97CA9C1AD188004CC4744F /* outline-study.json */,
 				2FE72C7D54B17CEFB2F6BE9D /* questions_abo_core.json */,
 				570A09099164570FC6AEAB26 /* questions_abo_lenses.json */,
 				D7DCEFBC6C77FA2DA61A18C5 /* questions_abo_optics.json */,
 				07821165B43510F6402A1F77 /* questions_abo_outline.json */,
 				3EC26B23024658195E8A9100 /* questions_cases.json */,
+				2B400D568BD0EF09F22410C3 /* questions_lessons.json */,
 				B03273D952E1CD20319B11C9 /* questions_ncle_outline.json */,
 				EFB4E0BF94C94AFA2ADB481A /* questions_ncle.json */,
 				7F4D2248DFF559A1849490A5 /* resources_library.json */,
@@ -783,6 +818,24 @@
 			productReference = 55B5168CC2713A3DCC6B73FE /* PettyOptician.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F4899A5CF936F77788B1D12C /* PettyOpticianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0305E872CCC13F7C15D93B /* Build configuration list for PBXNativeTarget "PettyOpticianUITests" */;
+			buildPhases = (
+				5D3A9B4C06ADCE0CB1E6332C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DE368DB2343E709A867018 /* PBXTargetDependency */,
+			);
+			name = PettyOpticianUITests;
+			packageProductDependencies = (
+			);
+			productName = PettyOpticianUITests;
+			productReference = 2EAD9D15A45A1014F62C6154 /* PettyOpticianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -803,6 +856,10 @@
 					D5BDC7EBFBB7A81CA48CBF3B = {
 						DevelopmentTeam = 9TT6DBK8W3;
 						ProvisioningStyle = Automatic;
+					};
+					F4899A5CF936F77788B1D12C = {
+						DevelopmentTeam = 9TT6DBK8W3;
+						TestTargetID = D5BDC7EBFBB7A81CA48CBF3B;
 					};
 				};
 			};
@@ -826,6 +883,7 @@
 				D5BDC7EBFBB7A81CA48CBF3B /* PettyOptician */,
 				517B2C19B9179010E09508FB /* PettyOpticianWidgets */,
 				7495C5B55AD60FDA294EB2DF /* PettyOpticianTests */,
+				F4899A5CF936F77788B1D12C /* PettyOpticianUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -897,11 +955,13 @@
 				B5E741E076CA6811E4A2BC34 /* img-slit-lamp.jpg in Resources */,
 				8C4E831B90C309EF4F19795B /* img-soft-lens-on-eye.jpg in Resources */,
 				28B98D34D9483CFAF9A70449 /* img-soft-lens.jpg in Resources */,
+				6B0765B02BC22BE0FAB6F3B0 /* outline-study.json in Resources */,
 				AD060F1DFAB8649EC59489B1 /* questions_abo_core.json in Resources */,
 				1600FEB34E831B24C694F74D /* questions_abo_lenses.json in Resources */,
 				BD1821F78AE6851493A4E2DD /* questions_abo_optics.json in Resources */,
 				383F29938810EFDFC525ED59 /* questions_abo_outline.json in Resources */,
 				6B6E5C2E60F94D98EA6ECC66 /* questions_cases.json in Resources */,
+				F16E04D55906BE3FA272F5A2 /* questions_lessons.json in Resources */,
 				B107A3458A7A3F172682D7A8 /* questions_ncle.json in Resources */,
 				31C1BF3AEF00A10A4787CABE /* questions_ncle_outline.json in Resources */,
 				FD90E2A0444EA1BC48763ACA /* resources_library.json in Resources */,
@@ -931,6 +991,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5D3A9B4C06ADCE0CB1E6332C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415AFABBE689DABB2E7752A6 /* StudyPathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C0AA4C5AA788A3202BA981A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -966,6 +1034,8 @@
 				0C21C489CA1A94BA6103613B /* MockReadiness.swift in Sources */,
 				B2BE673270C4CB6CC1B9E224 /* Notes.swift in Sources */,
 				E5B288C85EDF9CB05DEAC15C /* OpticsMath.swift in Sources */,
+				D32AB6F87E8A760FB1A5AC3B /* OutlineStudy.swift in Sources */,
+				21DF31820247CC8E6D70FD32 /* OutlineTopicView.swift in Sources */,
 				59A4E4A6F795063BD1D6C759 /* PDMeasureTrainer.swift in Sources */,
 				EE678C4B514C3E57B3A48831 /* PettyOpticianApp.swift in Sources */,
 				B23017014F93D442B6CD3D7E /* PictureQuiz.swift in Sources */,
@@ -1016,6 +1086,7 @@
 				8F0D8593DBF9B0FAEA36A919 /* LensChoiceTests.swift in Sources */,
 				C2492B55F02656C2E371CFC5 /* LensComplicationTests.swift in Sources */,
 				330CEF783633406C02C6FB3F /* MeasurementPrismTests.swift in Sources */,
+				7F8FA3308823E6F46F19CB13 /* OutlineStudyTests.swift in Sources */,
 				E240D285DDAD794CD1964031 /* PettyOpticianTests.swift in Sources */,
 				05750038EB9A1115E2842F8A /* SoftLensFitTests.swift in Sources */,
 				0ED0A21579FD1461E85883CB /* StudyOrganizationTests.swift in Sources */,
@@ -1046,6 +1117,11 @@
 			isa = PBXTargetDependency;
 			target = 517B2C19B9179010E09508FB /* PettyOpticianWidgets */;
 			targetProxy = 43FA38A883E82D3DD0092A76 /* PBXContainerItemProxy */;
+		};
+		D3DE368DB2343E709A867018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5BDC7EBFBB7A81CA48CBF3B /* PettyOptician */;
+			targetProxy = B766058C28765C8881FB0C7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1184,6 +1260,24 @@
 			};
 			name = Debug;
 		};
+		25027A0D8BAAEADA2EFBD792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9TT6DBK8W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaaclamb.PettyOpticianUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PettyOptician;
+			};
+			name = Debug;
+		};
 		27BB853ED829B8302C1FB1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1200,6 +1294,24 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PettyOptician.app/PettyOptician";
+			};
+			name = Release;
+		};
+		43FD7B4D1B36DDEF1019D850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9TT6DBK8W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaaclamb.PettyOpticianUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PettyOptician;
 			};
 			name = Release;
 		};
@@ -1324,6 +1436,15 @@
 			buildConfigurations = (
 				C6098351301A98BC73B89828 /* Debug */,
 				27BB853ED829B8302C1FB1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D0305E872CCC13F7C15D93B /* Build configuration list for PBXNativeTarget "PettyOpticianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25027A0D8BAAEADA2EFBD792 /* Debug */,
+				43FD7B4D1B36DDEF1019D850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

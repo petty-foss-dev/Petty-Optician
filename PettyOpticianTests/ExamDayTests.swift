@@ -67,7 +67,7 @@ final class ExamDayTests: XCTestCase {
     func testPretestItemsAreTrackedButNotScored() throws {
         let container = try ModelContainer(for: Schema(ProgressSchema.models), configurations: ModelConfiguration(isStoredInMemoryOnly: true, cloudKitDatabase: .none))
         let questions = (0..<10).map { question("pre-\($0)") }
-        let config = QuizConfig(exam: .abo, title: "Mock", count: 10, timeLimitSeconds: 600, pretestCount: 3)
+        let config = QuizConfig(exam: .abo, title: "Mock", count: 10, timeLimitSeconds: 600, pretestIDs: ["pre-1", "pre-5", "pre-9"])
         let session = QuizSession(config: config, questions: questions)
         XCTAssertEqual(session.pretestIndices.count, 3)
         for index in questions.indices {

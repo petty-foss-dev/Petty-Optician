@@ -1,0 +1,812 @@
+{
+  "abo": {
+    "Terminology": {
+      "lessons": [
+        "abo.optics#3",
+        "abo.optics#4"
+      ],
+      "example": "abo-opt-009",
+      "checks": [
+        "abo-opt-010"
+      ]
+    },
+    "Prescriptions: format, transposition, common irregularities": {
+      "lessons": [
+        "abo.optics#1",
+        "abo.optics#5"
+      ],
+      "example": "abo-dsp-004",
+      "checks": [
+        "abo-dsp-005",
+        "abo-opt-039"
+      ]
+    },
+    "Lens characteristics, powers, types and materials": {
+      "lessons": [
+        "abo.optics#4",
+        "abo.products#2",
+        "abo.products#4"
+      ],
+      "example": "abo-len-016",
+      "checks": [
+        "abo-opt-019",
+        "abo-len-018"
+      ]
+    },
+    "Base curve and thickness effects": {
+      "lessons": [
+        "abo.optics#9"
+      ],
+      "example": "case-abo-011",
+      "checks": [
+        "abo-opt-081",
+        "abo-opt-087"
+      ]
+    },
+    "Prismatic effects": {
+      "lessons": [
+        "abo.optics#2",
+        "abo.optics#6",
+        "abo.optics#7"
+      ],
+      "example": "case-abo-009",
+      "checks": [
+        "lesson-order",
+        "abo-opt-064"
+      ]
+    },
+    "Measurement systems (metric, boxing)": {
+      "lessons": [
+        "abo.optics#0"
+      ],
+      "example": "abo-frm-005",
+      "checks": [
+        "abo-frm-013",
+        "abo-dsp-028"
+      ]
+    },
+    "Lens options for occupations and lifestyle": {
+      "lessons": [
+        "abo.products#5",
+        "abo.products#6",
+        "abo.products#8"
+      ],
+      "example": "case-abo-063",
+      "checks": [
+        "abo-len-046",
+        "case-abo-065"
+      ]
+    },
+    "Usable accommodation and range of vision": {
+      "lessons": [
+        "abo.optics#13",
+        "abo.optics#11"
+      ],
+      "example": "abo-out-143",
+      "checks": [
+        "abo-out-144",
+        "abo-out-146"
+      ]
+    },
+    "Neutralization": {
+      "lessons": [
+        "abo.optics#13",
+        "abo.instruments#2"
+      ],
+      "example": "abo-out-139",
+      "checks": [
+        "abo-out-140"
+      ]
+    },
+    "Formulas: Prentice's rule, vertical imbalance, vertex compensation, decentration, oblique meridian power, magnification, anisometropia/antimetropia, aniseikonia": {
+      "lessons": [
+        "abo.optics#6",
+        "abo.optics#7",
+        "abo.optics#8",
+        "abo.optics#5",
+        "abo.optics#10",
+        "abo.optics#12"
+      ],
+      "example": "case-abo-024",
+      "checks": [
+        "abo-opt-070",
+        "abo-opt-043",
+        "abo-out-134"
+      ]
+    },
+    "Adnexa, anterior and posterior segment structures": {
+      "lessons": [
+        "abo.anatomy#0",
+        "abo.anatomy#1",
+        "abo.anatomy#2",
+        "abo.anatomy#4"
+      ],
+      "example": "abo-ana-013",
+      "checks": [
+        "abo-ana-018",
+        "abo-ana-037"
+      ]
+    },
+    "Visual pathway": {
+      "lessons": [
+        "abo.anatomy#3"
+      ],
+      "example": "abo-ana-023",
+      "checks": [
+        "abo-ana-024"
+      ]
+    },
+    "Pathology: glaucoma, macular degeneration, scotoma, cataract, diabetes, amblyopia, aphakia/pseudophakia, nystagmus, strabismus": {
+      "lessons": [
+        "abo.anatomy#6",
+        "abo.anatomy#8"
+      ],
+      "example": "case-abo-028",
+      "checks": [
+        "abo-ana-052",
+        "abo-out-123"
+      ]
+    },
+    "Refractive errors and visual acuity": {
+      "lessons": [
+        "abo.anatomy#5"
+      ],
+      "example": "abo-ana-038",
+      "checks": [
+        "case-abo-032"
+      ]
+    },
+    "Prism imbalance: phorias, tropias, diplopia, convergence/divergence": {
+      "lessons": [
+        "abo.anatomy#8",
+        "abo.anatomy#3"
+      ],
+      "example": "abo-out-128",
+      "checks": [
+        "abo-out-125",
+        "abo-out-129"
+      ]
+    },
+    "Frames: availability, materials, uses, limitations, parameters": {
+      "lessons": [
+        "abo.products#0",
+        "abo.products#1"
+      ],
+      "example": "case-abo-054",
+      "checks": [
+        "abo-frm-020",
+        "abo-out-085"
+      ]
+    },
+    "Lenses: base curves, segment styles, materials, tints, coatings, polarization, edge treatments": {
+      "lessons": [
+        "abo.products#2",
+        "abo.products#5",
+        "abo.products#7",
+        "abo.products#8",
+        "abo.products#12"
+      ],
+      "example": "case-abo-048",
+      "checks": [
+        "abo-len-062",
+        "abo-out-082"
+      ]
+    },
+    "Traditional vs digitally designed lenses": {
+      "lessons": [
+        "abo.products#12",
+        "abo.products#4"
+      ],
+      "example": "abo-len-060",
+      "checks": [
+        "abo-out-079"
+      ]
+    },
+    "Low vision aids": {
+      "lessons": [
+        "abo.products#11"
+      ],
+      "example": "abo-out-062",
+      "checks": [
+        "abo-out-063"
+      ]
+    },
+    "Preassembled (over-the-counter) eyewear": {
+      "lessons": [
+        "abo.products#11"
+      ],
+      "example": "abo-out-074",
+      "checks": [
+        "abo-out-075"
+      ]
+    },
+    "Lensmeter / focimeter": {
+      "lessons": [
+        "abo.instruments#2",
+        "abo.instruments#3",
+        "abo.instruments#0"
+      ],
+      "example": "case-abo-057",
+      "checks": [
+        "abo-dsp-034",
+        "abo-out-017"
+      ]
+    },
+    "Lens clock, calipers, millimeter ruler, circumference gauge": {
+      "lessons": [
+        "abo.instruments#5",
+        "abo.instruments#1"
+      ],
+      "example": "abo-dsp-045",
+      "checks": [
+        "abo-out-046",
+        "abo-out-047"
+      ]
+    },
+    "Corneal reflex pupilometer, distometer": {
+      "lessons": [
+        "abo.instruments#6"
+      ],
+      "example": "abo-out-051",
+      "checks": [
+        "abo-out-053"
+      ]
+    },
+    "Adjusting hand tools (pliers)": {
+      "lessons": [
+        "abo.instruments#6"
+      ],
+      "example": "abo-out-054",
+      "checks": [
+        "abo-out-055"
+      ]
+    },
+    "Digital measurement systems": {
+      "lessons": [
+        "abo.instruments#4"
+      ],
+      "example": "abo-out-059",
+      "checks": [
+        "abo-out-060"
+      ]
+    },
+    "Patient history and lifestyle needs": {
+      "lessons": [
+        "abo.dispensing#1",
+        "abo.dispensing#8"
+      ],
+      "example": "case-abo-065",
+      "checks": [
+        "case-abo-066"
+      ]
+    },
+    "Fitting and adjusting frames (vertex distance, pantoscopic tilt, face form)": {
+      "lessons": [
+        "abo.dispensing#3",
+        "abo.dispensing#4"
+      ],
+      "example": "case-abo-001",
+      "checks": [
+        "case-abo-037"
+      ]
+    },
+    "Positioning multifocals, optical centers, major reference points": {
+      "lessons": [
+        "abo.dispensing#6",
+        "abo.dispensing#5"
+      ],
+      "example": "case-abo-068",
+      "checks": [
+        "abo-dsp-023",
+        "case-abo-064"
+      ]
+    },
+    "Frame measurements and alignment": {
+      "lessons": [
+        "abo.dispensing#2",
+        "abo.optics#0"
+      ],
+      "example": "case-abo-033",
+      "checks": [
+        "abo-frm-042"
+      ]
+    },
+    "Differences between new and previous eyewear": {
+      "lessons": [
+        "abo.dispensing#8"
+      ],
+      "example": "case-abo-007",
+      "checks": [
+        "case-abo-022"
+      ]
+    },
+    "Lens parameters: blank size, effective diameter, decentration": {
+      "lessons": [
+        "abo.dispensing#0",
+        "abo.dispensing#7",
+        "abo.optics#0"
+      ],
+      "example": "case-abo-056",
+      "checks": [
+        "abo-dsp-029"
+      ]
+    },
+    "Effects of lens power, design and material changes": {
+      "lessons": [
+        "abo.dispensing#8",
+        "abo.products#2"
+      ],
+      "example": "case-abo-067",
+      "checks": [
+        "case-abo-017"
+      ]
+    },
+    "Product performance and duty to warn (UV, HEV, ASTM)": {
+      "lessons": [
+        "abo.laws#9",
+        "abo.laws#5"
+      ],
+      "example": "case-abo-045",
+      "checks": [
+        "abo-out-097",
+        "abo-out-102"
+      ]
+    },
+    "National guidelines: OSHA, ANSI, FDA, EPA, HIPAA": {
+      "lessons": [
+        "abo.laws#0",
+        "abo.laws#5",
+        "abo.laws#6",
+        "abo.laws#8"
+      ],
+      "example": "case-abo-043",
+      "checks": [
+        "abo-std-038",
+        "abo-std-050"
+      ]
+    },
+    "Universal precautions": {
+      "lessons": [
+        "abo.laws#8"
+      ],
+      "example": "abo-out-086",
+      "checks": [
+        "abo-out-093"
+      ]
+    },
+    "CPT coding, EMR and insurance requirements": {
+      "lessons": [
+        "abo.laws#10"
+      ],
+      "example": "abo-out-107",
+      "checks": [
+        "abo-out-113",
+        "abo-out-117"
+      ]
+    }
+  },
+  "ncle": {
+    "Tear film, conjunctiva, lids, fornix, lashes, canthi": {
+      "lessons": [
+        "ncle.anatomy#4",
+        "ncle.anatomy#5",
+        "ncle.anatomy#6"
+      ],
+      "example": "ncle-ana-023",
+      "checks": [
+        "ncle-ana-016",
+        "ncle-ana-031"
+      ]
+    },
+    "Corneal anatomy and physiology (layers, metabolism, edema, vascularization)": {
+      "lessons": [
+        "ncle.anatomy#0",
+        "ncle.anatomy#2",
+        "ncle.anatomy#3"
+      ],
+      "example": "case-ncle-052",
+      "checks": [
+        "ncle-ana-038",
+        "ncle-ana-041"
+      ]
+    },
+    "Iris, pupil, sclera, anterior and posterior chambers, crystalline lens, retina, choroid": {
+      "lessons": [
+        "ncle.anatomy#9"
+      ],
+      "example": "ncle-out-090",
+      "checks": [
+        "ncle-out-092",
+        "ncle-out-093"
+      ]
+    },
+    "Systemic drugs and diseases affecting wear (thyroid, Sjogren's, diabetes, arthritis)": {
+      "lessons": [
+        "ncle.anatomy#7"
+      ],
+      "example": "ncle-out-072",
+      "checks": [
+        "ncle-out-069",
+        "ncle-out-073"
+      ]
+    },
+    "CL-related conditions: keratoconus, neovascularization, infiltrates and ulcers, microbial keratitis, GPC, blepharitis, pterygium, pinguecula": {
+      "lessons": [
+        "ncle.anatomy#8",
+        "ncle.followup#3",
+        "ncle.followup#4"
+      ],
+      "example": "case-ncle-034",
+      "checks": [
+        "ncle-out-087",
+        "ncle-out-078"
+      ]
+    },
+    "Myopia, hyperopia, astigmatism, presbyopia": {
+      "lessons": [
+        "abo.anatomy#5",
+        "ncle.refraction#3",
+        "ncle.refraction#6"
+      ],
+      "example": "ncle-opt-038",
+      "checks": [
+        "ncle-opt-004",
+        "ncle-opt-029"
+      ]
+    },
+    "Anisometropia, aniseikonia, amblyopia, aphakia, pseudophakia": {
+      "lessons": [
+        "ncle.refraction#5",
+        "abo.optics#12",
+        "abo.anatomy#8"
+      ],
+      "example": "ncle-opt-044",
+      "checks": [
+        "ncle-opt-043"
+      ]
+    },
+    "Optics: refraction, prismatic effects, residual astigmatism, lacrimal lens, accommodation": {
+      "lessons": [
+        "ncle.refraction#2",
+        "ncle.refraction#3",
+        "ncle.refraction#5"
+      ],
+      "example": "ncle-opt-018",
+      "checks": [
+        "ncle-opt-027",
+        "ncle-opt-040"
+      ]
+    },
+    "Transposition, spherical equivalent, sagittal depth, vertex distance": {
+      "lessons": [
+        "ncle.refraction#0",
+        "ncle.refraction#1",
+        "ncle.refraction#4",
+        "ncle.prefitting#4",
+        "abo.optics#5"
+      ],
+      "example": "case-ncle-058",
+      "checks": [
+        "ncle-opt-013",
+        "ncle-opt-015"
+      ]
+    },
+    "Keratometer and corneal topography": {
+      "lessons": [
+        "ncle.instruments#0",
+        "ncle.instruments#1",
+        "ncle.instruments#4"
+      ],
+      "example": "case-ncle-003",
+      "checks": [
+        "ncle-ins-023",
+        "ncle-ins-001"
+      ]
+    },
+    "Anterior segment OCT": {
+      "lessons": [
+        "ncle.instruments#9"
+      ],
+      "example": "ncle-out-097",
+      "checks": [
+        "lesson-landing",
+        "ncle-out-098"
+      ]
+    },
+    "Schirmer tests and tear break-up time": {
+      "lessons": [
+        "ncle.instruments#9"
+      ],
+      "example": "ncle-out-106",
+      "checks": [
+        "ncle-out-100",
+        "ncle-out-103"
+      ]
+    },
+    "Slit lamp operation and evaluation with/without lenses": {
+      "lessons": [
+        "ncle.instruments#2",
+        "ncle.instruments#3",
+        "ncle.instruments#9"
+      ],
+      "example": "case-ncle-035",
+      "checks": [
+        "ncle-ins-012",
+        "ncle-out-107"
+      ]
+    },
+    "In-office modification and verification: radiuscope, lensometer, thickness and diameter gauges": {
+      "lessons": [
+        "ncle.instruments#5",
+        "ncle.instruments#6"
+      ],
+      "example": "ncle-ins-028",
+      "checks": [
+        "lesson-bevel",
+        "ncle-ins-031",
+        "ncle-ins-033"
+      ]
+    },
+    "ANSI Z80 tolerances": {
+      "lessons": [
+        "ncle.instruments#8"
+      ],
+      "example": "ncle-std-023",
+      "checks": [
+        "ncle-std-022"
+      ]
+    },
+    "Lifestyle, medical and motivational factors": {
+      "lessons": [
+        "ncle.prefitting#7",
+        "ncle.prefitting#8"
+      ],
+      "example": "ncle-fit-002",
+      "checks": [
+        "ncle-fit-001"
+      ]
+    },
+    "Special designs: torics, multifocals, aspheric, hybrid, scleral, orthokeratology": {
+      "lessons": [
+        "ncle.prefitting#5",
+        "ncle.prefitting#6",
+        "ncle.prefitting#9"
+      ],
+      "example": "ncle-out-149",
+      "checks": [
+        "ncle-out-151",
+        "ncle-out-154"
+      ]
+    },
+    "Material properties: Dk, Dk/t, wetting angle, water content, silicone hydrogel, modulus, surface treatments": {
+      "lessons": [
+        "ncle.prefitting#0",
+        "ncle.prefitting#1",
+        "ncle.prefitting#2",
+        "ncle.prefitting#9"
+      ],
+      "example": "ncle-out-146",
+      "checks": [
+        "ncle-ana-012",
+        "ncle-out-145"
+      ]
+    },
+    "Determining base curve, peripheral curves, diameter, thickness, power, edge design": {
+      "lessons": [
+        "ncle.prefitting#4",
+        "ncle.prefitting#10"
+      ],
+      "example": "ncle-out-158",
+      "checks": [
+        "ncle-out-159",
+        "ncle-mat-016"
+      ]
+    },
+    "Lens selection and application": {
+      "lessons": [
+        "ncle.fitting#1",
+        "ncle.fitting#3",
+        "ncle.dispensing#6"
+      ],
+      "example": "ncle-fit-009",
+      "checks": [
+        "ncle-fit-018",
+        "ncle-fit-032"
+      ]
+    },
+    "Fluorescein pattern evaluation": {
+      "lessons": [
+        "ncle.fitting#4",
+        "ncle.fitting#3"
+      ],
+      "example": "case-ncle-022",
+      "checks": [
+        "ncle-fit-022"
+      ]
+    },
+    "Movement, centration, stability and axis rotation": {
+      "lessons": [
+        "ncle.fitting#0",
+        "ncle.fitting#1",
+        "ncle.fitting#2"
+      ],
+      "example": "case-ncle-009",
+      "checks": [
+        "case-ncle-006",
+        "case-ncle-002"
+      ]
+    },
+    "Patient subjective response and visual acuity": {
+      "lessons": [
+        "ncle.fitting#1",
+        "ncle.fitting#5",
+        "ncle.refraction#6"
+      ],
+      "example": "case-ncle-013",
+      "checks": [
+        "case-ncle-011",
+        "ncle-fit-039"
+      ]
+    },
+    "Wearing schedules, replacement intervals, adaptation, compliance": {
+      "lessons": [
+        "ncle.dispensing#0",
+        "ncle.dispensing#3"
+      ],
+      "example": "case-ncle-044",
+      "checks": [
+        "ncle-out-010",
+        "lesson-teachback"
+      ]
+    },
+    "Solution compatibility and uses": {
+      "lessons": [
+        "ncle.dispensing#1"
+      ],
+      "example": "ncle-out-015",
+      "checks": [
+        "ncle-out-025"
+      ]
+    },
+    "Cleaning and disinfection: chemical, hydrogen peroxide, thermal/UV, protein removers, surfactants": {
+      "lessons": [
+        "ncle.dispensing#4"
+      ],
+      "example": "case-ncle-038",
+      "checks": [
+        "ncle-out-026",
+        "ncle-out-037"
+      ]
+    },
+    "Insertion and removal techniques for rigid and soft lenses": {
+      "lessons": [
+        "ncle.dispensing#2",
+        "ncle.dispensing#6"
+      ],
+      "example": "case-ncle-047",
+      "checks": [
+        "ncle-out-051",
+        "ncle-out-060"
+      ]
+    },
+    "Hygiene and personal care products": {
+      "lessons": [
+        "ncle.dispensing#5",
+        "ncle.dispensing#6"
+      ],
+      "example": "case-ncle-043",
+      "checks": [
+        "ncle-out-061",
+        "ncle-out-062"
+      ]
+    },
+    "Subjective findings: dryness, awareness, fluctuating vision, pain, photophobia": {
+      "lessons": [
+        "ncle.followup#1",
+        "ncle.followup#7"
+      ],
+      "example": "case-ncle-050",
+      "checks": [
+        "case-ncle-031"
+      ]
+    },
+    "Objective findings: steep/flat fits, staining, edema, SEAL, CLARE, CLPU, SLK, VLK, dimple veiling, mucin balls, warpage": {
+      "lessons": [
+        "ncle.followup#3",
+        "ncle.followup#8",
+        "ncle.followup#9"
+      ],
+      "example": "case-ncle-019",
+      "checks": [
+        "ncle-fol-014",
+        "ncle-out-117"
+      ]
+    },
+    "Overrefraction and gross evaluation of movement": {
+      "lessons": [
+        "ncle.refraction#6",
+        "ncle.fitting#1",
+        "ncle.fitting#2"
+      ],
+      "example": "case-ncle-010",
+      "checks": [
+        "ncle-opt-045",
+        "case-ncle-001"
+      ]
+    },
+    "Follow-up protocols and changing lens parameters": {
+      "lessons": [
+        "ncle.followup#0",
+        "ncle.followup#9"
+      ],
+      "example": "ncle-out-126",
+      "checks": [
+        "ncle-fol-003",
+        "ncle-out-128"
+      ]
+    },
+    "Documentation": {
+      "lessons": [
+        "ncle.followup#7",
+        "ncle.followup#9"
+      ],
+      "example": "ncle-out-125",
+      "checks": [
+        "lesson-record"
+      ]
+    },
+    "Record retention and charting": {
+      "lessons": [
+        "ncle.regulatory#7",
+        "ncle.regulatory#8"
+      ],
+      "example": "ncle-out-134",
+      "checks": [
+        "ncle-out-135"
+      ]
+    },
+    "Inventory and ordering": {
+      "lessons": [
+        "ncle.regulatory#8"
+      ],
+      "example": "ncle-out-140",
+      "checks": [
+        "ncle-out-141"
+      ]
+    },
+    "Who may prescribe contact lenses; verifying the original prescriber": {
+      "lessons": [
+        "ncle.regulatory#0",
+        "ncle.regulatory#1",
+        "ncle.regulatory#7"
+      ],
+      "example": "case-ncle-055",
+      "checks": [
+        "ncle-out-129",
+        "ncle-out-133"
+      ]
+    },
+    "Recall procedures": {
+      "lessons": [
+        "ncle.regulatory#8"
+      ],
+      "example": "ncle-out-139",
+      "checks": [
+        "ncle-out-138"
+      ]
+    },
+    "Federal rules: FDA, FTC, FCLCA, CDC, OSHA, ANSI, HIPAA": {
+      "lessons": [
+        "ncle.regulatory#0",
+        "ncle.regulatory#4",
+        "ncle.regulatory#6",
+        "ncle.regulatory#8"
+      ],
+      "example": "case-ncle-054",
+      "checks": [
+        "ncle-std-018",
+        "ncle-out-144"
+      ]
+    }
+  }
+}

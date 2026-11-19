@@ -43,7 +43,7 @@ struct QuizResultsView: View {
                     Text("\(record.correct) of \(record.total) correct")
                         .foregroundStyle(palette.secondaryText)
                     if !session.pretestIndices.isEmpty {
-                        Text("Scored like the real exam: \(session.pretestIndices.count) unscored pretest items were mixed in and aren't counted.")
+                        Text("This mock included \(session.pretestIndices.count) unscored items. Your score and section breakdown use the remaining questions.")
                             .font(.caption)
                             .foregroundStyle(palette.secondaryText)
                             .fixedSize(horizontal: false, vertical: true)
@@ -107,7 +107,6 @@ struct QuizResultsView: View {
         .buttonStyle(.borderedProminent)
     }
 
-    /// Lessons behind the missed questions, most-missed first.
     @ViewBuilder
     private var lessonsToReview: some View {
         let missed = Set(record.missedIDs)
@@ -119,10 +118,9 @@ struct QuizResultsView: View {
             VStack(alignment: .leading, spacing: 10) {
                 SectionTitle(title: "Lessons to Review")
                 ForEach(Array(lessons), id: \.lesson) { item in
-                    if let domain = library.domains(for: record.exam).first(where: { $0.id == item.lesson.domain }),
-                       let section = library.guide(for: domain.id)?.sections[item.lesson.index] {
-                        NavigationLink { GuideView(domain: domain, focus: item.lesson.index) } label: {
-                            LinkRow(title: section.heading, subtitle: "\(domain.name) · \(item.misses) missed", symbol: "text.book.closed")
+                    if let lesson = Textbook.shared.lesson(for: item.lesson) {
+                        NavigationLink { TextbookReaderView(exam: record.exam, lesson: lesson) } label: {
+                            LinkRow(title: lesson.section.heading, subtitle: "\(library.domainName(item.lesson.domain)) · \(item.misses) missed", symbol: "text.book.closed")
                         }
                         .buttonStyle(.plain)
                     }

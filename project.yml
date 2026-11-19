@@ -55,6 +55,7 @@ targets:
     scheme:
       testTargets:
         - PettyOpticianTests
+        - PettyOpticianUITests
       storeKitConfiguration: PettyOptician.storekit
   PettyOpticianWidgets:
     type: app-extension
@@ -96,3 +97,16 @@ targets:
         DEVELOPMENT_TEAM: 9TT6DBK8W3
         CODE_SIGN_STYLE: Automatic
         GENERATE_INFOPLIST_FILE: YES
+  PettyOpticianUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - PettyOpticianUITests
+    dependencies:
+      - target: PettyOptician
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.isaaclamb.PettyOpticianUITests
+        DEVELOPMENT_TEAM: 9TT6DBK8W3
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: PettyOptician

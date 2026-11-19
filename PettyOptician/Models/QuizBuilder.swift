@@ -34,7 +34,7 @@ struct QuizConfig: Hashable, Sendable {
     var difficulties: Set<Int> = []
     var source: Source = .all
     var timeLimitSeconds: Int?
-    var pretestCount = 0
+    var pretestIDs: Set<String> = []
 
     var isTimed: Bool { timeLimitSeconds != nil }
 }
@@ -92,24 +92,22 @@ enum QuizBuilder {
         return Array(ranked.prefix(count)).shuffled()
     }
 
-    /// Allocates questions to domains in proportion to the published outline weights.
-    static func mockExam(_ exam: Exam, library: ContentLibrary) -> [Question] {
-        let target = exam.totalQuestions ?? exam.scoredQuestions ?? 100
-        let pools = exam.domains.map { library.questions(for: exam.id, domain: $0.id).shuffled() }
-        let totalWeight = exam.domains.map(\.weight).reduce(0, +)
-        var picked: [Question] = []
-        for (domain, pool) in zip(exam.domains, pools) {
-            let share = totalWeight > 0
-                ? Int((Double(target) * domain.weight / totalWeight).rounded())
-                : target / max(1, exam.domains.count)
-            picked += pool.prefix(share)
+    static func mockExam(_ exam: Exam, library: ContentLibrary) -> (questions: [Question], pretestIDs: Set<String>) {
+        let target = exam.scoredQuestions ?? 100
+        let available = library.questions(for: exam.id)
+        let byDomain = Dictionary(grouping: available, by: \.domain)
+        var scored: [Question] = []
+        for domain in exam.domains {
+            let count = Int((Double(target) * domain.weight / 100).rounded())
+            scored += (byDomain[domain.id] ?? []).shuffled().prefix(count)
         }
-        if picked.count < target {
-            let used = Set(picked.map(\.id))
-            let leftovers = pools.joined().filter { !used.contains($0.id) }.shuffled()
-            picked += leftovers.prefix(target - picked.count)
-        }
-        return Array(picked.prefix(target)).shuffled()
+        let used = Set(scored.map(\.id))
+        var remaining = available.filter { !used.contains($0.id) }.shuffled()
+        let shortfall = max(0, target - scored.count)
+        scored += remaining.prefix(shortfall)
+        remaining = Array(remaining.dropFirst(shortfall))
+        let pilots = remaining.prefix(max(0, (exam.totalQuestions ?? target) - target))
+        return ((scored + pilots).shuffled(), Set(pilots.map(\.id)))
     }
 
     /// Prefers questions never answered, then missed ones; the day key keeps the pick stable and spreads picks across the pool.

@@ -44,6 +44,7 @@ struct DiagramCard: View {
         }
         .buttonStyle(.plain)
         .accessibilityLabel("Diagram: \(diagram.title)")
+        .accessibilityValue(showsCaption ? diagram.caption : "")
         .sheet(isPresented: $expanded) { DiagramDetailView(diagram: diagram) }
     }
 }

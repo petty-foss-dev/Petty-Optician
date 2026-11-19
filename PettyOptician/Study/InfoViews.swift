@@ -25,13 +25,7 @@ struct ExamInfoView: View {
 
                     if let outline = info.officialOutline, !outline.isEmpty {
                         SectionTitle(title: "Official Content Outline")
-                        Panel {
-                            VStack(alignment: .leading, spacing: 16) {
-                                ForEach(outline, id: \.self) { domain in
-                                    OutlineRow(domain: domain)
-                                }
-                            }
-                        }
+                        ExamObjectivesList(exam: exam, outline: outline)
                     }
 
                     if let notes = info.notes, !notes.isEmpty {
@@ -90,7 +84,23 @@ struct ExamInfoView: View {
     }
 }
 
+struct ExamObjectivesList: View {
+    let exam: ExamID
+    let outline: [OfficialOutlineDomain]
+
+    var body: some View {
+        Panel {
+            VStack(alignment: .leading, spacing: 16) {
+                ForEach(outline, id: \.self) { domain in
+                    OutlineRow(exam: exam, domain: domain)
+                }
+            }
+        }
+    }
+}
+
 private struct OutlineRow: View {
+    let exam: ExamID
     let domain: OfficialOutlineDomain
     @State private var expanded = false
     @Environment(\.palette) private var palette
@@ -117,10 +127,27 @@ private struct OutlineRow: View {
                 }
             }
             .buttonStyle(.plain)
+            .accessibilityIdentifier("outline.domain.\(domain.name)")
 
             if expanded, let subtopics = domain.subtopics {
-                RichText(text: subtopics.map { "- \($0)" }.joined(separator: "\n"))
-                    .font(.footnote)
+                ForEach(subtopics, id: \.self) { title in
+                    if let topic = OutlineStudy.shared.topic(title, exam: exam) {
+                        NavigationLink {
+                            OutlineTopicView(exam: exam, title: title, topic: topic)
+                        } label: {
+                            HStack(spacing: 12) {
+                                Text(title).font(.subheadline).foregroundStyle(palette.text)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .font(.caption).foregroundStyle(palette.tertiaryText)
+                            }
+                            .frame(minHeight: 44)
+                            .contentShape(.rect)
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityIdentifier("outline.topic.\(title)")
+                    }
+                }
             }
         }
     }

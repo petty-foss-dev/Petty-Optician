@@ -100,6 +100,15 @@ struct Textbook: Sendable {
         return orderedLessons.filter { ids.contains($0.chapterID) }
     }
 
+    func lesson(for ref: LessonRef) -> TextbookLesson? {
+        orderedLessons.first { $0.ref == ref }
+    }
+
+    func lessons(for resource: StudyResource, exam: ExamID?) -> [TextbookLesson] {
+        let candidates = exam.map { lessons(for: $0) } ?? orderedLessons
+        return candidates.filter { $0.section.resourceID == resource.id }
+    }
+
     func lessons(in chapter: TextbookChapter) -> [TextbookLesson] {
         orderedLessons.filter { $0.chapterID == chapter.id }
     }
@@ -124,13 +133,18 @@ final class ReadingProgress: ObservableObject {
     @Published private var opened: [String: String] {
         didSet { defaults.set(opened, forKey: Self.openedKey) }
     }
+    @Published private var completionDates: [String: Date] {
+        didSet { defaults.set(completionDates, forKey: Self.completionDatesKey) }
+    }
     private let defaults: UserDefaults
     private static let completedKey = "pettyoptician.textbook.completed"
+    private static let completionDatesKey = "pettyoptician.textbook.completionDates"
     private static let openedKey = "pettyoptician.textbook.opened"
 
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
         completed = Set(defaults.stringArray(forKey: Self.completedKey) ?? [])
+        completionDates = defaults.dictionary(forKey: Self.completionDatesKey) as? [String: Date] ?? [:]
         opened = defaults.dictionary(forKey: Self.openedKey) as? [String: String] ?? [:]
     }
 
@@ -138,8 +152,23 @@ final class ReadingProgress: ObservableObject {
 
     func open(_ lesson: TextbookLesson, exam: ExamID) { opened[exam.rawValue] = lesson.id }
 
-    func setCompleted(_ lesson: TextbookLesson, _ value: Bool) {
-        if value { completed.insert(lesson.id) } else { completed.remove(lesson.id) }
+    func setCompleted(_ lesson: TextbookLesson, _ value: Bool, on date: Date = .now) {
+        if value {
+            if completed.insert(lesson.id).inserted {
+                completionDates[lesson.id] = date
+            }
+        } else {
+            completed.remove(lesson.id)
+            completionDates.removeValue(forKey: lesson.id)
+        }
+    }
+
+    func readLessons(in lessons: [TextbookLesson], on date: Date = .now) -> [TextbookLesson] {
+        lessons.compactMap { lesson -> (TextbookLesson, Date)? in
+            guard completed.contains(lesson.id), let stamp = completionDates[lesson.id],
+                  Calendar.current.isDate(stamp, inSameDayAs: date) else { return nil }
+            return (lesson, stamp)
+        }.sorted { $0.1 > $1.1 }.map(\.0)
     }
 
     func resume(in lessons: [TextbookLesson], exam: ExamID) -> TextbookLesson? {
@@ -152,6 +181,7 @@ final class ReadingProgress: ObservableObject {
 
     func reset() {
         completed = []
+        completionDates = [:]
         opened = [:]
     }
 }

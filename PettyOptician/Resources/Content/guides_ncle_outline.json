@@ -34,7 +34,7 @@
       },
       {
         "heading": "Cleaning and disinfection methods",
-        "body": "**Cleaning** removes deposits and debris; **disinfection** kills germs. Saline and rewetting drops do neither.\n\n- **Multipurpose solution**: cleans, rinses, disinfects, and stores; the most-used soft lens system. **Rub and rinse** every time, even with no-rub labels (the FDA asked in 2010 for 'no rub' to be removed from labels)\n- **Hydrogen peroxide (3%)**: preservative-free, good for preservative sensitivity. **One-step** uses a case with a built-in neutralizer (platinum disc); **two-step** adds a neutralizing tablet after disinfection and then a saline rinse. Use only the supplied case, wait 4–6 hours as directed, and never rinse lenses with unneutralized peroxide. Most bottles have a red tip and cap\n- Acanthamoeba cysts need 2–3 hours of non-neutralized 3% peroxide, so a catalytic disc that neutralizes immediately is less effective against them\n- **Thermal (heat)**: about 80 °C for 10–30 minutes with non-preserved saline; very effective, but not for silicone hydrogels or FDA Group II and IV, and lenses must be rubbed first or deposits bake on\n- **UV, vibration, ultrasonic devices**: cannot replace rubbing; UV-only disinfection showed strong lab results but still needed safety data\n- **Daily surfactant cleaner**: a few drops in the palm, rub each side about 20 seconds, rinse; never soak lenses in it\n- **Enzymatic (protein) cleaner**: usually weekly\n\n**RGP systems** often use separate cleaning and conditioning (wetting, disinfecting, soaking) solutions. Never use hard-lens products on soft lenses. Conditioning solution soaks for at least 4 hours; discard 90 days after opening. GP multipurpose solutions have mild surfactants, so heavy depositors may need a separate daily cleaner. New GP lenses that will not wet often carry residual manufacturing pitch.",
+        "body": "Cleaning removes deposits and debris. Disinfection reduces harmful germs. A clean-looking lens still needs the entire disinfection cycle prescribed for it.\n\n- **Multipurpose solution.** For a compatible reusable soft lens, rub and rinse as directed and use fresh solution for the full labeled soak. Empty the old solution each time.\n- **Peroxide systems.** Use the supplied neutralizing case and follow that product’s complete sequence. Some systems include a second neutralization step. Unneutralized peroxide can injure the eye. Never put it directly in the eye or rinse a lens with it before insertion.\n- **Daily cleaners, saline and rewetting drops.** A daily cleaner loosens deposits. Sterile saline can rinse when the system calls for it. Rewetting drops help comfort. These products do not replace disinfection.\n- **Rigid gas-permeable lenses.** Some systems use separate cleaning and conditioning products. Check compatibility with the specific lens and follow the labeled soak time and discard date.\n- **Devices.** Heat, UV and mechanical devices have different intended uses. Only use a lens, case and care system together when their instructions support that method. A case labeled for chemical disinfection is unsuitable for a heat cycle.\n\n**Check the routine.** A wearer has misplaced the case from a peroxide kit. The replacement needs to match the product. An ordinary flat case cannot neutralize the solution. The wearer should use glasses until they have the correct supplies.\n\nSource check for disinfection, neutralization and case compatibility · November 19, 2026.",
         "sources": [
           {
             "title": "CDC: About Cleaning, Disinfecting, and Storing Contact Lenses",
@@ -45,34 +45,14 @@
             "url": "https://www.fda.gov/consumers/consumer-updates/contact-lenses-safe-use-hydrogen-peroxide-solution"
           },
           {
-            "title": "Wikipedia: Contact lens",
-            "url": "https://en.wikipedia.org/wiki/Contact_lens"
-          },
-          {
-            "title": "Contact Lens Spectrum: Contact Lens Care (heat disinfection), Feb 2004",
-            "url": "https://clspectrum.com/issues/2004/february/contact-lens-care/"
-          },
-          {
-            "title": "AAO Editors' Choice: UV irradiation shows promise for contact lens disinfection",
-            "url": "https://www.aao.org/editors-choice/uv-irradiation-shows-promise-contact-lens-disinfec"
-          },
-          {
-            "title": "Bausch + Lomb: Boston ADVANCE Comfort Formula Conditioning Solution package insert",
-            "url": "https://www.bausch.ca/wp-content/uploads/2019/12/boston-advanced-package-insert.pdf"
-          },
-          {
-            "title": "Contact Lens Spectrum: Contact Lens Care (GP lens deposits and MPS), Mar 2005",
-            "url": "https://clspectrum.com/issues/2005/march/contact-lens-care/"
-          },
-          {
-            "title": "Contact Lens Spectrum: Contact Lens Care (initial GP nonwetting), Dec 2003",
-            "url": "https://clspectrum.com/issues/2003/december/contact-lens-care/"
+            "title": "FDA · LANDR lens case, labeled for chemical disinfection only",
+            "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252175.pdf"
           }
         ]
       },
       {
         "heading": "CDC and FDA hygiene rules",
-        "body": "- Wash hands with soap and water and dry completely before handling lenses\n- Keep lenses away from **all water**: tap, bottled, distilled, pool, lake, and homemade saline. Remove lenses before showering or swimming; prescription goggles are an option for swimmers\n- If water touches a lens, remove it as soon as possible and discard it or clean and disinfect it overnight\n- Water can make soft lenses swell and stick to the eye; Acanthamoeba in water can cause keratitis that needs a year or more of treatment\n- Never **top off**: mixing fresh with used solution reduces disinfection\n- Case: rub and rinse with solution, dry with a tissue, store upside down with caps off, replace at least every 3 months\n- Never put lenses in the mouth, and never decant solution into another bottle\n- Re-disinfect lenses stored 30 days or longer before wearing (AAO)\n- With irritation, remove lenses, keep them in the case, and bring them to the eye care professional",
+        "body": "Wash your hands and dry them before touching lenses. Take lenses out before showering, swimming or entering a hot tub. Water can carry germs and can make a soft lens swell and stick to the eye.\n\n**Water exposure.** Remove a wet lens as soon as possible. Discard a daily disposable. For a reusable lens, discard it or clean and disinfect it overnight according to its care system before wearing it again.\n\n**Routine case care.** With a multipurpose system, empty the case, rub and rinse it with fresh solution, and dry it with a clean tissue. Store it upside down with caps off. Replace the case at least every three months or as directed. For a peroxide system, use its supplied case and replacement instructions.\n\n**When symptoms appear.** Unusual redness, pain, discharge, light sensitivity or a change in vision calls for immediate lens removal. Keep lenses out and contact the eye care professional right away. Bring the lenses and case for assessment. A painful red eye is a referral decision for the optician.\n\nSource check for water exposure and warning signs · November 19, 2026.",
         "sources": [
           {
             "title": "CDC: Preventing Eye Infections When Wearing Contacts",
@@ -89,10 +69,6 @@
           {
             "title": "FDA: Contact Lens Risks",
             "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks"
-          },
-          {
-            "title": "American Academy of Ophthalmology: How to Take Care of Contact Lenses",
-            "url": "https://www.aao.org/eye-health/glasses-contacts/contact-lens-care"
           }
         ]
       },
@@ -227,7 +203,16 @@
           {
             "title": "Wikipedia: Choroid",
             "url": "https://en.wikipedia.org/wiki/Choroid"
+          },
+          {
+            "title": "National Eye Institute · How the Eyes Work",
+            "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
           }
+        ],
+        "resourceID": "res-vid-124",
+        "resourceReason": "Locate the iris, pupil, crystalline lens and retina as light travels through the eye.",
+        "checkpointIDs": [
+          "lesson-iris"
         ]
       }
     ],
@@ -242,7 +227,7 @@
     "sections": [
       {
         "heading": "Anterior segment OCT, Schirmer, TBUT, and lens-on evaluation",
-        "body": "**Anterior segment OCT** is non-contact cross-sectional imaging. Devices at 1310 nm penetrate the sclera and angle better than 830 nm retinal OCT; ultrasound biomicroscopy is still better for structures behind the iris. For scleral lenses it measures central and limbal clearance without fluorescein, shows settling across the day, and maps epithelial thickness (about 54 ± 5 µm normal). A common limbal clearance target is 100–200 µm.\n\n**Slit lamp estimate of scleral vault**: compare the fluorescein-filled gap in an optic section with corneal thickness; vault is typically 25–100% of corneal thickness (about 150–600 µm).\n\n**Schirmer test**: strip over the lower lid margin for 5 minutes, eyes gently closed. Normal is 10 mm or more; under 5 mm is deficient. Anesthetic restricts the test to basal secretion.\n\n**Tear break-up time**: fluorescein, cobalt blue, broad beam; time from the last blink to the first dry spot. About 10–35 seconds is normal, under 10 seconds suspicious. Wet the strip with preservative-free saline because BAK shortens TBUT; repeated dry spots in one place suggest a local surface problem. Non-invasive break-up time projects rings or a grid instead of using dye.\n\n**Soft lens fit with lenses on**: assess centration, lag, movement on blink in upgaze, and push-up recovery after settling. Reject a lens that still shows poor movement at least 10 minutes after insertion.",
+        "body": "**Anterior segment OCT** is non-contact cross-sectional imaging. Devices at 1310 nm penetrate the sclera and angle better than 830 nm retinal OCT; ultrasound biomicroscopy is still better for structures behind the iris. For scleral lenses it measures central and limbal clearance without fluorescein, shows settling across the day, and maps epithelial thickness (about 54 ± 5 µm normal). A common limbal clearance target is 100–200 µm.\n\n**Slit lamp estimate of scleral vault**: compare the fluorescein-filled gap in an optic section with corneal thickness; vault is typically 25–100% of corneal thickness (about 150–600 µm).\n\n**Schirmer test**: strip over the lower lid margin for 5 minutes, eyes gently closed. Normal is 10 mm or more; under 5 mm is deficient. Anesthetic restricts the test to basal secretion.\n\n**Tear break-up time**: fluorescein, cobalt blue, broad beam; time from the last blink to the first dry spot. About 10–35 seconds is normal, under 10 seconds suspicious. Wet the strip with preservative-free saline because BAK shortens TBUT; repeated dry spots in one place suggest a local surface problem. Non-invasive break-up time projects rings or a grid instead of using dye.\n\n**Soft lens fit with lenses on**: assess centration, lag, movement on blink in upgaze, and push-up recovery after settling. Reject a lens that still shows poor movement at least 10 minutes after insertion.\n\n**Read the cross-section from center to edge.** Trace the back of the scleral lens over the corneal apex. The space between lens and cornea contains fluid. Central clearance is the gap you measure there. Now trace the lens past the limbus to where it rests on the conjunctiva overlying the sclera. This peripheral contact region is the landing zone. Its alignment can differ between meridians even when the central gap looks satisfactory.\n\n**Compare two observations.** A visible reservoir above the cornea answers the central clearance question. A peripheral edge standing away from the surface or pressing into tissue answers a different question about landing. Locate each finding before interpreting it. A satisfactory central measurement alone cannot establish satisfactory peripheral alignment.",
         "sources": [
           {
             "title": "EyeWiki: Anterior Segment Optical Coherence Tomography",
@@ -271,7 +256,17 @@
           {
             "title": "Aston University: Optimum settling time for soft contact lens fit assessment (Contact Lens & Anterior Eye, 2015, author manuscript)",
             "url": "https://publications.aston.ac.uk/id/eprint/27357/1/Initial_fit_soft_contact_lens_prescribing.pdf"
+          },
+          {
+            "title": "GP Lens Institute and Scleral Lens Education Society · Troubleshooting guide",
+            "url": "https://gpli.info/pdf/GPLISLSTSGuide2020.pdf"
           }
+        ],
+        "diagram": "scleral-zones",
+        "resourceID": "res-vid-180",
+        "resourceReason": "Locate the fluid reservoir before tracing the lens toward its landing area.",
+        "checkpointIDs": [
+          "lesson-landing"
         ]
       }
     ],

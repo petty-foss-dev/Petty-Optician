@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct ExamPlanCard: View {
-    let unseen: Int
     let dueCards: Int
     @ObservedObject private var settings = StudySettings.shared
+    @ObservedObject private var reading = ReadingProgress.shared
     @State private var editing = false
     @Environment(\.palette) private var palette
 
@@ -53,10 +53,14 @@ struct ExamPlanCard: View {
 
     private func plan(days: Int) -> String {
         guard days > 0 else { return "Exam day. Skim the formula sheet and get some rest." }
-        let perDay = Int((Double(unseen) / Double(days)).rounded(.up))
-        let mock = days <= 14 ? " Take a full mock exam every few days." : ""
-        if unseen == 0 { return "Every question seen. Review missed questions and \(dueCards) due cards.\(mock)" }
-        return "Aim for \(perDay) new questions a day to see all \(unseen) remaining.\(mock)"
+        let lessons = Textbook.shared.lessons(for: settings.exam)
+        let remaining = lessons.count { !reading.completed.contains($0.id) }
+        guard remaining > 0 else {
+            return "Textbook complete. Review missed questions and \(dueCards) due cards."
+        }
+        let done = reading.readLessons(in: lessons).count
+        let target = (remaining + done + days - 1) / days
+        return "\(done) of \(target) \(target == 1 ? "lesson" : "lessons") read today · \(remaining) left before exam day."
     }
 }
 
@@ -83,7 +87,7 @@ struct StudyPlanSettings: View {
                         DatePicker("Time", selection: $settings.reminderTime, displayedComponents: .hourAndMinute)
                     }
                 } footer: {
-                    Text("A notification each day with your countdown and what's due.")
+                    Text("A daily reminder to read and review.")
                 }
             }
             .navigationTitle("Study Plan")

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lesson-iris",
+    "exam": "ncle",
+    "domain": "ncle.anatomy",
+    "topic": "Light through the eye",
+    "difficulty": 2,
+    "stem": "Which description correctly follows light through the pupil?",
+    "choices": [
+      "The pupil bends light and the iris detects it.",
+      "Light passes through the opening in the iris and then through the crystalline lens.",
+      "Light reaches the retina before reaching the crystalline lens.",
+      "The pupil produces the nerve signal sent to the brain."
+    ],
+    "answer": 1,
+    "explanation": "The pupil is an opening in the iris. The lens behind it helps focus light onto the retina, where it is converted into signals.",
+    "source": {
+      "title": "National Eye Institute · How the Eyes Work",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+    }
+  },
+  {
+    "id": "lesson-base",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Induced prism",
+    "difficulty": 2,
+    "stem": "A wearer looks 3 mm above the optical center of a spherical minus lens. Which way is the prism base at the pupil mark?",
+    "choices": [
+      "Up",
+      "Down",
+      "In",
+      "Out"
+    ],
+    "answer": 0,
+    "explanation": "The minus lens has its base away from the optical center. The pupil mark is above the center, so the base points up. The horizontal directions cannot describe this displacement.",
+    "source": {
+      "title": "OptiCampus · Introduction to Ophthalmic Optics",
+      "url": "https://opticampus.opti.vision/files/introduction_to_ophthalmic_optics.pdf"
+    }
+  },
+  {
+    "id": "lesson-order",
+    "exam": "abo",
+    "domain": "abo.optics",
+    "topic": "Prentice’s rule",
+    "difficulty": 2,
+    "stem": "A −5.00 D spherical spectacle lens has its optical center 4 mm below the pupil. What prism does the wearer experience at the pupil?",
+    "choices": [
+      "20Δ base up",
+      "2Δ base down",
+      "2Δ base up",
+      "0.2Δ base down"
+    ],
+    "answer": 2,
+    "explanation": "Convert 4 mm to 0.4 cm. Multiplying 0.4 by 5 gives 2Δ. The pupil is above the center, and a minus lens has its base away from that center. The result is base up.",
+    "source": {
+      "title": "OptiCampus · Introduction to Ophthalmic Optics",
+      "url": "https://opticampus.opti.vision/files/introduction_to_ophthalmic_optics.pdf"
+    }
+  },
+  {
+    "id": "lesson-teachback",
+    "exam": "ncle",
+    "domain": "ncle.dispensing",
+    "topic": "Care teach-back",
+    "difficulty": 2,
+    "stem": "A new reusable soft lens wearer says they will add fresh multipurpose solution to yesterday’s solution. What should the optician ask the wearer to demonstrate?",
+    "choices": [
+      "Filtering the old solution before adding fresh solution",
+      "Using sterile saline as the overnight disinfectant",
+      "Adding fresh solution until the lens floats",
+      "Discarding used solution and following the labeled cleaning and disinfection steps with fresh solution"
+    ],
+    "answer": 3,
+    "explanation": "Used solution must be discarded. Topping off can reduce disinfection effectiveness. Saline can rinse when indicated but does not disinfect. A repeat demonstration checks understanding.",
+    "source": {
+      "title": "FDA · Contact Lens Solutions and Products",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-solutions-and-products"
+    }
+  },
+  {
+    "id": "lesson-record",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Subjective and objective findings",
+    "difficulty": 2,
+    "stem": "A contact lens wearer reports light sensitivity. At follow-up, the clinician measures reduced right-eye acuity. Which entry belongs under objective findings?",
+    "choices": [
+      "The wearer says sunlight hurts",
+      "The measured change in right-eye acuity",
+      "The wearer reports that the eye feels gritty",
+      "The wearer remembers symptoms beginning this morning"
+    ],
+    "answer": 1,
+    "explanation": "The acuity measurement is an examination finding. Light sensitivity, grittiness and recalled onset are reported by the wearer.",
+    "source": {
+      "title": "FDA · Contact Lens Care",
+      "url": "https://www.fda.gov/media/86014/download"
+    }
+  },
+  {
+    "id": "lesson-refer",
+    "exam": "ncle",
+    "domain": "ncle.followup",
+    "topic": "Urgent follow-up",
+    "difficulty": 2,
+    "stem": "A reusable contact lens wearer reports new eye pain, redness and worsening vision while wearing the lens. Which action is appropriate?",
+    "choices": [
+      "Replace the lens and reassess next week",
+      "Continue wear with more rewetting drops",
+      "Remove the lens and contact an eye care professional immediately",
+      "Reduce the wearing time by one hour each day"
+    ],
+    "answer": 2,
+    "explanation": "These warning signs need prompt professional assessment. Continued wear, a replacement lens or delayed review could postpone necessary care.",
+    "source": {
+      "title": "FDA · Contact Lens Care",
+      "url": "https://www.fda.gov/media/86014/download"
+    }
+  },
+  {
+    "id": "lesson-landing",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Scleral lens OCT",
+    "difficulty": 2,
+    "stem": "An anterior-segment OCT scan shows fluid above the corneal apex and local tissue compression beneath the peripheral scleral lens. Which feature explains the peripheral finding?",
+    "choices": [
+      "Central corneal thickness",
+      "Tear film break-up time",
+      "Lens back vertex power",
+      "Landing-zone alignment"
+    ],
+    "answer": 3,
+    "explanation": "The lens rests on the conjunctiva over the sclera at the landing zone. Central clearance describes the reservoir over the cornea. It cannot rule out peripheral compression.",
+    "source": {
+      "title": "GP Lens Institute and Scleral Lens Education Society · Troubleshooting guide",
+      "url": "https://gpli.info/pdf/GPLISLSTSGuide2020.pdf"
+    }
+  },
+  {
+    "id": "lesson-bevel",
+    "exam": "ncle",
+    "domain": "ncle.instruments",
+    "topic": "Rigid lens verification",
+    "difficulty": 2,
+    "stem": "A rigid lens matches the ordered central back radius. Which inspection specifically evaluates the blend between its back peripheral curves?",
+    "choices": [
+      "Trace a reflected line of white light across the junction under magnification",
+      "Repeat center thickness with a thickness gauge",
+      "Read back vertex power in a lensometer",
+      "Measure overall diameter in a V-groove gauge"
+    ],
+    "answer": 0,
+    "explanation": "The reflected line changes as it crosses curvature transitions. Inspecting that reflex helps reveal an abrupt junction. Thickness, power and diameter measurements describe different properties.",
+    "source": {
+      "title": "Spors and colleagues · Verification and inspection of rigid contact lenses",
+      "url": "https://ocl-online.de/en/verify-and-inspect-rigid-contact-lenses"
+    }
+  }
+]

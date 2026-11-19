@@ -15,8 +15,8 @@ enum StudyReminder {
         }
 
         let content = UNMutableNotificationContent()
-        content.title = "Time to study"
-        content.body = body(for: settings)
+        content.title = "Time for your next lesson"
+        content.body = "Continue your textbook or review a missed question."
         content.sound = .default
 
         var components = DateComponents()
@@ -24,14 +24,5 @@ enum StudyReminder {
         components.minute = settings.reminderMinutes % 60
         let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: true)
         try? await center.add(UNNotificationRequest(identifier: identifier, content: content, trigger: trigger))
-    }
-
-    @MainActor
-    private static func body(for settings: StudySettings) -> String {
-        let exam = settings.exam
-        if let days = settings.daysUntilExam(exam), days > 0 {
-            return "\(days) days until your \(exam.shortLabel) exam. Your Daily 10 and due flashcards are ready."
-        }
-        return "Your Daily 10 and due flashcards are ready."
     }
 }

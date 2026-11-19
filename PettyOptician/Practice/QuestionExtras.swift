@@ -1,7 +1,6 @@
 import SwiftData
 import SwiftUI
 
-/// Everything that follows an explanation once the answer is known: diagram, source, the lesson it tests, and actions.
 struct QuestionExtras: View {
     let question: Question
     @Environment(\.modelContext) private var context
@@ -16,15 +15,13 @@ struct QuestionExtras: View {
         if let source = question.source {
             SourceList(sources: [source])
         }
-        if let lesson = LessonLinks.shared.lesson(for: question),
-           let domain = library.domains(for: question.exam).first(where: { $0.id == lesson.domain }),
-           let section = library.guide(for: lesson.domain)?.sections[lesson.index] {
-            NavigationLink { GuideView(domain: domain, focus: lesson.index) } label: {
+        if let ref = LessonLinks.shared.lesson(for: question), let lesson = Textbook.shared.lesson(for: ref) {
+            NavigationLink { TextbookReaderView(exam: question.exam, lesson: lesson) } label: {
                 HStack(spacing: 10) {
                     Image(systemName: "text.book.closed").foregroundStyle(palette.accent)
                     VStack(alignment: .leading, spacing: 1) {
                         Text("Review the lesson").font(.caption).foregroundStyle(palette.secondaryText)
-                        Text(section.heading).font(.subheadline.weight(.semibold)).foregroundStyle(palette.text)
+                        Text(lesson.section.heading).font(.subheadline.weight(.semibold)).foregroundStyle(palette.text)
                     }
                     .multilineTextAlignment(.leading)
                     Spacer(minLength: 0)
