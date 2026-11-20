@@ -7,6 +7,7 @@ struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var context
     @State private var confirmingReset = false
+    @State private var resetError = false
     private let library = ContentLibrary.shared
 
     var body: some View {
@@ -40,7 +41,7 @@ struct SettingsView: View {
                 Section {
                     Button("Reset All Progress", role: .destructive) { confirmingReset = true }
                 } footer: {
-                    Text("Clears quiz history, flashcard scheduling, cards you made, flags, saved resources and your streak.")
+                    Text("Clears saved mock exams, quiz history, flashcard scheduling, cards you made, flags, saved resources and your streak.")
                 }
 
                 Section {
@@ -64,6 +65,11 @@ struct SettingsView: View {
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) { Button("Done") { dismiss() } }
             }
+            .alert("Couldn’t clear saved mock exams", isPresented: $resetError) {
+                Button("OK") {}
+            } message: {
+                Text("Please try resetting your progress again.")
+            }
             .confirmationDialog("Reset all progress?", isPresented: $confirmingReset, titleVisibility: .visible) {
                 Button("Reset", role: .destructive, action: reset)
             } message: {
@@ -73,6 +79,12 @@ struct SettingsView: View {
     }
 
     private func reset() {
+        do {
+            for exam in ExamID.allCases { try SavedMockExams.shared.remove(exam) }
+        } catch {
+            resetError = true
+            return
+        }
         try? context.delete(model: QuestionStat.self)
         try? context.delete(model: CardReview.self)
         try? context.delete(model: QuizRecord.self)

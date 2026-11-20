@@ -6,6 +6,10 @@ struct PracticeView: View {
     @Query private var stats: [QuestionStat]
     @Query(sort: \QuizRecord.date, order: .reverse) private var records: [QuizRecord]
     @Environment(\.palette) private var palette
+    @Environment(\.modelContext) private var context
+    @State private var mockError: String?
+    @State private var confirmingDiscard = false
+    private let savedMocks = SavedMockExams.shared
     @State private var activeQuiz: QuizSession?
     @State private var domains: Set<String> = []
     @State private var difficulties: Set<Int> = []
@@ -45,6 +49,17 @@ struct PracticeView: View {
             .navigationDestination(for: TopicHit.self) { TopicView(topic: $0) }
         }
         .quizCover($activeQuiz)
+        .alert("Saved mock", isPresented: Binding(get: { mockError != nil }, set: { if !$0 { mockError = nil } })) {
+            Button("OK") { mockError = nil }
+        } message: {
+            Text(mockError ?? "")
+        }
+        .confirmationDialog("Discard the unreadable \(exam.shortLabel) mock?", isPresented: $confirmingDiscard, titleVisibility: .visible) {
+            Button("Discard Saved Mock", role: .destructive) {
+                do { try savedMocks.remove(exam) }
+                catch { mockError = "The saved mock could not be removed. Please try again." }
+            }
+        }
         .onChange(of: settings.exam) { domains = [] }
     }
 
@@ -59,7 +74,24 @@ struct PracticeView: View {
                 QuickAction(title: "Quick 10", subtitle: "Weak spots first", symbol: "bolt.fill") {
                     start("Quick 10", QuizBuilder.weakFirst(exam: exam, count: 10, library: library, history: history))
                 }
-                QuickAction(title: "Mock Exam", subtitle: mockSubtitle, symbol: "timer") { startMock() }
+                if let saved = savedMocks.sessions[exam] {
+                    TimelineView(.periodic(from: .now, by: 1)) { time in
+                        let expired = saved.remainingSeconds(at: time.date) == 0
+                        QuickAction(title: expired ? "View Mock Results" : "Resume Mock",
+                                    subtitle: expired ? "Time expired" : "\(saved.answeredCount)/\(saved.questions.count) answered",
+                                    symbol: expired ? "timer" : "play.fill") {
+                            if saved.remainingSeconds(at: .now) == 0 { saved.finish(in: context) }
+                            activeQuiz = saved
+                        }
+                        .accessibilityIdentifier("practice.resumeMock")
+                    }
+                } else if savedMocks.unreadable.contains(exam) {
+                    QuickAction(title: "Saved Mock Unavailable", subtitle: "Review saved exam", symbol: "exclamationmark.triangle") {
+                        confirmingDiscard = true
+                    }
+                } else {
+                    QuickAction(title: "Mock Exam", subtitle: mockSubtitle, symbol: "timer") { startMock() }
+                }
                 let recheck = QuizBuilder.dueForReview(examQuestions, history: history)
                 QuickAction(title: "Re-check Missed", subtitle: recheck.isEmpty ? "None due today" : "\(recheck.count) due today", symbol: "arrow.clockwise.circle") {
                     start("Re-check Missed", Array(recheck.prefix(30)))
@@ -245,19 +277,20 @@ struct PracticeView: View {
     }
 
     private func startMock() {
-        guard let info = examInfo else { return }
+        guard let info = examInfo, let minutes = info.timeMinutes else { return }
         let mock = QuizBuilder.mockExam(info, library: library)
-        start(
-            "\(info.shortName) Mock Exam",
-            mock.questions,
-            timeLimit: info.timeMinutes.map { $0 * 60 },
-            pretestIDs: mock.pretestIDs
-        )
+        let config = QuizConfig(exam: exam, title: "\(info.shortName) Mock Exam", count: mock.questions.count,
+                                timeLimitSeconds: minutes * 60, pretestIDs: mock.pretestIDs)
+        do {
+            activeQuiz = try savedMocks.begin(config: config, questions: mock.questions, flagged: stats.flaggedIDs)
+        } catch {
+            mockError = "The mock could not be saved on this device. Check available storage and try again."
+        }
     }
 
-    private func start(_ title: String, _ questions: [Question], timeLimit: Int? = nil, pretestIDs: Set<String> = []) {
+    private func start(_ title: String, _ questions: [Question], timeLimit: Int? = nil) {
         guard !questions.isEmpty else { return }
-        let config = QuizConfig(exam: exam, title: title, count: questions.count, timeLimitSeconds: timeLimit, pretestIDs: pretestIDs)
+        let config = QuizConfig(exam: exam, title: title, count: questions.count, timeLimitSeconds: timeLimit)
         activeQuiz = QuizSession(config: config, questions: questions, flagged: stats.flaggedIDs)
     }
 

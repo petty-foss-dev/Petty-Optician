@@ -266,7 +266,24 @@
       },
       {
         "heading": "Tight vs loose soft lenses",
-        "body": "**Tight** lenses show little movement, a conjunctival indentation ring, and redness after hours of wear. They are often comfortable at first. Vision clears just after a blink, then blurs. To loosen, use a flatter base curve or smaller diameter.\n\n**Loose** lenses move too much, decenter, lag, and may flute at the edge. Patients feel the lens. Vision blurs just after a blink, then clears. To tighten, use a steeper base curve or larger diameter."
+        "body": "A soft lens can look centered while the wearer looks straight ahead and still fit poorly. Once the trial lens has settled, follow its lower edge relative to the eye through a blink. Record coverage and the amount of movement you actually observe. Ask the wearer about comfort and fluctuations in vision.\n\n**Use a second observation.** In a practitioner’s push-up assessment the lower lid moves the lens upward. Compare how readily the lens displaces and how it settles when released. Resistance coupled with very little blink movement suggests a tight fit. Easy displacement with excessive movement suggests a loose fit. A lens with suitable mobility displaces smoothly and recenters in a controlled way.\n\n**Explain your finding.** Describe the observed signs before naming the fit. Base-curve labels alone cannot predict how a new soft lens will sit on this eye. Diameter, material and design also matter. Verify a replacement trial on the eye using the product’s fitting guide.",
+        "resourceID": "res-vid-170",
+        "resourceReason": "Compare the lower edge through a blink and during the examiner’s push-up assessment.",
+        "trainerID": "softLensFit",
+        "checkpointIDs": [
+          "lesson-fit-mobility",
+          "lesson-fit-corroborate"
+        ],
+        "sources": [
+          {
+            "title": "Johnson & Johnson Institute · Soft Contact Lens Fitting",
+            "url": "https://assets.contentstack.io/v3/assets/bltc6e7ece114c6734f/bltec0e7e17fbd58e5a/68230a94a66a229f1d16d701/2025PP05123_ECLP-MEA_07_SoftContactLensFitting.pdf"
+          },
+          {
+            "title": "Young · Evaluation of soft contact lens fitting characteristics",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8728492/"
+          }
+        ]
       },
       {
         "heading": "RGP fitting philosophies",

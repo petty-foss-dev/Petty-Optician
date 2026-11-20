@@ -361,7 +361,7 @@ struct SoftLensFitTrainerView: View {
     }
 }
 
-private struct EyeLook {
+struct EyeLook {
     struct Vessel {
         var points: [SIMD2<Double>]
         var width: Double
@@ -404,17 +404,10 @@ private struct SoftLensEye: View {
     let start: Date
     let pushUpStart: Date?
 
-    private static let viewWidth = 22.0
-    private static let viewHeight = 15.0
-    private static let viewCenterY = 1.6
-
     var body: some View {
         TimelineView(.animation) { context in
-            Canvas { ctx, size in
-                draw(&ctx, size: size, scene: scene(at: context.date))
-            }
+            SoftLensFrame(fit: fitCase.fit, look: look, scene: scene(at: context.date))
         }
-        .aspectRatio(Self.viewWidth / Self.viewHeight, contentMode: .fit)
     }
 
     private func scene(at date: Date) -> SoftLensScene {
@@ -423,6 +416,22 @@ private struct SoftLensEye: View {
         return elapsed < fitCase.pushUpDuration
             ? fitCase.scene(at: 0, pushUpElapsed: elapsed)
             : fitCase.scene(at: elapsed - fitCase.pushUpDuration)
+    }
+
+}
+
+struct SoftLensFrame: View {
+    let fit: SoftLensFit
+    let look: EyeLook
+    let scene: SoftLensScene
+
+    private static let viewWidth = 22.0
+    private static let viewHeight = 15.0
+    private static let viewCenterY = 1.6
+
+    var body: some View {
+        Canvas { ctx, size in draw(&ctx, size: size, scene: scene) }
+            .aspectRatio(Self.viewWidth / Self.viewHeight, contentMode: .fit)
     }
 
     private func draw(_ ctx: inout GraphicsContext, size: CGSize, scene: SoftLensScene) {
@@ -474,7 +483,7 @@ private struct SoftLensEye: View {
         let lens = scene.lens
         let lensRadius = SoftLensCase.lensRadius
         ctx.fill(circle(lens.x, lens.y, lensRadius), with: .color(Color(red: 0.6, green: 0.78, blue: 0.95).opacity(0.07)))
-        if fitCase.fit == .tight {
+        if fit == .tight {
             ctx.drawLayer { layer in
                 layer.addFilter(.blur(radius: 0.15 * scale))
                 layer.stroke(circle(lens.x, lens.y, lensRadius + 0.3), with: .color(Color(red: 0.85, green: 0.2, blue: 0.2).opacity(0.3)), lineWidth: 0.5 * scale)
@@ -485,7 +494,7 @@ private struct SoftLensEye: View {
         for i in 0...240 {
             let a = Double(i) / 240 * 2 * .pi
             let lower = (a - 0.1 * .pi) / (0.8 * .pi)
-            let flute = fitCase.fit == .loose && (0...1).contains(lower) ? 0.15 * sin(a * 16) * sin(lower * .pi) : 0
+            let flute = fit == .loose && (0...1).contains(lower) ? 0.15 * sin(a * 16) * sin(lower * .pi) : 0
             let p = pt(lens.x + cos(a) * (lensRadius + flute), lens.y + sin(a) * (lensRadius + flute))
             if i == 0 { edge.move(to: p) } else { edge.addLine(to: p) }
         }

@@ -486,7 +486,24 @@
       },
       {
         "heading": "Pupillary distance",
-        "body": "Distance PD is measured with the patient fixing at distance, using a pupillometer (corneal reflex) or a PD ruler at about 40 cm with the dispenser at eye level, alternately closing one eye.\n\n**Monocular PDs** (bridge center to each pupil) are needed for PALs and asymmetric faces.\n\n**Near PD** = distance PD × WD ÷ (WD + 27 mm), where 27 mm approximates the spectacle plane to the eye's center of rotation. Rule of thumb: 3–4 mm less than distance PD at about 40 cm. Example: 64 × 400 ÷ 427 ≈ 60 mm."
+        "body": "A binocular distance PD measures the separation of the pupils during distance fixation. Monocular measurements record each eye separately from a common bridge reference. Two wearers can have the same total but different right and left measurements.\n\n**From measurement to final check.** Adjust the chosen frame to its wearing position. Measure each eye with distance fixation and record OD and OS separately. For a distance single-vision pair with no prescribed prism, compare the measured pupil positions with the marked optical centers of the finished lenses. A progressive lens uses its manufacturer’s fitting cross for positioning.\n\n**Near work.** Ask where the person actually holds the task. As the eyes converge, the near points of sight pass closer to the nose. An approximate near PD is the distance PD × working distance ÷ (working distance + 27 mm), with both distances in millimeters. At 400 mm, a 64 mm distance PD gives about 60 mm. Record a direct near measurement when the task or design calls for it.",
+        "resourceID": "res-vid-070",
+        "resourceReason": "Watch the fixation and alignment steps for measuring each eye.",
+        "trainerID": "pdMeasure",
+        "checkpointIDs": [
+          "lesson-monocular-order",
+          "lesson-monocular-prism"
+        ],
+        "sources": [
+          {
+            "title": "Community Eye Health Journal · Pupillary distance and the optical centre",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11141121/"
+          },
+          {
+            "title": "OptiCampus · Introduction to Ophthalmic Optics",
+            "url": "https://opticampus.opti.vision/files/introduction_to_ophthalmic_optics.pdf"
+          }
+        ]
       },
       {
         "heading": "Heights and multifocal placement",

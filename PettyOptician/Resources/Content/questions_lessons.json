@@ -158,5 +158,85 @@
       "title": "Spors and colleagues · Verification and inspection of rigid contact lenses",
       "url": "https://ocl-online.de/en/verify-and-inspect-rigid-contact-lenses"
     }
+  },
+  {
+    "id": "lesson-monocular-order",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Monocular PD",
+    "difficulty": 2,
+    "stem": "A distance single-vision wearer has monocular PDs of 29 mm OD and 33 mm OS. The frame is already adjusted and no prism is prescribed. Which marked optical-center placement matches the order?",
+    "choices": [
+      "31 mm OD and 31 mm OS",
+      "33 mm OD and 29 mm OS",
+      "29 mm OD and 33 mm OS",
+      "30 mm OD and 32 mm OS"
+    ],
+    "answer": 2,
+    "explanation": "Each option totals 62 mm. Only 29 mm right and 33 mm left place both centers at the individual pupil positions. Swapping the two numbers puts an error in each lens.",
+    "source": {
+      "title": "Community Eye Health Journal · Pupillary distance and the optical centre",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11141121/"
+    }
+  },
+  {
+    "id": "lesson-monocular-prism",
+    "exam": "abo",
+    "domain": "abo.dispensing",
+    "topic": "Monocular PD and prism",
+    "difficulty": 2,
+    "stem": "A right distance lens of +3.00 D sphere has its optical center 32 mm from the bridge reference. The wearer’s right pupil is 34 mm from that same reference. What horizontal prism is present at the right pupil?",
+    "choices": [
+      "0.6Δ base in",
+      "0.6Δ base out",
+      "6Δ base in",
+      "0Δ because the separation is under 1 cm"
+    ],
+    "answer": 0,
+    "explanation": "The optical center is 2 mm closer to the nose than the right pupil. A plus lens has its base toward the optical center. Convert 2 mm to 0.2 cm, then multiply by 3.00 to find 0.6Δ base in.",
+    "source": {
+      "title": "OptiCampus · Introduction to Ophthalmic Optics",
+      "url": "https://opticampus.opti.vision/files/introduction_to_ophthalmic_optics.pdf"
+    }
+  },
+  {
+    "id": "lesson-fit-mobility",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Soft lens mobility",
+    "difficulty": 2,
+    "stem": "A settled soft trial lens rides low, moves excessively on blinking and displaces easily when the examiner raises the lower lid. Which interpretation best explains those observations?",
+    "choices": [
+      "A tight fit because the lens sits low",
+      "An acceptable fit because the lens moves",
+      "A toric axis error established by movement alone",
+      "A loose fit supported by excessive movement and easy displacement"
+    ],
+    "answer": 3,
+    "explanation": "The blink and push-up observations both show excess mobility. A low resting position adds context. Identify the fitting pattern before evaluating options for a new trial.",
+    "source": {
+      "title": "Johnson & Johnson Institute · Soft Contact Lens Fitting",
+      "url": "https://assets.contentstack.io/v3/assets/bltc6e7ece114c6734f/bltec0e7e17fbd58e5a/68230a94a66a229f1d16d701/2025PP05123_ECLP-MEA_07_SoftContactLensFitting.pdf"
+    }
+  },
+  {
+    "id": "lesson-fit-corroborate",
+    "exam": "ncle",
+    "domain": "ncle.fitting",
+    "topic": "Assessing a tight soft lens",
+    "difficulty": 2,
+    "stem": "A wearer reports good initial comfort with a settled soft trial lens. The lens appears centered and barely moves after a blink. Which additional finding most strongly supports a tight fit?",
+    "choices": [
+      "A single clear acuity reading",
+      "Resistance when the lower lid attempts to displace the lens",
+      "Easy displacement with the lower lid",
+      "The lens is labeled for daily wear"
+    ],
+    "answer": 1,
+    "explanation": "A controlled push-up tests mobility directly. Resistance together with minimal blink movement supports a tight fit. Comfort and acuity are useful but do not establish how the lens moves.",
+    "source": {
+      "title": "Johnson & Johnson Institute · Soft Contact Lens Fitting",
+      "url": "https://assets.contentstack.io/v3/assets/bltc6e7ece114c6734f/bltec0e7e17fbd58e5a/68230a94a66a229f1d16d701/2025PP05123_ECLP-MEA_07_SoftContactLensFitting.pdf"
+    }
   }
 ]

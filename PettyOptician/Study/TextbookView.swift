@@ -321,6 +321,7 @@ struct TextbookChapterView: View {
             .frame(maxWidth: .infinity)
         }
         .pettyScreen()
+        .modifier(LessonGlossary(exam: chapter.exam))
         .navigationTitle("Chapter \(number)")
         .navigationBarTitleDisplayMode(.inline)
     }
@@ -410,10 +411,10 @@ struct ChapterOverview: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            RichText(text: chapter.introduction)
+            RichText(text: chapter.introduction, glossary: GlossaryLinks.byExam[chapter.exam], domain: chapter.domain)
                 .font(.system(.body, design: .serif))
                 .lineSpacing(4)
-            TextbookCallout(title: "What you’ll learn", symbol: "target", items: chapter.objectives)
+            TextbookCallout(title: "What you’ll learn", symbol: "target", items: chapter.objectives, chapter: chapter)
             if let sources = chapter.sources, !sources.isEmpty {
                 SourceList(sources: sources)
             }
@@ -425,6 +426,7 @@ struct TextbookCallout: View {
     let title: String
     let symbol: String
     let items: [String]
+    let chapter: TextbookChapter
     @Environment(\.palette) private var palette
 
     var body: some View {
@@ -433,7 +435,7 @@ struct TextbookCallout: View {
                 .font(.headline)
                 .foregroundStyle(palette.accent)
                 .accessibilityAddTraits(.isHeader)
-            RichText(text: items.map { "- \($0)" }.joined(separator: "\n"))
+            RichText(text: items.map { "- \($0)" }.joined(separator: "\n"), glossary: GlossaryLinks.byExam[chapter.exam], domain: chapter.domain)
                 .font(.subheadline)
         }
         .padding(16)

@@ -133,7 +133,11 @@ struct StatTile: View {
 
 /// Renders guide bodies: blank-line paragraphs, "- " bullets, inline markdown.
 struct RichText: View {
-    let text: String
+    private let blocks: [Block]
+
+    init(text: String, glossary: GlossaryLinks? = nil, domain: String = "") {
+        blocks = Self.parse(text: text, glossary: glossary, domain: domain)
+    }
     @Environment(\.palette) private var palette
 
     var body: some View {
@@ -141,7 +145,7 @@ struct RichText: View {
             ForEach(Array(blocks.enumerated()), id: \.offset) { _, block in
                 switch block {
                 case .paragraph(let line):
-                    Text(Self.markdown(line))
+                    Text(line)
                         .fixedSize(horizontal: false, vertical: true)
                 case .bullets(let items):
                     VStack(alignment: .leading, spacing: 6) {
@@ -149,7 +153,7 @@ struct RichText: View {
                             HStack(alignment: .firstTextBaseline, spacing: 8) {
                                 Circle().fill(palette.accent).frame(width: 5, height: 5)
                                     .alignmentGuide(.firstTextBaseline) { $0[.bottom] + 1 }
-                                Text(Self.markdown(item))
+                                Text(item)
                                     .multilineTextAlignment(.leading)
                                     .frame(maxWidth: .infinity, alignment: .leading)
                                     .fixedSize(horizontal: false, vertical: true)
@@ -164,21 +168,26 @@ struct RichText: View {
     }
 
     private enum Block {
-        case paragraph(String)
-        case bullets([String])
+        case paragraph(AttributedString)
+        case bullets([AttributedString])
     }
 
-    private var blocks: [Block] {
-        text.components(separatedBy: "\n\n").flatMap { chunk -> [Block] in
+    nonisolated private static func parse(text: String, glossary: GlossaryLinks?, domain: String) -> [Block] {
+        var seen = Set<String>()
+        func inline(_ line: String) -> AttributedString {
+            let rendered = markdown(line)
+            return glossary?.linking(rendered, domain: domain, seen: &seen) ?? rendered
+        }
+        return text.components(separatedBy: "\n\n").flatMap { chunk -> [Block] in
             var result: [Block] = []
             var bullets: [String] = []
             var prose: [String] = []
             func flushProse() {
-                if !prose.isEmpty { result.append(.paragraph(prose.joined(separator: " "))) }
+                if !prose.isEmpty { result.append(.paragraph(inline(prose.joined(separator: " ")))) }
                 prose = []
             }
             func flushBullets() {
-                if !bullets.isEmpty { result.append(.bullets(bullets)) }
+                if !bullets.isEmpty { result.append(.bullets(bullets.map(inline))) }
                 bullets = []
             }
             for raw in chunk.components(separatedBy: "\n") {
@@ -197,7 +206,7 @@ struct RichText: View {
         }
     }
 
-    static func markdown(_ string: String) -> AttributedString {
+    nonisolated static func markdown(_ string: String) -> AttributedString {
         (try? AttributedString(
             markdown: string,
             options: .init(interpretedSyntax: .inlineOnlyPreservingWhitespace)

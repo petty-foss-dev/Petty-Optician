@@ -23,11 +23,12 @@ struct QuizView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var context
     @Environment(\.palette) private var palette
-    @State private var confirmingExit = false
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var leavingQuiz = false
     @State private var sheet: QuizSheet?
 
     private enum QuizSheet: String, Identifiable {
-        case navigator, review, calculator
+        case navigator, review, calculator, exit
         var id: String { rawValue }
     }
 
@@ -44,21 +45,68 @@ struct QuizView: View {
             .toolbar { toolbar }
             .navigationBarTitleDisplayMode(.inline)
         }
-        .confirmationDialog("Leave this quiz?", isPresented: $confirmingExit, titleVisibility: .visible) {
-            if session.answeredCount > 0 {
-                Button("End & Save Results") { session.finish(in: context) }
-            }
-            Button("Discard", role: .destructive) { dismiss() }
+        .alert("Couldn’t save changes", isPresented: Binding(get: { session.saveError != nil }, set: { if !$0 { session.saveError = nil } })) {
+            Button("OK") { session.saveError = nil }
         } message: {
-            Text("\(session.answeredCount) of \(session.questions.count) answered.")
+            Text(session.saveError ?? "")
         }
-        .sheet(item: $sheet) { sheet in
+        .onChange(of: scenePhase, initial: true) { _, phase in
+            if phase == .active && session.remainingSeconds(at: .now) == 0 { endTimedExam() }
+        }
+        .sheet(item: $sheet, onDismiss: {
+            if leavingQuiz { dismiss() }
+        }) { sheet in
             switch sheet {
+            case .exit: exitOptions
             case .navigator: navigator
             case .review: submitReview
             case .calculator: ExamCalculatorView().presentationDetents([.medium])
             }
         }
+    }
+
+    private var exitOptions: some View {
+        NavigationStack {
+            List {
+                Section {
+                    if session.isSavedMock {
+                        Button("Save & Leave") {
+                            leavingQuiz = session.persist()
+                            sheet = nil
+                        }
+                        Button("Review & Submit") { sheet = .review }
+                    } else if session.answeredCount > 0 {
+                        Button("End & Save Results") {
+                            sheet = nil
+                            session.finish(in: context)
+                        }
+                    }
+                    Button("Discard", role: .destructive) {
+                        leavingQuiz = session.discard()
+                        sheet = nil
+                    }
+                } header: {
+                    Text("\(session.answeredCount) of \(session.questions.count) answered")
+                } footer: {
+                    if session.isSavedMock {
+                        Text("Your answers and place are saved on this device. The exam clock keeps running while you’re away.")
+                    }
+                }
+            }
+            .navigationTitle(session.isSavedMock ? "Leave mock exam?" : "Leave this quiz?")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) { Button("Keep Working") { sheet = nil } }
+            }
+        }
+        .presentationDetents([.medium])
+    }
+
+    private func endTimedExam() {
+        guard !session.isFinished else { return }
+        sheet = nil
+        leavingQuiz = false
+        session.finish(in: context)
     }
 
     @ToolbarContentBuilder
@@ -67,7 +115,7 @@ struct QuizView: View {
             if session.isFinished {
                 Button("Done") { dismiss() }.fontWeight(.semibold)
             } else {
-                Button { confirmingExit = true } label: { Image(systemName: "xmark") }
+                Button { sheet = .exit } label: { Image(systemName: "xmark") }
                     .accessibilityLabel("Close quiz")
             }
         }
@@ -85,7 +133,7 @@ struct QuizView: View {
                                 .font(.caption.monospacedDigit())
                                 .foregroundStyle(remaining < 300 ? .red : palette.secondaryText)
                                 .onChange(of: remaining) { _, value in
-                                    if value == 0 { session.finish(in: self.context) }
+                                    if value == 0 { endTimedExam() }
                                 }
                         }
                     }
@@ -98,6 +146,7 @@ struct QuizView: View {
                     Image(systemName: session.flagged.contains(session.current.id) ? "flag.fill" : "flag")
                 }
                 .accessibilityLabel("Flag question")
+                .accessibilityValue(session.flagged.contains(session.current.id) ? "Flagged" : "Unflagged")
                 Button { sheet = .calculator } label: { Image(systemName: "plus.forwardslash.minus") }
                     .accessibilityLabel("Calculator")
                 Button { sheet = .navigator } label: { Image(systemName: "square.grid.3x3") }
@@ -288,6 +337,7 @@ struct QuestionCard: View {
             }
 
             Text(question.stem)
+                .accessibilityIdentifier("quiz.stem")
                 .font(.title3.weight(.semibold))
                 .foregroundStyle(palette.text)
                 .fixedSize(horizontal: false, vertical: true)
@@ -302,6 +352,7 @@ struct QuestionCard: View {
                         withAnimation(.snappy) { session.select(choiceIndex) }
                     }
                     .accessibilityIdentifier("choice.\(choiceIndex)")
+                    .accessibilityAddTraits(selection == choiceIndex ? .isSelected : [])
                 }
             }
 

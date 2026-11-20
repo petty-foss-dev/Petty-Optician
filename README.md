@@ -47,10 +47,10 @@ Real screenshots from the iPhone simulator.
 
 ## What's inside
 
-- **A guided textbook:** 14 chapters and 133 lessons across ABO and NCLE, with beginner-first reading order, chapter introductions, learning objectives, recaps, diagrams, notes, and saved reading progress. Library resources link to their chapters. Selected lessons have worked cases, an exact resource, a trainer, and checkpoints that return to the passage. Today tracks completed reading separately from mock readiness.
-- **1,201 practice questions** (686 ABO, 515 NCLE), each with an explanation, tagged by official section and topic. Quizzes can be built by section, difficulty, unseen, missed, or flagged.
+- **A guided textbook:** 14 chapters and 133 lessons across ABO and NCLE, with beginner-first reading order, chapter introductions, learning objectives, recaps, diagrams, notes, and saved reading progress. Library resources link to their chapters. Selected lessons have worked cases, an exact resource, a trainer, and checkpoints that return to the passage. Compare monocular PD measurements on two finished orders, or observe soft lens movement at rest, after a blink and during push-up. Tap a glossary term in a passage to read its definition and return to the same spot. Today tracks completed reading separately from mock readiness.
+- **1,205 practice questions** (688 ABO, 517 NCLE), each with an explanation, tagged by official section and topic. Quizzes can be built by section, difficulty, unseen, missed, or flagged.
 - **74 exam objectives**, each linking to a lesson, a worked example and separate practice.
-- **Timed mock exams:** 125 questions in 120 minutes, with 100 scored questions allocated by the official domain weights and 25 additional unscored items mixed in, no topic hints, an on-screen scientific calculator, and a review screen before you submit.
+- **Timed mock exams:** 125 questions in 120 minutes, with 100 scored questions allocated by the official domain weights and 25 additional unscored items mixed in, no topic hints, an on-screen scientific calculator, and a review screen before you submit. Each track saves its mock locally as you work. Reopening restores your place, answers and flags, and keeps the original deadline.
 - **Hands-on trainers:**
   - ABO: lensometer, frame adjusting, PD and seg height measuring, prism and base direction, lens choice and ANSI Z80.1-2025 job checks
   - NCLE: keratometer, GP fluorescein patterns, soft lens fit with a push-up test, toric rotation (LARS) and lens complications

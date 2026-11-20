@@ -39,6 +39,9 @@ struct TextbookReaderView: View {
                     Rectangle().fill(palette.separator).frame(height: 1).accessibilityHidden(true)
                 }
                 reading(lesson)
+                if let comparison = VisualFitLesson(rawValue: lesson.id) {
+                    VisualFitComparison(lesson: comparison).id(lesson.id)
+                }
                 if lesson.id == chapterLessons.last?.id {
                     if let formulas = library.guide(for: chapter.domain)?.formulas, !formulas.isEmpty {
                         Panel {
@@ -48,7 +51,7 @@ struct TextbookReaderView: View {
                             }
                         }
                     }
-                    TextbookCallout(title: "Chapter \(lesson.chapterNumber) takeaways", symbol: "checklist", items: chapter.takeaways)
+                    TextbookCallout(title: "Chapter \(lesson.chapterNumber) takeaways", symbol: "checklist", items: chapter.takeaways, chapter: chapter)
                 }
                 if let id = lesson.section.resourceID, let resource = library.resources.first(where: { $0.id == id }) {
                     VStack(alignment: .leading, spacing: 8) {
@@ -95,6 +98,7 @@ struct TextbookReaderView: View {
         .onAppear { progress.open(lesson, exam: exam) }
         .onChange(of: currentID) { progress.open(self.lesson, exam: exam) }
         .sensoryFeedback(.success, trigger: markedRead)
+        .modifier(LessonGlossary(exam: exam))
         .quizCover($activeQuiz)
     }
 
@@ -127,7 +131,7 @@ struct TextbookReaderView: View {
 
     @ViewBuilder
     private func reading(_ lesson: TextbookLesson) -> some View {
-        RichText(text: lesson.section.body)
+        RichText(text: lesson.section.body, glossary: GlossaryLinks.byExam[exam], domain: lesson.ref.domain)
             .font(.system(.body, design: .serif))
             .lineSpacing(5)
             .textSelection(.enabled)
